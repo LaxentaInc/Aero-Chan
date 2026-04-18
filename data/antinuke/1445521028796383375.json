@@ -1,0 +1,88 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1445521030029377827",
+        "name": "Textové kanály",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1445521030029377828",
+        "name": "Hlasové kanály",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1445521030029377829",
+        "name": "✩hangout🤙",
+        "type": 0,
+        "position": 0,
+        "parentId": "1445521030029377827"
+      },
+      {
+        "id": "1445521030029377830",
+        "name": "Obecné",
+        "type": 2,
+        "position": 0,
+        "parentId": "1445521030029377828"
+      },
+      {
+        "id": "1445522678302904563",
+        "name": "kecy-kecynegrvkleci💫",
+        "type": 0,
+        "position": 1,
+        "parentId": "1445521030029377827"
+      },
+      {
+        "id": "1445523040308826184",
+        "name": "robloxik🥷",
+        "type": 0,
+        "position": 2,
+        "parentId": "1445521030029377827"
+      },
+      {
+        "id": "1445523572050100417",
+        "name": "role🐦‍⬛🫱",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1466051902902112317",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1467596446638538890"
+      },
+      {
+        "id": "1467596446638538890",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1467596448366596198",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1467596446638538890"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1463931681106034872",
+        "name": "𝐶ℎ𝑟𝑖𝑠𝑡𝑖𝑎𝑛✝︎",
+        "color": 0,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845098
+  }
+}

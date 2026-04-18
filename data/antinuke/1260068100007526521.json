@@ -1,0 +1,78 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1260068100683071538",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1260068100683071540",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1260068100683071541",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1260068100683071538"
+      },
+      {
+        "id": "1260068100683071542",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1260068100683071540"
+      },
+      {
+        "id": "1260493831422476311",
+        "name": "neuviilette",
+        "type": 0,
+        "position": 1,
+        "parentId": "1260068100683071538"
+      },
+      {
+        "id": "1260619041920385045",
+        "name": "suzune",
+        "type": 0,
+        "position": 2,
+        "parentId": "1260068100683071538"
+      },
+      {
+        "id": "1260675511852470383",
+        "name": "suzune-pt-2",
+        "type": 0,
+        "position": 3,
+        "parentId": "1260068100683071538"
+      },
+      {
+        "id": "1260859938452803686",
+        "name": "suzune-pt-3",
+        "type": 0,
+        "position": 4,
+        "parentId": "1260068100683071538"
+      },
+      {
+        "id": "1261236414050467981",
+        "name": "makua-rza",
+        "type": 0,
+        "position": 5,
+        "parentId": "1260068100683071538"
+      },
+      {
+        "id": "1264557376992710746",
+        "name": "furina-evil",
+        "type": 0,
+        "position": 6,
+        "parentId": "1260068100683071538"
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845111
+  }
+}

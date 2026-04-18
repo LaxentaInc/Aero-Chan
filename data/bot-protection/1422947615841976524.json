@@ -1,0 +1,64 @@
+{
+  "buttons": {
+    "restore_perms_330416853971107840": {
+      "type": "restore_perms",
+      "targetId": "330416853971107840",
+      "memberId": "330416853971107840",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Welcomer",
+            "id": "1462817469814280349",
+            "permissions": [
+              "CreateInstantInvite",
+              "KickMembers",
+              "BanMembers",
+              "ManageChannels",
+              "ManageGuild",
+              "AddReactions",
+              "ViewChannel",
+              "SendMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "MentionEveryone",
+              "UseExternalEmojis",
+              "ChangeNickname",
+              "ManageNicknames",
+              "ManageRoles",
+              "ManageWebhooks",
+              "ManageEmojisAndStickers",
+              "ManageGuildExpressions",
+              "UseApplicationCommands",
+              "ManageThreads",
+              "UseExternalStickers",
+              "SendMessagesInThreads",
+              "ModerateMembers"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1422947615841976524",
+      "relatedMessages": [
+        {
+          "channelId": "1107174309220327514",
+          "messageId": "1462817483059626064"
+        },
+        {
+          "channelId": "1462797325498974292",
+          "messageId": "1462817485534269780"
+        }
+      ],
+      "expiresAt": 1768919665934,
+      "createdAt": 1768833265934,
+      "module": "bot-protection"
+    }
+  }
+}

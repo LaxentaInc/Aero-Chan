@@ -1,0 +1,948 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1457697346942144601",
+        "name": "『🤖』bot-commands",
+        "type": 0,
+        "position": 2,
+        "parentId": "1458043295325356073"
+      },
+      {
+        "id": "1457697346942144599",
+        "name": "『😂』memes",
+        "type": 0,
+        "position": 2,
+        "parentId": "1457697346942144596"
+      },
+      {
+        "id": "1457697347281879185",
+        "name": "💫 Gaming 💫",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1461729701159763968",
+        "name": "『ℹ️』bank-information",
+        "type": 0,
+        "position": 0,
+        "parentId": "1461728790928425022"
+      },
+      {
+        "id": "1461747619985494183",
+        "name": "『💸』get-loan",
+        "type": 0,
+        "position": 4,
+        "parentId": "1461728790928425022"
+      },
+      {
+        "id": "1462013331727716496",
+        "name": "『🥹』spamming-here",
+        "type": 0,
+        "position": 7,
+        "parentId": "1457697346942144596"
+      },
+      {
+        "id": "1457697347554246683",
+        "name": "『📕』incident-reports-and-solution",
+        "type": 0,
+        "position": 4,
+        "parentId": "1457697347554246682"
+      },
+      {
+        "id": "1457697346530967558",
+        "name": "『👤』get-a-role",
+        "type": 0,
+        "position": 5,
+        "parentId": "1457697346530967552"
+      },
+      {
+        "id": "1458043295325356073",
+        "name": "💫 Fun 💫",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1457698852055416932",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1457697346942144594",
+        "name": "『👑』vip-chat",
+        "type": 0,
+        "position": 3,
+        "parentId": "1457697346530967559"
+      },
+      {
+        "id": "1457697346942144595",
+        "name": "『💍』 vip-only-vc",
+        "type": 2,
+        "position": 0,
+        "parentId": "1457697346530967559"
+      },
+      {
+        "id": "1457697347281879183",
+        "name": "『💡』suggestions",
+        "type": 0,
+        "position": 3,
+        "parentId": "1458043295325356073"
+      },
+      {
+        "id": "1458012342058225786",
+        "name": "『🧾』evidence-storage",
+        "type": 0,
+        "position": 6,
+        "parentId": "1457697347554246682"
+      },
+      {
+        "id": "1457707566514573438",
+        "name": "『✅』verify-here",
+        "type": 0,
+        "position": 0,
+        "parentId": "1457702548365377673"
+      },
+      {
+        "id": "1457697347554246685",
+        "name": "『🖨』auto-mod-logs",
+        "type": 0,
+        "position": 2,
+        "parentId": "1457697347554246682"
+      },
+      {
+        "id": "1457697346530967555",
+        "name": "『🎉』giveaways",
+        "type": 0,
+        "position": 2,
+        "parentId": "1457697346530967552"
+      },
+      {
+        "id": "1458014204211494913",
+        "name": "『🤖』staff-bot-commands",
+        "type": 0,
+        "position": 8,
+        "parentId": "1457697347554246682"
+      },
+      {
+        "id": "1457697347554246676",
+        "name": "💫 Voice Channels 💫",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1457697347885731996",
+        "name": "『🔨』mod-logs",
+        "type": 0,
+        "position": 5,
+        "parentId": "1457697347554246682"
+      },
+      {
+        "id": "1457697346942144602",
+        "name": "『🔢』counting",
+        "type": 0,
+        "position": 1,
+        "parentId": "1458043295325356073"
+      },
+      {
+        "id": "1457697346530967561",
+        "name": "『🚀』boosts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1457697346530967559"
+      },
+      {
+        "id": "1457697346942144598",
+        "name": "『👋』joins",
+        "type": 0,
+        "position": 1,
+        "parentId": "1457697346942144596"
+      },
+      {
+        "id": "1457697347554246679",
+        "name": "『🦥』lounge²",
+        "type": 2,
+        "position": 1,
+        "parentId": "1457697347554246676"
+      },
+      {
+        "id": "1457697347554246680",
+        "name": "『🎵』music¹",
+        "type": 2,
+        "position": 2,
+        "parentId": "1457697347554246676"
+      },
+      {
+        "id": "1457697346530967559",
+        "name": "💫 supporters 💫",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1457697348712136705",
+        "name": "『📞』staff call",
+        "type": 2,
+        "position": 0,
+        "parentId": "1457697347554246682"
+      },
+      {
+        "id": "1457697346530967554",
+        "name": "『📣』announcements",
+        "type": 5,
+        "position": 1,
+        "parentId": "1457697346530967552"
+      },
+      {
+        "id": "1461735528507637791",
+        "name": "『🏦』bank-account",
+        "type": 0,
+        "position": 1,
+        "parentId": "1461728790928425022"
+      },
+      {
+        "id": "1457697346942144600",
+        "name": "『🎨』art",
+        "type": 0,
+        "position": 0,
+        "parentId": "1458043295325356073"
+      },
+      {
+        "id": "1457697346530967553",
+        "name": "『📜』rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1457697346530967552"
+      },
+      {
+        "id": "1458012548245754029",
+        "name": "『📞』staff call 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1457697347554246682"
+      },
+      {
+        "id": "1457697347554246682",
+        "name": "💫 Staff Only 💫",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1460171725416173700",
+        "name": "『🤖』bump",
+        "type": 0,
+        "position": 5,
+        "parentId": "1457697346942144596"
+      },
+      {
+        "id": "1457697346530967557",
+        "name": "『🤝』partnerships",
+        "type": 0,
+        "position": 4,
+        "parentId": "1457697346530967552"
+      },
+      {
+        "id": "1457697346530967556",
+        "name": "『🎪』events",
+        "type": 0,
+        "position": 3,
+        "parentId": "1457697346530967552"
+      },
+      {
+        "id": "1457697347554246677",
+        "name": "『🎙』no-mic",
+        "type": 0,
+        "position": 0,
+        "parentId": "1457697347554246676"
+      },
+      {
+        "id": "1461962840373202994",
+        "name": "『🎰』gamble-away",
+        "type": 0,
+        "position": 6,
+        "parentId": "1461728790928425022"
+      },
+      {
+        "id": "1457697347885731998",
+        "name": "『📝』user-transcripts",
+        "type": 0,
+        "position": 3,
+        "parentId": "1457697347554246682"
+      },
+      {
+        "id": "1461741296258514944",
+        "name": "『💳』payments",
+        "type": 0,
+        "position": 2,
+        "parentId": "1461728790928425022"
+      },
+      {
+        "id": "1457697346530967560",
+        "name": "『✨』access",
+        "type": 0,
+        "position": 0,
+        "parentId": "1457697346530967559"
+      },
+      {
+        "id": "1457697346942144597",
+        "name": "『💬』general-chatting",
+        "type": 0,
+        "position": 0,
+        "parentId": "1457697346942144596"
+      },
+      {
+        "id": "1457697347554246684",
+        "name": "『📢』staff-announcements",
+        "type": 5,
+        "position": 1,
+        "parentId": "1457697347554246682"
+      },
+      {
+        "id": "1457745112389124190",
+        "name": "『🤝』partnership-rules-requirements",
+        "type": 0,
+        "position": 6,
+        "parentId": "1457697346530967552"
+      },
+      {
+        "id": "1462001142098825369",
+        "name": "『👋』your-introduction",
+        "type": 0,
+        "position": 6,
+        "parentId": "1457697346942144596"
+      },
+      {
+        "id": "1461756807356748023",
+        "name": "『🧾』receipts",
+        "type": 0,
+        "position": 5,
+        "parentId": "1461728790928425022"
+      },
+      {
+        "id": "1457697348712136704",
+        "name": "『🎖』staff-chat",
+        "type": 0,
+        "position": 7,
+        "parentId": "1457697347554246682"
+      },
+      {
+        "id": "1457702548365377673",
+        "name": "💫 Verification 💫",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1461745710155174095",
+        "name": "『🏧』make-payments",
+        "type": 0,
+        "position": 3,
+        "parentId": "1461728790928425022"
+      },
+      {
+        "id": "1457784811635867709",
+        "name": "『🎫』create-a-ticket",
+        "type": 0,
+        "position": 0,
+        "parentId": "1457784519619907748"
+      },
+      {
+        "id": "1461278912741904394",
+        "name": "『🎉』giveaways-proof",
+        "type": 0,
+        "position": 7,
+        "parentId": "1457697346530967552"
+      },
+      {
+        "id": "1457697346942144596",
+        "name": "💫 Main Channels 💫",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1457697347554246678",
+        "name": "『🦥』lounge¹",
+        "type": 2,
+        "position": 0,
+        "parentId": "1457697347554246676"
+      },
+      {
+        "id": "1457697346530967552",
+        "name": "💫 Important 💫",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1457697346942144593",
+        "name": "『💎』perks",
+        "type": 0,
+        "position": 2,
+        "parentId": "1457697346530967559"
+      },
+      {
+        "id": "1457697347885731997",
+        "name": "『📜』staff-guide-and-rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1457697347554246682"
+      },
+      {
+        "id": "1457784519619907748",
+        "name": "💫 Tickets 💫",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1461728790928425022",
+        "name": "💫 Bank 💫",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1458015705550291049",
+        "name": "『🔆』level-ups",
+        "type": 0,
+        "position": 3,
+        "parentId": "1457697346942144596"
+      },
+      {
+        "id": "1457697347281879184",
+        "name": "『🪧』self-promote",
+        "type": 0,
+        "position": 4,
+        "parentId": "1457697346942144596"
+      },
+      {
+        "id": "1457977619130744987",
+        "name": "Hi",
+        "type": 11,
+        "parentId": "1457697346530967553"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1457697345683591225",
+        "name": "『🟢』 Europe",
+        "color": 2067276,
+        "permissions": "6546640449",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459134958525354097",
+        "name": "『👮🏼』Head-Moderator",
+        "color": 14847,
+        "permissions": "1721825813196743",
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345721471082",
+        "name": "『🔇』Muted",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345721471081",
+        "name": "『🔨』Moderator",
+        "color": 10038562,
+        "permissions": "7754608327",
+        "position": 53,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345671270522",
+        "name": "┈┈┈ Pronoun Roles ┈┈┈",
+        "color": 3092790,
+        "permissions": "6546640449",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345721471085",
+        "name": "┈┈┈ Member Roles ┈┈┈",
+        "color": 3092790,
+        "permissions": "6546640449",
+        "position": 59,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345696301209",
+        "name": "『⚙️』Staff",
+        "color": 15158332,
+        "permissions": "7620382401",
+        "position": 48,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345683591231",
+        "name": "『🌱』Chat Revival Ping",
+        "color": 9936031,
+        "permissions": "6546640449",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345721471084",
+        "name": "『👑』Owner",
+        "color": 3066993,
+        "permissions": "6546640713",
+        "position": 58,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1457703646061002876",
+        "name": "『👮‍♂️』Trial Moderator",
+        "color": 16777215,
+        "permissions": "1721704480370627",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345738375200",
+        "name": "『 🟢 』 Green",
+        "color": 38738,
+        "permissions": "6546640449",
+        "position": 63,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345683591228",
+        "name": "『🔴』 Africa",
+        "color": 10038562,
+        "permissions": "6546640449",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345721471080",
+        "name": "『🤝』Partner Manager",
+        "color": 15844367,
+        "permissions": "6546640449",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345721471086",
+        "name": "┈┈┈┈┈┈┈┈┈┈┈┈",
+        "color": 9936031,
+        "permissions": "6546640449",
+        "position": 60,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460600264103956576",
+        "name": "『 🤴 』Co-Owner",
+        "color": 1456979,
+        "permissions": "0",
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345696301204",
+        "name": "『💬』Active",
+        "color": 2123412,
+        "permissions": "6546640449",
+        "position": 42,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345671270523",
+        "name": "『🟣』 South America",
+        "color": 7419530,
+        "permissions": "6546640449",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345738375202",
+        "name": "『 🟠 』 Orange",
+        "color": 16755200,
+        "permissions": "6546640449",
+        "position": 65,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345696301201",
+        "name": "『🎪』Event Ping",
+        "color": 9936031,
+        "permissions": "6546640449",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345671270518",
+        "name": "┈┈┈ Age Roles ┈┈┈",
+        "color": 3092790,
+        "permissions": "6546640449",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345671270517",
+        "name": "『🧒』 13-14",
+        "color": 9936031,
+        "permissions": "6546640449",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345683591229",
+        "name": "┈┈┈ Continent Roles ┈┈┈",
+        "color": 3092790,
+        "permissions": "6546640449",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345683591226",
+        "name": "『🟡』 Australia",
+        "color": 15844367,
+        "permissions": "6546640449",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345671270514",
+        "name": "┈┈┈ Level Roles ┈┈┈",
+        "color": 3092790,
+        "permissions": "6546640449",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345683591227",
+        "name": "『🟠』 Asia",
+        "color": 15105570,
+        "permissions": "6546640449",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345683591224",
+        "name": "『🔵』 North America",
+        "color": 2123412,
+        "permissions": "6546640449",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345671270521",
+        "name": "『♂️』 he/him",
+        "color": 3447003,
+        "permissions": "6546640449",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345683591232",
+        "name": "『🎉』Giveaway Ping",
+        "color": 9936031,
+        "permissions": "6546640449",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345364820040",
+        "name": "『💳』 Platinum (Level 25)",
+        "color": 15066338,
+        "permissions": "6546640449",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345364820037",
+        "name": "『🥉』 Bronze (Level 5)",
+        "color": 11951923,
+        "permissions": "6546640449",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345696301207",
+        "name": "『🎬』Youtuber",
+        "color": 16711680,
+        "permissions": "6546640449",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457698238252580988",
+        "name": "Verified",
+        "color": 58465,
+        "permissions": "1720707884371521",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345671270515",
+        "name": "『🔞』 18+",
+        "color": 9936031,
+        "permissions": "6546640449",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345738375203",
+        "name": "『 🔴 』 Red",
+        "color": 16711680,
+        "permissions": "6546640449",
+        "position": 66,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345683591233",
+        "name": "『🎬』YouTuber Video Ping",
+        "color": 9936031,
+        "permissions": "6546640449",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345696301205",
+        "name": "『🤖』Bot",
+        "color": 3447003,
+        "permissions": "6546640449",
+        "position": 44,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345721471087",
+        "name": "『 🟣 』 Purple",
+        "color": 10420479,
+        "permissions": "6546640449",
+        "position": 61,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459136105604579470",
+        "name": "『👮🏼』Manager",
+        "color": 16725178,
+        "permissions": "0",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345364820041",
+        "name": "『💎』 Diamond (Level 35)",
+        "color": 7393780,
+        "permissions": "6546640449",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345364820038",
+        "name": "『🥈』 Silver (Level 10)",
+        "color": 12632256,
+        "permissions": "6546640449",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457707539469697157",
+        "name": "Unverified",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345696301200",
+        "name": "『📺』Discord & Twitch Stream Ping",
+        "color": 9936031,
+        "permissions": "6546640449",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345364820042",
+        "name": "『🌌』 Galactic (Level 50)",
+        "color": 3681776,
+        "permissions": "6546640449",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345721471083",
+        "name": "『🎖』Administrator",
+        "color": 1146986,
+        "permissions": "6546640457",
+        "position": 56,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345696301202",
+        "name": "┈┈┈ Ping Roles ┈┈┈",
+        "color": 3092790,
+        "permissions": "6546640449",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345683591230",
+        "name": "┈┈┈ Bot Roles ┈┈┈",
+        "color": 3092790,
+        "permissions": "6546640449",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345671270516",
+        "name": "『🧑』 15-17",
+        "color": 9936031,
+        "permissions": "6546640449",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460599896947036212",
+        "name": "『 🤝 』 Close To owner",
+        "color": 15844367,
+        "permissions": "1720707884371521",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345696301203",
+        "name": "『👤』Member",
+        "color": 9936031,
+        "permissions": "6546640449",
+        "position": 41,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345671270519",
+        "name": "『🌈』 they/them",
+        "color": 15844367,
+        "permissions": "6546640449",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345696301206",
+        "name": "『📺』Twitch Streamer",
+        "color": 7419530,
+        "permissions": "6546640449",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345696301208",
+        "name": "『💖』Server Booster",
+        "color": 16023551,
+        "permissions": "6546640449",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345671270520",
+        "name": "『♀️』 she/her",
+        "color": 10181046,
+        "permissions": "6546640449",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345721471079",
+        "name": "『🎁』Giveaway Manager",
+        "color": 12745742,
+        "permissions": "6546640449",
+        "position": 49,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345721471088",
+        "name": "『 🔵 』 Blue",
+        "color": 16639,
+        "permissions": "6546640449",
+        "position": 62,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345364820039",
+        "name": "『🥇』 Gold (Level 15)",
+        "color": 16766720,
+        "permissions": "6546640449",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457697345738375201",
+        "name": "『 🟡 』 Yellow",
+        "color": 16773120,
+        "permissions": "6546640449",
+        "position": 64,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1768714688734
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1460104155845890088",
+        "name": "Canais de Texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1460104155845890089",
+        "name": "Canais de Voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1460104155845890090",
+        "name": "💭chat-geral",
+        "type": 0,
+        "position": 0,
+        "parentId": "1460104155845890088"
+      },
+      {
+        "id": "1460104155845890091",
+        "name": "Geral",
+        "type": 2,
+        "position": 0,
+        "parentId": "1460104155845890089"
+      },
+      {
+        "id": "1460106363752550582",
+        "name": "jogos🎮",
+        "type": 15,
+        "position": 1,
+        "parentId": "1460104155845890088"
+      },
+      {
+        "id": "1460106678086402099",
+        "name": "music🎵",
+        "type": 2,
+        "position": 1,
+        "parentId": "1460104155845890089"
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845078
+  }
+}

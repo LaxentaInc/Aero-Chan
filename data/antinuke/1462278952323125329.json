@@ -1,0 +1,64 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1462278952323125330",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1462278952323125331",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1462278952763785236",
+        "name": "pokemon",
+        "type": 0,
+        "position": 0,
+        "parentId": "1462278952323125330"
+      },
+      {
+        "id": "1462278952763785237",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1462278952323125331"
+      },
+      {
+        "id": "1464165055938564319",
+        "name": "anything",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1464166547001053298",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1464166687099060277",
+        "name": "song",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1464166810529038420",
+        "name": "song",
+        "type": 0,
+        "position": 0,
+        "parentId": "1464166687099060277"
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845116
+  }
+}

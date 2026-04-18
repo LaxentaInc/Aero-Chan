@@ -1,0 +1,437 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1347199382352695317",
+        "name": "📪・staff-news",
+        "type": 0,
+        "position": 0,
+        "parentId": "1347199352409690164"
+      },
+      {
+        "id": "1347199379370676327",
+        "name": "📁・bug-reports",
+        "type": 0,
+        "position": 3,
+        "parentId": "1347199350224191532"
+      },
+      {
+        "id": "1347199347514933380",
+        "name": "DELETE THIS",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1347199354124898314",
+        "name": "🔧 | ==== Bot Logs ==== | 🔧",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1347199350224191532",
+        "name": "🎯 | ====== Main ====== | 🎯",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1347199373641121846",
+        "name": "💬・general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1347199350224191532"
+      },
+      {
+        "id": "1347199366930104370",
+        "name": "📡・bot-status",
+        "type": 0,
+        "position": 3,
+        "parentId": "1347199348664172578"
+      },
+      {
+        "id": "1347199369115340822",
+        "name": "🔊・General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1347199351289548833"
+      },
+      {
+        "id": "1347199387285192795",
+        "name": "📥・discord-updates",
+        "type": 0,
+        "position": 4,
+        "parentId": "1347199352409690164"
+      },
+      {
+        "id": "1347199368096251985",
+        "name": "Visit marvo.gg",
+        "type": 2,
+        "position": 3,
+        "parentId": "1347199347514933380"
+      },
+      {
+        "id": "1347199377164468224",
+        "name": "💤・AFK",
+        "type": 2,
+        "position": 3,
+        "parentId": "1347199351289548833"
+      },
+      {
+        "id": "1347199384772939868",
+        "name": "🔐・staff-commands",
+        "type": 0,
+        "position": 2,
+        "parentId": "1347199352409690164"
+      },
+      {
+        "id": "1347199356700201112",
+        "name": "📑・information",
+        "type": 0,
+        "position": 0,
+        "parentId": "1347199348664172578"
+      },
+      {
+        "id": "1347199364350738463",
+        "name": "Read #information topic",
+        "type": 2,
+        "position": 2,
+        "parentId": "1347199347514933380"
+      },
+      {
+        "id": "1348246085264740382",
+        "name": "modmail-log",
+        "type": 0,
+        "position": 0,
+        "parentId": "1348246083142287404"
+      },
+      {
+        "id": "1347199374714998916",
+        "name": "🔐・Private",
+        "type": 2,
+        "position": 2,
+        "parentId": "1347199351289548833"
+      },
+      {
+        "id": "1347199371485253633",
+        "name": "👋・joins-leaves",
+        "type": 0,
+        "position": 5,
+        "parentId": "1347199348664172578"
+      },
+      {
+        "id": "1347199385976442920",
+        "name": "📧・community-news",
+        "type": 0,
+        "position": 3,
+        "parentId": "1347199352409690164"
+      },
+      {
+        "id": "1347199391731023913",
+        "name": "📤・guild-leave",
+        "type": 0,
+        "position": 1,
+        "parentId": "1347199354124898314"
+      },
+      {
+        "id": "1347199352409690164",
+        "name": "🎯 | ====== Staff ====== | 🎯",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1347199363192983677",
+        "name": "🔔・announcements",
+        "type": 0,
+        "position": 1,
+        "parentId": "1347199348664172578"
+      },
+      {
+        "id": "1347199387914207234",
+        "name": "📛・moderation-logs",
+        "type": 0,
+        "position": 5,
+        "parentId": "1347199352409690164"
+      },
+      {
+        "id": "1347199372726894632",
+        "name": "🎵・Music",
+        "type": 2,
+        "position": 1,
+        "parentId": "1347199351289548833"
+      },
+      {
+        "id": "1347199348664172578",
+        "name": "💳 | ==== Important ==== | 💳",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1347199389541863496",
+        "name": "🔎・utility-logs",
+        "type": 0,
+        "position": 6,
+        "parentId": "1347199352409690164"
+      },
+      {
+        "id": "1347199351289548833",
+        "name": "🔊 | ====== Voice ====== | 🔊",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1347199390640504964",
+        "name": "📥・guild-join",
+        "type": 0,
+        "position": 0,
+        "parentId": "1347199354124898314"
+      },
+      {
+        "id": "1347199376082210889",
+        "name": "🎫・support",
+        "type": 0,
+        "position": 1,
+        "parentId": "1347199350224191532"
+      },
+      {
+        "id": "1347199365759893534",
+        "name": "📜・changelog",
+        "type": 0,
+        "position": 2,
+        "parentId": "1347199348664172578"
+      },
+      {
+        "id": "1347199355433783368",
+        "name": "Made by @Visuaal",
+        "type": 2,
+        "position": 0,
+        "parentId": "1347199347514933380"
+      },
+      {
+        "id": "1347199383644405833",
+        "name": "🎓・staff-chat",
+        "type": 0,
+        "position": 1,
+        "parentId": "1347199352409690164"
+      },
+      {
+        "id": "1347199395673935922",
+        "name": "👥・invites",
+        "type": 0,
+        "position": 7,
+        "parentId": "1347199352409690164"
+      },
+      {
+        "id": "1347199393178320962",
+        "name": "📛・bot-errors",
+        "type": 0,
+        "position": 2,
+        "parentId": "1347199354124898314"
+      },
+      {
+        "id": "1347199370763964437",
+        "name": "🔗・github-feeds",
+        "type": 0,
+        "position": 4,
+        "parentId": "1347199348664172578"
+      },
+      {
+        "id": "1347199380951666709",
+        "name": "🤖・commands",
+        "type": 0,
+        "position": 4,
+        "parentId": "1347199350224191532"
+      },
+      {
+        "id": "1347199357731995658",
+        "name": "Twitter: @Visuaaal",
+        "type": 2,
+        "position": 1,
+        "parentId": "1347199347514933380"
+      },
+      {
+        "id": "1348246083142287404",
+        "name": "ModMail",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1347199378661703772",
+        "name": "📚・suggestions",
+        "type": 0,
+        "position": 2,
+        "parentId": "1347199350224191532"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1325473331142721597",
+        "name": "powers",
+        "color": 0,
+        "permissions": "1048",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1325534604026970245",
+        "name": "UI/UX",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1325534638571130890",
+        "name": "Backend",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 20,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1325534681734578186",
+        "name": "System Admin",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 22,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1325618781724348457",
+        "name": "CEO",
+        "color": 11342935,
+        "permissions": "8",
+        "position": 24,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1328110826954948638",
+        "name": "Community Manager",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1347199306838442077",
+        "name": "Developers",
+        "color": 3447003,
+        "permissions": "6546640457",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1347199307597479997",
+        "name": "Administrators",
+        "color": 3066993,
+        "permissions": "6546640457",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1347199308977541233",
+        "name": "Moderators",
+        "color": 14676313,
+        "permissions": "6546640449",
+        "position": 11,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1347199309682311321",
+        "name": "Support",
+        "color": 15844367,
+        "permissions": "6546640449",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1347199311342997628",
+        "name": "━━━━━━━━",
+        "color": 0,
+        "permissions": "6546640449",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1347199311850635276",
+        "name": "Patreons",
+        "color": 15277667,
+        "permissions": "6546640449",
+        "position": 8,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1347199313083633707",
+        "name": "Partners",
+        "color": 10181046,
+        "permissions": "6546640449",
+        "position": 7,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1347199314195255406",
+        "name": "━━━━━━━━",
+        "color": 0,
+        "permissions": "6546640449",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1347199315210272851",
+        "name": "Voter",
+        "color": 6405375,
+        "permissions": "6546640449",
+        "position": 5,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1347199316141543525",
+        "name": "Members",
+        "color": 1752220,
+        "permissions": "6546640449",
+        "position": 4,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1347199317387251804",
+        "name": "Bots",
+        "color": 16770790,
+        "permissions": "6546640457",
+        "position": 3,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1347199318578298880",
+        "name": "━━━━━━━━",
+        "color": 0,
+        "permissions": "6546640449",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845141
+  }
+}

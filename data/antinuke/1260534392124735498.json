@@ -1,0 +1,93 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1460271325187674299",
+        "name": "e",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1460271327918428313",
+        "name": "eweewew",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1460271330384674836",
+        "name": "ewewewewewe",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1267719680341184523",
+        "name": "Muted",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 9,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1326927216130396161",
+        "name": "Russian tank",
+        "color": 15844367,
+        "permissions": "1720158128688713",
+        "position": 11,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1327646540071964722",
+        "name": "no touching navia nigga",
+        "color": 0,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1400083363947221034",
+        "name": "🌿 New Member",
+        "color": 16711680,
+        "permissions": "8",
+        "position": 5,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1400084098890076262",
+        "name": "🌿 New Member",
+        "color": 1752220,
+        "permissions": "8",
+        "position": 4,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1423296822541291672",
+        "name": "TEST",
+        "color": 0,
+        "permissions": "8",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460167420638531672",
+        "name": "AERO",
+        "color": 0,
+        "permissions": "8",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845155
+  }
+}

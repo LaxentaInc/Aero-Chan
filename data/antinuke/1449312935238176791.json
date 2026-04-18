@@ -1,0 +1,453 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1449324050299093105",
+        "name": "💡suggestions",
+        "type": 15,
+        "position": 1,
+        "parentId": "1449323389734092890"
+      },
+      {
+        "id": "1462845824093388841",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1468154876222771314"
+      },
+      {
+        "id": "1449318545573023766",
+        "name": "💬general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1449318475834195978"
+      },
+      {
+        "id": "1473313030442975425",
+        "name": "🏆tournament",
+        "type": 0,
+        "position": 3,
+        "parentId": "1449318475834195978"
+      },
+      {
+        "id": "1449323882627600465",
+        "name": "📸clips-screenshots",
+        "type": 0,
+        "position": 2,
+        "parentId": "1449323389734092890"
+      },
+      {
+        "id": "1474744022256844952",
+        "name": "🤖bot-commands",
+        "type": 0,
+        "position": 4,
+        "parentId": "1449318475834195978"
+      },
+      {
+        "id": "1454052113054437529",
+        "name": "🌌Members: 78",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1449318942610034698",
+        "name": "🎮Hypixel",
+        "type": 2,
+        "position": 2,
+        "parentId": "1449318686510022760"
+      },
+      {
+        "id": "1449318686510022760",
+        "name": "Voice Catrgory/Servers",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1449318760107475016",
+        "name": "🌎General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1449318686510022760"
+      },
+      {
+        "id": "1459869426341118201",
+        "name": "Logs",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1466282833726148732",
+        "name": "🎥Video recording/Streaming",
+        "type": 2,
+        "position": 0,
+        "parentId": "1464968916236505302"
+      },
+      {
+        "id": "1459874817766330430",
+        "name": "📑leave-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1459869426341118201"
+      },
+      {
+        "id": "1449323615580590182",
+        "name": "📰news",
+        "type": 15,
+        "position": 4,
+        "parentId": "1462378713902485648"
+      },
+      {
+        "id": "1449319312585261066",
+        "name": "🎮SMP/Survival",
+        "type": 2,
+        "position": 6,
+        "parentId": "1449318686510022760"
+      },
+      {
+        "id": "1459192626946244692",
+        "name": "⚒️staff-call",
+        "type": 2,
+        "position": 0,
+        "parentId": "1459215181891502192"
+      },
+      {
+        "id": "1462835467501310016",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1468154876222771314"
+      },
+      {
+        "id": "1459215181891502192",
+        "name": "Private Talks",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1466282585578803270",
+        "name": "🌐socials",
+        "type": 0,
+        "position": 3,
+        "parentId": "1449323389734092890"
+      },
+      {
+        "id": "1468154876222771314",
+        "name": "Aero",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1449320081938055279",
+        "name": "🟢 Team 1 (Green)",
+        "type": 2,
+        "position": 1,
+        "parentId": "1449319482525745242"
+      },
+      {
+        "id": "1463194319736410112",
+        "name": "🛡️staff-announcments",
+        "type": 15,
+        "position": 0,
+        "parentId": "1449323389734092890"
+      },
+      {
+        "id": "1462379003326369808",
+        "name": "🎉welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1462378713902485648"
+      },
+      {
+        "id": "1459869532591095912",
+        "name": "📑invite-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1459869426341118201"
+      },
+      {
+        "id": "1453727639658303518",
+        "name": "🎮Skate",
+        "type": 2,
+        "position": 7,
+        "parentId": "1449318686510022760"
+      },
+      {
+        "id": "1489086590113419355",
+        "name": "📜logs",
+        "type": 0,
+        "position": 3,
+        "parentId": "1459869426341118201"
+      },
+      {
+        "id": "1449319482525745242",
+        "name": "2v2/3v3/4v4 Duels",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1489179905500512266",
+        "name": "🚨alerts",
+        "type": 0,
+        "position": 2,
+        "parentId": "1459869426341118201"
+      },
+      {
+        "id": "1479751561319284736",
+        "name": "⚒️staff-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1459215181891502192"
+      },
+      {
+        "id": "1473320831126995207",
+        "name": "👩🏻‍💻Video Editing",
+        "type": 2,
+        "position": 1,
+        "parentId": "1464968916236505302"
+      },
+      {
+        "id": "1464968916236505302",
+        "name": "Media Team",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1449318851786571887",
+        "name": "🎮Mineberry",
+        "type": 2,
+        "position": 1,
+        "parentId": "1449318686510022760"
+      },
+      {
+        "id": "1461725369416683706",
+        "name": "🎵Music Vibing",
+        "type": 2,
+        "position": 8,
+        "parentId": "1449318686510022760"
+      },
+      {
+        "id": "1462378713902485648",
+        "name": "Information",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1488477762862977025",
+        "name": "👋introductions",
+        "type": 0,
+        "position": 2,
+        "parentId": "1462378713902485648"
+      },
+      {
+        "id": "1488575282288787617",
+        "name": "🟡 Team 3 (Yellow)",
+        "type": 2,
+        "position": 3,
+        "parentId": "1449319482525745242"
+      },
+      {
+        "id": "1462378865979822152",
+        "name": "📕rules",
+        "type": 0,
+        "position": 1,
+        "parentId": "1462378713902485648"
+      },
+      {
+        "id": "1449319038734962709",
+        "name": "🎮PikaNetwork",
+        "type": 2,
+        "position": 3,
+        "parentId": "1449318686510022760"
+      },
+      {
+        "id": "1463204920927715523",
+        "name": "⛏️survival",
+        "type": 0,
+        "position": 2,
+        "parentId": "1449318475834195978"
+      },
+      {
+        "id": "1462452991176216658",
+        "name": "⚖️roles",
+        "type": 0,
+        "position": 3,
+        "parentId": "1462378713902485648"
+      },
+      {
+        "id": "1463204871242125383",
+        "name": "🛏️bedwars",
+        "type": 0,
+        "position": 1,
+        "parentId": "1449318475834195978"
+      },
+      {
+        "id": "1449320117111492792",
+        "name": "🔴 Team 2 (Red)",
+        "type": 2,
+        "position": 2,
+        "parentId": "1449319482525745242"
+      },
+      {
+        "id": "1449318475834195978",
+        "name": "Community Chat",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1449318980207771800",
+        "name": "🎮Minemen",
+        "type": 2,
+        "position": 5,
+        "parentId": "1449318686510022760"
+      },
+      {
+        "id": "1489036044283412503",
+        "name": "🔵 Team 4 (Blue)",
+        "type": 2,
+        "position": 4,
+        "parentId": "1449319482525745242"
+      },
+      {
+        "id": "1449323389734092890",
+        "name": "Community",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1449319959963631738",
+        "name": "👥Team Pickings",
+        "type": 2,
+        "position": 0,
+        "parentId": "1449319482525745242"
+      },
+      {
+        "id": "1449319096922542135",
+        "name": "🎮AgeraPvP",
+        "type": 2,
+        "position": 4,
+        "parentId": "1449318686510022760"
+      },
+      {
+        "id": "1489290536073564290",
+        "name": "📢 \"Notice For The Newcomers\"",
+        "type": 11,
+        "parentId": "1449323615580590182"
+      },
+      {
+        "id": "1480987481322033373",
+        "name": "To administrators",
+        "type": 11,
+        "parentId": "1449324050299093105"
+      },
+      {
+        "id": "1485175911635746906",
+        "name": "Virus warning",
+        "type": 11,
+        "parentId": "1463194319736410112"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1449330763958063184",
+        "name": "🔮| Stellar Council",
+        "color": 12141543,
+        "permissions": "8864258447638527",
+        "position": 18,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1449342621926293534",
+        "name": "🌌| VoidWalkers",
+        "color": 6358451,
+        "permissions": "71371723234881",
+        "position": 11,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1459549467811516508",
+        "name": ".",
+        "color": 10181046,
+        "permissions": "1125899906842632",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1462456937332609115",
+        "name": "☀| Luminaires",
+        "color": 13383680,
+        "permissions": "1099540988928",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1462456980626210827",
+        "name": "🪐| Orbiters",
+        "color": 13133839,
+        "permissions": "947554879250383",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1462489854787981414",
+        "name": "🛸| CosmoBot",
+        "color": 6323595,
+        "permissions": "2048",
+        "position": 9,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1463205936155070744",
+        "name": "🔓 Cracked",
+        "color": 9145227,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1464547989472149612",
+        "name": "💫| Starlight",
+        "color": 15844367,
+        "permissions": "1703115702652737",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1464801050899910999",
+        "name": "Void Central",
+        "color": 65797,
+        "permissions": "2108863302074367",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1488472267670294670",
+        "name": "💎 Premium",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845176
+  }
+}

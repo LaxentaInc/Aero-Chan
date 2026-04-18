@@ -1,0 +1,123 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1476836865381240863",
+        "name": "Information",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1476836865381240864",
+        "name": "welcome-and-rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1476836865381240863"
+      },
+      {
+        "id": "1476836865381240865",
+        "name": "⚡announcements-⚠️",
+        "type": 0,
+        "position": 1,
+        "parentId": "1476836865381240863"
+      },
+      {
+        "id": "1476836865381240866",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1476836865381240867",
+        "name": "other-server-updates-💗",
+        "type": 0,
+        "position": 0,
+        "parentId": "1476836865381240866"
+      },
+      {
+        "id": "1476836865381240868",
+        "name": "events",
+        "type": 0,
+        "position": 1,
+        "parentId": "1476836865381240866"
+      },
+      {
+        "id": "1476836865381240869",
+        "name": "ideas-and-feedback",
+        "type": 0,
+        "position": 2,
+        "parentId": "1476836865381240866"
+      },
+      {
+        "id": "1476836865381240870",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1476836865381240871",
+        "name": "Lounge",
+        "type": 2,
+        "position": 0,
+        "parentId": "1476836865381240870"
+      },
+      {
+        "id": "1476836865788219507",
+        "name": "Community Hangout",
+        "type": 2,
+        "position": 1,
+        "parentId": "1476836865381240870"
+      },
+      {
+        "id": "1476836865788219508",
+        "name": "Stream Room",
+        "type": 2,
+        "position": 2,
+        "parentId": "1476836865381240870"
+      },
+      {
+        "id": "1479558475590664313",
+        "name": "general-✨-commands",
+        "type": 0,
+        "position": 3,
+        "parentId": "1476836865381240866"
+      },
+      {
+        "id": "1479559056640446636",
+        "name": "chat-here-babagirls-✨✨💗",
+        "type": 0,
+        "position": 4,
+        "parentId": "1476836865381240866"
+      },
+      {
+        "id": "1479790082893414432",
+        "name": "Aero",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1480281975695872130",
+        "name": "the-owners-plannings-🔥",
+        "type": 0,
+        "position": 2,
+        "parentId": "1476836865381240863"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1476838604750983220",
+        "name": "Moderator",
+        "color": 15277667,
+        "permissions": "5468387844462452",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845150
+  }
+}

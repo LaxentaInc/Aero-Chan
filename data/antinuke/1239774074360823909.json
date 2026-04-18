@@ -1,0 +1,116 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1239774074360823910",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1239774074805158038",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1239774074805158039",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1239774074360823910"
+      },
+      {
+        "id": "1239774074805158040",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1239774074805158038"
+      },
+      {
+        "id": "1240121504457424906",
+        "name": "the-bot",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1240126855764381766",
+        "name": "talk-to-hatsune-miku",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1240133628890189865",
+        "name": "real-rage",
+        "type": 0,
+        "position": 1,
+        "parentId": "1239774074360823910"
+      },
+      {
+        "id": "1240460466950639738",
+        "name": "talk-to-rage-bot",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1240498854105976913",
+        "name": "talk-to-connie",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1240499584963448832",
+        "name": "bot-fights",
+        "type": 0,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1240509293686689812",
+        "name": "talk-to-astro",
+        "type": 0,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1240728371277725727",
+        "name": "talk-to-most-bots",
+        "type": 0,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1241117854968053862",
+        "name": "talk-to-sans",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1241120237726994503",
+        "name": "talk-to-mr-krabs",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1240118184120684554",
+        "name": "1",
+        "color": 0,
+        "permissions": "595926711795711",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845095
+  }
+}

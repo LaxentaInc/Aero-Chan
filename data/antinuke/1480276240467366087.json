@@ -1,0 +1,240 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1480276241041854679",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1480276241532584077",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1480276241532584078",
+        "name": "general💬",
+        "type": 0,
+        "position": 0,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480276344003887106",
+        "name": "vc 1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1480276241532584077"
+      },
+      {
+        "id": "1480278473887973520",
+        "name": "umamusume🐎",
+        "type": 0,
+        "position": 1,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480279699417727037",
+        "name": "vc 2",
+        "type": 2,
+        "position": 2,
+        "parentId": "1480276241532584077"
+      },
+      {
+        "id": "1480279774684250228",
+        "name": "VIP-VC",
+        "type": 2,
+        "position": 3,
+        "parentId": "1480276241532584077"
+      },
+      {
+        "id": "1480281270000029938",
+        "name": "wordle🤓",
+        "type": 0,
+        "position": 2,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480283376383561870",
+        "name": "verification",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1480284057945505935",
+        "name": "pets🐢",
+        "type": 0,
+        "position": 3,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480284772172435696",
+        "name": "Information🕵️‍♂️",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1480284881698164848",
+        "name": "rules🕵️‍♀️",
+        "type": 0,
+        "position": 0,
+        "parentId": "1480284772172435696"
+      },
+      {
+        "id": "1480286847761383434",
+        "name": "news📄",
+        "type": 0,
+        "position": 1,
+        "parentId": "1480284772172435696"
+      },
+      {
+        "id": "1480287318622605574",
+        "name": "welcome👋",
+        "type": 0,
+        "position": 2,
+        "parentId": "1480284772172435696"
+      },
+      {
+        "id": "1480288810792124537",
+        "name": "level-requests🥶",
+        "type": 0,
+        "position": 4,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480680787388141568",
+        "name": "mudae",
+        "type": 0,
+        "position": 5,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480681209888505948",
+        "name": "Aero",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1480681212317270177",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1480681209888505948"
+      },
+      {
+        "id": "1480681217782190234",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1480681209888505948"
+      },
+      {
+        "id": "1483236385858256928",
+        "name": "gambling🎰",
+        "type": 0,
+        "position": 6,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1487960197803675769",
+        "name": "showcases-for-new-hardest",
+        "type": 0,
+        "position": 3,
+        "parentId": "1480284772172435696"
+      },
+      {
+        "id": "1490197380350476349",
+        "name": "larp",
+        "type": 0,
+        "position": 7,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1491932334717403298",
+        "name": "clips",
+        "type": 0,
+        "position": 8,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1492662127922647221",
+        "name": "anime-watch-party Ep:10",
+        "type": 2,
+        "position": 1,
+        "parentId": "1480276241532584077"
+      },
+      {
+        "id": "1492704464459534387",
+        "name": "sauce🍼",
+        "type": 0,
+        "position": 9,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1494497395654787172",
+        "name": "yuri👩‍❤️‍💋‍👩",
+        "type": 0,
+        "position": 10,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1494863194366410862",
+        "name": "yaoi👨‍❤️‍💋‍👨",
+        "type": 0,
+        "position": 11,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1486527546232275044",
+        "name": "Diggy",
+        "type": 12,
+        "parentId": "1480283376383561870"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1480277039247392878",
+        "name": "top 1 femboy",
+        "color": 14652369,
+        "permissions": "8864258447638527",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1480283370121331053",
+        "name": "Unverified",
+        "color": 0,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1480291438796472400",
+        "name": "Lemme crack",
+        "color": 197379,
+        "permissions": "8864258447638527",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1480291919119515760",
+        "name": "Yuri's trusted friends",
+        "color": 8406617,
+        "permissions": "1211012849438279",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845193
+  }
+}

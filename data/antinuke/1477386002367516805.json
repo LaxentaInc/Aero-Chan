@@ -1,0 +1,67 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1477386003605094502",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1477386003605094503",
+        "name": "the-mother-flipping-general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1478871032067526839"
+      },
+      {
+        "id": "1477386003605094504",
+        "name": "Group goon call",
+        "type": 2,
+        "position": 0,
+        "parentId": "1477386003605094502"
+      },
+      {
+        "id": "1478870797379702947",
+        "name": "my-new-emoji-or-stickers",
+        "type": 0,
+        "position": 0,
+        "parentId": "1478871283654590505"
+      },
+      {
+        "id": "1478870838982869254",
+        "name": "bots",
+        "type": 0,
+        "position": 1,
+        "parentId": "1478871032067526839"
+      },
+      {
+        "id": "1478871032067526839",
+        "name": "Talk",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1478871283654590505",
+        "name": "look tokyo is typing",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1477387249082568746",
+        "name": "Top floor boss tokyo",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 6,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1772794561074
+  }
+}

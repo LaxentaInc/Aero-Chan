@@ -1,0 +1,690 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "967959705320316971",
+        "name": "🌟-welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "971554100674187294"
+      },
+      {
+        "id": "971554798941904908",
+        "name": "🥂｜Chill",
+        "type": 2,
+        "position": 0,
+        "parentId": "971552138503282698"
+      },
+      {
+        "id": "971554100674187294",
+        "name": "♨ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴs🎑",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1334710024391364720",
+        "name": "looking-for",
+        "type": 0,
+        "position": 7,
+        "parentId": "971549697930055680"
+      },
+      {
+        "id": "1462814452087787686",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1470691564471718072"
+      },
+      {
+        "id": "971552138503282698",
+        "name": "✴|〔 Talk and Hangout 〕|✴",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "971553294625427456",
+        "name": "💣｜Trios",
+        "type": 2,
+        "position": 2,
+        "parentId": "971552138503282698"
+      },
+      {
+        "id": "1258648638285156413",
+        "name": "💎｜ VC for Patreons",
+        "type": 2,
+        "position": 0,
+        "parentId": "1115563919763832852"
+      },
+      {
+        "id": "1330796779641245790",
+        "name": "no-restriction-ch",
+        "type": 0,
+        "position": 8,
+        "parentId": "971549697930055680"
+      },
+      {
+        "id": "1263013427211927655",
+        "name": "Afk and Chill",
+        "type": 13,
+        "position": 5,
+        "parentId": "971552138503282698"
+      },
+      {
+        "id": "1298536796732260402",
+        "name": "🏆｜memes",
+        "type": 0,
+        "position": 5,
+        "parentId": "971549697930055680"
+      },
+      {
+        "id": "1328975154109222973",
+        "name": "🎉｜giveaways",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1247532760717856789",
+        "name": "🏆｜anime-names",
+        "type": 0,
+        "position": 4,
+        "parentId": "971549697930055680"
+      },
+      {
+        "id": "1470691564471718072",
+        "name": "Aero",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1336227429949112371",
+        "name": "Tickets",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "971552936121491457",
+        "name": "⛅︱music",
+        "type": 2,
+        "position": 1,
+        "parentId": "971552138503282698"
+      },
+      {
+        "id": "1112092417093541979",
+        "name": "【‼】guidelines",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1299608118145056880",
+        "name": "info",
+        "type": 0,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1328686400366706719",
+        "name": "📣︱updates",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1115563919763832852",
+        "name": "✴|〔 VIP 〕|✴",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "971549697930055680",
+        "name": "🎑 MAIN HALL :)",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1326912656661151795",
+        "name": "🌟booster-perks",
+        "type": 0,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1328672567447392268",
+        "name": "tasks-and-updates",
+        "type": 0,
+        "position": 0,
+        "parentId": "1328670054132482109"
+      },
+      {
+        "id": "1328670054132482109",
+        "name": "---STAFF---            69",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1258648635730825267",
+        "name": "💎｜Subscribers VC 🔒",
+        "type": 2,
+        "position": 1,
+        "parentId": "1115563919763832852"
+      },
+      {
+        "id": "1462814460056965355",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1470691564471718072"
+      },
+      {
+        "id": "1336926510917095445",
+        "name": "💝︱mudae",
+        "type": 0,
+        "position": 2,
+        "parentId": "971549697930055680"
+      },
+      {
+        "id": "1331121801773973544",
+        "name": "server-logs",
+        "type": 0,
+        "position": 2,
+        "parentId": "1328670054132482109"
+      },
+      {
+        "id": "971553976275304478",
+        "name": "🔴｜Streaming",
+        "type": 2,
+        "position": 3,
+        "parentId": "971552138503282698"
+      },
+      {
+        "id": "1071443731808526436",
+        "name": "📨｜tickets",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "971553723857907712",
+        "name": "🥂｜Bar",
+        "type": 2,
+        "position": 4,
+        "parentId": "971552138503282698"
+      },
+      {
+        "id": "971549835301879898",
+        "name": "🥂｜general-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "971549697930055680"
+      },
+      {
+        "id": "1111275864156557313",
+        "name": "secrets",
+        "type": 0,
+        "position": 3,
+        "parentId": "1328670054132482109"
+      },
+      {
+        "id": "1363105271081209947",
+        "name": "developers",
+        "type": 0,
+        "position": 4,
+        "parentId": "1328670054132482109"
+      },
+      {
+        "id": "1328975802775109673",
+        "name": "MINECRAFT",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1259830328705421363",
+        "name": "🤖｜code-welp",
+        "type": 0,
+        "position": 6,
+        "parentId": "971549697930055680"
+      },
+      {
+        "id": "1300472886372597810",
+        "name": "🥂｜international-chat",
+        "type": 0,
+        "position": 3,
+        "parentId": "971549697930055680"
+      },
+      {
+        "id": "1328670123086712863",
+        "name": "staff-chat",
+        "type": 0,
+        "position": 1,
+        "parentId": "1328670054132482109"
+      },
+      {
+        "id": "1071768767169826826",
+        "name": "🪞︱self-role",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1301835089868492900",
+        "name": "🔔︱announcements",
+        "type": 5,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1392492598605643786",
+        "name": "access-server",
+        "type": 0,
+        "position": 0,
+        "parentId": "1328975802775109673"
+      },
+      {
+        "id": "1071032701433434193",
+        "name": "❓︱commands",
+        "type": 0,
+        "position": 1,
+        "parentId": "971549697930055680"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1325784175416053822",
+        "name": "Security",
+        "color": 0,
+        "permissions": "8",
+        "position": 81,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1328688728121802783",
+        "name": "〲⚒  Sr.Mod",
+        "color": 15105570,
+        "permissions": "4504708870319232",
+        "position": 76,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1111218461780234300",
+        "name": "〲⚒ Adminstrator",
+        "color": 61180,
+        "permissions": "8582783202425838",
+        "position": 77,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1365933588016660490",
+        "name": "---New Roles---",
+        "color": 0,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1331121118966321213",
+        "name": "---Staff-Admin-Roles---",
+        "color": 985867,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1160759158350561330",
+        "name": "Tickets Support",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "976085045183918080",
+        "name": "sᴜs👾🌌",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "968424829122408458",
+        "name": "🦋 Dᴇᴀʀ Fʀɪᴇɴᴅ〲",
+        "color": 1988563,
+        "permissions": "0",
+        "position": 70,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1365933504801804328",
+        "name": "Appeal Admin",
+        "color": 0,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1310550642246418544",
+        "name": "Our cool guy!!! future sponsor fr",
+        "color": 37119,
+        "permissions": "0",
+        "position": 52,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1328673048143855637",
+        "name": "〲⚒  Helper",
+        "color": 3447003,
+        "permissions": "1099515953216",
+        "position": 74,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "968424971334467584",
+        "name": "VIP",
+        "color": 47871,
+        "permissions": "0",
+        "position": 72,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1078855650987233300",
+        "name": "Male  👊",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 58,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1341748715823829094",
+        "name": "Memer",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 66,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "968422584532217887",
+        "name": "Member 🏝️",
+        "color": 1376209,
+        "permissions": "0",
+        "position": 68,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1121067554924924988",
+        "name": "| Active",
+        "color": 6251356,
+        "permissions": "0",
+        "position": 63,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1160759159197814814",
+        "name": "Tickets Admin",
+        "color": 0,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1331121211194998876",
+        "name": "Applications Admin",
+        "color": 0,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "968427398871810051",
+        "name": "ʙᴏᴛ ᯾",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 48,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1067436886521557033",
+        "name": "〲⚒ Developer",
+        "color": 31743,
+        "permissions": "448891488320",
+        "position": 78,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1329010443250958346",
+        "name": "〲⚒  Trainee",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 73,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1331117490838704150",
+        "name": "Giveaway Ping",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1365933549362085990",
+        "name": "Testing Admin",
+        "color": 0,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1310261758555983892",
+        "name": "Active :3",
+        "color": 10181046,
+        "permissions": "1720707884371521",
+        "position": 56,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1071301736632963072",
+        "name": "Thє pvp Players",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 64,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1365932318971400212",
+        "name": "Manager",
+        "color": 10250739,
+        "permissions": "8",
+        "position": 79,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1070884567961059389",
+        "name": "Freindly ‼️",
+        "color": 10218384,
+        "permissions": "0",
+        "position": 59,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1331117435398651976",
+        "name": "Announcement Ping",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1328672869638606908",
+        "name": "Our Bots",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 67,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1086282544082858106",
+        "name": "Music Bot",
+        "color": 14688607,
+        "permissions": "8",
+        "position": 46,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1068166274246512662",
+        "name": "Tʜᴇ Builders",
+        "color": 3066993,
+        "permissions": "693674280513",
+        "position": 65,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1331118220387815444",
+        "name": "---Random Roles---",
+        "color": 920074,
+        "permissions": "0",
+        "position": 62,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1192497908742901790",
+        "name": "Duck",
+        "color": 7402800,
+        "permissions": "0",
+        "position": 61,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1067826145866813562",
+        "name": "〲⚒ Moderator",
+        "color": 2752510,
+        "permissions": "6814762465229761",
+        "position": 75,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "976085053962592266",
+        "name": "Mineᴄʀᴀғᴛ 🏝️",
+        "color": 7263632,
+        "permissions": "137440297025",
+        "position": 60,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "968424963243655178",
+        "name": "✰*Partners 〲✰*",
+        "color": 3456731,
+        "permissions": "6892820396109633",
+        "position": 71,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1247900651174887535",
+        "name": "Female",
+        "color": 15693297,
+        "permissions": "0",
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1308752763265617990",
+        "name": "Restricted bot",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "967960078894379008",
+        "name": "〲Owner  ⛅ـﮩ",
+        "color": 555744,
+        "permissions": "7175412882865097",
+        "position": 80,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1070642516635947069",
+        "name": "Youtuber",
+        "color": 16319235,
+        "permissions": "0",
+        "position": 69,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1093342831038439515",
+        "name": "Pings",
+        "color": 3066993,
+        "permissions": "1024",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1331117688583487499",
+        "name": "---Bot Roles---",
+        "color": 920074,
+        "permissions": "0",
+        "position": 49,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1107231600061730906",
+        "name": "i call them cool",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 54,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845171
+  }
+}

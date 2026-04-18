@@ -1,0 +1,218 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1279617745306124399",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1279617832879128596",
+        "name": "vc",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1279618034301931550",
+        "name": "cmds-uwu",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1281840978247946333",
+        "name": "testing",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1282697408911900786",
+        "name": "access-server",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1282702136827842682",
+        "name": "Tickets",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1284875611629817999",
+        "name": "warnings",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1296486048725078066",
+        "name": "ticket-me_straight",
+        "type": 0,
+        "position": 0,
+        "parentId": "1282702136827842682"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1266074127052308520",
+        "name": "F o u n d e r",
+        "color": 5964401,
+        "permissions": "1721826618638327",
+        "position": 31,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1266074654708072510",
+        "name": "Members",
+        "color": 5066061,
+        "permissions": "1720707884371521",
+        "position": 27,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1267872689536634921",
+        "name": "Admin",
+        "color": 13901112,
+        "permissions": "1721826618638327",
+        "position": 30,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1267875546235142264",
+        "name": "He/Him",
+        "color": 16093196,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1267875546730201200",
+        "name": "She/Her",
+        "color": 16501848,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1267875547304689796",
+        "name": "They/Them",
+        "color": 11177942,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1267875622768742401",
+        "name": "Ask",
+        "color": 7909721,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1267875991909568575",
+        "name": "Red",
+        "color": 16746640,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1267875992647503903",
+        "name": "Purple",
+        "color": 11176191,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1267875993083842674",
+        "name": "Green",
+        "color": 8978320,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1267875994300317749",
+        "name": "Pink",
+        "color": 16681215,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1267875994828673096",
+        "name": "Orange",
+        "color": 16754568,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1267875995675787284",
+        "name": "Yellow",
+        "color": 16121736,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1267875995915124809",
+        "name": "Blue",
+        "color": 8973055,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1267876161535606785",
+        "name": "muted",
+        "color": 16007755,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1269181471575244844",
+        "name": "members",
+        "color": 8421504,
+        "permissions": "8",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1269905184780193852",
+        "name": "Verified Member",
+        "color": 0,
+        "permissions": "1051648",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845146
+  }
+}

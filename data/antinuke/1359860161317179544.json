@@ -1,0 +1,113 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1359860161317179545",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1359860161317179546",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1359860161317179547",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1359860161317179545"
+      },
+      {
+        "id": "1359860161317179548",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1359860161317179546"
+      },
+      {
+        "id": "1359860457439232174",
+        "name": "mi-ayam",
+        "type": 0,
+        "position": 1,
+        "parentId": "1359860161317179545"
+      },
+      {
+        "id": "1406958582485745775",
+        "name": "welcum",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1467903300446982198",
+        "name": "bot",
+        "type": 0,
+        "position": 0,
+        "parentId": "1467903383372435590"
+      },
+      {
+        "id": "1467903383372435590",
+        "name": "Bot command",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1467903721840185345",
+        "name": "Aero",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1467903725526843504",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1467903721840185345"
+      },
+      {
+        "id": "1467903729813553224",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1467903721840185345"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1359861458644631725",
+        "name": "normal people",
+        "color": 0,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1359861687767007302",
+        "name": "lil normal people",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1359874411184001195",
+        "name": "owner",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1772794561069
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "988133727962030201",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "988133727962030202",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "988133727962030201"
+      },
+      {
+        "id": "988133727962030203",
+        "name": "clips-and-highlights",
+        "type": 0,
+        "position": 1,
+        "parentId": "988133727962030201"
+      },
+      {
+        "id": "988133727962030205",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "988133727962030206",
+        "name": "Lobby",
+        "type": 2,
+        "position": 0,
+        "parentId": "988133727962030205"
+      },
+      {
+        "id": "988133727962030207",
+        "name": "Gaming",
+        "type": 2,
+        "position": 1,
+        "parentId": "988133727962030205"
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845123
+  }
+}

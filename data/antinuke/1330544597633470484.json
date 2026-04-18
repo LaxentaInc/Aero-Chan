@@ -1,0 +1,211 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1330544598585446582",
+        "name": "・.・.・.・.・.・.・.・.・.・.・.・",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1330544598585446583",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1330544598585446585",
+        "name": "VC 1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1330544598585446583"
+      },
+      {
+        "id": "1342235477452787772",
+        "name": "VC 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1330544598585446583"
+      },
+      {
+        "id": "1342236760884641842",
+        "name": "VC 3",
+        "type": 2,
+        "position": 2,
+        "parentId": "1330544598585446583"
+      },
+      {
+        "id": "1347568194889584683",
+        "name": "🍓・general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1330544598585446582"
+      },
+      {
+        "id": "1347568829257220177",
+        "name": "🍫・ocs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1330544598585446582"
+      },
+      {
+        "id": "1358048306638622974",
+        "name": "⚙・runs",
+        "type": 0,
+        "position": 2,
+        "parentId": "1330544598585446582"
+      },
+      {
+        "id": "1359633116112752822",
+        "name": "🍪•crk-update",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1363921578970058943",
+        "name": "🌐•roles",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1370501022736191668",
+        "name": "silly-announcements-yay",
+        "type": 0,
+        "position": 0,
+        "parentId": "1373319127766401115"
+      },
+      {
+        "id": "1371931684815110244",
+        "name": "😭•spam",
+        "type": 0,
+        "position": 3,
+        "parentId": "1330544598585446582"
+      },
+      {
+        "id": "1371949223851065556",
+        "name": "🖥・actual-annoucements",
+        "type": 0,
+        "position": 1,
+        "parentId": "1373319127766401115"
+      },
+      {
+        "id": "1371949276036595752",
+        "name": "❓・polls",
+        "type": 0,
+        "position": 2,
+        "parentId": "1373319127766401115"
+      },
+      {
+        "id": "1373319127766401115",
+        "name": "・.・.・.・.・.・.・.・.・",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1379233772356243577",
+        "name": "welcome",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1347566496280350811",
+        "name": "Owner",
+        "color": 15158332,
+        "permissions": "1721826618638327",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1369823454253154366",
+        "name": "dead chat revive",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1371248169559527424",
+        "name": "NA region",
+        "color": 0,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1371570938453295138",
+        "name": "Girl",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1371932300396200039",
+        "name": "Silly announcements",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1371932580559061105",
+        "name": "Announcement",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1371932683424239657",
+        "name": "Polls",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1373316742448807983",
+        "name": "First member i think",
+        "color": 0,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1373317241512132738",
+        "name": "Supa cool mod",
+        "color": 0,
+        "permissions": "1721807559716807",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1373320866158612603",
+        "name": "HF 30!",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845062
+  }
+}

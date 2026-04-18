@@ -1,0 +1,92 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1297749973177466983",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1297749973177466984",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1297749973177466985",
+        "name": "home",
+        "type": 0,
+        "position": 0,
+        "parentId": "1297749973177466983"
+      },
+      {
+        "id": "1297765397293961236",
+        "name": "day-2-cuddle-hole-home",
+        "type": 0,
+        "position": 2,
+        "parentId": "1297749973177466983"
+      },
+      {
+        "id": "1298044159889899530",
+        "name": "artchannel",
+        "type": 0,
+        "position": 3,
+        "parentId": "1297749973177466983"
+      },
+      {
+        "id": "1299019572992806983",
+        "name": "talk-to-someone",
+        "type": 0,
+        "position": 0,
+        "parentId": "1297749973177466984"
+      },
+      {
+        "id": "1299031499084927029",
+        "name": "animehighschool-fieldhouse",
+        "type": 0,
+        "position": 1,
+        "parentId": "1297749973177466983"
+      },
+      {
+        "id": "1299227536496005120",
+        "name": "CanAppsReallyUseVoice?",
+        "type": 2,
+        "position": 0,
+        "parentId": "1297749973177466984"
+      },
+      {
+        "id": "1299962448740356129",
+        "name": "itsureisnicedrivingmybnsfin2008",
+        "type": 0,
+        "position": 4,
+        "parentId": "1297749973177466983"
+      },
+      {
+        "id": "1314392347643215962",
+        "name": "shape-finder",
+        "type": 0,
+        "position": 1,
+        "parentId": "1297749973177466984"
+      },
+      {
+        "id": "1330612116029313157",
+        "name": "fights",
+        "type": 0,
+        "position": 5,
+        "parentId": "1297749973177466983"
+      },
+      {
+        "id": "1330981634396389458",
+        "name": "elsie",
+        "type": 0,
+        "position": 6,
+        "parentId": "1297749973177466983"
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845066
+  }
+}

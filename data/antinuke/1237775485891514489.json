@@ -1,0 +1,772 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1352168797762748437",
+        "name": "🔎・utility-logs",
+        "type": 0,
+        "position": 6,
+        "parentId": "1352168762249445444"
+      },
+      {
+        "id": "1352168769920962561",
+        "name": "Read #information topic",
+        "type": 2,
+        "position": 2,
+        "parentId": "1352168756201263104"
+      },
+      {
+        "id": "1352168788841205800",
+        "name": "📪・staff-news",
+        "type": 0,
+        "position": 0,
+        "parentId": "1352168762249445444"
+      },
+      {
+        "id": "1352168785662181387",
+        "name": "📁・bug-reports",
+        "type": 0,
+        "position": 2,
+        "parentId": "1352168758608920596"
+      },
+      {
+        "id": "1352184590919270450",
+        "name": "📑・introduction",
+        "type": 15,
+        "position": 1,
+        "parentId": "1352168757585383486"
+      },
+      {
+        "id": "1352168782864322653",
+        "name": "💤・AFK",
+        "type": 2,
+        "position": 3,
+        "parentId": "1352168760617996350"
+      },
+      {
+        "id": "1366138307343286282",
+        "name": "💬・amogus",
+        "type": 0,
+        "position": 10,
+        "parentId": "1352168758608920596"
+      },
+      {
+        "id": "1352168796168650833",
+        "name": "📛・moderation-logs",
+        "type": 0,
+        "position": 5,
+        "parentId": "1352168762249445444"
+      },
+      {
+        "id": "1352168767014047765",
+        "name": "uh",
+        "type": 2,
+        "position": 1,
+        "parentId": "1352168756201263104"
+      },
+      {
+        "id": "1366133340234711173",
+        "name": "💬・decuplited",
+        "type": 0,
+        "position": 7,
+        "parentId": "1352168758608920596"
+      },
+      {
+        "id": "1352168801969639424",
+        "name": "📛・bot-errors",
+        "type": 0,
+        "position": 2,
+        "parentId": "1352168763465797726"
+      },
+      {
+        "id": "1352168768176128012",
+        "name": "🔔・announcements",
+        "type": 5,
+        "position": 4,
+        "parentId": "1352168757585383486"
+      },
+      {
+        "id": "1352168784164683898",
+        "name": "📚・suggestions",
+        "type": 0,
+        "position": 1,
+        "parentId": "1352168758608920596"
+      },
+      {
+        "id": "1352168799167709217",
+        "name": "📥・guild-join",
+        "type": 0,
+        "position": 0,
+        "parentId": "1352168763465797726"
+      },
+      {
+        "id": "1356601328121548871",
+        "name": "💾・media",
+        "type": 0,
+        "position": 5,
+        "parentId": "1352168758608920596"
+      },
+      {
+        "id": "1352168780066717718",
+        "name": "🔐・Private",
+        "type": 2,
+        "position": 2,
+        "parentId": "1352168760617996350"
+      },
+      {
+        "id": "1352168762249445444",
+        "name": "🎯 | ====== Staff ====== | 🎯",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1352168765835575378",
+        "name": "📑・information",
+        "type": 0,
+        "position": 2,
+        "parentId": "1352168757585383486"
+      },
+      {
+        "id": "1352168774266126378",
+        "name": "🔊・General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1352168760617996350"
+      },
+      {
+        "id": "1352168793098555394",
+        "name": "📧・community-news",
+        "type": 0,
+        "position": 3,
+        "parentId": "1352168762249445444"
+      },
+      {
+        "id": "1352168758608920596",
+        "name": "🎯 | ====== Main ====== | 🎯",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1366136097238679602",
+        "name": "💬・noob",
+        "type": 0,
+        "position": 8,
+        "parentId": "1352168758608920596"
+      },
+      {
+        "id": "1352168772265574400",
+        "name": "📡・bot-status",
+        "type": 0,
+        "position": 5,
+        "parentId": "1352168757585383486"
+      },
+      {
+        "id": "1352652507054211112",
+        "name": "📜・updates",
+        "type": 15,
+        "position": 3,
+        "parentId": "1352168757585383486"
+      },
+      {
+        "id": "1366137239913894021",
+        "name": "💬・hanif",
+        "type": 0,
+        "position": 9,
+        "parentId": "1352168758608920596"
+      },
+      {
+        "id": "1352168787130060892",
+        "name": "🤖・commands",
+        "type": 0,
+        "position": 3,
+        "parentId": "1352168758608920596"
+      },
+      {
+        "id": "1352168791362109451",
+        "name": "🔐・staff-commands",
+        "type": 0,
+        "position": 2,
+        "parentId": "1352168762249445444"
+      },
+      {
+        "id": "1237775486353150023",
+        "name": "🎇︱rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1352168757585383486"
+      },
+      {
+        "id": "1352168789864873988",
+        "name": "🎓・staff-chat",
+        "type": 0,
+        "position": 1,
+        "parentId": "1352168762249445444"
+      },
+      {
+        "id": "1356603068522827866",
+        "name": "🎫・support",
+        "type": 15,
+        "position": 8,
+        "parentId": "1352168757585383486"
+      },
+      {
+        "id": "1354011654098255872",
+        "name": "jerks-general",
+        "type": 0,
+        "position": 4,
+        "parentId": "1352168758608920596"
+      },
+      {
+        "id": "1352168764661043290",
+        "name": "Made by @pixieyoy",
+        "type": 2,
+        "position": 0,
+        "parentId": "1352168756201263104"
+      },
+      {
+        "id": "1359109416963674132",
+        "name": "🔞・nsfw",
+        "type": 0,
+        "position": 6,
+        "parentId": "1352168758608920596"
+      },
+      {
+        "id": "1352168803513012226",
+        "name": "👥・level-up",
+        "type": 0,
+        "position": 7,
+        "parentId": "1352168762249445444"
+      },
+      {
+        "id": "1352168775667159116",
+        "name": "🔗・github-feeds",
+        "type": 0,
+        "position": 6,
+        "parentId": "1352168757585383486"
+      },
+      {
+        "id": "1352168794893586504",
+        "name": "📥・discord-updates",
+        "type": 0,
+        "position": 4,
+        "parentId": "1352168762249445444"
+      },
+      {
+        "id": "1352168779039375423",
+        "name": "💬・general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1352168758608920596"
+      },
+      {
+        "id": "1376301622099181649",
+        "name": "💬・a-talking-bot-3",
+        "type": 0,
+        "position": 11,
+        "parentId": "1352168758608920596"
+      },
+      {
+        "id": "1352168800510021632",
+        "name": "📤・guild-leave",
+        "type": 0,
+        "position": 1,
+        "parentId": "1352168763465797726"
+      },
+      {
+        "id": "1352168763465797726",
+        "name": "🔧 | ==== Bot Logs ==== | 🔧",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1352168776841297920",
+        "name": "👋・joins-leaves",
+        "type": 0,
+        "position": 7,
+        "parentId": "1352168757585383486"
+      },
+      {
+        "id": "1352168760617996350",
+        "name": "🔊 | ====== Voice ====== | 🔊",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1352168757585383486",
+        "name": "💳 | ==== Important ==== | 💳",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1352168777575432235",
+        "name": "🎵・Music",
+        "type": 2,
+        "position": 1,
+        "parentId": "1352168760617996350"
+      },
+      {
+        "id": "1237775487519166578",
+        "name": "mod-logs",
+        "type": 0,
+        "position": 8,
+        "parentId": "1352168762249445444"
+      },
+      {
+        "id": "1352168756201263104",
+        "name": "Useless things",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1237780787215208480",
+        "name": "Asia",
+        "color": 3129087,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237780585737617450",
+        "name": "Purple",
+        "color": 11176191,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1352168666447478846",
+        "name": "━━━━━━━━",
+        "color": 0,
+        "permissions": "6546640449",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1352168663397957683",
+        "name": "Administrators",
+        "color": 3066993,
+        "permissions": "6546640457",
+        "position": 58,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1358015292428652604",
+        "name": "She/Her",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1357303741224849490",
+        "name": "Europe",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237780589256376380",
+        "name": "Yellow",
+        "color": 16121736,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237775485916938272",
+        "name": "Trusted",
+        "color": 0,
+        "permissions": "311872",
+        "position": 54,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1352168661502263317",
+        "name": "Developers",
+        "color": 3447003,
+        "permissions": "6546640457",
+        "position": 57,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1237775485891514496",
+        "name": "Early Supporter",
+        "color": 65522,
+        "permissions": "6479531584",
+        "position": 51,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1352168673183399977",
+        "name": "Members",
+        "color": 1752220,
+        "permissions": "6546640449",
+        "position": 43,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1237780590049361920",
+        "name": "Blue",
+        "color": 8973055,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1357223162579783841",
+        "name": "Australia",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237775485891514494",
+        "name": "Elite (LVL 50)",
+        "color": 15277667,
+        "permissions": "103079527936",
+        "position": 53,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237780586899181650",
+        "name": "Green",
+        "color": 8978320,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237775485891514493",
+        "name": "Expert (LVL 25)",
+        "color": 10181046,
+        "permissions": "311808",
+        "position": 49,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237775485891514495",
+        "name": "Godly (LVL 100)",
+        "color": 15844367,
+        "permissions": "311808",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1352168674261471243",
+        "name": "Bots",
+        "color": 16770790,
+        "permissions": "6546640457",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1237780585284632606",
+        "name": "Red",
+        "color": 16746640,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237780587658481725",
+        "name": "Pink",
+        "color": 16681215,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237775485891514492",
+        "name": "Advanced (LVL 15)",
+        "color": 3447003,
+        "permissions": "103079593472",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1352168670138470431",
+        "name": "Partners",
+        "color": 10181046,
+        "permissions": "6546640449",
+        "position": 52,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1352168665537052733",
+        "name": "Support",
+        "color": 15844367,
+        "permissions": "6546640449",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1352168671715528720",
+        "name": "Voter",
+        "color": 6405375,
+        "permissions": "6546640449",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1237780788942999633",
+        "name": "Africa",
+        "color": 3129087,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1352168675788193834",
+        "name": "━━━━━━━━",
+        "color": 0,
+        "permissions": "6546640449",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237775485891514498",
+        "name": "Volunteer",
+        "color": 10070709,
+        "permissions": "32768",
+        "position": 48,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1358367051949019287",
+        "name": "made for each other💘 (e)",
+        "color": 16711680,
+        "permissions": "1721826619162615",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1352168668561149996",
+        "name": "Patreons",
+        "color": 15277667,
+        "permissions": "6546640449",
+        "position": 44,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1237784982177448070",
+        "name": "bot",
+        "color": 9807270,
+        "permissions": "1024",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1237780715882414194",
+        "name": "She/Her",
+        "color": 16501848,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1357223244041551872",
+        "name": "Playstation",
+        "color": 10617860,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1352178635594928139",
+        "name": "Jerk",
+        "color": 463644,
+        "permissions": "1720707884371521",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1357350577968775379",
+        "name": "\"Always HORNY\" Mod",
+        "color": 15277667,
+        "permissions": "1721826619162615",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1352168671023337522",
+        "name": "━━━━━━━━",
+        "color": 0,
+        "permissions": "6546640449",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237780785449406504",
+        "name": "North America",
+        "color": 3129087,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237780588153274551",
+        "name": "Orange",
+        "color": 16754568,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237780716381671497",
+        "name": "They/Them",
+        "color": 11177942,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1352168664626888765",
+        "name": "Moderators",
+        "color": 14676313,
+        "permissions": "6546640449",
+        "position": 56,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1237775485891514497",
+        "name": "Contributor",
+        "color": 0,
+        "permissions": "32768",
+        "position": 50,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1237780753350131906",
+        "name": "PC",
+        "color": 15428406,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237780714997420143",
+        "name": "He/Him",
+        "color": 16093196,
+        "permissions": "0",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1352187135238606868",
+        "name": "Co owner",
+        "color": 65500,
+        "permissions": "1721826619162615",
+        "position": 59,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237780754025549926",
+        "name": "XBOX",
+        "color": 1013776,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237775485891514491",
+        "name": "Intermediate (LVL 10)",
+        "color": 3066993,
+        "permissions": "279040",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237775485891514490",
+        "name": "Beginner (LVL 5)",
+        "color": 1752220,
+        "permissions": "263168",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237780756420497498",
+        "name": "Mobile",
+        "color": 10468646,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1237780786313167040",
+        "name": "South America",
+        "color": 3129087,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1352187059015520256",
+        "name": "Owner",
+        "color": 16722549,
+        "permissions": "1721826619162615",
+        "position": 60,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845113
+  }
+}

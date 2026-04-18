@@ -1,0 +1,94 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1370304485389504514",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1370304485389504515",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1370304485389504516",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1370304485389504514"
+      },
+      {
+        "id": "1370304485389504517",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1370304485389504515"
+      },
+      {
+        "id": "1388822312702447667",
+        "name": "tupperbot",
+        "type": 0,
+        "position": 1,
+        "parentId": "1370304485389504514"
+      },
+      {
+        "id": "1469587327750897674",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1469590615372337224",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469587327750897674"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1388146722378875033",
+        "name": "彡🤍∿✰",
+        "color": 16737679,
+        "permissions": "2108859006582783",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1388147505362898974",
+        "name": "~>0-💙-0<~",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1388147829133803611",
+        "name": "><~🧡~><",
+        "color": 16753978,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1388147989364604978",
+        "name": "00~00~🩷~00~00",
+        "color": 16159231,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845194
+  }
+}

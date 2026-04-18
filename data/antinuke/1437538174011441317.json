@@ -1,0 +1,339 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1437538175324131370",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1437538175324131372",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1437538175324131373",
+        "name": "welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1437556554210738206"
+      },
+      {
+        "id": "1437538175324131374",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1437538175324131372"
+      },
+      {
+        "id": "1437546703174504700",
+        "name": "art",
+        "type": 0,
+        "position": 1,
+        "parentId": "1437546853133586585"
+      },
+      {
+        "id": "1437546853133586585",
+        "name": "Picture channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1437547108482814022",
+        "name": "gaming",
+        "type": 0,
+        "position": 2,
+        "parentId": "1437546853133586585"
+      },
+      {
+        "id": "1437548291549298879",
+        "name": "photos-videos",
+        "type": 0,
+        "position": 0,
+        "parentId": "1437546853133586585"
+      },
+      {
+        "id": "1437548508927492208",
+        "name": "Talk??",
+        "type": 2,
+        "position": 3,
+        "parentId": "1437538175324131372"
+      },
+      {
+        "id": "1437548617576612041",
+        "name": "Gaming",
+        "type": 2,
+        "position": 4,
+        "parentId": "1437538175324131372"
+      },
+      {
+        "id": "1437548702070997115",
+        "name": "Gamenight",
+        "type": 2,
+        "position": 1,
+        "parentId": "1437538175324131372"
+      },
+      {
+        "id": "1437549622318075984",
+        "name": "talk-about-vivler",
+        "type": 0,
+        "position": 2,
+        "parentId": "1437538175324131370"
+      },
+      {
+        "id": "1437556468294484048",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1437538175324131370"
+      },
+      {
+        "id": "1437556554210738206",
+        "name": "Important",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1437560009973301399",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1437639220612304946",
+        "name": "info",
+        "type": 5,
+        "position": 1,
+        "parentId": "1437556554210738206"
+      },
+      {
+        "id": "1437821023499325562",
+        "name": "moderators-only",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1474189810229842093",
+        "name": "commands",
+        "type": 0,
+        "position": 0,
+        "parentId": "1474248588921012284"
+      },
+      {
+        "id": "1474199425525092372",
+        "name": "🎂-birthdays",
+        "type": 0,
+        "position": 2,
+        "parentId": "1474248588921012284"
+      },
+      {
+        "id": "1474231628346691835",
+        "name": "confessions",
+        "type": 0,
+        "position": 1,
+        "parentId": "1474248588921012284"
+      },
+      {
+        "id": "1474233338322616469",
+        "name": "phone",
+        "type": 0,
+        "position": 0,
+        "parentId": "1437538175324131372"
+      },
+      {
+        "id": "1474248588921012284",
+        "name": "Robots/Bots",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1481828996067885268",
+        "name": "tylers voice",
+        "type": 2,
+        "position": 2,
+        "parentId": "1437538175324131372"
+      },
+      {
+        "id": "1493416115639156859",
+        "name": "gamenight-discussion",
+        "type": 0,
+        "position": 1,
+        "parentId": "1437538175324131370"
+      },
+      {
+        "id": "1493453434014138478",
+        "name": "Aero",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1493453438321692834",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1493453434014138478"
+      },
+      {
+        "id": "1493453442637627402",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1493453434014138478"
+      },
+      {
+        "id": "1493055081870786580",
+        "name": "report this guy he makes me red and angry",
+        "type": 11,
+        "parentId": "1437548291549298879"
+      },
+      {
+        "id": "1485136052888014918",
+        "name": "Confession Replies (#287)",
+        "type": 11,
+        "parentId": "1474231628346691835"
+      },
+      {
+        "id": "1490907672919146659",
+        "name": "Confession Replies (#302)",
+        "type": 11,
+        "parentId": "1474231628346691835"
+      },
+      {
+        "id": "1493783719654199349",
+        "name": "Confession Replies (#307)",
+        "type": 11,
+        "parentId": "1474231628346691835"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1437542082372829328",
+        "name": "Owner",
+        "color": 1920818,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1437546448290971758",
+        "name": "Co-owner",
+        "color": 1146986,
+        "permissions": "1721826618638327",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1437888286633885829",
+        "name": "Cool",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1451584652203655219",
+        "name": "dead",
+        "color": 3619645,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1465383153421258752",
+        "name": "British 🇬🇧 ☕ 🍪",
+        "color": 11027200,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1465763861679575244",
+        "name": "Wife",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1473055571342262423",
+        "name": "President Tyler For 2029",
+        "color": 571919,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1473056425956606168",
+        "name": "gay mom",
+        "color": 0,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1474232476128776338",
+        "name": "marriage",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 9,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1474514065178230967",
+        "name": "ppls other accs",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478926302042915090",
+        "name": "big t",
+        "color": 3154188,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1482454714606948612",
+        "name": "irl friend",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1493408192909152398",
+        "name": "Kurt Cobain",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845182
+  }
+}

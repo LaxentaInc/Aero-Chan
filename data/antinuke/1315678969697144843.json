@@ -1,0 +1,626 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1315699657245982751",
+        "name": "Skywars",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1343683517758046409",
+        "name": "staff-applications",
+        "type": 0,
+        "position": 1,
+        "parentId": "1339941508312203355"
+      },
+      {
+        "id": "1315932104768360458",
+        "name": "😂-memes",
+        "type": 0,
+        "position": 3,
+        "parentId": "1315678971182186506"
+      },
+      {
+        "id": "1315678971182186506",
+        "name": "general",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1315736996551069736",
+        "name": "🎧-Music",
+        "type": 2,
+        "position": 2,
+        "parentId": "1315678971182186506"
+      },
+      {
+        "id": "1315700906343268403",
+        "name": "more-logs",
+        "type": 0,
+        "position": 4,
+        "parentId": "1315698328167780374"
+      },
+      {
+        "id": "1316070298738495510",
+        "name": "cult-home",
+        "type": 0,
+        "position": 0,
+        "parentId": "1315700111342571661"
+      },
+      {
+        "id": "1315699141875204166",
+        "name": "Streaming",
+        "type": 2,
+        "position": 0,
+        "parentId": "1315698949826285718"
+      },
+      {
+        "id": "1315700872503627917",
+        "name": "logs",
+        "type": 0,
+        "position": 3,
+        "parentId": "1315698328167780374"
+      },
+      {
+        "id": "1343335094168846336",
+        "name": "Applications",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1315700111342571661",
+        "name": "Hairbender Cult",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1315699061956935761",
+        "name": "📹-uploads",
+        "type": 0,
+        "position": 1,
+        "parentId": "1315698949826285718"
+      },
+      {
+        "id": "1315701559891595325",
+        "name": "📖-rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1315698624025591878",
+        "name": "staff",
+        "type": 0,
+        "position": 1,
+        "parentId": "1315698328167780374"
+      },
+      {
+        "id": "1315698949826285718",
+        "name": "Media",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1315743195052642367",
+        "name": "all-members-48",
+        "type": 0,
+        "position": 0,
+        "parentId": "1315743191009595422"
+      },
+      {
+        "id": "1315708595165466706",
+        "name": "🤖-talk-to-bots",
+        "type": 0,
+        "position": 1,
+        "parentId": "1315678971182186506"
+      },
+      {
+        "id": "1339941508312203355",
+        "name": "SUPPORT/APPLICATIONS",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1315743202552184893",
+        "name": "bots-10",
+        "type": 0,
+        "position": 2,
+        "parentId": "1315743191009595422"
+      },
+      {
+        "id": "1315768734538797097",
+        "name": "📻-Radio Hamburg …",
+        "type": 13,
+        "position": 1,
+        "parentId": "1315678971182186506"
+      },
+      {
+        "id": "1343335432326479924",
+        "name": "testing",
+        "type": 0,
+        "position": 7,
+        "parentId": "1315698328167780374"
+      },
+      {
+        "id": "1315707235888009348",
+        "name": "🔗-links",
+        "type": 0,
+        "position": 2,
+        "parentId": "1315698949826285718"
+      },
+      {
+        "id": "1315696846496071690",
+        "name": "🚀-boost",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1321969623096103024",
+        "name": "♾-count-to-infinity",
+        "type": 0,
+        "position": 5,
+        "parentId": "1315678971182186506"
+      },
+      {
+        "id": "1316070263905062983",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1315699732710031410"
+      },
+      {
+        "id": "1315695710343135273",
+        "name": "🗣-general",
+        "type": 2,
+        "position": 0,
+        "parentId": "1315678971182186506"
+      },
+      {
+        "id": "1315698328167780374",
+        "name": "Staff",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1315678971182186508",
+        "name": "💬-general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1315678971182186506"
+      },
+      {
+        "id": "1315699732710031410",
+        "name": "Skyblock",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1315931758692405248",
+        "name": "💭-thinking…",
+        "type": 0,
+        "position": 2,
+        "parentId": "1315678971182186506"
+      },
+      {
+        "id": "1339635737062281348",
+        "name": "support",
+        "type": 0,
+        "position": 5,
+        "parentId": "1315698328167780374"
+      },
+      {
+        "id": "1315701515033382974",
+        "name": "🤖📢-bot-announcements",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1316070240999702669",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1315699657245982751"
+      },
+      {
+        "id": "1316070202219298886",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1315699605324955690"
+      },
+      {
+        "id": "1316070317688619109",
+        "name": "stuff",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1315702367781654668",
+        "name": "📢-announcements",
+        "type": 5,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1315699605324955690",
+        "name": "Bedwars",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1315696051973259335",
+        "name": "👋-welcome",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1315698797665325087",
+        "name": "staff-bot-testing",
+        "type": 0,
+        "position": 2,
+        "parentId": "1315698328167780374"
+      },
+      {
+        "id": "1339941664659345438",
+        "name": "support",
+        "type": 0,
+        "position": 0,
+        "parentId": "1339941508312203355"
+      },
+      {
+        "id": "1343334214480957500",
+        "name": "applications",
+        "type": 0,
+        "position": 6,
+        "parentId": "1315698328167780374"
+      },
+      {
+        "id": "1316118964983566426",
+        "name": "brits-talking-shit",
+        "type": 0,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1315743191009595422",
+        "name": "📊 SERVER STATS 📊",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1315698433704722442",
+        "name": "admin",
+        "type": 0,
+        "position": 0,
+        "parentId": "1315698328167780374"
+      },
+      {
+        "id": "1315932207742849035",
+        "name": "💩-random-shit",
+        "type": 0,
+        "position": 4,
+        "parentId": "1315678971182186506"
+      },
+      {
+        "id": "1315743198894751815",
+        "name": "members-38",
+        "type": 0,
+        "position": 1,
+        "parentId": "1315743191009595422"
+      },
+      {
+        "id": "1315699032034906172",
+        "name": "🎥-streams",
+        "type": 0,
+        "position": 0,
+        "parentId": "1315698949826285718"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1315927958745120800",
+        "name": "Twitch Team (Bridging Noob)",
+        "color": 10181046,
+        "permissions": "1720707884371521",
+        "position": 25,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1316037865175646239",
+        "name": "Restricted bot",
+        "color": 2067276,
+        "permissions": "7389250715121728",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1315926804195708939",
+        "name": "Content Creator",
+        "color": 16711680,
+        "permissions": "1720707884371521",
+        "position": 23,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1315764565639823370",
+        "name": "Alt Account",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1315681608170344540",
+        "name": "Head Admin",
+        "color": 1447446,
+        "permissions": "8",
+        "position": 39,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1315680142709882881",
+        "name": ".",
+        "color": 0,
+        "permissions": "8",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1322955677789851658",
+        "name": "Stream Ping",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1321889667666153522",
+        "name": "L user",
+        "color": 15844367,
+        "permissions": "75627968450113",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1315687030759620658",
+        "name": "NoobsCrib",
+        "color": 16777215,
+        "permissions": "8",
+        "position": 41,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1316039081129414707",
+        "name": "BridgingNoob Community",
+        "color": 9047296,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1351132747447402527",
+        "name": "wannabe staff",
+        "color": 22416,
+        "permissions": "0",
+        "position": 27,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1315697701538758767",
+        "name": "NoobsCrib Manager",
+        "color": 16777215,
+        "permissions": "8",
+        "position": 40,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1315927804646260886",
+        "name": "Twitch Team (xyron)",
+        "color": 10181046,
+        "permissions": "1720707884371521",
+        "position": 26,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1315697988537946162",
+        "name": "Developer",
+        "color": 39167,
+        "permissions": "0",
+        "position": 30,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1315764442482606080",
+        "name": "Axolotl :D",
+        "color": 16122111,
+        "permissions": "8",
+        "position": 33,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1336324298385915978",
+        "name": "—-——————————『Staff』—————————————",
+        "color": 0,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1315682353384784003",
+        "name": "Noobs-",
+        "color": 53536,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1315686788265807883",
+        "name": "Wick Bypass",
+        "color": 0,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1315685743649230889",
+        "name": "Bots",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1315776559264829513",
+        "name": "Moderator",
+        "color": 11027200,
+        "permissions": "8726978605949318",
+        "position": 28,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1322957506640875580",
+        "name": "Announcement Ping",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1315682462814179380",
+        "name": "Noobs+",
+        "color": 1048702,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1315703687276007466",
+        "name": "Bot Admin",
+        "color": 10476031,
+        "permissions": "0",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1315680278630371408",
+        "name": "Owner",
+        "color": 11683583,
+        "permissions": "0",
+        "position": 42,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1315703011950985287",
+        "name": "Bot Owner",
+        "color": 13363967,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1315776456852373614",
+        "name": "Sr. Moderator",
+        "color": 1001999,
+        "permissions": "8762094526800262",
+        "position": 29,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1315682215937576961",
+        "name": "Friends",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 20,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1315703761762521189",
+        "name": "Announcement",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1315680806621941781",
+        "name": "Noobs",
+        "color": 3447003,
+        "permissions": "1236849720155713",
+        "position": 18,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1316039383266099320",
+        "name": "xyron Community",
+        "color": 9047296,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1316469034341892228",
+        "name": "Bri’ish",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1315681716072873984",
+        "name": "Admin",
+        "color": 16746889,
+        "permissions": "8",
+        "position": 34,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845184
+  }
+}

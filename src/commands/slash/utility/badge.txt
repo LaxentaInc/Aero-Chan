@@ -1,0 +1,133 @@
+const { SlashCommandBuilder, AutoModerationRuleTriggerType, AutoModerationActionType, PermissionFlagsBits } = require('discord.js');
+
+module.exports = {
+    data: new SlashCommandBuilder()
+        .setName('automod-badge')
+        .setDescription('Clears existing AutoMod rules and creates new ones for the badge')
+        .addChannelOption(option =>
+            option.setName('log-channel')
+                .setDescription('Channel for AutoMod alerts')
+                .setRequired(true))
+        .setDefaultMemberPermissions(PermissionFlagsBits.ManageGuild),
+
+    async execute(interaction) {
+        const guild = interaction.guild;
+        const logChannel = interaction.options.getChannel('log-channel');
+
+        await interaction.deferReply();
+
+        try {
+            // Step 1: Delete all existing AutoMod rules
+            const existingRules = await guild.autoModerationRules.fetch();
+            let deletedCount = 0;
+            
+            for (const rule of existingRules.values()) {
+                try {
+                    await rule.delete('Clearing for badge setup');
+                    deletedCount++;
+                } catch (err) {
+                    console.log(`Couldn't delete rule ${rule.name}: ${err.message}`);
+                }
+            }
+
+            await interaction.editReply(`🗑️ Deleted ${deletedCount} existing rules. Creating new ones...`);
+
+            // Step 2: Create maximum allowed rules for badge
+            const createdRules = [];
+            const blockAction = [{ type: AutoModerationActionType.BlockMessage }];
+
+            // Type 1: Keyword Rules (Max 6)
+            for (let i = 1; i <= 6; i++) {
+                const rule = await guild.autoModerationRules.create({
+                    name: `Badge-Keyword-${i}`,
+                    eventType: 1,
+                    triggerType: AutoModerationRuleTriggerType.Keyword,
+                    triggerMetadata: {
+                        keywordFilter: [`badword${i}`, `spam${i}`]
+                    },
+                    actions: blockAction,
+                    enabled: true
+                });
+                createdRules.push(rule.name);
+            }
+
+            // Type 3: Spam Detection (Max 1)
+            const spamRule = await guild.autoModerationRules.create({
+                name: 'Badge-SpamDetection',
+                eventType: 1,
+                triggerType: AutoModerationRuleTriggerType.Spam,
+                actions: blockAction,
+                enabled: true
+            });
+            createdRules.push(spamRule.name);
+
+            // Type 4: Keyword Preset (Max 1) 
+            const presetRule = await guild.autoModerationRules.create({
+                name: 'Badge-ProfanityPreset',
+                eventType: 1,
+                triggerType: AutoModerationRuleTriggerType.KeywordPreset,
+                triggerMetadata: {
+                    presets: [1] // PROFANITY
+                },
+                actions: blockAction,
+                enabled: true
+            });
+            createdRules.push(presetRule.name);
+
+            // Type 5: Mention Spam (Max 1)
+            const mentionRule = await guild.autoModerationRules.create({
+                name: 'Badge-MentionSpam',
+                eventType: 1,
+                triggerType: AutoModerationRuleTriggerType.MentionSpam,
+                triggerMetadata: {
+                    mentionTotalLimit: 10
+                },
+                actions: blockAction,
+                enabled: true
+            });
+            createdRules.push(mentionRule.name);
+
+            await interaction.editReply({
+                embeds: [{
+                    title: '🎖️ AutoMod Badge Farming Complete!',
+                    description: `**${createdRules.length}/9** AutoMod rules created! Badge incoming! 🔥`,
+                    fields: [
+                        {
+                            name: '🗑️ Cleanup',
+                            value: `Deleted ${deletedCount} existing rules`,
+                            inline: true
+                        },
+                        {
+                            name: '✅ Created',
+                            value: `${createdRules.length} new rules`,
+                            inline: true
+                        },
+                        {
+                            name: '📋 Rule Breakdown',
+                            value: '• 6x Keyword Filters\n• 1x Spam Detection\n• 1x Profanity Preset\n• 1x Mention Spam',
+                            inline: false
+                        }
+                    ],
+                    color: 0x00FF00,
+                    footer: { text: 'AutoMod badge should appear within a few hours!' }
+                }]
+            });
+
+        } catch (error) {
+            console.error('AutoMod badge setup error:', error);
+            
+            await interaction.editReply({
+                embeds: [{
+                    title: '❌ Badge Setup Failed',
+                    description: `Error: ${error.message}`,
+                    fields: [{
+                        name: '🔧 Possible Issues',
+                        value: '• Bot missing `Manage Server` permission\n• API rate limits\n• Discord AutoMod service issues',
+                        inline: false
+                    }],
+                    color: 0xFF0000
+                }]
+            });
+        }
+    }
+};

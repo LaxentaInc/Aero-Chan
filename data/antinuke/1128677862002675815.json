@@ -1,0 +1,230 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1128677862799585340",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1128677862799585341",
+        "name": "team-talk",
+        "type": 0,
+        "position": 1,
+        "parentId": "1128677862799585340"
+      },
+      {
+        "id": "1128677862799585342",
+        "name": "team-introductions",
+        "type": 0,
+        "position": 2,
+        "parentId": "1128677862799585340"
+      },
+      {
+        "id": "1128677862799585343",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1128677862799585344",
+        "name": "Squad 1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1128677862799585343"
+      },
+      {
+        "id": "1128677862799585345",
+        "name": "Briefing Room",
+        "type": 2,
+        "position": 1,
+        "parentId": "1128677862799585343"
+      },
+      {
+        "id": "1128690202676838410",
+        "name": "WELCOME",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1128690669645484155",
+        "name": "welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1128690202676838410"
+      },
+      {
+        "id": "1128690970565804182",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1130829646301249606"
+      },
+      {
+        "id": "1128693925947904070",
+        "name": "applications",
+        "type": 0,
+        "position": 4,
+        "parentId": "1130829646301249606"
+      },
+      {
+        "id": "1128697839975936111",
+        "name": "roles",
+        "type": 0,
+        "position": 3,
+        "parentId": "1130829646301249606"
+      },
+      {
+        "id": "1128702733705289758",
+        "name": "Command Post",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1128702790638784594",
+        "name": "command",
+        "type": 0,
+        "position": 0,
+        "parentId": "1128702733705289758"
+      },
+      {
+        "id": "1128702863342846113",
+        "name": "Meeting Room",
+        "type": 2,
+        "position": 0,
+        "parentId": "1128702733705289758"
+      },
+      {
+        "id": "1128703227743981648",
+        "name": "introductions",
+        "type": 0,
+        "position": 2,
+        "parentId": "1130829646301249606"
+      },
+      {
+        "id": "1128705386967486464",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1128677862799585340"
+      },
+      {
+        "id": "1128825052335452172",
+        "name": "training",
+        "type": 0,
+        "position": 3,
+        "parentId": "1128677862799585340"
+      },
+      {
+        "id": "1130828148771139675",
+        "name": "announcements",
+        "type": 0,
+        "position": 1,
+        "parentId": "1130829646301249606"
+      },
+      {
+        "id": "1130829646301249606",
+        "name": "Important",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1132536600040050718",
+        "name": "moto",
+        "type": 0,
+        "position": 5,
+        "parentId": "1130829646301249606"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1128678263275929722",
+        "name": "Air Support/Evac",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 6,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1128678272985731132",
+        "name": "2ND IN COMMAND",
+        "color": 3025964,
+        "permissions": "138534169608191",
+        "position": 9,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1128678274684440576",
+        "name": "1ST IN COMMAND",
+        "color": 526344,
+        "permissions": "0",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1128680403700555847",
+        "name": "Squad 1",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 7,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1128689373035122738",
+        "name": "Medic",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 5,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1128693520652312616",
+        "name": "Stealth Op",
+        "color": 8026232,
+        "permissions": "0",
+        "position": 4,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1128693613593903215",
+        "name": "Tanker",
+        "color": 12820511,
+        "permissions": "0",
+        "position": 3,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1128820582297911388",
+        "name": "In Training",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 2,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1128820762166448228",
+        "name": "Trainer",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 8,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845138
+  }
+}

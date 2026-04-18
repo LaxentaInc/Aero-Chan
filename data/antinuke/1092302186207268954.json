@@ -1,0 +1,287 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1092302186207268957",
+        "name": "homosexual-supporting-cast",
+        "type": 0,
+        "position": 0,
+        "parentId": "1489086478020513973"
+      },
+      {
+        "id": "1092302186207268958",
+        "name": "gay table",
+        "type": 2,
+        "position": 0,
+        "parentId": "1489087760374693908"
+      },
+      {
+        "id": "1107121370392973363",
+        "name": "yaoi-reddit",
+        "type": 15,
+        "position": 2,
+        "parentId": "1489087006746087505"
+      },
+      {
+        "id": "1189384491047854101",
+        "name": "conservative-club✝️😜",
+        "type": 0,
+        "position": 1,
+        "parentId": "1489086478020513973"
+      },
+      {
+        "id": "1223242948364210186",
+        "name": "arttttttttt",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1463931321524162591",
+        "name": "vent-channel🥺",
+        "type": 0,
+        "position": 2,
+        "parentId": "1489086478020513973"
+      },
+      {
+        "id": "1480633937314185378",
+        "name": "gambling",
+        "type": 0,
+        "position": 0,
+        "parentId": "1489087536218505217"
+      },
+      {
+        "id": "1480767109310185574",
+        "name": "animal-channel",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1481790147757477989",
+        "name": "healing-❤️‍🩹-clinic-2",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1482561852729851934",
+        "name": "boons-spank-bank",
+        "type": 0,
+        "position": 1,
+        "parentId": "1489087006746087505"
+      },
+      {
+        "id": "1482598031542190182",
+        "name": "aidens-spank-bank",
+        "type": 0,
+        "position": 0,
+        "parentId": "1489087006746087505"
+      },
+      {
+        "id": "1487645283247460484",
+        "name": "lunch-menu",
+        "type": 0,
+        "position": 0,
+        "parentId": "1489087760374693908"
+      },
+      {
+        "id": "1487910763891785798",
+        "name": "freak-channel",
+        "type": 0,
+        "position": 3,
+        "parentId": "1489086478020513973"
+      },
+      {
+        "id": "1489086478020513973",
+        "name": "psychiatric sextors",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1489087006746087505",
+        "name": "gay wards",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1489087536218505217",
+        "name": "psychiatrically required casino",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1489087760374693908",
+        "name": "cafeteria",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1491520721715724389",
+        "name": "little-caesars",
+        "type": 0,
+        "position": 1,
+        "parentId": "1489087760374693908"
+      },
+      {
+        "id": "1492618922770300968",
+        "name": "homegoods",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1492704289515110421",
+        "name": "dinner-table",
+        "type": 0,
+        "position": 2,
+        "parentId": "1489087760374693908"
+      },
+      {
+        "id": "1481804525852426262",
+        "name": "f",
+        "type": 11,
+        "parentId": "1092302186207268957"
+      },
+      {
+        "id": "1482600702294626477",
+        "name": "daily yaoi guys",
+        "type": 11,
+        "parentId": "1107121370392973363"
+      },
+      {
+        "id": "1485775235147104448",
+        "name": "PETITOPN FOR AYDEN TO GET TIKTOK",
+        "type": 11,
+        "parentId": "1107121370392973363"
+      },
+      {
+        "id": "1486072867052458117",
+        "name": "daily yaoi again guys..",
+        "type": 11,
+        "parentId": "1107121370392973363"
+      },
+      {
+        "id": "1486898522040307803",
+        "name": "daily yaoi wiw",
+        "type": 11,
+        "parentId": "1107121370392973363"
+      },
+      {
+        "id": "1492495829758382140",
+        "name": "DAILY YURI",
+        "type": 11,
+        "parentId": "1107121370392973363"
+      },
+      {
+        "id": "1493792730944503868",
+        "name": "daily yaoi🥺",
+        "type": 11,
+        "parentId": "1107121370392973363"
+      },
+      {
+        "id": "1494026509780910170",
+        "name": "baby teru alert..",
+        "type": 11,
+        "parentId": "1107121370392973363"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1092303778486693990",
+        "name": "cheeseburger 🍔",
+        "color": 10057892,
+        "permissions": "6766385966874615",
+        "position": 14,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1092409323780579442",
+        "name": "diddlytoes scarglemarble altoona",
+        "color": 14614486,
+        "permissions": "7738362634428263",
+        "position": 13,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1092582670573240420",
+        "name": "schnobby kumalala savesta boy",
+        "color": 16667790,
+        "permissions": "8797166764032",
+        "position": 12,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1127456871679279225",
+        "name": "among us",
+        "color": 0,
+        "permissions": "6788376199430135",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1205646930131030057",
+        "name": "#bestfaggot",
+        "color": 4703944,
+        "permissions": "8864258447638527",
+        "position": 9,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1227487852141608990",
+        "name": "NEWBORN",
+        "color": 16711867,
+        "permissions": "8864262742597583",
+        "position": 8,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1313711239058165862",
+        "name": "freak frit",
+        "color": 13719383,
+        "permissions": "8864262742605823",
+        "position": 7,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1366248635779649637",
+        "name": "The Divine Mother of All",
+        "color": 16758745,
+        "permissions": "8829078370508775",
+        "position": 6,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1456016650431234229",
+        "name": "lil white boy",
+        "color": 12266797,
+        "permissions": "8864262742597607",
+        "position": 5,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1485310290097733682",
+        "name": "papacita",
+        "color": 11788541,
+        "permissions": "8863137045929825",
+        "position": 1,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845157
+  }
+}

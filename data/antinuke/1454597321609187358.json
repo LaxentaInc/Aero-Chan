@@ -1,0 +1,338 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1454597322658021397",
+        "name": "╔═ ⟡ 𝐑𝐄𝐒𝐄𝐍𝐇𝐀 ⟡ ═╗",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1454597322658021398",
+        "name": "╔═ ⟡ 𝐂𝐀𝐋𝐋𝐒 ⟡ ═╗",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1454597322658021399",
+        "name": "『⟡』geral",
+        "type": 0,
+        "position": 0,
+        "parentId": "1454597322658021397"
+      },
+      {
+        "id": "1454597322658021400",
+        "name": "LiveLeak operação walahawik",
+        "type": 2,
+        "position": 0,
+        "parentId": "1454597322658021398"
+      },
+      {
+        "id": "1454601640962424947",
+        "name": "『⟡』midias",
+        "type": 0,
+        "position": 1,
+        "parentId": "1454597322658021397"
+      },
+      {
+        "id": "1454609192471236730",
+        "name": "『⟡』clips",
+        "type": 0,
+        "position": 2,
+        "parentId": "1454597322658021397"
+      },
+      {
+        "id": "1454610061975617697",
+        "name": "╔═ ⟡ 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓𝐄 ⟡ ═╗",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1454610254011695197",
+        "name": "『✦』𝑩𝒐𝒂𝒔-𝒗𝒊𝒏𝒅𝒂𝒔",
+        "type": 0,
+        "position": 0,
+        "parentId": "1454610061975617697"
+      },
+      {
+        "id": "1454610569536606240",
+        "name": "『✦』regras",
+        "type": 0,
+        "position": 1,
+        "parentId": "1454610061975617697"
+      },
+      {
+        "id": "1454670011346976778",
+        "name": "╔═ ⟡ 𝐄𝐗𝐓𝐑𝐀𝐒 ⟡ ═╗",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1454670146017951764",
+        "name": "『-』resenha-eu-acho",
+        "type": 0,
+        "position": 0,
+        "parentId": "1454670011346976778"
+      },
+      {
+        "id": "1454671053564674113",
+        "name": "『⟡』comandos",
+        "type": 0,
+        "position": 3,
+        "parentId": "1454597322658021397"
+      },
+      {
+        "id": "1454671373053071490",
+        "name": "『-』brain-dump-do-lyon",
+        "type": 0,
+        "position": 1,
+        "parentId": "1454670011346976778"
+      },
+      {
+        "id": "1454671503705637059",
+        "name": "『-』album-de-fotos",
+        "type": 0,
+        "position": 2,
+        "parentId": "1454670011346976778"
+      },
+      {
+        "id": "1455963086375878698",
+        "name": "『✦』reuniao-secreta",
+        "type": 0,
+        "position": 2,
+        "parentId": "1454610061975617697"
+      },
+      {
+        "id": "1457046654430613645",
+        "name": "Zwischenraum",
+        "type": 2,
+        "position": 1,
+        "parentId": "1454597322658021398"
+      },
+      {
+        "id": "1457945746174115934",
+        "name": "Trivium",
+        "type": 2,
+        "position": 2,
+        "parentId": "1454597322658021398"
+      },
+      {
+        "id": "1460093403730546710",
+        "name": "『✦』anuncios-ultra-importantes-da-familia",
+        "type": 0,
+        "position": 3,
+        "parentId": "1454610061975617697"
+      },
+      {
+        "id": "1460368447362957323",
+        "name": "a",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1464012086186344661",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1456451130400702614",
+        "name": "porraaaa",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1456451172004139019",
+        "name": "oi pessoal",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1457108093510090834",
+        "name": "Paraai ou seu doente",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1457108144348991579",
+        "name": "eu sou gay",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1457108160111444069",
+        "name": "Olha como eu sou legal eu dou lock no chat de servidor de amigo",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1458276225528103023",
+        "name": "☠️🤖🤖🤖",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104252977582220",
+        "name": "oi",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104279238115532",
+        "name": "rola",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104344958664910",
+        "name": "quero beijar o kaffe",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104353678364725",
+        "name": "não é de rape",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104357117694156",
+        "name": "não é de rape",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104394707046577",
+        "name": "não é de rape.",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104397282611519",
+        "name": "Porra lyon",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104507932414160",
+        "name": "votem em Minha salvacao pessoal",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104658621304924",
+        "name": "Terehome se vc se explicar eu te defendo",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104672848122039",
+        "name": "teruhome= obito, Bouziki= madara",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104681891299614",
+        "name": "crimes: amar demais",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104843061494034",
+        "name": "me marcaram 6 vezes",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460104905967665409",
+        "name": "comp tá morto anyways",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460105182225371179",
+        "name": "DA UNLOCK PORRA",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460105512300445716",
+        "name": "q? pq?",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460105513927708702",
+        "name": "Abram o chat ai",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1460105538984738939",
+        "name": "q aura loss insana",
+        "type": 11,
+        "parentId": "1454597322658021399"
+      },
+      {
+        "id": "1456523610666831980",
+        "name": "como inicia um topico",
+        "type": 11,
+        "parentId": "1454670146017951764"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1454599509794488400",
+        "name": "Flameborn's",
+        "color": 14887723,
+        "permissions": "0",
+        "position": 8,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1454601421725892682",
+        "name": "Brothers-in-Blood",
+        "color": 16765731,
+        "permissions": "0",
+        "position": 7,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1454602102390264031",
+        "name": "The First Flame",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1454602222888554639",
+        "name": "Flamewardens",
+        "color": 11342935,
+        "permissions": "8864258435055097",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460374596120215665",
+        "name": "Flamekeepers",
+        "color": 9009543,
+        "permissions": "18432",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1769238090552
+  }
+}

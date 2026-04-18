@@ -1,0 +1,90 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1219556143995814000",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1219556143995814001",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1219556143995814002",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1219556143995814000"
+      },
+      {
+        "id": "1219556143995814003",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1219556143995814001"
+      },
+      {
+        "id": "1219559579520860180",
+        "name": "co-elite-talk",
+        "type": 0,
+        "position": 1,
+        "parentId": "1219556143995814000"
+      },
+      {
+        "id": "1219559981813338143",
+        "name": "send-ur-roblox-gameplay-here",
+        "type": 0,
+        "position": 2,
+        "parentId": "1219556143995814000"
+      },
+      {
+        "id": "1219602631564070942",
+        "name": "elite-rp-channel",
+        "type": 0,
+        "position": 3,
+        "parentId": "1219556143995814000"
+      },
+      {
+        "id": "1219602846589259796",
+        "name": "titan-rp-channel",
+        "type": 0,
+        "position": 4,
+        "parentId": "1219556143995814000"
+      },
+      {
+        "id": "1244319513340809318",
+        "name": "talk-to-furina",
+        "type": 0,
+        "position": 5,
+        "parentId": "1219556143995814000"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1219559279460225054",
+        "name": "co-elite owner",
+        "color": 0,
+        "permissions": "32976758374391",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1277957468432891907",
+        "name": "members",
+        "color": 8421504,
+        "permissions": "8",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845109
+  }
+}

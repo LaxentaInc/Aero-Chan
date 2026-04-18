@@ -1,0 +1,53 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1231740555948593264",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1231740555948593265",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1231740555948593267",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1231740555948593265"
+      },
+      {
+        "id": "1231746303235457055",
+        "name": "jujegos",
+        "type": 0,
+        "position": 0,
+        "parentId": "1231740555948593264"
+      },
+      {
+        "id": "1231747085645254658",
+        "name": "only-i-as",
+        "type": 0,
+        "position": 1,
+        "parentId": "1231740555948593264"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1231743752465420299",
+        "name": "admin",
+        "color": 0,
+        "permissions": "8",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845197
+  }
+}

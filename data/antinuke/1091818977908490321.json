@@ -1,0 +1,1253 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1211994903010213909",
+        "name": "🔮psychic-gym",
+        "type": 0,
+        "position": 11,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1122937288268206110",
+        "name": "𒁷├───╮🫨│・Spam",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1122936337780195408",
+        "name": "₊˚🤌꒱・∆clan-duel∆-2",
+        "type": 0,
+        "position": 1,
+        "parentId": "1122935779111469238"
+      },
+      {
+        "id": "1092737220600922192",
+        "name": "₊˚⭐꒱・coaching",
+        "type": 0,
+        "position": 4,
+        "parentId": "1092737094897639424"
+      },
+      {
+        "id": "1211994504148557834",
+        "name": "🥊fighting-gym",
+        "type": 0,
+        "position": 1,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1092737088136421436",
+        "name": "𒁷├───╮🍪│・Chit-chat",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1092737090107744296",
+        "name": "𒁷├───╮🍒│・poketwo",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1092737094897639424",
+        "name": "𒁷├───╮⭐│・staff area",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1092737116812869672",
+        "name": "₊˚🎁꒱・flash-giveawys",
+        "type": 0,
+        "position": 1,
+        "parentId": "1092737081912070224"
+      },
+      {
+        "id": "1092737161243152415",
+        "name": "₊˚🍒꒱・sh-rules",
+        "type": 0,
+        "position": 1,
+        "parentId": "1092737090107744296"
+      },
+      {
+        "id": "1122939373344796672",
+        "name": "modlogs",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1092737099746267177",
+        "name": "₊˚📢꒱・announcements",
+        "type": 0,
+        "position": 1,
+        "parentId": "1092737079756202114"
+      },
+      {
+        "id": "1211993329437245442",
+        "name": "🔥fire-gym",
+        "type": 0,
+        "position": 7,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1092737114606682124",
+        "name": "₊˚🎁꒱・ffa-giveaways",
+        "type": 0,
+        "position": 0,
+        "parentId": "1092737081912070224"
+      },
+      {
+        "id": "1211994230545846302",
+        "name": "⛰rock-gym",
+        "type": 0,
+        "position": 6,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1211993733189345310",
+        "name": "🍃grass-gym",
+        "type": 0,
+        "position": 3,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1092737203538497578",
+        "name": "₊˚🎲꒱・owo-play",
+        "type": 0,
+        "position": 1,
+        "parentId": "1092737093492547604"
+      },
+      {
+        "id": "1122954612043956264",
+        "name": "verify-here",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1122939372417843430",
+        "name": "wick-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1122937601612071004",
+        "name": "spam-2",
+        "type": 0,
+        "position": 1,
+        "parentId": "1122937288268206110"
+      },
+      {
+        "id": "1092737107316969473",
+        "name": "₊˚📢꒱・self-roles",
+        "type": 0,
+        "position": 2,
+        "parentId": "1092737079756202114"
+      },
+      {
+        "id": "1092737097338736722",
+        "name": "₊˚📢꒱・rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1092737079756202114"
+      },
+      {
+        "id": "1092737112526291005",
+        "name": "₊˚🌺꒱・invite-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1092737080448254084"
+      },
+      {
+        "id": "1092737169275228210",
+        "name": "₊˚🍒꒱・arena",
+        "type": 0,
+        "position": 6,
+        "parentId": "1092737090107744296"
+      },
+      {
+        "id": "1092737078749564988",
+        "name": "📊 SERVER STATS 📊",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1092737165710069800",
+        "name": "₊˚🍒꒱・sh-spawn-1",
+        "type": 0,
+        "position": 4,
+        "parentId": "1092737090107744296"
+      },
+      {
+        "id": "1211994023594688602",
+        "name": "🙂normal-gym",
+        "type": 0,
+        "position": 5,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1092737077629689956",
+        "name": "₊˚🍦꒱・click-me",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1211993463692853298",
+        "name": "🌊-water-gym",
+        "type": 0,
+        "position": 0,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1092737108600434728",
+        "name": "₊˚⭐꒱・staff meeting",
+        "type": 2,
+        "position": 0,
+        "parentId": "1092737094897639424"
+      },
+      {
+        "id": "1092737154284781589",
+        "name": "₊˚🍪꒱・media-share",
+        "type": 0,
+        "position": 2,
+        "parentId": "1092737088136421436"
+      },
+      {
+        "id": "1092737166737678386",
+        "name": "₊˚🍒꒱・sh-spawn-2",
+        "type": 0,
+        "position": 5,
+        "parentId": "1092737090107744296"
+      },
+      {
+        "id": "1211997281155285012",
+        "name": "👻ghost-gym",
+        "type": 0,
+        "position": 16,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1211994737163247616",
+        "name": "☠poison-gym",
+        "type": 0,
+        "position": 10,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1282008369053437973",
+        "name": "🗻ground-gym",
+        "type": 0,
+        "position": 2,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1211995392770707518",
+        "name": "🔩steel-gym",
+        "type": 0,
+        "position": 14,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1092737206264803429",
+        "name": "₊˚🎲꒱・akinator",
+        "type": 0,
+        "position": 2,
+        "parentId": "1092737093492547604"
+      },
+      {
+        "id": "1122937540383621130",
+        "name": "spam-1",
+        "type": 0,
+        "position": 0,
+        "parentId": "1122937288268206110"
+      },
+      {
+        "id": "1092737093492547604",
+        "name": "𒁷├───╮🎲│・other bots",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1092737113616810024",
+        "name": "₊˚🌺꒱・goodbye",
+        "type": 0,
+        "position": 2,
+        "parentId": "1092737080448254084"
+      },
+      {
+        "id": "1218010840956014652",
+        "name": "gym-logs",
+        "type": 0,
+        "position": 18,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1092737162543370270",
+        "name": "₊˚🍒꒱・ffa-spawn-1",
+        "type": 0,
+        "position": 2,
+        "parentId": "1092737090107744296"
+      },
+      {
+        "id": "1211993804773793813",
+        "name": "🐲dragon-gym",
+        "type": 0,
+        "position": 4,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1122936287419187333",
+        "name": "₊˚🤌꒱・∆clan-duel∆-1",
+        "type": 0,
+        "position": 0,
+        "parentId": "1122935779111469238"
+      },
+      {
+        "id": "1211995190479294524",
+        "name": "🐞bug-gym",
+        "type": 0,
+        "position": 13,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1211994628610465802",
+        "name": "🧚♀fairy-gym",
+        "type": 0,
+        "position": 9,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1092737214418518076",
+        "name": "₊˚⭐꒱・staff-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1092737094897639424"
+      },
+      {
+        "id": "1092737163990413362",
+        "name": "₊˚🍒꒱・ffa-spawn-2",
+        "type": 0,
+        "position": 3,
+        "parentId": "1092737090107744296"
+      },
+      {
+        "id": "1092737111532257320",
+        "name": "₊˚🌺꒱・welcomes",
+        "type": 0,
+        "position": 0,
+        "parentId": "1092737080448254084"
+      },
+      {
+        "id": "1211992915925278781",
+        "name": "gyms",
+        "type": 4,
+        "position": 11,
+        "parentId": null
+      },
+      {
+        "id": "1092737160119058503",
+        "name": "₊˚🍒꒱・starboard",
+        "type": 0,
+        "position": 0,
+        "parentId": "1092737090107744296"
+      },
+      {
+        "id": "1092737081912070224",
+        "name": "𒁷├───╮🎁│・giveaways",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1092737202183737374",
+        "name": "chat-and-chill",
+        "type": 0,
+        "position": 0,
+        "parentId": "1092737093492547604"
+      },
+      {
+        "id": "1122941069080932493",
+        "name": "𒁷├───╮🔖│・Tickets",
+        "type": 4,
+        "position": 10,
+        "parentId": null
+      },
+      {
+        "id": "1092737120726175824",
+        "name": "₊˚🎁꒱・giveaways-proofs",
+        "type": 0,
+        "position": 2,
+        "parentId": "1092737081912070224"
+      },
+      {
+        "id": "1211995078348771328",
+        "name": "🌘dark-gym",
+        "type": 0,
+        "position": 12,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1092737151545917470",
+        "name": "₊˚🍪꒱・general-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1092737088136421436"
+      },
+      {
+        "id": "1211994352306360381",
+        "name": "❄ice-gym",
+        "type": 0,
+        "position": 8,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1211997013860679710",
+        "name": "🦅-flying-gym",
+        "type": 0,
+        "position": 15,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1092737219216818226",
+        "name": "₊˚⭐꒱・spam",
+        "type": 0,
+        "position": 3,
+        "parentId": "1092737094897639424"
+      },
+      {
+        "id": "1122935779111469238",
+        "name": "𒁷├───╮🫸🪅🫷│・Clan-Duels",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1092737217614585876",
+        "name": "₊˚⭐꒱・logs",
+        "type": 0,
+        "position": 2,
+        "parentId": "1092737094897639424"
+      },
+      {
+        "id": "1122941222957355139",
+        "name": "₊˚🔖꒱・ticket-create",
+        "type": 0,
+        "position": 0,
+        "parentId": "1122941069080932493"
+      },
+      {
+        "id": "1092737080448254084",
+        "name": "𒁷├───╮🌺│・salutation",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1092737216062685224",
+        "name": "₊˚⭐꒱・staff-commands",
+        "type": 0,
+        "position": 1,
+        "parentId": "1092737094897639424"
+      },
+      {
+        "id": "1211998198789312532",
+        "name": "⚡electric-gym",
+        "type": 0,
+        "position": 17,
+        "parentId": "1211992915925278781"
+      },
+      {
+        "id": "1092737210597527592",
+        "name": "₊˚🎲꒱・karuta",
+        "type": 0,
+        "position": 4,
+        "parentId": "1092737093492547604"
+      },
+      {
+        "id": "1092737152766451742",
+        "name": "₊˚🍪꒱・bot-commands",
+        "type": 0,
+        "position": 1,
+        "parentId": "1092737088136421436"
+      },
+      {
+        "id": "1092737168012750898",
+        "name": "₊˚🍒꒱・poke-flex",
+        "type": 0,
+        "position": 7,
+        "parentId": "1092737090107744296"
+      },
+      {
+        "id": "1092737079756202114",
+        "name": "𒁷├───╮📢│・ Important",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1092737207430815755",
+        "name": "₊˚🎲꒱・mewbot",
+        "type": 0,
+        "position": 3,
+        "parentId": "1092737093492547604"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1092737007282823199",
+        "name": "𒄑𒆕・sᴛᴀғғ",
+        "color": 11730690,
+        "permissions": "1071698538049",
+        "position": 105,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737029340672040",
+        "name": "•『 GIVΣΔШΔΨ PIΠG 』•",
+        "color": 0,
+        "permissions": "968619314753",
+        "position": 83,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737074169389137",
+        "name": "Muted",
+        "color": 16316665,
+        "permissions": "1024",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737053516644362",
+        "name": "𒄑𒆕Owo Players",
+        "color": 1551494,
+        "permissions": "141802406977",
+        "position": 59,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737013209370654",
+        "name": "●❯──—͟͟͞𒄈 GΨM LΣΔDΣRS",
+        "color": 10631534,
+        "permissions": "141802408961",
+        "position": 99,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1092737030779310140",
+        "name": "•『 IΠCΣΠSΣ PIΠG 』•",
+        "color": 0,
+        "permissions": "968619314753",
+        "position": 82,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737064233074730",
+        "name": "╭─────⎝ ・     D O Π Δ T I O Π S      ・ ⎠───➤",
+        "color": 0,
+        "permissions": "141802409025",
+        "position": 49,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092736998961328149",
+        "name": "Raven OP",
+        "color": 197122,
+        "permissions": "141802409025",
+        "position": 112,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1092737075373146263",
+        "name": "ACCESS",
+        "color": 0,
+        "permissions": "141735300097",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737005336666212",
+        "name": "𒄑𒆕 TRIAL MOD",
+        "color": 65535,
+        "permissions": "10985976885191",
+        "position": 107,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1092737010998980688",
+        "name": "𒄑𒆕Helpers",
+        "color": 15277667,
+        "permissions": "8939103390913",
+        "position": 101,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1092737027587444796",
+        "name": "•『 ΔΠΠΩUΠCΣMΣΠT PIΠG 』•",
+        "color": 0,
+        "permissions": "968619314753",
+        "position": 85,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092736998013407302",
+        "name": "=========== Admin Roles ============",
+        "color": 0,
+        "permissions": "1071698529857",
+        "position": 113,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092736994477617222",
+        "name": "Owners",
+        "color": 14941991,
+        "permissions": "28587301797887",
+        "position": 117,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1092737055718649887",
+        "name": "𒄑𒆕Mafia Players",
+        "color": 1526907,
+        "permissions": "141802406977",
+        "position": 57,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737073041117265",
+        "name": "Muted",
+        "color": 8487814,
+        "permissions": "141802409025",
+        "position": 41,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737060852473856",
+        "name": "•『Asia』•",
+        "color": 12003574,
+        "permissions": "141802406977",
+        "position": 52,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737023166656514",
+        "name": "●❯──—͟͟͞𒄈「PARTNERS」",
+        "color": 14286926,
+        "permissions": "141802406977",
+        "position": 89,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1092737028464054292",
+        "name": "•『 Σ∇ΣΠT PIΠG 』•",
+        "color": 0,
+        "permissions": "968619314753",
+        "position": 84,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737045358723142",
+        "name": "•『🥤 βLUΣ 』•",
+        "color": 407807,
+        "permissions": "141802409025",
+        "position": 67,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737069622775818",
+        "name": "Myuu Role",
+        "color": 0,
+        "permissions": "141802406977",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737038287118406",
+        "name": "•『 ҒΣMΔLΣ 』•",
+        "color": 10225404,
+        "permissions": "141802406977",
+        "position": 75,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737046231126026",
+        "name": "•『 🍇PURPLΣ 』•",
+        "color": 7419530,
+        "permissions": "141802409025",
+        "position": 66,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737036278046760",
+        "name": "╭──────⎝ ・   G Σ Π D Σ R    ・ ⎠─────➤",
+        "color": 0,
+        "permissions": "141802409025",
+        "position": 77,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737004397133854",
+        "name": "𒄑𒆕 ᴍᴏᴅ",
+        "color": 14973041,
+        "permissions": "968619314753",
+        "position": 108,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1092737047166468126",
+        "name": "•『 🌸PIΠҜ 』•",
+        "color": 15404738,
+        "permissions": "141802409025",
+        "position": 65,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737009115734056",
+        "name": "𒄑𒆕・ᴇᴠᴇɴᴛ ᴍᴀɴᴀɢᴇʀ",
+        "color": 95,
+        "permissions": "141802409025",
+        "position": 103,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737057769660456",
+        "name": "•『North America』•",
+        "color": 12003574,
+        "permissions": "141802406977",
+        "position": 55,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737026610176000",
+        "name": "╭───────⎝ ・     P I Π G S      ・ ⎠─────➤",
+        "color": 0,
+        "permissions": "141802409025",
+        "position": 86,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737059925524480",
+        "name": "•『Europe』•",
+        "color": 12003574,
+        "permissions": "141802406977",
+        "position": 53,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737014887088178",
+        "name": "╭───𒌋𒀖 「🜲・GAMBLE VERIFIED」",
+        "color": 0,
+        "permissions": "968619314753",
+        "position": 97,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092736995324874873",
+        "name": "Co Owners",
+        "color": 1115911,
+        "permissions": "141802409033",
+        "position": 116,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1092737066376384582",
+        "name": "🔥『BEST』ᴅᴏɴᴀᴛᴏʀ",
+        "color": 14988288,
+        "permissions": "141802409025",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737067441737788",
+        "name": "🔥『GOLD』ᴅᴏɴᴀᴛᴏʀ",
+        "color": 14988288,
+        "permissions": "141802409025",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737050484166696",
+        "name": "╭──────⎝ ・     G Δ M Σ      ・ ⎠─────➤",
+        "color": 0,
+        "permissions": "141802409025",
+        "position": 62,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737052644212756",
+        "name": "𒄑𒆕Dank Memer",
+        "color": 1534514,
+        "permissions": "141802406977",
+        "position": 60,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737040484937798",
+        "name": "•『🌹 RΣD 』•",
+        "color": 15158332,
+        "permissions": "141802409025",
+        "position": 73,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737061678743604",
+        "name": "•『Africa』•",
+        "color": 12003574,
+        "permissions": "141802406977",
+        "position": 51,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737042393354250",
+        "name": "•『 🌙ΨΣLLΩШ 』•",
+        "color": 15844367,
+        "permissions": "141802409025",
+        "position": 70,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092736996176306217",
+        "name": "King Coach",
+        "color": 328708,
+        "permissions": "141735300097",
+        "position": 115,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1092737024789839902",
+        "name": "●❯──—͟͟͞𒄈「T R Δ Σ Π Σ R」",
+        "color": 0,
+        "permissions": "141802408961",
+        "position": 88,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1092737019790237747",
+        "name": "●❯──—͟͟͞𒄈「UNTRUSTED GAMBLER」",
+        "color": 14103594,
+        "permissions": "968619314753",
+        "position": 93,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737020759126076",
+        "name": "╭───𒌋𒀖 「🜲・VΩTΞR ACCΞSS」",
+        "color": 9718259,
+        "permissions": "141802409025",
+        "position": 92,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737039411183646",
+        "name": "╭────────⎝ ・     C Ω L Ω U R      ・ ⎠───────➤",
+        "color": 0,
+        "permissions": "141802409025",
+        "position": 74,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737031483953263",
+        "name": "•『 DRΩP PIΠG  』•",
+        "color": 0,
+        "permissions": "968619314753",
+        "position": 81,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737051574685826",
+        "name": "𒄑𒆕Poketwo",
+        "color": 14988288,
+        "permissions": "141802406977",
+        "position": 61,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737008083935232",
+        "name": "𒄑𒆕・DESIGNERS",
+        "color": 15158332,
+        "permissions": "416948751441",
+        "position": 104,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1092737022608809994",
+        "name": "●❯──—͟͟͞𒄈「VIP」",
+        "color": 1902341,
+        "permissions": "4363193345",
+        "position": 90,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1092736992770543647",
+        "name": "Hidden Power",
+        "color": 0,
+        "permissions": "28587301797887",
+        "position": 119,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737056565903390",
+        "name": "╭──────⎝ ・     R Σ G I O Π S      ・ ⎠─────➤",
+        "color": 0,
+        "permissions": "141802409025",
+        "position": 56,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1091986962707132447",
+        "name": "Temp Mod",
+        "color": 0,
+        "permissions": "2171373875151",
+        "position": 120,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737049091637249",
+        "name": "•『◽ШHITΣ 』•",
+        "color": 16777215,
+        "permissions": "141802409025",
+        "position": 63,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737043060236362",
+        "name": "•『☘️ GRΣΣΠ 』•",
+        "color": 3066993,
+        "permissions": "141802409025",
+        "position": 69,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737059015360612",
+        "name": "•『South America』•",
+        "color": 12003574,
+        "permissions": "141802406977",
+        "position": 54,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737070906212352",
+        "name": "Mewbot",
+        "color": 0,
+        "permissions": "141802406977",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737062337257484",
+        "name": "•『Australia』•",
+        "color": 12003574,
+        "permissions": "141802409025",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737048223424605",
+        "name": "•『 ◼️ βLΔCҜ 』•",
+        "color": 131586,
+        "permissions": "141802409025",
+        "position": 64,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737054665879582",
+        "name": "𒄑𒆕Karuta",
+        "color": 11429888,
+        "permissions": "141802406977",
+        "position": 58,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737021702840371",
+        "name": "●❯──—͟͟͞𒄈「SERVER BUMPERS」",
+        "color": 8845681,
+        "permissions": "141802405953",
+        "position": 91,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737037146259497",
+        "name": "•『 MΔLΣ 』•",
+        "color": 26367,
+        "permissions": "141802406977",
+        "position": 76,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737017252675635",
+        "name": "●❯──—͟͟͞𒄈「MIDDLEMAN」",
+        "color": 15453715,
+        "permissions": "968619322945",
+        "position": 95,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1092736993659736175",
+        "name": "Founder 👑",
+        "color": 197122,
+        "permissions": "141802409033",
+        "position": 118,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1092736997174546522",
+        "name": "B'day Boi",
+        "color": 15158332,
+        "permissions": "968619314753",
+        "position": 114,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1092737003256303626",
+        "name": "•『 Currency Bot's 』•",
+        "color": 7419530,
+        "permissions": "141735300097",
+        "position": 109,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737006016139295",
+        "name": "DKG",
+        "color": 131586,
+        "permissions": "28037546508287",
+        "position": 106,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1092737000995561552",
+        "name": "╭───𒌋𒀖 「🜲・BΩTS」",
+        "color": 460294,
+        "permissions": "150593670169",
+        "position": 110,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1092737018825547817",
+        "name": "●❯──—͟͟͞𒄈「TRUSTED GAMBLER」",
+        "color": 2474073,
+        "permissions": "968619314753",
+        "position": 94,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737016162156654",
+        "name": "●❯──—͟͟͞𒄈「GAMBLING OVERWATCHER」",
+        "color": 1769232,
+        "permissions": "968619322945",
+        "position": 96,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1092736999984726066",
+        "name": "𒄑𒆕・ᴀᴅᴍɪɴ",
+        "color": 6604974,
+        "permissions": "28587301797873",
+        "position": 111,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1122939313550807163",
+        "name": "Quarantine",
+        "color": 11765828,
+        "permissions": "0",
+        "position": 125,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737014018867200",
+        "name": "●❯──—͟͟͞𒄈「GAMBLE MUTE」",
+        "color": 0,
+        "permissions": "968619314753",
+        "position": 98,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737011703631893",
+        "name": "●❯──—͟͟͞𒄈「DOUBLE ʙᴏᴏsᴛᴇʀs」",
+        "color": 13959423,
+        "permissions": "141802409025",
+        "position": 100,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1092737041428660244",
+        "name": "•『 🍊ΩRΔΠGΣ 』•",
+        "color": 15105570,
+        "permissions": "141802409025",
+        "position": 72,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737035418226780",
+        "name": "•『 18- 』•",
+        "color": 0,
+        "permissions": "141802406977",
+        "position": 78,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737033971179531",
+        "name": "•『 18+ 』•",
+        "color": 0,
+        "permissions": "141802406977",
+        "position": 79,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737068423200810",
+        "name": "🔥『PLATINUM』ᴅᴏɴᴀᴛᴏʀ",
+        "color": 14988288,
+        "permissions": "141802409025",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737033073594470",
+        "name": "╭───────⎝ ・    Δ G Σ    ・ ⎠──────➤",
+        "color": 0,
+        "permissions": "141802409025",
+        "position": 80,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737010076225626",
+        "name": "𒄑𒆕・ɢʏᴍ ᴍᴀɴᴀɢᴇʀ",
+        "color": 990001,
+        "permissions": "468354198593",
+        "position": 102,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1092737064958701649",
+        "name": "🔥『ᴅᴏɴᴀᴛᴏʀ』",
+        "color": 15844367,
+        "permissions": "141802409025",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737044494688366",
+        "name": "•『☁️SKY 』•",
+        "color": 3447003,
+        "permissions": "141802409025",
+        "position": 68,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1092737025674854471",
+        "name": "𒄑𒆕 Clan Members",
+        "color": 16711903,
+        "permissions": "141735300097",
+        "position": 87,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1215962773679509604",
+        "name": "Developer",
+        "color": 7419530,
+        "permissions": "32957699452871",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1092737071992549487",
+        "name": "Mewbot Player",
+        "color": 0,
+        "permissions": "141802406977",
+        "position": 42,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845086
+  }
+}

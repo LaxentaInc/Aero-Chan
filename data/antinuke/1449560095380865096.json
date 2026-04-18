@@ -1,0 +1,83 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1449560096752271525",
+        "name": "Canais de texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1449560096752271526",
+        "name": "geral",
+        "type": 0,
+        "position": 0,
+        "parentId": "1449560096752271525"
+      },
+      {
+        "id": "1449560096752271529",
+        "name": "Canais de voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1449560096752271530",
+        "name": "Lounge",
+        "type": 2,
+        "position": 0,
+        "parentId": "1449560096752271529"
+      },
+      {
+        "id": "1449560096752271531",
+        "name": "Sala de transmissão",
+        "type": 2,
+        "position": 1,
+        "parentId": "1449560096752271529"
+      },
+      {
+        "id": "1468007559934775489",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1468007561860219115",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1468007559934775489"
+      },
+      {
+        "id": "1468007564787716249",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1468007559934775489"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1449560844009476147",
+        "name": "babie",
+        "color": 13671423,
+        "permissions": "1721807559716807",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1449561040311291916",
+        "name": "Bunnie 🐇",
+        "color": 16168959,
+        "permissions": "1721826618638327",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1772794561157
+  }
+}

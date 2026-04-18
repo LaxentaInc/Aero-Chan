@@ -1,0 +1,171 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1280691717770838017",
+        "name": "patient rooms",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1280691717770838018",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1280691717770838019",
+        "name": "nonsense",
+        "type": 0,
+        "position": 0,
+        "parentId": "1280691717770838017"
+      },
+      {
+        "id": "1280691717770838020",
+        "name": "asmr",
+        "type": 2,
+        "position": 0,
+        "parentId": "1280691717770838018"
+      },
+      {
+        "id": "1449537129482031144",
+        "name": "lonely🥺🙁",
+        "type": 0,
+        "position": 1,
+        "parentId": "1280691717770838017"
+      },
+      {
+        "id": "1479979118874460261",
+        "name": "waifu-channel🥺🥺degenerate",
+        "type": 0,
+        "position": 0,
+        "parentId": "1479980445428093049"
+      },
+      {
+        "id": "1479980376217751552",
+        "name": "husbandos-i-guess",
+        "type": 0,
+        "position": 1,
+        "parentId": "1479980445428093049"
+      },
+      {
+        "id": "1479980445428093049",
+        "name": "degeneracy",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1479986598753075391",
+        "name": "low-quality-gambling",
+        "type": 0,
+        "position": 1,
+        "parentId": "1480011471231389778"
+      },
+      {
+        "id": "1479993861920264444",
+        "name": "gambling",
+        "type": 0,
+        "position": 0,
+        "parentId": "1480011471231389778"
+      },
+      {
+        "id": "1480004256806469865",
+        "name": "daily-yaoi",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1480011471231389778",
+        "name": "casino",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1480018591079333963",
+        "name": "Aero",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1480018595672232087",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1480018591079333963"
+      },
+      {
+        "id": "1480018616002019483",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1480018591079333963"
+      },
+      {
+        "id": "1480681683719033015",
+        "name": "healing-❤️‍🩹-clinic",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1480932364023627879",
+        "name": "midevil-roplay",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1481057041727619204",
+        "name": "daily-yuri",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1280695696378302534",
+        "name": "anal beads armstrong",
+        "color": 12659562,
+        "permissions": "1721835208572927",
+        "position": 6,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1313710590052794388",
+        "name": "the butt plug barnacle",
+        "color": 13797994,
+        "permissions": "8864262742605823",
+        "position": 5,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1449535743855951954",
+        "name": "gay homo married 2 aiden",
+        "color": 11125879,
+        "permissions": "8864262742605823",
+        "position": 4,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1480307727791165582",
+        "name": "DUMPSTER",
+        "color": 11845755,
+        "permissions": "8864258447638527",
+        "position": 1,
+        "hoist": true,
+        "mentionable": true
+      }
+    ],
+    "updated": 1776540845153
+  }
+}

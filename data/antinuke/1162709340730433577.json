@@ -1,0 +1,773 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1170037204966449153",
+        "name": "Members: 24",
+        "type": 2,
+        "position": 1,
+        "parentId": "1170037196577853531"
+      },
+      {
+        "id": "1192179043177594880",
+        "name": "asian-dad",
+        "type": 0,
+        "position": 10,
+        "parentId": "1165383576888545290"
+      },
+      {
+        "id": "1168926899934867516",
+        "name": "geo",
+        "type": 0,
+        "position": 4,
+        "parentId": "1167832049332273152"
+      },
+      {
+        "id": "1163120608071122994",
+        "name": "countryballs",
+        "type": 0,
+        "position": 8,
+        "parentId": "1162709341204385883"
+      },
+      {
+        "id": "1168135649531023420",
+        "name": "important",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1165267236831899718",
+        "name": "bot-commands",
+        "type": 0,
+        "position": 0,
+        "parentId": "1165383576888545290"
+      },
+      {
+        "id": "1162709341204385886",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1162709341204385884"
+      },
+      {
+        "id": "1170037209236246600",
+        "name": "Bots: 37",
+        "type": 2,
+        "position": 2,
+        "parentId": "1170037196577853531"
+      },
+      {
+        "id": "1175166067048468550",
+        "name": "talking",
+        "type": 2,
+        "position": 3,
+        "parentId": "1162709341204385884"
+      },
+      {
+        "id": "1167832467525337158",
+        "name": "rock-paper-scissors",
+        "type": 0,
+        "position": 2,
+        "parentId": "1167832049332273152"
+      },
+      {
+        "id": "1170037196577853531",
+        "name": "SERVER STATS",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1162759232328839259",
+        "name": "ballsdex",
+        "type": 0,
+        "position": 2,
+        "parentId": "1162713609906950254"
+      },
+      {
+        "id": "1198627846944473231",
+        "name": "welcome-logs",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1163120040984444958",
+        "name": "empiredex",
+        "type": 0,
+        "position": 3,
+        "parentId": "1162713609906950254"
+      },
+      {
+        "id": "1162709341204385883",
+        "name": "Chatting",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1170037200428208318",
+        "name": "All Members: 61",
+        "type": 2,
+        "position": 0,
+        "parentId": "1170037196577853531"
+      },
+      {
+        "id": "1168135709685731419",
+        "name": "partnerships",
+        "type": 0,
+        "position": 1,
+        "parentId": "1168135649531023420"
+      },
+      {
+        "id": "1162710487356674088",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1163120557055803432",
+        "name": "art",
+        "type": 0,
+        "position": 2,
+        "parentId": "1162709341204385883"
+      },
+      {
+        "id": "1163495803042668707",
+        "name": "historicaldex",
+        "type": 0,
+        "position": 5,
+        "parentId": "1162713609906950254"
+      },
+      {
+        "id": "1163077265102487583",
+        "name": "games",
+        "type": 2,
+        "position": 1,
+        "parentId": "1162709341204385884"
+      },
+      {
+        "id": "1165787119596355675",
+        "name": "pugian-money",
+        "type": 0,
+        "position": 5,
+        "parentId": "1165383576888545290"
+      },
+      {
+        "id": "1162759199785226290",
+        "name": "worlddex",
+        "type": 0,
+        "position": 1,
+        "parentId": "1162713609906950254"
+      },
+      {
+        "id": "1193583364469428294",
+        "name": "five-nights-at-pugias",
+        "type": 0,
+        "position": 5,
+        "parentId": "1168135649531023420"
+      },
+      {
+        "id": "1192174546028085379",
+        "name": "kebab-bot",
+        "type": 0,
+        "position": 8,
+        "parentId": "1165383576888545290"
+      },
+      {
+        "id": "1167832535921860629",
+        "name": "connect-4",
+        "type": 0,
+        "position": 3,
+        "parentId": "1167832049332273152"
+      },
+      {
+        "id": "1163120219477258311",
+        "name": "historydex",
+        "type": 0,
+        "position": 4,
+        "parentId": "1162713609906950254"
+      },
+      {
+        "id": "1189565491392565278",
+        "name": "server-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1189564844828000376"
+      },
+      {
+        "id": "1167845912580726905",
+        "name": "staff-chat",
+        "type": 0,
+        "position": 2,
+        "parentId": "1189564844828000376"
+      },
+      {
+        "id": "1169644414029807687",
+        "name": "pugian-emperor-polls",
+        "type": 0,
+        "position": 4,
+        "parentId": "1168135649531023420"
+      },
+      {
+        "id": "1168576256019804190",
+        "name": "shiping",
+        "type": 0,
+        "position": 3,
+        "parentId": "1165383576888545290"
+      },
+      {
+        "id": "1167845191395323984",
+        "name": "lounge",
+        "type": 2,
+        "position": 2,
+        "parentId": "1162709341204385884"
+      },
+      {
+        "id": "1168464873601122396",
+        "name": "german-reich-bot",
+        "type": 0,
+        "position": 6,
+        "parentId": "1165383576888545290"
+      },
+      {
+        "id": "1163031929537433640",
+        "name": "polls",
+        "type": 0,
+        "position": 7,
+        "parentId": "1162709341204385883"
+      },
+      {
+        "id": "1162709779949559858",
+        "name": "pugia-conquest-for-new-land",
+        "type": 0,
+        "position": 5,
+        "parentId": "1162709341204385883"
+      },
+      {
+        "id": "1162759172958466210",
+        "name": "asiadex",
+        "type": 0,
+        "position": 0,
+        "parentId": "1162713609906950254"
+      },
+      {
+        "id": "1166765790163374200",
+        "name": "memes",
+        "type": 0,
+        "position": 10,
+        "parentId": "1162709341204385883"
+      },
+      {
+        "id": "1162709554136625202",
+        "name": "fanart",
+        "type": 0,
+        "position": 1,
+        "parentId": "1162709341204385883"
+      },
+      {
+        "id": "1189564844828000376",
+        "name": "STAFF ONLY",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1165626907811917874",
+        "name": "submissions",
+        "type": 0,
+        "position": 9,
+        "parentId": "1162709341204385883"
+      },
+      {
+        "id": "1185938916327559280",
+        "name": "wheel-of-names",
+        "type": 0,
+        "position": 5,
+        "parentId": "1167832049332273152"
+      },
+      {
+        "id": "1168136141963264031",
+        "name": "partnership-requirments",
+        "type": 0,
+        "position": 2,
+        "parentId": "1168135649531023420"
+      },
+      {
+        "id": "1162715756081971211",
+        "name": "self-promote",
+        "type": 0,
+        "position": 6,
+        "parentId": "1162709341204385883"
+      },
+      {
+        "id": "1167832277103947856",
+        "name": "fight",
+        "type": 0,
+        "position": 1,
+        "parentId": "1167832049332273152"
+      },
+      {
+        "id": "1198628091015204866",
+        "name": "exit-logs",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1162710487356674090",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 0,
+        "parentId": "1189564844828000376"
+      },
+      {
+        "id": "1168588093083877407",
+        "name": "spam",
+        "type": 0,
+        "position": 11,
+        "parentId": "1162709341204385883"
+      },
+      {
+        "id": "1168464803816296468",
+        "name": "yggdrasil",
+        "type": 0,
+        "position": 2,
+        "parentId": "1165383576888545290"
+      },
+      {
+        "id": "1162709341204385885",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1162709341204385883"
+      },
+      {
+        "id": "1190118157801762856",
+        "name": "chemicalsalts place",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1193538321142530148",
+        "name": "dank-memer",
+        "type": 0,
+        "position": 6,
+        "parentId": "1167832049332273152"
+      },
+      {
+        "id": "1192178992980181103",
+        "name": "chat-gpt",
+        "type": 0,
+        "position": 9,
+        "parentId": "1165383576888545290"
+      },
+      {
+        "id": "1175149216826396812",
+        "name": "art-disscusion",
+        "type": 15,
+        "position": 3,
+        "parentId": "1162709341204385883"
+      },
+      {
+        "id": "1165383576888545290",
+        "name": "bots",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1201152469271576596",
+        "name": "milneniums-dex",
+        "type": 0,
+        "position": 8,
+        "parentId": "1162713609906950254"
+      },
+      {
+        "id": "1163241259113123850",
+        "name": "notsobot",
+        "type": 0,
+        "position": 1,
+        "parentId": "1165383576888545290"
+      },
+      {
+        "id": "1162712784778313758",
+        "name": "announcments",
+        "type": 5,
+        "position": 0,
+        "parentId": "1168135649531023420"
+      },
+      {
+        "id": "1189912246516727838",
+        "name": "media",
+        "type": 0,
+        "position": 4,
+        "parentId": "1162709341204385883"
+      },
+      {
+        "id": "1162713609906950254",
+        "name": "Ballsdex",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1168201782678274170",
+        "name": "welcome",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1175795989983006840",
+        "name": "wardex",
+        "type": 0,
+        "position": 7,
+        "parentId": "1162713609906950254"
+      },
+      {
+        "id": "1167832049332273152",
+        "name": "games",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1166746076968136724",
+        "name": "lawliet",
+        "type": 0,
+        "position": 4,
+        "parentId": "1165383576888545290"
+      },
+      {
+        "id": "1165707547504816158",
+        "name": "co-leader-polls",
+        "type": 0,
+        "position": 3,
+        "parentId": "1168135649531023420"
+      },
+      {
+        "id": "1162709341204385884",
+        "name": "Voice channels",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1170337374950137907",
+        "name": "nationdex",
+        "type": 0,
+        "position": 6,
+        "parentId": "1162713609906950254"
+      },
+      {
+        "id": "1167832086808367144",
+        "name": "tictactoe",
+        "type": 0,
+        "position": 0,
+        "parentId": "1167832049332273152"
+      },
+      {
+        "id": "1190289771835162744",
+        "name": "court-bot",
+        "type": 0,
+        "position": 7,
+        "parentId": "1165383576888545290"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1165701097185349642",
+        "name": "Homosexual",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1168266607190093926",
+        "name": "Turan Union [TUTC]",
+        "color": 49919,
+        "permissions": "420013441810431",
+        "position": 58,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1166471164915372144",
+        "name": "Co-Leader",
+        "color": 7938002,
+        "permissions": "1099511627782",
+        "position": 67,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1165701298042187996",
+        "name": "Co-Leader Vote Ping",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165700762215653446",
+        "name": "Anglican Christian",
+        "color": 11018686,
+        "permissions": "0",
+        "position": 53,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165700642170490911",
+        "name": "Catholic Christian",
+        "color": 7694885,
+        "permissions": "0",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165700887147196597",
+        "name": "Atheist  ||",
+        "color": 11131641,
+        "permissions": "0",
+        "position": 49,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165700688471400526",
+        "name": "Orthodox Christian",
+        "color": 11086121,
+        "permissions": "0",
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1162710864923742210",
+        "name": "Administration",
+        "color": 15158332,
+        "permissions": "1099511627823",
+        "position": 65,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1162710746669527100",
+        "name": "Moderator",
+        "color": 3066993,
+        "permissions": "18691769106470",
+        "position": 63,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1165701264710053978",
+        "name": "Pugian Emperor Vote",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165700584087756920",
+        "name": "Protestant Christian",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 56,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1189548927263969361",
+        "name": "§　　　　　　　　　　　　PINGS　　　　　　　　　　　§",
+        "color": 1052688,
+        "permissions": "0",
+        "position": 42,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165701123588493435",
+        "name": "Pansexual",
+        "color": 2572413,
+        "permissions": "0",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1189548642693030030",
+        "name": "§　　　　　　　　　　　　　INFO　　　　　　　　　　　§",
+        "color": 1052688,
+        "permissions": "0",
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165700823356031097",
+        "name": "Sunni Muslim",
+        "color": 1127241,
+        "permissions": "0",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1168243942999994368",
+        "name": "Partnership Ping",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165699422009696308",
+        "name": "Annoucements Ping",
+        "color": 1146986,
+        "permissions": "0",
+        "position": 41,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1165701149387653240",
+        "name": "Biseuxal",
+        "color": 11342935,
+        "permissions": "0",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165562367023783966",
+        "name": "Member",
+        "color": 3447003,
+        "permissions": "23061931085377",
+        "position": 59,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1165702785749229649",
+        "name": "Jew   ||",
+        "color": 2952995,
+        "permissions": "0",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165698402395357214",
+        "name": "Dead Ping",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1163033870350962748",
+        "name": "Pugian Emperor",
+        "color": 7419530,
+        "permissions": "1099511627782",
+        "position": 64,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1165700858734985257",
+        "name": "Shia Muslim",
+        "color": 986923,
+        "permissions": "0",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165701174335393872",
+        "name": "Omnisexual",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165701196049289327",
+        "name": "Asexual",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1162712373648425072",
+        "name": "𝐎𝐰𝐧𝐞𝐫",
+        "color": 15844367,
+        "permissions": "420013441810431",
+        "position": 68,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1166794766302851142",
+        "name": "Bots (Dex)",
+        "color": 7434660,
+        "permissions": "32957699452871",
+        "position": 61,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165701074083127397",
+        "name": "Straight",
+        "color": 2863899,
+        "permissions": "0",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1167867229107388437",
+        "name": "Poll Ping",
+        "color": 1146986,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1168598682388680744",
+        "name": "Bots (Chatbots)",
+        "color": 9150442,
+        "permissions": "31858024107585",
+        "position": 62,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1165558919020691506",
+        "name": "Bots",
+        "color": 5000031,
+        "permissions": "32959579025367",
+        "position": 60,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845214
+  }
+}

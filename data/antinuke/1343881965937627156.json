@@ -1,0 +1,615 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1463243768055595031",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1471229859593195623"
+      },
+      {
+        "id": "1358156767477109036",
+        "name": "📚┃products",
+        "type": 15,
+        "position": 3,
+        "parentId": "1343888462016811089"
+      },
+      {
+        "id": "1373814781886201926",
+        "name": "ticket-0003",
+        "type": 0,
+        "position": 2,
+        "parentId": "1348250521177296937"
+      },
+      {
+        "id": "1343888467804815380",
+        "name": "❓┃faq",
+        "type": 0,
+        "position": 0,
+        "parentId": "1343921606048747550"
+      },
+      {
+        "id": "1343921606048747550",
+        "name": "──── Support ────",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1375593787002454026",
+        "name": "closed-0004",
+        "type": 0,
+        "position": 3,
+        "parentId": "1348250521177296937"
+      },
+      {
+        "id": "1348250521177296937",
+        "name": "──── Tickets ────",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1343919634532929578",
+        "name": "🤔┃suggestions",
+        "type": 0,
+        "position": 2,
+        "parentId": "1343888466030891081"
+      },
+      {
+        "id": "1343937756493254758",
+        "name": "✨┃service-directory",
+        "type": 0,
+        "position": 5,
+        "parentId": "1343888462016811089"
+      },
+      {
+        "id": "1367782259134042193",
+        "name": "Interview",
+        "type": 2,
+        "position": 0,
+        "parentId": "1343928201650634855"
+      },
+      {
+        "id": "1362807360405377245",
+        "name": "📊┃polls",
+        "type": 0,
+        "position": 2,
+        "parentId": "1343888462016811089"
+      },
+      {
+        "id": "1371069521116528710",
+        "name": "formats",
+        "type": 0,
+        "position": 7,
+        "parentId": "1343928201650634855"
+      },
+      {
+        "id": "1447581076615594128",
+        "name": "ticket-0006",
+        "type": 0,
+        "position": 6,
+        "parentId": "1348250521177296937"
+      },
+      {
+        "id": "1343918074658689044",
+        "name": "💬┃general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1343888466030891081"
+      },
+      {
+        "id": "1343888466030891081",
+        "name": "──── Everyone ────",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1401748653047025767",
+        "name": "closed-0004",
+        "type": 0,
+        "position": 4,
+        "parentId": "1348250521177296937"
+      },
+      {
+        "id": "1343928201650634855",
+        "name": "──── STAFF ────",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1343888468492685334",
+        "name": "🔗┃links",
+        "type": 0,
+        "position": 4,
+        "parentId": "1343888462016811089"
+      },
+      {
+        "id": "1343918203717292102",
+        "name": "🎥┃media",
+        "type": 0,
+        "position": 1,
+        "parentId": "1343888466030891081"
+      },
+      {
+        "id": "1348250787242840074",
+        "name": "📦┃logs",
+        "type": 0,
+        "position": 3,
+        "parentId": "1343928201650634855"
+      },
+      {
+        "id": "1363019654926307568",
+        "name": "attendance",
+        "type": 0,
+        "position": 6,
+        "parentId": "1343928201650634855"
+      },
+      {
+        "id": "1363423209227157705",
+        "name": "partner-chat",
+        "type": 0,
+        "position": 2,
+        "parentId": "1362818194112385235"
+      },
+      {
+        "id": "1362809107785977866",
+        "name": "🏠┃door",
+        "type": 0,
+        "position": 6,
+        "parentId": "1343888462016811089"
+      },
+      {
+        "id": "1362818194112385235",
+        "name": "──── Partnerships ────",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1343928278955720726",
+        "name": "🔒┃staff-chat",
+        "type": 0,
+        "position": 2,
+        "parentId": "1343928201650634855"
+      },
+      {
+        "id": "1447580848919679119",
+        "name": "ticket-0005",
+        "type": 0,
+        "position": 5,
+        "parentId": "1348250521177296937"
+      },
+      {
+        "id": "1471229859593195623",
+        "name": "Aero",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1343888462016811089",
+        "name": "──── Important ────",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1369559515409678377",
+        "name": "ticket-0002",
+        "type": 0,
+        "position": 0,
+        "parentId": "1348250521177296937"
+      },
+      {
+        "id": "1362819304617410570",
+        "name": "😴┃contact",
+        "type": 0,
+        "position": 5,
+        "parentId": "1343928201650634855"
+      },
+      {
+        "id": "1357664736426070096",
+        "name": "🤝┃partners",
+        "type": 15,
+        "position": 1,
+        "parentId": "1362818194112385235"
+      },
+      {
+        "id": "1343921644640407623",
+        "name": "🎫┃support",
+        "type": 0,
+        "position": 1,
+        "parentId": "1343921606048747550"
+      },
+      {
+        "id": "1367782691898130493",
+        "name": "waiting-room",
+        "type": 2,
+        "position": 0,
+        "parentId": "1347495572373766214"
+      },
+      {
+        "id": "1343888464931979264",
+        "name": "📢┃announcements",
+        "type": 5,
+        "position": 1,
+        "parentId": "1343888462016811089"
+      },
+      {
+        "id": "1343926006108651580",
+        "name": "🔮┃mod-information",
+        "type": 0,
+        "position": 1,
+        "parentId": "1343928201650634855"
+      },
+      {
+        "id": "1357400030495117434",
+        "name": "📜┃how-to-partner",
+        "type": 0,
+        "position": 0,
+        "parentId": "1362818194112385235"
+      },
+      {
+        "id": "1343925268225458247",
+        "name": "🔔┃ticket-logs",
+        "type": 0,
+        "position": 4,
+        "parentId": "1343928201650634855"
+      },
+      {
+        "id": "1347495572373766214",
+        "name": "Interview room",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1343888466840391761",
+        "name": "📝┃info",
+        "type": 0,
+        "position": 0,
+        "parentId": "1343888462016811089"
+      },
+      {
+        "id": "1371072303990964265",
+        "name": "our-ad",
+        "type": 0,
+        "position": 8,
+        "parentId": "1343928201650634855"
+      },
+      {
+        "id": "1373695177322926120",
+        "name": "ticket-0003",
+        "type": 0,
+        "position": 1,
+        "parentId": "1348250521177296937"
+      },
+      {
+        "id": "1343928328901627975",
+        "name": "📣┃staff-news",
+        "type": 0,
+        "position": 0,
+        "parentId": "1343928201650634855"
+      },
+      {
+        "id": "1358393081925468365",
+        "name": "Pterodactyl panel setup",
+        "type": 11,
+        "parentId": "1358156767477109036"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1343888738161266859",
+        "name": "Powers",
+        "color": 0,
+        "permissions": "3973626432323583",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1363157889794965724",
+        "name": "Chief Operating Officer (COO",
+        "color": 9699539,
+        "permissions": "8",
+        "position": 40,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363163785489289276",
+        "name": "Discord Administrator",
+        "color": 15728895,
+        "permissions": "8",
+        "position": 33,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158511156199604",
+        "name": "Verified Client",
+        "color": 9498256,
+        "permissions": "0",
+        "position": 18,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158195136237808",
+        "name": "- Department Roles -",
+        "color": 0,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1363158099371753482",
+        "name": "Senior Supervisor",
+        "color": 4620980,
+        "permissions": "0",
+        "position": 41,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1343925644500664471",
+        "name": "STAFF Team",
+        "color": 2003199,
+        "permissions": "3973607373402055",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1363158309036888074",
+        "name": "--- Support Roles ---",
+        "color": 0,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1363158156884054056",
+        "name": "Junior Supervisor",
+        "color": 11123913,
+        "permissions": "0",
+        "position": 30,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363161502781149295",
+        "name": "--- Executive Roles ---",
+        "color": 0,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1363157908711538999",
+        "name": "Chief Technical Officer (CTO)",
+        "color": 1644912,
+        "permissions": "8",
+        "position": 39,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158447574749277",
+        "name": "-- Community Roles --",
+        "color": 0,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1343888664853483560",
+        "name": "Powers",
+        "color": 0,
+        "permissions": "0",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1363158413793689883",
+        "name": "Helper",
+        "color": 11393254,
+        "permissions": "0",
+        "position": 21,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363157799378354186",
+        "name": "Chief Executive Officer (CEO)",
+        "color": 11156283,
+        "permissions": "8",
+        "position": 42,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158297804542114",
+        "name": "Sales Representative",
+        "color": 16747520,
+        "permissions": "0",
+        "position": 27,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158622896652328",
+        "name": "Muted",
+        "color": 9109504,
+        "permissions": "0",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1371092294874169405",
+        "name": "Chief Community Officer (CCO)",
+        "color": 14384766,
+        "permissions": "0",
+        "position": 38,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158569872134345",
+        "name": "Contributor",
+        "color": 65535,
+        "permissions": "0",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363157994900291844",
+        "name": "Chief of Sales",
+        "color": 16737792,
+        "permissions": "0",
+        "position": 36,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158039691006133",
+        "name": "-- Supervisor Roles --",
+        "color": 0,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1363158384085565661",
+        "name": "Support T1",
+        "color": 6737322,
+        "permissions": "0",
+        "position": 23,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158612154777640",
+        "name": "Bot",
+        "color": 11119017,
+        "permissions": "0",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1343930016274321468",
+        "name": "Member",
+        "color": 7506394,
+        "permissions": "0",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158272101585016",
+        "name": "Operations Team",
+        "color": 16758465,
+        "permissions": "0",
+        "position": 28,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158356222546173",
+        "name": "Support T3",
+        "color": 3050327,
+        "permissions": "0",
+        "position": 25,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1343925126898651197",
+        "name": "Customer",
+        "color": 3329330,
+        "permissions": "0",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158126576009346",
+        "name": "Supervisor",
+        "color": 8035246,
+        "permissions": "0",
+        "position": 31,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158371997323354",
+        "name": "Support T2",
+        "color": 3978097,
+        "permissions": "0",
+        "position": 24,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158017511788555",
+        "name": "Chief of Support",
+        "color": 28013,
+        "permissions": "0",
+        "position": 35,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158490025296084",
+        "name": "Community Moderator",
+        "color": 14204888,
+        "permissions": "0",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1380700874174890036",
+        "name": "Community Manager",
+        "color": 1441536,
+        "permissions": "0",
+        "position": 32,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363157974314516550",
+        "name": "Chief of Security",
+        "color": 14423100,
+        "permissions": "0",
+        "position": 37,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363158537588445476",
+        "name": "Partner",
+        "color": 16766720,
+        "permissions": "0",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845128
+  }
+}

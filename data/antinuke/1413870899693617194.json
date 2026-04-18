@@ -1,0 +1,164 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1413870900612304898",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1419338057475424269",
+        "name": "╭─── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ───╮",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1419338067604406392",
+        "name": "◤◢◣◥◤◢◣◥ VIBES ◤◢◣◥◤◢◣◥",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1419338069966065875",
+        "name": "💭│main-chat",
+        "type": 0,
+        "position": 3,
+        "parentId": "1419338067604406392"
+      },
+      {
+        "id": "1419338081294749760",
+        "name": "▬▬ι═══════ﺤ GAMING ▬▬ι═══════ﺤ",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1419338083689824318",
+        "name": "🔍│lfg-find-squad",
+        "type": 0,
+        "position": 0,
+        "parentId": "1419338081294749760"
+      },
+      {
+        "id": "1419338085405294663",
+        "name": "🏆│flex-your-wins",
+        "type": 0,
+        "position": 1,
+        "parentId": "1419338081294749760"
+      },
+      {
+        "id": "1419338087833538701",
+        "name": "🎮・Squad Alpha",
+        "type": 2,
+        "position": 0,
+        "parentId": "1419338081294749760"
+      },
+      {
+        "id": "1419338092958974025",
+        "name": "🎮・Solo Grind",
+        "type": 2,
+        "position": 1,
+        "parentId": "1419338081294749760"
+      },
+      {
+        "id": "1419338094947209216",
+        "name": "━━━━━━༻🔊༺━━━━━━",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1419338097065459713",
+        "name": "🌙・Late Night Vibes",
+        "type": 2,
+        "position": 1,
+        "parentId": "1419338094947209216"
+      },
+      {
+        "id": "1419338098902437998",
+        "name": "🎵・Music & Gaming",
+        "type": 2,
+        "position": 2,
+        "parentId": "1419338094947209216"
+      },
+      {
+        "id": "1419341359403503728",
+        "name": "🎮│gamer-talk",
+        "type": 0,
+        "position": 0,
+        "parentId": "1419338067604406392"
+      },
+      {
+        "id": "1419341361148203200",
+        "name": "🤖│bot-spam",
+        "type": 0,
+        "position": 1,
+        "parentId": "1419338067604406392"
+      },
+      {
+        "id": "1419341363136168076",
+        "name": "🔥│rage-quit-stories",
+        "type": 0,
+        "position": 2,
+        "parentId": "1419338067604406392"
+      },
+      {
+        "id": "1420081543141134456",
+        "name": "ticket-transcripts",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1422452085080723487",
+        "name": "💤・AFK Zone",
+        "type": 2,
+        "position": 0,
+        "parentId": "1419338094947209216"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1419338268683534356",
+        "name": "GAWDDEEEEEEEE",
+        "color": 11342935,
+        "permissions": "8",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1419338329094230017",
+        "name": "a",
+        "color": 0,
+        "permissions": "8",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1422446388620296192",
+        "name": "a",
+        "color": 0,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1422451697174970410",
+        "name": "TEST",
+        "color": 15277667,
+        "permissions": "8",
+        "position": 3,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845186
+  }
+}

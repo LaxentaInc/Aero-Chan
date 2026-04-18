@@ -1,0 +1,157 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1192904211474677831",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1192904211948638209",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1192904211948638210",
+        "name": "Lobby",
+        "type": 2,
+        "position": 0,
+        "parentId": "1192904211948638209"
+      },
+      {
+        "id": "1192904211948638211",
+        "name": "Gaming Area",
+        "type": 2,
+        "position": 1,
+        "parentId": "1192904211948638209"
+      },
+      {
+        "id": "1209096954865389578",
+        "name": "general",
+        "type": 0,
+        "position": 1,
+        "parentId": "1192904211474677831"
+      },
+      {
+        "id": "1209097117927481364",
+        "name": "bot-commands",
+        "type": 0,
+        "position": 9,
+        "parentId": "1192904211474677831"
+      },
+      {
+        "id": "1286463033228656713",
+        "name": "talk-to-linux",
+        "type": 0,
+        "position": 3,
+        "parentId": "1192904211474677831"
+      },
+      {
+        "id": "1286644192667504644",
+        "name": "Private Area",
+        "type": 2,
+        "position": 2,
+        "parentId": "1192904211948638209"
+      },
+      {
+        "id": "1288429701357899821",
+        "name": "talk-to-donald-trumpet",
+        "type": 0,
+        "position": 7,
+        "parentId": "1192904211474677831"
+      },
+      {
+        "id": "1288434240090017888",
+        "name": "talk-to-disha",
+        "type": 0,
+        "position": 4,
+        "parentId": "1192904211474677831"
+      },
+      {
+        "id": "1297178941110620302",
+        "name": "uptime-status",
+        "type": 0,
+        "position": 8,
+        "parentId": "1192904211474677831"
+      },
+      {
+        "id": "1301122317992067124",
+        "name": "public-chat",
+        "type": 0,
+        "position": 2,
+        "parentId": "1192904211474677831"
+      },
+      {
+        "id": "1326863127362404412",
+        "name": "talk-to-badmos",
+        "type": 0,
+        "position": 6,
+        "parentId": "1192904211474677831"
+      },
+      {
+        "id": "1326986550650732684",
+        "name": "talk-to-ayumi",
+        "type": 0,
+        "position": 5,
+        "parentId": "1192904211474677831"
+      },
+      {
+        "id": "1370320483345502260",
+        "name": "notice",
+        "type": 0,
+        "position": 0,
+        "parentId": "1192904211474677831"
+      },
+      {
+        "id": "1427542698914484314",
+        "name": "ticket-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1199660785543172156",
+        "name": "Administrator",
+        "color": 16711680,
+        "permissions": "2108863301550079",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1277718859021029508",
+        "name": "Authorised Member",
+        "color": 16766720,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1278093799809093774",
+        "name": "Owner",
+        "color": 65535,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1285988131799302215",
+        "name": "Bot Permission",
+        "color": 0,
+        "permissions": "32",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845064
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1062739501362978828",
+        "name": "general-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1468664190582526072"
+      },
+      {
+        "id": "1062768913890426921",
+        "name": "welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1062769001161306173"
+      },
+      {
+        "id": "1062769001161306173",
+        "name": "Administration",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1062769321413189642",
+        "name": "rules",
+        "type": 0,
+        "position": 1,
+        "parentId": "1062769001161306173"
+      },
+      {
+        "id": "1062769574451359924",
+        "name": "social-media",
+        "type": 0,
+        "position": 2,
+        "parentId": "1062769001161306173"
+      },
+      {
+        "id": "1062769884867604591",
+        "name": "suggestions",
+        "type": 0,
+        "position": 1,
+        "parentId": "1468664190582526072"
+      },
+      {
+        "id": "1062771992291455086",
+        "name": "youtube",
+        "type": 0,
+        "position": 3,
+        "parentId": "1062769001161306173"
+      },
+      {
+        "id": "1063855587978379264",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1463606642602934345",
+        "name": "trucky",
+        "type": 0,
+        "position": 2,
+        "parentId": "1463619675320488189"
+      },
+      {
+        "id": "1463619675320488189",
+        "name": "EuroTruckSimulator2",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1463619783449641104",
+        "name": "vtc-info",
+        "type": 0,
+        "position": 1,
+        "parentId": "1463619675320488189"
+      },
+      {
+        "id": "1463620161520144457",
+        "name": "announcements",
+        "type": 5,
+        "position": 0,
+        "parentId": "1463619675320488189"
+      },
+      {
+        "id": "1468659605470183641",
+        "name": "live-twich-kick",
+        "type": 0,
+        "position": 4,
+        "parentId": "1062769001161306173"
+      },
+      {
+        "id": "1468663456520470549",
+        "name": "Aero",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1468663464514818254",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1468663456520470549"
+      },
+      {
+        "id": "1468663470055751864",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1468663456520470549"
+      },
+      {
+        "id": "1468664190582526072",
+        "name": "General",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1062755689308626964",
+        "name": "Owner",
+        "color": 10038562,
+        "permissions": "28587301797887",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1062756219040829500",
+        "name": "Admin",
+        "color": 2067276,
+        "permissions": "28587301797887",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1063800787999932546",
+        "name": "Designer",
+        "color": 7419530,
+        "permissions": "1084550016065",
+        "position": 7,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1063804734445719643",
+        "name": "Balkan",
+        "color": 3447003,
+        "permissions": "981470792769",
+        "position": 6,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1063806809216921650",
+        "name": "Moderator",
+        "color": 15158332,
+        "permissions": "28582167964785",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845148
+  }
+}

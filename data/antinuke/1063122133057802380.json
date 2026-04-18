@@ -1,0 +1,124 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1063122133825364098",
+        "name": "general",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1063122133825364099",
+        "name": "welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1063122133825364098"
+      },
+      {
+        "id": "1063122133825364101",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1063122133825364102",
+        "name": "Lobby",
+        "type": 2,
+        "position": 0,
+        "parentId": "1063122133825364101"
+      },
+      {
+        "id": "1063122133825364103",
+        "name": "Gaming",
+        "type": 2,
+        "position": 1,
+        "parentId": "1063122133825364101"
+      },
+      {
+        "id": "1063124119933157451",
+        "name": "bot-commands",
+        "type": 0,
+        "position": 1,
+        "parentId": "1063122133825364098"
+      },
+      {
+        "id": "1063128495359803454",
+        "name": "talking",
+        "type": 0,
+        "position": 2,
+        "parentId": "1063122133825364098"
+      },
+      {
+        "id": "1063448125848682596",
+        "name": "staff only",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1063448198238191616",
+        "name": "game-brainstorming",
+        "type": 0,
+        "position": 0,
+        "parentId": "1063448125848682596"
+      },
+      {
+        "id": "1063452018187980831",
+        "name": "game-scripting",
+        "type": 0,
+        "position": 1,
+        "parentId": "1063448125848682596"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1063125790885167137",
+        "name": "owner",
+        "color": 15158332,
+        "permissions": "28587301797887",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1063126365961982122",
+        "name": "staff",
+        "color": 3447003,
+        "permissions": "2171222883907",
+        "position": 9,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1063126903973740714",
+        "name": "admins",
+        "color": 12745742,
+        "permissions": "28587301797623",
+        "position": 8,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1063132463595003964",
+        "name": "Unverified",
+        "color": 0,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1063132989611065394",
+        "name": "Verified",
+        "color": 0,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845216
+  }
+}

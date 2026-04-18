@@ -1,0 +1,196 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1485645799206424807",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1485645799206424808",
+        "name": "general💬",
+        "type": 0,
+        "position": 0,
+        "parentId": "1485645799206424807"
+      },
+      {
+        "id": "1485645799206424809",
+        "name": "clips-and-highlights🔔",
+        "type": 0,
+        "position": 1,
+        "parentId": "1485645799206424807"
+      },
+      {
+        "id": "1485645799206424810",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1485645799206424811",
+        "name": "Lobby🌐",
+        "type": 2,
+        "position": 0,
+        "parentId": "1485645799206424810"
+      },
+      {
+        "id": "1485645799206424812",
+        "name": "Gaming📱",
+        "type": 2,
+        "position": 1,
+        "parentId": "1485645799206424810"
+      },
+      {
+        "id": "1485646311805026434",
+        "name": "uhr-private💬🔒",
+        "type": 0,
+        "position": 2,
+        "parentId": "1485645799206424807"
+      },
+      {
+        "id": "1485649967505870999",
+        "name": "Screenshare room 01 🖥️",
+        "type": 2,
+        "position": 0,
+        "parentId": "1485650105360187675"
+      },
+      {
+        "id": "1485650105360187675",
+        "name": "Screenshare rooms",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1485650558864982156",
+        "name": "Screenshare room 02🖥️",
+        "type": 2,
+        "position": 1,
+        "parentId": "1485650105360187675"
+      },
+      {
+        "id": "1485651096801116160",
+        "name": "UHR private🎙️🔒",
+        "type": 2,
+        "position": 2,
+        "parentId": "1485645799206424810"
+      },
+      {
+        "id": "1485651730724294817",
+        "name": "⚔️1 vs 1⚔️",
+        "type": 2,
+        "position": 3,
+        "parentId": "1485645799206424810"
+      },
+      {
+        "id": "1485689945279565934",
+        "name": "Announcement",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1485693967432421497",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1485693967432421500",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1485694450972889088",
+        "name": "announcement📢",
+        "type": 5,
+        "position": 0,
+        "parentId": "1485689945279565934"
+      },
+      {
+        "id": "1485696488112783572",
+        "name": "gaming-chat📱💬",
+        "type": 0,
+        "position": 3,
+        "parentId": "1485645799206424807"
+      },
+      {
+        "id": "1486015078632390851",
+        "name": "Aero",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1486015081195241564",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1486015078632390851"
+      },
+      {
+        "id": "1486015083757965352",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1486015078632390851"
+      },
+      {
+        "id": "1486041132541677719",
+        "name": "minecraft-interests",
+        "type": 0,
+        "position": 4,
+        "parentId": "1485645799206424807"
+      },
+      {
+        "id": "1495018725563306044",
+        "name": "welcome💝",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1486333728694206464",
+        "name": "Hlw",
+        "type": 11,
+        "parentId": "1485693967432421497"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1485652165744660630",
+        "name": "IGL",
+        "color": 15990784,
+        "permissions": "1721826618638327",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1485654554296062032",
+        "name": "UHR",
+        "color": 3066993,
+        "permissions": "1720707884502593",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1485662166920204400",
+        "name": "Minecraft",
+        "color": 5898495,
+        "permissions": "1720707884502593",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845212
+  }
+}

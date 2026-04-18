@@ -1,0 +1,108 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1328342977755615324",
+        "name": "nsfw",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1328342977755615326",
+        "name": "general-of-worship",
+        "type": 0,
+        "position": 0,
+        "parentId": "1328342977755615329"
+      },
+      {
+        "id": "1328342977755615329",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1328342977755615333",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1328342978045018132",
+        "name": "Lounge",
+        "type": 2,
+        "position": 0,
+        "parentId": "1328342977755615333"
+      },
+      {
+        "id": "1328342978045018133",
+        "name": "Meeting Room",
+        "type": 2,
+        "position": 1,
+        "parentId": "1328342977755615333"
+      },
+      {
+        "id": "1328348869037391952",
+        "name": "nsfw-test",
+        "type": 0,
+        "position": 0,
+        "parentId": "1328342977755615324"
+      },
+      {
+        "id": "1350766131702530098",
+        "name": "uh",
+        "type": 0,
+        "position": 1,
+        "parentId": "1328342977755615324"
+      },
+      {
+        "id": "1395711707074007100",
+        "name": "commands-of-worship",
+        "type": 0,
+        "position": 1,
+        "parentId": "1328342977755615329"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1328779585931968656",
+        "name": "xken's slaves🤤🤤",
+        "color": 0,
+        "permissions": "1720707884502593",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1328781088620806265",
+        "name": "\"Always HORNY\"",
+        "color": 0,
+        "permissions": "1720707884502593",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1328781190743724032",
+        "name": "My lover🤫",
+        "color": 15277667,
+        "permissions": "1721807559716807",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1356341040709238855",
+        "name": "Freaky mod (xken's lover😝)",
+        "color": 15277667,
+        "permissions": "1721826618638327",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845129
+  }
+}

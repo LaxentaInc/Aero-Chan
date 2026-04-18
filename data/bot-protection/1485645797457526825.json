@@ -1,0 +1,65 @@
+{
+  "buttons": {
+    "restore_perms_155149108183695360": {
+      "type": "restore_perms",
+      "targetId": "155149108183695360",
+      "memberId": "155149108183695360",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Dyno",
+            "id": "1495017914808664157",
+            "permissions": [
+              "CreateInstantInvite",
+              "KickMembers",
+              "BanMembers",
+              "Administrator",
+              "ManageChannels",
+              "ManageGuild",
+              "ViewAuditLog",
+              "ViewChannel",
+              "SendMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "ReadMessageHistory",
+              "UseExternalEmojis",
+              "Connect",
+              "Speak",
+              "MoveMembers",
+              "UseVAD",
+              "ChangeNickname",
+              "ManageNicknames",
+              "ManageRoles",
+              "ManageWebhooks",
+              "ManageEmojisAndStickers",
+              "ManageGuildExpressions",
+              "UseExternalStickers",
+              "SendMessagesInThreads",
+              "ModerateMembers"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1485645797457526825",
+      "relatedMessages": [
+        {
+          "channelId": "1486016880173912255",
+          "messageId": "1495017957192106074"
+        },
+        {
+          "channelId": "1486015083757965352",
+          "messageId": "1495017961709244446"
+        }
+      ],
+      "expiresAt": 1776596858874,
+      "createdAt": 1776510458874,
+      "module": "bot-protection"
+    }
+  }
+}

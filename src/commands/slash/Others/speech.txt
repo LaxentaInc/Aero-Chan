@@ -1,0 +1,152 @@
+"use strict";
+const axios = require("axios");
+const {
+  SlashCommandBuilder,
+  AttachmentBuilder,
+  EmbedBuilder,
+} = require("discord.js");
+
+// Voices available for PlayAI: Dialog v1.0
+const validVoices = [
+  "Aaliyah-PlayAI",
+  "Adelaide-PlayAI",
+  "Angelo-PlayAI",
+  "Arista-PlayAI",
+  "Atlas-PlayAI",
+  "Basil-PlayAI",
+  "Briggs-PlayAI",
+  "Calum-PlayAI",
+  "Celeste-PlayAI",
+  "Cheyenne-PlayAI",
+  "Chip-PlayAI",
+  "Cillian-PlayAI",
+  "Deedee-PlayAI",
+  "Eleanor-PlayAI",
+  "Fritz-PlayAI",
+  "Gail-PlayAI",
+  "Indigo-PlayAI",
+  "Jennifer-PlayAI",
+  "Judy-PlayAI",
+  "Mamaw-PlayAI",
+  "Mason-PlayAI",
+  "Mikail-PlayAI",
+  "Mitch-PlayAI",
+  "Nia-PlayAI",
+  "Quinn-PlayAI",
+  "Ruby-PlayAI",
+  "Thunder-PlayAI"
+];
+
+module.exports = {
+  data: new SlashCommandBuilder()
+    .setName("voice")
+    .setDescription("Generates speech/audio/tts with cute PlayAI v1.0")
+    .setIntegrationTypes(0, 1) // Pass as individual arguments, not array
+    .setContexts(0, 1, 2) // Uncomment and use individual arguments
+    .addStringOption(option =>
+      option
+        .setName("text")
+        .setDescription("Text to convert to speech")
+        .setRequired(true)
+    )
+    .addStringOption(option =>
+      option
+        .setName("voice")
+        .setDescription("Choose a PlayAI voice (or type a voice name)")
+        .setRequired(false)
+        .setAutocomplete(true)
+    )
+    .addBooleanOption(option =>
+      option
+        .setName("ephemeral")
+        .setDescription("Respond privately")
+        .setRequired(false)
+    ),
+
+  async autocomplete(interaction) {
+    const focusedValue = interaction.options.getFocused();
+    const filtered = validVoices.filter(voice =>
+      voice.toLowerCase().includes(focusedValue.toLowerCase())
+    );
+    await interaction.respond(
+      filtered.slice(0, 25).map(voice => ({ name: voice, value: voice }))
+    );
+  },
+
+  async execute(interaction) {
+    const text = interaction.options.getString("text");
+    const voice = interaction.options.getString("voice") || "Aaliyah-PlayAI";
+    const ephemeral = interaction.options.getBoolean("ephemeral") ?? false;
+
+    // Validate voice if provided
+    if (voice && !validVoices.includes(voice)) {
+      return interaction.reply({
+        content: `Invalid voice. Please choose from: ${validVoices.join(", ")}`,
+        ephemeral: true
+      });
+    }
+
+    const API_KEY = process.env.APEXIFY_API_KEY;
+    
+    // Send thinking indicator first
+    await interaction.reply({
+      content: "<a:eh:1342443448556458075> Producing & Verifying Speech..Wait just a second..",
+      ephemeral
+    });
+
+    try {
+      if (text.length > 500) {
+        throw new Error("LOL your Text exceeds 500 characters limit, yr a free user xd");
+      }
+
+      const response = await axios.post(
+        "https://api.electronhub.ai/v1/audio/speech",
+        {
+          model: "playai-tts",
+          voice,
+          input: text,
+        },
+        {
+          headers: { Authorization: `Bearer ${API_KEY}` },
+          responseType: "arraybuffer",
+        }
+      );
+
+      const attachment = new AttachmentBuilder(response.data, {
+        name: "speech.mp3",
+      });
+
+      const embed = new EmbedBuilder()
+        .setTitle("tts")
+        .setDescription(`**Voice:** ${voice}\n**Text:** ${text.slice(0, 1000)}${text.length > 1000 ? '...' : ''}`)
+        .setColor(0x00ae86)
+        .setTimestamp()
+        .setFooter({ text: `tts by ${interaction.user.tag}` });
+
+      await interaction.editReply({ 
+        content: null, // Clear the thinking emoji
+        embeds: [embed], 
+        files: [attachment] 
+      });
+    } catch (err) {
+      console.error(err);
+      const code = err.response?.status;
+      const msgs = {
+        400: "Invalid request.",
+        401: "Unauthorized. Check API key.",
+        429: "Rate limit hit.",
+        500: "Server error.",
+      };
+      const embed = new EmbedBuilder()
+        .setTitle("Error")
+        .setDescription(msgs[code] || "Unexpected error.")
+        .setColor(0xff0000)
+        .setTimestamp();
+
+      await interaction.editReply({ 
+        content: null, // Clear the thinking emoji
+        embeds: [embed] 
+      });
+    }
+  },
+};

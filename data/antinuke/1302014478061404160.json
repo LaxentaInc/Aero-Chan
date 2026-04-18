@@ -1,0 +1,976 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1302278688829739102",
+        "name": "announcement",
+        "type": 0,
+        "position": 1,
+        "parentId": "1386873821180461096"
+      },
+      {
+        "id": "1317607850863890482",
+        "name": "🌟mod section",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1356624208863559702",
+        "name": "📖story",
+        "type": 0,
+        "position": 2,
+        "parentId": "1302014478598017104"
+      },
+      {
+        "id": "1302018370786295920",
+        "name": "Personal",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1311944943664762900",
+        "name": "📋logs",
+        "type": 0,
+        "position": 2,
+        "parentId": "1317607850863890482"
+      },
+      {
+        "id": "1468291447152447633",
+        "name": "confession-bot-logs",
+        "type": 0,
+        "position": 4,
+        "parentId": "1317607850863890482"
+      },
+      {
+        "id": "1302014478598017106",
+        "name": "📷media",
+        "type": 0,
+        "position": 1,
+        "parentId": "1302014478598017104"
+      },
+      {
+        "id": "1328835645715644426",
+        "name": "generate-images",
+        "type": 0,
+        "position": 1,
+        "parentId": "1317692000216158269"
+      },
+      {
+        "id": "1386887406329925753",
+        "name": "🎙️ VC - Gaming 1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1302277155664691240"
+      },
+      {
+        "id": "1468290076449706085",
+        "name": "Aero",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1478349567186698372",
+        "name": "Tickets",
+        "type": 4,
+        "position": 10,
+        "parentId": null
+      },
+      {
+        "id": "1317692000216158269",
+        "name": "Commands and Bots",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1463185827311124656",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1468290076449706085"
+      },
+      {
+        "id": "1460296172563333315",
+        "name": "higher-up’s-personal",
+        "type": 0,
+        "position": 2,
+        "parentId": "1302018370786295920"
+      },
+      {
+        "id": "1329523548603027468",
+        "name": "🎚levels",
+        "type": 0,
+        "position": 4,
+        "parentId": "1302014478598017104"
+      },
+      {
+        "id": "1386889990025248859",
+        "name": "edits",
+        "type": 0,
+        "position": 2,
+        "parentId": "1302019391616979089"
+      },
+      {
+        "id": "1460296170394882274",
+        "name": "my-info",
+        "type": 0,
+        "position": 1,
+        "parentId": "1302018370786295920"
+      },
+      {
+        "id": "1386859892438208714",
+        "name": "rules",
+        "type": 0,
+        "position": 2,
+        "parentId": "1386873821180461096"
+      },
+      {
+        "id": "1386891891378884734",
+        "name": "🎙️ VC - Anime Watch Party",
+        "type": 2,
+        "position": 0,
+        "parentId": "1302019391616979089"
+      },
+      {
+        "id": "1386885103665549313",
+        "name": "intro",
+        "type": 0,
+        "position": 5,
+        "parentId": "1386873821180461096"
+      },
+      {
+        "id": "1327870729672327179",
+        "name": "♦supreme-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1317607850863890482"
+      },
+      {
+        "id": "1316245772869697576",
+        "name": "📊important-polls",
+        "type": 0,
+        "position": 3,
+        "parentId": "1386873821180461096"
+      },
+      {
+        "id": "1463185844260044984",
+        "name": "Lobby",
+        "type": 2,
+        "position": 0,
+        "parentId": "1463185842716807332"
+      },
+      {
+        "id": "1463185842716807332",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1302280899500445707",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1302014478598017104"
+      },
+      {
+        "id": "1302019513524686848",
+        "name": "members-count",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1311949275403390996",
+        "name": "🆒higher-ups",
+        "type": 0,
+        "position": 3,
+        "parentId": "1317607850863890482"
+      },
+      {
+        "id": "1462857714899091470",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1468290076449706085"
+      },
+      {
+        "id": "1340954971130298378",
+        "name": "Social media",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1312296073837940837",
+        "name": "game-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1302277155664691240"
+      },
+      {
+        "id": "1386873821180461096",
+        "name": "Info & roles",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1386886556761198642",
+        "name": "look-for-team",
+        "type": 0,
+        "position": 1,
+        "parentId": "1302277155664691240"
+      },
+      {
+        "id": "1329957596802584688",
+        "name": "my-social-media",
+        "type": 0,
+        "position": 2,
+        "parentId": "1340954971130298378"
+      },
+      {
+        "id": "1334994148356526131",
+        "name": "giveaway",
+        "type": 0,
+        "position": 6,
+        "parentId": "1386873821180461096"
+      },
+      {
+        "id": "1463185846105538697",
+        "name": "lara-music",
+        "type": 0,
+        "position": 0,
+        "parentId": "1463185842716807332"
+      },
+      {
+        "id": "1468290625106477241",
+        "name": "confession",
+        "type": 0,
+        "position": 4,
+        "parentId": "1317692000216158269"
+      },
+      {
+        "id": "1311890637708066917",
+        "name": "tiktok",
+        "type": 0,
+        "position": 1,
+        "parentId": "1340954971130298378"
+      },
+      {
+        "id": "1311944118099771492",
+        "name": "youtube",
+        "type": 0,
+        "position": 0,
+        "parentId": "1340954971130298378"
+      },
+      {
+        "id": "1317740114465783838",
+        "name": "arlo",
+        "type": 0,
+        "position": 2,
+        "parentId": "1317692000216158269"
+      },
+      {
+        "id": "1316157915773796352",
+        "name": "🌆mudae",
+        "type": 0,
+        "position": 3,
+        "parentId": "1302019391616979089"
+      },
+      {
+        "id": "1354891272153862224",
+        "name": "anime-news",
+        "type": 0,
+        "position": 1,
+        "parentId": "1302019391616979089"
+      },
+      {
+        "id": "1317697788456206366",
+        "name": "server-commands",
+        "type": 0,
+        "position": 0,
+        "parentId": "1317692000216158269"
+      },
+      {
+        "id": "1386887451276083210",
+        "name": "🎙️ VC - Gaming 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1302277155664691240"
+      },
+      {
+        "id": "1463185849675026606",
+        "name": "Gaming",
+        "type": 2,
+        "position": 1,
+        "parentId": "1463185842716807332"
+      },
+      {
+        "id": "1463185850392383643",
+        "name": "privet-members",
+        "type": 2,
+        "position": 2,
+        "parentId": "1463185842716807332"
+      },
+      {
+        "id": "1460296167660458075",
+        "name": "personal",
+        "type": 0,
+        "position": 0,
+        "parentId": "1302018370786295920"
+      },
+      {
+        "id": "1386878087043743816",
+        "name": "used-images",
+        "type": 0,
+        "position": 3,
+        "parentId": "1317692000216158269"
+      },
+      {
+        "id": "1474768430493204754",
+        "name": "music",
+        "type": 2,
+        "position": 1,
+        "parentId": "1302019391616979089"
+      },
+      {
+        "id": "1317698684586299442",
+        "name": "irl",
+        "type": 0,
+        "position": 3,
+        "parentId": "1302014478598017104"
+      },
+      {
+        "id": "1302014478598017104",
+        "name": "💬・Lounge / General Chat",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1312296004468609114",
+        "name": "anime-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1302019391616979089"
+      },
+      {
+        "id": "1311942200787206200",
+        "name": "✨roles",
+        "type": 0,
+        "position": 4,
+        "parentId": "1386873821180461096"
+      },
+      {
+        "id": "1320082336775143574",
+        "name": "game-clips",
+        "type": 0,
+        "position": 2,
+        "parentId": "1302277155664691240"
+      },
+      {
+        "id": "1386876878568161500",
+        "name": "welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1386873821180461096"
+      },
+      {
+        "id": "1302277155664691240",
+        "name": "🎮・Gaming Zone",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1386859892438208717",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 3,
+        "parentId": "1302277155664691240"
+      },
+      {
+        "id": "1408100286026743878",
+        "name": "🤝partnerships",
+        "type": 0,
+        "position": 7,
+        "parentId": "1386873821180461096"
+      },
+      {
+        "id": "1478349568604373013",
+        "name": "ticket-laxentame",
+        "type": 0,
+        "position": 0,
+        "parentId": "1478349567186698372"
+      },
+      {
+        "id": "1463185848475582550",
+        "name": "text-channel",
+        "type": 0,
+        "position": 1,
+        "parentId": "1463185842716807332"
+      },
+      {
+        "id": "1302019391616979089",
+        "name": "🌸・Anime Corner",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1316103068135460955",
+        "name": "📝notes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1317607850863890482"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1332463590283808857",
+        "name": "Rengoku",
+        "color": 15270659,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1474768351027794230",
+        "name": "🌿 New Member",
+        "color": 1752220,
+        "permissions": "8",
+        "position": 1,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1312116955192229969",
+        "name": "Angel",
+        "color": 0,
+        "permissions": "0",
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1354528682068148316",
+        "name": "UOH 😭",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312113996819726336",
+        "name": "Female",
+        "color": 0,
+        "permissions": "0",
+        "position": 65,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1330988077619089518",
+        "name": "Shadow Gamer Tester",
+        "color": 750260,
+        "permissions": "8866461766385663",
+        "position": 79,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329885496666492938",
+        "name": "Stream Ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312117798222303444",
+        "name": "Anime watcher",
+        "color": 0,
+        "permissions": "0",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312116708319953026",
+        "name": "Sea beast",
+        "color": 0,
+        "permissions": "0",
+        "position": 56,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312114912247418890",
+        "name": "Subscriber",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 60,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329570412341886976",
+        "name": "Nine Tails Fox",
+        "color": 16744448,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329570520588357633",
+        "name": "Gojo",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329885779098337392",
+        "name": "vc Ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1311947467347988521",
+        "name": "Bots",
+        "color": 0,
+        "permissions": "0",
+        "position": 72,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312113541335224412",
+        "name": "Anime fan",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 67,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1329885418950234162",
+        "name": "WAKE UP Ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312297882140938291",
+        "name": "Owner",
+        "color": 15105570,
+        "permissions": "8477226059694071",
+        "position": 80,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1317611183955771402",
+        "name": "Horn nest",
+        "color": 0,
+        "permissions": "1711911791477313",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385250678242410566",
+        "name": "Killua",
+        "color": 4956889,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329570694627065940",
+        "name": "Curses",
+        "color": 16731469,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312116466694492280",
+        "name": "Human",
+        "color": 0,
+        "permissions": "0",
+        "position": 59,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329885239056531476",
+        "name": "Announcement ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1311946701438849035",
+        "name": "Co owners",
+        "color": 15105570,
+        "permissions": "8866461766385663",
+        "position": 78,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1320086000596291627",
+        "name": "Bot Developers",
+        "color": 2067666,
+        "permissions": "8864258447638513",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1354844643476373666",
+        "name": "GONE 😭😭😭",
+        "color": 6668538,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312114739534499951",
+        "name": "Manga Reader",
+        "color": 0,
+        "permissions": "0",
+        "position": 61,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1327334924578979880",
+        "name": "Spirit",
+        "color": 4585458,
+        "permissions": "0",
+        "position": 42,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329885997760249979",
+        "name": "Other Social Media Ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1332463397622644817",
+        "name": "Gambler",
+        "color": 16714250,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1458823469654610114",
+        "name": "Aero Chan",
+        "color": 10181046,
+        "permissions": "9895738876032",
+        "position": 75,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1329885626736185375",
+        "name": "Youtube Ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312116537687019600",
+        "name": "Demon",
+        "color": 0,
+        "permissions": "0",
+        "position": 58,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312116751600848936",
+        "name": "Beast folks",
+        "color": 0,
+        "permissions": "0",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329862475482660876",
+        "name": "Supreme Higher Ups",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1311948707654271026",
+        "name": "Role guider",
+        "color": 2067276,
+        "permissions": "4563405824",
+        "position": 70,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1393240710030819499",
+        "name": "The Azure Vanguard",
+        "color": 32767,
+        "permissions": "0",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1329885698446327818",
+        "name": "TikTok Ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312113926296698940",
+        "name": "Male",
+        "color": 0,
+        "permissions": "0",
+        "position": 66,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312116589453381793",
+        "name": "Fallen angel",
+        "color": 0,
+        "permissions": "0",
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1311947938020458506",
+        "name": "Mods",
+        "color": 3447003,
+        "permissions": "8797166767232",
+        "position": 71,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329570082614939831",
+        "name": "The Honered one",
+        "color": 474323,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1388536464798650368",
+        "name": "Content creator",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312118212011360410",
+        "name": "Villain",
+        "color": 0,
+        "permissions": "0",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1317699096533930086",
+        "name": "Cid Kagenou",
+        "color": 0,
+        "permissions": "0",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312114200834740297",
+        "name": "The eminence in shadow",
+        "color": 722698,
+        "permissions": "0",
+        "position": 63,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1391727550186918039",
+        "name": "Transgender",
+        "color": 0,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329860078374748200",
+        "name": "croissant",
+        "color": 11032335,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1461702557603991626",
+        "name": "🌿 New Member",
+        "color": 1752220,
+        "permissions": "8",
+        "position": 5,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1329571069958295674",
+        "name": "Rimuru Tempest",
+        "color": 158207,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312114572458459258",
+        "name": "Real Fans",
+        "color": 9063429,
+        "permissions": "0",
+        "position": 62,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312118154130096128",
+        "name": "Hero",
+        "color": 0,
+        "permissions": "0",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1302021898930098186",
+        "name": "Admin",
+        "color": 16003891,
+        "permissions": "8776293222449107",
+        "position": 76,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1329570266329911317",
+        "name": "Cursed King",
+        "color": 10423308,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1327308049790275684",
+        "name": "Supreme",
+        "color": 14560550,
+        "permissions": "1720707884368577",
+        "position": 68,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312117251805286400",
+        "name": "Superhuman",
+        "color": 0,
+        "permissions": "0",
+        "position": 53,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1317880416992104468",
+        "name": "💎Server boosters",
+        "color": 15277667,
+        "permissions": "562949953552512",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1468064055628398702",
+        "name": "Stealth",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329570784766726174",
+        "name": "Uzamaki",
+        "color": 16776256,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329570961028288524",
+        "name": "Demon Slime",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1312114110393094215",
+        "name": "Gamer",
+        "color": 7520241,
+        "permissions": "0",
+        "position": 64,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845226
+  }
+}

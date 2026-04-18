@@ -1,0 +1,440 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1470440738906050723",
+        "name": "💸┃donate",
+        "type": 0,
+        "position": 6,
+        "parentId": "1470438889561784494"
+      },
+      {
+        "id": "1470438889561784496",
+        "name": "🧾┃rules",
+        "type": 0,
+        "position": 2,
+        "parentId": "1470438889561784494"
+      },
+      {
+        "id": "1470438890719547580",
+        "name": "💾┃mod-logs",
+        "type": 0,
+        "position": 3,
+        "parentId": "1470438890719547577"
+      },
+      {
+        "id": "1470438890539319374",
+        "name": "────────────────",
+        "type": 0,
+        "position": 2,
+        "parentId": "1470438890539319370"
+      },
+      {
+        "id": "1470438890350313595",
+        "name": "👨‍💻┃programming",
+        "type": 0,
+        "position": 2,
+        "parentId": "1470438890144927954"
+      },
+      {
+        "id": "1470438890539319376",
+        "name": "💬┃moderator-chat",
+        "type": 0,
+        "position": 4,
+        "parentId": "1470438890539319370"
+      },
+      {
+        "id": "1470438890144927952",
+        "name": "🔥┃chat",
+        "type": 0,
+        "position": 5,
+        "parentId": "1470438890350313597"
+      },
+      {
+        "id": "1470438890539319369",
+        "name": "🔊 VC 03",
+        "type": 2,
+        "position": 2,
+        "parentId": "1470438890350313602"
+      },
+      {
+        "id": "1470438890350313603",
+        "name": "🔊 VC 01",
+        "type": 2,
+        "position": 0,
+        "parentId": "1470438890350313602"
+      },
+      {
+        "id": "1470438890539319373",
+        "name": "📜┃safety-updates",
+        "type": 0,
+        "position": 1,
+        "parentId": "1470438890539319370"
+      },
+      {
+        "id": "1477617673503244299",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1477617669619585139"
+      },
+      {
+        "id": "1470438889742270494",
+        "name": "🤖┃bot-info",
+        "type": 0,
+        "position": 0,
+        "parentId": "1470438889742270493"
+      },
+      {
+        "id": "1470438890719547578",
+        "name": "💾┃server-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1470438890719547577"
+      },
+      {
+        "id": "1470438890144927951",
+        "name": "💎┃sneak-peak",
+        "type": 0,
+        "position": 2,
+        "parentId": "1470438890350313597"
+      },
+      {
+        "id": "1470438890539319368",
+        "name": "🔊 VC 02",
+        "type": 2,
+        "position": 1,
+        "parentId": "1470438890350313602"
+      },
+      {
+        "id": "1470438890350313596",
+        "name": "💻┃tech-chat",
+        "type": 0,
+        "position": 3,
+        "parentId": "1470438890144927954"
+      },
+      {
+        "id": "1470438890539319370",
+        "name": "⋅ ⋅ —— Updates —— ⋅ ⋅",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1477617669619585139",
+        "name": "Aero",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1470438890350313602",
+        "name": "Voice",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1470443925675442196",
+        "name": "🐙┃github",
+        "type": 0,
+        "position": 7,
+        "parentId": "1470438889561784494"
+      },
+      {
+        "id": "1470438890350313597",
+        "name": "Beta",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1477616099871953099",
+        "name": "💾┃ticket-transcripts",
+        "type": 0,
+        "position": 6,
+        "parentId": "1470438890719547577"
+      },
+      {
+        "id": "1477617676129009727",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1477617669619585139"
+      },
+      {
+        "id": "1470438889742270493",
+        "name": "Featured Bots",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1477359104581308579",
+        "name": "⭐┃reviews",
+        "type": 15,
+        "position": 5,
+        "parentId": "1470438889561784494"
+      },
+      {
+        "id": "1470438889561784499",
+        "name": "📣┃announcements",
+        "type": 5,
+        "position": 0,
+        "parentId": "1470438889561784494"
+      },
+      {
+        "id": "1470438889742270489",
+        "name": "Support",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1470438890719547577",
+        "name": "⋅ ⋅ —— Logs —— ⋅ ⋅",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1470438890539319371",
+        "name": "📜┃community-updates",
+        "type": 0,
+        "position": 0,
+        "parentId": "1470438890539319370"
+      },
+      {
+        "id": "1470438889742270486",
+        "name": "⚙️┃releases",
+        "type": 0,
+        "position": 1,
+        "parentId": "1470438889561784494"
+      },
+      {
+        "id": "1470438890144927954",
+        "name": "General",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1470438890350313594",
+        "name": "🐧┃linux-chat",
+        "type": 0,
+        "position": 1,
+        "parentId": "1470438890144927954"
+      },
+      {
+        "id": "1470438889561784494",
+        "name": "Information",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1470438890719547579",
+        "name": "⚙️┃reports",
+        "type": 0,
+        "position": 2,
+        "parentId": "1470438890719547577"
+      },
+      {
+        "id": "1470438890350313599",
+        "name": "🐞┃bug-catch",
+        "type": 15,
+        "position": 4,
+        "parentId": "1470438890350313597"
+      },
+      {
+        "id": "1477338452784844900",
+        "name": "🤖┃mod-bot-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1470438890719547577"
+      },
+      {
+        "id": "1470438890144927956",
+        "name": "💬┃general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1470438890144927954"
+      },
+      {
+        "id": "1470438890350313601",
+        "name": "🎧┃Beta Room",
+        "type": 2,
+        "position": 0,
+        "parentId": "1470438890350313597"
+      },
+      {
+        "id": "1470438889561784502",
+        "name": "💡┃suggestions",
+        "type": 15,
+        "position": 1,
+        "parentId": "1470438889742270489"
+      },
+      {
+        "id": "1470438889742270491",
+        "name": "🚨┃support",
+        "type": 15,
+        "position": 0,
+        "parentId": "1470438889742270489"
+      },
+      {
+        "id": "1470438890350313598",
+        "name": "🔎┃tester-chat",
+        "type": 0,
+        "position": 3,
+        "parentId": "1470438890350313597"
+      },
+      {
+        "id": "1471514320457306174",
+        "name": "🙋‍♂️┃join-beta",
+        "type": 0,
+        "position": 0,
+        "parentId": "1470438890350313597"
+      },
+      {
+        "id": "1470438889561784495",
+        "name": "📖┃about-us",
+        "type": 0,
+        "position": 3,
+        "parentId": "1470438889561784494"
+      },
+      {
+        "id": "1470438890719547582",
+        "name": "💾┃ticket-logs",
+        "type": 0,
+        "position": 5,
+        "parentId": "1470438890719547577"
+      },
+      {
+        "id": "1470438890539319375",
+        "name": "💬┃chat",
+        "type": 0,
+        "position": 3,
+        "parentId": "1470438890539319370"
+      },
+      {
+        "id": "1477534178718515279",
+        "name": "👨‍💻┃dev-perms",
+        "type": 0,
+        "position": 1,
+        "parentId": "1470438890350313597"
+      },
+      {
+        "id": "1470438889742270492",
+        "name": "📩┃ticket",
+        "type": 0,
+        "position": 2,
+        "parentId": "1470438889742270489"
+      },
+      {
+        "id": "1470438889742270490",
+        "name": "❓┃faq",
+        "type": 0,
+        "position": 4,
+        "parentId": "1470438889561784494"
+      },
+      {
+        "id": "1470438890719547581",
+        "name": "⚙️┃invite-logs",
+        "type": 0,
+        "position": 4,
+        "parentId": "1470438890719547577"
+      },
+      {
+        "id": "1470438890539319377",
+        "name": "💬┃admin-chat",
+        "type": 0,
+        "position": 5,
+        "parentId": "1470438890539319370"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1470438888106623064",
+        "name": "🤖 ㆍBots",
+        "color": 14851970,
+        "permissions": "104320577",
+        "position": 4,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1470438888106623065",
+        "name": "⭐ ㆍ Member",
+        "color": 14858114,
+        "permissions": "104320577",
+        "position": 5,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1470438888412811407",
+        "name": "🚀ㆍBeta",
+        "color": 7319379,
+        "permissions": "0",
+        "position": 6,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1470438888412811408",
+        "name": "💵ㆍ Sponsers",
+        "color": 4881731,
+        "permissions": "104320577",
+        "position": 7,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1470438888412811411",
+        "name": "👨‍💻ㆍ Dev",
+        "color": 9918111,
+        "permissions": "104328769",
+        "position": 8,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1470438888412811412",
+        "name": "Moderator",
+        "color": 7165599,
+        "permissions": "1099615956545",
+        "position": 10,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1470438888412811413",
+        "name": "Admin",
+        "color": 6069701,
+        "permissions": "1099615956559",
+        "position": 11,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1470438888412811414",
+        "name": "Owner",
+        "color": 5676892,
+        "permissions": "104320585",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1477618853197516912",
+        "name": "Featured Bot",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 9,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845135
+  }
+}

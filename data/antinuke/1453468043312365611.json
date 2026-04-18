@@ -1,0 +1,380 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1453468046097121283",
+        "name": "⊂⊃💷﹐𝙒𝙚𝙡𝙘𝙤𝙢𝙚﹒ᝰ",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1453468230365478953",
+        "name": "🍵﹐ᯤ﹒-𝙏𝙚𝙖﹒◌",
+        "type": 0,
+        "position": 2,
+        "parentId": "1473108939699785799"
+      },
+      {
+        "id": "1453468468509671636",
+        "name": "川﹒﹑☆-𝘾𝙖𝙩-𝙗𝙤𝙩﹒🍏",
+        "type": 0,
+        "position": 0,
+        "parentId": "1473109040975581214"
+      },
+      {
+        "id": "1453501711283912849",
+        "name": "ıllı﹒🫖﹐-𝙍𝙪𝙡𝙚𝙨﹑ᶻ𝗓𐰁",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1453503459474280468",
+        "name": "🔫﹆﹐-𝘽𝙤𝙩𝙨﹒ᶻ𝗓𐰁",
+        "type": 0,
+        "position": 1,
+        "parentId": "1473109040975581214"
+      },
+      {
+        "id": "1453504681224568894",
+        "name": "ꕤ﹑-𝙎𝙝𝙤𝙩𝙖﹒↷﹕🌲",
+        "type": 0,
+        "position": 2,
+        "parentId": "1473109040975581214"
+      },
+      {
+        "id": "1453525436834386020",
+        "name": "⿻﹒⟡﹒1﹑🌴",
+        "type": 2,
+        "position": 0,
+        "parentId": "1473109154934689946"
+      },
+      {
+        "id": "1453525467163525140",
+        "name": "⊂⊃﹕📗﹐2﹒ᝰ",
+        "type": 2,
+        "position": 1,
+        "parentId": "1473109154934689946"
+      },
+      {
+        "id": "1453525533529866311",
+        "name": "🌱﹐ᯤ﹒3﹒◌",
+        "type": 2,
+        "position": 2,
+        "parentId": "1473109154934689946"
+      },
+      {
+        "id": "1453583850830692549",
+        "name": "⿻﹒⟡﹒-𝘼𝙣𝙣𝙘﹑🥬",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1453590872196386947",
+        "name": "⩇⩇∶⩇⩇﹐🐍﹒-𝙇𝙤𝙡𝙞﹑ᯤ",
+        "type": 0,
+        "position": 3,
+        "parentId": "1473109040975581214"
+      },
+      {
+        "id": "1453634119161610346",
+        "name": "♡🥒﹕ 𝙈𝙪𝙨𝙞𝙘﹒⏆",
+        "type": 2,
+        "position": 3,
+        "parentId": "1473109154934689946"
+      },
+      {
+        "id": "1465478335814434888",
+        "name": "🍀﹒-𝙎𝙚𝙡𝙛-𝙝𝙖𝙧𝙢﹑ᯤ",
+        "type": 0,
+        "position": 4,
+        "parentId": "1473109040975581214"
+      },
+      {
+        "id": "1465478364596015248",
+        "name": "݁-🦎-❀-݁-𝙉𝙎𝙁𝙒-᤺",
+        "type": 0,
+        "position": 5,
+        "parentId": "1473109040975581214"
+      },
+      {
+        "id": "1465560433476894803",
+        "name": "🧃-𝙍𝙤𝙗𝙡𝙤𝙭-݁",
+        "type": 0,
+        "position": 6,
+        "parentId": "1473109040975581214"
+      },
+      {
+        "id": "1466533766154424413",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1473854663332859975"
+      },
+      {
+        "id": "1466677647395389695",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1473854663332859975"
+      },
+      {
+        "id": "1466683275170025616",
+        "name": "川﹒-𝙈𝙤𝙙-𝙘𝙝𝙖𝙩﹑☆﹒💂‍♀️",
+        "type": 0,
+        "position": 0,
+        "parentId": "1473109318349099118"
+      },
+      {
+        "id": "1473055876083486851",
+        "name": "ıllı﹒🍏﹐-𝙏𝙞𝙘𝙠𝙚𝙩𝙨﹑ᶻ𝗓𐰁",
+        "type": 0,
+        "position": 7,
+        "parentId": "1473109040975581214"
+      },
+      {
+        "id": "1473096265242906779",
+        "name": "♡﹐💂﹕-𝙃𝙖𝙡𝙡-𝙤𝙛-𝙨𝙝𝙖𝙢𝙚﹒⏆",
+        "type": 5,
+        "position": 0,
+        "parentId": "1473108939699785799"
+      },
+      {
+        "id": "1473096340991905900",
+        "name": "🇮🇴﹒﹆﹐-𝙃𝙖𝙡𝙡-𝙤𝙛-𝙛𝙖𝙢𝙚﹒ᶻ𝗓𐰁",
+        "type": 5,
+        "position": 1,
+        "parentId": "1473108939699785799"
+      },
+      {
+        "id": "1473108939699785799",
+        "name": "◟ 日 ﹑ 🌱 ﹕  OO1 ｡",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1473109040975581214",
+        "name": "◟ 日 ﹑ 🍚 ﹕      OO2 ｡",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1473109154934689946",
+        "name": "◟ 日 ﹑ 🧩 ﹕   OO3 ｡",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1473109318349099118",
+        "name": "◟ 日 ﹑ 📝 ﹕         OO4 ｡",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1473854663332859975",
+        "name": "Aero",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1465919107076722739",
+        "name": "13-15",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453582784978223165",
+        "name": "Wot",
+        "color": 0,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453772213588332636",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1465572405849231402",
+        "name": "Best artist OAT",
+        "color": 10544122,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1465477661554905151",
+        "name": "Sh❤️",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453582470678315038",
+        "name": "18-",
+        "color": 0,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453500956338819162",
+        "name": "Bots",
+        "color": 5533306,
+        "permissions": "8864258447638527",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1465965056243007737",
+        "name": "Gore",
+        "color": 5375494,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453493050184564776",
+        "name": "Biscuits",
+        "color": 275280,
+        "permissions": "0",
+        "position": 37,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1465919182188183696",
+        "name": "16-18",
+        "color": 0,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453582903983345900",
+        "name": "Sop",
+        "color": 0,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1465561611065360486",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1465477553321017444",
+        "name": "Nsfw🤍",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453582412406849630",
+        "name": "18+",
+        "color": 0,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453601534670540902",
+        "name": "Artist",
+        "color": 15308438,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453582833871228928",
+        "name": "Quizes",
+        "color": 0,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453582786639167565",
+        "name": "Uploader",
+        "color": 0,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453589580526911578",
+        "name": "Sillyz",
+        "color": 9803999,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1453582504585072710",
+        "name": "Goon patrol",
+        "color": 2123412,
+        "permissions": "8864262743130109",
+        "position": 31,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1465477734477201460",
+        "name": "ED",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453474302853775412",
+        "name": "Owners",
+        "color": 16777215,
+        "permissions": "8864258447638527",
+        "position": 38,
+        "hoist": true,
+        "mentionable": true
+      }
+    ],
+    "updated": 1776540845210
+  }
+}

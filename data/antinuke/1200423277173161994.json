@@ -1,0 +1,80 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1200423278070734919",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1200423278070734920",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1200423278070734922",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1200423278070734920"
+      },
+      {
+        "id": "1203317861163212862",
+        "name": "rp",
+        "type": 0,
+        "position": 0,
+        "parentId": "1200423278070734919"
+      },
+      {
+        "id": "1204051057861206046",
+        "name": "ra",
+        "type": 0,
+        "position": 1,
+        "parentId": "1200423278070734919"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1201144019531608145",
+        "name": "CASSIE !",
+        "color": 3775435,
+        "permissions": "32957699452871",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1201145344998772786",
+        "name": "JOHNNY !",
+        "color": 10181046,
+        "permissions": "32976758374391",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1203340153440047104",
+        "name": "SONYA !",
+        "color": 14991104,
+        "permissions": "31858024238657",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204051009014333450",
+        "name": "USER-1015158069681987655",
+        "color": 12477440,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845218
+  }
+}

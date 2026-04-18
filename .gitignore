@@ -1,0 +1,35 @@
+# Environment files
+.env
+.env.*
+*.local
+
+laxenta/laxenta/ffmpeg
+laxenta/laxenta/ffprobe
+laxenta/laxenta/ffmpeg.exe
+node_modules/
+dist/
+
+# Editor settings
+.vscode/
+.DS_Store
+
+# Logs
+*.log
+.env
+node_modules/
+bots/
+dist/
+.vscode/
+ffmpeg/
+ffprobe/
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+# ngrok
+ngrok/
+ngrok.log
+./start.sh
+/workspaces/Mainlaxenta/laxenta/start.sh

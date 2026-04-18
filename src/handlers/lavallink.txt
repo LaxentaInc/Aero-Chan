@@ -1,0 +1,14 @@
+       {
+            name: 'lavalink-v4',
+            url: 'lavalink-v4.triniumhost.com:443',
+            auth: 'free',
+            secure: true
+        }
+
+
+       {
+            name: 'lavalink-v4',
+            url: 'lava-v4.ajieblogs.eu.org:443',
+            auth: 'https://dsc.gg/ajidevserver',
+            secure: true
+        }

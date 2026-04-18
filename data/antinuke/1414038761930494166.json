@@ -1,0 +1,152 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1414038763931439124",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1414038763931439125",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1414038763931439127",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1414038763931439125"
+      },
+      {
+        "id": "1432516138343989279",
+        "name": "fishing★彡",
+        "type": 0,
+        "position": 0,
+        "parentId": "1414038763931439124"
+      },
+      {
+        "id": "1445616618871980032",
+        "name": "chat⁎⁺˳✧༚",
+        "type": 0,
+        "position": 1,
+        "parentId": "1414038763931439124"
+      },
+      {
+        "id": "1446710386899419250",
+        "name": "vent୨୧",
+        "type": 0,
+        "position": 2,
+        "parentId": "1414038763931439124"
+      },
+      {
+        "id": "1447448275136286791",
+        "name": "announcements‼️",
+        "type": 15,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1450316775290961951",
+        "name": "updatesⳋ",
+        "type": 5,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1452076874795712695",
+        "name": "friends chat",
+        "type": 2,
+        "position": 1,
+        "parentId": "1414038763931439125"
+      },
+      {
+        "id": "1453583035143557212",
+        "name": "updates-from-other-servers",
+        "type": 0,
+        "position": 3,
+        "parentId": "1414038763931439124"
+      },
+      {
+        "id": "1453926391732109343",
+        "name": "rules",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1453926391732109346",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1468034093651460096",
+        "name": "test-stuff",
+        "type": 0,
+        "position": 4,
+        "parentId": "1414038763931439124"
+      },
+      {
+        "id": "1468035843963748444",
+        "name": "aero-chan-bot",
+        "type": 0,
+        "position": 5,
+        "parentId": "1414038763931439124"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1446946767013941258",
+        "name": "Owner ☆",
+        "color": 11761866,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1446949859474149558",
+        "name": "Bot 🤖",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1452077098494726257",
+        "name": "Friends",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1452148589840302120",
+        "name": "Human",
+        "color": 11342935,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1468431531419898093",
+        "name": "in this server😱",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845083
+  }
+}

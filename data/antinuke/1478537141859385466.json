@@ -1,0 +1,64 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1478537143050829887",
+        "name": "Canais de Texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1478537143050829888",
+        "name": "Canais de Voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1478537143050829889",
+        "name": "chat-geral📍",
+        "type": 0,
+        "position": 0,
+        "parentId": "1478537143050829887"
+      },
+      {
+        "id": "1478537143050829890",
+        "name": "Geral",
+        "type": 2,
+        "position": 0,
+        "parentId": "1478537143050829888"
+      },
+      {
+        "id": "1478705953888145502",
+        "name": "mudae🩰",
+        "type": 0,
+        "position": 1,
+        "parentId": "1478537143050829887"
+      },
+      {
+        "id": "1478706709789933580",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1478706712973152288",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1478706709789933580"
+      },
+      {
+        "id": "1478706715766554659",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1478706709789933580"
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845200
+  }
+}

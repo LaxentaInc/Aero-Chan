@@ -1,0 +1,76 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1430135275019042977",
+        "name": "tesssssttttttt",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1437811579029819543",
+        "name": "test",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1437812690683953182",
+        "name": "test",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1440724658008625228",
+        "name": "test-channel-1",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1440724661087244400",
+        "name": "test-channel-2",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1440724663419273286",
+        "name": "test-channel-3",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1440724665701105684",
+        "name": "test-channel-4",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1424044904371322920",
+        "name": "new role",
+        "color": 0,
+        "permissions": "8",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1430141055533191239",
+        "name": "a test subject to bully",
+        "color": 0,
+        "permissions": "8",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845191
+  }
+}

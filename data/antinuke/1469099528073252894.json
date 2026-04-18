@@ -1,0 +1,966 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1469468368397406356",
+        "name": "absolute cinema",
+        "type": 2,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1481161503142051882",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1481161498901483672"
+      },
+      {
+        "id": "1486581447316865185",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469099529000325226"
+      },
+      {
+        "id": "1486582240392646798",
+        "name": "nudes-ass",
+        "type": 0,
+        "position": 4,
+        "parentId": "1469482073935839264"
+      },
+      {
+        "id": "1477250753058963586",
+        "name": "matching-pfps-mlm",
+        "type": 0,
+        "position": 8,
+        "parentId": "1469099529000325226"
+      },
+      {
+        "id": "1472342094885556459",
+        "name": "vent",
+        "type": 0,
+        "position": 4,
+        "parentId": "1469099529000325226"
+      },
+      {
+        "id": "1481161501736702033",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1481161498901483672"
+      },
+      {
+        "id": "1469441573522636902",
+        "name": "announcements",
+        "type": 0,
+        "position": 5,
+        "parentId": "1469103720771092726"
+      },
+      {
+        "id": "1474246925849985127",
+        "name": "partnerships",
+        "type": 0,
+        "position": 3,
+        "parentId": "1469103720771092726"
+      },
+      {
+        "id": "1481161498901483672",
+        "name": "Aero",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1473290673095442559",
+        "name": "gamenight",
+        "type": 2,
+        "position": 1,
+        "parentId": "1469099529000325227"
+      },
+      {
+        "id": "1469442822393299044",
+        "name": "mod-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1472443172310487163",
+        "name": "threesome essex",
+        "type": 2,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1469099529000325227",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1470155553371193498",
+        "name": "art",
+        "type": 0,
+        "position": 7,
+        "parentId": "1469099529000325226"
+      },
+      {
+        "id": "1469103406772654163",
+        "name": "what ur here for",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1472342830948028663",
+        "name": "intro",
+        "type": 0,
+        "position": 2,
+        "parentId": "1469103720771092726"
+      },
+      {
+        "id": "1472341495414784162",
+        "name": "hot-takes",
+        "type": 0,
+        "position": 5,
+        "parentId": "1469099529000325226"
+      },
+      {
+        "id": "1469099529000325226",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1472517279693406403",
+        "name": "advice",
+        "type": 0,
+        "position": 2,
+        "parentId": "1469099529000325226"
+      },
+      {
+        "id": "1469102659138224302",
+        "name": "essex",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1470618806543057024",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1486582150462443561",
+        "name": "nudes-dick",
+        "type": 0,
+        "position": 1,
+        "parentId": "1469482073935839264"
+      },
+      {
+        "id": "1469102027760992411",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469103720771092726"
+      },
+      {
+        "id": "1473905409508245685",
+        "name": "mod-applications",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1486581931234693141",
+        "name": "face-reveal",
+        "type": 0,
+        "position": 1,
+        "parentId": "1469099529000325226"
+      },
+      {
+        "id": "1477250869736112189",
+        "name": "matching-pfp-wlw",
+        "type": 0,
+        "position": 9,
+        "parentId": "1469099529000325226"
+      },
+      {
+        "id": "1469103045546610750",
+        "name": "hall-of-shame",
+        "type": 0,
+        "position": 4,
+        "parentId": "1469103720771092726"
+      },
+      {
+        "id": "1469102052910174384",
+        "name": "roles",
+        "type": 0,
+        "position": 1,
+        "parentId": "1469103720771092726"
+      },
+      {
+        "id": "1478108422925713559",
+        "name": "nudes-general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469482073935839264"
+      },
+      {
+        "id": "1472794561553236255",
+        "name": "spam",
+        "type": 0,
+        "position": 10,
+        "parentId": "1469099529000325226"
+      },
+      {
+        "id": "1469482073935839264",
+        "name": "nudes",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1472341945480253501",
+        "name": "edits",
+        "type": 0,
+        "position": 6,
+        "parentId": "1469099529000325226"
+      },
+      {
+        "id": "1486582200035049553",
+        "name": "nudes-vagina",
+        "type": 0,
+        "position": 2,
+        "parentId": "1469482073935839264"
+      },
+      {
+        "id": "1469099529000325229",
+        "name": "talk",
+        "type": 2,
+        "position": 0,
+        "parentId": "1469099529000325227"
+      },
+      {
+        "id": "1472341372416692346",
+        "name": "confessions",
+        "type": 0,
+        "position": 3,
+        "parentId": "1469099529000325226"
+      },
+      {
+        "id": "1478343291379650603",
+        "name": "nudes-boobs",
+        "type": 0,
+        "position": 3,
+        "parentId": "1469482073935839264"
+      },
+      {
+        "id": "1469103720771092726",
+        "name": "info abt server",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1469102841162629264",
+        "name": "General",
+        "type": 2,
+        "position": 1,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1469482801937252503",
+        "name": "male (has a vagina)",
+        "color": 0,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1473675022282391572",
+        "name": "pans",
+        "color": 15844367,
+        "permissions": "1720707884502593",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469118460985479218",
+        "name": "talking",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478899460670226662",
+        "name": "Sky blue",
+        "color": 14020607,
+        "permissions": "0",
+        "position": 70,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1473675343482192004",
+        "name": "bisexual",
+        "color": 3066993,
+        "permissions": "1720707884502593",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469734535498563736",
+        "name": "Server Cuck",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 66,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469118752556843231",
+        "name": "sh",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478695971738353706",
+        "name": "kass yay",
+        "color": 14269951,
+        "permissions": "1721807559716807",
+        "position": 80,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469440547029651659",
+        "name": "problematic dni !!",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469118597518331935",
+        "name": "taken",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 53,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469483005692219566",
+        "name": "other",
+        "color": 0,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1470132984911888587",
+        "name": "Best Puppy",
+        "color": 16449536,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1473009498942607662",
+        "name": "Rivers wife",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 64,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469120166687408411",
+        "name": "15-17",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469150514653429861",
+        "name": "masochist",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1470242131485659199",
+        "name": "adams botherpup",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1472784570377179353",
+        "name": "xXpierced princessXx",
+        "color": 3456673,
+        "permissions": "1720707884502593",
+        "position": 63,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469150580852391966",
+        "name": "sadist",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478900540204388422",
+        "name": "Yellow",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 67,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469624157988716554",
+        "name": "Daddy Rypho",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 49,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1477384445534408888",
+        "name": "Stupid cum slut whore",
+        "color": 12658214,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469118900959445361",
+        "name": "hot mod",
+        "color": 14072057,
+        "permissions": "1721807828152273",
+        "position": 79,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469440655301542155",
+        "name": "unproblematic",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469482838549332009",
+        "name": "female (has a dick)",
+        "color": 0,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1472885326992375872",
+        "name": "nicolina's bloodbag",
+        "color": 6225933,
+        "permissions": "0",
+        "position": 55,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1469623703649390622",
+        "name": "Emo boy",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1473327308483068149",
+        "name": "thorfinns cool special amazing role",
+        "color": 2829872,
+        "permissions": "0",
+        "position": 57,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1478899223226355793",
+        "name": "Purple",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 75,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478900603236122826",
+        "name": "Soft yellow",
+        "color": 16775265,
+        "permissions": "0",
+        "position": 68,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1479025940104351785",
+        "name": "baby girl vin",
+        "color": 4456448,
+        "permissions": "1721826618638335",
+        "position": 81,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478899861230194698",
+        "name": "White",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 69,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469287339120398499",
+        "name": "Judgement",
+        "color": 0,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469955831088025620",
+        "name": "charlies little kitten",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469446081912770593",
+        "name": "#1 Self Reactor",
+        "color": 1289,
+        "permissions": "0",
+        "position": 62,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1470619522338918471",
+        "name": "vins fav",
+        "color": 16769271,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478899706628145305",
+        "name": "Coffee brown",
+        "color": 5194299,
+        "permissions": "0",
+        "position": 77,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1470242033984864296",
+        "name": "xoddies brotherpup",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1470004269414481972",
+        "name": "Adam’s puppy",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 59,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478899105458684116",
+        "name": "Red",
+        "color": 14090240,
+        "permissions": "0",
+        "position": 74,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478899521399558144",
+        "name": "Green",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 71,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469638209339133964",
+        "name": "Adam’s owner",
+        "color": 1322559,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469522524759920876",
+        "name": "Hikarus good boys",
+        "color": 556747,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1472851143356059774",
+        "name": "Making a color for me",
+        "color": 15277598,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469635890065182720",
+        "name": "Levi’s favourite puppy",
+        "color": 3739664,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1472693102593708053",
+        "name": "KING Niko",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 58,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469482734106706044",
+        "name": "male (has a dick)",
+        "color": 0,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1470683521084293224",
+        "name": "The goat",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1470221587331547370",
+        "name": "Alainas bitches",
+        "color": 15022925,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1469118801856692316",
+        "name": "nsfw",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469899370995519489",
+        "name": "lillie my princess",
+        "color": 16759794,
+        "permissions": "1721807559716815",
+        "position": 82,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469118388461633800",
+        "name": "single",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1471256571051901163",
+        "name": "vin daddy owner",
+        "color": 16118527,
+        "permissions": "1721826618638327",
+        "position": 83,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1475068386080985139",
+        "name": "niko and vins rape slaves<3",
+        "color": 10139376,
+        "permissions": "0",
+        "position": 5,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1478899816225312788",
+        "name": "Grey",
+        "color": 10066329,
+        "permissions": "0",
+        "position": 73,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469502465958215873",
+        "name": "Server Princess",
+        "color": 16765161,
+        "permissions": "1099511627776",
+        "position": 65,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1469482979406647396",
+        "name": "nonbinary (has a vagina)",
+        "color": 0,
+        "permissions": "0",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469417890381041847",
+        "name": "Via’s pup",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 61,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478899412951629935",
+        "name": "Blue",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 76,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1473674972114194524",
+        "name": "lesbian",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1474330805219365009",
+        "name": "MAXIME'S AWESOME BFF",
+        "color": 11862271,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478566798738587688",
+        "name": "Milo’s good boy/girl",
+        "color": 14983167,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478899771769884875",
+        "name": "Black",
+        "color": 2171169,
+        "permissions": "0",
+        "position": 72,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478110631197540352",
+        "name": "cumslut whore hole",
+        "color": 3349258,
+        "permissions": "0",
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469446179619340522",
+        "name": "Hikarus pup",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 60,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1472724660427821078",
+        "name": "owner",
+        "color": 15463679,
+        "permissions": "1721826618638327",
+        "position": 86,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469482930731618536",
+        "name": "nonbinary (has a dick)",
+        "color": 0,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469482897516925090",
+        "name": "female (has a vagina)",
+        "color": 0,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1473675068914663555",
+        "name": "straight",
+        "color": 10181046,
+        "permissions": "1720707884502593",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469120239399731415",
+        "name": "18+",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1479031191343464560",
+        "name": "new role",
+        "color": 0,
+        "permissions": "131072",
+        "position": 78,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1478899189684375732",
+        "name": "Orange",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1473674910378233929",
+        "name": "gay",
+        "color": 15277598,
+        "permissions": "1720707884502593",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1483689327480275116",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1472988519000707266",
+        "name": "Heishou Pack",
+        "color": 1645082,
+        "permissions": "0",
+        "position": 56,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1471643755739353240",
+        "name": "member",
+        "color": 0,
+        "permissions": "0",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1469438762986635357",
+        "name": "loganshornyfreaks",
+        "color": 15260657,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845107
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "gaming": {
+    "name": "Elite Gaming Hub",
+    "categories": [
+      {
+        "name": "╭─── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ───╮",
+        "channels": [
+          { "name": "📜│rules-n-stuff", "type": "text" },
+          { "name": "📢│announcements", "type": "text" },
+          { "name": "🎊│giveaways", "type": "text" }
+        ]
+      },
+      {
+        "name": "◤◢◣◥◤◢◣◥ VIBES ◤◢◣◥◤◢◣◥",
+        "channels": [
+          { "name": "💭│main-chat", "type": "text" },
+          { "name": "🎮│gamer-talk", "type": "text" },
+          { "name": "😂│memes-n-clips", "type": "text" },
+          { "name": "🤖│bot-spam", "type": "text" },
+          { "name": "🔥│rage-quit-stories", "type": "text" }
+        ]
+      },
+      {
+        "name": "▬▬ι═══════ﺤ GAMING ▬▬ι═══════ﺤ",
+        "channels": [
+          { "name": "🔍│lfg-find-squad", "type": "text" },
+          { "name": "🏆│flex-your-wins", "type": "text" },
+          { "name": "🎮・Squad Alpha", "type": "voice" },
+          { "name": "🎮・Squad Bravo", "type": "voice" },
+          { "name": "🎮・Solo Grind", "type": "voice" },
+          { "name": "🏟️・Tournament Arena", "type": "stage" }
+        ]
+      },
+      {
+        "name": "━━━━━━༻🔊༺━━━━━━",
+        "channels": [
+          { "name": "🌙・Late Night Vibes", "type": "voice" },
+          { "name": "🎵・Music & Gaming", "type": "voice" },
+          { "name": "💤・AFK Zone", "type": "voice" }
+        ]
+      }
+    ]
+  },
+  "aesthetic": {
+    "name": "Aesthetic Paradise",
+    "categories": [
+      {
+        "name": "✧･ﾟ: *✧･ﾟ:* INFO *:･ﾟ✧*:･ﾟ✧",
+        "channels": [
+          { "name": "🌸│rules", "type": "text" },
+          { "name": "🌺│announcements", "type": "text" },
+          { "name": "💫│roles", "type": "text" }
+        ]
+      },
+      {
+        "name": "♡━━━━━━━━━♡ CHAT ♡━━━━━━━━━♡",
+        "channels": [
+          { "name": "🌙│midnight-talks", "type": "text" },
+          { "name": "☁│cloud-nine", "type": "text" },
+          { "name": "🍃│vibes-only", "type": "text" },
+          { "name": "✨│positivity", "type": "text" },
+          { "name": "🎨│aesthetic-pics", "type": "text" }
+        ]
+      },
+      {
+        "name": "･ ｡ﾟ☆: *.☽ .* :☆ﾟ. CREATIVE ･ ｡ﾟ☆: *.☽ .* :☆ﾟ.",
+        "channels": [
+          { "name": "🎨│art-gallery", "type": "text" },
+          { "name": "📸│photography", "type": "text" },
+          { "name": "✍│poetry-corner", "type": "text" },
+          { "name": "🎵│music-recs", "type": "text" }
+        ]
+      },
+      {
+        "name": "◇◆◇◆◇ VOICE ◇◆◇◆◇",
+        "channels": [
+          { "name": "🌸・Sakura Lounge", "type": "voice" },
+          { "name": "🌙・Moonlight Café", "type": "voice" },
+          { "name": "☁・Cloud 9", "type": "voice" },
+          { "name": "✨・Stargazing", "type": "voice" },
+          { "name": "🎤・Aesthetic Stage", "type": "stage" }
+        ]
+      }
+    ]
+  },
+  "anime": {
+    "name": "Anime Haven",
+    "categories": [
+      {
+        "name": "┏━━━━━━༻❁༺━━━━━━┓",
+        "channels": [
+          { "name": "📜┊rules-desu", "type": "text" },
+          { "name": "📢┊announcements", "type": "text" },
+          { "name": "🎌┊welcome-senpai", "type": "text" }
+        ]
+      },
+      {
+        "name": "▀▄▀▄▀▄ OTAKU ZONE ▄▀▄▀▄▀",
+        "channels": [
+          { "name": "💬┊general-uwu", "type": "text" },
+          { "name": "🍜┊anime-talk", "type": "text" },
+          { "name": "📺┊manga-corner", "type": "text" },
+          { "name": "🎮┊weeb-gaming", "type": "text" },
+          { "name": "😂┊anime-memes", "type": "text" }
+        ]
+      },
+      {
+        "name": "★彡[ᴡᴇᴇʙ ᴄᴏʀɴᴇʀ]彡★",
+        "channels": [
+          { "name": "🎨┊fanart", "type": "text" },
+          { "name": "🎵┊anime-ost", "type": "text" },
+          { "name": "💕┊waifu-husbando", "type": "text" },
+          { "name": "🍿┊watch-party", "type": "text" }
+        ]
+      },
+      {
+        "name": "•♬• ♫ • ♬• VOICE •♬ • ♫ • ♬•",
+        "channels": [
+          { "name": "🎌・Otaku Lounge", "type": "voice" },
+          { "name": "🍜・Ramen Shop", "type": "voice" },
+          { "name": "🌸・Sakura Tree", "type": "voice" },
+          { "name": "🎤・Karaoke Night", "type": "voice" },
+          { "name": "🏯・Anime Stage", "type": "stage" }
+        ]
+      }
+    ]
+  },
+  "chill": {
+    "name": "Chill & Vibe Central",
+    "categories": [
+      {
+        "name": "【☆】★【☆】★【INFO】★【☆】★【☆】",
+        "channels": [
+          { "name": "📌・rules-n-info", "type": "text" },
+          { "name": "🔔・updates", "type": "text" },
+          { "name": "🎉・events", "type": "text" }
+        ]
+      },
+      {
+        "name": "▓▓▓▓▓▓▓ HANGOUT ▓▓▓▓▓▓▓",
+        "channels": [
+          { "name": "🌊・main-wave", "type": "text" },
+          { "name": "💭・deep-thoughts", "type": "text" },
+          { "name": "🔥・hot-takes", "type": "text" },
+          { "name": "🎭・confessions", "type": "text" },
+          { "name": "🌈・good-vibes-only", "type": "text" }
+        ]
+      },
+      {
+        "name": "✦ •　　• ✦ • 　　• ✦ FUN ZONE ✦ •　　• ✦ • 　　• ✦",
+        "channels": [
+          { "name": "🎮・gaming", "type": "text" },
+          { "name": "🎬・movie-night", "type": "text" },
+          { "name": "🎵・music-vibes", "type": "text" },
+          { "name": "📸・fit-check", "type": "text" }
+        ]
+      },
+      {
+        "name": "╚»★«╝ VOICE VIBES ╚»★«╝",
+        "channels": [
+          { "name": "🏖️・Beach House", "type": "voice" },
+          { "name": "🌃・Night Owls", "type": "voice" },
+          { "name": "🎧・Lo-fi Hip Hop", "type": "voice" },
+          { "name": "🎪・Main Stage", "type": "stage" },
+          { "name": "😴・Sleep Call", "type": "voice" }
+        ]
+      }
+    ]
+  },
+  "community": {
+    "name": "The Hangout Spot",
+    "categories": [
+      {
+        "name": "╔═══*.·:·.☽✧ INFO ✧☾.·:·.*═══╗",
+        "channels": [
+          { "name": "📜〡rules", "type": "text" },
+          { "name": "📣〡news", "type": "text" },
+          { "name": "🏷〡get-roles", "type": "text" }
+        ]
+      },
+      {
+        "name": "『 ↳ ❝ MAIN CHAT ¡! ❞ 』",
+        "channels": [
+          { "name": "💬〡general", "type": "text" },
+          { "name": "🤝〡introductions", "type": "text" },
+          { "name": "😎〡cool-kids-club", "type": "text" },
+          { "name": "🎯〡qotd", "type": "text" },
+          { "name": "🤡〡chaos-chat", "type": "text" }
+        ]
+      },
+      {
+        "name": "▬▬▬▬▬▬ ACTIVITIES ▬▬▬▬▬▬",
+        "channels": [
+          { "name": "🎮〡gaming-zone", "type": "text" },
+          { "name": "🎨〡creative-corner", "type": "text" },
+          { "name": "🍿〡movie-recs", "type": "text" },
+          { "name": "🎪〡events", "type": "text" }
+        ]
+      },
+      {
+        "name": "◈ ━━━━━━ ◆ VOICE ◆ ━━━━━━ ◈",
+        "channels": [
+          { "name": "🎤╎Main Lobby", "type": "voice" },
+          { "name": "🎮╎Gaming Room", "type": "voice" },
+          { "name": "🎵╎Music Vibes", "type": "voice" },
+          { "name": "🍿╎Movie Night", "type": "voice" },
+          { "name": "🎭╎Community Stage", "type": "stage" },
+          { "name": "💤╎Sleepy Time", "type": "voice" }
+        ]
+      }
+    ]
+  }
+}

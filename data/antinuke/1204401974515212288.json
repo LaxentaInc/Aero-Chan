@@ -1,0 +1,162 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1204401974515212289",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1204401974515212290",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1204401975043690540",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1204401974515212290"
+      },
+      {
+        "id": "1204434630149668875",
+        "name": "bot-commands",
+        "type": 0,
+        "position": 1,
+        "parentId": "1204401974515212289"
+      },
+      {
+        "id": "1205089676642357288",
+        "name": "🖼image-generater🖼",
+        "type": 0,
+        "position": 4,
+        "parentId": "1204401974515212289"
+      },
+      {
+        "id": "1205089990011396106",
+        "name": "chat-with-purple",
+        "type": 0,
+        "position": 2,
+        "parentId": "1204401974515212289"
+      },
+      {
+        "id": "1205090143959121930",
+        "name": "chat-to-rizzgod-ussop",
+        "type": 0,
+        "position": 3,
+        "parentId": "1204401974515212289"
+      },
+      {
+        "id": "1205471276924272681",
+        "name": "chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1204401974515212289"
+      },
+      {
+        "id": "1272882738667458561",
+        "name": "warnings",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1204402971643744278",
+        "name": "​👑🇰​​🇮​​🇳​​🇬​ ​🇴​​🇫​ ​🇨​​🇺​​🇷​​🇸​​🇪​​🇸​👑",
+        "color": 15601423,
+        "permissions": "0",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204420426458206329",
+        "name": "👑𝔰𝔭𝔢𝔠𝔦𝔞𝔩 𝔤𝔯𝔞𝔡𝔢👑",
+        "color": 16777215,
+        "permissions": "79543130024979",
+        "position": 15,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1204434749532405791",
+        "name": "new member (LVL.1)",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204435362974277712",
+        "name": "beginner (LVL.5)",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204435636199628891",
+        "name": "Below avarage (LVL.10)",
+        "color": 0,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204435759554371604",
+        "name": "avarage (LVL.15)",
+        "color": 0,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204435866446073936",
+        "name": "above avarage (LVL.20)",
+        "color": 1146986,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204435993772560394",
+        "name": "Topper (LVL.30)",
+        "color": 0,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204442467764543549",
+        "name": "moderator",
+        "color": 0,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204664843173494825",
+        "name": "😊new friend 😊",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845202
+  }
+}

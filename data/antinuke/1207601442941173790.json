@@ -1,0 +1,119 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1207601442941173791",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1207601442941173792",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1207601442941173793",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1207601442941173791"
+      },
+      {
+        "id": "1207601443394035753",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1207601442941173792"
+      },
+      {
+        "id": "1207630423040204800",
+        "name": "chiacchiera-con-cj",
+        "type": 0,
+        "position": 1,
+        "parentId": "1207601442941173791"
+      },
+      {
+        "id": "1207631785895137310",
+        "name": "chiacchiera-con-il-911",
+        "type": 0,
+        "position": 2,
+        "parentId": "1207601442941173791"
+      },
+      {
+        "id": "1207632955824934952",
+        "name": "chiacchiera-con-steve",
+        "type": 0,
+        "position": 3,
+        "parentId": "1207601442941173791"
+      },
+      {
+        "id": "1207633584085536788",
+        "name": "chiacchiera-con-il-tipo-cinese",
+        "type": 0,
+        "position": 4,
+        "parentId": "1207601442941173791"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1207602525260353576",
+        "name": "Kebabbaro",
+        "color": 10038562,
+        "permissions": "32976758374391",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1207602648182685696",
+        "name": "Cassiere della Kebabberia",
+        "color": 10038562,
+        "permissions": "32976758374391",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1207605057525252116",
+        "name": "Carabiniere",
+        "color": 2123412,
+        "permissions": "32976758374391",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1207605207089811526",
+        "name": "Polizia Locale",
+        "color": 0,
+        "permissions": "32957699452871",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1207605312643792907",
+        "name": "Aiutante di Maicol",
+        "color": 0,
+        "permissions": "32976758374391",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1207605424111751188",
+        "name": "ss",
+        "color": 0,
+        "permissions": "32957699452871",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845188
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1204642966086488064",
+        "name": "╚═════════════╝",
+        "type": 0,
+        "position": 2,
+        "parentId": "1204642272201941033"
+      },
+      {
+        "id": "1204101535013933100",
+        "name": "║・𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬",
+        "type": 0,
+        "position": 2,
+        "parentId": "1204101535013933097"
+      },
+      {
+        "id": "1204642498266407012",
+        "name": "╔═════════════╗",
+        "type": 0,
+        "position": 0,
+        "parentId": "1204642272201941033"
+      },
+      {
+        "id": "1204101534707744830",
+        "name": "║・𝐌𝐮𝐬𝐢𝐜𝐚",
+        "type": 0,
+        "position": 2,
+        "parentId": "1204101534707744832"
+      },
+      {
+        "id": "1204101534707744832",
+        "name": "…𝐿𝑜𝒷𝒷𝓎",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1204101534858616965",
+        "name": "╔═════════════╗",
+        "type": 2,
+        "position": 0,
+        "parentId": "1204101534858616964"
+      },
+      {
+        "id": "1204101535013933097",
+        "name": "…𝒮𝓉𝒶𝒻𝒻",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1204101534707744833",
+        "name": "╔═════════════╗",
+        "type": 0,
+        "position": 0,
+        "parentId": "1204101534707744832"
+      },
+      {
+        "id": "1204101534858616966",
+        "name": "║・𝐆𝐞𝐧𝐞𝐫𝐚𝐥 𝟏",
+        "type": 2,
+        "position": 1,
+        "parentId": "1204101534858616964"
+      },
+      {
+        "id": "1204101534707744829",
+        "name": "║・𝐈𝐧𝐟𝐨",
+        "type": 0,
+        "position": 2,
+        "parentId": "1204101534304964654"
+      },
+      {
+        "id": "1204101534858616970",
+        "name": "║・𝐀𝐅𝐊",
+        "type": 2,
+        "position": 5,
+        "parentId": "1204101534858616964"
+      },
+      {
+        "id": "1204101534707744831",
+        "name": "╚═════════════╝",
+        "type": 0,
+        "position": 3,
+        "parentId": "1204101534304964654"
+      },
+      {
+        "id": "1204642938563592242",
+        "name": "║・𝐀𝐝𝐮𝐚𝐧𝐚",
+        "type": 0,
+        "position": 1,
+        "parentId": "1204642272201941033"
+      },
+      {
+        "id": "1204101534858616967",
+        "name": "║・𝐆𝐞𝐧𝐞𝐫𝐚𝐥 𝟐",
+        "type": 2,
+        "position": 2,
+        "parentId": "1204101534858616964"
+      },
+      {
+        "id": "1204101534858616968",
+        "name": "║・𝐏𝐫𝐢𝐯𝐚𝐝𝐨",
+        "type": 2,
+        "position": 3,
+        "parentId": "1204101534858616964"
+      },
+      {
+        "id": "1204665279695691867",
+        "name": "...𝐼𝓃𝒻𝑜𝓇𝓂𝒶𝒸𝒾𝑜𝓃",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1204101534304964651",
+        "name": "║・𝐋𝐥𝐞𝐠𝐚𝐝𝐚",
+        "type": 0,
+        "position": 1,
+        "parentId": "1204665279695691867"
+      },
+      {
+        "id": "1204101534304964655",
+        "name": "╔═════════════╗",
+        "type": 0,
+        "position": 0,
+        "parentId": "1204101534304964654"
+      },
+      {
+        "id": "1204101534858616969",
+        "name": "║・𝐒𝐒𝐔",
+        "type": 2,
+        "position": 4,
+        "parentId": "1204101534858616964"
+      },
+      {
+        "id": "1204101535013933098",
+        "name": "╔═════════════╗",
+        "type": 0,
+        "position": 0,
+        "parentId": "1204101535013933097"
+      },
+      {
+        "id": "1204101535013933099",
+        "name": "║・𝐒𝐭𝐚𝐟𝐟-𝐂𝐡𝐚𝐭",
+        "type": 0,
+        "position": 1,
+        "parentId": "1204101535013933097"
+      },
+      {
+        "id": "1204101534304964654",
+        "name": "…𝐼𝓂𝓅𝑜𝓇𝓉𝒶𝓃𝓉𝑒",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1204642272201941033",
+        "name": "...𝓋𝑒𝓇𝒾𝒻𝒾𝒸𝒶𝒸𝒾ó𝓃",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1204101534304964650",
+        "name": "╔═════════════╗",
+        "type": 0,
+        "position": 0,
+        "parentId": "1204665279695691867"
+      },
+      {
+        "id": "1204101534858616963",
+        "name": "╚═════════════╝",
+        "type": 0,
+        "position": 3,
+        "parentId": "1204101534707744832"
+      },
+      {
+        "id": "1204101534304964653",
+        "name": "╚═════════════╝",
+        "type": 0,
+        "position": 3,
+        "parentId": "1204665279695691867"
+      },
+      {
+        "id": "1224908605640282154",
+        "name": "║・𝐁𝐨𝐭𝐬",
+        "type": 0,
+        "position": 1,
+        "parentId": "1204101534707744832"
+      },
+      {
+        "id": "1204101535013933101",
+        "name": "║・𝐋𝐨𝐠𝐬",
+        "type": 0,
+        "position": 3,
+        "parentId": "1204101535013933097"
+      },
+      {
+        "id": "1204101534858616971",
+        "name": "║・𝐒𝐭𝐚𝐟𝐟",
+        "type": 2,
+        "position": 6,
+        "parentId": "1204101534858616964"
+      },
+      {
+        "id": "1204101534858616972",
+        "name": "╚═════════════╝",
+        "type": 2,
+        "position": 7,
+        "parentId": "1204101534858616964"
+      },
+      {
+        "id": "1204101534304964656",
+        "name": "║・𝐑𝐞𝐠𝐥𝐚𝐦𝐞𝐧𝐭𝐨",
+        "type": 0,
+        "position": 2,
+        "parentId": "1204665279695691867"
+      },
+      {
+        "id": "1204101535013933102",
+        "name": "╚═════════════╝",
+        "type": 0,
+        "position": 4,
+        "parentId": "1204101535013933097"
+      },
+      {
+        "id": "1204101534858616964",
+        "name": "…𝒱𝒞",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1204101534304964657",
+        "name": "║・𝐀𝐧𝐮𝐧𝐜𝐢𝐨𝐬",
+        "type": 0,
+        "position": 1,
+        "parentId": "1204101534304964654"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1204101534292516896",
+        "name": "Operador asistente especial ejecutivo",
+        "color": 1,
+        "permissions": "2251410945",
+        "position": 28,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204586314410885180",
+        "name": "Director Adjunto",
+        "color": 1,
+        "permissions": "0",
+        "position": 33,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534292516899",
+        "name": "✡︎ | Pasaporte israelí",
+        "color": 15844367,
+        "permissions": "2251410945",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534292516903",
+        "name": "Comisionado Adjunto de Inteligencia",
+        "color": 16777215,
+        "permissions": "2390093387",
+        "position": 38,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534292516895",
+        "name": "Operador ejecutivo a cargo",
+        "color": 1,
+        "permissions": "2251410945",
+        "position": 27,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534292516898",
+        "name": "Jefe Adjunto de Inteligencia",
+        "color": 1,
+        "permissions": "2251410945",
+        "position": 31,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534292516901",
+        "name": "Jefe de Sección",
+        "color": 16777215,
+        "permissions": "2251673097",
+        "position": 37,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534279794745",
+        "name": "Operador asistente especial de supervisión",
+        "color": 1,
+        "permissions": "2251410945",
+        "position": 23,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534292516897",
+        "name": "Operador Especial Ejecutivo",
+        "color": 1,
+        "permissions": "2251410945",
+        "position": 29,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534292516900",
+        "name": "Jefe Adjunto de Sección",
+        "color": 16777215,
+        "permissions": "2251410953",
+        "position": 36,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534279794741",
+        "name": "Agente en Prácticas",
+        "color": 1,
+        "permissions": "2251410945",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204588016220250133",
+        "name": "║・ᴇꜱᴄᴀʟᴀꜰᴏɴ ɪɴᴛᴇʟɪɢᴇɴᴄɪᴀ",
+        "color": 24248,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534304964648",
+        "name": "Director Adjunto de Inteligencia Nacional",
+        "color": 1,
+        "permissions": "4294438623",
+        "position": 41,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534279794746",
+        "name": "Operador de Supervisión",
+        "color": 1,
+        "permissions": "2251410945",
+        "position": 24,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534279794748",
+        "name": "Operador especial a cargo",
+        "color": 1,
+        "permissions": "2251410945",
+        "position": 26,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1215916768187646013",
+        "name": "מַחְזִיק",
+        "color": 1,
+        "permissions": "420009146318847",
+        "position": 44,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204586223390162944",
+        "name": "Jefe de inteligencia",
+        "color": 1,
+        "permissions": "0",
+        "position": 32,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534292516902",
+        "name": "בינה מלאכותית",
+        "color": 10181046,
+        "permissions": "139690757641",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534304964649",
+        "name": "Director de Inteligencia Nacional",
+        "color": 1,
+        "permissions": "4294443007",
+        "position": 42,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534279794747",
+        "name": "Operador asistente especial a cargo",
+        "color": 1,
+        "permissions": "2251410945",
+        "position": 25,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534279794742",
+        "name": "Operador",
+        "color": 1,
+        "permissions": "2251410945",
+        "position": 20,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204528597172490251",
+        "name": "muted",
+        "color": 1,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534292516904",
+        "name": "Comisionado de Inteligencia",
+        "color": 16777215,
+        "permissions": "2415259343",
+        "position": 39,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204586387760877598",
+        "name": "Director",
+        "color": 1,
+        "permissions": "134335553",
+        "position": 34,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1298570064647426059",
+        "name": "members",
+        "color": 8421504,
+        "permissions": "8",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534279794743",
+        "name": "Operador Especializado",
+        "color": 1,
+        "permissions": "2251410945",
+        "position": 21,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204101534279794744",
+        "name": "Operador Mayor Especializado",
+        "color": 1,
+        "permissions": "2251410945",
+        "position": 22,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1204588601271124120",
+        "name": "║・ᴇꜱᴄᴀʟᴀꜰᴏɴ ᴅᴇ ᴍᴀɴᴅᴏ ɢᴇɴᴇʀᴀʟ",
+        "color": 24248,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204586860857393212",
+        "name": "║・ᴇꜱᴄᴀʟᴀꜰᴏɴ ᴏᴘᴇʀᴀᴛɪᴠᴏ",
+        "color": 24248,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204588316192804944",
+        "name": "║・ᴇꜱᴄᴀʟᴀꜰᴏɴ ᴅɪʀɪɢᴇɴᴄɪᴀ",
+        "color": 24248,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1204590230183608350",
+        "name": "Mossad",
+        "color": 5887,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845071
+  }
+}

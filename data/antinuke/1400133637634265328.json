@@ -1,0 +1,119 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1400133638347034724",
+        "name": "Worship Of Talking | 📒",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1400133638347034725",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1400133638347034726",
+        "name": "general×of×worship-💬✓",
+        "type": 0,
+        "position": 0,
+        "parentId": "1400133638347034724"
+      },
+      {
+        "id": "1400133638347034727",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1400133638347034725"
+      },
+      {
+        "id": "1400134479153991690",
+        "name": "media×of×worship-📺✓",
+        "type": 0,
+        "position": 1,
+        "parentId": "1400133638347034724"
+      },
+      {
+        "id": "1400134817223409806",
+        "name": "Worship Of Nsfw | 🔞",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1400135072228704356",
+        "name": "nsfw-of-worship-🔞✓",
+        "type": 0,
+        "position": 0,
+        "parentId": "1400134817223409806"
+      },
+      {
+        "id": "1400135206903615609",
+        "name": "cmnds-of-worship-🔞✓",
+        "type": 0,
+        "position": 1,
+        "parentId": "1400134817223409806"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1400135480468570163",
+        "name": "NSFW CERTIFIED",
+        "color": 16711679,
+        "permissions": "1720707884502593",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1400191434786738209",
+        "name": "5 | NSFW HELPER",
+        "color": 6323595,
+        "permissions": "1721807559716807",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1400743349337460806",
+        "name": "18 | Pro Gooner",
+        "color": 1752220,
+        "permissions": "1721826618638327",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1400743432137216213",
+        "name": "99 | Always Horny",
+        "color": 3447003,
+        "permissions": "1721826618638327",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1400904734411329616",
+        "name": "7 | experienced gooner",
+        "color": 0,
+        "permissions": "1720707884502593",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1432637866348908555",
+        "name": "Bot",
+        "color": 0,
+        "permissions": "1721826618638327",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845110
+  }
+}

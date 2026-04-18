@@ -1,0 +1,97 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1466513091083899114",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1466513091083899115",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1466513091083899116",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1466513091083899114"
+      },
+      {
+        "id": "1466513091083899117",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1466513091083899115"
+      },
+      {
+        "id": "1466518250392260699",
+        "name": "¢αиαℓєѕ∂єтєѕтιиg",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1466825832197525615",
+        "name": "idk",
+        "type": 0,
+        "position": 0,
+        "parentId": "1466518250392260699"
+      },
+      {
+        "id": "1467882680321445991",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1467886105289294016"
+      },
+      {
+        "id": "1467886105289294016",
+        "name": "Aero",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1467886106530807808",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1467886105289294016"
+      },
+      {
+        "id": "1477625890564341852",
+        "name": "quick-test",
+        "type": 0,
+        "position": 2,
+        "parentId": "1467886105289294016"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1467885548952879250",
+        "name": "🌿 New Member",
+        "color": 1752220,
+        "permissions": "8",
+        "position": 6,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1469215247003942963",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1772794561134
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "751365866234576946",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "751365866234576947",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "752394448683532319",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "751365866234576947"
+      },
+      {
+        "id": "752409244283699294",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "752425567113969735",
+        "name": "spam-ping",
+        "type": 0,
+        "position": 3,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "754702760997290055",
+        "name": "reaction-roles",
+        "type": 0,
+        "position": 4,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "758258998503276564",
+        "name": "phone",
+        "type": 0,
+        "position": 12,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "762170402951659520",
+        "name": "📊 Server Stats 📊",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "762170404130783232",
+        "name": "Member Count: 125",
+        "type": 2,
+        "position": 0,
+        "parentId": "762170402951659520"
+      },
+      {
+        "id": "762170404331716611",
+        "name": "Bot Count: 7",
+        "type": 2,
+        "position": 1,
+        "parentId": "762170402951659520"
+      },
+      {
+        "id": "762170405439668234",
+        "name": "User Count: 118",
+        "type": 2,
+        "position": 2,
+        "parentId": "762170402951659520"
+      },
+      {
+        "id": "762170405649645569",
+        "name": "Channel Count: 26",
+        "type": 2,
+        "position": 3,
+        "parentId": "762170402951659520"
+      },
+      {
+        "id": "762170406340919306",
+        "name": "Role Count: 139",
+        "type": 2,
+        "position": 4,
+        "parentId": "762170402951659520"
+      },
+      {
+        "id": "773800685106888744",
+        "name": "➕ New Session",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "775542610445860874",
+        "name": "verification",
+        "type": 0,
+        "position": 6,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "775542667206983711",
+        "name": "verification-bot-log",
+        "type": 0,
+        "position": 7,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "777828204132040714",
+        "name": "bots",
+        "type": 0,
+        "position": 8,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "777894169549078548",
+        "name": "invite",
+        "type": 0,
+        "position": 9,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "925056818584117248",
+        "name": "test",
+        "type": 0,
+        "position": 10,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "925075075730903070",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "932485313937432596",
+        "name": "bot-monitoring",
+        "type": 0,
+        "position": 11,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "936121174834937878",
+        "name": "bruh-spam",
+        "type": 0,
+        "position": 13,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "974658296260743171",
+        "name": "something",
+        "type": 0,
+        "position": 1,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "975342634560266240",
+        "name": "n",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "975342655653429248",
+        "name": "n",
+        "type": 0,
+        "position": 0,
+        "parentId": "975342634560266240"
+      },
+      {
+        "id": "984084388117626880",
+        "name": "n",
+        "type": 0,
+        "position": 1,
+        "parentId": "975342634560266240"
+      },
+      {
+        "id": "989703665583521822",
+        "name": "nqn-nqn-nqn",
+        "type": 0,
+        "position": 5,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "1045314937809031178",
+        "name": "ss",
+        "type": 0,
+        "position": 14,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "1069951419886616636",
+        "name": "oof",
+        "type": 0,
+        "position": 15,
+        "parentId": "751365866234576946"
+      },
+      {
+        "id": "1095353406908022824",
+        "name": "countin",
+        "type": 0,
+        "position": 2,
+        "parentId": "751365866234576946"
+      }
+    ],
+    "roles": [
+      {
+        "id": "990962158961565786",
+        "name": "new role",
+        "color": 0,
+        "permissions": "1071698660929",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "972068051925217320",
+        "name": "alt",
+        "color": 3066993,
+        "permissions": "1071698660937",
+        "position": 136,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1269252551967117395",
+        "name": "members",
+        "color": 8421504,
+        "permissions": "8",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "935429921302523956",
+        "name": "another role",
+        "color": 0,
+        "permissions": "1071698660929",
+        "position": 92,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1047909954448793601",
+        "name": "n",
+        "color": 16711680,
+        "permissions": "1071698660929",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "752394676476182568",
+        "name": "Someone",
+        "color": 0,
+        "permissions": "6546771521",
+        "position": 132,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "754984146375540786",
+        "name": "hi hi role",
+        "color": 0,
+        "permissions": "6546771521",
+        "position": 129,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "928514748058845224",
+        "name": "creator of servah",
+        "color": 16711680,
+        "permissions": "1071698660937",
+        "position": 137,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "929935954079277117",
+        "name": "Simon Says Controller",
+        "color": 16705372,
+        "permissions": "1071698660929",
+        "position": 106,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "775542384917348354",
+        "name": "Walker",
+        "color": 1752220,
+        "permissions": "6546771521",
+        "position": 121,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "755651726496759880",
+        "name": "@everyone",
+        "color": 0,
+        "permissions": "2248473465835073",
+        "position": 128,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "929935953739542548",
+        "name": "Simon Says Player",
+        "color": 0,
+        "permissions": "1071698660929",
+        "position": 107,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "775542431889752065",
+        "name": "Unverified",
+        "color": 1752220,
+        "permissions": "6546771521",
+        "position": 120,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "755652346763018361",
+        "name": "Hello",
+        "color": 0,
+        "permissions": "6546771521",
+        "position": 127,
+        "hoist": false,
+        "mentionable": true
+      }
+    ],
+    "updated": 1776540845220
+  }
+}

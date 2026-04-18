@@ -1,0 +1,99 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1242166706412191846",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1242166706412191847",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1242166706412191848",
+        "name": "people-who-enter",
+        "type": 0,
+        "position": 0,
+        "parentId": "1242166706412191846"
+      },
+      {
+        "id": "1242166707049463839",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1242166706412191847"
+      },
+      {
+        "id": "1242173079619375195",
+        "name": "bot-commands",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1242173603294740520",
+        "name": "crownys-kingdom",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1242174039313879172",
+        "name": "leafys-garden",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1242213858706325544",
+        "name": "meangpts-domain",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1242714936078110742",
+        "name": "aspect-of-immunity-show-aois",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1242762747490467900",
+        "name": "mommy-makimas-domain",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1242764215152934952",
+        "name": "general",
+        "type": 0,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1254304998485917746",
+        "name": "bfb",
+        "type": 0,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1254307659646242957",
+        "name": "iance",
+        "type": 0,
+        "position": 8,
+        "parentId": null
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845158
+  }
+}

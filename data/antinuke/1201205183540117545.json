@@ -1,0 +1,214 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1201205183540117546",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1201205183540117547",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1201205183540117548",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1201205183540117546"
+      },
+      {
+        "id": "1201205183540117549",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1201205183540117547"
+      },
+      {
+        "id": "1201213822204137512",
+        "name": "KPOP FANS >:D",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1201213975141032036",
+        "name": "💜𝗕𝗧𝗦⟭⟬💜",
+        "type": 0,
+        "position": 0,
+        "parentId": "1201213822204137512"
+      },
+      {
+        "id": "1201214280343765085",
+        "name": "🖤blλɔkpiиk💗",
+        "type": 0,
+        "position": 1,
+        "parentId": "1201213822204137512"
+      },
+      {
+        "id": "1201214887448289300",
+        "name": "💕𝐓𝐖𝐈𝐂𝐄🍭",
+        "type": 0,
+        "position": 2,
+        "parentId": "1201213822204137512"
+      },
+      {
+        "id": "1201340680392409088",
+        "name": "welcome ♡",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1201340770620289174",
+        "name": "introduction-♡",
+        "type": 0,
+        "position": 0,
+        "parentId": "1201340680392409088"
+      },
+      {
+        "id": "1201341655333216286",
+        "name": "announcements-☆",
+        "type": 0,
+        "position": 1,
+        "parentId": "1201340680392409088"
+      },
+      {
+        "id": "1201342205034516531",
+        "name": "rules-♡",
+        "type": 0,
+        "position": 2,
+        "parentId": "1201340680392409088"
+      },
+      {
+        "id": "1203002007171104830",
+        "name": "ask-for-roles",
+        "type": 0,
+        "position": 1,
+        "parentId": "1201205183540117546"
+      },
+      {
+        "id": "1207735679128440904",
+        "name": "🖤❤💚s͓̽t͓̽r͓̽a͓̽y͓̽k͓̽i͓̽d͓̽s͓̽💚❤🖤",
+        "type": 0,
+        "position": 3,
+        "parentId": "1201213822204137512"
+      },
+      {
+        "id": "1223233078294482994",
+        "name": "💛txt💛",
+        "type": 0,
+        "position": 4,
+        "parentId": "1201213822204137512"
+      },
+      {
+        "id": "1223234575900348520",
+        "name": "💙enhypen💙",
+        "type": 0,
+        "position": 5,
+        "parentId": "1201213822204137512"
+      },
+      {
+        "id": "1223678842762166302",
+        "name": "pokemon",
+        "type": 0,
+        "position": 2,
+        "parentId": "1201205183540117546"
+      },
+      {
+        "id": "1224038703102558308",
+        "name": "🖤💛🧡ateez🧡💛🖤",
+        "type": 0,
+        "position": 6,
+        "parentId": "1201213822204137512"
+      },
+      {
+        "id": "1234565394430431352",
+        "name": "bot-chat",
+        "type": 0,
+        "position": 3,
+        "parentId": "1201205183540117546"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1201213172028297377",
+        "name": "administrator",
+        "color": 9622783,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1201215357126463568",
+        "name": "moderator",
+        "color": 16366335,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1201215672638767124",
+        "name": "member",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1201264348425887784",
+        "name": "💜𝔸ℝ𝕄𝕐⁷⟬⟭💜",
+        "color": 13276671,
+        "permissions": "31858024238657",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1201265532561793114",
+        "name": "🖤BLIИK💗",
+        "color": 16753649,
+        "permissions": "31858024238657",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1201265873512583218",
+        "name": "ONCE 🤠",
+        "color": 12773375,
+        "permissions": "31858024238657",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1206662520786518147",
+        "name": "multi fan role",
+        "color": 16743346,
+        "permissions": "31858024238657",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1214667577830285333",
+        "name": "owner",
+        "color": 4095,
+        "permissions": "349644697108479",
+        "position": 11,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845136
+  }
+}

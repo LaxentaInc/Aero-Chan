@@ -1,0 +1,86 @@
+{
+  "buttons": {
+    "whitelist_spam_user_1246380709124378674": {
+      "type": "whitelist_user",
+      "targetId": "1246380709124378674",
+      "guildId": "1422947615841976524",
+      "relatedMessages": [
+        {
+          "channelId": "1462857081265590293",
+          "messageId": "1463416463036645458"
+        },
+        {
+          "channelId": "1107174309220327514",
+          "messageId": "1463416465653764170"
+        }
+      ],
+      "expiresAt": 1769062474953,
+      "createdAt": 1768976074953,
+      "module": "antispam"
+    },
+    "remove_punishment_1246380709124378674": {
+      "type": "remove_punishment",
+      "targetId": "1246380709124378674",
+      "guildId": "1422947615841976524",
+      "punishmentType": "timeout",
+      "relatedMessages": [
+        {
+          "channelId": "1462857081265590293",
+          "messageId": "1463416463036645458"
+        },
+        {
+          "channelId": "1107174309220327514",
+          "messageId": "1463416465653764170"
+        }
+      ],
+      "expiresAt": 1769062475337,
+      "createdAt": 1768976075337,
+      "module": "antispam"
+    },
+    "unwhitelist_spam_user_1246380709124378674": {
+      "type": "unwhitelist_user",
+      "targetId": "1246380709124378674",
+      "guildId": "1422947615841976524",
+      "relatedMessages": [
+        {
+          "channelId": "1462857081265590293",
+          "messageId": "1463424102235771005"
+        },
+        {
+          "channelId": "1107174309220327514",
+          "messageId": "1463424112188723317"
+        }
+      ],
+      "expiresAt": 1769064298092,
+      "createdAt": 1768977898092,
+      "module": "antispam"
+    },
+    "punish_spam_user_1246380709124378674": {
+      "type": "punish_user",
+      "targetId": "1246380709124378674",
+      "guildId": "1422947615841976524",
+      "violations": [
+        {
+          "type": "message_spam",
+          "data": {
+            "count": 3,
+            "timeWindow": 3
+          }
+        }
+      ],
+      "relatedMessages": [
+        {
+          "channelId": "1462857081265590293",
+          "messageId": "1463424102235771005"
+        },
+        {
+          "channelId": "1107174309220327514",
+          "messageId": "1463424112188723317"
+        }
+      ],
+      "expiresAt": 1769064298377,
+      "createdAt": 1768977898377,
+      "module": "antispam"
+    }
+  }
+}

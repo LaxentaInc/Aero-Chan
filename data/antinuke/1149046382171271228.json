@@ -1,0 +1,613 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1149046382628446391",
+        "name": "Art and videos",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1155856407741075466",
+        "name": "▪🗺▪LANGUAGES",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1168202255187587202",
+        "name": "▪👨👩▪partners",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1150085075237609544",
+        "name": "Funni",
+        "type": 13,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1168186617706590220",
+        "name": "▪💥▪connect-4",
+        "type": 0,
+        "position": 2,
+        "parentId": "1167841442354446399"
+      },
+      {
+        "id": "1156595987473760317",
+        "name": "ticket-1",
+        "type": 0,
+        "position": 0,
+        "parentId": "1156596213257343066"
+      },
+      {
+        "id": "1155856596618973194",
+        "name": "▪🇹🇷▪turkish",
+        "type": 0,
+        "position": 1,
+        "parentId": "1155856407741075466"
+      },
+      {
+        "id": "1149051569447383171",
+        "name": "🛫🛬Server airport🛫🛬",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1169975185689038921",
+        "name": "automod-logs",
+        "type": 0,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1149051632781365248",
+        "name": "▪🛫▪goodbye",
+        "type": 0,
+        "position": 0,
+        "parentId": "1149051569447383171"
+      },
+      {
+        "id": "1168589873217818795",
+        "name": "▪🔖▪prices",
+        "type": 0,
+        "position": 3,
+        "parentId": "1168187014361919559"
+      },
+      {
+        "id": "1149051117645353030",
+        "name": "▪📚▪history-stuff",
+        "type": 0,
+        "position": 1,
+        "parentId": "1155855166709436456"
+      },
+      {
+        "id": "1168187014361919559",
+        "name": "▪🤑▪Moneys",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1156313492127760518",
+        "name": "▪🗃🗄▪surveys",
+        "type": 5,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1149051715157495868",
+        "name": "▪🛬▪welcome",
+        "type": 0,
+        "position": 1,
+        "parentId": "1149051569447383171"
+      },
+      {
+        "id": "1168186464887128084",
+        "name": "▪💣▪fighting",
+        "type": 0,
+        "position": 1,
+        "parentId": "1167841442354446399"
+      },
+      {
+        "id": "1168187424703258754",
+        "name": "▪💸▪taxes",
+        "type": 0,
+        "position": 2,
+        "parentId": "1168187014361919559"
+      },
+      {
+        "id": "1162718064945668169",
+        "name": "▪🗿▪pugiafacts",
+        "type": 0,
+        "position": 0,
+        "parentId": "1155855166709436456"
+      },
+      {
+        "id": "1156596213257343066",
+        "name": "Tickets",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1156253621026037930",
+        "name": "▪🛬🏢🏢▪meme-race",
+        "type": 0,
+        "position": 5,
+        "parentId": "1149046382628446390"
+      },
+      {
+        "id": "1149046382628446392",
+        "name": "▪🏠▪home-sweet-home",
+        "type": 0,
+        "position": 0,
+        "parentId": "1149046382628446390"
+      },
+      {
+        "id": "1149054686708629646",
+        "name": "▪🗺▪ballsdex",
+        "type": 0,
+        "position": 1,
+        "parentId": "1149054538121224242"
+      },
+      {
+        "id": "1149049723269955645",
+        "name": "▪🃏▪spam-nonsense",
+        "type": 0,
+        "position": 2,
+        "parentId": "1149046382628446390"
+      },
+      {
+        "id": "1149309181753565294",
+        "name": "▪🖊▪videos",
+        "type": 15,
+        "position": 2,
+        "parentId": "1149046382628446391"
+      },
+      {
+        "id": "1151084357516283976",
+        "name": "▪😠😡▪debate-and-argue",
+        "type": 0,
+        "position": 4,
+        "parentId": "1149046382628446390"
+      },
+      {
+        "id": "1152527791284310086",
+        "name": "▪📣▪anouncements",
+        "type": 5,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1149315127305306248",
+        "name": "▪🖌▪art",
+        "type": 15,
+        "position": 0,
+        "parentId": "1149046382628446391"
+      },
+      {
+        "id": "1168187322420965396",
+        "name": "▪😭▪inflation",
+        "type": 0,
+        "position": 1,
+        "parentId": "1168187014361919559"
+      },
+      {
+        "id": "1152188026605285439",
+        "name": "▪👥▪partnerships",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1191351977301516318",
+        "name": "▪🇸🇦▪arabic",
+        "type": 0,
+        "position": 2,
+        "parentId": "1155856407741075466"
+      },
+      {
+        "id": "1156454287140978740",
+        "name": "▪🤖▪bot-music",
+        "type": 0,
+        "position": 7,
+        "parentId": "1149054538121224242"
+      },
+      {
+        "id": "1149058279310381167",
+        "name": "▪⚠▪rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1150848691809300561",
+        "name": "▪🏡▪home-two",
+        "type": 0,
+        "position": 1,
+        "parentId": "1149046382628446390"
+      },
+      {
+        "id": "1168186869666824292",
+        "name": "▪🗿📝📌▪rock-paper-scissors",
+        "type": 0,
+        "position": 3,
+        "parentId": "1167841442354446399"
+      },
+      {
+        "id": "1149060880126976093",
+        "name": "▪🖊▪videos-discussion",
+        "type": 0,
+        "position": 3,
+        "parentId": "1149046382628446391"
+      },
+      {
+        "id": "1149054828585160784",
+        "name": "1⃣2⃣3⃣counting4⃣5⃣6⃣",
+        "type": 0,
+        "position": 4,
+        "parentId": "1149054538121224242"
+      },
+      {
+        "id": "1155855860283736188",
+        "name": "▪✅▪history-of-kibristan",
+        "type": 0,
+        "position": 3,
+        "parentId": "1155855166709436456"
+      },
+      {
+        "id": "1150841496770191491",
+        "name": "▪🤑▪memes",
+        "type": 15,
+        "position": 4,
+        "parentId": "1149046382628446391"
+      },
+      {
+        "id": "1167841556200431716",
+        "name": "tic-tac-toes▪⚫▪",
+        "type": 0,
+        "position": 0,
+        "parentId": "1167841442354446399"
+      },
+      {
+        "id": "1149054639921168404",
+        "name": "▪🗡▪historydex",
+        "type": 0,
+        "position": 0,
+        "parentId": "1149054538121224242"
+      },
+      {
+        "id": "1156597699404120114",
+        "name": "▪🗄▪ticket-2",
+        "type": 0,
+        "position": 1,
+        "parentId": "1156596213257343066"
+      },
+      {
+        "id": "1156258026995593247",
+        "name": "▪👕▪football-shirt-making",
+        "type": 0,
+        "position": 6,
+        "parentId": "1149046382628446390"
+      },
+      {
+        "id": "1155855701722271845",
+        "name": "▪🗿▪ottoman-history",
+        "type": 0,
+        "position": 2,
+        "parentId": "1155855166709436456"
+      },
+      {
+        "id": "1149058279310381168",
+        "name": "▪👮▪moderator-only",
+        "type": 0,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1153000368633041068",
+        "name": "▪👏▪allies",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1152272678493884437",
+        "name": "🫠make-it-a-quote🫠",
+        "type": 0,
+        "position": 5,
+        "parentId": "1149054538121224242"
+      },
+      {
+        "id": "1157325804330557532",
+        "name": "▪😡▪bot-commands",
+        "type": 0,
+        "position": 8,
+        "parentId": "1149054538121224242"
+      },
+      {
+        "id": "1149046382628446390",
+        "name": "main stuff",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1156257283538419742",
+        "name": "▪🗣▪cortex-chat",
+        "type": 0,
+        "position": 6,
+        "parentId": "1149054538121224242"
+      },
+      {
+        "id": "1167841442354446399",
+        "name": "▪📱▪Games",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1152589709730644008",
+        "name": "▪🌎▪worlddex",
+        "type": 0,
+        "position": 2,
+        "parentId": "1149054538121224242"
+      },
+      {
+        "id": "1155855166709436456",
+        "name": "▪🌋▪History",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1150087579543289988",
+        "name": "▪🌏▪asiadex",
+        "type": 0,
+        "position": 3,
+        "parentId": "1149054538121224242"
+      },
+      {
+        "id": "1149049162185330790",
+        "name": "▪🏙▪international-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1155856407741075466"
+      },
+      {
+        "id": "1150045008871829560",
+        "name": "▪📱▪photos-wars",
+        "type": 0,
+        "position": 3,
+        "parentId": "1149046382628446390"
+      },
+      {
+        "id": "1168187279697793024",
+        "name": "▪💰▪kibristan-moneys",
+        "type": 0,
+        "position": 0,
+        "parentId": "1168187014361919559"
+      },
+      {
+        "id": "1149054538121224242",
+        "name": "AI's",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1149060465704587305",
+        "name": "▪🖌▪art-discussion",
+        "type": 0,
+        "position": 1,
+        "parentId": "1149046382628446391"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1152529119049957386",
+        "name": "PUGIAN MAN",
+        "color": 1901977,
+        "permissions": "8",
+        "position": 26,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1174419325713653820",
+        "name": "Military commando",
+        "color": 16744704,
+        "permissions": "1073741832",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1150740778331684904",
+        "name": "Cats😸😸😸",
+        "color": 16633604,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1149261862920278077",
+        "name": "Prisoner💢",
+        "color": 11027200,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1167772569697534042",
+        "name": "Twin towers",
+        "color": 5329762,
+        "permissions": "0",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1165705405729624153",
+        "name": "Didnt give me admin in his server😭",
+        "color": 2818375,
+        "permissions": "8",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1150742468770402324",
+        "name": "Co-owner👸",
+        "color": 12059135,
+        "permissions": "8",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1152200640899072101",
+        "name": "Keyboard warrior ⌨️",
+        "color": 131329,
+        "permissions": "0",
+        "position": 39,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1152202598468829235",
+        "name": "Tree hugger🇻🇳",
+        "color": 13959168,
+        "permissions": "0",
+        "position": 29,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1155525149244788756",
+        "name": "nothing normal role",
+        "color": 0,
+        "permissions": "138538465099775",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1174418240735293521",
+        "name": "SOLDIER🚬🗿",
+        "color": 2319902,
+        "permissions": "137993217357377",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1150145738773381120",
+        "name": "Türk🇹🇷",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 35,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1149057294118699199",
+        "name": "Bot🤖",
+        "color": 3447003,
+        "permissions": "31858024238657",
+        "position": 40,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1150740921827205150",
+        "name": "Owner🤴",
+        "color": 329213,
+        "permissions": "8",
+        "position": 33,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1149050981011693668",
+        "name": "Member👥",
+        "color": 2067276,
+        "permissions": "111016418844480",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1152337633989627944",
+        "name": "Youtubers",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 27,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1156596210526847076",
+        "name": "Tickets Admin",
+        "color": 0,
+        "permissions": "422216760034304",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1150742047158980658",
+        "name": "Azeri🇦🇿",
+        "color": 261888,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1156596209641861152",
+        "name": "Tickets Support",
+        "color": 0,
+        "permissions": "422216760034304",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1174051398707593287",
+        "name": "Revive chat ping",
+        "color": 9936031,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1149047370730983477",
+        "name": "Admin✍",
+        "color": 15844367,
+        "permissions": "138538465099735",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1162714474701131846",
+        "name": "THE EMPEROR",
+        "color": 3447003,
+        "permissions": "420013441810431",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845104
+  }
+}

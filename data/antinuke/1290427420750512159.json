@@ -1,0 +1,76 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1290427421463674900",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1290427421463674901",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1290427421463674902",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1290427421463674900"
+      },
+      {
+        "id": "1290427421463674903",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1290427421463674901"
+      },
+      {
+        "id": "1320018155422351403",
+        "name": "test",
+        "type": 0,
+        "position": 1,
+        "parentId": "1290427421463674900"
+      },
+      {
+        "id": "1369328164395946014",
+        "name": "anime-photos",
+        "type": 0,
+        "position": 2,
+        "parentId": "1290427421463674900"
+      },
+      {
+        "id": "1403872546398404720",
+        "name": "vc-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1290427421463674901"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1339790634780987445",
+        "name": "Admin",
+        "color": 0,
+        "permissions": "1721826618638327",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1375530533991219220",
+        "name": "Admin two",
+        "color": 0,
+        "permissions": "2108850416648183",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845223
+  }
+}

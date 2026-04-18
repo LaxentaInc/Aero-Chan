@@ -1,0 +1,116 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1438405677168066602",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1438405677168066603",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1438405677168066605",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1438405677168066603"
+      },
+      {
+        "id": "1442216041278341261",
+        "name": "sf",
+        "type": 0,
+        "position": 1,
+        "parentId": "1438405677168066602"
+      },
+      {
+        "id": "1455821043213275257",
+        "name": "daily",
+        "type": 5,
+        "position": 2,
+        "parentId": "1438405677168066602"
+      },
+      {
+        "id": "1455823691790418013",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1438405677168066602"
+      },
+      {
+        "id": "1455824108360302675",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1456900519556681883",
+        "name": "general",
+        "type": 0,
+        "position": 3,
+        "parentId": "1438405677168066602"
+      },
+      {
+        "id": "1461956017750540332",
+        "name": "mudae",
+        "type": 0,
+        "position": 4,
+        "parentId": "1438405677168066602"
+      },
+      {
+        "id": "1461959510645280839",
+        "name": "bot-commands",
+        "type": 0,
+        "position": 5,
+        "parentId": "1438405677168066602"
+      },
+      {
+        "id": "1463889300859912213",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1456992155041009736",
+        "name": "> QOTD`: **\"Best Romance Anime(s) you'",
+        "type": 10,
+        "parentId": "1455821043213275257"
+      },
+      {
+        "id": "1456994508100341801",
+        "name": "> `QOTD` : **\"Best Romance Anime(s)",
+        "type": 10,
+        "parentId": "1455821043213275257"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1440419466667102293",
+        "name": "KaiZən",
+        "color": 9936031,
+        "permissions": "8864258447638527",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1455938616030396579",
+        "name": "QOTD",
+        "color": 0,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1769238090585
+  }
+}

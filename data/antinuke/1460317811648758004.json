@@ -1,0 +1,603 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1460339916222500966",
+        "name": "buscar-equipos🎮",
+        "type": 0,
+        "position": 7,
+        "parentId": "1460317816392519700"
+      },
+      {
+        "id": "1460346493956264010",
+        "name": "adios✌️",
+        "type": 0,
+        "position": 1,
+        "parentId": "1460317816392519700"
+      },
+      {
+        "id": "1460340425809199337",
+        "name": "afk💤",
+        "type": 2,
+        "position": 29,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460329423097036884",
+        "name": "crypto",
+        "type": 2,
+        "position": 7,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460330816503676988",
+        "name": "conduit",
+        "type": 2,
+        "position": 21,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460329863612338462",
+        "name": "maggie",
+        "type": 2,
+        "position": 12,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460331665900699802",
+        "name": "ash",
+        "type": 2,
+        "position": 26,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460337652799639704",
+        "name": "staff",
+        "type": 2,
+        "position": 0,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460345074134159471",
+        "name": "donaciones💰",
+        "type": 0,
+        "position": 9,
+        "parentId": "1460317816392519700"
+      },
+      {
+        "id": "1460330070613819547",
+        "name": "gibraltar",
+        "type": 2,
+        "position": 15,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460317816392519703",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1460345701413294326",
+        "name": "torneos-proxima-mente🏆",
+        "type": 0,
+        "position": 10,
+        "parentId": "1460317816392519700"
+      },
+      {
+        "id": "1460338696036548628",
+        "name": "reunion🧑‍💻",
+        "type": 2,
+        "position": 28,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460339004799979665",
+        "name": "📢anuncios📢",
+        "type": 0,
+        "position": 2,
+        "parentId": "1460317816392519700"
+      },
+      {
+        "id": "1460329255778124041",
+        "name": "octane",
+        "type": 2,
+        "position": 3,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460329292687736968",
+        "name": "caustic",
+        "type": 2,
+        "position": 4,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460323181893124106",
+        "name": "rules📏",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1460330909579350119",
+        "name": "newcatsle",
+        "type": 2,
+        "position": 22,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460323181893124109",
+        "name": "moderator-only🚫",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1460329998891356345",
+        "name": "mirage",
+        "type": 2,
+        "position": 14,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460330518846509232",
+        "name": "rampart",
+        "type": 2,
+        "position": 18,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460337311500734468",
+        "name": "general📝",
+        "type": 0,
+        "position": 3,
+        "parentId": "1460317816392519700"
+      },
+      {
+        "id": "1460330958690713604",
+        "name": "loba",
+        "type": 2,
+        "position": 23,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460329327697858764",
+        "name": "alter",
+        "type": 2,
+        "position": 5,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460329378733883637",
+        "name": "wraith",
+        "type": 2,
+        "position": 6,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460330302860824587",
+        "name": "seer",
+        "type": 2,
+        "position": 17,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460331061614739702",
+        "name": "wattson",
+        "type": 2,
+        "position": 24,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460329905769418975",
+        "name": "lifeline",
+        "type": 2,
+        "position": 13,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460317816392519701",
+        "name": "bienvenida🖐️",
+        "type": 0,
+        "position": 0,
+        "parentId": "1460317816392519700"
+      },
+      {
+        "id": "1460329185850429655",
+        "name": "sparrow",
+        "type": 2,
+        "position": 2,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460340611084321012",
+        "name": "boost-el-server🔮",
+        "type": 0,
+        "position": 8,
+        "parentId": "1460317816392519700"
+      },
+      {
+        "id": "1460329553430843465",
+        "name": "vantage",
+        "type": 2,
+        "position": 9,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460317816392519702",
+        "name": "clips🎬",
+        "type": 0,
+        "position": 4,
+        "parentId": "1460317816392519700"
+      },
+      {
+        "id": "1460330652703391868",
+        "name": "pathfinder",
+        "type": 2,
+        "position": 20,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460330593253331130",
+        "name": "horizon",
+        "type": 2,
+        "position": 19,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460331587987312714",
+        "name": "catalyst",
+        "type": 2,
+        "position": 25,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460339441779478692",
+        "name": "debastes🧠",
+        "type": 0,
+        "position": 6,
+        "parentId": "1460317816392519700"
+      },
+      {
+        "id": "1460325159499075826",
+        "name": "revenant",
+        "type": 2,
+        "position": 1,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460329683382960232",
+        "name": "fuse",
+        "type": 2,
+        "position": 10,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460329732817293374",
+        "name": "balistic",
+        "type": 2,
+        "position": 11,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460330242894991452",
+        "name": "valkyrie",
+        "type": 2,
+        "position": 16,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460317816392519700",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1460331701631713576",
+        "name": "bangalore",
+        "type": 2,
+        "position": 27,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460329478189220117",
+        "name": "bloodhound",
+        "type": 2,
+        "position": 8,
+        "parentId": "1460317816392519703"
+      },
+      {
+        "id": "1460332472800645203",
+        "name": "fotos📷",
+        "type": 0,
+        "position": 5,
+        "parentId": "1460317816392519700"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1460322553699762301",
+        "name": "catalyst",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460321152223281317",
+        "name": "pathfinder",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460322395805057055",
+        "name": "caustic",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460322505544962150",
+        "name": "rampart",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460322232499830976",
+        "name": "loba",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460320262829375546",
+        "name": "octane",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460326315646259305",
+        "name": "founder",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460321084485275710",
+        "name": "ballistic",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460321320087584954",
+        "name": "wraith",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460321898192699485",
+        "name": "Gibraltar",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460321575231557834",
+        "name": "crypto",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460322115289874735",
+        "name": "mirage",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460321442985017414",
+        "name": "alter",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460320458519085201",
+        "name": "revenant",
+        "color": 11342935,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460321759357042730",
+        "name": "vantage",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460320400398352550",
+        "name": "ash",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460321631502204939",
+        "name": "seer",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460320978327568609",
+        "name": "mad maggie",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460320926100099192",
+        "name": "fuse",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460322458619084932",
+        "name": "wattson",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460321484802359346",
+        "name": "bloodhound",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460327871041110017",
+        "name": "admin",
+        "color": 3066993,
+        "permissions": "8864262743130111",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460321845868888217",
+        "name": "sparrow",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460322274283487243",
+        "name": "newcastle",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460321630751293578",
+        "name": "valkyrie",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460322448766533757",
+        "name": "nuevo rol",
+        "color": 0,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460322339441873038",
+        "name": "conduit",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460321375670501733",
+        "name": "horizon",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460320578090041396",
+        "name": "bangalore",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460348319682527254",
+        "name": "Donator",
+        "color": 16739206,
+        "permissions": "2222085186637377",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460320512721817873",
+        "name": "lifeline",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845100
+  }
+}

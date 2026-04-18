@@ -1,0 +1,245 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1422947616899207280",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1462797169231794339",
+        "name": "╭─── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ───╮",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1462797177033064718",
+        "name": "🎊│giveaways",
+        "type": 0,
+        "position": 1,
+        "parentId": "1462797169231794339"
+      },
+      {
+        "id": "1462797179490926813",
+        "name": "◤◢◣◥◤◢◣◥ VIBES ◤◢◣◥◤◢◣◥",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1462797259484823563",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1477734094325682189"
+      },
+      {
+        "id": "1462803503532474393",
+        "name": "📜│rules-n-stuff",
+        "type": 0,
+        "position": 0,
+        "parentId": "1462797169231794339"
+      },
+      {
+        "id": "1462855503909486787",
+        "name": "🤖│bot-spam",
+        "type": 0,
+        "position": 0,
+        "parentId": "1462797179490926813"
+      },
+      {
+        "id": "1462856474010190071",
+        "name": "🌙・Late Night Vibes",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1462857081265590293",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1477734094325682189"
+      },
+      {
+        "id": "1477734094325682189",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1423301145178275870",
+        "name": "test",
+        "color": 11342935,
+        "permissions": "8",
+        "position": 14,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1423301191772930119",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1423301200199155765",
+        "name": "SUBJECT",
+        "color": 3447003,
+        "permissions": "8",
+        "position": 9,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1423555084783980565",
+        "name": "sex",
+        "color": 0,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1423555088500129894",
+        "name": "aaaaa",
+        "color": 0,
+        "permissions": "12",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1423555092296241275",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1423556523610865674",
+        "name": "esd",
+        "color": 0,
+        "permissions": "1099511767044",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1423561826389463050",
+        "name": "sex",
+        "color": 0,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1462095361521750148",
+        "name": "test",
+        "color": 0,
+        "permissions": "12",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1462102901785759936",
+        "name": "new role",
+        "color": 0,
+        "permissions": "8",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1462753865299656736",
+        "name": "new role",
+        "color": 0,
+        "permissions": "8",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845203
+  },
+  "userStrips": {
+    "1246380709124378674": {
+      "strippedRoles": [
+        {
+          "id": "1423301200199155765",
+          "name": "SUBJECT",
+          "managed": false,
+          "permissions": "8",
+          "type": "role"
+        }
+      ],
+      "strippedCount": 1,
+      "failedManagedRoles": 0,
+      "updated": 1768842761395
+    }
+  },
+  "buttons": {
+    "antinuke_whitelist_1246380709124378674": {
+      "type": "whitelist",
+      "userId": "1246380709124378674",
+      "guildId": "1422947615841976524",
+      "ownerId": "953527567808356404",
+      "createdAt": 1768842762810,
+      "expiresAt": 1768871562810
+    },
+    "antinuke_restore_1246380709124378674": {
+      "type": "restore",
+      "userId": "1246380709124378674",
+      "guildId": "1422947615841976524",
+      "ownerId": "953527567808356404",
+      "createdAt": 1768842762810,
+      "expiresAt": 1768871562810
+    },
+    "antinuke_unwhitelist_1246380709124378674": {
+      "type": "unwhitelist",
+      "userId": "1246380709124378674",
+      "guildId": "1422947615841976524",
+      "ownerId": "953527567808356404",
+      "createdAt": 1768842496974,
+      "expiresAt": 1768871296974
+    },
+    "antinuke_kick_1246380709124378674": {
+      "type": "kick",
+      "userId": "1246380709124378674",
+      "guildId": "1422947615841976524",
+      "ownerId": "953527567808356404",
+      "createdAt": 1768842496974,
+      "expiresAt": 1768871296974
+    },
+    "antinuke_ban_1246380709124378674": {
+      "type": "ban",
+      "userId": "1246380709124378674",
+      "guildId": "1422947615841976524",
+      "ownerId": "953527567808356404",
+      "createdAt": 1768842496974,
+      "expiresAt": 1768871296974
+    },
+    "antinuke_strip_1246380709124378674": {
+      "type": "strip",
+      "userId": "1246380709124378674",
+      "guildId": "1422947615841976524",
+      "ownerId": "953527567808356404",
+      "createdAt": 1768842496974,
+      "expiresAt": 1768871296974
+    }
+  },
+  "buttonsUpdated": 1768842762811
+}

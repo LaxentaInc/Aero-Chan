@@ -1,0 +1,517 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1469845380832297132",
+        "name": "memes",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469798120845082664"
+      },
+      {
+        "id": "1470100849572188160",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1470100846728577309"
+      },
+      {
+        "id": "1469798748090531861",
+        "name": "Higher power",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1469838028955713609",
+        "name": "ranked-rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469798198779580601"
+      },
+      {
+        "id": "1469867399594512474",
+        "name": "report",
+        "type": 0,
+        "position": 1,
+        "parentId": "1469867070807085107"
+      },
+      {
+        "id": "1469851785694019828",
+        "name": "rules",
+        "type": 0,
+        "position": 1,
+        "parentId": "1469798278861295666"
+      },
+      {
+        "id": "1469869339116044341",
+        "name": "Training",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1470082130137714792",
+        "name": "allies-and-enemies",
+        "type": 0,
+        "position": 3,
+        "parentId": "1469798278861295666"
+      },
+      {
+        "id": "1469798198779580601",
+        "name": "Ranked",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1469910715639795985",
+        "name": "cookie-clicker",
+        "type": 0,
+        "position": 1,
+        "parentId": "1469895276033736745"
+      },
+      {
+        "id": "1469895035653718089",
+        "name": "other-game vc 1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1469895276033736745"
+      },
+      {
+        "id": "1469869544834072647",
+        "name": "training",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469869339116044341"
+      },
+      {
+        "id": "1469894611257262181",
+        "name": "2v1 for fun vc",
+        "type": 2,
+        "position": 2,
+        "parentId": "1469843308426690581"
+      },
+      {
+        "id": "1469845677105352766",
+        "name": "vote-for-updates",
+        "type": 0,
+        "position": 1,
+        "parentId": "1469795015344787548"
+      },
+      {
+        "id": "1469826812749152464",
+        "name": "1v1 for fun vc",
+        "type": 2,
+        "position": 0,
+        "parentId": "1469843308426690581"
+      },
+      {
+        "id": "1469886900566233239",
+        "name": "2v2-for-fun-gc",
+        "type": 0,
+        "position": 1,
+        "parentId": "1469843308426690581"
+      },
+      {
+        "id": "1469798861773078806",
+        "name": "Lemon killers",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1469867070807085107",
+        "name": "help center",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1469813576477970452",
+        "name": "lemon cap",
+        "type": 2,
+        "position": 1,
+        "parentId": "1469798748090531861"
+      },
+      {
+        "id": "1469798120845082664",
+        "name": "Memes",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1470100852428636282",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1470100846728577309"
+      },
+      {
+        "id": "1470168196198830100",
+        "name": "priv-channel-for-mods",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1469817813656010902",
+        "name": "lemon-killer-gc",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469798861773078806"
+      },
+      {
+        "id": "1469871645664481384",
+        "name": "training",
+        "type": 2,
+        "position": 0,
+        "parentId": "1469869339116044341"
+      },
+      {
+        "id": "1469852959142707230",
+        "name": "scouts-gc",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469852221268033907"
+      },
+      {
+        "id": "1469798278861295666",
+        "name": "info",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1469795015344787551",
+        "name": "voice of Lemons",
+        "type": 2,
+        "position": 1,
+        "parentId": "1469795015344787549"
+      },
+      {
+        "id": "1469795015344787550",
+        "name": "general-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469795015344787548"
+      },
+      {
+        "id": "1469897221527834737",
+        "name": "other-game vc 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1469895276033736745"
+      },
+      {
+        "id": "1469845929363509350",
+        "name": "lemon cap",
+        "type": 2,
+        "position": 0,
+        "parentId": "1469798861773078806"
+      },
+      {
+        "id": "1469826614409039983",
+        "name": "1v1s-for-fun-gc",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469843308426690581"
+      },
+      {
+        "id": "1469894318843101266",
+        "name": "2v1-for-fun-gc",
+        "type": 0,
+        "position": 2,
+        "parentId": "1469843308426690581"
+      },
+      {
+        "id": "1469843308426690581",
+        "name": "pvp for fun",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1469866347411276028",
+        "name": "scale",
+        "type": 0,
+        "position": 3,
+        "parentId": "1469798198779580601"
+      },
+      {
+        "id": "1469870215280984155",
+        "name": "teachers",
+        "type": 0,
+        "position": 1,
+        "parentId": "1469869339116044341"
+      },
+      {
+        "id": "1469852399249395712",
+        "name": "scouts-gc",
+        "type": 0,
+        "position": 1,
+        "parentId": "1469798748090531861"
+      },
+      {
+        "id": "1470100846728577309",
+        "name": "Aero",
+        "type": 4,
+        "position": 12,
+        "parentId": null
+      },
+      {
+        "id": "1469897364071256308",
+        "name": "other-game-gc",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469895276033736745"
+      },
+      {
+        "id": "1469797038777696415",
+        "name": "Lemons",
+        "type": 2,
+        "position": 2,
+        "parentId": "1469795015344787549"
+      },
+      {
+        "id": "1469895276033736745",
+        "name": "other games",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1470251640895307919",
+        "name": "tactics",
+        "type": 0,
+        "position": 2,
+        "parentId": "1469869339116044341"
+      },
+      {
+        "id": "1469852696617025819",
+        "name": "scouts vc",
+        "type": 2,
+        "position": 0,
+        "parentId": "1469852221268033907"
+      },
+      {
+        "id": "1469851300027039884",
+        "name": "welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469798278861295666"
+      },
+      {
+        "id": "1469823863075377152",
+        "name": "Ranked",
+        "type": 2,
+        "position": 0,
+        "parentId": "1469798198779580601"
+      },
+      {
+        "id": "1469851921132032003",
+        "name": "events",
+        "type": 0,
+        "position": 2,
+        "parentId": "1469798278861295666"
+      },
+      {
+        "id": "1469795015344787548",
+        "name": "hub",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1469853030881951927",
+        "name": "lovepanda22111-is-tuff",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1469797939248369847",
+        "name": "Higher ups",
+        "type": 2,
+        "position": 0,
+        "parentId": "1469798748090531861"
+      },
+      {
+        "id": "1469844056820420650",
+        "name": "higher-power-gc",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469798748090531861"
+      },
+      {
+        "id": "1469887221111984345",
+        "name": "2v2 for fun vc",
+        "type": 2,
+        "position": 1,
+        "parentId": "1469843308426690581"
+      },
+      {
+        "id": "1469867192454742056",
+        "name": "quetions",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469867070807085107"
+      },
+      {
+        "id": "1469844518978453787",
+        "name": "ranked-gc",
+        "type": 0,
+        "position": 2,
+        "parentId": "1469798198779580601"
+      },
+      {
+        "id": "1469855512462889166",
+        "name": "elite",
+        "type": 2,
+        "position": 3,
+        "parentId": "1469798748090531861"
+      },
+      {
+        "id": "1469844443170345194",
+        "name": "ranked-clips",
+        "type": 0,
+        "position": 1,
+        "parentId": "1469798198779580601"
+      },
+      {
+        "id": "1469853210364874958",
+        "name": "higher-power-w-caps-scouts",
+        "type": 0,
+        "position": 2,
+        "parentId": "1469798748090531861"
+      },
+      {
+        "id": "1470165152404869361",
+        "name": "lovepanda22111-is-tuff-vc",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1469854619281784842",
+        "name": "scout",
+        "type": 2,
+        "position": 2,
+        "parentId": "1469798748090531861"
+      },
+      {
+        "id": "1469799371628478575",
+        "name": "Lemon killers",
+        "type": 2,
+        "position": 1,
+        "parentId": "1469798861773078806"
+      },
+      {
+        "id": "1469852221268033907",
+        "name": "scouts",
+        "type": 4,
+        "position": 11,
+        "parentId": null
+      },
+      {
+        "id": "1469797541871878291",
+        "name": "Lemons priv",
+        "type": 2,
+        "position": 0,
+        "parentId": "1469795015344787549"
+      },
+      {
+        "id": "1469795015344787549",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 10,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1469803406980939890",
+        "name": "Lemon kill cap",
+        "color": 15844367,
+        "permissions": "3973476175302594",
+        "position": 9,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1469803758362951821",
+        "name": "Lemon killers member",
+        "color": 15105570,
+        "permissions": "4535488989248",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1469806495754490102",
+        "name": "Higher up Lemons",
+        "color": 15844367,
+        "permissions": "1721826618638327",
+        "position": 11,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1469810421396541511",
+        "name": "Admin freinds/ allies",
+        "color": 12745742,
+        "permissions": "8793893998428159",
+        "position": 10,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1469847011447541760",
+        "name": "ranked player",
+        "color": 0,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1469848937774190633",
+        "name": "scout",
+        "color": 0,
+        "permissions": "1158857463680833",
+        "position": 6,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1469870618001408197",
+        "name": "teacher",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1469898662913249422",
+        "name": "Active player",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1470559454280814622",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845081
+  }
+}

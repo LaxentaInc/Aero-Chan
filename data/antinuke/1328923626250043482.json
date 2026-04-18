@@ -1,0 +1,211 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1328923626250043483",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1328923626732519455",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1328923626732519456",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1328923626250043483"
+      },
+      {
+        "id": "1328923626732519457",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1328923626732519455"
+      },
+      {
+        "id": "1347214876577366067",
+        "name": "📢 | Announcements",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1347214877214769263",
+        "name": "📢--announcements",
+        "type": 0,
+        "position": 0,
+        "parentId": "1347214876577366067"
+      },
+      {
+        "id": "1347214878238048351",
+        "name": "📝--patch-notes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1347214876577366067"
+      },
+      {
+        "id": "1347214879052005476",
+        "name": "🎮--game-updates",
+        "type": 0,
+        "position": 2,
+        "parentId": "1347214876577366067"
+      },
+      {
+        "id": "1347214880377274450",
+        "name": "📣--events",
+        "type": 0,
+        "position": 3,
+        "parentId": "1347214876577366067"
+      },
+      {
+        "id": "1347214881669251093",
+        "name": "💬 | Text Channels",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1347214882650718218",
+        "name": "💬--general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1347214881669251093"
+      },
+      {
+        "id": "1347214883611082774",
+        "name": "🎮--game-chat",
+        "type": 0,
+        "position": 1,
+        "parentId": "1347214881669251093"
+      },
+      {
+        "id": "1347214884945002608",
+        "name": "🔍--lfg",
+        "type": 0,
+        "position": 2,
+        "parentId": "1347214881669251093"
+      },
+      {
+        "id": "1347214886047977544",
+        "name": "🤖--bots",
+        "type": 0,
+        "position": 3,
+        "parentId": "1347214881669251093"
+      },
+      {
+        "id": "1347214886374998078",
+        "name": "🔊 | Voice Channels",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1347214887633424435",
+        "name": "🔊 | General Voice",
+        "type": 2,
+        "position": 0,
+        "parentId": "1347214886374998078"
+      },
+      {
+        "id": "1347214888531136624",
+        "name": "🎮 | Game Room 1",
+        "type": 2,
+        "position": 1,
+        "parentId": "1347214886374998078"
+      },
+      {
+        "id": "1347214889139310734",
+        "name": "🎮 | Game Room 2",
+        "type": 2,
+        "position": 2,
+        "parentId": "1347214886374998078"
+      },
+      {
+        "id": "1347214890137288724",
+        "name": "🎮 | Game Room 3",
+        "type": 2,
+        "position": 3,
+        "parentId": "1347214886374998078"
+      },
+      {
+        "id": "1347214890791866389",
+        "name": "📝 | Game Rooms",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1347214892444291233",
+        "name": "📝--room-1",
+        "type": 0,
+        "position": 0,
+        "parentId": "1347214890791866389"
+      },
+      {
+        "id": "1347214893207654423",
+        "name": "📝--room-2",
+        "type": 0,
+        "position": 1,
+        "parentId": "1347214890791866389"
+      },
+      {
+        "id": "1347214894583255143",
+        "name": "📝--room-3",
+        "type": 0,
+        "position": 2,
+        "parentId": "1347214890791866389"
+      },
+      {
+        "id": "1347214895556329493",
+        "name": "📝--room-4",
+        "type": 0,
+        "position": 3,
+        "parentId": "1347214890791866389"
+      },
+      {
+        "id": "1347214896131215381",
+        "name": "🏆 | Competitive",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1347214897343365142",
+        "name": "🏆--tournaments",
+        "type": 0,
+        "position": 0,
+        "parentId": "1347214896131215381"
+      },
+      {
+        "id": "1347214898442010674",
+        "name": "🎯--strategies",
+        "type": 0,
+        "position": 1,
+        "parentId": "1347214896131215381"
+      },
+      {
+        "id": "1347214899574472877",
+        "name": "💡--tips",
+        "type": 0,
+        "position": 2,
+        "parentId": "1347214896131215381"
+      },
+      {
+        "id": "1347214900375584778",
+        "name": "📊--stats",
+        "type": 0,
+        "position": 3,
+        "parentId": "1347214896131215381"
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845088
+  }
+}

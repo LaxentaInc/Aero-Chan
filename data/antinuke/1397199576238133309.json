@@ -1,0 +1,763 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1397199576833982699",
+        "name": "📨｜suggestions",
+        "type": 0,
+        "position": 2,
+        "parentId": "1397199576833982696"
+      },
+      {
+        "id": "1397199576833982698",
+        "name": "📰｜announcements",
+        "type": 0,
+        "position": 1,
+        "parentId": "1397199576833982696"
+      },
+      {
+        "id": "1397199577001623653",
+        "name": "🎨｜fan-art",
+        "type": 0,
+        "position": 4,
+        "parentId": "1397199576833982704"
+      },
+      {
+        "id": "1397199577446355113",
+        "name": "🌌｜boosters-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1397199577446355112"
+      },
+      {
+        "id": "1397199576678535299",
+        "name": "📖｜about-server",
+        "type": 0,
+        "position": 3,
+        "parentId": "1397199576678535295"
+      },
+      {
+        "id": "1397199577446355108",
+        "name": "🏆｜fan-art-of-the-week",
+        "type": 0,
+        "position": 2,
+        "parentId": "1397199577161011229"
+      },
+      {
+        "id": "1397199577446355106",
+        "name": "🏆｜meme-of-the-week",
+        "type": 0,
+        "position": 0,
+        "parentId": "1397199577161011229"
+      },
+      {
+        "id": "1397199577676775506",
+        "name": "👥｜Chilling",
+        "type": 2,
+        "position": 2,
+        "parentId": "1397199577446355115"
+      },
+      {
+        "id": "1397199577001623649",
+        "name": "👥｜chatting",
+        "type": 0,
+        "position": 0,
+        "parentId": "1397199576833982704"
+      },
+      {
+        "id": "1397199577446355109",
+        "name": "ADVERTISEMENTS",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1397199577001623651",
+        "name": "📷｜photos",
+        "type": 0,
+        "position": 2,
+        "parentId": "1397199576833982704"
+      },
+      {
+        "id": "1397199576678535297",
+        "name": "👋🏼｜welcome",
+        "type": 0,
+        "position": 1,
+        "parentId": "1397199576678535295"
+      },
+      {
+        "id": "1397199576678535298",
+        "name": "👋🏼｜goodbye",
+        "type": 0,
+        "position": 2,
+        "parentId": "1397199576678535295"
+      },
+      {
+        "id": "1397199577446355107",
+        "name": "🏆｜photo-of-the-week",
+        "type": 0,
+        "position": 1,
+        "parentId": "1397199577161011229"
+      },
+      {
+        "id": "1397199577676775511",
+        "name": "⬅｜logs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1397199577676775509"
+      },
+      {
+        "id": "1397199576833982703",
+        "name": "📝｜player-report",
+        "type": 0,
+        "position": 6,
+        "parentId": "1397199576833982696"
+      },
+      {
+        "id": "1397208465218474024",
+        "name": "🤖｜featured-bot",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1397199577161011224",
+        "name": "🎧｜Music VC 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1397199577161011220"
+      },
+      {
+        "id": "1397199577446355112",
+        "name": "SERVER BOOSTERS",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1397199577161011220",
+        "name": "MUSIC",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1397199577001623655",
+        "name": "👥｜gamer-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1397199577001623654"
+      },
+      {
+        "id": "1397199577161011223",
+        "name": "🎧｜Music VC",
+        "type": 2,
+        "position": 0,
+        "parentId": "1397199577161011220"
+      },
+      {
+        "id": "1397199577001623656",
+        "name": "🤣｜gamer-memes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1397199577001623654"
+      },
+      {
+        "id": "1397199577676775509",
+        "name": "MODERATION",
+        "type": 4,
+        "position": 11,
+        "parentId": null
+      },
+      {
+        "id": "1397199576678535296",
+        "name": "✅｜verify",
+        "type": 0,
+        "position": 0,
+        "parentId": "1397199576678535295"
+      },
+      {
+        "id": "1397199577446355110",
+        "name": "📢｜self-advertising",
+        "type": 0,
+        "position": 0,
+        "parentId": "1397199577446355109"
+      },
+      {
+        "id": "1397199577001623657",
+        "name": "📺｜videos",
+        "type": 0,
+        "position": 2,
+        "parentId": "1397199577001623654"
+      },
+      {
+        "id": "1397199577446355111",
+        "name": "🎥｜youtube-advertising",
+        "type": 0,
+        "position": 1,
+        "parentId": "1397199577446355109"
+      },
+      {
+        "id": "1397200801679544412",
+        "name": "🌎｜geopolitics",
+        "type": 0,
+        "position": 2,
+        "parentId": "1397200500264538193"
+      },
+      {
+        "id": "1397199577446355114",
+        "name": "🚀｜ Boosters VC 🔒",
+        "type": 2,
+        "position": 0,
+        "parentId": "1397199577446355112"
+      },
+      {
+        "id": "1397199576833982701",
+        "name": "🎊｜events",
+        "type": 0,
+        "position": 4,
+        "parentId": "1397199576833982696"
+      },
+      {
+        "id": "1397199577161011227",
+        "name": "🤖｜bot-commands",
+        "type": 0,
+        "position": 0,
+        "parentId": "1397199577161011226"
+      },
+      {
+        "id": "1397199577161011226",
+        "name": "BOTS",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1397199577161011222",
+        "name": "🎶｜song-request",
+        "type": 0,
+        "position": 1,
+        "parentId": "1397199577161011220"
+      },
+      {
+        "id": "1397199577001623650",
+        "name": "🤣｜memes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1397199576833982704"
+      },
+      {
+        "id": "1397199577899208816",
+        "name": "🚔｜staff-chat",
+        "type": 0,
+        "position": 4,
+        "parentId": "1397199577676775509"
+      },
+      {
+        "id": "1397199577161011221",
+        "name": "🎵｜beat-makers",
+        "type": 0,
+        "position": 0,
+        "parentId": "1397199577161011220"
+      },
+      {
+        "id": "1397199577899208817",
+        "name": "📞｜Staff VC 🔒",
+        "type": 2,
+        "position": 0,
+        "parentId": "1397199577676775509"
+      },
+      {
+        "id": "1397199577161011228",
+        "name": "👾｜level",
+        "type": 0,
+        "position": 1,
+        "parentId": "1397199577161011226"
+      },
+      {
+        "id": "1397199576678535295",
+        "name": "INFORMATION",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1397199577676775508",
+        "name": "💣｜Raid",
+        "type": 2,
+        "position": 4,
+        "parentId": "1397199577446355115"
+      },
+      {
+        "id": "1397200500264538193",
+        "name": "DISCUSSION CHANNELS",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1397201571896627280",
+        "name": "safety-notifications",
+        "type": 0,
+        "position": 6,
+        "parentId": "1397199577676775509"
+      },
+      {
+        "id": "1397199576833982695",
+        "name": "👥｜application",
+        "type": 0,
+        "position": 5,
+        "parentId": "1397199576678535295"
+      },
+      {
+        "id": "1397201188620865637",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 5,
+        "parentId": "1397199577676775509"
+      },
+      {
+        "id": "1397199577161011229",
+        "name": "PAINTINGS",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1397201336948494356",
+        "name": "🗣️｜politics",
+        "type": 15,
+        "position": 0,
+        "parentId": "1397200500264538193"
+      },
+      {
+        "id": "1397199576833982704",
+        "name": "CHILL AREA",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1397199577676775505",
+        "name": "🙋｜Meetup",
+        "type": 2,
+        "position": 1,
+        "parentId": "1397199577446355115"
+      },
+      {
+        "id": "1397201431286780045",
+        "name": "📑｜research",
+        "type": 0,
+        "position": 4,
+        "parentId": "1397200500264538193"
+      },
+      {
+        "id": "1397199577676775510",
+        "name": "📝｜report-request",
+        "type": 0,
+        "position": 0,
+        "parentId": "1397199577676775509"
+      },
+      {
+        "id": "1397199577161011225",
+        "name": "🎧｜Music VC 3",
+        "type": 2,
+        "position": 2,
+        "parentId": "1397199577161011220"
+      },
+      {
+        "id": "1397199576833982700",
+        "name": "🎉｜giveaways",
+        "type": 0,
+        "position": 3,
+        "parentId": "1397199576833982696"
+      },
+      {
+        "id": "1397199576833982696",
+        "name": "IMPORTANT",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1397199577001623658",
+        "name": "📷｜photos",
+        "type": 0,
+        "position": 3,
+        "parentId": "1397199577001623654"
+      },
+      {
+        "id": "1397199577676775513",
+        "name": "📰｜staff-announcements",
+        "type": 0,
+        "position": 3,
+        "parentId": "1397199577676775509"
+      },
+      {
+        "id": "1397199577446355115",
+        "name": "VOICE CHANNELS",
+        "type": 4,
+        "position": 10,
+        "parentId": null
+      },
+      {
+        "id": "1397199577001623654",
+        "name": "Games",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1397199577676775504",
+        "name": "⏰｜Waiting Room",
+        "type": 2,
+        "position": 0,
+        "parentId": "1397199577446355115"
+      },
+      {
+        "id": "1397199577001623652",
+        "name": "📺｜videos",
+        "type": 0,
+        "position": 3,
+        "parentId": "1397199576833982704"
+      },
+      {
+        "id": "1397200714010333266",
+        "name": "🤖｜ai",
+        "type": 0,
+        "position": 1,
+        "parentId": "1397200500264538193"
+      },
+      {
+        "id": "1397199576833982702",
+        "name": "📥｜vote",
+        "type": 0,
+        "position": 5,
+        "parentId": "1397199576833982696"
+      },
+      {
+        "id": "1397199577676775512",
+        "name": "💻｜staff-app",
+        "type": 0,
+        "position": 2,
+        "parentId": "1397199577676775509"
+      },
+      {
+        "id": "1397199577676775507",
+        "name": "🥂｜Bar",
+        "type": 2,
+        "position": 3,
+        "parentId": "1397199577446355115"
+      },
+      {
+        "id": "1397199576833982697",
+        "name": "📰｜rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1397199576833982696"
+      },
+      {
+        "id": "1397200928704036977",
+        "name": "🗿｜philosophy",
+        "type": 0,
+        "position": 3,
+        "parentId": "1397200500264538193"
+      },
+      {
+        "id": "1397199576678535300",
+        "name": "💬｜faq",
+        "type": 0,
+        "position": 4,
+        "parentId": "1397199576678535295"
+      },
+      {
+        "id": "1461319504146464849",
+        "name": "neega",
+        "type": 11,
+        "parentId": "1397201336948494356"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1397199576259100796",
+        "name": "✴ ⊶▬▬⊶▬Staff▬⊷▬▬⊷ ✴",
+        "color": 0,
+        "permissions": "104320577",
+        "position": 24,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576238133316",
+        "name": "✨Good Member〔Level 20⁺〕",
+        "color": 3447003,
+        "permissions": "104320577",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576238133317",
+        "name": "🌠Ace Member〔Level 40⁺〕",
+        "color": 15844367,
+        "permissions": "104320577",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576259100794",
+        "name": "🌀Moderator",
+        "color": 3447003,
+        "permissions": "1341652551",
+        "position": 22,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1397199576250978455",
+        "name": "⚜️Mythic Member〔Level 80⁺〕",
+        "color": 15844367,
+        "permissions": "104320577",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576259100798",
+        "name": "✴ ⊶▬▬⊶▬Bot▬⊷▬▬⊷ ✴",
+        "color": 0,
+        "permissions": "104320585",
+        "position": 26,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576250978458",
+        "name": "🥇First Place〔Leaderboard〕",
+        "color": 1146986,
+        "permissions": "104320577",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576259100800",
+        "name": "📝Staff Manager",
+        "color": 1752220,
+        "permissions": "2194190893007",
+        "position": 28,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576259100802",
+        "name": "👑Co Owner",
+        "color": 15844367,
+        "permissions": "2194727763967",
+        "position": 30,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576259100803",
+        "name": "👑Owner",
+        "color": 15844367,
+        "permissions": "2146959103",
+        "position": 31,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576238133313",
+        "name": "✅Verified",
+        "color": 42811,
+        "permissions": "104320577",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576238133314",
+        "name": "⭐Member〔Level 0⁺〕",
+        "color": 3447003,
+        "permissions": "36801601",
+        "position": 7,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576250978463",
+        "name": "✴ ⊶▬▬⊶▬Social▬⊷▬▬⊷ ✴",
+        "color": 0,
+        "permissions": "104320577",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576250978464",
+        "name": "⚙️Server Staff",
+        "color": 3066993,
+        "permissions": "104320577",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576250978462",
+        "name": "🎥Youtuber",
+        "color": 15416118,
+        "permissions": "104324673",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576250978456",
+        "name": "💯 Godlike Member〔Level 100⁺〕",
+        "color": 15844367,
+        "permissions": "104320577",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576259100795",
+        "name": "🔥Administrator",
+        "color": 15277667,
+        "permissions": "2146959103",
+        "position": 23,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1397199576238133310",
+        "name": "⊶▬▬⊶▬▬ ✴ ▬▬⊷▬▬⊷",
+        "color": 0,
+        "permissions": "104320577",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576250978459",
+        "name": "✴ ⊶▬▬⊶▬LeaderBoard▬⊷▬▬⊷ ✴",
+        "color": 0,
+        "permissions": "104320577",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576238133312",
+        "name": "🔇Muted",
+        "color": 0,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576259100797",
+        "name": "🌐Head Moderator",
+        "color": 2123412,
+        "permissions": "1610084047",
+        "position": 25,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576250978460",
+        "name": "🚀Server Booster",
+        "color": 7978481,
+        "permissions": "104324673",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397202171023458354",
+        "name": "Featured Bot",
+        "color": 0,
+        "permissions": "0",
+        "position": 32,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576238133311",
+        "name": "👎 Shameful Troller",
+        "color": 3066993,
+        "permissions": "927817256513",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576259100801",
+        "name": "✴ ⊶▬▬⊶▬Leadership▬⊷▬▬⊷ ✴",
+        "color": 0,
+        "permissions": "0",
+        "position": 29,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576250978457",
+        "name": "✴ ⊶▬▬⊶▬Member▬⊷▬▬⊷ ✴",
+        "color": 0,
+        "permissions": "104320577",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576238133318",
+        "name": "🔱Legend Member〔Level 60⁺〕",
+        "color": 15844367,
+        "permissions": "104320577",
+        "position": 11,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1461720113068638493",
+        "name": "🌿 New Member",
+        "color": 1752220,
+        "permissions": "8",
+        "position": 1,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1397199576250978461",
+        "name": "✴ ⊶▬▬⊶▬Special▬⊷▬▬⊷ ✴",
+        "color": 0,
+        "permissions": "104320577",
+        "position": 18,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576238133315",
+        "name": "🌟Active Member〔Level 10⁺〕",
+        "color": 3447003,
+        "permissions": "37080641",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1397199576259100799",
+        "name": "🚨Head Administrator",
+        "color": 11342935,
+        "permissions": "2146959103",
+        "position": 27,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1768571802455
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1247240450524315759",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1247240450524315760",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1247240450524315761",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1247240450524315759"
+      },
+      {
+        "id": "1247240450524315762",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1247240450524315760"
+      },
+      {
+        "id": "1247715054007357571",
+        "name": "bot-stiff",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1247722167819309146",
+        "name": "more-bot-stuff",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1247734262665318481",
+        "name": "idk-anymore",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1248692882479775794",
+        "name": "exe",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1255930769419931801",
+        "name": "bot stuff",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1255931968730828880",
+        "name": "pancake-test",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1255960817183227985",
+        "name": "more-bot-stuff",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1273547885383909376",
+        "name": "ahh-yes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1247240450524315759"
+      },
+      {
+        "id": "1407291298314059786",
+        "name": "big",
+        "type": 0,
+        "position": 2,
+        "parentId": "1247240450524315759"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1279647940192899102",
+        "name": "new test",
+        "color": 15158332,
+        "permissions": "2108863301550079",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845196
+  }
+}

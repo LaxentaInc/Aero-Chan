@@ -1,0 +1,50 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1310083288525701180",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1310083288525701181",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1310083288525701182",
+        "name": "mirai",
+        "type": 0,
+        "position": 0,
+        "parentId": "1310083288525701180"
+      },
+      {
+        "id": "1310083288525701183",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1310083288525701181"
+      },
+      {
+        "id": "1310083745751240756",
+        "name": "bitch official",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1310083795935821894",
+        "name": "oh-yeah",
+        "type": 0,
+        "position": 0,
+        "parentId": "1310083745751240756"
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845061
+  }
+}

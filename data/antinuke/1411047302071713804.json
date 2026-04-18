@@ -1,0 +1,312 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1411056325525372938",
+        "name": "role-system👍",
+        "type": 0,
+        "position": 1,
+        "parentId": "1411055928232509470"
+      },
+      {
+        "id": "1411161541742690485",
+        "name": "Music",
+        "type": 2,
+        "position": 1,
+        "parentId": "1411047302998790266"
+      },
+      {
+        "id": "1411166800158396596",
+        "name": "vc-2",
+        "type": 2,
+        "position": 4,
+        "parentId": "1411047302998790266"
+      },
+      {
+        "id": "1411077211947270265",
+        "name": "yggdrasil",
+        "type": 0,
+        "position": 1,
+        "parentId": "1411077105378263242"
+      },
+      {
+        "id": "1411047302998790265",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1411077105378263242",
+        "name": "bots",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1411066522821984396",
+        "name": "help-me",
+        "type": 0,
+        "position": 0,
+        "parentId": "1411072484114956408"
+      },
+      {
+        "id": "1411166727441748089",
+        "name": "vc-1",
+        "type": 2,
+        "position": 3,
+        "parentId": "1411047302998790266"
+      },
+      {
+        "id": "1411065894582353980",
+        "name": "content-creators",
+        "type": 0,
+        "position": 2,
+        "parentId": "1411062761403846818"
+      },
+      {
+        "id": "1411077270659006555",
+        "name": "music",
+        "type": 0,
+        "position": 2,
+        "parentId": "1411077105378263242"
+      },
+      {
+        "id": "1411161696977813606",
+        "name": "Duo",
+        "type": 2,
+        "position": 2,
+        "parentId": "1411047302998790266"
+      },
+      {
+        "id": "1411055928232509470",
+        "name": "ℝ𝕦𝕝𝕖𝕤",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1411162610870517760",
+        "name": "commands",
+        "type": 0,
+        "position": 3,
+        "parentId": "1411077105378263242"
+      },
+      {
+        "id": "1411167655167262751",
+        "name": "study room",
+        "type": 2,
+        "position": 5,
+        "parentId": "1411047302998790266"
+      },
+      {
+        "id": "1411163175784677416",
+        "name": "story",
+        "type": 0,
+        "position": 3,
+        "parentId": "1411062761403846818"
+      },
+      {
+        "id": "1411066228612665424",
+        "name": "memes",
+        "type": 0,
+        "position": 3,
+        "parentId": "1411047302998790265"
+      },
+      {
+        "id": "1411066287823781990",
+        "name": "pick-up-lines-lol",
+        "type": 0,
+        "position": 4,
+        "parentId": "1411047302998790265"
+      },
+      {
+        "id": "1411078344547766413",
+        "name": "suggestions-and-boosts",
+        "type": 0,
+        "position": 7,
+        "parentId": "1411047302998790265"
+      },
+      {
+        "id": "1411066337362575380",
+        "name": "song-suggestions",
+        "type": 0,
+        "position": 5,
+        "parentId": "1411047302998790265"
+      },
+      {
+        "id": "1411047302998790266",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1411062761403846818",
+        "name": "Update Channels!",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1411076715823759372",
+        "name": "server-announcements",
+        "type": 0,
+        "position": 0,
+        "parentId": "1411047302998790265"
+      },
+      {
+        "id": "1411047302998790267",
+        "name": "general",
+        "type": 0,
+        "position": 2,
+        "parentId": "1411047302998790265"
+      },
+      {
+        "id": "1411056046780321803",
+        "name": "general-rules📖",
+        "type": 0,
+        "position": 0,
+        "parentId": "1411055928232509470"
+      },
+      {
+        "id": "1411066419331993670",
+        "name": "venting",
+        "type": 0,
+        "position": 6,
+        "parentId": "1411047302998790265"
+      },
+      {
+        "id": "1411065657642062005",
+        "name": "something-crazy-happened-today",
+        "type": 0,
+        "position": 1,
+        "parentId": "1411062761403846818"
+      },
+      {
+        "id": "1411163238414155876",
+        "name": "godsbane",
+        "type": 0,
+        "position": 4,
+        "parentId": "1411062761403846818"
+      },
+      {
+        "id": "1411062873903337512",
+        "name": "liizys-art",
+        "type": 0,
+        "position": 0,
+        "parentId": "1411062761403846818"
+      },
+      {
+        "id": "1411047302998790268",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1411047302998790266"
+      },
+      {
+        "id": "1411072484114956408",
+        "name": "Beyond fun and games",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1411066180608987196",
+        "name": "dank-memer",
+        "type": 0,
+        "position": 0,
+        "parentId": "1411077105378263242"
+      },
+      {
+        "id": "1411121647720599712",
+        "name": "server-builds-and-posts",
+        "type": 0,
+        "position": 8,
+        "parentId": "1411047302998790265"
+      },
+      {
+        "id": "1411075686499745812",
+        "name": "welcome",
+        "type": 0,
+        "position": 1,
+        "parentId": "1411047302998790265"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1411048927079305278",
+        "name": "𝙾𝚠𝚗𝚎𝚛 🌼",
+        "color": 15158332,
+        "permissions": "8796093022216",
+        "position": 15,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1411049684092452977",
+        "name": "𝕄𝕠𝕕𝕖𝕣𝕒𝕥𝕠𝕣 ✨",
+        "color": 15105570,
+        "permissions": "8",
+        "position": 14,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1411050224230596680",
+        "name": "ᴛʀᴜꜱᴛᴡᴏʀᴛʜʏ 🐻",
+        "color": 13875797,
+        "permissions": "4343057775845075",
+        "position": 13,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1411050976718094388",
+        "name": "𝔹𝕠𝕥 🤖",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 11,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1411051295988777000",
+        "name": "𝕸𝖊𝖒𝖇𝖊𝖗 💜",
+        "color": 4219045,
+        "permissions": "110812407766593",
+        "position": 10,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1411052160518455438",
+        "name": "ᴡᴀʀɴᴇᴅ 🚫",
+        "color": 7096227,
+        "permissions": "567382396704577",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1411052901434134709",
+        "name": "TIMED OUT!!!",
+        "color": 0,
+        "permissions": "0",
+        "position": 8,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1412826941827973172",
+        "name": "Fish Lover",
+        "color": 11084579,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845125
+  }
+}

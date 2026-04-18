@@ -1,0 +1,118 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1250087551407226965",
+        "name": "Text channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1289583871628673138",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1289583871628673141",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1289872565279522876",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1250087551407226965"
+      },
+      {
+        "id": "1289877878028374016",
+        "name": "fun and chill",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1299723847599132695",
+        "name": "bruh",
+        "type": 0,
+        "position": 0,
+        "parentId": "1289877878028374016"
+      },
+      {
+        "id": "1300506083307028591",
+        "name": "warnings",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1300506213561274450",
+        "name": "haiya",
+        "type": 0,
+        "position": 1,
+        "parentId": "1289877878028374016"
+      },
+      {
+        "id": "1465358512572993755",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1491404079174385875"
+      },
+      {
+        "id": "1491404076557271140",
+        "name": "face",
+        "type": 0,
+        "position": 1,
+        "parentId": "1491404079174385875"
+      },
+      {
+        "id": "1491404079174385875",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1491406724375249008",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 2,
+        "parentId": "1491404079174385875"
+      },
+      {
+        "id": "1492881396010717244",
+        "name": "victim-chamber",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1289575068296417385",
+        "name": "admin",
+        "color": 15277667,
+        "permissions": "1721826618638327",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1303399943301500990",
+        "name": "members",
+        "color": 8421504,
+        "permissions": "8",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845159
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1321921798962548876",
+        "name": "Read Only",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1321921916205793312",
+        "name": "📚・discord-rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1321921798962548876"
+      },
+      {
+        "id": "1321922233739776173",
+        "name": "🎁・giveaways",
+        "type": 0,
+        "position": 4,
+        "parentId": "1321921798962548876"
+      },
+      {
+        "id": "1321922518692663319",
+        "name": "👋・welcome",
+        "type": 0,
+        "position": 5,
+        "parentId": "1321921798962548876"
+      },
+      {
+        "id": "1321922687408537712",
+        "name": "📢・announcements",
+        "type": 5,
+        "position": 2,
+        "parentId": "1321921798962548876"
+      },
+      {
+        "id": "1321922886453301309",
+        "name": "General",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1321923006494408844",
+        "name": "💬・chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1321922886453301309"
+      },
+      {
+        "id": "1321923114334162944",
+        "name": "💀・memes",
+        "type": 0,
+        "position": 2,
+        "parentId": "1321922886453301309"
+      },
+      {
+        "id": "1321923283456884799",
+        "name": "Client Room",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1321923330441482342",
+        "name": "💬・client-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1321923283456884799"
+      },
+      {
+        "id": "1321923393246990376",
+        "name": "💡・suggestions",
+        "type": 0,
+        "position": 2,
+        "parentId": "1321923283456884799"
+      },
+      {
+        "id": "1321923539510755378",
+        "name": "Staff Area",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1321923713150484592",
+        "name": "💬・staff-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1321923539510755378"
+      },
+      {
+        "id": "1321923782306304021",
+        "name": "📕・staff-rules",
+        "type": 0,
+        "position": 2,
+        "parentId": "1321923539510755378"
+      },
+      {
+        "id": "1321924462341525646",
+        "name": "🔔・updates",
+        "type": 0,
+        "position": 3,
+        "parentId": "1321921798962548876"
+      },
+      {
+        "id": "1321937308882309152",
+        "name": "Support",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1321937672218083358",
+        "name": "📫・create-ticket",
+        "type": 0,
+        "position": 0,
+        "parentId": "1321937308882309152"
+      },
+      {
+        "id": "1321937967559999558",
+        "name": "❓・community-support",
+        "type": 15,
+        "position": 1,
+        "parentId": "1321937308882309152"
+      },
+      {
+        "id": "1321938559774756914",
+        "name": "🤖・staff-commands",
+        "type": 0,
+        "position": 1,
+        "parentId": "1321923539510755378"
+      },
+      {
+        "id": "1322286508002119711",
+        "name": "📷・media",
+        "type": 0,
+        "position": 1,
+        "parentId": "1321922886453301309"
+      },
+      {
+        "id": "1322288005872091247",
+        "name": "🔧・commands",
+        "type": 0,
+        "position": 3,
+        "parentId": "1321922886453301309"
+      },
+      {
+        "id": "1322290032786276474",
+        "name": "🚀・boosts",
+        "type": 0,
+        "position": 6,
+        "parentId": "1321921798962548876"
+      },
+      {
+        "id": "1322308421458067527",
+        "name": "🎯・plugins",
+        "type": 0,
+        "position": 1,
+        "parentId": "1321923283456884799"
+      },
+      {
+        "id": "1322311246015369349",
+        "name": "Tickets",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1322311477645934632",
+        "name": "📂・transcripts",
+        "type": 0,
+        "position": 3,
+        "parentId": "1321923539510755378"
+      },
+      {
+        "id": "1322331932536602655",
+        "name": "📰・information",
+        "type": 5,
+        "position": 1,
+        "parentId": "1321921798962548876"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1321880590366281849",
+        "name": "Owner",
+        "color": 10038562,
+        "permissions": "8",
+        "position": 20,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1321882737342156821",
+        "name": "Developer",
+        "color": 3066993,
+        "permissions": "1721826618638335",
+        "position": 18,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1321928208932929546",
+        "name": "Staff",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1321928500831326229",
+        "name": "Guest",
+        "color": 0,
+        "permissions": "0",
+        "position": 9,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1321928540865826939",
+        "name": "Verified Costumer",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1321933980798287933",
+        "name": "Manager",
+        "color": 15277667,
+        "permissions": "8",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1321934093491113984",
+        "name": "Administrator",
+        "color": 7419530,
+        "permissions": "8",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1321934235463843891",
+        "name": "Support",
+        "color": 15105570,
+        "permissions": "4194304",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1321936916492451882",
+        "name": "Bots",
+        "color": 3447003,
+        "permissions": "8",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1322307781755142246",
+        "name": "Discord Dev",
+        "color": 1146986,
+        "permissions": "8",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1322308749381206058",
+        "name": "Booster",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1322311242781818882",
+        "name": "Tickets Support",
+        "color": 0,
+        "permissions": "2222085186637377",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1322311243578736791",
+        "name": "Tickets Admin",
+        "color": 0,
+        "permissions": "2222085186637377",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1769238090514
+  }
+}

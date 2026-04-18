@@ -1,0 +1,637 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1412324748427395117",
+        "name": "staff-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1412324748427395116"
+      },
+      {
+        "id": "1412324748129472547",
+        "name": "<tickets>",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1412324748255559802",
+        "name": "🔴live-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1412324748255559801"
+      },
+      {
+        "id": "1412324748255559800",
+        "name": "🔷other-stuff",
+        "type": 0,
+        "position": 4,
+        "parentId": "1412324748255559795"
+      },
+      {
+        "id": "1412324748129472546",
+        "name": "😢farewell",
+        "type": 0,
+        "position": 1,
+        "parentId": "1412324748129472544"
+      },
+      {
+        "id": "1412324748129472549",
+        "name": "<important>",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1469021260137631837",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1469021256929247406"
+      },
+      {
+        "id": "1469021256929247406",
+        "name": "Aero",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1412324748427395121",
+        "name": "ticket-transcripts",
+        "type": 0,
+        "position": 4,
+        "parentId": "1412324748427395116"
+      },
+      {
+        "id": "1458001877504491703",
+        "name": "🚨update",
+        "type": 0,
+        "position": 1,
+        "parentId": "1412324747898912836"
+      },
+      {
+        "id": "1412324747898912837",
+        "name": "📕rules",
+        "type": 0,
+        "position": 3,
+        "parentId": "1412324747898912836"
+      },
+      {
+        "id": "1412324748427395112",
+        "name": "🎮gaming",
+        "type": 2,
+        "position": 0,
+        "parentId": "1412324748255559804"
+      },
+      {
+        "id": "1412324748129472551",
+        "name": "🎉giveaways",
+        "type": 0,
+        "position": 0,
+        "parentId": "1412324748129472549"
+      },
+      {
+        "id": "1444276637641216102",
+        "name": "📃・announcement",
+        "type": 0,
+        "position": 0,
+        "parentId": "1412324747898912836"
+      },
+      {
+        "id": "1412324748129472550",
+        "name": "🔔youtube",
+        "type": 0,
+        "position": 1,
+        "parentId": "1412324748129472549"
+      },
+      {
+        "id": "1412324748427395113",
+        "name": "🔊voice 1",
+        "type": 2,
+        "position": 1,
+        "parentId": "1412324748255559804"
+      },
+      {
+        "id": "1412324748255559797",
+        "name": "🤖bot-commands",
+        "type": 0,
+        "position": 1,
+        "parentId": "1412324748255559795"
+      },
+      {
+        "id": "1412324747898912836",
+        "name": "<info>",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1412324748255559795",
+        "name": "<text>",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1462436231416774738",
+        "name": "suggestions-for-server",
+        "type": 0,
+        "position": 5,
+        "parentId": "1412324748255559795"
+      },
+      {
+        "id": "1412324748427395114",
+        "name": "🔊voice 3",
+        "type": 2,
+        "position": 2,
+        "parentId": "1412324748255559804"
+      },
+      {
+        "id": "1412324748129472548",
+        "name": "🎫ticket",
+        "type": 0,
+        "position": 0,
+        "parentId": "1412324748129472547"
+      },
+      {
+        "id": "1412324748255559799",
+        "name": "😸owo",
+        "type": 0,
+        "position": 3,
+        "parentId": "1412324748255559795"
+      },
+      {
+        "id": "1412324748255559804",
+        "name": "<voice>",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1412324748255559801",
+        "name": "<minecraft>",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1412324748616011878",
+        "name": "mod-logs",
+        "type": 0,
+        "position": 5,
+        "parentId": "1412324748427395116"
+      },
+      {
+        "id": "1412324748129472544",
+        "name": "<members>",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1412324748616011880",
+        "name": "Staff VC",
+        "type": 2,
+        "position": 0,
+        "parentId": "1412324748427395116"
+      },
+      {
+        "id": "1412324748427395116",
+        "name": "<staff>",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1412324748129472543",
+        "name": "🔧server-ip",
+        "type": 0,
+        "position": 2,
+        "parentId": "1412324747898912836"
+      },
+      {
+        "id": "1457831124427346041",
+        "name": "💬general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1412324748255559795"
+      },
+      {
+        "id": "1412324748616011879",
+        "name": "spam-logs",
+        "type": 0,
+        "position": 6,
+        "parentId": "1412324748427395116"
+      },
+      {
+        "id": "1412324748129472545",
+        "name": "👋welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1412324748129472544"
+      },
+      {
+        "id": "1412324748427395120",
+        "name": "discord-updates",
+        "type": 0,
+        "position": 3,
+        "parentId": "1412324748427395116"
+      },
+      {
+        "id": "1412324748255559798",
+        "name": "🐸dank-memer",
+        "type": 0,
+        "position": 2,
+        "parentId": "1412324748255559795"
+      },
+      {
+        "id": "1412324748427395118",
+        "name": "punishment-book",
+        "type": 0,
+        "position": 1,
+        "parentId": "1412324748427395116"
+      },
+      {
+        "id": "1412324748427395119",
+        "name": "moderation-commands",
+        "type": 0,
+        "position": 2,
+        "parentId": "1412324748427395116"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1457998684200636582",
+        "name": "Muted",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747882008620",
+        "name": "South America",
+        "color": 3129087,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1455829077020770386",
+        "name": "Nigga",
+        "color": 11027200,
+        "permissions": "8864262743130111",
+        "position": 50,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1415025595976519741",
+        "name": "Trial Helper",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747886461068",
+        "name": "Switch",
+        "color": 14745874,
+        "permissions": "0",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747882008623",
+        "name": "Africa",
+        "color": 3129087,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747882008618",
+        "name": "Europe",
+        "color": 3129087,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747898912834",
+        "name": "Co Owner",
+        "color": 11342935,
+        "permissions": "6756498952159231",
+        "position": 49,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1460311625335574699",
+        "name": "OG",
+        "color": 1752220,
+        "permissions": "1024",
+        "position": 44,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1412324747898912833",
+        "name": "Admin",
+        "color": 15277667,
+        "permissions": "6756471571738327",
+        "position": 48,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747898912828",
+        "name": "⭐ Members",
+        "color": 12686335,
+        "permissions": "1071698660929",
+        "position": 41,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747898912829",
+        "name": "Booster",
+        "color": 15705855,
+        "permissions": "1071698529857",
+        "position": 42,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747886461070",
+        "name": "Dirt",
+        "color": 5060150,
+        "permissions": "1071698660929",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747563503664",
+        "name": "Pink",
+        "color": 16681215,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747563503666",
+        "name": "Orange",
+        "color": 16754568,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747882008625",
+        "name": "XBOX",
+        "color": 1013776,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747898912830",
+        "name": "Staff",
+        "color": 4436942,
+        "permissions": "1071698660929",
+        "position": 47,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1412342002820972585",
+        "name": "VIP",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 43,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747886461069",
+        "name": "Mobile",
+        "color": 10468646,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747563503665",
+        "name": "Yellow",
+        "color": 16121736,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747886461075",
+        "name": "Diamond",
+        "color": 5821695,
+        "permissions": "1071698660929",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747886461071",
+        "name": "Wood",
+        "color": 8476246,
+        "permissions": "1071698660929",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747882008621",
+        "name": "Asia",
+        "color": 3129087,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1413518850456027248",
+        "name": "Echo SMP BOTS",
+        "color": 15150,
+        "permissions": "0",
+        "position": 52,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747886461077",
+        "name": "Bots",
+        "color": 16776701,
+        "permissions": "6756498952159231",
+        "position": 40,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747882008626",
+        "name": "Playstation",
+        "color": 7842047,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747898912835",
+        "name": "👑 Owner",
+        "color": 16711684,
+        "permissions": "6756498952159231",
+        "position": 51,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747882008624",
+        "name": "PC",
+        "color": 15428406,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747898912831",
+        "name": "Trial Mod",
+        "color": 1752220,
+        "permissions": "1071979679427",
+        "position": 45,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747882008619",
+        "name": "North America",
+        "color": 3129087,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747563503661",
+        "name": "Red",
+        "color": 16746640,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747563503662",
+        "name": "Purple",
+        "color": 11176191,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747882008617",
+        "name": "Blue",
+        "color": 8973055,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747886461072",
+        "name": "Stone",
+        "color": 6323595,
+        "permissions": "1071698660929",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747898912832",
+        "name": "Mod",
+        "color": 3066993,
+        "permissions": "6756471420743363",
+        "position": 46,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1413571315960512713",
+        "name": "Zx",
+        "color": 3447003,
+        "permissions": "8836747571490519",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747886461074",
+        "name": "Emerald",
+        "color": 3066993,
+        "permissions": "1071698660929",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747882008622",
+        "name": "Oceania",
+        "color": 3129087,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747886461076",
+        "name": "Netherite",
+        "color": 4329745,
+        "permissions": "1071698660929",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747886461073",
+        "name": "Iron",
+        "color": 9936031,
+        "permissions": "1071698660929",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412324747563503663",
+        "name": "Green",
+        "color": 8978320,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845144
+  }
+}

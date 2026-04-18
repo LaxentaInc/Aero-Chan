@@ -1,0 +1,81 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1460361637457301536",
+        "name": "المجتمع Society",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1460361637457301539",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1460370942382309498",
+        "name": "بوست📬",
+        "type": 15,
+        "position": 3,
+        "parentId": "1460361637457301536"
+      },
+      {
+        "id": "1460372735178833932",
+        "name": "شات-عام🗨️",
+        "type": 0,
+        "position": 0,
+        "parentId": "1460361637457301536"
+      },
+      {
+        "id": "1460373603173273632",
+        "name": "الأوامر",
+        "type": 0,
+        "position": 1,
+        "parentId": "1460361637457301536"
+      },
+      {
+        "id": "1460378284574507120",
+        "name": "تكت",
+        "type": 0,
+        "position": 2,
+        "parentId": "1460361637457301536"
+      },
+      {
+        "id": "1460602677372125267",
+        "name": "القوانين📌",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1460621442990342327",
+        "name": "المستوى🎉",
+        "type": 0,
+        "position": 4,
+        "parentId": "1460361637457301536"
+      },
+      {
+        "id": "1461086089115865230",
+        "name": "closed-0001",
+        "type": 0,
+        "position": 5,
+        "parentId": "1460361637457301536"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1460366469710741505",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845056
+  }
+}

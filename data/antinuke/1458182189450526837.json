@@ -1,0 +1,464 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1458182193095381060",
+        "name": "💬⇷Chatting",
+        "type": 2,
+        "position": 0,
+        "parentId": "1458182193095381055"
+      },
+      {
+        "id": "1458182192164507822",
+        "name": "⛑⇜Pubg",
+        "type": 2,
+        "position": 4,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182191707066373",
+        "name": "🎮⥐pro-gamers",
+        "type": 0,
+        "position": 5,
+        "parentId": "1458182190843035777"
+      },
+      {
+        "id": "1458182191707066369",
+        "name": "🌎⥐internationnal",
+        "type": 0,
+        "position": 1,
+        "parentId": "1458182190843035777"
+      },
+      {
+        "id": "1458182192596389963",
+        "name": "💸⇜Csgo",
+        "type": 2,
+        "position": 8,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182190629388317",
+        "name": "📢⤬announcements",
+        "type": 0,
+        "position": 3,
+        "parentId": "1458182190629388313"
+      },
+      {
+        "id": "1458182192596389965",
+        "name": "🔫⇜GTA",
+        "type": 2,
+        "position": 10,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182192164507821",
+        "name": "🤠⇜Roblox",
+        "type": 2,
+        "position": 3,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182192164507818",
+        "name": "🔊⇜General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182190629388314",
+        "name": "👋⤬welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1458182190629388313"
+      },
+      {
+        "id": "1458182190629388308",
+        "name": "delete",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1458182190843035775",
+        "name": "🎉⤬giveaways",
+        "type": 0,
+        "position": 5,
+        "parentId": "1458182190629388313"
+      },
+      {
+        "id": "1458182190629388310",
+        "name": "read-topic",
+        "type": 0,
+        "position": 1,
+        "parentId": "1458182190629388308"
+      },
+      {
+        "id": "1458182191707066370",
+        "name": "🤖⥐commands",
+        "type": 0,
+        "position": 2,
+        "parentId": "1458182190843035777"
+      },
+      {
+        "id": "1458182191707066374",
+        "name": "🎮⥐epic-gamers",
+        "type": 0,
+        "position": 6,
+        "parentId": "1458182190843035777"
+      },
+      {
+        "id": "1458182193095381058",
+        "name": "📁⇷logs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1458182193095381055"
+      },
+      {
+        "id": "1458182192596389964",
+        "name": "👑⇜Valorant",
+        "type": 2,
+        "position": 9,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182192596389967",
+        "name": "🌈⇜Rainbow Six Siege",
+        "type": 2,
+        "position": 12,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182190629388315",
+        "name": "📜⤬rules",
+        "type": 0,
+        "position": 1,
+        "parentId": "1458182190629388313"
+      },
+      {
+        "id": "1458182192596389962",
+        "name": "⚔⇜League Of Legends",
+        "type": 2,
+        "position": 7,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182190629388311",
+        "name": "✦ 𝓿𝓮𝓻𝓲𝓯𝓲𝓬𝓪𝓽𝓲𝓸𝓷 ✦",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1458182192164507824",
+        "name": "🕹⇜Battlefield",
+        "type": 2,
+        "position": 6,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182193095381053",
+        "name": "🤔⇜Other",
+        "type": 2,
+        "position": 14,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182190629388313",
+        "name": "✦ 𝓘𝓶𝓹𝓸𝓻𝓽𝓪𝓷𝓽 ✦",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1458182193095381057",
+        "name": "🤖⇷commands",
+        "type": 0,
+        "position": 2,
+        "parentId": "1458182193095381055"
+      },
+      {
+        "id": "1458182191707066372",
+        "name": "🦜⥐spam",
+        "type": 0,
+        "position": 4,
+        "parentId": "1458182190843035777"
+      },
+      {
+        "id": "1459293932264493119",
+        "name": "tiket",
+        "type": 0,
+        "position": 7,
+        "parentId": "1458182190629388313"
+      },
+      {
+        "id": "1458182193095381054",
+        "name": "💤⇜AFK",
+        "type": 2,
+        "position": 15,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182192164507823",
+        "name": "🗺⇜Fortnite",
+        "type": 2,
+        "position": 5,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182190843035777",
+        "name": "✦ 𝓜𝓪𝓲𝓷 𝓒𝓱𝓪𝓷𝓷𝓮𝓵𝓼 ✦",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1458182190843035774",
+        "name": "📹⤬videos",
+        "type": 0,
+        "position": 4,
+        "parentId": "1458182190629388313"
+      },
+      {
+        "id": "1458182191707066375",
+        "name": "🎮⥐legendary-gamers",
+        "type": 0,
+        "position": 7,
+        "parentId": "1458182190843035777"
+      },
+      {
+        "id": "1458182190629388312",
+        "name": "✅⤬verify",
+        "type": 0,
+        "position": 0,
+        "parentId": "1458182190629388311"
+      },
+      {
+        "id": "1458182192164507819",
+        "name": "🎵⇜Music",
+        "type": 2,
+        "position": 1,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182192164507820",
+        "name": "🚧⇜Minecraft",
+        "type": 2,
+        "position": 2,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182190629388316",
+        "name": "📌⤬info",
+        "type": 0,
+        "position": 2,
+        "parentId": "1458182190629388313"
+      },
+      {
+        "id": "1458182192596389966",
+        "name": "🏎⇜Rocket league",
+        "type": 2,
+        "position": 11,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182190843035776",
+        "name": "🎮⤬events",
+        "type": 0,
+        "position": 6,
+        "parentId": "1458182190629388313"
+      },
+      {
+        "id": "1458182192164507817",
+        "name": "✦ 𝓥𝓸𝓲𝓬𝓮 𝓒𝓱𝓪𝓷𝓷𝓮𝓵𝓼 ✦",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1458182190629388309",
+        "name": "changelog",
+        "type": 0,
+        "position": 0,
+        "parentId": "1458182190629388308"
+      },
+      {
+        "id": "1458182191707066368",
+        "name": "💬⥐general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1458182190843035777"
+      },
+      {
+        "id": "1458182191707066371",
+        "name": "📷⥐off-topic",
+        "type": 0,
+        "position": 3,
+        "parentId": "1458182190843035777"
+      },
+      {
+        "id": "1458182192164507816",
+        "name": "🎮⥐godly-gamers",
+        "type": 0,
+        "position": 8,
+        "parentId": "1458182190843035777"
+      },
+      {
+        "id": "1458182193095381056",
+        "name": "💬⇷general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1458182193095381055"
+      },
+      {
+        "id": "1458182193095381055",
+        "name": "✦ 𝓢𝓽𝓪𝓯𝓯 𝓬𝓱𝓪𝓷𝓷𝓮𝓵𝓼 ✦",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1458182193095381052",
+        "name": "❌⇜Overwatch",
+        "type": 2,
+        "position": 13,
+        "parentId": "1458182192164507817"
+      },
+      {
+        "id": "1458182193095381061",
+        "name": "🤝⇷Meeting",
+        "type": 2,
+        "position": 1,
+        "parentId": "1458182193095381055"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1458182189450526838",
+        "name": "Event ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1458182189450526839",
+        "name": "Giveaway ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1458182189450526840",
+        "name": "Announcement ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1458182189450526841",
+        "name": "Default gamer",
+        "color": 5533306,
+        "permissions": "6543491137",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1458182189450526842",
+        "name": "Pro gamer",
+        "color": 2067276,
+        "permissions": "6442450944",
+        "position": 11,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1458182189450526843",
+        "name": "Epic Gamer",
+        "color": 15158332,
+        "permissions": "6442450944",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1458182189840728065",
+        "name": "Legendary gamer",
+        "color": 12745742,
+        "permissions": "6442450944",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1458182189840728066",
+        "name": "Godly gamer",
+        "color": 15844367,
+        "permissions": "6442450944",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1458182189840728067",
+        "name": "Content creator",
+        "color": 4277915,
+        "permissions": "0",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1458182189840728068",
+        "name": "Bots",
+        "color": 2123412,
+        "permissions": "6442450952",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1458182189840728069",
+        "name": "Moderator",
+        "color": 10181046,
+        "permissions": "7247101639",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1458182189840728070",
+        "name": "Admin",
+        "color": 16254470,
+        "permissions": "6546771529",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1458182189840728071",
+        "name": "Owner",
+        "color": 986895,
+        "permissions": "8804682432511",
+        "position": 20,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1459286535353532469",
+        "name": "Membru",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845166
+  }
+}

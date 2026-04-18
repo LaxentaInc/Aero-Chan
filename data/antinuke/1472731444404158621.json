@@ -1,0 +1,74 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1472731446027485317",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1472731446027485318",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1472731446027485319",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1472731446027485317"
+      },
+      {
+        "id": "1472731446027485320",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1472731446027485318"
+      },
+      {
+        "id": "1473794286297288805",
+        "name": "cuzmycolllarblubutmyneckisred",
+        "type": 0,
+        "position": 0,
+        "parentId": "1472731446027485318"
+      },
+      {
+        "id": "1494883935782568086",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1494883940882710558",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1494883935782568086"
+      },
+      {
+        "id": "1494883945311899709",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1494883935782568086"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1473794729908109597",
+        "name": "Miracle Musical #1 fan",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845073
+  }
+}

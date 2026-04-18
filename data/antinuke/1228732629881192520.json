@@ -1,0 +1,109 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1228732629881192521",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1228732629881192522",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1228732629881192523",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1228732629881192521"
+      },
+      {
+        "id": "1228732629881192524",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1228732629881192522"
+      },
+      {
+        "id": "1332395029162885140",
+        "name": "🔞asian-baddie🔞",
+        "type": 0,
+        "position": 0,
+        "parentId": "1332395845588357172"
+      },
+      {
+        "id": "1332395786046275677",
+        "name": "Wow",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1332395822561759303",
+        "name": "Yee",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1332395845588357172",
+        "name": "Nah",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1332395908565958668",
+        "name": "yes",
+        "type": 0,
+        "position": 0,
+        "parentId": "1332395822561759303"
+      },
+      {
+        "id": "1332395954808295546",
+        "name": "no",
+        "type": 0,
+        "position": 0,
+        "parentId": "1332395786046275677"
+      },
+      {
+        "id": "1436412049356886026",
+        "name": "New2",
+        "type": 2,
+        "position": 0,
+        "parentId": "1332395845588357172"
+      },
+      {
+        "id": "1448936851657330748",
+        "name": "🔞blow-jobs🔞",
+        "type": 0,
+        "position": 1,
+        "parentId": "1332395845588357172"
+      },
+      {
+        "id": "1448938640813068288",
+        "name": "🔞share-your-tape🔞",
+        "type": 0,
+        "position": 2,
+        "parentId": "1332395845588357172"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1448936001191018547",
+        "name": "Owner",
+        "color": 9807270,
+        "permissions": "8864262742605823",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845119
+  }
+}

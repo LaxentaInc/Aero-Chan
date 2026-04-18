@@ -1,0 +1,404 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1323434223650082857",
+        "name": "💬Text Channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1323434223650082858",
+        "name": "💬｜🇨🇭🇦🇹",
+        "type": 0,
+        "position": 0,
+        "parentId": "1323434223650082857"
+      },
+      {
+        "id": "1323434223650082859",
+        "name": "🖇｜𝖢𝖫𝖨𝖯𝖲-𝖠𝖭𝖣-𝖧𝖨𝖦𝖧𝖫𝖨𝖦𝖧𝖳𝖲",
+        "type": 0,
+        "position": 1,
+        "parentId": "1323434223650082857"
+      },
+      {
+        "id": "1323434223650082860",
+        "name": "VOICE CHAT",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1323436518299271248",
+        "name": "👋｜ᴡᴇʟᴄᴏᴍᴇ",
+        "type": 0,
+        "position": 1,
+        "parentId": "1334656311551594647"
+      },
+      {
+        "id": "1323436798252290048",
+        "name": "👾｜sᴇʀᴠᴇʀ-ɪᴘ",
+        "type": 0,
+        "position": 5,
+        "parentId": "1334656311551594647"
+      },
+      {
+        "id": "1323437096412778577",
+        "name": "✅｜𝖵𝖤𝖱𝖨𝖥𝖸",
+        "type": 0,
+        "position": 1,
+        "parentId": "1347342873531519027"
+      },
+      {
+        "id": "1324571054135316500",
+        "name": "🎉｜ɢɪᴠᴇᴀᴡᴀʏ",
+        "type": 0,
+        "position": 4,
+        "parentId": "1334656311551594647"
+      },
+      {
+        "id": "1324572688592797777",
+        "name": "📌｜ɴᴇᴡs",
+        "type": 0,
+        "position": 3,
+        "parentId": "1334656311551594647"
+      },
+      {
+        "id": "1324575415268020325",
+        "name": "📘｜𝖱𝖴𝖫𝖤𝖲",
+        "type": 0,
+        "position": 0,
+        "parentId": "1347342873531519027"
+      },
+      {
+        "id": "1324575415268020328",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1324575912750219266",
+        "name": "🌎𝖡𝖱𝖮𝖠𝖣𝖢𝖠𝖲𝖳",
+        "type": 2,
+        "position": 0,
+        "parentId": "1323434223650082860"
+      },
+      {
+        "id": "1324575997806248058",
+        "name": "🌎🇨🇦🇱🇱 🇮",
+        "type": 2,
+        "position": 1,
+        "parentId": "1323434223650082860"
+      },
+      {
+        "id": "1324576267584143533",
+        "name": "🌎🇨🇦🇱🇱 🇮🇮",
+        "type": 2,
+        "position": 2,
+        "parentId": "1323434223650082860"
+      },
+      {
+        "id": "1324576303596306585",
+        "name": "🌎🇨🇦🇱🇱 🇮🇮🇮",
+        "type": 2,
+        "position": 3,
+        "parentId": "1323434223650082860"
+      },
+      {
+        "id": "1328430173917417613",
+        "name": "🎨｜𝖠𝖱𝖳𝖲",
+        "type": 0,
+        "position": 4,
+        "parentId": "1323434223650082857"
+      },
+      {
+        "id": "1331202006865412157",
+        "name": "✅｜𝖲𝖳𝖠𝖥𝖥-𝖠𝖯𝖯𝖫𝖨𝖢𝖠𝖳𝖨𝖮𝖭",
+        "type": 0,
+        "position": 2,
+        "parentId": "1347342873531519027"
+      },
+      {
+        "id": "1331570943205838859",
+        "name": "👋｜ʙʏᴇ",
+        "type": 0,
+        "position": 2,
+        "parentId": "1334656311551594647"
+      },
+      {
+        "id": "1334656311551594647",
+        "name": "👋𝖶𝖤𝖫𝖢𝖮𝖬𝖤 𝖠𝖭𝖣 𝖨𝖭𝖥𝖮",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1337145527736733837",
+        "name": "📱｜𝖢𝖮𝖭𝖳𝖤𝖭𝖳-𝖱𝖤𝖶𝖠𝖱𝖣𝖲",
+        "type": 0,
+        "position": 6,
+        "parentId": "1334656311551594647"
+      },
+      {
+        "id": "1338586535972442233",
+        "name": "📷｜𝖬𝖤𝖣𝖨𝖠",
+        "type": 0,
+        "position": 3,
+        "parentId": "1323434223650082857"
+      },
+      {
+        "id": "1338591727073890434",
+        "name": "🎫｜𝖢𝖱𝖤𝖠𝖳𝖤-𝖠-𝖳𝖨𝖢𝖪𝖤𝖳",
+        "type": 0,
+        "position": 0,
+        "parentId": "1338629013220098078"
+      },
+      {
+        "id": "1338629011416547369",
+        "name": "transcripts",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1338629013220098078",
+        "name": "Tickets",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1347133357909213255",
+        "name": "math-∞-π",
+        "type": 0,
+        "position": 2,
+        "parentId": "1323434223650082857"
+      },
+      {
+        "id": "1347341760296255559",
+        "name": "⭐𝖲𝖴𝖯𝖯𝖮𝖱𝖳",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1347341926885756958",
+        "name": "⭐｜𝖯𝖠𝖱𝖳𝖭𝖤𝖱𝖲𝖧𝖨𝖯𝖲",
+        "type": 0,
+        "position": 0,
+        "parentId": "1347341760296255559"
+      },
+      {
+        "id": "1347342873531519027",
+        "name": "👀𝖨𝖬𝖯𝖮𝖱𝖳𝖠𝖭𝖳",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1348040721910857828",
+        "name": "🐸｜ɪɴᴠɪᴛᴇs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1334656311551594647"
+      },
+      {
+        "id": "1350433104124317736",
+        "name": "💎｜𝖲𝖤𝖱𝖵𝖤𝖱-𝖱𝖠𝖭𝖪",
+        "type": 0,
+        "position": 8,
+        "parentId": "1334656311551594647"
+      },
+      {
+        "id": "1355168623890792448",
+        "name": "🔪5p5f⚔",
+        "type": 0,
+        "position": 7,
+        "parentId": "1334656311551594647"
+      },
+      {
+        "id": "1384205787395784864",
+        "name": "ticket-2",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1337456738311344141",
+        "name": "VERIFED",
+        "color": 15277667,
+        "permissions": "68672",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1338629010128769074",
+        "name": "Tickets Support",
+        "color": 0,
+        "permissions": "2222085186637377",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1323449115010662452",
+        "name": "Base Hunter Tier 1",
+        "color": 0,
+        "permissions": "1720707884502593",
+        "position": 21,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1323434296782094427",
+        "name": "Best Cookers",
+        "color": 15158332,
+        "permissions": "1025",
+        "position": 26,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1339601303390912542",
+        "name": "MODERATOR",
+        "color": 16712238,
+        "permissions": "1099742453888",
+        "position": 30,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1323435725923815605",
+        "name": "Grinder",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 24,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1347605016206118942",
+        "name": "Member",
+        "color": 65522,
+        "permissions": "39719926140480",
+        "position": 29,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1323449842881794069",
+        "name": "Base Hunter GOD",
+        "color": 15844367,
+        "permissions": "1720707884502593",
+        "position": 23,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1355422154086154311",
+        "name": "App",
+        "color": 3437419,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1323434740442992650",
+        "name": "OWNERS",
+        "color": 11342935,
+        "permissions": "2108859006582783",
+        "position": 32,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1323449598064332810",
+        "name": "Base Hunter Tier 2",
+        "color": 2123412,
+        "permissions": "1720707884502593",
+        "position": 22,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1355475373303005294",
+        "name": "Noob",
+        "color": 11997367,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1329409660691943465",
+        "name": "Server Helper",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 14,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1328433589162868918",
+        "name": "The painter",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 15,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1339602332421193748",
+        "name": "ADMIN",
+        "color": 1215132,
+        "permissions": "8",
+        "position": 31,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1323450477173674016",
+        "name": "Co-Captain",
+        "color": 16711680,
+        "permissions": "1721826618638327",
+        "position": 20,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1323450855638171782",
+        "name": "PvP Team",
+        "color": 4718847,
+        "permissions": "1720707884502593",
+        "position": 19,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1338629010707451987",
+        "name": "Tickets Admin",
+        "color": 0,
+        "permissions": "2222085186637377",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1325152787411111937",
+        "name": "BUILDER",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 16,
+        "hoist": true,
+        "mentionable": true
+      }
+    ],
+    "updated": 1776540845143
+  }
+}

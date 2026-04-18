@@ -1,0 +1,92 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1411399501356335144",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1411399501356335145",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1411399501356335144"
+      },
+      {
+        "id": "1411399501356335146",
+        "name": "clips-and-highlights",
+        "type": 0,
+        "position": 1,
+        "parentId": "1411399501356335144"
+      },
+      {
+        "id": "1411399501356335147",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1411399501356335148",
+        "name": "Lobby",
+        "type": 2,
+        "position": 0,
+        "parentId": "1411399501356335147"
+      },
+      {
+        "id": "1462821954896658592",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1489642002038522019"
+      },
+      {
+        "id": "1489642002038522019",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1489642005717061703",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1489642002038522019"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1459053088999735337",
+        "name": "🌿 New Member",
+        "color": 1752220,
+        "permissions": "8",
+        "position": 3,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1459053650256199761",
+        "name": "new role",
+        "color": 0,
+        "permissions": "1721824739590081",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1489641899466821642",
+        "name": "mi amor <.3",
+        "color": 15277667,
+        "permissions": "8",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845075
+  }
+}

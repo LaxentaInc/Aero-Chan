@@ -1,0 +1,242 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1470952392785657907",
+        "name": "confidential content?",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1470952392785657908",
+        "name": "Vocal stimming area",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1470952392785657909",
+        "name": "greetings-and-hellos",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1470952392785657910",
+        "name": "Group A",
+        "type": 2,
+        "position": 0,
+        "parentId": "1470952392785657908"
+      },
+      {
+        "id": "1470953725286678538",
+        "name": "content-ideas",
+        "type": 0,
+        "position": 2,
+        "parentId": "1470952392785657907"
+      },
+      {
+        "id": "1470953967826501745",
+        "name": "scheduled-content",
+        "type": 0,
+        "position": 3,
+        "parentId": "1470952392785657907"
+      },
+      {
+        "id": "1470954224262316115",
+        "name": "support-and-troubleshoot",
+        "type": 0,
+        "position": 5,
+        "parentId": "1470952392785657907"
+      },
+      {
+        "id": "1470954363248967681",
+        "name": "Davy jones locker (AFK)",
+        "type": 2,
+        "position": 2,
+        "parentId": "1470952392785657908"
+      },
+      {
+        "id": "1470954847359471666",
+        "name": "podcast-topics",
+        "type": 0,
+        "position": 0,
+        "parentId": "1470952392785657907"
+      },
+      {
+        "id": "1470955530326507624",
+        "name": "kancir-mems",
+        "type": 0,
+        "position": 1,
+        "parentId": "1470952392785657907"
+      },
+      {
+        "id": "1470955880475263241",
+        "name": "Streaming (PG)",
+        "type": 2,
+        "position": 1,
+        "parentId": "1470952392785657908"
+      },
+      {
+        "id": "1470958115464937566",
+        "name": "We are people!",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1470958262475034624",
+        "name": "introduce-yourself",
+        "type": 0,
+        "position": 0,
+        "parentId": "1470958115464937566"
+      },
+      {
+        "id": "1470958363176206600",
+        "name": "goals-and-achiements",
+        "type": 0,
+        "position": 2,
+        "parentId": "1470958115464937566"
+      },
+      {
+        "id": "1470958521742000240",
+        "name": "whats-new",
+        "type": 0,
+        "position": 1,
+        "parentId": "1470958115464937566"
+      },
+      {
+        "id": "1470958610610913436",
+        "name": "autism-corner",
+        "type": 0,
+        "position": 3,
+        "parentId": "1470958115464937566"
+      },
+      {
+        "id": "1470960861945528394",
+        "name": "Aero (ignore)",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1470960864759644161",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1470960861945528394"
+      },
+      {
+        "id": "1470960867616100537",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1470960861945528394"
+      },
+      {
+        "id": "1470964054087434425",
+        "name": "server-maintenance",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1470969333000966286",
+        "name": "ask-me",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1470975754333589600",
+        "name": "Music production",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1470975934407376918",
+        "name": "publishing-links",
+        "type": 0,
+        "position": 3,
+        "parentId": "1470975754333589600"
+      },
+      {
+        "id": "1470976075768008725",
+        "name": "new-insporation",
+        "type": 0,
+        "position": 0,
+        "parentId": "1470975754333589600"
+      },
+      {
+        "id": "1470976285907095664",
+        "name": "plugins-daw",
+        "type": 0,
+        "position": 2,
+        "parentId": "1470975754333589600"
+      },
+      {
+        "id": "1470976353817067652",
+        "name": "equipment",
+        "type": 0,
+        "position": 1,
+        "parentId": "1470975754333589600"
+      },
+      {
+        "id": "1470976516887285931",
+        "name": "group collabs? (muisc)",
+        "type": 2,
+        "position": 3,
+        "parentId": "1470952392785657908"
+      },
+      {
+        "id": "1470976969696084151",
+        "name": "new-releases-here",
+        "type": 0,
+        "position": 4,
+        "parentId": "1470975754333589600"
+      },
+      {
+        "id": "1471245558667546824",
+        "name": "new-games-here",
+        "type": 0,
+        "position": 4,
+        "parentId": "1470952392785657907"
+      },
+      {
+        "id": "1471255264278876264",
+        "name": "Anxe's memes",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1471255265369391104",
+        "name": "📹-memes-vids",
+        "type": 0,
+        "position": 0,
+        "parentId": "1471255264278876264"
+      },
+      {
+        "id": "1471255266166309058",
+        "name": "📷-memes-pics",
+        "type": 0,
+        "position": 1,
+        "parentId": "1471255264278876264"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1471659974689165515",
+        "name": "GOONER",
+        "color": 0,
+        "permissions": "8864258447638527",
+        "position": 1,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845168
+  }
+}

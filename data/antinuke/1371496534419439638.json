@@ -1,0 +1,258 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1371496535040462890",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1374440786375999538"
+      },
+      {
+        "id": "1371496535040462891",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1374441048742297711"
+      },
+      {
+        "id": "1371535063799435385",
+        "name": "rules",
+        "type": 0,
+        "position": 2,
+        "parentId": "1374440786375999538"
+      },
+      {
+        "id": "1371535229369581578",
+        "name": "characters",
+        "type": 0,
+        "position": 0,
+        "parentId": "1374440877719687308"
+      },
+      {
+        "id": "1371535271631523981",
+        "name": "submissions-rules",
+        "type": 0,
+        "position": 1,
+        "parentId": "1374440877719687308"
+      },
+      {
+        "id": "1371535341067964517",
+        "name": "suggestions",
+        "type": 0,
+        "position": 4,
+        "parentId": "1374440786375999538"
+      },
+      {
+        "id": "1371595813767348224",
+        "name": "bumptest",
+        "type": 0,
+        "position": 0,
+        "parentId": "1374441267483639860"
+      },
+      {
+        "id": "1372923757764546581",
+        "name": "roleplay",
+        "type": 0,
+        "position": 3,
+        "parentId": "1374440877719687308"
+      },
+      {
+        "id": "1372924931339452536",
+        "name": "tuppers",
+        "type": 0,
+        "position": 5,
+        "parentId": "1374440786375999538"
+      },
+      {
+        "id": "1373477783480700928",
+        "name": "vc",
+        "type": 2,
+        "position": 1,
+        "parentId": "1374441048742297711"
+      },
+      {
+        "id": "1373477819815821383",
+        "name": "stream-1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1374441089838088243"
+      },
+      {
+        "id": "1373477855400300605",
+        "name": "Stream 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1374441089838088243"
+      },
+      {
+        "id": "1373477888669650944",
+        "name": "Stream 3",
+        "type": 2,
+        "position": 2,
+        "parentId": "1374441089838088243"
+      },
+      {
+        "id": "1373477926795743352",
+        "name": "Sleeping",
+        "type": 2,
+        "position": 0,
+        "parentId": "1374441267483639860"
+      },
+      {
+        "id": "1374428073671397406",
+        "name": "botsssssssssszzzzssssuh",
+        "type": 0,
+        "position": 6,
+        "parentId": "1374440786375999538"
+      },
+      {
+        "id": "1374428229204443247",
+        "name": "bots-reccomendation-plus-link",
+        "type": 15,
+        "position": 1,
+        "parentId": "1374440786375999538"
+      },
+      {
+        "id": "1374428346695286854",
+        "name": "art-and-self-promo",
+        "type": 15,
+        "position": 3,
+        "parentId": "1374440786375999538"
+      },
+      {
+        "id": "1374440581044113439",
+        "name": "roleplay-2-point-0",
+        "type": 15,
+        "position": 4,
+        "parentId": "1374440877719687308"
+      },
+      {
+        "id": "1374440786375999538",
+        "name": "Chat or Share",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1374440877719687308",
+        "name": "Roleplay",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1374441048742297711",
+        "name": "Voice chat",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1374441089838088243",
+        "name": "Streaming",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1374441267483639860",
+        "name": "Extra",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1375202001369042964",
+        "name": "submissionz",
+        "type": 15,
+        "position": 2,
+        "parentId": "1374440877719687308"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1372919753991000084",
+        "name": "Wifey <3 -mafioso",
+        "color": 15277667,
+        "permissions": "1721826618638327",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1372919868403355729",
+        "name": "THE ALL HOLY GRAIL",
+        "color": 15844367,
+        "permissions": "1721826618638327",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1372919971168124958",
+        "name": "Owners",
+        "color": 10181046,
+        "permissions": "1721826618638327",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1372920223845584997",
+        "name": "Mods",
+        "color": 3447003,
+        "permissions": "1721807559716807",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1372920341067726978",
+        "name": "red. (Members)",
+        "color": 16711680,
+        "permissions": "1720707884502593",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1372920534886514758",
+        "name": "puke (funni rol)",
+        "color": 2926105,
+        "permissions": "1720707884502593",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1372920746053079080",
+        "name": "graye (bots)",
+        "color": 9803157,
+        "permissions": "1720707884502593",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1373751252688568321",
+        "name": "Role player🤰",
+        "color": 0,
+        "permissions": "1720707884371521",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1374427781223551098",
+        "name": "CHAT REVIVE",
+        "color": 4988510,
+        "permissions": "1720707884371521",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845122
+  }
+}

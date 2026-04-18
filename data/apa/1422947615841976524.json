@@ -1,0 +1,59 @@
+{
+  "roleNeutralizations": {
+    "1462095361521750148": {
+      "originalPerms": "8",
+      "removedPerms": [
+        "8",
+        "32",
+        "268435456",
+        "16",
+        "4",
+        "2",
+        "536870912",
+        "1073741824"
+      ],
+      "roleName": "test",
+      "timestamp": 1768661110543
+    }
+  },
+  "userStrips": {},
+  "buttons": {
+    "apa_whitelist_1246380709124378674": {
+      "type": "whitelist",
+      "userId": "1246380709124378674",
+      "roleId": null,
+      "guildId": "1422947615841976524",
+      "ownerId": "953527567808356404",
+      "createdAt": 1768834168913,
+      "expiresAt": 1768920568913
+    },
+    "apa_restore_user_1246380709124378674": {
+      "type": "restore_user",
+      "userId": "1246380709124378674",
+      "roleId": null,
+      "guildId": "1422947615841976524",
+      "ownerId": "953527567808356404",
+      "createdAt": 1768834168913,
+      "expiresAt": 1768920568913
+    },
+    "apa_restore_role_1462095361521750148": {
+      "type": "restore_role",
+      "userId": null,
+      "roleId": "1462095361521750148",
+      "guildId": "1422947615841976524",
+      "ownerId": "953527567808356404",
+      "createdAt": 1768661113353,
+      "expiresAt": 1768747513353
+    },
+    "apa_restore_role_1423556523610865674": {
+      "type": "restore_role",
+      "userId": null,
+      "roleId": "1423556523610865674",
+      "guildId": "1422947615841976524",
+      "ownerId": "953527567808356404",
+      "createdAt": 1768829687747,
+      "expiresAt": 1768916087747
+    }
+  },
+  "buttonsUpdated": 1768834168913
+}

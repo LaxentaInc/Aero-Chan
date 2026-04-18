@@ -1,0 +1,25 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1277958332522565754",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1277958171343851590",
+        "name": "members",
+        "color": 8421504,
+        "permissions": "8",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845221
+  }
+}

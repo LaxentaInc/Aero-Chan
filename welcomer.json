@@ -1,0 +1,17 @@
+{
+  "967716005835075644": {
+    "enabled": true,
+    "channelId": "967959705320316971",
+    "background": null
+  },
+  "1343881965937627156": {
+    "enabled": true,
+    "channelId": "1343888462742421516",
+    "background": null
+  },
+  "1485645797457526825": {
+    "enabled": false,
+    "channelId": "1485645799206424808",
+    "background": "https://cdn.discordapp.com/ephemeral-attachments/1338775452877193287/1494883896305782964/Screenshot_2026-04-15-12-08-30-026_com.android.systemui-edit.jpg?ex=69e43a9e&is=69e2e91e&hm=d50953cc97936c3921af9f13a7b0c5e2842f7dcef8fa530b616227071d2fb133&"
+  }
+}

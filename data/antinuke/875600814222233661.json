@@ -1,0 +1,562 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "887274771044257835",
+        "name": "gyms",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "887279129727217715",
+        "name": "psychic-gym",
+        "type": 0,
+        "position": 8,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "875600814222233666",
+        "name": "VC - TEAM",
+        "type": 2,
+        "position": 0,
+        "parentId": "875600814222233665"
+      },
+      {
+        "id": "884434568176889866",
+        "name": "poke-spam",
+        "type": 0,
+        "position": 6,
+        "parentId": "875600814222233662"
+      },
+      {
+        "id": "887263137907224576",
+        "name": "catch-1",
+        "type": 0,
+        "position": 8,
+        "parentId": "875600814222233662"
+      },
+      {
+        "id": "887275684685307924",
+        "name": "ground-gym",
+        "type": 0,
+        "position": 4,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "887275434667040798",
+        "name": "electric-gym",
+        "type": 0,
+        "position": 2,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "884431623305695272",
+        "name": "chatch-2",
+        "type": 0,
+        "position": 4,
+        "parentId": "875600814222233662"
+      },
+      {
+        "id": "1240707701541961840",
+        "name": "secondary voice",
+        "type": 2,
+        "position": 2,
+        "parentId": "875600814222233665"
+      },
+      {
+        "id": "887274841344999455",
+        "name": "normal-gym",
+        "type": 0,
+        "position": 0,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "884418539900006400",
+        "name": "sh-2",
+        "type": 0,
+        "position": 2,
+        "parentId": "875600814222233662"
+      },
+      {
+        "id": "887278743159185449",
+        "name": "fire-gym🌋🌋🌋",
+        "type": 0,
+        "position": 6,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "884434297241612288",
+        "name": "trade",
+        "type": 0,
+        "position": 5,
+        "parentId": "875600814222233662"
+      },
+      {
+        "id": "875600814222233665",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "875600814222233663",
+        "name": "well-come",
+        "type": 0,
+        "position": 0,
+        "parentId": "875600814222233662"
+      },
+      {
+        "id": "884418709018538025",
+        "name": "incence",
+        "type": 0,
+        "position": 3,
+        "parentId": "875600814222233662"
+      },
+      {
+        "id": "887691618226946138",
+        "name": "ice-gym",
+        "type": 0,
+        "position": 11,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "886624270816526366",
+        "name": "duel--battle",
+        "type": 0,
+        "position": 7,
+        "parentId": "875600814222233662"
+      },
+      {
+        "id": "887692871665352754",
+        "name": "flying-gym",
+        "type": 0,
+        "position": 13,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "887695440378724412",
+        "name": "ghost-gym",
+        "type": 0,
+        "position": 15,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "887692678823809024",
+        "name": "poison-gym",
+        "type": 0,
+        "position": 12,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "887631672617607179",
+        "name": "steel-gym",
+        "type": 0,
+        "position": 9,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "887695617202216960",
+        "name": "dragon-gym",
+        "type": 0,
+        "position": 16,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "887692959032676372",
+        "name": "bug-gym",
+        "type": 0,
+        "position": 14,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "885024256914780190",
+        "name": "fun games",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "875600814222233667",
+        "name": "any thing",
+        "type": 2,
+        "position": 1,
+        "parentId": "875600814222233665"
+      },
+      {
+        "id": "887278702898069505",
+        "name": "rock-gym",
+        "type": 0,
+        "position": 5,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "884357448532652032",
+        "name": "sh-1",
+        "type": 0,
+        "position": 1,
+        "parentId": "875600814222233662"
+      },
+      {
+        "id": "887700017194889297",
+        "name": "gym-announcement",
+        "type": 0,
+        "position": 18,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "887278942774521856",
+        "name": "dark-gym",
+        "type": 0,
+        "position": 7,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "985140977230553128",
+        "name": "myuu-game-2",
+        "type": 0,
+        "position": 3,
+        "parentId": "885024256914780190"
+      },
+      {
+        "id": "887695760945205258",
+        "name": "fairy-gym",
+        "type": 0,
+        "position": 17,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "887275374113849375",
+        "name": "water-gym",
+        "type": 0,
+        "position": 1,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "911141932779048961",
+        "name": "myuu-game",
+        "type": 0,
+        "position": 2,
+        "parentId": "885024256914780190"
+      },
+      {
+        "id": "887700075894165604",
+        "name": "apply-for-gym",
+        "type": 0,
+        "position": 19,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "885062051683246080",
+        "name": "dank-memer",
+        "type": 0,
+        "position": 1,
+        "parentId": "885024256914780190"
+      },
+      {
+        "id": "887275556486397962",
+        "name": "fighting-gym",
+        "type": 0,
+        "position": 3,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "887691519086186526",
+        "name": "grass-gym",
+        "type": 0,
+        "position": 10,
+        "parentId": "887274771044257835"
+      },
+      {
+        "id": "885024290897031220",
+        "name": "owo",
+        "type": 0,
+        "position": 0,
+        "parentId": "885024256914780190"
+      },
+      {
+        "id": "1464366608561733697",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "985141019228139520",
+        "name": "myuu-game-3",
+        "type": 0,
+        "position": 4,
+        "parentId": "885024256914780190"
+      },
+      {
+        "id": "875600814222233662",
+        "name": "pokegame+welcome",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "885026264463863838",
+        "name": "Gaming",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "884430919732178984",
+        "name": "muted",
+        "color": 16007755,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "876347813632557068",
+        "name": "new role",
+        "color": 0,
+        "permissions": "247064940097",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "884408952383762502",
+        "name": "new role",
+        "color": 0,
+        "permissions": "521942847041",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "884370369476177940",
+        "name": "helper",
+        "color": 15253546,
+        "permissions": "9337258377211",
+        "position": 35,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "881554857289457734",
+        "name": "bots",
+        "color": 792623,
+        "permissions": "539256946257",
+        "position": 28,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "911141132220629022",
+        "name": "new role",
+        "color": 0,
+        "permissions": "1071698660929",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "876327487313969163",
+        "name": "100+ pokemons",
+        "color": 7263632,
+        "permissions": "247064940097",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "916588232467165195",
+        "name": "owner",
+        "color": 14103594,
+        "permissions": "27487790170111",
+        "position": 38,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "876298326595751966",
+        "name": "10 pokemons +",
+        "color": 2474073,
+        "permissions": "247064939073",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "911141089996582962",
+        "name": "new role",
+        "color": 0,
+        "permissions": "1071698660929",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "911141103242194964",
+        "name": "new role",
+        "color": 0,
+        "permissions": "1071698660929",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "875724186046312548",
+        "name": "player's",
+        "color": 16712451,
+        "permissions": "9061889597121",
+        "position": 29,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "876327168995647510",
+        "name": "new role",
+        "color": 0,
+        "permissions": "247064940097",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "876330095109898260",
+        "name": "jr moderator",
+        "color": 5972086,
+        "permissions": "9062233669601",
+        "position": 37,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "885739447197511690",
+        "name": "muted",
+        "color": 16007755,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "911141119021166603",
+        "name": "new role",
+        "color": 0,
+        "permissions": "1071698660929",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "911141151967420456",
+        "name": "MYUU PLAYER",
+        "color": 8593176,
+        "permissions": "1071698660929",
+        "position": 3,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "885745321366409236",
+        "name": "bots ki jay",
+        "color": 1551494,
+        "permissions": "522102243147",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "876347825280147456",
+        "name": "friends of ROHIT",
+        "color": 141,
+        "permissions": "9062380470271",
+        "position": 34,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "885024865608949800",
+        "name": "new role",
+        "color": 0,
+        "permissions": "521942847041",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "884673008566947920",
+        "name": "bots..",
+        "color": 0,
+        "permissions": "521942847041",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "885027197813940294",
+        "name": "new role",
+        "color": 0,
+        "permissions": "521942847041",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "876347832267849768",
+        "name": "leader",
+        "color": 16711680,
+        "permissions": "9062380470271",
+        "position": 41,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "884674563680649228",
+        "name": "black",
+        "color": 1,
+        "permissions": "521942847041",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "876326261578952705",
+        "name": "1000 pokemons +",
+        "color": 7263632,
+        "permissions": "247064940097",
+        "position": 31,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "885008578182787112",
+        "name": "new role",
+        "color": 0,
+        "permissions": "521942847041",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "875972589749686292",
+        "name": "moderator",
+        "color": 65366,
+        "permissions": "9337258377215",
+        "position": 39,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "885877947414769724",
+        "name": "CO-LEADER",
+        "color": 8703,
+        "permissions": "9337103187951",
+        "position": 40,
+        "hoist": true,
+        "mentionable": true
+      }
+    ],
+    "updated": 1776540845132
+  }
+}

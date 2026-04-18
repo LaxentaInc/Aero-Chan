@@ -1,0 +1,57 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1427283999432118355",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1427283999432118356",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1427283999432118357",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1427283999432118355"
+      },
+      {
+        "id": "1427283999432118358",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1427283999432118356"
+      },
+      {
+        "id": "1464295557064298659",
+        "name": "waifu",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1464298658420756638",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1464299565057310845",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845094
+  }
+}

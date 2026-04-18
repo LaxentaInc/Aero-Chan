@@ -1,0 +1,53 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1359804940700225597",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1359804940700225598",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1359804940700225599",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1359804940700225597"
+      },
+      {
+        "id": "1359804940700225600",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1359804940700225598"
+      },
+      {
+        "id": "1359805028818223174",
+        "name": "nsfw",
+        "type": 0,
+        "position": 1,
+        "parentId": "1359804940700225597"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1359806118674829434",
+        "name": "Love Birds",
+        "color": 15277667,
+        "permissions": "8",
+        "position": 1,
+        "hoist": true,
+        "mentionable": true
+      }
+    ],
+    "updated": 1776540845093
+  }
+}

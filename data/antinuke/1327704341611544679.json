@@ -1,0 +1,71 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1327704342253408286",
+        "name": "Textkanäle",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1327704342253408287",
+        "name": "allgemein",
+        "type": 0,
+        "position": 0,
+        "parentId": "1327704342253408286"
+      },
+      {
+        "id": "1327704342253408288",
+        "name": "clips-und-highlights",
+        "type": 0,
+        "position": 1,
+        "parentId": "1327704342253408286"
+      },
+      {
+        "id": "1327704342253408289",
+        "name": "Sprachkanäle",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1327704342253408290",
+        "name": "Lobby",
+        "type": 2,
+        "position": 0,
+        "parentId": "1327704342253408289"
+      },
+      {
+        "id": "1327704342253408291",
+        "name": "Gaming",
+        "type": 2,
+        "position": 1,
+        "parentId": "1327704342253408289"
+      },
+      {
+        "id": "1340481393960161300",
+        "name": "der",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1340482120153567323",
+        "name": "deer",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1340482602444001373",
+        "name": "der",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845147
+  }
+}

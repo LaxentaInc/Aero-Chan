@@ -1,0 +1,78 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "754882735088336963",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "754882735088336965",
+        "name": "juegos",
+        "type": 0,
+        "position": 0,
+        "parentId": "754882735088336963"
+      },
+      {
+        "id": "754882735088336966",
+        "name": "música",
+        "type": 0,
+        "position": 1,
+        "parentId": "754882735088336963"
+      },
+      {
+        "id": "754882735088336967",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "754882735088336968",
+        "name": "Lounge",
+        "type": 2,
+        "position": 0,
+        "parentId": "754882735088336967"
+      },
+      {
+        "id": "754882735088336969",
+        "name": "Sala de transmisión",
+        "type": 2,
+        "position": 1,
+        "parentId": "754882735088336967"
+      },
+      {
+        "id": "1489770340841291806",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1489770343286702252",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1489770340841291806"
+      },
+      {
+        "id": "1489770345887043624",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1489770340841291806"
+      },
+      {
+        "id": "1489771475710902363",
+        "name": "mudae",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845115
+  }
+}

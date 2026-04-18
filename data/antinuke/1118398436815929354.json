@@ -1,0 +1,111 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1118398437331849256",
+        "name": "Information",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1118398437331849257",
+        "name": "welcome-and-rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1118398437331849256"
+      },
+      {
+        "id": "1118398437331849258",
+        "name": "announcements",
+        "type": 0,
+        "position": 1,
+        "parentId": "1118398437331849256"
+      },
+      {
+        "id": "1118398437331849259",
+        "name": "resources",
+        "type": 0,
+        "position": 2,
+        "parentId": "1118398437331849256"
+      },
+      {
+        "id": "1118398438091001866",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1118398438091001867",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1118398438091001866"
+      },
+      {
+        "id": "1118398438091001868",
+        "name": "meeting-plans",
+        "type": 0,
+        "position": 1,
+        "parentId": "1118398438091001866"
+      },
+      {
+        "id": "1118398438091001869",
+        "name": "off-topic",
+        "type": 0,
+        "position": 2,
+        "parentId": "1118398438091001866"
+      },
+      {
+        "id": "1118398438091001870",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1118398438091001871",
+        "name": "Lounge",
+        "type": 2,
+        "position": 0,
+        "parentId": "1118398438091001870"
+      },
+      {
+        "id": "1118398438091001872",
+        "name": "music room",
+        "type": 2,
+        "position": 1,
+        "parentId": "1118398438091001870"
+      },
+      {
+        "id": "1139958152478068737",
+        "name": "hmmm",
+        "type": 0,
+        "position": 3,
+        "parentId": "1118398438091001866"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1119103840600477797",
+        "name": "bot",
+        "color": 3066993,
+        "permissions": "32957699452871",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1127974304139714622",
+        "name": "me",
+        "color": 10038562,
+        "permissions": "32976758374391",
+        "position": 9,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845165
+  }
+}

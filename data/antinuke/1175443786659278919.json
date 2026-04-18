@@ -1,0 +1,405 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1175515564060459008",
+        "name": "▰-жалобная-книжка",
+        "type": 15,
+        "position": 0,
+        "parentId": "1175515453351809154"
+      },
+      {
+        "id": "1292140779669819504",
+        "name": "▭-Мусик (96kbps)",
+        "type": 2,
+        "position": 2,
+        "parentId": "1289569645766119456"
+      },
+      {
+        "id": "1175479036982599800",
+        "name": "▭-не-смешно",
+        "type": 0,
+        "position": 1,
+        "parentId": "1175475438571765760"
+      },
+      {
+        "id": "1190390683769524318",
+        "name": "📋-⟨кп⟩",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1289569926155341876",
+        "name": "▰-Основной",
+        "type": 2,
+        "position": 0,
+        "parentId": "1289569645766119456"
+      },
+      {
+        "id": "1175479176778764419",
+        "name": "▭-nsfw",
+        "type": 0,
+        "position": 3,
+        "parentId": "1175475438571765760"
+      },
+      {
+        "id": "1295383936561582192",
+        "name": "▮ENG▮",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1175519652856733745",
+        "name": "📰-⟨новости⟩",
+        "type": 5,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1289570051212705853",
+        "name": "▭-Re/stream",
+        "type": 2,
+        "position": 1,
+        "parentId": "1289569645766119456"
+      },
+      {
+        "id": "1191159141226528768",
+        "name": "чатикс",
+        "type": 0,
+        "position": 1,
+        "parentId": "1191150146675810334"
+      },
+      {
+        "id": "1175484153257529515",
+        "name": "▰-политика",
+        "type": 0,
+        "position": 5,
+        "parentId": "1175475438571765760"
+      },
+      {
+        "id": "1175475438571765760",
+        "name": "▮Главное▮",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1175526002307383406",
+        "name": "▭-консоль",
+        "type": 0,
+        "position": 1,
+        "parentId": "1175515453351809154"
+      },
+      {
+        "id": "1175515453351809154",
+        "name": "Разное",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1175522385185747034",
+        "name": "ADMIN",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1175447843696295988",
+        "name": "📋-⟨пп⟩",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1304436228183167017",
+        "name": "Нельзя.",
+        "type": 2,
+        "position": 4,
+        "parentId": "1289569645766119456"
+      },
+      {
+        "id": "1175477769166147685",
+        "name": "▰-чат",
+        "type": 0,
+        "position": 0,
+        "parentId": "1175475438571765760"
+      },
+      {
+        "id": "1191148444656615527",
+        "name": "▰-форум",
+        "type": 15,
+        "position": 4,
+        "parentId": "1175475438571765760"
+      },
+      {
+        "id": "1191150146675810334",
+        "name": "▮Мемасик 2▮",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1191159647479013467",
+        "name": "конфликты",
+        "type": 0,
+        "position": 2,
+        "parentId": "1191150146675810334"
+      },
+      {
+        "id": "1322597388535332954",
+        "name": "admin-nonsystem",
+        "type": 0,
+        "position": 1,
+        "parentId": "1175522385185747034"
+      },
+      {
+        "id": "1191150220927570033",
+        "name": "мемы",
+        "type": 15,
+        "position": 0,
+        "parentId": "1191150146675810334"
+      },
+      {
+        "id": "1175478883924062310",
+        "name": "▭-сральник",
+        "type": 0,
+        "position": 2,
+        "parentId": "1175475438571765760"
+      },
+      {
+        "id": "1175476030778118194",
+        "name": "📌-⟨информация⟩",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1175476590445080616",
+        "name": "🏺-⟨история⟩",
+        "type": 0,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1289569645766119456",
+        "name": "▮Voices of discord▮",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1289597830469779518",
+        "name": "▭-Спят",
+        "type": 2,
+        "position": 3,
+        "parentId": "1289569645766119456"
+      },
+      {
+        "id": "1295384070469062666",
+        "name": "▰-br_tish-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1295383936561582192"
+      },
+      {
+        "id": "1292179385503187098",
+        "name": "🦈-⟨не-полезно⟩",
+        "type": 5,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1175476537437462589",
+        "name": "👥-⟨роли⟩",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1175524156515827754",
+        "name": "system",
+        "type": 0,
+        "position": 0,
+        "parentId": "1175522385185747034"
+      },
+      {
+        "id": "1307061143117889598",
+        "name": "💥-⟨пртнрка⟩",
+        "type": 0,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1175518193561895054",
+        "name": "О форуме",
+        "type": 11,
+        "parentId": "1175515564060459008"
+      },
+      {
+        "id": "1191160518333968404",
+        "name": "Что это?",
+        "type": 11,
+        "parentId": "1191150220927570033"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1175459689367093379",
+        "name": "Участник",
+        "color": 5766912,
+        "permissions": "0",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1175472435693355038",
+        "name": "Помощь",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1175472647136616458",
+        "name": "Спасибо",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1175485355714158622",
+        "name": "Админ",
+        "color": 15105570,
+        "permissions": "32976758374391",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1175485499314548766",
+        "name": "Модератор",
+        "color": 15844367,
+        "permissions": "32957699452871",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1175507231328976907",
+        "name": "Команда основателей",
+        "color": 16737792,
+        "permissions": "8",
+        "position": 21,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1175531332718305281",
+        "name": "Игры",
+        "color": 13041408,
+        "permissions": "0",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1175531808008458251",
+        "name": "Узнал из партнерства",
+        "color": 0,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1175531880699924500",
+        "name": "Узнал с сайтов",
+        "color": 0,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1175531885401751655",
+        "name": "Узнал из ютуба",
+        "color": 0,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1191142858095349760",
+        "name": "Мемасня",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1191159704009850910",
+        "name": "Конфликт",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1191170636194787398",
+        "name": "Сибирянин",
+        "color": 5533306,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1293229964363038831",
+        "name": "Узнал из профиля",
+        "color": 0,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1363159372707926147",
+        "name": "Голосовые",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1441853894643945694",
+        "name": "новая роль",
+        "color": 0,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1441854033638981883",
+        "name": "новая роль",
+        "color": 0,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845174
+  }
+}

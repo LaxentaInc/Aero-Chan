@@ -1,0 +1,115 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1284825010007179348",
+        "name": "a",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1289533140901171201",
+        "name": "aaaaaa",
+        "type": 2,
+        "position": 0,
+        "parentId": "1294663146325151805"
+      },
+      {
+        "id": "1294626934671806540",
+        "name": "Tickets",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1294663146325151805",
+        "name": "completed",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1295004604718907402",
+        "name": "tests",
+        "type": 0,
+        "position": 0,
+        "parentId": "1284825010007179348"
+      },
+      {
+        "id": "1300376938417885215",
+        "name": "copilot",
+        "type": 0,
+        "position": 1,
+        "parentId": "1284825010007179348"
+      },
+      {
+        "id": "1338050055034245140",
+        "name": "important-genshin-stuff",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1339823116486053982",
+        "name": "ayumi-teet",
+        "type": 0,
+        "position": 0,
+        "parentId": "1294626934671806540"
+      },
+      {
+        "id": "1375764788029689876",
+        "name": "1",
+        "type": 0,
+        "position": 1,
+        "parentId": "1294626934671806540"
+      },
+      {
+        "id": "1375778375104462910",
+        "name": "twooo",
+        "type": 0,
+        "position": 2,
+        "parentId": "1294626934671806540"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1269178576821813279",
+        "name": "Admin",
+        "color": 16711680,
+        "permissions": "8",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1269181292382126091",
+        "name": "members",
+        "color": 8421504,
+        "permissions": "8",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1270627309677838336",
+        "name": "Verified Member",
+        "color": 0,
+        "permissions": "1051648",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1413084480352292967",
+        "name": "TEST",
+        "color": 0,
+        "permissions": "8",
+        "position": 9,
+        "hoist": true,
+        "mentionable": true
+      }
+    ],
+    "updated": 1776540845177
+  }
+}

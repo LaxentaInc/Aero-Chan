@@ -1,0 +1,741 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1486659051986092124",
+        "name": "Aero",
+        "type": 4,
+        "position": 13,
+        "parentId": null
+      },
+      {
+        "id": "1390225607530647612",
+        "name": "巛★╮ིྀ╭∿🍪-crk-👑∿╮ིྀ╭★巛",
+        "type": 0,
+        "position": 1,
+        "parentId": "1376534622069981326"
+      },
+      {
+        "id": "1363926124975095838",
+        "name": "☆࿐ཽ༵༆༒<~3NT3RANC3~>༒༆࿐ཽ༵☆",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1371531807731875850",
+        "name": "｡✿-ﾟ-✿-ﾟ🎄-yggdrasil4195-🎄-｡-✿",
+        "type": 0,
+        "position": 5,
+        "parentId": "1364663655982956584"
+      },
+      {
+        "id": "1363580997584814252",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1376439689627566251",
+        "name": "『︽ʚsam’s-mc-d0nald’sɞ︽」",
+        "type": 0,
+        "position": 3,
+        "parentId": "1365512446550478909"
+      },
+      {
+        "id": "1363853877937573929",
+        "name": "🎨₊-art-˚-⌗🖌️",
+        "type": 0,
+        "position": 2,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1365920390756569140",
+        "name": "zesty idk",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1363926344030748783",
+        "name": "💜⊹-welc0me-࣪-˖👋",
+        "type": 0,
+        "position": 0,
+        "parentId": "1363926124975095838"
+      },
+      {
+        "id": "1380464255110877265",
+        "name": "🎀au-channel-𖦹₊⊹😨",
+        "type": 0,
+        "position": 14,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1405884853647315084",
+        "name": "🦋sh1t-p0sts-‧₊˚ᯓ◟𖦹😇",
+        "type": 0,
+        "position": 4,
+        "parentId": "1363858663772655756"
+      },
+      {
+        "id": "1369228585533177906",
+        "name": "༺ღ༒~♠C00K13+RUN+K1NGD0M👑~༒ღ༻",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1369238414368706600",
+        "name": "✎﹏﹏﹏﹏﹏💙-c00kie-run-k1ngd0m-h3ad-cann0n-🗯﹏﹏﹏﹏﹏﹏﹏﹏﹏",
+        "type": 0,
+        "position": 0,
+        "parentId": "1369228585533177906"
+      },
+      {
+        "id": "1381633294109507648",
+        "name": "︽﹏巛∿∘⌑🌺mak3-1t-a-qu0t3🌷⌑∘∿巛﹏︽",
+        "type": 0,
+        "position": 7,
+        "parentId": "1364663655982956584"
+      },
+      {
+        "id": "1370825984697303162",
+        "name": "❤️୨me-n-wh0-v1ds୧💔",
+        "type": 0,
+        "position": 10,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1364662214354796626",
+        "name": "◌⑅⃝●♡⋆♡🍰-chann3l-0r-catag0ry-sugg3st10n-🎀♡⋆♡●⑅⃝◌",
+        "type": 0,
+        "position": 2,
+        "parentId": "1363923526955962470"
+      },
+      {
+        "id": "1392466623721508934",
+        "name": "﹏∘∿★↝🎀^>H0STS/ADMINS~W0RLD<^🌺↜★∿∘﹏",
+        "type": 4,
+        "position": 12,
+        "parentId": null
+      },
+      {
+        "id": "1363580997584814253",
+        "name": "📚yapp1ng-✦◞˚💬",
+        "type": 0,
+        "position": 0,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1381639918400569416",
+        "name": "🤍✧v01ce-act1ng୧😇",
+        "type": 0,
+        "position": 16,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1389573687895916647",
+        "name": "＊•̩̩͙✩•̩̩͙˚-fnf-roleplay˚•̩̩͙✩•̩̩͙˚＊",
+        "type": 0,
+        "position": 4,
+        "parentId": "1365512446550478909"
+      },
+      {
+        "id": "1392576934562631851",
+        "name": "૮-ྀིᴗ͈-ᴗ͈-ྀིაᶻ-𝘇-m0ds-bus1n3ss‼️",
+        "type": 0,
+        "position": 2,
+        "parentId": "1392466623721508934"
+      },
+      {
+        "id": "1486659054066602034",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1486659051986092124"
+      },
+      {
+        "id": "1398919254908338176",
+        "name": "😋yummy-r0asts-⟡˖°⋆⑅˚₊✨",
+        "type": 0,
+        "position": 17,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1381603678510911618",
+        "name": "『﹏★ꮺ✐😕-how-strong-is-😐✎ꮺ★﹏』",
+        "type": 0,
+        "position": 15,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1363870075962003517",
+        "name": "💋⸝⸝⋆｡⋆ꈔ-ann0uncements-·˚⌇‼️",
+        "type": 0,
+        "position": 1,
+        "parentId": "1363858663772655756"
+      },
+      {
+        "id": "1382255405375422504",
+        "name": "∘∿✰✎︽📌n3k0t1na-smth🎀︽✐✰∿∘",
+        "type": 0,
+        "position": 8,
+        "parentId": "1364663655982956584"
+      },
+      {
+        "id": "1363923766371025179",
+        "name": "◌⑅⃝●♡⋆♡🤍-r0l3s-sugg3st1v3-🌸♡⋆♡●⑅⃝◌",
+        "type": 0,
+        "position": 0,
+        "parentId": "1363923526955962470"
+      },
+      {
+        "id": "1363580997584814254",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1363580997584814252"
+      },
+      {
+        "id": "1363580997584814251",
+        "name": "☆࿐ཽ༵༆༒~T3XT^CHANN3L~༒༆࿐ཽ༵☆",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1370787324883111998",
+        "name": "{~M0DS/ADMINS MANSION<3~}",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1373321803849793556",
+        "name": "🪪‧₊˚୨-r0les-୧˚₊🕸️",
+        "type": 0,
+        "position": 3,
+        "parentId": "1363858663772655756"
+      },
+      {
+        "id": "1365572599119089705",
+        "name": "➷➷➷💖-fr3aky-m3d1a-🎀➶➶➶",
+        "type": 0,
+        "position": 5,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1373319730772967535",
+        "name": "➫﹌✿❤c🧡l💛r-ch💚n💙✿﹌➫",
+        "type": 0,
+        "position": 13,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1369386988943310960",
+        "name": "꒷︶꒷꒥꒷‧₊˚૮꒰~R0BL0X~꒱ა‧₊˚꒷︶꒷꒥꒷",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1371482151333265538",
+        "name": "❀•°•═════ஓ๑🧃-c0ral’s-ju1c3-stand-🧃๑ஓ═════•°•❀",
+        "type": 0,
+        "position": 1,
+        "parentId": "1365512446550478909"
+      },
+      {
+        "id": "1363924080184528916",
+        "name": "◌⑅⃝●♡⋆♡💖-b0t-sugg3st1v3-🤖♡⋆♡●⑅⃝◌",
+        "type": 0,
+        "position": 1,
+        "parentId": "1363923526955962470"
+      },
+      {
+        "id": "1363858663772655756",
+        "name": "☆࿐ཽ༵༆༒~1MP0RTANT~༒༆࿐ཽ༵☆",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1364664278048837762",
+        "name": "⋅•⋅⊰∙∘☽🗯-dank-m3m3r-🐸☾∘∙⊱⋅•⋅",
+        "type": 0,
+        "position": 0,
+        "parentId": "1364663655982956584"
+      },
+      {
+        "id": "1365526756316151859",
+        "name": "꒷︶꒷꒥꒷‧₊˚૮꒰˵💗fam1ly-rol3play🎀˵꒱ა‧₊˚꒷︶꒷꒥꒷",
+        "type": 0,
+        "position": 0,
+        "parentId": "1365512446550478909"
+      },
+      {
+        "id": "1372588236601425981",
+        "name": "🎶mus1c-°❀⋆🎧",
+        "type": 0,
+        "position": 11,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1367351144107479090",
+        "name": "≻─────-⋆🎀phoenix😨-⋆-─────≺",
+        "type": 0,
+        "position": 2,
+        "parentId": "1364663655982956584"
+      },
+      {
+        "id": "1392466989179473980",
+        "name": "★╯╭╮🖤c4rl-b0t🐢╭╮╯★",
+        "type": 0,
+        "position": 0,
+        "parentId": "1392466623721508934"
+      },
+      {
+        "id": "1372588450985017475",
+        "name": "🪽-type-the-lyr1cs-ೀ-‧₊˚⌨️",
+        "type": 0,
+        "position": 12,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1363869574230966462",
+        "name": "☁️c0zy-c0rner-ˎˊ˗🎀",
+        "type": 0,
+        "position": 3,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1366133069136007168",
+        "name": "◌⑅⃝●♡⋆♡♠-som3-marr1g3-typ3-bot-🎀♡⋆♡●⑅⃝◌",
+        "type": 0,
+        "position": 1,
+        "parentId": "1364663655982956584"
+      },
+      {
+        "id": "1363853639978061834",
+        "name": "📣⋆౨ৎ˚⟡˖-memes-࣪🥹",
+        "type": 0,
+        "position": 1,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1371880292184363129",
+        "name": "𓂂-ྀི-s1lly-ann0uncements🌷",
+        "type": 0,
+        "position": 2,
+        "parentId": "1363858663772655756"
+      },
+      {
+        "id": "1365512446550478909",
+        "name": "༺ღ༒~ROL3PLAY~ ༒ღ༻",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1363865843942953031",
+        "name": "📌°ᡣ𐭩°-rules-જ⁀➴📜",
+        "type": 0,
+        "position": 0,
+        "parentId": "1363858663772655756"
+      },
+      {
+        "id": "1376534796670337056",
+        "name": "『◡̈⌑✰︴f0rsak3n︴✰⌑」",
+        "type": 0,
+        "position": 0,
+        "parentId": "1376534622069981326"
+      },
+      {
+        "id": "1370741972842844190",
+        "name": "🌺face-reveal-⟡˖°⋆⑅˚₊💖",
+        "type": 0,
+        "position": 9,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1392507146406596690",
+        "name": "໒꒰ྀིっ˕-｡꒱ྀི১-💤_g3n3r4l_💙っ-̯-｡",
+        "type": 0,
+        "position": 1,
+        "parentId": "1392466623721508934"
+      },
+      {
+        "id": "1370735736533286924",
+        "name": "🕸️med1a-⭑꒷꒦📺",
+        "type": 0,
+        "position": 8,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1369387434118352968",
+        "name": "ˏˋ°•⁀➷ˏ💗-catal0g-avatar-♠ˏˋ°•⁀➷",
+        "type": 0,
+        "position": 0,
+        "parentId": "1369386988943310960"
+      },
+      {
+        "id": "1364663655982956584",
+        "name": "☆࿐ཽ༵༆༒🎀~B0TS~🤖༒༆࿐ཽ༵☆",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1403997224433618944",
+        "name": "💖-ems-bakery-🎀",
+        "type": 0,
+        "position": 5,
+        "parentId": "1365512446550478909"
+      },
+      {
+        "id": "1367421441116737537",
+        "name": "⋅•⋅⊰∙∘☽🎀-owo-💙☾∘∙⊱⋅•⋅",
+        "type": 0,
+        "position": 4,
+        "parentId": "1364663655982956584"
+      },
+      {
+        "id": "1367356114412372108",
+        "name": "●◉◎-🎀tupp3r-b0t😀-◎◉●",
+        "type": 0,
+        "position": 3,
+        "parentId": "1364663655982956584"
+      },
+      {
+        "id": "1374073025963753572",
+        "name": "『◡̈﹌➫🖤sam’s-bas3m3nt😨➫﹌◡̈『",
+        "type": 0,
+        "position": 2,
+        "parentId": "1365512446550478909"
+      },
+      {
+        "id": "1376534622069981326",
+        "name": "『✿︽FAND0MSッ︽✿」",
+        "type": 4,
+        "position": 11,
+        "parentId": null
+      },
+      {
+        "id": "1372585497427443805",
+        "name": "﹌༻ʚ📌sw3ar-0n-purp0s3🤍ɞ༺﹌",
+        "type": 0,
+        "position": 6,
+        "parentId": "1364663655982956584"
+      },
+      {
+        "id": "1367423646598955062",
+        "name": "🌷hear-me-0uts-✩˚｡⋆💝",
+        "type": 0,
+        "position": 6,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1369022565275795476",
+        "name": "✨crk-l0r3-༢·͙😀",
+        "type": 0,
+        "position": 7,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1363923526955962470",
+        "name": "☆࿐ཽ༵༆༒🤍<~SUGG3ST3D^ID3AS~>🎀༒༆࿐ཽ༵☆",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1365526553932464148",
+        "name": "➶➶➶➶➶-🤍fr3aky-t3xt🤍-➷➷➷➷➷",
+        "type": 0,
+        "position": 4,
+        "parentId": "1363580997584814251"
+      },
+      {
+        "id": "1370800666444042272",
+        "name": "༻꫞꯭ ❣~M3mbers^Side^Of^The^Mansion!~❣꫞꯭༺",
+        "type": 4,
+        "position": 10,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1373320825679122525",
+        "name": "ʚRosieɞ",
+        "color": 16766678,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1390232286405988402",
+        "name": "💙🫐🩵Coolest person here🩵🫐💙",
+        "color": 3447003,
+        "permissions": "1721826619162615",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1368582406365380638",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1371833643508437083",
+        "name": "✼ •• ┈┈┈┈๑⋅⋯ ୨🌸~H0STS+G1Rl+FR13ND~🌸୧ ⋯⋅๑┈┈┈┈ •• ✼",
+        "color": 8094921,
+        "permissions": "2108863302074367",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1405884582032703649",
+        "name": "↝sh1t-p0sts💔彡𓆪",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1363864895791300773",
+        "name": "☆࿐ཽ༵༆༒~ADM1NSTRAT0R~༒༆࿐ཽ༵☆",
+        "color": 10344959,
+        "permissions": "2091258096386001",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1405883981823610960",
+        "name": "🥹S1LLY-ann0uncement ✩˚｡⋆🩷",
+        "color": 7781856,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1405884422837764096",
+        "name": "ann0uncement ⋆⑅˚₊ᡣ𐭩‼️",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1368582185678012446",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1370367283867680869",
+        "name": "Bots",
+        "color": 0,
+        "permissions": "0",
+        "position": 23,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1399939590852448381",
+        "name": "💫ᬊ彡★My-Y0ung3st-ch1ld★彡༄🤍",
+        "color": 12178431,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1371405754568933446",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1371508179489525893",
+        "name": "◡̈ʚ﹌🩵✩NATSUK1’S/NAYNAY’S BIT-✩💖﹌ɞ◡̈",
+        "color": 10343609,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1365527024025997394",
+        "name": "Hatsune Miku!",
+        "color": 0,
+        "permissions": "1135245826002497",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1363871147179118703",
+        "name": "『••~B0TS~••』",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 40,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363863487968968764",
+        "name": "✯¸.•´*¨`*•✿~B1RTHDAY^G1RL~✿•*`¨*`•.¸✯",
+        "color": 15287420,
+        "permissions": "0",
+        "position": 42,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1365907725581549598",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1391719757350179007",
+        "name": "★∿💜They/Them💜∿★",
+        "color": 12887807,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1391719707765375147",
+        "name": "★∿💙He/Him💙∿★",
+        "color": 7504639,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1390234064233037934",
+        "name": "🩷THE REAL TWO TIME🩷",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1367568323910565929",
+        "name": "●◉◎~Cutie^Wannabe~◎◉●",
+        "color": 7419530,
+        "permissions": "1738224908488257",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1390234706351493160",
+        "name": "REAL TWO TIME #2",
+        "color": 998481,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1366275895182098474",
+        "name": "Superninja’s Special Hoes",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 29,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1365912652798492683",
+        "name": "Superninja’s Hoes",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 31,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1363927104630292572",
+        "name": "༻𓊈𒆜~M0D3RAT0R~𒆜𓊉༺",
+        "color": 2123412,
+        "permissions": "2108858603929553",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1371505884508721152",
+        "name": "༻ෆ✿ʚ💖_~Coral’s 4ever~_💗ɞ✿ෆ༺",
+        "color": 12097791,
+        "permissions": "8",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1375660393124466849",
+        "name": "The Three Good Lookin' Musketeers",
+        "color": 15074960,
+        "permissions": "0",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1391719539192107114",
+        "name": "★∿🎀She/Her🎀∿★",
+        "color": 16746632,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1363854736788295740",
+        "name": "☆彡彡💫~MY^ST4RZ!!1~💫ミミ☆",
+        "color": 16776136,
+        "permissions": "1799522648133377",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1363855800610848978",
+        "name": "{☆࿐ཽ༵༆༒<~H0ST~>༒༆࿐ཽ༵☆}",
+        "color": 16762101,
+        "permissions": "2108859006582783",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845054
+  }
+}

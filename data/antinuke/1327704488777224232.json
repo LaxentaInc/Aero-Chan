@@ -1,0 +1,108 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1327704489582395513",
+        "name": "General",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1327704489582395514",
+        "name": "💬-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1327704489582395513"
+      },
+      {
+        "id": "1327704489582395515",
+        "name": "🎊-clips",
+        "type": 0,
+        "position": 1,
+        "parentId": "1327704489582395513"
+      },
+      {
+        "id": "1327704489582395516",
+        "name": "VC",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1327704489582395517",
+        "name": "🗣-general",
+        "type": 2,
+        "position": 0,
+        "parentId": "1327704489582395513"
+      },
+      {
+        "id": "1327704489582395518",
+        "name": "Fortnite",
+        "type": 2,
+        "position": 0,
+        "parentId": "1327704489582395516"
+      },
+      {
+        "id": "1327705356415012895",
+        "name": "Minecraft",
+        "type": 2,
+        "position": 1,
+        "parentId": "1327704489582395516"
+      },
+      {
+        "id": "1327705785400299702",
+        "name": "👋-welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1327705979478872116",
+        "name": "🚀-boost",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1327711575095775243",
+        "name": "Kellerbewohner",
+        "color": 65514,
+        "permissions": "0",
+        "position": 7,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1327711729689432206",
+        "name": "Owner",
+        "color": 12008191,
+        "permissions": "8",
+        "position": 9,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1327712639593484320",
+        "name": "Kellerbot",
+        "color": 0,
+        "permissions": "0",
+        "position": 6,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1327712811404759051",
+        "name": "Admin",
+        "color": 16711680,
+        "permissions": "8",
+        "position": 8,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845162
+  }
+}

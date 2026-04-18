@@ -1,0 +1,270 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1157424962542514227",
+        "name": "★彡[ᴛᴇxᴛᴏ]彡★",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1157424962542514228",
+        "name": "★彡[ᴄᴀɴᴀʟ ᴅᴇ ᴠᴏᴢ]彡★",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1157424962542514229",
+        "name": "「🌐」general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1157424962542514227"
+      },
+      {
+        "id": "1157424962542514230",
+        "name": "[📣] vcchat0",
+        "type": 2,
+        "position": 0,
+        "parentId": "1157424962542514228"
+      },
+      {
+        "id": "1157428276269174784",
+        "name": "「📣」novedades",
+        "type": 0,
+        "position": 1,
+        "parentId": "1157424962542514227"
+      },
+      {
+        "id": "1157428329796862035",
+        "name": "[📣] vcchat1",
+        "type": 2,
+        "position": 1,
+        "parentId": "1157424962542514228"
+      },
+      {
+        "id": "1157428463725183017",
+        "name": "[📣] vcchat2",
+        "type": 2,
+        "position": 2,
+        "parentId": "1157424962542514228"
+      },
+      {
+        "id": "1157428518666375168",
+        "name": "「📣」reportes",
+        "type": 0,
+        "position": 2,
+        "parentId": "1157424962542514227"
+      },
+      {
+        "id": "1157429114974769172",
+        "name": "「📣」ideasparaelserver",
+        "type": 0,
+        "position": 3,
+        "parentId": "1157424962542514227"
+      },
+      {
+        "id": "1157453804111921203",
+        "name": "「🎮」ip-server",
+        "type": 0,
+        "position": 4,
+        "parentId": "1157424962542514227"
+      },
+      {
+        "id": "1157511485745004564",
+        "name": "「📕」guia-estructuras",
+        "type": 0,
+        "position": 5,
+        "parentId": "1157424962542514227"
+      },
+      {
+        "id": "1157819247385387079",
+        "name": "「💬」chill",
+        "type": 0,
+        "position": 6,
+        "parentId": "1157424962542514227"
+      },
+      {
+        "id": "1233505332374802463",
+        "name": "「👨」talk-to-dad",
+        "type": 0,
+        "position": 7,
+        "parentId": "1157424962542514227"
+      },
+      {
+        "id": "1237427177553789050",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1237427177553789051",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1237858791580631210",
+        "name": "「🎮」roblox",
+        "type": 0,
+        "position": 0,
+        "parentId": "1244104343100067920"
+      },
+      {
+        "id": "1237858836233326622",
+        "name": "「🎮」geometry-dash",
+        "type": 0,
+        "position": 1,
+        "parentId": "1237876688046788709"
+      },
+      {
+        "id": "1237858907452346422",
+        "name": "「🎮」terraria",
+        "type": 0,
+        "position": 0,
+        "parentId": "1237876688046788709"
+      },
+      {
+        "id": "1237876688046788709",
+        "name": "★彡[JUEGOS]彡★",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1241788394120679574",
+        "name": "「🎸」green-bot-music",
+        "type": 0,
+        "position": 8,
+        "parentId": "1157424962542514227"
+      },
+      {
+        "id": "1241790117358600372",
+        "name": "「🎸📣」green-bot",
+        "type": 2,
+        "position": 3,
+        "parentId": "1157424962542514228"
+      },
+      {
+        "id": "1241889271124594729",
+        "name": "「🎸📣」green-bot 2",
+        "type": 2,
+        "position": 4,
+        "parentId": "1157424962542514228"
+      },
+      {
+        "id": "1241889296156332043",
+        "name": "「🎸📣」green-bot 3",
+        "type": 2,
+        "position": 5,
+        "parentId": "1157424962542514228"
+      },
+      {
+        "id": "1244104002002485248",
+        "name": "thestrongestbattlegrounds",
+        "type": 0,
+        "position": 1,
+        "parentId": "1244104343100067920"
+      },
+      {
+        "id": "1244104343100067920",
+        "name": "★彡[ROBLOX]彡★",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1246128156918808596",
+        "name": "「🎮」fortnite",
+        "type": 0,
+        "position": 2,
+        "parentId": "1237876688046788709"
+      },
+      {
+        "id": "1329966401389203600",
+        "name": "flavio-bot",
+        "type": 0,
+        "position": 9,
+        "parentId": "1157424962542514227"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1157426857218687059",
+        "name": "⋆˚࿔𝐵𝓊𝓃𝓃𝓎",
+        "color": 15277667,
+        "permissions": "31858024107585",
+        "position": 11,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1157427776488493067",
+        "name": "⋆˚࿔𝒞𝓊𝓉𝑒𝐵𝓊𝓃𝓃𝓎❀",
+        "color": 3066993,
+        "permissions": "32957699452871",
+        "position": 12,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1157468997084782613",
+        "name": "ִֶָ. ..𓂃 ࣪ ִֶָ🪽་༘࿐𝒢𝒶𝓂𝒾𝓃𝑔❀",
+        "color": 0,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1157509314949419008",
+        "name": "𝐵𝓊𝓃𝓃𝒾𝑒𝓈",
+        "color": 15844367,
+        "permissions": "14265838063169",
+        "position": 10,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1157820723084148849",
+        "name": "⋆˚࿔𝒞𝓊𝓉𝓉𝑒𝓈𝓉𝐵𝓊𝓃𝓃𝓎❀⋆˚࿔",
+        "color": 0,
+        "permissions": "32976758374391",
+        "position": 13,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1241791819277406268",
+        "name": "๋ ࣭ ⭑𝒟𝒶'𝐵𝑜𝓉𝓈⋆˚࿔",
+        "color": 11342935,
+        "permissions": "0",
+        "position": 3,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1244102663478706218",
+        "name": "๋ ࣭ ⭑ᴅᴊ❀",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1255314909575516222",
+        "name": "⋆˙⟡ꜱᴘᴇᴄɪᴀʟ❀",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 9,
+        "hoist": true,
+        "mentionable": true
+      }
+    ],
+    "updated": 1776540845049
+  }
+}

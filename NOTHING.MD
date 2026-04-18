@@ -1,0 +1,73 @@
+Aero Chan - The Everything App. For Minimalists.
+
+**Security • Entertainment •  Music (playlist supported yes) •  Utilities •  Anime Coded  •  Dashboard** 
+- **Stop using 10 different bots. Aero manages your entire server with zero clutter and maximum performance.**
+
+Dashboard: laxenta.tech/dashboard
+Website: https://laxenta.tech
+Support: https://laxenta.info
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+Constantly Updated SECURITY alogrithms for the code, so nothing chokes when needed
+- **Detection & Preventive protection. Free forever.**
+❤️
+ - Anti-Raid — Preventive in nature but detects & stops permissions abuse by admins & attacks instantly
+ - Anti-Nuke — Prevents mass channel/role deletion by power trips or bots
+ - AI Spam Filter — Adapts to your server's chat patterns && user OCR for premium tier users
+ - Bot Accounts — Keeps malicious bots out automatically, and punishes whoever adds it (unless configured in /dashboard or trusted user)
+ - Account Age Limits and so many more modules.
+
+Continuously updated definitions keep your server safe from new threats. **FULLY CONFIGURABLE**.  Nothing is hardcoded! **/dashboard** is the way :)
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+- **ENTERTAINMENT**
+ •  Fun done right. No bloat.
+
+ - High-Quality Music — YouTube, Spotify, & SoundCloud, **Playlist Support No matter How big** /music play
+ - Cool anime coded comands for weebs! ./waifu etc.
+ - Anime Charecter stuff. /animechar
+ - Social Actions — Interactions with 20+ anime GIF commands xd /bonk /wave
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+**POWER UTILITIES**
+ •  Tools you actually need.
+
+- File Converter — MP4, GIF, MP3, PNG conversion in chat
+- URL Scanner — Malware analysis for suspicious links
+- Image OCR — Extract & translate text from images
+- Weather, Url scanning, file scannings and SO much more i can't write here
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+_**THE WEB DASHBOARD**_
+ •  Control deeply. Configure easily.
+
+Forget command spam. Manage everything from a dashboard that looks like discord!.
+👉https://laxenta.tech/dashboard
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+Premium For Power users Only (not important)
+For people who want to support Or request something specific Or want higher custumizablity and features below:
+- **Although the bot is pretty much open for everyone to use equally, these are just additions!**
+
+- 500MB Uploads — Upgrade your file conversion limits
+- Priority Queue — Instant processing for heavy tasks
+- Custom Branding — Make Aero feel like your bot
+- Bigger Playlist Support — Unlimited music queues, queues going upto 10k
+- Extended Anti-Raid — Higher trusted user limits
+- NSFW OCR Scanning — Automatic image scanning in your server. No nsfw images.
+- Advanced Config — Custom messages, punishments, Explicit and granular configs like durations, Notifications, More Trusted user  slots  & so much more on /dashboard
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 GET STARTED
+1. Invite or Install Aero Chan (installing is also great tbf)
+2. Type /help
+3. Relax or bonk people
+*Our AntiRaid modules are automatic and are already well configured, unless you want to change anything, we allow it  all at https://laxenta.tech/dashboard*
+- Built with ❤️ by Laxenta Inc.
+Havee funnnn, make sure to use /bonk on someone lmao

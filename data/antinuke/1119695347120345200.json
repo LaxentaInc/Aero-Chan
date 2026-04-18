@@ -1,0 +1,624 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1388565830094290945",
+        "name": "〘🇪🇸〙➩spanish-chat",
+        "type": 0,
+        "position": 5,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1388568228833398976",
+        "name": "〘🇯🇵〙➩japenese-chat",
+        "type": 0,
+        "position": 12,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1388576072081215570",
+        "name": "〖🇹🇷〗learning-turkish",
+        "type": 0,
+        "position": 0,
+        "parentId": "1129289520173564024"
+      },
+      {
+        "id": "1388567755099472084",
+        "name": "〘🇷🇺〙➩russian-chat",
+        "type": 0,
+        "position": 7,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1119695347598491733",
+        "name": "Chatting",
+        "type": 2,
+        "position": 1,
+        "parentId": "1119695347598491731"
+      },
+      {
+        "id": "1388568384928743435",
+        "name": "〘🇮🇩〙➩indonesian-chat",
+        "type": 0,
+        "position": 13,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1388219984362344590",
+        "name": "IMPORTANT",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1468185677899497473",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1468185674191732839"
+      },
+      {
+        "id": "1136896598492860426",
+        "name": "〘🇬🇷〙➩greek-chat",
+        "type": 0,
+        "position": 3,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1119695347598491734",
+        "name": "Chatting 2",
+        "type": 2,
+        "position": 2,
+        "parentId": "1119695347598491731"
+      },
+      {
+        "id": "1388569501385363476",
+        "name": "〘🇮🇳〙➩indian-chat",
+        "type": 0,
+        "position": 19,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1388567831003660299",
+        "name": "〘🇳🇱〙➩dutch-chat",
+        "type": 0,
+        "position": 8,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1135176300202561698",
+        "name": "partnership",
+        "type": 5,
+        "position": 2,
+        "parentId": "1388219984362344590"
+      },
+      {
+        "id": "1388220138570121267",
+        "name": "〖📜〗rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1388219984362344590"
+      },
+      {
+        "id": "1131571972992684175",
+        "name": "council",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1388569002757980270",
+        "name": "〘🇨🇳〙➩chinese-chat",
+        "type": 0,
+        "position": 18,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1388568562943398188",
+        "name": "〘🇷🇸〙➩serbian-chat",
+        "type": 0,
+        "position": 14,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1136895941237022760",
+        "name": "〘🇹🇷〙➩turkish-chat",
+        "type": 0,
+        "position": 1,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1468185676142084188",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 0,
+        "parentId": "1468185674191732839"
+      },
+      {
+        "id": "1192076861052813342",
+        "name": "activity-check-✅",
+        "type": 0,
+        "position": 0,
+        "parentId": "1192076786549411870"
+      },
+      {
+        "id": "1119695347598491732",
+        "name": "Saloon",
+        "type": 2,
+        "position": 0,
+        "parentId": "1119695347598491731"
+      },
+      {
+        "id": "1132972050336722974",
+        "name": "〘📞〙➩call",
+        "type": 0,
+        "position": 0,
+        "parentId": "1119695347120345201"
+      },
+      {
+        "id": "1119695347598491731",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1387768510519840968",
+        "name": "log",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1129289520173564024",
+        "name": "Learning",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1388568906993762427",
+        "name": "〘🇸🇪〙➩swedish-chat",
+        "type": 0,
+        "position": 17,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1187673723378094191",
+        "name": "Roleplay",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1388223975947243530",
+        "name": "『💔』➩farewell",
+        "type": 0,
+        "position": 1,
+        "parentId": "1388423800672227408"
+      },
+      {
+        "id": "1135181828093915176",
+        "name": "server-ad",
+        "type": 0,
+        "position": 3,
+        "parentId": "1388219984362344590"
+      },
+      {
+        "id": "1192076786549411870",
+        "name": "activity-check",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1388423800672227408",
+        "name": "Welcome/Farewell",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1187673775479738389",
+        "name": "roleplay",
+        "type": 0,
+        "position": 0,
+        "parentId": "1187673723378094191"
+      },
+      {
+        "id": "1392794443114873093",
+        "name": "〘🗨〙➩general-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1388568159593693306",
+        "name": "〘🇰🇷〙➩korean-chat",
+        "type": 0,
+        "position": 11,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1119695347120345204",
+        "name": "Write Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1388568042182545560",
+        "name": "〘🇨🇿〙➩czech-chat",
+        "type": 0,
+        "position": 10,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1119695347120345201",
+        "name": "FUN",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1388568733127282749",
+        "name": "〘🇦🇱〙➩albanian-chat",
+        "type": 0,
+        "position": 15,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1388433165898481785",
+        "name": "〘🇮🇷〙➩persian-chat",
+        "type": 0,
+        "position": 4,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1388567276512481410",
+        "name": "〘🇸🇦〙➩arabic-chat",
+        "type": 0,
+        "position": 6,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1388567931109113957",
+        "name": "〘🇩🇪〙➩german-chat",
+        "type": 0,
+        "position": 9,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1138281594545786941",
+        "name": "〖📣〗announcement",
+        "type": 5,
+        "position": 1,
+        "parentId": "1388219984362344590"
+      },
+      {
+        "id": "1131571972992684174",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1186529455024373770",
+        "name": "〘🇦🇿〙➩azerbaijani-chat",
+        "type": 0,
+        "position": 2,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1388569780616695889",
+        "name": "〘🇵🇰〙➩urdu-chat",
+        "type": 0,
+        "position": 20,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1119695347120345202",
+        "name": "『👋』➩welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1388423800672227408"
+      },
+      {
+        "id": "1388568797052403844",
+        "name": "〘🇫🇮〙➩finnish-chat",
+        "type": 0,
+        "position": 16,
+        "parentId": "1119695347120345204"
+      },
+      {
+        "id": "1468185674191732839",
+        "name": "Aero",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1160846029407662141",
+        "name": "Ancient Greeks",
+        "color": 57343,
+        "permissions": "0",
+        "position": 47,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1185916770532474970",
+        "name": "nigga 😡😡😡",
+        "color": 11027200,
+        "permissions": "31858024107585",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1168523556007714887",
+        "name": "sorrymoon (dont remove this role 😡)",
+        "color": 16711684,
+        "permissions": "420013441810431",
+        "position": 23,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1195002966944530573",
+        "name": "our friend (our sex toy🤤) 😡😡",
+        "color": 15844367,
+        "permissions": "31858024107585",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1168516106097545287",
+        "name": "PETROS AND KEBAB",
+        "color": 3447003,
+        "permissions": "420013441810431",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1134518460089651420",
+        "name": "Im Greek😎",
+        "color": 0,
+        "permissions": "0",
+        "position": 37,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1165329309632831508",
+        "name": "Cool Guy",
+        "color": 15105570,
+        "permissions": "31858024107585",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1161962566269022298",
+        "name": "Greekish Teacher Helper",
+        "color": 10944767,
+        "permissions": "0",
+        "position": 48,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1130510858263462051",
+        "name": "new",
+        "color": 0,
+        "permissions": "0",
+        "position": 63,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1194681188477055067",
+        "name": "new aleksy daddy",
+        "color": 0,
+        "permissions": "1099243192305",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1138720000857870396",
+        "name": "cahit kayaoğlu",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 32,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1160442220181205122",
+        "name": "🇬🇷Greekish Teacher 😡😠",
+        "color": 1476,
+        "permissions": "0",
+        "position": 49,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1270620272315076678",
+        "name": "Verified Member",
+        "color": 0,
+        "permissions": "1051648",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1186341191252455455",
+        "name": "angry brother 🤬",
+        "color": 16711680,
+        "permissions": "420013441810431",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1158654161622147102",
+        "name": "Ottoman Empire Granddaughter /son 🇹🇷",
+        "color": 16711680,
+        "permissions": "281474976710656",
+        "position": 46,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1164783443591299173",
+        "name": "dont remove this role, it for my alt",
+        "color": 16711680,
+        "permissions": "420013441810431",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1187466429260382288",
+        "name": "🇬🇷Greekish Teacher😡😡",
+        "color": 205055,
+        "permissions": "102252538232385",
+        "position": 13,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1130514052955775020",
+        "name": "new role",
+        "color": 0,
+        "permissions": "8",
+        "position": 61,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1185947512159354960",
+        "name": "🇦🇲 Ermənian Teacher 😡😡",
+        "color": 16711733,
+        "permissions": "31858024107585",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1132041318340759612",
+        "name": "avarage mario fan",
+        "color": 11342935,
+        "permissions": "0",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1169153275761799178",
+        "name": "ANTIGONUSSSSS",
+        "color": 3447003,
+        "permissions": "31858024107585",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1388214508794675200",
+        "name": "Admin",
+        "color": 16711680,
+        "permissions": "2108863033638871",
+        "position": 1,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1132992761298178189",
+        "name": "☭soviet union☭",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1160172078092255273",
+        "name": "Superior Byzantine Empire",
+        "color": 3066993,
+        "permissions": "32976758898679",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1185916112404226149",
+        "name": "aleksy daddy 🤤",
+        "color": 3447003,
+        "permissions": "420013441810423",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1178577461886320711",
+        "name": "Owner",
+        "color": 10038562,
+        "permissions": "420013441810431",
+        "position": 20,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1165329823133089975",
+        "name": "Member",
+        "color": 3066993,
+        "permissions": "31858024107585",
+        "position": 26,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1190950810671120384",
+        "name": "ancient greek 😡😡",
+        "color": 4095,
+        "permissions": "31858024107585",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1130513859405426729",
+        "name": "Petros Sikişos",
+        "color": 3447003,
+        "permissions": "32976758374399",
+        "position": 62,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1169152919824773160",
+        "name": "STEVEOS OWNER😡😡😡",
+        "color": 10038562,
+        "permissions": "32976758898679",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1164292377754747011",
+        "name": "Best Moderator and co-owner",
+        "color": 10038562,
+        "permissions": "138538196664319",
+        "position": 29,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845180
+  }
+}

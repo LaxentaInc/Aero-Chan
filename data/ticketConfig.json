@@ -1,0 +1,78 @@
+{
+  "1260534392124735498": {
+    "ticketChannel": "1398195752651718798",
+    "transcriptChannel": "1398195752651718798",
+    "supportRoles": [
+      "1400083363947221034"
+    ],
+    "categoryId": null,
+    "embedSettings": {
+      "color": 5793266,
+      "title": "Support Tickets",
+      "description": "<a:eh:1342443037371928627> Click the button below and describe your issue to create a ticket!!",
+      "thumbnail": "https://cdn.discordapp.com/icons/1260534392124735498/631d2b20ae77e75a3b2f842fd97ada87.webp"
+    },
+    "buttonSettings": {
+      "label": "Create Ticket",
+      "emoji": "<<a:eh:1342443908189257728>",
+      "style": 1
+    },
+    "ticketSettings": {
+      "nameFormat": "ticket-{number}",
+      "welcomeMessage": "<a:wel:1342444020726501407> Please be patient! Support will be with you shortly!",
+      "maxTickets": 1,
+      "pingRoles": [],
+      "closeDelay": 5000
+    }
+  },
+  "1413870899693617194": {
+    "ticketChannel": null,
+    "transcriptChannel": "1420081543141134456",
+    "supportRoles": [],
+    "categoryId": null,
+    "embedSettings": {
+      "color": 5793266,
+      "title": "Support Tickets",
+      "description": "<a:eh:1342443037371928627> Click the button below and describe your issue to create a ticket!!",
+      "thumbnail": null
+    },
+    "buttonSettings": {
+      "label": "Create Ticket?",
+      "emoji": "<a:eh:1342443908189257728>",
+      "style": "PRIMARY"
+    },
+    "ticketSettings": {
+      "nameFormat": "ticket-{number}",
+      "welcomeMessage": "<a:wel:1342444020726501407> Please be patient! Support will be with you shortly!",
+      "maxTickets": 1,
+      "pingRoles": [],
+      "closeDelay": 5000
+    }
+  },
+  "1423899455496650775": {
+    "ticketChannel": "1430143916707151962",
+    "transcriptChannel": "1430143916707151962",
+    "supportRoles": [
+      "1423899877334843445"
+    ],
+    "categoryId": null,
+    "embedSettings": {
+      "color": 5793266,
+      "title": "Support Tickets",
+      "description": "<a:eh:1342443037371928627> Click the button below and describe your issue to create a ticket!!",
+      "thumbnail": "https://cdn.discordapp.com/icons/1423899455496650775/91bcc146a98d314f317296f8816a0e97.webp"
+    },
+    "buttonSettings": {
+      "label": "Create Ticket",
+      "emoji": "<<a:eh:1342443908189257728>",
+      "style": 1
+    },
+    "ticketSettings": {
+      "nameFormat": "ticket-{number}",
+      "welcomeMessage": "<a:wel:1342444020726501407> Please be patient! Support will be with you shortly!",
+      "maxTickets": 1,
+      "pingRoles": [],
+      "closeDelay": 5000
+    }
+  }
+}

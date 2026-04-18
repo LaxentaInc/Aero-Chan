@@ -1,0 +1,636 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1459478066869964876",
+        "name": "🏠︱welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1459478066869964875"
+      },
+      {
+        "id": "1459478068900139153",
+        "name": "general-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1459478068900139152"
+      },
+      {
+        "id": "1459478068900139155",
+        "name": "moderation-logs",
+        "type": 0,
+        "position": 2,
+        "parentId": "1459478068900139152"
+      },
+      {
+        "id": "1459478068417532056",
+        "name": "🔊︱The Lounge",
+        "type": 2,
+        "position": 0,
+        "parentId": "1459478067876593804"
+      },
+      {
+        "id": "1459478067876593804",
+        "name": "《🔊》Voice《🔊》",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1459545481624551496",
+        "name": "Members: 25",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1459478068417532060",
+        "name": "🛡️︱Squad II",
+        "type": 2,
+        "position": 5,
+        "parentId": "1459478067876593804"
+      },
+      {
+        "id": "1459478066869964880",
+        "name": "🔗┃official-links",
+        "type": 0,
+        "position": 4,
+        "parentId": "1459478066869964875"
+      },
+      {
+        "id": "1459560992391565464",
+        "name": "⚔️︱Bedwars",
+        "type": 2,
+        "position": 1,
+        "parentId": "1459478067876593804"
+      },
+      {
+        "id": "1459478066869964875",
+        "name": "《❔》𝓘𝓷𝓯𝓸𝓻𝓶𝓪𝓽𝓲𝓸𝓷《❔》",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1459863574418817168",
+        "name": "🔒︱Private Study / Focus",
+        "type": 2,
+        "position": 6,
+        "parentId": "1459478067876593804"
+      },
+      {
+        "id": "1459478068417532063",
+        "name": "staff-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1459478068417532062"
+      },
+      {
+        "id": "1459478068900139151",
+        "name": "Staff Voice",
+        "type": 2,
+        "position": 0,
+        "parentId": "1459478068417532062"
+      },
+      {
+        "id": "1459478068417532058",
+        "name": "⚔️︱Duo Bravo",
+        "type": 2,
+        "position": 3,
+        "parentId": "1459478067876593804"
+      },
+      {
+        "id": "1459478067264360554",
+        "name": "🤖︱bot-commands",
+        "type": 0,
+        "position": 2,
+        "parentId": "1459478067264360551"
+      },
+      {
+        "id": "1459478068900139154",
+        "name": "message-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1459478068900139152"
+      },
+      {
+        "id": "1459478068417532057",
+        "name": "⚔️︱Duo Alpha",
+        "type": 2,
+        "position": 2,
+        "parentId": "1459478067876593804"
+      },
+      {
+        "id": "1459512396929568859",
+        "name": "📜︱rules",
+        "type": 0,
+        "position": 1,
+        "parentId": "1459478066869964875"
+      },
+      {
+        "id": "1459945316970401981",
+        "name": "🔊︱music-lounge",
+        "type": 2,
+        "position": 7,
+        "parentId": "1459478067876593804"
+      },
+      {
+        "id": "1459478067876593805",
+        "name": "💬︱voice-text-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1459478067876593804"
+      },
+      {
+        "id": "1459478068417532062",
+        "name": "《🔒》𝓜𝓸𝓭𝓮𝓻𝓪𝓽𝓲𝓸𝓷 《🔒》",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1459478067264360553",
+        "name": "🐸︱memes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1459478067264360551"
+      },
+      {
+        "id": "1459512958492217576",
+        "name": "❓┃faq",
+        "type": 0,
+        "position": 5,
+        "parentId": "1459478066869964875"
+      },
+      {
+        "id": "1459478066869964878",
+        "name": "🎭┃get-your-roles",
+        "type": 0,
+        "position": 3,
+        "parentId": "1459478066869964875"
+      },
+      {
+        "id": "1463430526336634930",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1459478067264360552",
+        "name": "💬︱general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1459478067264360551"
+      },
+      {
+        "id": "1459478066869964877",
+        "name": "📢┃announcements",
+        "type": 0,
+        "position": 2,
+        "parentId": "1459478066869964875"
+      },
+      {
+        "id": "1459478068417532064",
+        "name": "staff-commands",
+        "type": 0,
+        "position": 1,
+        "parentId": "1459478068417532062"
+      },
+      {
+        "id": "1459478067264360551",
+        "name": "《💬》𝓖𝓮𝓷𝓮𝓻𝓪𝓵《💬》",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1459478068417532061",
+        "name": "🔕 AFK 🔕",
+        "type": 2,
+        "position": 8,
+        "parentId": "1459478067876593804"
+      },
+      {
+        "id": "1459478068417532059",
+        "name": "🛡️︱Squad I",
+        "type": 2,
+        "position": 4,
+        "parentId": "1459478067876593804"
+      },
+      {
+        "id": "1459478068900139152",
+        "name": "《📝》𝓛𝓸𝓰𝓼《📝》",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1459478067876593803",
+        "name": "🗑️︱spam",
+        "type": 0,
+        "position": 3,
+        "parentId": "1459478067264360551"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1459527484704821351",
+        "name": "🔫 ┃ FPS",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459517306211274753",
+        "name": "🇦🇺 ┃ Oceania",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459527437682610186",
+        "name": "🖥️ ┃ PC",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066048008265",
+        "name": "Administrator",
+        "color": 12745742,
+        "permissions": "104320841",
+        "position": 49,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1459545728698552361",
+        "name": "Bot Manager",
+        "color": 2041992,
+        "permissions": "1099943691264",
+        "position": 41,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1459893344279986359",
+        "name": "🛠️ Developer",
+        "color": 65475,
+        "permissions": "0",
+        "position": 48,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1459517302511894642",
+        "name": "🇪🇺 ┃ Europe",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066035167388",
+        "name": "Minecraft",
+        "color": 2067276,
+        "permissions": "104189505",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459527556301717587",
+        "name": "⛏️ ┃ Survival",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066035167385",
+        "name": "🔔 ┃ Announcements",
+        "color": 15844367,
+        "permissions": "104189505",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066048008259",
+        "name": "────── Timezone roles ─────",
+        "color": 0,
+        "permissions": "104320577",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1461673883039043716",
+        "name": "Jr Moderator",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066048008263",
+        "name": "─────── Bots ──────",
+        "color": 0,
+        "permissions": "104320577",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459508076288806994",
+        "name": "Members",
+        "color": 12436423,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459506789694308415",
+        "name": "Lead Moderator",
+        "color": 2719929,
+        "permissions": "268436662",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459517338109087745",
+        "name": "🌍 ┃ Africa",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066035167391",
+        "name": "Fortnite",
+        "color": 2123412,
+        "permissions": "104189505",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459527509979693138",
+        "name": "🛡️ ┃ RPG & MOBA",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459527539260264699",
+        "name": "🏎️ ┃ Sports & Racing",
+        "color": 3426654,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066048008258",
+        "name": "CST",
+        "color": 0,
+        "permissions": "104189505",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459527463263666190",
+        "name": "🎮 ┃ Console",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459517304206393529",
+        "name": "🇧🇷 ┃ South America",
+        "color": 16705372,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066048008260",
+        "name": "Gamer",
+        "color": 3066993,
+        "permissions": "104189505",
+        "position": 35,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1460272519045976286",
+        "name": "Security",
+        "color": 2067276,
+        "permissions": "8",
+        "position": 42,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459481699648798862",
+        "name": "Bots",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066068848771",
+        "name": "Server Owner",
+        "color": 16711680,
+        "permissions": "8864258447638527",
+        "position": 50,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1459478066048008261",
+        "name": "Epic Gamer",
+        "color": 11342935,
+        "permissions": "104189505",
+        "position": 36,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1459520969398943959",
+        "name": "Gooner",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 37,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1459527683997438080",
+        "name": "🎮 ┃ Game Updates",
+        "color": 11342935,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066035167392",
+        "name": "────── Game roles ─────",
+        "color": 0,
+        "permissions": "104320577",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459517305410293820",
+        "name": "🌏 ┃ Asia",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066048008257",
+        "name": "EST",
+        "color": 0,
+        "permissions": "104320577",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066035167390",
+        "name": "CSGO",
+        "color": 12745742,
+        "permissions": "104189505",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459527752477704212",
+        "name": "🎁 ┃ Events & Giveaways",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066048008256",
+        "name": "MST",
+        "color": 0,
+        "permissions": "104189505",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066048008264",
+        "name": "Moderator",
+        "color": 2123412,
+        "permissions": "6756500063514565",
+        "position": 46,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1459528866602291230",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066035167389",
+        "name": "Call of Duty",
+        "color": 11027200,
+        "permissions": "104189505",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459507841361776843",
+        "name": "Support",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066035167386",
+        "name": "───── Misc Roles ──────",
+        "color": 0,
+        "permissions": "104320577",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066035167387",
+        "name": "Valorant",
+        "color": 0,
+        "permissions": "104189505",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459517303841493012",
+        "name": "🇺🇸 ┃ North America",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1460278607619428373",
+        "name": "Goodboy",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 38,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1459478066048008262",
+        "name": "──── Member roles ─────",
+        "color": 0,
+        "permissions": "104320577",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845204
+  }
+}

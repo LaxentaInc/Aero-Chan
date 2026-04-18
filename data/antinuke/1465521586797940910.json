@@ -1,0 +1,50 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1465521588177998057",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1465521588177998058",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1465521588177998059",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1465521588177998057"
+      },
+      {
+        "id": "1465521588177998060",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1465521588177998058"
+      },
+      {
+        "id": "1465524148846727261",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1465537161603448961",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845189
+  }
+}

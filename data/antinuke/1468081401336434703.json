@@ -1,0 +1,78 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1468081402183680173",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1468081402183680174",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1468081402183680173"
+      },
+      {
+        "id": "1468081402183680175",
+        "name": "clips-and-highlights",
+        "type": 0,
+        "position": 1,
+        "parentId": "1468081402183680173"
+      },
+      {
+        "id": "1468081402183680176",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1468081402183680177",
+        "name": "Lobby",
+        "type": 2,
+        "position": 0,
+        "parentId": "1468081402183680176"
+      },
+      {
+        "id": "1468081402183680178",
+        "name": "Gaming",
+        "type": 2,
+        "position": 1,
+        "parentId": "1468081402183680176"
+      },
+      {
+        "id": "1468081558480093225",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1468081560279580776",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1468081558480093225"
+      },
+      {
+        "id": "1468081562640842906",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1468081558480093225"
+      },
+      {
+        "id": "1468085924792369153",
+        "name": "command-center",
+        "type": 0,
+        "position": 2,
+        "parentId": "1468081402183680173"
+      }
+    ],
+    "roles": [],
+    "updated": 1776540845140
+  }
+}

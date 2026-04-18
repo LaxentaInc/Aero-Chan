@@ -1,0 +1,141 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1114899958584324108",
+        "name": "START-HERE",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1114900995730833429",
+        "name": "welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1114899958584324108"
+      },
+      {
+        "id": "1114901042363121755",
+        "name": "rules",
+        "type": 0,
+        "position": 1,
+        "parentId": "1114899958584324108"
+      },
+      {
+        "id": "1114901296676339732",
+        "name": "anannouncement",
+        "type": 5,
+        "position": 2,
+        "parentId": "1114899958584324108"
+      },
+      {
+        "id": "1114901666857226271",
+        "name": "COMMUNITY",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1114901847145193563",
+        "name": "general-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1114901666857226271"
+      },
+      {
+        "id": "1114901919522107432",
+        "name": "memes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1114901666857226271"
+      },
+      {
+        "id": "1114902106768416810",
+        "name": "giveaway",
+        "type": 0,
+        "position": 2,
+        "parentId": "1114901666857226271"
+      },
+      {
+        "id": "1114902307356823605",
+        "name": "scam-alert",
+        "type": 0,
+        "position": 3,
+        "parentId": "1114901666857226271"
+      },
+      {
+        "id": "1114902498403155970",
+        "name": "bot-command",
+        "type": 0,
+        "position": 4,
+        "parentId": "1114901666857226271"
+      },
+      {
+        "id": "1114903007675551826",
+        "name": "VOICE CHANNEL",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1114903791926526022",
+        "name": "funny call",
+        "type": 2,
+        "position": 0,
+        "parentId": "1114903007675551826"
+      },
+      {
+        "id": "1114904000408596531",
+        "name": "Music",
+        "type": 2,
+        "position": 1,
+        "parentId": "1114903007675551826"
+      },
+      {
+        "id": "1114904100845404233",
+        "name": "ONLY-Admins",
+        "type": 2,
+        "position": 2,
+        "parentId": "1114903007675551826"
+      },
+      {
+        "id": "1114906984190312449",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1114904620192505856",
+        "name": "Admin",
+        "color": 15844367,
+        "permissions": "71468256312326",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1114905234548981780",
+        "name": "Moderator",
+        "color": 15277667,
+        "permissions": "1099511827478",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1114906165151813642",
+        "name": "Bot",
+        "color": 10181046,
+        "permissions": "8",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1776540845117
+  }
+}
