@@ -110,7 +110,7 @@ async function initializeBot() {
         }
 
         // Initialize anti-raid system early
-        const antiRaid = require('./src/modules/antiraid');
+        const antiRaid = require('./src/modules/anti_raid');
         antiRaid.setClient(client);
         logger.info("Anti-raid system initialized");
 

@@ -4,7 +4,7 @@ Drop this in your src/events/ folder.
 Initializes the anti-raid system when the bot starts.
 */
 
-const antiRaid = require('../modules/antiraid'); // Adjust path as needed
+const antiRaid = require('../modules/anti_raid'); // Adjust path as needed
 const { logger } = require('../utils/logger');
 
 module.exports = {

@@ -1,130 +1,115 @@
-/*
-=== ANTI-RAID MASTER MODULE ===
-Automatically discovers and manages all anti-raid modules.
-Each module handles its own MongoDB config and enable/disable logic.
+import * as fs from 'fs';
+import * as path from 'path';
+import { getCollection } from '@/utils/CloudDB';
+import { Collection } from 'mongodb';
+import { Client, Guild } from 'discord.js';
 
-This file just:
-- Auto-discovers modules in the same folder
-- Initializes them for all guilds
-- Provides a unified interface for status/control
-- Handles the main anti-raid enable/disable toggle
+export interface AntiRaidModule {
+    getStatus?: (guildId: string) => unknown;
+    getConfig?: (guildId: string) => { enabled: boolean; [key: string]: unknown };
+    toggleModule?: (guildId: string, enabled: boolean) => Promise<void> | void;
+    disable?: (guildId: string) => Promise<void> | void;
+    shutdown?: () => Promise<void> | void;
+    handleBotJoin?: (guild: Guild) => void;
+    handleMemberJoin?: (member: unknown) => void;
+    setClient?: (client: Client) => void;
+}
 
-USAGE:
-const AntiRaid = require('./antiraid');
-const antiRaid = new AntiRaid();
+export interface GuildSettingsCache {
+    antiRaidEnabled: boolean;
+    lastUpdated?: Date;
+}
 
-// That's it! It automatically finds and manages all modules ;3
-*/
-
-const fs = require('fs');
-const path = require('path');
-const { getCollection } = require('../utils/CloudDB');
-
+export interface AntiRaidDocument {
+    guildId: string;
+    antiRaidEnabled: boolean;
+    lastUpdated?: Date;
+    guildName?: string;
+    createdAt?: Date;
+}
 
 class AntiRaidManager {
+    public modules = new Map<string, AntiRaidModule>();
+    public guildSettings = new Map<string, GuildSettingsCache>();
+    public collection: Collection<AntiRaidDocument> | null = null;
+    public client: Client | null = null;
+
+    private syncInterval: NodeJS.Timeout | null = null;
+
     constructor() {
-        this.modules = new Map(); // moduleName -> module instance
-        this.guildSettings = new Map(); // guildId -> { antiRaidEnabled: boolean }
-        this.mongoClient = null;
-        this.db = null;
-        this.collection = null;
-
-        // Auto-discover and load modules
         this.discoverModules();
-
-        // Initialize MongoDB for main anti-raid settings
-        this.initMongoDB();
-
-        // Sync main settings every 10 seconds
-        // sync every 60s instead of 10s — reduces db load by ~80%
-        this.syncInterval = setInterval(() => this.syncMainSettings(), 60000);
-
+        void this.initMongoDB();
+        this.syncInterval = setInterval(() => { void this.syncMainSettings(); }, 60000);
         console.log('[AntiRaid] 🚀 Master system initialized');
     }
 
-    /**
-     * Auto-discover all module files in the same directory
-     */
-    discoverModules() {
+    private discoverModules(): void {
         try {
             const currentDir = __dirname;
             const files = fs.readdirSync(currentDir);
 
-            // Look for module files (exclude this file and non-JS files)
             const moduleFiles = files.filter(file =>
-                file.endsWith('.js') &&
-                file !== 'antiraid.js' &&
+                (file.endsWith('.js') || file.endsWith('.ts')) &&
+                file !== 'anti_raid.js' &&
+                file !== 'anti_raid.ts' &&
                 file !== 'analytics.js' &&
+                file !== 'analytics.ts' &&
                 !file.includes('test') &&
                 !file.includes('example')
             );
-            // analytics and antiraids are excluded because they are not anti-raid modules themselves e  
             console.log(`[AntiRaid] 🔍 Discovered potential modules:`, moduleFiles);
 
             for (const file of moduleFiles) {
                 try {
                     const modulePath = path.join(currentDir, file);
-                    const moduleExport = require(modulePath);
+                    // eslint-disable-next-line @typescript-eslint/no-require-imports
+                    const moduleExport = require(modulePath) as unknown;
 
-                    // Check if it's a valid anti-raid module
                     if (this.isValidModule(moduleExport)) {
-                        // Keep original filename (without .js) as module name
-                        const moduleName = file.replace('.js', '');
-                        this.modules.set(moduleName, moduleExport);
+                        const moduleName = file.replace(/\.(js|ts)$/, '');
+                        this.modules.set(moduleName, moduleExport as AntiRaidModule);
                         console.log(`[AntiRaid] ✅ Loaded module: ${moduleName}`);
                     } else {
                         console.log(`[AntiRaid] ⚠️ Skipped ${file} - NOT a valid anti-raid module`);
                     }
                 } catch (error) {
-                    console.error(`[AntiRaid] ❌ Failed to load ${file}:`, error.message);
+                    console.error(`[AntiRaid] ❌ Failed to load ${file}:`, error instanceof Error ? error.message : String(error));
                 }
             }
 
             console.log(`[AntiRaid] 📦 Total modules loaded: ${this.modules.size}`);
 
         } catch (error) {
-            console.error('[AntiRaid] ❌ Module discovery failed:', error.message);
+            console.error('[AntiRaid] ❌ Module discovery failed:', error instanceof Error ? error.message : String(error));
         }
     }
 
-    /**
-     * Check if a module export is a valid anti-raid module
-     */
-    isValidModule(moduleExport) {
-        // Check if it has the expected methods/properties
+    private isValidModule(moduleExport: unknown): boolean {
+        if (!moduleExport || typeof moduleExport !== 'object') {
+            return false;
+        }
+
+        const mod = moduleExport as Record<string, unknown>;
         return (
-            moduleExport &&
-            typeof moduleExport === 'object' &&
-            (
-                typeof moduleExport.getStatus === 'function' ||
-                typeof moduleExport.getConfig === 'function' ||
-                typeof moduleExport.handleBotJoin === 'function' ||
-                typeof moduleExport.handleMemberJoin === 'function'
-            )
+            typeof mod.getStatus === 'function' ||
+            typeof mod.getConfig === 'function' ||
+            typeof mod.handleBotJoin === 'function' ||
+            typeof mod.handleMemberJoin === 'function'
         );
     }
 
-    /**
-     * Initialize MongoDB for main anti-raid settings
-     */
-    async initMongoDB() {
+    public async initMongoDB(): Promise<void> {
         try {
-            this.collection = await getCollection('antiraid_main_settings', 'antiraid');
+            this.collection = await getCollection<AntiRaidDocument>('antiraid_main_settings', 'antiraid');
             console.log('[AntiRaid] ✅ connected to MongoDB (shared pool)');
-
-            // initial sync
             await this.syncMainSettings();
-
         } catch (error) {
-            console.error('[AntiRaid] ❌ MongoDB connection failed:', error.message);
+            console.error('[AntiRaid] ❌ MongoDB connection failed:', error instanceof Error ? error.message : String(error));
         }
     }
 
-    /**
-     * Sync main anti-raid settings from MongoDB
-     */
-    async syncMainSettings() {
-        if (!this.collection) return;
+    public async syncMainSettings(): Promise<void> {
+        if (this.collection === null) return;
 
         try {
             const dbSettings = await this.collection.find({}).toArray();
@@ -133,35 +118,26 @@ class AntiRaidManager {
                 const guildId = setting.guildId;
                 const cachedSetting = this.guildSettings.get(guildId);
 
-                // Check if setting changed
-                if (!cachedSetting || cachedSetting.antiRaidEnabled !== setting.antiRaidEnabled) {
+                if (cachedSetting?.antiRaidEnabled !== setting.antiRaidEnabled) {
                     this.guildSettings.set(guildId, {
                         antiRaidEnabled: setting.antiRaidEnabled,
                         lastUpdated: setting.lastUpdated
                     });
-
-                    // console.log(`[AntiRaid] 🔄 Main settings updated for guild ${guildId}: antiRaidEnabled = ${setting.antiRaidEnabled}`);
                 }
             }
 
         } catch (error) {
-            console.error('[AntiRaid] ❌ Main settings sync failed:', error.message);
+            console.error('[AntiRaid] ❌ Main settings sync failed:', error instanceof Error ? error.message : String(error));
         }
     }
 
-    /**
-     * Check if anti-raid is enabled for a guild
-     */
-    isAntiRaidEnabled(guildId) {
+    public isAntiRaidEnabled(guildId: string): boolean {
         const setting = this.guildSettings.get(guildId);
-        return setting ? setting.antiRaidEnabled : true; // Default to enabled
+        return setting !== undefined ? setting.antiRaidEnabled : true;
     }
 
-    /**
-     * Toggle anti-raid for a guild
-     */
-    async toggleAntiRaid(guildId, enabled) {
-        if (!this.collection) {
+    public async toggleAntiRaid(guildId: string, enabled: boolean): Promise<boolean> {
+        if (this.collection === null) {
             console.error('[AntiRaid] ❌ Cannot toggle - no MongoDB connection');
             return false;
         }
@@ -179,29 +155,23 @@ class AntiRaidManager {
                 { upsert: true }
             );
 
-            // Update cache immediately
             this.guildSettings.set(guildId, {
                 antiRaidEnabled: enabled,
                 lastUpdated: new Date()
             });
 
-            // console.log(`[AntiRaid] ✅ Anti-raid ${enabled ? 'enabled' : 'disabled'} for guild ${guildId}`);
             return true;
 
         } catch (error) {
-            console.error('[AntiRaid] ❌ Failed to toggle anti-raid:', error.message);
+            console.error('[AntiRaid] ❌ Failed to toggle anti-raid:', error instanceof Error ? error.message : String(error));
             return false;
         }
     }
 
-    /**
-     * Get comprehensive status for a guild
-     */
-    getGuildStatus(guildId) {
+    public getGuildStatus(guildId: string): Record<string, unknown> {
         const mainEnabled = this.isAntiRaidEnabled(guildId);
-        const moduleStatuses = {};
+        const moduleStatuses: Record<string, unknown> = {};
 
-        // Get status from each module
         for (const [moduleName, module] of this.modules) {
             try {
                 if (typeof module.getStatus === 'function') {
@@ -216,7 +186,7 @@ class AntiRaidManager {
                     moduleStatuses[moduleName] = { enabled: 'unknown', error: 'No status method' };
                 }
             } catch (error) {
-                moduleStatuses[moduleName] = { enabled: 'error', error: error.message };
+                moduleStatuses[moduleName] = { enabled: 'error', error: error instanceof Error ? error.message : String(error) };
             }
         }
 
@@ -228,27 +198,20 @@ class AntiRaidManager {
         };
     }
 
-    /**
-     * Get list of all loaded modules
-     */
-    getLoadedModules() {
+    public getLoadedModules(): string[] {
         return Array.from(this.modules.keys());
     }
 
-    /**
-     * Initialize default settings for a new guild
-     */
-    async initializeGuild(guildId, guildName) {
+    public async initializeGuild(guildId: string, guildName: string): Promise<void> {
         try {
-            // Create default main setting
-            if (this.collection) {
+            if (this.collection !== null) {
                 await this.collection.updateOne(
                     { guildId },
                     {
                         $set: {
                             guildId,
                             guildName,
-                            antiRaidEnabled: true, //IMPORTANT DEFAULT ENABLED- WHIC ENABLED ALL MODULES
+                            antiRaidEnabled: true,
                             createdAt: new Date(),
                             lastUpdated: new Date()
                         }
@@ -256,79 +219,60 @@ class AntiRaidManager {
                     { upsert: true }
                 );
             }
-
-            // Each module will create its own default config when it detects a new guild
-            // console.log(`[AntiRaid] ✅ Initialized settings for new guild: ${guildName} (${guildId})`);
-
         } catch (error) {
-            console.error('[AntiRaid] ❌ Failed to initialize guild:', error.message);
+            console.error('[AntiRaid] ❌ Failed to initialize guild:', error instanceof Error ? error.message : String(error));
         }
     }
 
-    /**
-     * Handle new guild join
-     */
-    async handleGuildJoin(guild) {
+    public async handleGuildJoin(guild: Guild): Promise<void> {
         await this.initializeGuild(guild.id, guild.name);
         console.log(`[AntiRaid] 🏠 Bot joined new guild: ${guild.name} (${guild.id})`);
     }
 
-    /**
-     * Handle guild leave
-     */
-    async handleGuildLeave(guild) {
-        // Clean up cached settings
+    public async handleGuildLeave(guild: Guild): Promise<void> {
         this.guildSettings.delete(guild.id);
 
-        // Each module should handle its own cleanup
         for (const [moduleName, module] of this.modules) {
             try {
                 if (typeof module.disable === 'function') {
-                    await module.disable(guild.id);
+                    const result = module.disable(guild.id);
+                    if (result instanceof Promise) {
+                        await result;
+                    }
                 }
             } catch (error) {
-                console.error(`[AntiRaid] ❌ Error disabling ${moduleName} for guild ${guild.id}:`, error.message);
+                console.error(`[AntiRaid] ❌ Error disabling ${moduleName} for guild ${guild.id}:`, error instanceof Error ? error.message : String(error));
             }
         }
 
         console.log(`[AntiRaid] 👋 Cleaned up settings for left guild: ${guild.name} (${guild.id})`);
     }
 
-
-
-    // here
-    /**
-    * Check if a module should process events for a guild
-    */
-    shouldModuleProcess(guildId, moduleName) {
+    public shouldModuleProcess(guildId: string, moduleName: string): boolean {
         const globalEnabled = this.isAntiRaidEnabled(guildId);
 
         if (!globalEnabled) {
-            return false; // Global anti-raid is off - STOP ALL MODULES
+            return false;
         }
 
-        // Global is on, check if module is individually enabled
         const module = this.modules.get(moduleName);
-        if (!module) return false;
+        if (module === undefined) return false;
 
         try {
             if (typeof module.getConfig === 'function') {
                 const config = module.getConfig(guildId);
-                return config.enabled; // Return module's individual toggle
+                return config.enabled;
             }
-            return true; // If module has no config, assume enabled
+            return true;
         } catch (error) {
-            console.error(`[AntiRaid] ❌ Error checking module ${moduleName} status:`, error.message);
+            console.error(`[AntiRaid] ❌ Error checking module ${moduleName} status:`, error instanceof Error ? error.message : String(error));
             return false;
         }
     }
 
-    /**
-     * Get filtered module status (respecting global toggle)
-     */
-    getFilteredGuildStatus(guildId) {
+    public getFilteredGuildStatus(guildId: string): Record<string, unknown> {
         const globalEnabled = this.isAntiRaidEnabled(guildId);
-        const moduleStatuses = {};
+        const moduleStatuses: Record<string, unknown> = {};
 
         for (const [moduleName, module] of this.modules) {
             const shouldProcess = this.shouldModuleProcess(guildId, moduleName);
@@ -337,8 +281,8 @@ class AntiRaidManager {
                 if (typeof module.getStatus === 'function') {
                     const status = module.getStatus(guildId);
                     moduleStatuses[moduleName] = {
-                        ...status,
-                        shouldProcess, // This is the key field!
+                        ...(typeof status === 'object' && status !== null ? status : { status }),
+                        shouldProcess,
                         effectivelyEnabled: shouldProcess
                     };
                 } else {
@@ -352,7 +296,7 @@ class AntiRaidManager {
                 moduleStatuses[moduleName] = {
                     shouldProcess: false,
                     effectivelyEnabled: false,
-                    error: error.message
+                    error: error instanceof Error ? error.message : String(error)
                 };
             }
         }
@@ -364,34 +308,33 @@ class AntiRaidManager {
             isConnectedToMongoDB: this.collection !== null
         };
     }
-    /**
-     * Emergency disable all modules for a guild
-     */
-    async emergencyDisable(guildId) {
+
+    public async emergencyDisable(guildId: string): Promise<void> {
         console.log(`[AntiRaid] 🚨 EMERGENCY DISABLE for guild ${guildId}`);
 
-        // Disable main anti-raid
         await this.toggleAntiRaid(guildId, false);
 
-        // Try to disable all modules
         for (const [moduleName, module] of this.modules) {
             try {
                 if (typeof module.toggleModule === 'function') {
-                    await module.toggleModule(guildId, false);
+                    const result = module.toggleModule(guildId, false);
+                    if (result instanceof Promise) {
+                        await result;
+                    }
                 } else if (typeof module.disable === 'function') {
-                    await module.disable(guildId);
+                    const result = module.disable(guildId);
+                    if (result instanceof Promise) {
+                        await result;
+                    }
                 }
                 console.log(`[AntiRaid] ✅ Emergency disabled ${moduleName}`);
             } catch (error) {
-                console.error(`[AntiRaid] ❌ Failed to emergency disable ${moduleName}:`, error.message);
+                console.error(`[AntiRaid] ❌ Failed to emergency disable ${moduleName}:`, error instanceof Error ? error.message : String(error));
             }
         }
     }
 
-    /**
-     * Get system-wide statistics
-     */
-    getSystemStats() {
+    public getSystemStats(): Record<string, unknown> {
         const totalGuilds = this.guildSettings.size;
         const enabledGuilds = Array.from(this.guildSettings.values()).filter(s => s.antiRaidEnabled).length;
 
@@ -405,20 +348,10 @@ class AntiRaidManager {
         };
     }
 
-    /**
-     * Set Discord client reference for all modules
-     * Call this in your main bot's ready event
-     */
-    setClient(client) {
-        if (!client) {
-            console.error('[AntiRaid] ❌ Attempted to set null/undefined client');
-            return;
-        }
-
+    public setClient(client: Client): void {
         this.client = client;
         console.log('[AntiRaid] 🔗 Discord client reference set');
 
-        // Pass client to all loaded modules
         let successCount = 0;
         for (const [moduleName, module] of this.modules) {
             try {
@@ -430,54 +363,43 @@ class AntiRaidManager {
                     console.log(`[AntiRaid] ⚠️ Module ${moduleName} has no setClient method`);
                 }
             } catch (error) {
-                console.error(`[AntiRaid] ❌ Failed to set client for ${moduleName}:`, error.message);
+                console.error(`[AntiRaid] ❌ Failed to set client for ${moduleName}:`, error instanceof Error ? error.message : String(error));
             }
         }
 
         console.log(`[AntiRaid] 🤖 Discord client set for ${successCount}/${this.modules.size} modules`);
 
-        // Verify client is properly set
-        if (this.client && this.client.user) {
+        if (this.client !== null && this.client.user !== null) {
             console.log(`[AntiRaid] ✅ Client verification successful - Bot: ${this.client.user.tag}`);
         } else {
             console.warn('[AntiRaid] ⚠️ Client set but verification failed - some features may not work');
         }
     }
 
-    /**
-     * shutdown
-     */
-    async shutdown() {
+    public async shutdown(): Promise<void> {
         console.log('[AntiRaid] killing :< master system...');
 
-        if (this.syncInterval) {
+        if (this.syncInterval !== null) {
             clearInterval(this.syncInterval);
+            this.syncInterval = null;
         }
 
         for (const [moduleName, module] of this.modules) {
             try {
                 if (typeof module.shutdown === 'function') {
-                    await module.shutdown();
+                    const result = module.shutdown();
+                    if (result instanceof Promise) {
+                        await result;
+                    }
                     console.log(`[AntiRaid] shutdown ${moduleName}`);
                 }
             } catch (error) {
-                console.error(`[AntiRaid] Error shutting down ${moduleName}:`, error.message);
+                console.error(`[AntiRaid] Error shutting down ${moduleName}:`, error instanceof Error ? error.message : String(error));
             }
         }
-
 
         console.log('[AntiRaid] Master system shutdown complete');
     }
 }
 
-// Export singleton instance
-module.exports = new AntiRaidManager();
-
-// // ANY MODULES OF ANTIRAID SHALL FOLLOW THIS STRICTLY etc:
-// class YourModule {
-//     getStatus(guildId) { /* return status */ }
-//     getConfig(guildId) { /* return config */ }
-//     toggleModule(guildId, enabled) { /* enable/disable */ }
-//     shutdown() { /* cleanup */ }
-// }
-// THEY NEED TO FLLOW THIS STRUCTURE TO BE AUTO-LOADED BY ANTIRAID.JS AND CONDISERED AS A ANTI RAID MODULE OR THEY ARE INVALID
+export default new AntiRaidManager();

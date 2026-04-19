@@ -5,7 +5,7 @@ Individual module configs are handled via frontend.
 */
 
 const { SlashCommandBuilder, EmbedBuilder, PermissionFlagsBits } = require('discord.js');
-const antiRaid = require('../../../modules/antiraid'); // Adjust path as needed
+const antiRaid = require('../../../modules/anti_raid'); // Adjust path as needed
 
 module.exports = {
     data: new SlashCommandBuilder()
