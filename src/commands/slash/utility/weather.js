@@ -4,8 +4,7 @@ const { v4: uuidv4 } = require('uuid');
 const { registerButton } = require('../../../handlers/buttonHandler.js');
 const { logger } = require('../../../utils/logger');
 
-// Config - in production move to .env
-const API_KEY = 'fa6690aadde3440d922141501250203';
+const API_KEY = process.env.WEATHER_API_KEY;
 
 // Weather icon SVG mappings
 const weatherIcons = {
