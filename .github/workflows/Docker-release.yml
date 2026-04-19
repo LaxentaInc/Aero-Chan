@@ -1,0 +1,35 @@
+name: Docker Release Aero-Chan
+
+on:
+  push:
+    tags:
+      - 'v*' # Se déclenche uniquement quand tu pousses un tag commençant par 'v'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Extract version
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+
+      - name: Build and Save Docker image
+        run: |
+          VERSION=${{ steps.get_version.outputs.VERSION }}
+          IMAGE_NAME="aero-chan"
+          
+          docker build -t $IMAGE_NAME:$VERSION .
+          docker save $IMAGE_NAME:$VERSION > aero-chan.tar
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.get_version.outputs.VERSION }}
+          name: "Aero-Chan Release ${{ steps.get_version.outputs.VERSION }}"
+          files: aero-chan.tar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

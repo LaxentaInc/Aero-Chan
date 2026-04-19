@@ -53,7 +53,7 @@ class AntiRaidManager {
             // Look for module files (exclude this file and non-JS files)
             const moduleFiles = files.filter(file =>
                 file.endsWith('.js') &&
-                file !== 'antiraid.js' &&
+                file !== 'anti_raid.js' &&
                 file !== 'analytics.js' &&
                 !file.includes('test') &&
                 !file.includes('example')

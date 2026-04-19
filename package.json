@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "update": "pnpm update --save"
+    "update": "pnpm update --save",
+    "lint": "pnpm exec eslint .",
+    "lint:fix": "pnpm exec eslint . --fix",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "@me_straight",
@@ -15,6 +18,7 @@
     "@discordjs/rest": "^2.5.1",
     "@discordjs/voice": "^0.18.0",
     "@napi-rs/canvas": "^0.1.80",
+    "@types/node": "^25.6.0",
     "anime-character-random": "^1.0.14",
     "archiver": "^7.0.1",
     "axios": "^1.11.0",
@@ -45,5 +49,11 @@
     "translate-google-api": "^1.0.4",
     "undici": "^6.21.3",
     "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.58.2"
   }
 }
