@@ -156,8 +156,8 @@ function createWaifuEmbed(waifuData, cost, userId) {
     const remainingRolls = getRemainingRolls(userId);
 
     let embed = new EmbedBuilder()
-      .setImage(waifuData.image)
-      .setFooter({ text: `${remainingRolls} rolls remaining!` });
+      .setImage(waifuData.image).setFooter({ text: `${remainingRolls} remaining` });
+
 
     if (waifuData.isRare) {
       // Rare waifu from image APIs
