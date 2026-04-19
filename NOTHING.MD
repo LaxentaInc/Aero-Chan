@@ -70,4 +70,4 @@ For people who want to support Or request something specific Or want higher cust
 3. Relax or bonk people
 *Our AntiRaid modules are automatic and are already well configured, unless you want to change anything, we allow it  all at https://laxenta.tech/dashboard*
 - Built with ❤️ by Laxenta Inc.
-Havee funnnn, make sure to use /bonk on someone lmao
+Havee funnnnn, make sure to use /bonk on someone lmao
