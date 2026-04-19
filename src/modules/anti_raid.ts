@@ -40,7 +40,7 @@ class AntiRaidManager {
         this.discoverModules();
         void this.initMongoDB();
         this.syncInterval = setInterval(() => { void this.syncMainSettings(); }, 60000);
-        console.log('[AntiRaid] 🚀 Master system initialized');
+        console.log('[AntiRaid] Master system initialized');
     }
 
     private discoverModules(): void {
@@ -57,7 +57,7 @@ class AntiRaidManager {
                 !file.includes('test') &&
                 !file.includes('example')
             );
-            console.log(`[AntiRaid] 🔍 Discovered potential modules:`, moduleFiles);
+            console.log(`[AntiRaid] Discovered potential modules:`, moduleFiles);
 
             for (const file of moduleFiles) {
                 try {
@@ -68,24 +68,24 @@ class AntiRaidManager {
                     if (this.isValidModule(moduleExport)) {
                         const moduleName = file.replace(/\.(js|ts)$/, '');
                         this.modules.set(moduleName, moduleExport as AntiRaidModule);
-                        console.log(`[AntiRaid] ✅ Loaded module: ${moduleName}`);
+                        console.log(`[AntiRaid] Loaded module: ${moduleName}`);
                     } else {
-                        console.log(`[AntiRaid] ⚠️ Skipped ${file} - NOT a valid anti-raid module`);
+                        console.log(`[AntiRaid] Skipped ${file} - NOT a valid anti-raid module`);
                     }
                 } catch (error) {
-                    console.error(`[AntiRaid] ❌ Failed to load ${file}:`, error instanceof Error ? error.message : String(error));
+                    console.error(`[AntiRaid] Failed to load ${file}:`, error instanceof Error ? error.message : String(error));
                 }
             }
 
-            console.log(`[AntiRaid] 📦 Total modules loaded: ${this.modules.size}`);
+            console.log(`[AntiRaid] Total modules loaded: ${String(this.modules.size)}`);
 
         } catch (error) {
-            console.error('[AntiRaid] ❌ Module discovery failed:', error instanceof Error ? error.message : String(error));
+            console.error('[AntiRaid] Module discovery failed:', error instanceof Error ? error.message : String(error));
         }
     }
 
     private isValidModule(moduleExport: unknown): boolean {
-        if (!moduleExport || typeof moduleExport !== 'object') {
+        if (moduleExport === null || moduleExport === undefined || typeof moduleExport !== 'object') {
             return false;
         }
 
@@ -101,10 +101,10 @@ class AntiRaidManager {
     public async initMongoDB(): Promise<void> {
         try {
             this.collection = await getCollection<AntiRaidDocument>('antiraid_main_settings', 'antiraid');
-            console.log('[AntiRaid] ✅ connected to MongoDB (shared pool)');
+            console.log('[AntiRaid] connected to MongoDB (shared pool)');
             await this.syncMainSettings();
         } catch (error) {
-            console.error('[AntiRaid] ❌ MongoDB connection failed:', error instanceof Error ? error.message : String(error));
+            console.error('[AntiRaid] MongoDB connection failed:', error instanceof Error ? error.message : String(error));
         }
     }
 
@@ -127,7 +127,7 @@ class AntiRaidManager {
             }
 
         } catch (error) {
-            console.error('[AntiRaid] ❌ Main settings sync failed:', error instanceof Error ? error.message : String(error));
+            console.error('[AntiRaid] Main settings sync failed:', error instanceof Error ? error.message : String(error));
         }
     }
 
@@ -138,7 +138,7 @@ class AntiRaidManager {
 
     public async toggleAntiRaid(guildId: string, enabled: boolean): Promise<boolean> {
         if (this.collection === null) {
-            console.error('[AntiRaid] ❌ Cannot toggle - no MongoDB connection');
+            console.error('[AntiRaid] Cannot toggle - no MongoDB connection');
             return false;
         }
 
@@ -163,7 +163,7 @@ class AntiRaidManager {
             return true;
 
         } catch (error) {
-            console.error('[AntiRaid] ❌ Failed to toggle anti-raid:', error instanceof Error ? error.message : String(error));
+            console.error('[AntiRaid] Failed to toggle anti-raid:', error instanceof Error ? error.message : String(error));
             return false;
         }
     }
@@ -220,13 +220,13 @@ class AntiRaidManager {
                 );
             }
         } catch (error) {
-            console.error('[AntiRaid] ❌ Failed to initialize guild:', error instanceof Error ? error.message : String(error));
+            console.error('[AntiRaid] Failed to initialize guild:', error instanceof Error ? error.message : String(error));
         }
     }
 
     public async handleGuildJoin(guild: Guild): Promise<void> {
         await this.initializeGuild(guild.id, guild.name);
-        console.log(`[AntiRaid] 🏠 Bot joined new guild: ${guild.name} (${guild.id})`);
+        console.log(`[AntiRaid] Bot joined new guild: ${guild.name} (${guild.id})`);
     }
 
     public async handleGuildLeave(guild: Guild): Promise<void> {
@@ -241,11 +241,11 @@ class AntiRaidManager {
                     }
                 }
             } catch (error) {
-                console.error(`[AntiRaid] ❌ Error disabling ${moduleName} for guild ${guild.id}:`, error instanceof Error ? error.message : String(error));
+                console.error(`[AntiRaid] Error disabling ${moduleName} for guild ${guild.id}:`, error instanceof Error ? error.message : String(error));
             }
         }
 
-        console.log(`[AntiRaid] 👋 Cleaned up settings for left guild: ${guild.name} (${guild.id})`);
+        console.log(`[AntiRaid] Cleaned up settings for left guild: ${guild.name} (${guild.id})`);
     }
 
     public shouldModuleProcess(guildId: string, moduleName: string): boolean {
@@ -265,7 +265,7 @@ class AntiRaidManager {
             }
             return true;
         } catch (error) {
-            console.error(`[AntiRaid] ❌ Error checking module ${moduleName} status:`, error instanceof Error ? error.message : String(error));
+            console.error(`[AntiRaid] Error checking module ${moduleName} status:`, error instanceof Error ? error.message : String(error));
             return false;
         }
     }
@@ -310,7 +310,7 @@ class AntiRaidManager {
     }
 
     public async emergencyDisable(guildId: string): Promise<void> {
-        console.log(`[AntiRaid] 🚨 EMERGENCY DISABLE for guild ${guildId}`);
+        console.log(`[AntiRaid] EMERGENCY DISABLE for guild ${guildId}`);
 
         await this.toggleAntiRaid(guildId, false);
 
@@ -327,9 +327,9 @@ class AntiRaidManager {
                         await result;
                     }
                 }
-                console.log(`[AntiRaid] ✅ Emergency disabled ${moduleName}`);
+                console.log(`[AntiRaid] Emergency disabled ${moduleName}`);
             } catch (error) {
-                console.error(`[AntiRaid] ❌ Failed to emergency disable ${moduleName}:`, error instanceof Error ? error.message : String(error));
+                console.error(`[AntiRaid] Failed to emergency disable ${moduleName}:`, error instanceof Error ? error.message : String(error));
             }
         }
     }
@@ -350,29 +350,30 @@ class AntiRaidManager {
 
     public setClient(client: Client): void {
         this.client = client;
-        console.log('[AntiRaid] 🔗 Discord client reference set');
+        console.log('[AntiRaid] Discord client reference set');
 
         let successCount = 0;
         for (const [moduleName, module] of this.modules) {
             try {
                 if (typeof module.setClient === 'function') {
                     module.setClient(client);
-                    console.log(`[AntiRaid] ✅ Client set for ${moduleName}`);
+                    console.log(`[AntiRaid] Client set for ${moduleName}`);
                     successCount++;
                 } else {
-                    console.log(`[AntiRaid] ⚠️ Module ${moduleName} has no setClient method`);
+                    console.log(`[AntiRaid] Module ${moduleName} has no setClient method`);
                 }
             } catch (error) {
-                console.error(`[AntiRaid] ❌ Failed to set client for ${moduleName}:`, error instanceof Error ? error.message : String(error));
+                console.error(`[AntiRaid] Failed to set client for ${moduleName}:`, error instanceof Error ? error.message : String(error));
             }
         }
 
-        console.log(`[AntiRaid] 🤖 Discord client set for ${successCount}/${this.modules.size} modules`);
+        console.log(`[AntiRaid] Discord client set for ${String(successCount)}/${String(this.modules.size)} modules`);
 
-        if (this.client !== null && this.client.user !== null) {
-            console.log(`[AntiRaid] ✅ Client verification successful - Bot: ${this.client.user.tag}`);
+        // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+        if (this.client?.user) {
+            console.log(`[AntiRaid] Client verification successful - Bot: ${this.client?.user?.tag ?? 'Unknown'}`);
         } else {
-            console.warn('[AntiRaid] ⚠️ Client set but verification failed - some features may not work');
+            console.warn('[AntiRaid] Client set but verification failed - some features may not work');
         }
     }
 
