@@ -16,13 +16,6 @@
         "parentId": null
       },
       {
-        "id": "1472439735678009390",
-        "name": "geral",
-        "type": 0,
-        "position": 0,
-        "parentId": "1472439735678009388"
-      },
-      {
         "id": "1472439735678009391",
         "name": "Geral",
         "type": 2,
@@ -49,6 +42,13 @@
         "type": 0,
         "position": 1,
         "parentId": "1485125210297470986"
+      },
+      {
+        "id": "1495287701119959130",
+        "name": "bots",
+        "type": 0,
+        "position": 0,
+        "parentId": null
       }
     ],
     "roles": [
@@ -57,11 +57,11 @@
         "name": "⌒⡷ .🍨⊰ 𝓐urudos da osako  ⊹``﹒๑",
         "color": 16232367,
         "permissions": "0",
-        "position": 1,
+        "position": 5,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1776540845089
+    "updated": 1777123628756
   }
 }

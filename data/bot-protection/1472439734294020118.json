@@ -1,0 +1,47 @@
+{
+  "buttons": {
+    "restore_perms_716390085896962058": {
+      "type": "restore_perms",
+      "targetId": "716390085896962058",
+      "memberId": "716390085896962058",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Pokétwo",
+            "id": "1496376501455552677",
+            "permissions": [
+              "Administrator",
+              "AddReactions",
+              "SendMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "UseExternalEmojis"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1472439734294020118",
+      "relatedMessages": [
+        {
+          "channelId": "1485127806508732446",
+          "messageId": "1496376511203246183"
+        },
+        {
+          "channelId": "1485125216018632864",
+          "messageId": "1496376514630123541"
+        }
+      ],
+      "expiresAt": 1776920762799,
+      "createdAt": 1776834362799,
+      "module": "bot-protection"
+    }
+  }
+}

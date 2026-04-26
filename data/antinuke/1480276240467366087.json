@@ -189,12 +189,6 @@
         "type": 0,
         "position": 11,
         "parentId": "1480276241041854679"
-      },
-      {
-        "id": "1486527546232275044",
-        "name": "Diggy",
-        "type": 12,
-        "parentId": "1480283376383561870"
       }
     ],
     "roles": [
@@ -203,7 +197,7 @@
         "name": "top 1 femboy",
         "color": 14652369,
         "permissions": "8864258447638527",
-        "position": 11,
+        "position": 12,
         "hoist": false,
         "mentionable": false
       },
@@ -212,7 +206,7 @@
         "name": "Unverified",
         "color": 0,
         "permissions": "0",
-        "position": 8,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -221,7 +215,7 @@
         "name": "Lemme crack",
         "color": 197379,
         "permissions": "8864258447638527",
-        "position": 5,
+        "position": 6,
         "hoist": false,
         "mentionable": false
       },
@@ -230,11 +224,20 @@
         "name": "Yuri's trusted friends",
         "color": 8406617,
         "permissions": "1211012849438279",
-        "position": 4,
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1497374284828512397",
+        "name": "chud",
+        "color": 0,
+        "permissions": "0",
+        "position": 1,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1776540845193
+    "updated": 1777123628823
   }
 }

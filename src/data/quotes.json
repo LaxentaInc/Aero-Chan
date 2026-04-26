@@ -1,11 +1,20 @@
 {
-  "1495053795758047263": {
+  "1496532567921397901": {
     "userId": "1246380709124378674",
-    "channelId": "1466443288453320936",
+    "channelId": "1477722250026160248",
     "guildId": null,
-    "originalMessageUrl": "https://discord.com/channels/@me/1466443288453320936/1495039472897888408",
-    "originalAuthor": "1437533565402218598",
-    "createdAt": 1776519004581,
-    "expiresAt": 1776778204581
+    "originalMessageUrl": "https://discord.com/channels/@me/1477722250026160248/1496532240488726728",
+    "originalAuthor": "699121158834094161",
+    "createdAt": 1776871571292,
+    "expiresAt": 1777130771292
+  },
+  "1497467968521764936": {
+    "userId": "877458356753797182",
+    "channelId": "1424186924213604404",
+    "guildId": "1414235990071181373",
+    "originalMessageUrl": "https://discord.com/channels/@me/1424186924213604404/1497467939085877361",
+    "originalAuthor": "1203036806510149702",
+    "createdAt": 1777094588494,
+    "expiresAt": 1777353788494
   }
 }

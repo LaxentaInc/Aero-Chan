@@ -197,12 +197,6 @@
         "parentId": "1437548291549298879"
       },
       {
-        "id": "1485136052888014918",
-        "name": "Confession Replies (#287)",
-        "type": 11,
-        "parentId": "1474231628346691835"
-      },
-      {
         "id": "1490907672919146659",
         "name": "Confession Replies (#302)",
         "type": 11,
@@ -211,6 +205,12 @@
       {
         "id": "1493783719654199349",
         "name": "Confession Replies (#307)",
+        "type": 11,
+        "parentId": "1474231628346691835"
+      },
+      {
+        "id": "1497471677703913552",
+        "name": "Confession Replies (#319)",
         "type": 11,
         "parentId": "1474231628346691835"
       }
@@ -334,6 +334,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1776540845182
+    "updated": 1777123628815
   }
 }

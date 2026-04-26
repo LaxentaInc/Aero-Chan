@@ -1,0 +1,79 @@
+{
+  "roleNeutralizations": {
+    "1497325621150486758": {
+      "originalPerms": "6546640457",
+      "removedPerms": [
+        "8",
+        "32",
+        "268435456",
+        "16",
+        "4",
+        "2",
+        "536870912",
+        "1073741824"
+      ],
+      "roleName": "Developers",
+      "timestamp": 1777060647472
+    },
+    "1497325622412968176": {
+      "originalPerms": "6546640457",
+      "removedPerms": [
+        "8",
+        "32",
+        "268435456",
+        "16",
+        "4",
+        "2",
+        "536870912",
+        "1073741824"
+      ],
+      "roleName": "Administrators",
+      "timestamp": 1777060648349
+    },
+    "1497325633427210460": {
+      "originalPerms": "6546640457",
+      "removedPerms": [
+        "8",
+        "32",
+        "268435456",
+        "16",
+        "4",
+        "2",
+        "536870912",
+        "1073741824"
+      ],
+      "roleName": "Bots",
+      "timestamp": 1777060650573
+    }
+  },
+  "buttons": {
+    "apa_whitelist_416358583220043796": {
+      "type": "whitelist",
+      "userId": "416358583220043796",
+      "roleId": null,
+      "guildId": "1456946357125386418",
+      "ownerId": "993196090654457898",
+      "createdAt": 1777060650261,
+      "expiresAt": 1777147050261
+    },
+    "apa_restore_user_416358583220043796": {
+      "type": "restore_user",
+      "userId": "416358583220043796",
+      "roleId": null,
+      "guildId": "1456946357125386418",
+      "ownerId": "993196090654457898",
+      "createdAt": 1777060650261,
+      "expiresAt": 1777147050261
+    },
+    "apa_restore_role_1497325621150486758": {
+      "type": "restore_role",
+      "userId": null,
+      "roleId": "1497325621150486758",
+      "guildId": "1456946357125386418",
+      "ownerId": "993196090654457898",
+      "createdAt": 1777060650261,
+      "expiresAt": 1777147050261
+    }
+  },
+  "buttonsUpdated": 1777060650262
+}

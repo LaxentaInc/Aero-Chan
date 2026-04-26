@@ -1,0 +1,42 @@
+{
+  "buttons": {
+    "restore_perms_468281173072805889": {
+      "type": "restore_perms",
+      "targetId": "468281173072805889",
+      "memberId": "468281173072805889",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "MarriageBot",
+            "id": "1497479464802717769",
+            "permissions": [
+              "SendMessages",
+              "EmbedLinks",
+              "AttachFiles"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1472731444404158621",
+      "relatedMessages": [
+        {
+          "channelId": "1497479473182801960",
+          "messageId": "1497479477159264307"
+        },
+        {
+          "channelId": "1494883945311899709",
+          "messageId": "1497479479713464351"
+        }
+      ],
+      "expiresAt": 1777183730095,
+      "createdAt": 1777097330095,
+      "module": "bot-protection"
+    }
+  }
+}

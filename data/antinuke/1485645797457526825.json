@@ -154,12 +154,6 @@
         "type": 0,
         "position": 2,
         "parentId": null
-      },
-      {
-        "id": "1486333728694206464",
-        "name": "Hlw",
-        "type": 11,
-        "parentId": "1485693967432421497"
       }
     ],
     "roles": [
@@ -191,6 +185,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1776540845212
+    "updated": 1777123628836
   }
 }

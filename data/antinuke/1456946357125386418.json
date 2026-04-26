@@ -2,276 +2,377 @@
   "backup": {
     "channels": [
       {
-        "id": "1456985673738228015",
-        "name": "rules",
+        "id": "1497328585839607931",
+        "name": "📚・suggestions",
         "type": 0,
+        "position": 2,
+        "parentId": "1497328559000256674"
+      },
+      {
+        "id": "1497328560178729098",
+        "name": "🔊 | ====== Voice ====== | 🔊",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1497328574477238335",
+        "name": "🔗・github-feeds",
+        "type": 5,
+        "position": 4,
+        "parentId": "1497328557704089770"
+      },
+      {
+        "id": "1497328583134281798",
+        "name": "🎫・support",
+        "type": 0,
+        "position": 1,
+        "parentId": "1497328559000256674"
+      },
+      {
+        "id": "1497328612657860668",
+        "name": "📛・bot-errors",
+        "type": 0,
+        "position": 2,
+        "parentId": "1497328562062102668"
+      },
+      {
+        "id": "1497328581993566369",
+        "name": "🔐・Private",
+        "type": 2,
+        "position": 2,
+        "parentId": "1497328560178729098"
+      },
+      {
+        "id": "1497328614210015274",
+        "name": "👥・invites",
+        "type": 0,
+        "position": 8,
+        "parentId": "1497328561063723192"
+      },
+      {
+        "id": "1497328557704089770",
+        "name": "💳 | ==== Important ==== | 💳",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1497328559000256674",
+        "name": "🎯 | ====== Main ====== | 🎯",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1497328562062102668",
+        "name": "🔧 | ==== Bot Logs ==== | 🔧",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1497328606605475980",
+        "name": "📛・moderation-logs",
+        "type": 0,
+        "position": 6,
+        "parentId": "1497328561063723192"
+      },
+      {
+        "id": "1497328600171544686",
+        "name": "🎓・staff-chat",
+        "type": 0,
+        "position": 2,
+        "parentId": "1497328561063723192"
+      },
+      {
+        "id": "1497328610879602688",
+        "name": "📤・guild-leave",
+        "type": 0,
+        "position": 1,
+        "parentId": "1497328562062102668"
+      },
+      {
+        "id": "1497328602977669183",
+        "name": "📧・community-news",
+        "type": 0,
+        "position": 4,
+        "parentId": "1497328561063723192"
+      },
+      {
+        "id": "1497328601547276459",
+        "name": "🔐・staff-commands",
+        "type": 0,
+        "position": 3,
+        "parentId": "1497328561063723192"
+      },
+      {
+        "id": "1497332469538492617",
+        "name": "🥶-tuff-spawn",
+        "type": 0,
+        "position": 5,
+        "parentId": "1497328559000256674"
+      },
+      {
+        "id": "1497328597428604938",
+        "name": "🤖・commands",
+        "type": 0,
+        "position": 4,
+        "parentId": "1497328559000256674"
+      },
+      {
+        "id": "1497328561063723192",
+        "name": "🎯 | ====== Staff ====== | 🎯",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1497328556751982762",
+        "name": "DELETE THIS",
+        "type": 4,
         "position": 0,
         "parentId": null
+      },
+      {
+        "id": "1497328598418198760",
+        "name": "📪・staff-news",
+        "type": 0,
+        "position": 1,
+        "parentId": "1497328561063723192"
+      },
+      {
+        "id": "1497328580412313702",
+        "name": "💬・general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1497328559000256674"
+      },
+      {
+        "id": "1497328571843346483",
+        "name": "📜・changelog",
+        "type": 5,
+        "position": 2,
+        "parentId": "1497328557704089770"
+      },
+      {
+        "id": "1497328595948011602",
+        "name": "📁・bug-reports",
+        "type": 0,
+        "position": 3,
+        "parentId": "1497328559000256674"
+      },
+      {
+        "id": "1497328584199504075",
+        "name": "💤・AFK",
+        "type": 2,
+        "position": 3,
+        "parentId": "1497328560178729098"
+      },
+      {
+        "id": "1460686139668041883",
+        "name": "📜│tuff-rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1497328557704089770"
+      },
+      {
+        "id": "1497328578684125479",
+        "name": "🎵・Music",
+        "type": 2,
+        "position": 1,
+        "parentId": "1497328560178729098"
+      },
+      {
+        "id": "1497328573219078184",
+        "name": "📡・bot-status",
+        "type": 0,
+        "position": 3,
+        "parentId": "1497328557704089770"
+      },
+      {
+        "id": "1497328577107066972",
+        "name": "👋・joins-leaves",
+        "type": 0,
+        "position": 5,
+        "parentId": "1497328557704089770"
+      },
+      {
+        "id": "1497328604571242546",
+        "name": "📥・discord-updates",
+        "type": 0,
+        "position": 5,
+        "parentId": "1497328561063723192"
+      },
+      {
+        "id": "1497328567250587698",
+        "name": "🔔・announcements",
+        "type": 5,
+        "position": 1,
+        "parentId": "1497328557704089770"
       },
       {
         "id": "1456985673738228018",
         "name": "⚔️│moderator-only",
         "type": 0,
-        "position": 4,
-        "parentId": "1460686138443300945"
-      },
-      {
-        "id": "1460686138443300945",
-        "name": "╭─── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ───╮",
-        "type": 4,
         "position": 0,
-        "parentId": null
+        "parentId": "1497328561063723192"
       },
       {
-        "id": "1460686139668041883",
-        "name": "📜│rules-n-stuff",
+        "id": "1497328609008943184",
+        "name": "📥・guild-join",
         "type": 0,
         "position": 0,
-        "parentId": "1460686138443300945"
+        "parentId": "1497328562062102668"
       },
       {
-        "id": "1460686140758557069",
-        "name": "📢│announcements",
-        "type": 5,
-        "position": 1,
-        "parentId": "1460686138443300945"
-      },
-      {
-        "id": "1460686142780346419",
-        "name": "🎊│giveaways",
-        "type": 0,
-        "position": 2,
-        "parentId": "1460686138443300945"
-      },
-      {
-        "id": "1460686144193958125",
-        "name": "◤◢◣◥◤◢◣◥ VIBES ◤◢◣◥◤◢◣◥",
-        "type": 4,
-        "position": 1,
-        "parentId": null
-      },
-      {
-        "id": "1460686149755342923",
-        "name": "😂│memes-n-clips",
-        "type": 0,
-        "position": 2,
-        "parentId": "1460686144193958125"
-      },
-      {
-        "id": "1460686151223349333",
-        "name": "🤖│bot-spam",
-        "type": 0,
-        "position": 3,
-        "parentId": "1460686144193958125"
-      },
-      {
-        "id": "1460686152565522684",
-        "name": "🔥│rage-quit-stories",
-        "type": 0,
-        "position": 4,
-        "parentId": "1460686144193958125"
-      },
-      {
-        "id": "1460686154071281741",
-        "name": "▬▬ι═══════ﺤ GAMING ▬▬ι═══════ﺤ",
-        "type": 4,
-        "position": 2,
-        "parentId": null
-      },
-      {
-        "id": "1460686156596252915",
-        "name": "🔍│lfg-find-squad",
-        "type": 0,
-        "position": 0,
-        "parentId": "1460686154071281741"
-      },
-      {
-        "id": "1460686157682835690",
-        "name": "🏆│flex-your-wins",
-        "type": 0,
-        "position": 1,
-        "parentId": "1460686154071281741"
-      },
-      {
-        "id": "1460686159612084244",
-        "name": "🎮・Squad Alpha",
+        "id": "1497328575852974140",
+        "name": "🔊・General",
         "type": 2,
         "position": 0,
-        "parentId": "1460686154071281741"
+        "parentId": "1497328560178729098"
       },
       {
-        "id": "1460686160933163207",
-        "name": "🎮・Squad Bravo",
-        "type": 2,
-        "position": 1,
-        "parentId": "1460686154071281741"
-      },
-      {
-        "id": "1460686162535383235",
-        "name": "🎮・Solo Grind",
-        "type": 2,
-        "position": 2,
-        "parentId": "1460686154071281741"
-      },
-      {
-        "id": "1460686164393590937",
-        "name": "━━━━━━༻🔊༺━━━━━━",
-        "type": 4,
-        "position": 3,
-        "parentId": null
-      },
-      {
-        "id": "1460686165563801814",
-        "name": "🌙・Late Night Vibes",
-        "type": 2,
-        "position": 0,
-        "parentId": "1460686164393590937"
-      },
-      {
-        "id": "1460686166637416611",
-        "name": "🎵・Music & Gaming",
-        "type": 2,
-        "position": 1,
-        "parentId": "1460686164393590937"
-      },
-      {
-        "id": "1460686167488860273",
-        "name": "💤・AFK Zone",
-        "type": 2,
-        "position": 2,
-        "parentId": "1460686164393590937"
-      },
-      {
-        "id": "1464929709098926274",
-        "name": "aero-logs",
+        "id": "1497328607771754517",
+        "name": "🔎・utility-logs",
         "type": 0,
-        "position": 0,
-        "parentId": "1469319237003640844"
-      },
-      {
-        "id": "1464929711846330555",
-        "name": "aero-alerts",
-        "type": 0,
-        "position": 1,
-        "parentId": "1469319237003640844"
-      },
-      {
-        "id": "1469319237003640844",
-        "name": "Aero",
-        "type": 4,
-        "position": 4,
-        "parentId": null
-      },
-      {
-        "id": "1469415205393141883",
-        "name": "🎮│gamer-talk",
-        "type": 0,
-        "position": 1,
-        "parentId": "1460686144193958125"
-      },
-      {
-        "id": "1469415347374526506",
-        "name": "💭│main-chat",
-        "type": 0,
-        "position": 0,
-        "parentId": "1460686144193958125"
-      },
-      {
-        "id": "1485019882712989927",
-        "name": "roles",
-        "type": 0,
-        "position": 5,
-        "parentId": "1460686138443300945"
-      },
-      {
-        "id": "1486426448720826590",
-        "name": "invite",
-        "type": 0,
-        "position": 6,
-        "parentId": "1460686138443300945"
-      },
-      {
-        "id": "1494443168010342522",
-        "name": "github",
-        "type": 5,
-        "position": 3,
-        "parentId": "1460686138443300945"
+        "position": 7,
+        "parentId": "1497328561063723192"
       }
     ],
     "roles": [
       {
-        "id": "1456950913544491155",
-        "name": "Developer",
-        "color": 1433560,
-        "permissions": "8",
+        "id": "1497325621150486758",
+        "name": "Developers",
+        "color": 3447003,
+        "permissions": "6546640449",
         "position": 13,
         "hoist": true,
         "mentionable": false
       },
       {
-        "id": "1456951230076031181",
-        "name": "Admin",
-        "color": 15158332,
-        "permissions": "8864258447638519",
+        "id": "1497325622412968176",
+        "name": "Administrators",
+        "color": 3066993,
+        "permissions": "6546640449",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1497325623910334505",
+        "name": "Moderators",
+        "color": 14676313,
+        "permissions": "6546640449",
         "position": 11,
         "hoist": true,
         "mentionable": false
       },
       {
-        "id": "1456951741437448375",
-        "name": "Moderator",
+        "id": "1497325624677892389",
+        "name": "Support",
         "color": 15844367,
-        "permissions": "1721807559716807",
+        "permissions": "6546640449",
         "position": 10,
-        "hoist": false,
+        "hoist": true,
         "mentionable": false
       },
       {
-        "id": "1456952291759227080",
-        "name": "hunter",
-        "color": 10181046,
-        "permissions": "0",
+        "id": "1497325625982324777",
+        "name": "━━━━━━━━",
+        "color": 0,
+        "permissions": "6546640449",
         "position": 9,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1456952461159039018",
-        "name": "Member",
-        "color": 6323595,
-        "permissions": "1720707884502593",
+        "id": "1497325628179878220",
+        "name": "Patreons",
+        "color": 15277667,
+        "permissions": "6546640449",
         "position": 8,
         "hoist": true,
         "mentionable": false
       },
       {
-        "id": "1477640002010615808",
-        "name": "in: 🎮・Squad Alpha",
-        "color": 39423,
-        "permissions": "2222085186637377",
+        "id": "1497325629451014326",
+        "name": "Partners",
+        "color": 10181046,
+        "permissions": "6546640449",
+        "position": 7,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1497325630168236234",
+        "name": "━━━━━━━━",
+        "color": 0,
+        "permissions": "6546640449",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1497325631493640254",
+        "name": "Voter",
+        "color": 6405375,
+        "permissions": "6546640449",
+        "position": 5,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1497325632483491923",
+        "name": "Members",
+        "color": 1752220,
+        "permissions": "6546640449",
         "position": 4,
-        "hoist": false,
+        "hoist": true,
         "mentionable": false
       },
       {
-        "id": "1485020062036393984",
-        "name": "genuently interested",
+        "id": "1497325633427210460",
+        "name": "Bots",
+        "color": 16770790,
+        "permissions": "6546640457",
+        "position": 3,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1497325634593226833",
+        "name": "━━━━━━━━",
         "color": 0,
-        "permissions": "0",
+        "permissions": "6546640449",
         "position": 2,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1486435646829498419",
-        "name": "you can spam twin",
-        "color": 0,
-        "permissions": "4503599627370496",
-        "position": 1,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1776540845120
+    "updated": 1777123628776
+  },
+  "userStrips": {
+    "416358583220043796": {
+      "strippedRoles": [
+        {
+          "id": "1497319372342165677",
+          "name": "Xenon",
+          "managed": true,
+          "permissions": "8",
+          "type": "managed"
+        },
+        {
+          "id": "1497325621150486758",
+          "name": "Developers",
+          "managed": false,
+          "permissions": "6546640449",
+          "type": "role"
+        }
+      ],
+      "strippedCount": 2,
+      "failedManagedRoles": 0,
+      "updated": 1777061014826
+    }
   }
 }

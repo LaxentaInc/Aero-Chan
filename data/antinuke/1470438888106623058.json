@@ -358,7 +358,7 @@
         "name": "🤖 ㆍBots",
         "color": 14851970,
         "permissions": "104320577",
-        "position": 4,
+        "position": 5,
         "hoist": true,
         "mentionable": false
       },
@@ -367,7 +367,7 @@
         "name": "⭐ ㆍ Member",
         "color": 14858114,
         "permissions": "104320577",
-        "position": 5,
+        "position": 6,
         "hoist": true,
         "mentionable": false
       },
@@ -376,7 +376,7 @@
         "name": "🚀ㆍBeta",
         "color": 7319379,
         "permissions": "0",
-        "position": 6,
+        "position": 7,
         "hoist": true,
         "mentionable": true
       },
@@ -385,7 +385,7 @@
         "name": "💵ㆍ Sponsers",
         "color": 4881731,
         "permissions": "104320577",
-        "position": 7,
+        "position": 8,
         "hoist": true,
         "mentionable": false
       },
@@ -394,7 +394,7 @@
         "name": "👨‍💻ㆍ Dev",
         "color": 9918111,
         "permissions": "104328769",
-        "position": 8,
+        "position": 9,
         "hoist": true,
         "mentionable": true
       },
@@ -403,7 +403,7 @@
         "name": "Moderator",
         "color": 7165599,
         "permissions": "1099615956545",
-        "position": 10,
+        "position": 11,
         "hoist": true,
         "mentionable": true
       },
@@ -412,7 +412,7 @@
         "name": "Admin",
         "color": 6069701,
         "permissions": "1099615956559",
-        "position": 11,
+        "position": 12,
         "hoist": true,
         "mentionable": true
       },
@@ -421,7 +421,7 @@
         "name": "Owner",
         "color": 5676892,
         "permissions": "104320585",
-        "position": 12,
+        "position": 13,
         "hoist": true,
         "mentionable": false
       },
@@ -430,11 +430,11 @@
         "name": "Featured Bot",
         "color": 3447003,
         "permissions": "0",
-        "position": 9,
+        "position": 10,
         "hoist": true,
         "mentionable": false
       }
     ],
-    "updated": 1776540845135
+    "updated": 1777123628785
   }
 }

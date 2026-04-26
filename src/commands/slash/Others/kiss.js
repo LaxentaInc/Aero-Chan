@@ -214,8 +214,8 @@ module.exports = {
           if (!kissBackGif) throw new Error('No kiss back GIF available.');
 
           const kissBackEmbed = new EmbedBuilder()
-            .setColor('#ff69b4')
-            .setTitle(`-# **${targetUser.username}** kisses **${interaction.user.username}** back!`)
+            // .setColor('#ff69b4')
+            .setTitle(`**${targetUser.username}** kisses **${interaction.user.username}** back!`)
             .setImage(kissBackGif)
             // .setFooter({
             //   text: 'A sweet smooch has been returned!',
@@ -244,8 +244,8 @@ module.exports = {
           if (!slapGif) throw new Error('No slap GIF available.');
 
           const slapEmbed = new EmbedBuilder()
-            .setColor('#ff0000')
-            .setTitle(`-# **${targetUser.username}** slapped **${interaction.user.username}**! Ouch!`)
+            // .setColor('#ff0000')
+            .setTitle(`**${targetUser.username}** slapped **${interaction.user.username}**! Ouch!`)
             .setImage(slapGif)
             .setFooter({
               text: 'That must have hurt lmao!',
@@ -274,8 +274,8 @@ module.exports = {
           if (!cuddleGif) throw new Error('No cuddle GIF available.');
 
           const cuddleEmbed = new EmbedBuilder()
-            .setColor('#ff69b4')
-            .setTitle(`-# **${targetUser.username}** cuddles with **${interaction.user.username}**! So cozy!`)
+            // .setColor('#ff69b4')
+            .setTitle(`**${targetUser.username}** cuddles with **${interaction.user.username}**! So cozy!`)
             .setImage(cuddleGif)
             .setFooter({
               text: 'some cozy cuddles after kissie!.. Do not watch netflix now please...',
