@@ -120,7 +120,7 @@
         "name": "Administrator",
         "color": 16711680,
         "permissions": "2108863301550079",
-        "position": 21,
+        "position": 20,
         "hoist": false,
         "mentionable": false
       },
@@ -129,7 +129,7 @@
         "name": "Authorised Member",
         "color": 16766720,
         "permissions": "0",
-        "position": 15,
+        "position": 14,
         "hoist": false,
         "mentionable": false
       },
@@ -138,7 +138,7 @@
         "name": "Owner",
         "color": 65535,
         "permissions": "0",
-        "position": 14,
+        "position": 13,
         "hoist": false,
         "mentionable": false
       },
@@ -147,11 +147,11 @@
         "name": "Bot Permission",
         "color": 0,
         "permissions": "32",
-        "position": 11,
+        "position": 10,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1777123628739
+    "updated": 1777218050252
   }
 }
