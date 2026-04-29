@@ -71,7 +71,7 @@ async function loadAllCommands(client: any) {
 async function registerSlashCommands(slashCommands: any, clientId: any, guildId: any) {
   const rest = new REST({
     version: '9'
-  }).setToken(process.env.DISCORD_TOKEN);
+  }).setToken(process.env.DISCORD_TOKEN!);
   const commands = Array.from(slashCommands.values()).map((command: any) => command.data.toJSON());
   const commandHash = crypto.createHash('sha256').update(JSON.stringify(commands)).digest('hex');
   const cachedData = readCommandCache();

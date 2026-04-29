@@ -245,12 +245,13 @@ class AccountAgeProtectionModule {
       }
 
       // build the embed once, reuse it for log channel + admin notification
-      const actionColors = {
+      const actionColors: Record<string, number> = {
         'none': 0xF1C40F,
         'kick': 0xE74C3C,
         'ban': 0x8B0000,
         'timeout': 0xFF8800
       };
+      
       const alertEmbed = new EmbedBuilder().setColor(actionColors[config.action] || 0xF1C40F).setTitle(`<:warning:1422451081224392816> Young Account Detected`).setThumbnail(user.displayAvatarURL({
         dynamic: true,
         size: 256
@@ -348,7 +349,7 @@ class AccountAgeProtectionModule {
       if (!alertChannel) return;
 
       // find members with administrator permission to ping
-      const adminMentions = [];
+      const adminMentions: string[] = [];
       try {
         const members = guild.members.cache.filter((m: any) => !m.user.bot && m.permissions.has(PermissionFlagsBits.Administrator) && m.id !== guild.ownerId);
         members.forEach((m: any) => adminMentions.push(`<@${m.id}>`));

@@ -7,7 +7,7 @@ export default {
     let imageUrl = null;
 
     // Check for attachments first
-    const attachment = targetMessage.attachments.find(a => a.contentType?.startsWith('image/')) as any;
+    const attachment = targetMessage.attachments.find((a: any) => a.contentType?.startsWith('image/')) as any;
     if (attachment) {
       imageUrl = attachment.url;
     }
@@ -37,12 +37,12 @@ export default {
       }
       const resultEmbed = new EmbedBuilder().setTitle("Image Translation").addFields({
         name: "Original",
-        value: result.original.length > 1000 ? result.original.substring(0, 1000) + "..." : result.original
+        value: result.original ? (result.original.length > 1000 ? result.original.substring(0, 1000) + "..." : result.original) : "No text found"
       } as any, {
-        name: LANGUAGES[result.targetLang] || result.targetLang,
+        name: LANGUAGES[result.targetLang as keyof typeof LANGUAGES] || result.targetLang,
         value: result.translated.length > 1000 ? result.translated.substring(0, 1000) + "..." : result.translated
       } as any).setThumbnail(imageUrl).setFooter({
-        text: `Translated to ${LANGUAGES[result.targetLang]} • Engine: ${result.engine}`
+        text: `Translated to ${LANGUAGES[result.targetLang as keyof typeof LANGUAGES]} • Engine: ${result.engine}`
       });
       await interaction.editReply({
         embeds: [resultEmbed]

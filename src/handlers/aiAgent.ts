@@ -294,6 +294,7 @@ const SEMANTIC_SYNONYMS: Record<string, any> = {
   'current': 'slash:music:nowplaying',
   'playing': 'slash:music:nowplaying',
   'loop': 'slash:music:loop',
+  // @ts-ignore
   'repeat': 'slash:music:loop',
   'disconnect': 'slash:music:disconnect',
   'dc': 'slash:music:disconnect',
