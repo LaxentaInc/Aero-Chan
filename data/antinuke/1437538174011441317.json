@@ -225,6 +225,12 @@
         "name": "Confession Replies (#326)",
         "type": 11,
         "parentId": "1474231628346691835"
+      },
+      {
+        "id": "1498476547546284316",
+        "name": "Confession Replies (#333)",
+        "type": 11,
+        "parentId": "1474231628346691835"
       }
     ],
     "roles": [
@@ -346,6 +352,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1777218050458
+    "updated": 1777337671934
   }
 }
