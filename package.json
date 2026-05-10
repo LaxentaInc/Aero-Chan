@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dev": "pnpm exec tsx index.js",
+    "start:ts": "pnpm exec tsx index.js",
     "update": "pnpm update --save",
     "lint": "pnpm exec eslint .",
     "lint:fix": "pnpm exec eslint . --fix",
@@ -53,6 +55,7 @@
     "@eslint/js": "^10.0.1",
     "@types/node": "^25.6.0",
     "eslint": "^10.2.1",
+    "tsx": "^4.21.0",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.58.2"
   }

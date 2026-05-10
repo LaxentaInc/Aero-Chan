@@ -26,7 +26,7 @@ async function registerStoredButtons(client: any) {
     } = require('./storage');
     const all = loadAllButtons();
     for (const [guildId, buttons] of all.entries()) {
-      for (const [customId, meta] of Object.entries(buttons)) {
+      for (const [customId, meta] of Object.entries(buttons as any)) {
         // Skip expired buttons
         if (meta.expiresAt && meta.expiresAt < Date.now()) continue;
 
