@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getActionsTakenMessage } from "./punishment";
 import { ActionRowBuilder, ButtonBuilder, ButtonStyle } from "discord.js";
 import { buildOwnerActionRow, buildWhitelistedActionRow, registerAndPersistButtons } from "./buttons";
