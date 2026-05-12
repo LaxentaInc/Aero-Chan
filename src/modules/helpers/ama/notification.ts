@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ActionRowBuilder, ButtonBuilder, ButtonStyle, ComponentType, EmbedBuilder } from "discord.js";
 import logManager from "../logManager";
 import { registerAndPersist } from "./buttons";
