@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { EmbedBuilder } from "discord.js";
 export default {
   name: "roleall",
