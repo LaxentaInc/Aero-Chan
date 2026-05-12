@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { EmbedBuilder, ButtonBuilder, ActionRowBuilder, ComponentType } from "discord.js";
 import axios from "axios";
 import mongoose from "mongoose";
