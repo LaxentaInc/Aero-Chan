@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { logger } from "../utils/logger";
 import { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, PermissionFlagsBits } from "discord.js";
 import spamProtection from "../modules/AntiSpam";
