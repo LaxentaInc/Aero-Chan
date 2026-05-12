@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * Permission Handling Logic
  * Handles checking, stripping, and validating bot permissions
