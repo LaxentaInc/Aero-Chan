@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, ChannelType, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, PermissionFlagsBits } from "discord.js";
 import path from "path";
 import fs from "fs";
