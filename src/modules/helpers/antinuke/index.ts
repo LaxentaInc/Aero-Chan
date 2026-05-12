@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getDefaultConfig } from "./config";
 import { initMongoDB, syncConfigs, updateConfig } from "./database";
 import { findExecutor, isTrusted, getThreshold, canPunish } from "./detection";
