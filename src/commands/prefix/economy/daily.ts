@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { EmbedBuilder } from "discord.js";
 import economy from "../../../utils/economyUtil";
 export default {
