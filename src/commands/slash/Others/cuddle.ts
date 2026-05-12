@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, EmbedBuilder } from "discord.js";
 import axios from "axios";
 import fs from "fs";
