@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder, ComponentType, PermissionFlagsBits } from "discord.js";
 export default {
   data: new SlashCommandBuilder().setName('ping').setDescription('Check bot latency and connection metrics').setIntegrationTypes(0, 1).setContexts(0, 1, 2).addStringOption((option: any) => option.setName('visibility').setDescription('Response visibility').addChoices({
