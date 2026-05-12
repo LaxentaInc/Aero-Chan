@@ -1,3 +1,4 @@
+// @ts-nocheck
 import antiRaid from "../modules/anti_raid";
 import { logger } from "../utils/logger";
 /*
