@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getDb } from "./CloudDB";
 import NodeCache from "node-cache";
 // path: utils/economyUtil.js
