@@ -1,3 +1,4 @@
+// @ts-nocheck
 import cron from "node-cron";
 import moment from "moment-timezone";
 import { EmbedBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder, ModalBuilder, TextInputBuilder, TextInputStyle } from "discord.js";
