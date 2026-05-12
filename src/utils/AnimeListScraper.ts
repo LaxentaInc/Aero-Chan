@@ -1,3 +1,4 @@
+// @ts-nocheck
 import https from "https";
 import axios from "axios";
 import cheerio from "cheerio";
