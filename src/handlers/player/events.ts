@@ -230,6 +230,11 @@ function setupPlayerEvents(client: any) {
     } catch (error: any) {
       console.error('❌ Failed to handle stuck track:', error.message);
     }
+  }).on('playerUpdate', (player: any) => {
+    // Only log every 5 seconds to avoid spam (position is updated every 100ms or 500ms depending on config)
+    if (player.position % 5000 < 500) {
+      console.log(`[DEBUG STREAM] Guild ${player.guildId} | Playing: ${player.playing} | Paused: ${player.paused} | Position: ${player.position}ms`);
+    }
   });
   console.log('✅ Player events registered');
 }
