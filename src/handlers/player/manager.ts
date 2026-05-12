@@ -42,7 +42,22 @@ function initializeManager(client: any) {
         destroyPlayer: false
       },
       onEmptyQueue: {
-        destroyAfterMs: 30_000
+        destroyAfterMs: 30_000,
+        autoPlayFunction: async (player: any, lastTrack: any) => {
+          if (!player.get("autoplay")) return;
+          if (lastTrack.sourceName === "spotify" || lastTrack.sourceName === "youtube") {
+            try {
+              const query = `${lastTrack.sourceName === 'spotify' ? 'sprec' : 'ytrec'}:${lastTrack.identifier || lastTrack.info?.identifier}`;
+              const res = await player.search({ query }, lastTrack.requester);
+              if (res.tracks.length) {
+                player.queue.add(res.tracks[0]);
+                await player.play();
+              }
+            } catch (e) {
+              console.error("Autoplay search error:", e);
+            }
+          }
+        }
       },
       useUnresolvedData: true
     },

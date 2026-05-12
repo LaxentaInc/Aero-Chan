@@ -10,7 +10,7 @@ async function disableOldControlMessage(player: any) {
     try {
       const disabledButtons = createControlButtons(player, true);
       await player.currentControlMessage.edit({
-        components: [disabledButtons]
+        components: disabledButtons
       }).catch(() => {});
       console.log('   🔒 Disabled old control message buttons');
     } catch (error: any) {
@@ -33,7 +33,7 @@ async function sendNowPlayingEmbed(interaction: any, player: any, track: any, cl
     const controlButtons = createControlButtons(player);
     const message = await interaction.channel.send({
       embeds: [npEmbed],
-      components: [controlButtons]
+      components: controlButtons
     });
     player.currentControlMessage = message;
     const collector = message.createMessageComponentCollector({
@@ -64,7 +64,7 @@ async function sendNowPlayingEmbed(interaction: any, player: any, track: any, cl
         activeCollectors.delete(player.guildId);
         const disabledControlButtons = createControlButtons(player, true);
         await message.edit({
-          components: [disabledControlButtons]
+          components: disabledControlButtons
         }).catch(() => {});
       } catch (error: any) {
         console.error('❌ Failed to disable buttons on collector end:', error.message);
@@ -104,7 +104,7 @@ async function sendAutoNowPlayingEmbed(client: any, player: any, track: any) {
     const controlButtons = createControlButtons(player);
     const message = await channel.send({
       embeds: [npEmbed],
-      components: [controlButtons]
+      components: controlButtons
     });
     player.currentControlMessage = message;
     const collector = message.createMessageComponentCollector({
@@ -127,7 +127,7 @@ async function sendAutoNowPlayingEmbed(client: any, player: any, track: any) {
         activeCollectors.delete(player.guildId);
         const disabledControlButtons = createControlButtons(player, true);
         await message.edit({
-          components: [disabledControlButtons]
+          components: disabledControlButtons
         }).catch(() => {});
       } catch (error: any) {}
     });

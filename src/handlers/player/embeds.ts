@@ -56,6 +56,8 @@ function formatTime(ms: any) {
 
 /**
  * Truncate string to max length
+/**
+ * Truncate string to max length
  */
 function truncate(str: any, maxLength: any) {
   if (!str || str.length <= maxLength) return str;
@@ -66,14 +68,23 @@ function truncate(str: any, maxLength: any) {
  * Create control buttons for the player
  */
 function createControlButtons(player: any, disabled: boolean = false) {
-  return new ActionRowBuilder().addComponents(
-  // new ButtonBuilder()
-  //     .setCustomId('music_pause_resume')
-  //     .setEmoji(player.paused ? '▶️' : '⏸️')
-  //     .setLabel(player.paused ? 'Resume' : 'Pause')
-  //     .setStyle(ButtonStyle.Primary)
-  //     .setDisabled(disabled),
-  new ButtonBuilder().setCustomId('music_skip').setEmoji('<a:marker_1326464173361856524:1342443432240746577>').setLabel('Skip').setStyle(ButtonStyle.Secondary).setDisabled(disabled), new ButtonBuilder().setCustomId('music_stop').setEmoji('<a:no:1342443519070961684>').setLabel('Stop').setStyle(ButtonStyle.Danger).setDisabled(disabled), new ButtonBuilder().setCustomId('music_loop').setEmoji(player.loop === 'off' ? '🔁' : player.loop === 'track' ? '🔂' : '🔁').setLabel(player.loop === 'off' ? 'Loop Off' : player.loop === 'track' ? 'Track' : 'Queue').setStyle(player.loop === 'off' ? ButtonStyle.Secondary : ButtonStyle.Success).setDisabled(disabled), new ButtonBuilder().setCustomId('music_queue').setEmoji('<a:VinylRecord_1338415159672307806:1342442912746704998>').setLabel('Queue').setStyle(ButtonStyle.Secondary).setDisabled(disabled));
+  const row1 = new ActionRowBuilder().addComponents(
+    new ButtonBuilder().setCustomId('music_pause_resume').setEmoji(player.paused ? '▶️' : '⏸️').setLabel(player.paused ? 'Resume' : 'Pause').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_skip').setEmoji('⏭️').setLabel('Skip').setStyle(ButtonStyle.Primary).setDisabled(disabled),
+    // new ButtonBuilder().setCustomId('music_like').setEmoji('🤍').setLabel('Like').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
+  );
+
+  const row2 = new ActionRowBuilder().addComponents(
+    new ButtonBuilder().setCustomId('music_loop').setEmoji(player.loop === 'off' ? '🔁' : player.loop === 'track' ? '🔂' : '🔁').setLabel(player.loop === 'off' ? 'Loop' : player.loop === 'track' ? 'Track Loop' : 'Queue Loop').setStyle(player.loop === 'off' ? ButtonStyle.Success : ButtonStyle.Success).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_shuffle').setEmoji('🔀').setLabel('Smart Shuffle').setStyle(ButtonStyle.Success).setDisabled(disabled)
+  );
+
+  const row3 = new ActionRowBuilder().addComponents(
+    new ButtonBuilder().setCustomId('music_autoplay').setEmoji('♾️').setLabel(player.get("autoplay") ? 'Autoplay On' : 'Autoplay').setStyle(player.get("autoplay") ? ButtonStyle.Success : ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_stop').setEmoji('⏹️').setLabel('End Session').setStyle(ButtonStyle.Danger).setDisabled(disabled)
+  );
+
+  return [row1, row2, row3];
 }
 
 /**

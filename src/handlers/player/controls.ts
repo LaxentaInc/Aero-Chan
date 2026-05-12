@@ -99,7 +99,7 @@ async function stopMusic(player: any, interaction: any, message: any) {
     await player.stopPlaying();
     const disabledControlButtons = createControlButtons(player, true);
     await interaction.update({
-      components: [disabledControlButtons]
+      components: disabledControlButtons
     });
     await interaction.followUp({
       content: 'Music stopped and queue cleared!',
@@ -132,7 +132,7 @@ async function toggleLoop(player: any, interaction: any, message: any) {
     console.log(`\n🔁 Loop mode changed to: ${nextMode}`);
     const newControlButtons = createControlButtons(player);
     await interaction.update({
-      components: [newControlButtons]
+      components: newControlButtons
     });
     await interaction.followUp({
       content: `Loop mode: **${nextMode.toUpperCase()}**`,
@@ -205,7 +205,7 @@ async function handleButtonInteraction(buttonInteraction: any, player: any, mess
       console.log(`   ${wasPaused ? 'Resumed' : 'Paused'} playback`);
       const newControlButtons = createControlButtons(freshPlayer);
       await buttonInteraction.update({
-        components: [newControlButtons]
+        components: newControlButtons
       });
       break;
     case 'music_skip':
@@ -219,6 +219,32 @@ async function handleButtonInteraction(buttonInteraction: any, player: any, mess
       break;
     case 'music_queue':
       await showQueue(freshPlayer, buttonInteraction);
+      break;
+    case 'music_autoplay':
+      const isAutoplay = freshPlayer.get("autoplay");
+      freshPlayer.set("autoplay", !isAutoplay);
+      const updatedButtons = createControlButtons(freshPlayer);
+      await buttonInteraction.update({
+        components: updatedButtons
+      });
+      await buttonInteraction.followUp({
+        content: `Autoplay is now **${!isAutoplay ? 'ON' : 'OFF'}**`,
+        ephemeral: true
+      });
+      break;
+    case 'music_shuffle':
+      if (freshPlayer.queue.tracks.length > 1) {
+        freshPlayer.queue.shuffle();
+        await buttonInteraction.reply({
+          content: 'Queue shuffled!',
+          ephemeral: true
+        });
+      } else {
+        await buttonInteraction.reply({
+          content: 'Not enough tracks in queue to shuffle!',
+          ephemeral: true
+        });
+      }
       break;
   }
 }
