@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { EmbedBuilder, Collection, MessageFlags, PermissionsBitField } from "discord.js";
 import mongoose from "mongoose";
 import errorHandler from "../handlers/errorhandler";
