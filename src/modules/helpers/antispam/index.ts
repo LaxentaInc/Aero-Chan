@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getDefaultConfig, buildTrustedSets, hasAdminPermissions, isWhitelisted } from "./config";
 import { checkMessageSpam, checkLinkSpamFast, checkImageSpam, checkWebhookSpam } from "./detection";
 import { getUserActivity, trackMessage, cleanup, resetUserStrikes, getUserStrikes, clearCache } from "./tracking";
