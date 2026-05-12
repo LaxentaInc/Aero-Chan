@@ -6,7 +6,8 @@ import { EmbedBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder, ModalBuilde
 
 let Birthday;
 try {
-  Birthday = require('../commands/slash/General/birthdays').Birthday;
+  const birthdayModule = require('../commands/slash/General/birthdays');
+  Birthday = (birthdayModule.default || birthdayModule).Birthday;
 } catch (error: any) {
   console.error('❌ Could not import Birthday model:', error.message);
 }
