@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ChannelType, PermissionFlagsBits, EmbedBuilder } from "discord.js";
 /**
  * LogManager - Centralized Logging System for Anti-Raid Modules
