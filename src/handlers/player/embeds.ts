@@ -55,9 +55,7 @@ function formatTime(ms: any) {
 }
 
 /**
- * Truncate string to max length
-/**
- * Truncate string to max length
+ * truncate string to max length
  */
 function truncate(str: any, maxLength: any) {
   if (!str || str.length <= maxLength) return str;
@@ -68,61 +66,66 @@ function truncate(str: any, maxLength: any) {
  * Create control buttons for the player
  */
 function createControlButtons(player: any, disabled: boolean = false) {
-  const row1 = new ActionRowBuilder().addComponents(
-    new ButtonBuilder().setCustomId('music_pause_resume').setEmoji(player.paused ? '▶️' : '⏸️').setLabel(player.paused ? 'Resume' : 'Pause').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_skip').setEmoji('⏭️').setLabel('Skip').setStyle(ButtonStyle.Primary).setDisabled(disabled),
-    // new ButtonBuilder().setCustomId('music_like').setEmoji('🤍').setLabel('Like').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
-  );
+  const { StringSelectMenuBuilder } = require('discord.js');
+
+  const filterDropdown = new StringSelectMenuBuilder()
+    .setCustomId('music_filter')
+    .setPlaceholder('Select an Audio Filter...')
+    .setDisabled(disabled)
+    .addOptions([
+      { label: 'Clear All Filters', value: 'clear', description: 'Reset to original audio' },
+      { label: 'Nightcore', value: 'nightcore', description: 'Faster and higher pitch' },
+      { label: 'Vaporwave', value: 'vaporwave', description: 'Slower and lower pitch' },
+      { label: 'Karaoke', value: 'karaoke', description: 'Removes vocals' },
+      { label: 'Rotation', value: 'rotation', description: 'Audio rotates around your head' },
+      { label: 'Tremolo', value: 'tremolo', description: 'Wavering volume effect' },
+      { label: 'Vibrato', value: 'vibrato', description: 'Wavering pitch effect' },
+      { label: 'Low Pass', value: 'lowpass', description: 'Muffles high frequencies' }
+    ]);
+
+  const row1 = new ActionRowBuilder().addComponents(filterDropdown);
 
   const row2 = new ActionRowBuilder().addComponents(
-    new ButtonBuilder().setCustomId('music_loop').setEmoji(player.loop === 'off' ? '🔁' : player.loop === 'track' ? '🔂' : '🔁').setLabel(player.loop === 'off' ? 'Loop' : player.loop === 'track' ? 'Track Loop' : 'Queue Loop').setStyle(player.loop === 'off' ? ButtonStyle.Success : ButtonStyle.Success).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_shuffle').setEmoji('🔀').setLabel('Smart Shuffle').setStyle(ButtonStyle.Success).setDisabled(disabled)
+    new ButtonBuilder().setCustomId('music_pause_resume').setLabel(player.paused ? 'Resume' : 'Pause').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_skip').setLabel('Skip').setStyle(ButtonStyle.Primary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_like').setLabel('Like').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
   );
 
   const row3 = new ActionRowBuilder().addComponents(
-    new ButtonBuilder().setCustomId('music_autoplay').setEmoji('♾️').setLabel(player.get("autoplay") ? 'Autoplay On' : 'Autoplay').setStyle(player.get("autoplay") ? ButtonStyle.Success : ButtonStyle.Secondary).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_stop').setEmoji('⏹️').setLabel('End Session').setStyle(ButtonStyle.Danger).setDisabled(disabled)
+    new ButtonBuilder().setCustomId('music_loop').setLabel('Loop').setStyle(ButtonStyle.Success).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_shuffle').setLabel('Smart Shuffle').setStyle(ButtonStyle.Success).setDisabled(disabled)
   );
 
-  return [row1, row2, row3];
+  const row4 = new ActionRowBuilder().addComponents(
+    new ButtonBuilder().setCustomId('music_autoplay').setLabel('Autoplay').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_stop').setLabel('End Session').setStyle(ButtonStyle.Danger).setDisabled(disabled)
+  );
+
+  return [row1, row2, row3, row4];
 }
 
 /**
  * Create the Now Playing embed
  */
 function createNowPlayingEmbed(track: any, player: any, client: any) {
-  const sourceInfo = SOURCE_INFO[track.sourceName] || SOURCE_INFO.http;
-  return new EmbedBuilder().setAuthor({
-    name: `Now Playing`,
-    iconURL: CUSTOM_ICON
-  }).setTitle(`${track.title || 'Unknown title'}`).setURL(track.uri || null).setThumbnail(track.artworkUrl || CUSTOM_ICON).addFields({
-    name: '<a:ansparkles_1326464249609977897:1342443376842248282> Artist',
-    value: `\`${track.author || 'Unknown'}\``,
-    inline: true
-  } as any, {
-    name: '<a:loading:1333357988953460807> Duration',
-    value: `\`${formatTime(track.duration)}\``,
-    inline: true
-  } as any, {
-    name: 'Loop',
-    value: `\`${player.loop}\``,
-    inline: true
-  } as any, {
-    name: '<a:VinylRecord_1338415159672307806:1342442912746704998> Source',
-    value: `${sourceInfo.name || 'Spotify'}`,
-    inline: true
-  } as any, {
-    name: '<a:HeheAnimated_1327983123924783155:1342442846887608404> Requested by',
-    value: `<@${track.requester?.id || '0'}>`,
-    inline: true
-  } as any, {
-    name: '<a:MusicalHearts_133841522715420263:1342442813648011266> Queue',
-    value: `\`${player.queue.tracks.length} tracks\``,
-    inline: true
-  } as any).setFooter({
-    text: `@AeroChan | By @laxenta | Controls Auto-expire in 5 minutes`,
-    iconURL: client.user.displayAvatarURL()
-  }).setTimestamp();
+  let durationString = formatTime(track.duration || 0);
+  if (track.isStream) durationString = 'LIVE';
+  const requester = track.requester ? `<@${track.requester.id || track.requester}>` : 'Auto-Play';
+
+  const embed = new EmbedBuilder()
+    .setColor(EMBED_COLORS.NOW_PLAYING)
+    .setAuthor({
+      name: 'Now Playing',
+      iconURL: CUSTOM_ICON
+    })
+    .setDescription(`**Artist:** ${track.author}\n**Duration:** \`${durationString}\`\n**Requested by:** ${requester}`)
+    .setTimestamp();
+
+  if (track.title) embed.setTitle(truncate(track.title, 256));
+  if (track.uri) embed.setURL(track.uri);
+  if (track.artworkUrl) embed.setThumbnail(track.artworkUrl);
+
+  return embed;
 }
 
 /**

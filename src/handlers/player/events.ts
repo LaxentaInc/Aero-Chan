@@ -37,16 +37,15 @@ async function sendNowPlayingEmbed(interaction: any, player: any, track: any, cl
     });
     player.currentControlMessage = message;
     const collector = message.createMessageComponentCollector({
-      componentType: ComponentType.Button,
       time: 300000
     });
     activeCollectors.set(player.guildId, collector);
     collector.on('collect', async (buttonInteraction: any) => {
       try {
         const {
-          handleButtonInteraction
+          handleComponentInteraction
         } = require('./controls');
-        await handleButtonInteraction(buttonInteraction, player, message, client);
+        await handleComponentInteraction(buttonInteraction, player, message, client);
       } catch (error: any) {
         console.error('❌ Button interaction error:', error.message);
         try {
@@ -108,16 +107,15 @@ async function sendAutoNowPlayingEmbed(client: any, player: any, track: any) {
     });
     player.currentControlMessage = message;
     const collector = message.createMessageComponentCollector({
-      componentType: ComponentType.Button,
       time: 300000
     });
     activeCollectors.set(player.guildId, collector);
     collector.on('collect', async (buttonInteraction: any) => {
       try {
         const {
-          handleButtonInteraction
+          handleComponentInteraction
         } = require('./controls');
-        await handleButtonInteraction(buttonInteraction, player, message, client);
+        await handleComponentInteraction(buttonInteraction, player, message, client);
       } catch (error: any) {
         console.error('❌ Button interaction error:', error.message);
       }
