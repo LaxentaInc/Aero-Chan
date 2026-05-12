@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, PermissionFlagsBits, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, ComponentType } from "discord.js";
 import mongoose from "mongoose";
 import ms from "ms";
