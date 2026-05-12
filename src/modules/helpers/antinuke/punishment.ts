@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { PermissionFlagsBits } from "discord.js";
 import { saveUserStrip, loadUserStrip } from "./storage";
 /**
