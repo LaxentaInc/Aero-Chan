@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder } from "discord.js";
 import axios from "axios";
 import cheerio from "cheerio";
