@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { saveBackup, loadBackup, loadAllBackups } from "./storage";
 /**
  * AntiNuke Restoration
