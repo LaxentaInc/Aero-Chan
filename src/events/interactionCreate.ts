@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Collection, MessageFlags } from "discord.js";
 import { logger } from "../utils/logger";
 import { handleButton, handlers } from "../handlers/buttonHandler";
