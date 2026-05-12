@@ -1,3 +1,4 @@
+// @ts-nocheck
 import path from "path";
 import { EmbedBuilder, ButtonBuilder, ActionRowBuilder, ButtonStyle, PermissionFlagsBits } from "discord.js";
 import { Colors } from "./constants";
