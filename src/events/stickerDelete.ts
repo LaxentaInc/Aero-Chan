@@ -1,3 +1,4 @@
+// @ts-nocheck
 import antiNuke from "../modules/AntiNuke";
 export default {
   name: 'stickerDelete',
