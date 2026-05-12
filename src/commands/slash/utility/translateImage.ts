@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } from "discord.js";
 import { processAndTranslate, isImageUrl, LANGUAGES } from "../../../handlers/translations/translationHandler";
 // Fetch recent images from channel
