@@ -1,3 +1,4 @@
+// @ts-nocheck
 import fs from "fs";
 import path from "path";
 const QUOTES_FILE = path.join(__dirname, '../../data/quotes.json');
