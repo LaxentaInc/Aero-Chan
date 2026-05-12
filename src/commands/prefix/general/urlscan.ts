@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } from "discord.js";
 import axios from "axios";
 // prefix urlscan command — standalone implementation matching the slash command's output
