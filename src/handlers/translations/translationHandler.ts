@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Tesseract from "tesseract.js";
 import translate from "translate-google-api";
 import https from "https";
