@@ -18,7 +18,7 @@ async function loadEvents(client: Client) {
       logger.warn(`⚠️ Events directory not found: ${eventsPath}`);
       return;
     }
-    const eventFiles = fs.readdirSync(eventsPath).filter((file: any) => file.endsWith('.js'));
+    const eventFiles = fs.readdirSync(eventsPath).filter((file: any) => file.endsWith('.ts'));
     if (eventFiles.length === 0) {
       logger.warn("⚠️ No event files found in events directory");
       return;
@@ -29,7 +29,8 @@ async function loadEvents(client: Client) {
       try {
         const eventPath = path.join(eventsPath, file);
         delete require.cache[require.resolve(eventPath)];
-        const event = require(eventPath);
+        const rawEvent = require(eventPath);
+        const event = rawEvent.default || rawEvent;
         if (!event.name || typeof event.execute !== 'function') {
           logger.warn(`⚠️ Skipping invalid event file: ${file} (missing name or execute function)`);
           continue;

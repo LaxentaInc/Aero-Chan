@@ -20,10 +20,11 @@ async function loadCommandsRecursive(directory: any, commandCollection: any) {
     const fullPath = path.resolve(directory, file.name);
     if (file.isDirectory()) {
       await loadCommandsRecursive(fullPath, commandCollection);
-    } else if (file.name.endsWith('.js')) {
+    } else if (file.name.endsWith('.ts')) {
       try {
         delete require.cache[require.resolve(fullPath)]; // Clear cache
-        const command = require(fullPath);
+        const rawCommand = require(fullPath);
+        const command = rawCommand.default || rawCommand;
         const commandName = command.data?.name || command.name;
         if (!commandName) {
           console.error(red(`Command name missing in: ${fullPath}. Skipping...`));
