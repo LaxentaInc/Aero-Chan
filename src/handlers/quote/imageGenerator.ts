@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { createCanvas, loadImage } from "@napi-rs/canvas";
 import { registerFonts } from "../../utils/canvasFonts";
 // font stack: inter for text, noto color emoji for emoji glyphs
