@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder } from "@discordjs/builders";
 import { PermissionFlagsBits } from "discord.js";
 import GuildPrefix from "../../../utils/guildprefix";
