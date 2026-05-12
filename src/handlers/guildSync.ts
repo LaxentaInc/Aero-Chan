@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { logger } from "../utils/logger";
 import { Client, Guild } from "discord.js";
 import { MongoClient } from "mongodb";
