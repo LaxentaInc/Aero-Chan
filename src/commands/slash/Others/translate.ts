@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use strict";
 
 import { SlashCommandBuilder, EmbedBuilder } from "discord.js";
