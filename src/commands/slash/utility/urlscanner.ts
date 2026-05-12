@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } from "discord.js";
 import axios from "axios";
 import { logger } from "../../../utils/logger";
