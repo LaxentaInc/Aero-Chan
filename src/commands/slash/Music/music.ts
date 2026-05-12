@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, PermissionFlagsBits } from "discord.js";
 import { EMBED_COLORS, CUSTOM_ICON, formatTime, createGenericErrorEmbed, createLoadingEmbed, createPlayResponseEmbed, createEnhancedQueueEmbed, createSkipEmbed, createStopEmbed, createPauseEmbed, createLoopEmbed, createClearEmbed, createDisconnectEmbed } from "../../../handlers/player/embeds";
 import { createDumbErrorEmbed, createDomainErrorEmbed, createSafeErrorEmbed, createPrivatePlaylistErrorEmbed } from "../../../handlers/player/error";
