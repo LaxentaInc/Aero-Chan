@@ -67,7 +67,7 @@ function loadAllButtons(moduleName: any) {
  */
 function saveButtons(moduleName: any, guildId: any, newButtons: any) {
   const filePath = getFilePath(moduleName, guildId);
-  let data = {};
+  let data: any = {};
   try {
     if (fs.existsSync(filePath)) {
       data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -105,7 +105,8 @@ function getValidButtons(moduleName: any) {
   const valid = [];
   const now = Date.now();
   for (const [guildId, buttons] of all.entries()) {
-    for (const [customId, meta] of Object.entries(buttons)) {
+    for (const [customId, _meta] of Object.entries(buttons as any)) {
+      const meta = _meta as any;
       if (!meta.expiresAt || meta.expiresAt > now) {
         valid.push({
           ...meta,
