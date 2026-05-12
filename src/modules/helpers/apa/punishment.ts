@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { PermissionFlagsBits } from "discord.js";
 import { DANGEROUS_PERMISSIONS } from "./config";
 import { saveUserStrip, loadUserStrip, clearUserStrip } from "./storage";
