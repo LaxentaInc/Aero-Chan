@@ -88,7 +88,7 @@ function createControlButtons(player: any, disabled: boolean = false) {
   const row2 = new ActionRowBuilder().addComponents(
     new ButtonBuilder().setCustomId('music_pause_resume').setLabel(player.paused ? 'Resume' : 'Pause').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
     new ButtonBuilder().setCustomId('music_skip').setLabel('Skip').setStyle(ButtonStyle.Primary).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_like').setLabel('Like').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
+    // new ButtonBuilder().setCustomId('music_like').setLabel('Like').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
   );
 
   const row3 = new ActionRowBuilder().addComponents(
