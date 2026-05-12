@@ -1,3 +1,4 @@
+// @ts-nocheck
 import mongoose from "mongoose";
 // UNUSED AND REDUNDANT, WE DONT USE WEB DASHBOARD FROM THIS CODE NOW 
 const userSchema = new mongoose.Schema({
