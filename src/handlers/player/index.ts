@@ -1,6 +1,6 @@
 import { initializeManager, createPlayer, getPlayer, getNode } from "./manager";
 import { searchTrack, searchTrackAlternative, smartSearch, normalizeTrack } from "./search";
-import { playTrack, skipTrack, stopMusic, toggleLoop, showQueue, clearQueue, displaySearchResults, handleButtonInteraction, cleanupCollector, cleanupSearchCollector } from "./controls";
+import { playTrack, skipTrack, stopMusic, toggleLoop, showQueue, clearQueue, displaySearchResults, handleComponentInteraction, cleanupCollector, cleanupSearchCollector } from "./controls";
 import { sendNowPlayingEmbed, sendAutoNowPlayingEmbed, setupPlayerEvents } from "./events";
 import { EMBED_COLORS, CUSTOM_ICON, SOURCE_INFO, formatTime, createControlButtons, createNowPlayingEmbed, createSearchEmbed, createTrackAddedEmbed, createQueueEndEmbed, createQueueEmbed, createErrorEmbed } from "./embeds";
 /**

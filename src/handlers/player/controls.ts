@@ -178,56 +178,85 @@ function clearQueue(player: any) {
 }
 
 /**
- * Handle button interactions
+ * Handle component interactions
  */
-async function handleButtonInteraction(buttonInteraction: any, player: any, message: any, client: any) {
+async function handleComponentInteraction(interaction: any, player: any, message: any, client: any) {
   // Fetch fresh player to avoid stale state in closures
-  const freshPlayer = getPlayer(client, buttonInteraction.guild.id);
+  const freshPlayer = getPlayer(client, interaction.guild.id);
   if (!freshPlayer) {
-    return await buttonInteraction.reply({
+    return await interaction.reply({
       content: '❌ Player session expired or not found.',
       ephemeral: true
     });
   }
-  const member = buttonInteraction.guild.members.cache.get(buttonInteraction.user.id) as any;
+  const member = interaction.guild.members.cache.get(interaction.user.id) as any;
   const memberVoice = member?.voice?.channelId;
-  const botVoice = buttonInteraction.guild.members.me?.voice?.channelId;
+  const botVoice = interaction.guild.members.me?.voice?.channelId;
   if (memberVoice !== botVoice) {
-    return await buttonInteraction.reply({
+    return await interaction.reply({
       content: 'You need to be in the same voice channel as me to use controls!',
       ephemeral: true
     });
   }
-  switch (buttonInteraction.customId) {
+
+  // Handle Dropdowns
+  if (interaction.isStringSelectMenu()) {
+    if (interaction.customId === 'music_filter') {
+      const filter = interaction.values[0];
+      const fm = freshPlayer.filterManager;
+      switch (filter) {
+        case 'clear': await fm.resetFilters(); break;
+        case 'nightcore': await fm.toggleNightcore(); break;
+        case 'vaporwave': await fm.toggleVaporwave(); break;
+        case 'karaoke': await fm.toggleKaraoke(); break;
+        case 'rotation': await fm.toggleRotation(); break;
+        case 'tremolo': await fm.toggleTremolo(); break;
+        case 'vibrato': await fm.toggleVibrato(); break;
+        case 'lowpass': await fm.toggleLowPass(); break;
+      }
+      const updatedButtons = createControlButtons(freshPlayer);
+      await interaction.update({ components: updatedButtons });
+      await interaction.followUp({ content: `Applied filter: **${filter}**`, ephemeral: true });
+    }
+    return;
+  }
+
+  if (!interaction.isButton()) return;
+
+  switch (interaction.customId) {
     case 'music_pause_resume':
       const wasPaused = freshPlayer.paused;
-      await freshPlayer.setPause(!wasPaused);
+      if (wasPaused) {
+        await freshPlayer.resume();
+      } else {
+        await freshPlayer.pause();
+      }
       console.log(`   ${wasPaused ? 'Resumed' : 'Paused'} playback`);
       const newControlButtons = createControlButtons(freshPlayer);
-      await buttonInteraction.update({
+      await interaction.update({
         components: newControlButtons
       });
       break;
     case 'music_skip':
-      await skipTrack(freshPlayer, buttonInteraction);
+      await skipTrack(freshPlayer, interaction);
       break;
     case 'music_stop':
-      await stopMusic(freshPlayer, buttonInteraction, message);
+      await stopMusic(freshPlayer, interaction, message);
       break;
     case 'music_loop':
-      await toggleLoop(freshPlayer, buttonInteraction, message);
+      await toggleLoop(freshPlayer, interaction, message);
       break;
     case 'music_queue':
-      await showQueue(freshPlayer, buttonInteraction);
+      await showQueue(freshPlayer, interaction);
       break;
     case 'music_autoplay':
       const isAutoplay = freshPlayer.get("autoplay");
       freshPlayer.set("autoplay", !isAutoplay);
       const updatedButtons = createControlButtons(freshPlayer);
-      await buttonInteraction.update({
+      await interaction.update({
         components: updatedButtons
       });
-      await buttonInteraction.followUp({
+      await interaction.followUp({
         content: `Autoplay is now **${!isAutoplay ? 'ON' : 'OFF'}**`,
         ephemeral: true
       });
@@ -235,15 +264,38 @@ async function handleButtonInteraction(buttonInteraction: any, player: any, mess
     case 'music_shuffle':
       if (freshPlayer.queue.tracks.length > 1) {
         freshPlayer.queue.shuffle();
-        await buttonInteraction.reply({
+        await interaction.reply({
           content: 'Queue shuffled!',
           ephemeral: true
         });
       } else {
-        await buttonInteraction.reply({
+        await interaction.reply({
           content: 'Not enough tracks in queue to shuffle!',
           ephemeral: true
         });
+      }
+      break;
+    case 'music_rewind':
+      await freshPlayer.seek(Math.max(0, freshPlayer.position - 15000));
+      await interaction.reply({ content: 'Rewinded 15 seconds.', ephemeral: true });
+      break;
+    case 'music_forward':
+      await freshPlayer.seek(freshPlayer.position + 15000);
+      await interaction.reply({ content: 'Skipped forward 15 seconds.', ephemeral: true });
+      break;
+    case 'music_lyrics':
+      try {
+        const lyrics = await freshPlayer.getLyrics();
+        if (lyrics && lyrics.text) {
+          await interaction.reply({ content: `**Lyrics for ${freshPlayer.queue.current?.title || 'Current Track'}**\n\n${lyrics.text.substring(0, 1900)}`, ephemeral: true });
+        } else if (lyrics && lyrics.lines && lyrics.lines.length > 0) {
+          const lines = lyrics.lines.map((l: any) => l.line).join('\n');
+          await interaction.reply({ content: `**Lyrics for ${freshPlayer.queue.current?.title || 'Current Track'}**\n\n${lines.substring(0, 1900)}`, ephemeral: true });
+        } else {
+          await interaction.reply({ content: '❌ No lyrics found for this track on the lavalink node.', ephemeral: true });
+        }
+      } catch (e) {
+        await interaction.reply({ content: '❌ Failed to fetch lyrics.', ephemeral: true });
       }
       break;
   }
@@ -358,7 +410,7 @@ async function displaySearchResults(client: any, interaction: any, tracks: any, 
     throw error;
   }
 }
-export { playTrack, skipTrack, stopMusic, toggleLoop, showQueue, clearQueue, handleButtonInteraction, displaySearchResults, cleanupCollector, cleanupSearchCollector, activeCollectors, searchCollectors };
+export { playTrack, skipTrack, stopMusic, toggleLoop, showQueue, clearQueue, handleComponentInteraction, displaySearchResults, cleanupCollector, cleanupSearchCollector, activeCollectors, searchCollectors };
 export default {
   playTrack,
   skipTrack,
@@ -366,7 +418,7 @@ export default {
   toggleLoop,
   showQueue,
   clearQueue,
-  handleButtonInteraction,
+  handleComponentInteraction,
   displaySearchResults,
   cleanupCollector,
   cleanupSearchCollector,

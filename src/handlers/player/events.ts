@@ -153,6 +153,10 @@ function setupPlayerEvents(client: any) {
     try {
       if (!track || !player.textChannelId) return;
 
+      try {
+        await player.setSponsorBlock(['sponsor', 'selfpromo', 'interaction', 'intro', 'outro', 'music_offtopic']);
+      } catch (e) {}
+
       // ALWAYS send new Now Playing embed when a track starts
       // This ensures skip works correctly
       await sendAutoNowPlayingEmbed(client, player, track);
