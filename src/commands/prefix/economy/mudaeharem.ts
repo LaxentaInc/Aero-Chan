@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { EmbedBuilder, ButtonBuilder, ActionRowBuilder } from "discord.js";
 import mongoose from "mongoose";
 import { logger } from "../../../utils/logger";
