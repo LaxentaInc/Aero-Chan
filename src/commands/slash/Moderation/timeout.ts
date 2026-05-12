@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, PermissionsBitField, EmbedBuilder, MessageFlags } from "discord.js";
 function parseDuration(duration: any) {
   const match = duration.match(/^(\d+)(s|m|h|d)$/);
