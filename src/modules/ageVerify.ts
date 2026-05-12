@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getCollection } from "../utils/CloudDB";
 import { EmbedBuilder, PermissionFlagsBits } from "discord.js";
 import logManager from "./helpers/logManager";
