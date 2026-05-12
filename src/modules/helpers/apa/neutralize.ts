@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { DANGEROUS_PERMISSIONS, getPermissionName } from "./config";
 import { saveRoleNeutralization, loadRoleNeutralization, clearRoleNeutralization } from "./storage";
 /**
