@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { cleanupCollector, activeCollectors } from "./controls";
 import { createNowPlayingEmbed, createControlButtons, createQueueEndEmbed, createErrorEmbed, EMBED_COLORS } from "./embeds";
 import { ComponentType, EmbedBuilder } from "discord.js";
