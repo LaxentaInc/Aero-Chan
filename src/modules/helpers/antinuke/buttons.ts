@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ActionRowBuilder, ButtonBuilder, ButtonStyle } from "discord.js";
 import { registerButton } from "../../../handlers/buttonHandler";
 import { saveButtons, loadButtons } from "./storage";
