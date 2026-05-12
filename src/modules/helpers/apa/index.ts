@@ -55,8 +55,8 @@ class AntiPermissionAbuse {
     // Cleanup punished users periodically
     this.cleanupInterval = setInterval(() => this.cleanupPunishedUsers(), 60000);
 
-    // Sync configs periodically
-    this.syncInterval = setInterval(() => this.syncConfigs(), 60000);
+    // Sync configs periodically (30 minutes)
+    this.syncInterval = setInterval(() => this.syncConfigs(), 1800000);
 
     // Buttons are now registered in setClient to ensure DB/Client readiness
 

@@ -39,7 +39,7 @@ class AntiRaidManager {
     constructor() {
         this.discoverModules();
         void this.initMongoDB();
-        this.syncInterval = setInterval(() => { void this.syncMainSettings(); }, 60000);
+        this.syncInterval = setInterval(() => { void this.syncMainSettings(); }, 1800000);
         console.log('[AntiRaid] Master system initialized');
     }
 

@@ -49,8 +49,8 @@ class AccountAgeProtectionModule {
     // no longer owns its own client — uses shared pool
     this.collection = null;
 
-    // sync configs every 60s instead of 10s — reduces db load
-    this.syncInterval = setInterval(() => this.syncConfigs(), 60000);
+    // sync configs every 30m instead of 60s — reduces db load
+    this.syncInterval = setInterval(() => this.syncConfigs(), 1800000);
 
     // Initialize MongoDB connection
     this.initMongoDB();

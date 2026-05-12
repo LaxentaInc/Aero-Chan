@@ -32,8 +32,8 @@ class MassActionProtectionModule {
     this.collection = null;
     this.client = discordClient;
 
-    // Sync configs every 10 seconds
-    this.syncInterval = setInterval(() => this.syncConfigs(), 60000);
+    // Sync configs every 30 minutes
+    this.syncInterval = setInterval(() => this.syncConfigs(), 1800000);
 
     // Clean old action tracking every 5 minutes
     this.cleanupInterval = setInterval(() => this.cleanupOldActions(), 300000);

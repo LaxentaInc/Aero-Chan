@@ -139,8 +139,8 @@ function startGuildSync(client: Client, mongoClient: MongoClient) {
   guildSyncInterval = setInterval(async () => {
     logger.info('⏰ Running scheduled guild sync...');
     await syncAllGuilds(client, mongoClient);
-  }, 2 * 60 * 1000);
-  logger.info('⏰ Guild sync scheduler started (2min intervals)');
+  }, 30 * 60 * 1000);
+  logger.info('⏰ Guild sync scheduler started (30min intervals)');
   return guildSyncInterval;
 }
 

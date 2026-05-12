@@ -28,8 +28,8 @@ class BotProtectionModule {
     this.db = null;
     this.collection = null;
 
-    // Sync configs every 10 seconds
-    this.syncInterval = setInterval(() => this.syncConfigs(), 60000);
+    // Sync configs every 30 minutes
+    this.syncInterval = setInterval(() => this.syncConfigs(), 1800000);
 
     // Initialize MongoDB connection
     this.initMongoDB();
