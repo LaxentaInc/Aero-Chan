@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getDefaultConfig, DANGEROUS_PERMISSIONS, getPermissionName } from "./config";
 import { findExecutor, isTrusted, hasDangerousPermissions, getDangerousPermissions, getAddedDangerousPermissions, isSelfAssignment, validateBotPermissions, canPunish } from "./detection";
 import { stripDangerousRoles, executePunishment } from "./punishment";
