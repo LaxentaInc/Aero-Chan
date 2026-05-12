@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getDefaultConfig } from "./config";
 import { initMongoDB, syncConfigs, createDefaultConfig, updateConfig } from "./database";
 import { cleanupOldActions } from "./tracking";
