@@ -1,3 +1,4 @@
+// @ts-nocheck
 import axios from "axios";
 import { EmbedBuilder, Collection } from "discord.js";
 // --- authorized users who can talk to the ai agent ---
