@@ -1,0 +1,360 @@
+﻿src/commands/context/Translate Message.ts(27,16): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ en: string; ja: string; ko: string; zh: string; es: string; fr: string; de: string; ru: string; ar: string; hi: string; pt: string; it: string; }'.
+  No index signature with a parameter of type 'string' was found on type '{ en: string; ja: string; ko: string; zh: string; es: string; fr: string; de: string; ru: string; ar: string; hi: string; pt: string; it: string; }'.
+src/commands/context/Translate Message.ts(31,65): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ en: string; ja: string; ko: string; zh: string; es: string; fr: string; de: string; ru: string; ar: string; hi: string; pt: string; it: string; }'.
+  No index signature with a parameter of type 'string' was found on type '{ en: string; ja: string; ko: string; zh: string; es: string; fr: string; de: string; ru: string; ar: string; hi: string; pt: string; it: string; }'.
+src/commands/prefix/economy/daily.ts(12,34): error TS18048: 'result.timeLeft' is possibly 'undefined'.
+src/commands/prefix/economy/mudae.ts(194,17): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ rolls: { max: number; cooldown: number; }; marriages: { max: number; cooldown: number; }; }'.
+src/commands/prefix/economy/mudae.ts(195,17): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ rolls: Map<any, any>; marriages: Map<any, any>; }'.
+src/commands/prefix/economy/mudae.ts(293,99): error TS2345: Argument of type '"Primary"' is not assignable to parameter of type 'ButtonStyle'.
+src/commands/prefix/economy/mudae.ts(328,136): error TS2345: Argument of type '"Success"' is not assignable to parameter of type 'ButtonStyle'.
+src/commands/prefix/economy/mudae.ts(329,90): error TS2345: Argument of type '"Danger"' is not assignable to parameter of type 'ButtonStyle'.
+src/commands/prefix/economy/mudaeharem.ts(165,17): error TS2345: Argument of type '"Primary"' is not assignable to parameter of type 'ButtonStyle'.
+src/commands/prefix/economy/mudaeharem.ts(165,168): error TS2345: Argument of type '"Secondary"' is not assignable to parameter of type 'ButtonStyle'.
+src/commands/prefix/economy/mudaeharem.ts(167,17): error TS2345: Argument of type '"Primary"' is not assignable to parameter of type 'ButtonStyle'.
+src/commands/prefix/economy/mudaeharem.ts(282,184): error TS2345: Argument of type '"Secondary"' is not assignable to parameter of type 'ButtonStyle'.
+src/commands/prefix/economy/work.ts(12,33): error TS18048: 'result.timeLeft' is possibly 'undefined'.
+src/commands/prefix/general/help.ts(50,21): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/prefix/general/help.ts(70,21): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/prefix/general/help.ts(89,19): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/prefix/general/help.ts(135,26): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.
+  No index signature with a parameter of type 'string' was found on type '{}'.
+src/commands/prefix/general/help.ts(154,7): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/prefix/general/help.ts(173,25): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/prefix/general/help.ts(193,16): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/prefix/general/poll.ts(41,37): error TS7006: Parameter 'opt' implicitly has an 'any' type.
+src/commands/prefix/general/urlscan.ts(115,136): error TS2345: Argument of type 'string' is not assignable to parameter of type 'ColorResolvable | null'.
+src/commands/prefix/general/urlscan.ts(140,22): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ US: string; GB: string; DE: string; FR: string; JP: string; CN: string; RU: string; BR: string; IN: string; CA: string; AU: string; KR: string; IT: string; ES: string; MX: string; NL: string; SE: string; SG: string; IE: string; FI: string; }'.
+src/commands/prefix/moderations/roleall.ts(28,49): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/commands/prefix/moderations/tempban.ts(161,17): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ s: number; sec: number; second: number; seconds: number; m: number; min: number; minute: number; minutes: number; h: number; hr: number; hour: number; hours: number; d: number; day: number; days: number; w: number; week: number; weeks: number; }'.
+src/commands/prefix/moderations/ticket.ts(10,51): error TS7006: Parameter 'channel' implicitly has an 'any' type.
+src/commands/prefix/moderations/ticket.ts(14,46): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/commands/prefix/moderations/ticket.ts(47,41): error TS2339: Property 'footer' does not exist on type 'EmbedBuilder'.
+src/commands/prefix/moderations/ticket.ts(58,29): error TS2339: Property 'setDisabled' does not exist on type 'AnyComponentBuilder'.
+  Property 'setDisabled' does not exist on type 'TextInputBuilder'.
+src/commands/prefix/moderations/ticket.ts(59,29): error TS2339: Property 'setDisabled' does not exist on type 'AnyComponentBuilder'.
+  Property 'setDisabled' does not exist on type 'TextInputBuilder'.
+src/commands/prefix/moderations/ticket.ts(76,7): error TS2552: Cannot find name 'unregisterButton'. Did you mean 'registerButton'?
+src/commands/prefix/moderations/ticket.ts(77,7): error TS2552: Cannot find name 'unregisterButton'. Did you mean 'registerButton'?
+src/commands/prefix/moderations/unban.ts(29,33): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/commands/prefix/moderations/whois.ts(69,16): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ online: string; idle: string; dnd: string; offline: string; }'.
+src/commands/slash/General/birthdays.ts(416,27): error TS2345: Argument of type '[ActionRowBuilder<AnyComponentBuilder>]' is not assignable to parameter of type 'RestOrArray<TextInputBuilder | APITextInputComponent | ActionRowBuilder<TextInputBuilder> | APIActionRowComponent<APITextInputComponent> | APILabelComponent | APITextDisplayComponent | LabelBuilder | TextDisplayBuilder>'.
+  Type '[ActionRowBuilder<AnyComponentBuilder>]' is not assignable to type '[(TextInputBuilder | APITextInputComponent | ActionRowBuilder<TextInputBuilder> | APIActionRowComponent<APITextInputComponent> | APILabelComponent | APITextDisplayComponent | LabelBuilder | TextDisplayBuilder)[]]'.
+    Type 'ActionRowBuilder<AnyComponentBuilder>' is missing the following properties from type '(TextInputBuilder | APITextInputComponent | ActionRowBuilder<TextInputBuilder> | APIActionRowComponent<APITextInputComponent> | APILabelComponent | APITextDisplayComponent | LabelBuilder | TextDisplayBuilder)[]': length, pop, push, concat, and 28 more.
+src/commands/slash/General/createserver.ts(15,16): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/slash/General/help.ts(51,17): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ moderation: string; utility: string; fun: string; music: string; admin: string; info: string; economy: string; leveling: string; }'.
+src/commands/slash/General/help.ts(79,21): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/slash/General/help.ts(99,21): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/slash/General/help.ts(118,19): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/slash/General/help.ts(168,26): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.
+  No index signature with a parameter of type 'string' was found on type '{}'.
+src/commands/slash/General/help.ts(185,23): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ moderation: string; utility: string; fun: string; music: string; admin: string; info: string; economy: string; leveling: string; }'.
+src/commands/slash/General/help.ts(186,26): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/slash/General/help.ts(215,7): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/slash/General/help.ts(233,25): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/slash/General/help.ts(259,16): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/commands/slash/General/pingself.ts(55,59): error TS7006: Parameter 'role' implicitly has an 'any' type.
+src/commands/slash/General/timer.ts(40,27): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ seconds: number; minutes: number; hours: number; days: number; }'.
+src/commands/slash/General/waifu.ts(45,11): error TS7034: Variable 'images' implicitly has type 'any[]' in some locations where its type cannot be determined.
+src/commands/slash/General/waifu.ts(49,13): error TS7034: Variable 'randomPages' implicitly has type 'any[]' in some locations where its type cannot be determined.
+src/commands/slash/General/waifu.ts(52,14): error TS7005: Variable 'randomPages' implicitly has an 'any[]' type.
+src/commands/slash/General/waifu.ts(83,7): error TS2322: Type 'any[]' is not assignable to type 'never[]'.
+  Type 'any' is not assignable to type 'never'.
+src/commands/slash/General/waifu.ts(83,35): error TS7005: Variable 'images' implicitly has an 'any[]' type.
+src/commands/slash/Moderation/ban.ts(18,37): error TS2339: Property 'flags' does not exist on type '{ embeds: EmbedBuilder[]; components: ActionRowBuilder<AnyComponentBuilder>[]; }'.
+src/commands/slash/Moderation/channel.ts(294,9): error TS18046: 'lockData' is of type 'unknown'.
+src/commands/slash/Moderation/channel.ts(295,25): error TS18046: 'lockData' is of type 'unknown'.
+src/commands/slash/Moderation/kick.ts(24,37): error TS2339: Property 'flags' does not exist on type '{ embeds: EmbedBuilder[]; components: ActionRowBuilder<AnyComponentBuilder>[]; }'.
+src/commands/slash/Moderation/reload.ts(44,16): error TS7023: 'findCommandFile' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.
+src/commands/slash/Moderation/reload.ts(50,19): error TS7022: 'found' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.
+src/commands/slash/Moderation/reload.ts(67,18): error TS7023: 'fuzzySearch' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.
+src/commands/slash/Moderation/reload.ts(69,15): error TS7034: Variable 'matches' implicitly has type 'any[]' in some locations where its type cannot be determined.
+src/commands/slash/Moderation/reload.ts(74,25): error TS7005: Variable 'matches' implicitly has an 'any[]' type.
+src/commands/slash/Moderation/reload.ts(103,140): error TS18046: 'cmd' is of type 'unknown'.
+src/commands/slash/Moderation/reload.ts(134,52): error TS7006: Parameter 'cmd' implicitly has an 'any' type.
+src/commands/slash/Moderation/tempban.ts(3,16): error TS7016: Could not find a declaration file for module 'ms'. 'C:/Users/MY-PC/Documents/Aero/ms.js' implicitly has an 'any' type.
+src/commands/slash/Moderation/timeout.ts(103,60): error TS7006: Parameter 'role' implicitly has an 'any' type.
+src/commands/slash/Moderation/unban.ts(31,33): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/commands/slash/Moderation/unban.ts(46,37): error TS2339: Property 'flags' does not exist on type '{ embeds: EmbedBuilder[]; components: ActionRowBuilder<AnyComponentBuilder>[]; }'.
+src/commands/slash/Moderation/whois.ts(52,16): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ online: string; idle: string; dnd: string; offline: string; }'.
+src/commands/slash/Music/music.ts(31,271): error TS2339: Property 'UseVoiceActivation' does not exist on type '{ readonly CreateInstantInvite: bigint; readonly KickMembers: bigint; readonly BanMembers: bigint; readonly Administrator: bigint; readonly ManageChannels: bigint; readonly ManageGuild: bigint; ... 45 more ...; readonly BypassSlowmode: bigint; }'.
+src/commands/slash/Nsfw/gallery.ts(70,39): error TS7006: Parameter 'tag' implicitly has an 'any' type.
+src/commands/slash/Nsfw/gallery.ts(74,39): error TS7006: Parameter 'tag' implicitly has an 'any' type.
+src/commands/slash/Nsfw/gallery.ts(78,37): error TS7006: Parameter 'tag' implicitly has an 'any' type.
+src/commands/slash/Others/bye.ts(83,24): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ bye_back: string; five_back: string; smile_back: string; }'.
+src/commands/slash/Others/bye.ts(91,109): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ bye_back: string; five_back: string; smile_back: string; }'.
+src/commands/slash/Others/cuddle.ts(29,9): error TS2322: Type 'any[]' is not assignable to type 'never[]'.
+  Type 'any' is not assignable to type 'never'.
+src/commands/slash/Others/hug.ts(31,9): error TS2322: Type 'any[]' is not assignable to type 'never[]'.
+  Type 'any' is not assignable to type 'never'.
+src/commands/slash/Others/kiss.ts(30,9): error TS2322: Type 'any[]' is not assignable to type 'never[]'.
+  Type 'any' is not assignable to type 'never'.
+src/commands/slash/Others/pout.ts(83,22): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ pout_back: string; pat_back: string; hug_back: string; }'.
+src/commands/slash/Others/ship.ts(31,9): error TS2322: Type 'any[]' is not assignable to type 'never[]'.
+  Type 'any' is not assignable to type 'never'.
+src/commands/slash/Others/ship.ts(126,7): error TS2339: Property 'textDrawingMode' does not exist on type 'SKRSContext2D'.
+src/commands/slash/Others/touch.ts(79,24): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ blush_back: string; kiss_back: string; happy_back: string; }'.
+src/commands/slash/Others/translate.ts(25,16): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ en: string; ja: string; ko: string; zh: string; es: string; fr: string; de: string; ru: string; ar: string; hi: string; pt: string; it: string; }'.
+  No index signature with a parameter of type 'string' was found on type '{ en: string; ja: string; ko: string; zh: string; es: string; fr: string; de: string; ru: string; ar: string; hi: string; pt: string; it: string; }'.
+src/commands/slash/Others/translate.ts(29,65): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ en: string; ja: string; ko: string; zh: string; es: string; fr: string; de: string; ru: string; ar: string; hi: string; pt: string; it: string; }'.
+  No index signature with a parameter of type 'string' was found on type '{ en: string; ja: string; ko: string; zh: string; es: string; fr: string; de: string; ru: string; ar: string; hi: string; pt: string; it: string; }'.
+src/commands/slash/Others/wave.ts(83,24): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ wave_back: string; five_back: string; smile_back: string; }'.
+src/commands/slash/utility/antiraid.ts(64,12): error TS18046: 'status.moduleCount' is of type 'unknown'.
+src/commands/slash/utility/antiraid.ts(74,59): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(o: { [s: string]: unknown; } | ArrayLike<unknown>): [string, unknown][]', gave the following error.
+    Argument of type 'unknown' is not assignable to parameter of type '{ [s: string]: unknown; } | ArrayLike<unknown>'.
+  Overload 2 of 2, '(o: {}): [string, any][]', gave the following error.
+    Argument of type 'unknown' is not assignable to parameter of type '{}'.
+src/commands/slash/utility/antiraid.ts(76,23): error TS18046: 'moduleStatus' is of type 'unknown'.
+src/commands/slash/utility/antiraid.ts(76,57): error TS18046: 'moduleStatus' is of type 'unknown'.
+src/commands/slash/utility/antiraid.ts(122,28): error TS18046: 'status.modules' is of type 'unknown'.
+src/commands/slash/utility/antiraid.ts(176,12): error TS18046: 'systemStats.totalModules' is of type 'unknown'.
+src/commands/slash/utility/antiraid.ts(180,12): error TS18046: 'systemStats.totalGuilds' is of type 'unknown'.
+src/commands/slash/utility/antiraid.ts(184,12): error TS18046: 'systemStats.enabledGuilds' is of type 'unknown'.
+src/commands/slash/utility/antiraid.ts(188,12): error TS18046: 'systemStats.disabledGuilds' is of type 'unknown'.
+src/commands/slash/utility/antiraid.ts(196,12): error TS18046: 'systemStats.moduleNames' is of type 'unknown'.
+src/commands/slash/utility/convert.ts(80,26): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | null' is not assignable to parameter of type 'string'.
+      Type 'null' is not assignable to type 'string'.
+src/commands/slash/utility/convert.ts(82,12): error TS2339: Property 'stderr' does not exist on type 'never'.
+  The intersection 'ChildProcessWithoutNullStreams & ChildProcessByStdio<Writable, Readable, Readable> & ... 7 more ... & ChildProcess' was reduced to 'never' because property 'stdin' has conflicting types in some constituents.
+src/commands/slash/utility/convert.ts(85,12): error TS2339: Property 'on' does not exist on type 'never'.
+  The intersection 'ChildProcessWithoutNullStreams & ChildProcessByStdio<Writable, Readable, Readable> & ... 7 more ... & ChildProcess' was reduced to 'never' because property 'stdin' has conflicting types in some constituents.
+src/commands/slash/utility/convert.ts(92,12): error TS2339: Property 'on' does not exist on type 'never'.
+  The intersection 'ChildProcessWithoutNullStreams & ChildProcessByStdio<Writable, Readable, Readable> & ... 7 more ... & ChildProcess' was reduced to 'never' because property 'stdin' has conflicting types in some constituents.
+src/commands/slash/utility/translateImage.ts(110,61): error TS7006: Parameter 'a' implicitly has an 'any' type.
+src/commands/slash/utility/translateImage.ts(172,22): error TS18048: 'result.original' is possibly 'undefined'.
+src/commands/slash/utility/translateImage.ts(172,54): error TS18048: 'result.original' is possibly 'undefined'.
+src/commands/slash/utility/translateImage.ts(174,21): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ en: string; ja: string; ko: string; zh: string; es: string; fr: string; de: string; ru: string; ar: string; hi: string; pt: string; it: string; }'.
+src/commands/slash/utility/translateImage.ts(225,16): error TS18048: 'result.original' is possibly 'undefined'.
+src/commands/slash/utility/translateImage.ts(225,48): error TS18048: 'result.original' is possibly 'undefined'.
+src/commands/slash/utility/translateImage.ts(227,15): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ en: string; ja: string; ko: string; zh: string; es: string; fr: string; de: string; ru: string; ar: string; hi: string; pt: string; it: string; }'.
+src/commands/slash/utility/urlscanner.ts(154,15): error TS2349: This expression is not callable.
+  Type 'never' has no call signatures.
+src/commands/slash/utility/urlscanner.ts(227,69): error TS2345: Argument of type '(current: any, total: any) => Promise<void>' is not assignable to parameter of type 'null | undefined'.
+src/commands/slash/utility/urlscanner.ts(230,174): error TS2345: Argument of type '{ current: number; total: any; }' is not assignable to parameter of type 'null | undefined'.
+src/commands/slash/utility/urlscanner.ts(294,10): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ US: string; GB: string; CA: string; AU: string; DE: string; FR: string; JP: string; CN: string; IN: string; BR: string; RU: string; KR: string; MX: string; IT: string; ES: string; NL: string; SE: string; NO: string; ... 6 more ...; CO: string; }'.
+src/commands/slash/utility/urlscanner.ts(339,23): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ 'jsdelivr.net': string; 'cdnjs.cloudflare.com': string; 'unpkg.com': string; 'googleapis.com': string; 'googletagmanager.com': string; 'google-analytics.com': string; 'facebook.com': string; 'twitter.com': string; ... 4 more ...; 'fonts.googleapis.com': string; }'.
+src/commands/slash/utility/urlscanner.ts(382,48): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ scanning: string; analyzing: string; processing: string; complete: string; error: string; warning: string; }'.
+src/commands/slash/utility/urlscanner.ts(384,37): error TS2339: Property 'current' does not exist on type 'never'.
+src/commands/slash/utility/urlscanner.ts(387,18): error TS2339: Property 'current' does not exist on type 'never'.
+src/commands/slash/utility/urlscanner.ts(407,155): error TS2345: Argument of type 'string' is not assignable to parameter of type 'ColorResolvable | null'.
+src/commands/slash/utility/urlscanner.ts(613,71): error TS2345: Argument of type '(current: any, total: any) => Promise<void>' is not assignable to parameter of type 'null | undefined'.
+src/commands/slash/utility/urlscanner.ts(616,176): error TS2345: Argument of type '{ current: number; total: any; }' is not assignable to parameter of type 'null | undefined'.
+src/commands/slash/utility/weather.ts(382,23): error TS2365: Operator '>' cannot be applied to types 'string' and 'number'.
+src/commands/slash/utility/weather.ts(385,41): error TS2345: Argument of type 'string' is not assignable to parameter of type 'number'.
+src/commands/slash/utility/weather.ts(385,58): error TS2365: Operator '>' cannot be applied to types 'string' and 'number'.
+src/commands/slash/utility/weather.ts(522,21): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ 'New Moon': string; 'Waxing Crescent': string; 'First Quarter': string; 'Waxing Gibbous': string; 'Full Moon': string; 'Waning Gibbous': string; 'Last Quarter': string; 'Waning Crescent': string; }'.
+src/commands/slash/utility/weather.ts(559,27): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ 'New Moon': string; 'Waxing Crescent': string; 'First Quarter': string; 'Waxing Gibbous': string; 'Full Moon': string; 'Waning Gibbous': string; 'Last Quarter': string; 'Waning Crescent': string; }'.
+src/commands/slash/utility/weather.ts(762,10): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ extreme: string; severe: string; moderate: string; minor: string; unknown: string; }'.
+src/commands/slash/utility/weather.ts(788,10): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ 'United States': string; 'United Kingdom': string; Canada: string; Australia: string; Germany: string; France: string; India: string; China: string; Japan: string; Brazil: string; Mexico: string; Spain: string; ... 7 more ...; Finland: string; }'.
+src/commands/slash/utility/weather.ts(799,21): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/commands/slash/utility/weather.ts(799,30): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/commands/slash/utility/weather.ts(875,24): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/commands/slash/utility/weather.ts(875,32): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/commands/slash/utility/weather.ts(957,7): error TS2554: Expected 3-4 arguments, but got 2.
+src/commands/slash/utility/weather.ts(977,7): error TS2554: Expected 3-4 arguments, but got 2.
+src/commands/slash/utility/weather.ts(997,7): error TS2554: Expected 3-4 arguments, but got 2.
+src/events/birthdays.ts(1,18): error TS7016: Could not find a declaration file for module 'node-cron'. 'C:/Users/MY-PC/Documents/Aero/node_modules/.pnpm/node-cron@3.0.3/node_modules/node-cron/src/node-cron.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/node-cron` if it exists or add a new declaration (.d.ts) file containing `declare module 'node-cron';`
+src/events/birthdays.ts(6,5): error TS7034: Variable 'Birthday' implicitly has type 'any' in some locations where its type cannot be determined.
+src/events/birthdays.ts(38,10): error TS7005: Variable 'Birthday' implicitly has an 'any' type.
+src/events/birthdays.ts(264,10): error TS7005: Variable 'Birthday' implicitly has an 'any' type.
+src/events/birthdays.ts(312,25): error TS2345: Argument of type '[ActionRowBuilder<AnyComponentBuilder>]' is not assignable to parameter of type 'RestOrArray<TextInputBuilder | APITextInputComponent | ActionRowBuilder<TextInputBuilder> | APIActionRowComponent<APITextInputComponent> | APILabelComponent | APITextDisplayComponent | LabelBuilder | TextDisplayBuilder>'.
+  Type '[ActionRowBuilder<AnyComponentBuilder>]' is not assignable to type '[(TextInputBuilder | APITextInputComponent | ActionRowBuilder<TextInputBuilder> | APIActionRowComponent<APITextInputComponent> | APILabelComponent | APITextDisplayComponent | LabelBuilder | TextDisplayBuilder)[]]'.
+    Type 'ActionRowBuilder<AnyComponentBuilder>' is missing the following properties from type '(TextInputBuilder | APITextInputComponent | ActionRowBuilder<TextInputBuilder> | APIActionRowComponent<APITextInputComponent> | APILabelComponent | APITextDisplayComponent | LabelBuilder | TextDisplayBuilder)[]': length, pop, push, concat, and 28 more.
+src/events/birthdays.ts(318,10): error TS7005: Variable 'Birthday' implicitly has an 'any' type.
+src/events/birthdays.ts(350,8): error TS7005: Variable 'Birthday' implicitly has an 'any' type.
+src/events/guildCreate.ts(23,47): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/events/guildCreate.ts(66,37): error TS2339: Property '_syncAutoModRules' does not exist on type 'SpamProtection'.
+src/events/guildCreate.ts(67,34): error TS2339: Property '_syncAutoModRules' does not exist on type 'SpamProtection'.
+src/events/guildMemberAdd.ts(32,52): error TS7006: Parameter 'entry' implicitly has an 'any' type.
+src/events/interactionCreate.ts(154,37): error TS2554: Expected 1 arguments, but got 2.
+src/events/messageCreate.ts(158,26): error TS2554: Expected 3 arguments, but got 2.
+src/events/messageCreate.ts(215,24): error TS2554: Expected 3 arguments, but got 2.
+src/events/modalSubmit.ts(32,20): error TS2339: Property 'error' does not exist on type '{ logger: { fatal: (...args: any[]) => void; error: (...args: any[]) => void; warn: (...args: any[]) => void; info: (...args: any[]) => void; debug: (...args: any[]) => void; }; handleError: (error: any, isFatal?: boolean) => void; }'.
+src/events/modalSubmit.ts(43,16): error TS2339: Property 'error' does not exist on type '{ logger: { fatal: (...args: any[]) => void; error: (...args: any[]) => void; warn: (...args: any[]) => void; info: (...args: any[]) => void; debug: (...args: any[]) => void; }; handleError: (error: any, isFatal?: boolean) => void; }'.
+src/events/modalSubmit.ts(63,29): error TS2345: Argument of type '[ActionRowBuilder<AnyComponentBuilder>]' is not assignable to parameter of type 'RestOrArray<TextInputBuilder | APITextInputComponent | ActionRowBuilder<TextInputBuilder> | APIActionRowComponent<APITextInputComponent> | APILabelComponent | APITextDisplayComponent | LabelBuilder | TextDisplayBuilder>'.
+  Type '[ActionRowBuilder<AnyComponentBuilder>]' is not assignable to type '[(TextInputBuilder | APITextInputComponent | ActionRowBuilder<TextInputBuilder> | APIActionRowComponent<APITextInputComponent> | APILabelComponent | APITextDisplayComponent | LabelBuilder | TextDisplayBuilder)[]]'.
+    Type 'ActionRowBuilder<AnyComponentBuilder>' is missing the following properties from type '(TextInputBuilder | APITextInputComponent | ActionRowBuilder<TextInputBuilder> | APIActionRowComponent<APITextInputComponent> | APILabelComponent | APITextDisplayComponent | LabelBuilder | TextDisplayBuilder)[]': length, pop, push, concat, and 28 more.
+src/events/modalSubmit.ts(69,18): error TS2339: Property 'error' does not exist on type '{ logger: { fatal: (...args: any[]) => void; error: (...args: any[]) => void; warn: (...args: any[]) => void; info: (...args: any[]) => void; debug: (...args: any[]) => void; }; handleError: (error: any, isFatal?: boolean) => void; }'.
+src/events/stickerDelete.ts(8,22): error TS2339: Property 'handleStickerDelete' does not exist on type 'AntiNuke'.
+src/handlers/eventHandler.ts(8,35): error TS2304: Cannot find name 'Client'.
+src/handlers/player/controls.ts(267,50): error TS2345: Argument of type 'string' is not assignable to parameter of type 'ColorResolvable | null'.
+src/handlers/player/controls.ts(286,50): error TS2345: Argument of type 'string' is not assignable to parameter of type 'ColorResolvable | null'.
+src/handlers/player/controls.ts(323,50): error TS2345: Argument of type 'string' is not assignable to parameter of type 'ColorResolvable | null'.
+src/handlers/player/embeds.ts(82,22): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ spotify: { icon: string; color: string; name: string; }; youtube: { icon: string; color: string; name: string; }; soundcloud: { icon: string; color: string; name: string; }; bandcamp: { icon: string; color: string; name: string; }; twitch: { ...; }; http: { ...; }; }'.
+src/handlers/player/embeds.ts(129,24): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ spotify: { icon: string; color: string; name: string; }; youtube: { icon: string; color: string; name: string; }; soundcloud: { icon: string; color: string; name: string; }; bandcamp: { icon: string; color: string; name: string; }; twitch: { ...; }; http: { ...; }; }'.
+src/handlers/player/embeds.ts(143,22): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ spotify: { icon: string; color: string; name: string; }; youtube: { icon: string; color: string; name: string; }; soundcloud: { icon: string; color: string; name: string; }; bandcamp: { icon: string; color: string; name: string; }; twitch: { ...; }; http: { ...; }; }'.
+src/handlers/player/embeds.ts(144,38): error TS2345: Argument of type 'string' is not assignable to parameter of type 'ColorResolvable | null'.
+src/handlers/player/embeds.ts(185,38): error TS2345: Argument of type 'string' is not assignable to parameter of type 'ColorResolvable | null'.
+src/handlers/player/embeds.ts(198,38): error TS2345: Argument of type 'string' is not assignable to parameter of type 'ColorResolvable | null'.
+src/handlers/player/embeds.ts(317,38): error TS2345: Argument of type 'string' is not assignable to parameter of type 'ColorResolvable | null'.
+src/handlers/player/embeds.ts(376,15): error TS2345: Argument of type 'string' is not assignable to parameter of type 'ColorResolvable | null'.
+src/handlers/player/events.ts(217,56): error TS2345: Argument of type 'string' is not assignable to parameter of type 'ColorResolvable | null'.
+src/handlers/player/search.ts(25,17): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ spotify: { icon: string; color: string; name: string; }; youtube: { icon: string; color: string; name: string; }; soundcloud: { icon: string; color: string; name: string; }; bandcamp: { icon: string; color: string; name: string; }; twitch: { ...; }; http: { ...; }; }'.
+src/handlers/player/search.ts(47,24): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ spotify: string; youtube: string; soundcloud: string; bandcamp: string; }'.
+  No index signature with a parameter of type 'string' was found on type '{ spotify: string; youtube: string; soundcloud: string; bandcamp: string; }'.
+src/handlers/player/search.ts(94,24): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ spotify: string; youtube: string; soundcloud: string; bandcamp: string; }'.
+  No index signature with a parameter of type 'string' was found on type '{ spotify: string; youtube: string; soundcloud: string; bandcamp: string; }'.
+src/handlers/quote/imageGenerator.ts(19,7): error TS2339: Property 'textDrawingMode' does not exist on type 'SKRSContext2D'.
+src/handlers/quote/storage.ts(89,14): error TS18046: 'quote' is of type 'unknown'.
+src/handlers/quote/storage.ts(91,49): error TS18046: 'quote' is of type 'unknown'.
+src/handlers/quote/storage.ts(97,49): error TS18046: 'quote' is of type 'unknown'.
+src/handlers/translations/translationHandler.ts(2,23): error TS7016: Could not find a declaration file for module 'translate-google-api'. 'C:/Users/MY-PC/Documents/Aero/node_modules/.pnpm/translate-google-api@1.0.4/node_modules/translate-google-api/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/translate-google-api` if it exists or add a new declaration (.d.ts) file containing `declare module 'translate-google-api';`
+src/handlers/translations/translationHandler.ts(184,7): error TS2322: Type 'unknown' is not assignable to type 'string'.
+src/handlers/translations/translationHandler.ts(199,11): error TS2322: Type 'unknown' is not assignable to type 'string'.
+src/handlers/translations/translationHandler.ts(240,27): error TS2339: Property 'from' does not exist on type '{ tld: string; to: string; }'.
+src/models/User.ts(40,36): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/models/User.ts(61,30): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/modules/helpers/ama/detection.ts(57,50): error TS7006: Parameter 'entry' implicitly has an 'any' type.
+src/modules/helpers/ama/index.ts(62,7): error TS2339: Property 'mongoClient' does not exist on type '{ collection: Collection<Document>; } | { collection: null; }'.
+src/modules/helpers/ama/index.ts(63,7): error TS2339: Property 'db' does not exist on type '{ collection: Collection<Document>; } | { collection: null; }'.
+src/modules/helpers/ama/index.ts(228,62): error TS2345: Argument of type '([userId, actions]: [any, any]) => { userId: any; actionCount: any; kicks: any; bans: any; }' is not assignable to parameter of type '(value: unknown, index: number, array: unknown[]) => { userId: any; actionCount: any; kicks: any; bans: any; }'.
+  Types of parameters '__0' and 'value' are incompatible.
+    Type 'unknown' is not assignable to type '[any, any]'.
+src/modules/helpers/ama/index.ts(288,13): error TS7034: Variable 'allActions' implicitly has type 'any[]' in some locations where its type cannot be determined.
+src/modules/helpers/ama/index.ts(297,14): error TS7005: Variable 'allActions' implicitly has an 'any[]' type.
+src/modules/helpers/ama/notification.ts(92,11): error TS2322: Type 'ActionRowBuilder<AnyComponentBuilder>[]' is not assignable to type 'never[]'.
+  Type 'ActionRowBuilder<AnyComponentBuilder>' is not assignable to type 'never'.
+src/modules/helpers/antinuke/buttons.ts(31,13): error TS18046: 'meta' is of type 'unknown'.
+src/modules/helpers/antinuke/buttons.ts(31,31): error TS18046: 'meta' is of type 'unknown'.
+src/modules/helpers/antinuke/buttons.ts(35,11): error TS2698: Spread types may only be created from object types.
+src/modules/helpers/antinuke/detection.ts(19,10): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ CHANNEL_DELETE: AuditLogEvent; CHANNEL_CREATE: AuditLogEvent; ROLE_DELETE: AuditLogEvent; EMOJI_DELETE: AuditLogEvent; WEBHOOK_CREATE: AuditLogEvent; WEBHOOK_UPDATE: AuditLogEvent; }'.
+src/modules/helpers/antinuke/detection.ts(56,39): error TS7006: Parameter 'e' implicitly has an 'any' type.
+src/modules/helpers/antinuke/detection.ts(118,12): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ CHANNEL_DELETE: any; CHANNEL_CREATE: any; ROLE_DELETE: any; EMOJI_DELETE: any; WEBHOOK_CREATE: any; WEBHOOK_UPDATE: any; }'.
+src/modules/helpers/antinuke/detection.ts(128,10): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ CHANNEL_DELETE: any; CHANNEL_CREATE: any; ROLE_DELETE: any; EMOJI_DELETE: any; WEBHOOK_CREATE: any; WEBHOOK_UPDATE: any; }'.
+src/modules/helpers/antinuke/index.ts(252,46): error TS2339: Property 'removedCount' does not exist on type '{ success: boolean; reason: string; hierarchyIssue: boolean; strippedCount?: undefined; kickedBot?: undefined; failedManagedRoles?: undefined; strippedRoles?: undefined; } | { success: boolean; ... 5 more ...; strippedRoles?: undefined; } | { ...; } | { ...; }'.
+  Property 'removedCount' does not exist on type '{ success: boolean; reason: string; hierarchyIssue: boolean; strippedCount?: undefined; kickedBot?: undefined; failedManagedRoles?: undefined; strippedRoles?: undefined; }'.
+src/modules/helpers/antinuke/index.ts(259,35): error TS2339: Property 'removedCount' does not exist on type '{ success: boolean; reason: string; hierarchyIssue: boolean; strippedCount?: undefined; kickedBot?: undefined; failedManagedRoles?: undefined; strippedRoles?: undefined; } | { success: boolean; ... 5 more ...; strippedRoles?: undefined; } | { ...; } | { ...; }'.
+  Property 'removedCount' does not exist on type '{ success: boolean; reason: string; hierarchyIssue: boolean; strippedCount?: undefined; kickedBot?: undefined; failedManagedRoles?: undefined; strippedRoles?: undefined; }'.
+src/modules/helpers/antinuke/notification.ts(26,10): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ CHANNEL_DELETE: string; CHANNEL_CREATE: string; ROLE_DELETE: string; EMOJI_DELETE: string; WEBHOOK_CREATE: string; WEBHOOK_UPDATE: string; }'.
+src/modules/helpers/antinuke/notification.ts(37,7): error TS7034: Variable 'components' implicitly has type 'any[]' in some locations where its type cannot be determined.
+src/modules/helpers/antinuke/notification.ts(38,7): error TS7034: Variable 'buttonMetas' implicitly has type 'any[]' in some locations where its type cannot be determined.
+src/modules/helpers/antinuke/notification.ts(174,5): error TS7005: Variable 'components' implicitly has an 'any[]' type.
+src/modules/helpers/antinuke/notification.ts(175,5): error TS7005: Variable 'buttonMetas' implicitly has an 'any[]' type.
+src/modules/helpers/antinuke/notification.ts(245,7): error TS2322: Type 'any[]' is not assignable to type 'never[]'.
+  Type 'any' is not assignable to type 'never'.
+src/modules/helpers/antinuke/punishment.ts(18,43): error TS2304: Cannot find name 'Guild'.
+src/modules/helpers/antinuke/punishment.ts(18,60): error TS2304: Cannot find name 'User'.
+src/modules/helpers/antinuke/punishment.ts(59,78): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ readonly CreateInstantInvite: bigint; readonly KickMembers: bigint; readonly BanMembers: bigint; readonly Administrator: bigint; readonly ManageChannels: bigint; readonly ManageGuild: bigint; ... 45 more ...; readonly BypassSlowmode: bigint; }'.
+src/modules/helpers/antinuke/punishment.ts(154,41): error TS2304: Cannot find name 'Guild'.
+src/modules/helpers/antinuke/punishment.ts(154,58): error TS2304: Cannot find name 'User'.
+src/modules/helpers/antinuke/punishment.ts(167,27): error TS2339: Property 'userAction' does not exist on type 'object'.
+src/modules/helpers/antinuke/punishment.ts(216,34): error TS2339: Property 'timeoutMinutes' does not exist on type 'object'.
+src/modules/helpers/antinuke/restoration.ts(44,71): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/modules/helpers/antinuke/restoration.ts(73,78): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/modules/helpers/antinuke/restoration.ts(116,21): error TS2339: Property 'parent' does not exist on type '{ name: any; type: any; reason: string; }'.
+src/modules/helpers/antinuke/restoration.ts(119,21): error TS2339: Property 'parent' does not exist on type '{ name: any; type: any; reason: string; }'.
+src/modules/helpers/antinuke/restoration.ts(123,19): error TS2339: Property 'position' does not exist on type '{ name: any; type: any; reason: string; }'.
+src/modules/helpers/antispam/index.ts(236,45): error TS7006: Parameter 'v' implicitly has an 'any' type.
+src/modules/helpers/antispam/notification.ts(196,9): error TS2322: Type 'ActionRowBuilder<AnyComponentBuilder>[]' is not assignable to type 'never[]'.
+  Type 'ActionRowBuilder<AnyComponentBuilder>' is not assignable to type 'never'.
+src/modules/helpers/antispam/notification.ts(305,9): error TS2322: Type 'ActionRowBuilder<AnyComponentBuilder>[]' is not assignable to type 'never[]'.
+  Type 'ActionRowBuilder<AnyComponentBuilder>' is not assignable to type 'never'.
+src/modules/helpers/apa/buttons.ts(27,13): error TS18046: 'meta' is of type 'unknown'.
+src/modules/helpers/apa/buttons.ts(27,31): error TS18046: 'meta' is of type 'unknown'.
+src/modules/helpers/apa/buttons.ts(31,11): error TS2698: Spread types may only be created from object types.
+src/modules/helpers/apa/config.ts(51,5): error TS2464: A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/modules/helpers/apa/config.ts(52,5): error TS2464: A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/modules/helpers/apa/config.ts(53,5): error TS2464: A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/modules/helpers/apa/config.ts(54,5): error TS2464: A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/modules/helpers/apa/config.ts(55,5): error TS2464: A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/modules/helpers/apa/config.ts(56,5): error TS2464: A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/modules/helpers/apa/config.ts(57,5): error TS2464: A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/modules/helpers/apa/config.ts(58,5): error TS2464: A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/modules/helpers/apa/config.ts(60,10): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+src/modules/helpers/apa/detection.ts(17,10): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ ROLE_CREATE: AuditLogEvent; ROLE_UPDATE: AuditLogEvent; ROLE_ASSIGN: AuditLogEvent; }'.
+src/modules/helpers/apa/detection.ts(35,46): error TS7006: Parameter 'entry' implicitly has an 'any' type.
+src/modules/helpers/apa/detection.ts(38,46): error TS7006: Parameter 'entry' implicitly has an 'any' type.
+src/modules/helpers/apa/index.ts(158,11): error TS7034: Variable 'dangerousPerms' implicitly has type 'any[]' in some locations where its type cannot be determined.
+src/modules/helpers/apa/index.ts(195,29): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ ROLE_CREATE: string; ROLE_UPDATE: string; ROLE_ASSIGN: string; }'.
+src/modules/helpers/apa/index.ts(204,18): error TS7005: Variable 'dangerousPerms' implicitly has an 'any[]' type.
+src/modules/helpers/apa/index.ts(216,63): error TS7005: Variable 'dangerousPerms' implicitly has an 'any[]' type.
+src/modules/helpers/apa/index.ts(246,17): error TS2304: Cannot find name 'notifyOwner'.
+src/modules/helpers/apa/index.ts(246,64): error TS7005: Variable 'dangerousPerms' implicitly has an 'any[]' type.
+src/modules/helpers/apa/index.ts(259,72): error TS7005: Variable 'dangerousPerms' implicitly has an 'any[]' type.
+src/modules/helpers/apa/index.ts(271,70): error TS7005: Variable 'dangerousPerms' implicitly has an 'any[]' type.
+src/modules/helpers/apa/index.ts(289,76): error TS7005: Variable 'dangerousPerms' implicitly has an 'any[]' type.
+src/modules/helpers/apa/index.ts(303,55): error TS7005: Variable 'dangerousPerms' implicitly has an 'any[]' type.
+src/modules/helpers/apa/index.ts(311,78): error TS7005: Variable 'dangerousPerms' implicitly has an 'any[]' type.
+src/modules/helpers/apa/index.ts(355,9): error TS2322: Type '{ success: boolean; action: string; reason?: undefined; } | { success: boolean; reason: any; action?: undefined; }' is not assignable to type '{ success: boolean; reason: string; }'.
+  Type '{ success: boolean; action: string; reason?: undefined; }' is not assignable to type '{ success: boolean; reason: string; }'.
+    Types of property 'reason' are incompatible.
+      Type 'undefined' is not assignable to type 'string'.
+src/modules/helpers/apa/index.ts(374,61): error TS7005: Variable 'dangerousPerms' implicitly has an 'any[]' type.
+src/modules/helpers/apa/index.ts(432,34): error TS2339: Property 'collection' does not exist on type 'AntiPermissionAbuse'.
+src/modules/helpers/apa/neutralize.ts(15,37): error TS2304: Cannot find name 'Role'.
+src/modules/helpers/apa/neutralize.ts(69,46): error TS2304: Cannot find name 'Guild'.
+src/modules/helpers/apa/notification.ts(23,10): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ ROLE_CREATE: string; ROLE_UPDATE: string; ROLE_ASSIGN: string; }'.
+src/modules/helpers/apa/notification.ts(35,10): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ ROLE_CREATE: string; ROLE_UPDATE: string; ROLE_ASSIGN: string; }'.
+src/modules/helpers/apa/notification.ts(200,9): error TS2353: Object literal may only specify known properties, and 'roleId' does not exist in type '{ customId: string; type: string; userId: any; guildId: any; ownerId: any; }'.
+src/modules/helpers/apa/notification.ts(225,11): error TS7034: Variable 'relatedMessages' implicitly has type 'any[]' in some locations where its type cannot be determined.
+src/modules/helpers/apa/notification.ts(256,9): error TS2322: Type 'ActionRowBuilder<AnyComponentBuilder>[]' is not assignable to type 'never[]'.
+  Type 'ActionRowBuilder<AnyComponentBuilder>' is not assignable to type 'never'.
+src/modules/helpers/apa/notification.ts(273,9): error TS7005: Variable 'relatedMessages' implicitly has an 'any[]' type.
+src/modules/helpers/apa/punishment.ts(17,43): error TS2304: Cannot find name 'Guild'.
+src/modules/helpers/apa/punishment.ts(17,60): error TS2304: Cannot find name 'User'.
+src/modules/helpers/apa/storage.ts(206,16): error TS18046: 'meta' is of type 'unknown'.
+src/modules/helpers/apa/storage.ts(206,34): error TS18046: 'meta' is of type 'unknown'.
+src/modules/helpers/apa/storage.ts(207,13): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.
+  No index signature with a parameter of type 'string' was found on type '{}'.
+src/modules/helpers/bot-protection/database.ts(74,7): error TS7053: Element implicitly has an 'any' type because expression of type '`config.${string}`' can't be used to index type '{}'.
+src/modules/helpers/bot-protection/database.ts(76,17): error TS2339: Property 'lastUpdated' does not exist on type '{}'.
+src/modules/helpers/bot-protection/index.ts(42,10): error TS2339: Property 'client' does not exist on type 'BotProtectionModule'.
+src/modules/helpers/bot-protection/index.ts(59,33): error TS2339: Property 'mongoClient' does not exist on type '{ collection: Collection<Document>; } | { collection: null; }'.
+  Property 'mongoClient' does not exist on type '{ collection: Collection<Document>; }'.
+src/modules/helpers/bot-protection/index.ts(60,24): error TS2339: Property 'db' does not exist on type '{ collection: Collection<Document>; } | { collection: null; }'.
+  Property 'db' does not exist on type '{ collection: Collection<Document>; }'.
+src/modules/helpers/bot-protection/index.ts(122,27): error TS2339: Property 'id' does not exist on type 'never'.
+src/modules/helpers/bot-protection/index.ts(123,33): error TS2339: Property 'username' does not exist on type 'never'.
+src/modules/helpers/bot-protection/index.ts(198,34): error TS2345: Argument of type 'string' is not assignable to parameter of type 'never'.
+src/modules/helpers/bot-protection/index.ts(213,9): error TS2322: Type 'string[]' is not assignable to type 'never[]'.
+  Type 'string' is not assignable to type 'never'.
+src/modules/helpers/bot-protection/index.ts(215,11): error TS2322: Type 'string[]' is not assignable to type 'never[]'.
+  Type 'string' is not assignable to type 'never'.
+src/modules/helpers/bot-protection/notification.ts(13,16): error TS2393: Duplicate function implementation.
+src/modules/helpers/bot-protection/notification.ts(72,16): error TS2393: Duplicate function implementation.
+src/modules/helpers/bot-protection/notification.ts(121,5): error TS2322: Type 'ActionRowBuilder<AnyComponentBuilder>[]' is not assignable to type 'never[]'.
+  Type 'ActionRowBuilder<AnyComponentBuilder>' is not assignable to type 'never'.
+src/modules/helpers/bot-protection/notification.ts(251,56): error TS2339: Property 'username' does not exist on type 'never'.
+src/modules/helpers/bot-protection/notification.ts(254,13): error TS2339: Property 'color' does not exist on type '{ title: string; description: string; fields: { name: string; value: any; inline: boolean; }[]; timestamp: Date; footer: { text: string; }; }'.
+src/modules/helpers/bot-protection/notification.ts(274,165): error TS2339: Property 'username' does not exist on type 'never'.
+src/modules/helpers/bot-protection/notification.ts(315,7): error TS2322: Type 'ActionRowBuilder<AnyComponentBuilder>[]' is not assignable to type 'never[]'.
+  Type 'ActionRowBuilder<AnyComponentBuilder>' is not assignable to type 'never'.
+src/modules/helpers/bot-protection/notification.ts(365,16): error TS2393: Duplicate function implementation.
+src/modules/helpers/bot-protection/notification.ts(420,16): error TS2393: Duplicate function implementation.
+src/modules/helpers/bot-protection/permissions.ts(12,9): error TS7034: Variable 'strippedPermissions' implicitly has type 'any[]' in some locations where its type cannot be determined.
+src/modules/helpers/bot-protection/permissions.ts(38,56): error TS7006: Parameter 'role' implicitly has an 'any' type.
+src/modules/helpers/bot-protection/permissions.ts(43,53): error TS2737: BigInt literals are not available when targeting lower than ES2020.
+src/modules/helpers/bot-protection/permissions.ts(87,5): error TS7005: Variable 'strippedPermissions' implicitly has an 'any[]' type.
+src/modules/helpers/GlobalButtonStorage.ts(78,8): error TS2339: Property 'buttons' does not exist on type '{}'.
+src/modules/helpers/GlobalButtonStorage.ts(79,14): error TS2339: Property 'buttons' does not exist on type '{}'.
+src/modules/helpers/GlobalButtonStorage.ts(85,25): error TS2339: Property 'buttons' does not exist on type '{}'.
+src/modules/helpers/GlobalButtonStorage.ts(86,14): error TS2339: Property 'buttons' does not exist on type '{}'.
+src/modules/helpers/GlobalButtonStorage.ts(86,44): error TS2339: Property 'buttons' does not exist on type '{}'.
+src/modules/helpers/GlobalButtonStorage.ts(87,19): error TS2339: Property 'buttons' does not exist on type '{}'.
+src/modules/helpers/GlobalButtonStorage.ts(109,12): error TS18046: 'meta' is of type 'unknown'.
+src/modules/helpers/GlobalButtonStorage.ts(109,30): error TS18046: 'meta' is of type 'unknown'.
+src/modules/helpers/GlobalButtonStorage.ts(111,11): error TS2698: Spread types may only be created from object types.
+src/modules/helpers/logManager.ts(256,9): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ CHANNEL_CREATE: { color: number; emoji: string; title: string; module: string; }; CHANNEL_DELETE: { color: number; emoji: string; title: string; module: string; }; CHANNEL_UPDATE: { color: number; emoji: string; title: string; module: string; }; ... 26 more ...; MODULE_ERROR: { ...; }; }'.
+src/modules/helpers/logManager.ts(259,5): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ CHANNEL_CREATE: { color: number; emoji: string; title: string; module: string; }; CHANNEL_DELETE: { color: number; emoji: string; title: string; module: string; }; CHANNEL_UPDATE: { color: number; emoji: string; title: string; module: string; }; ... 26 more ...; MODULE_ERROR: { ...; }; }'.
+src/modules/helpers/logManager.ts(285,46): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/modules/helpers/logManager.ts(297,45): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/modules/helpers/logManager.ts(340,45): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/modules/helpers/logManager.ts(360,40): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/modules/helpers/logManager.ts(408,20): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ CHANNEL_CREATE: { color: number; emoji: string; title: string; module: string; }; CHANNEL_DELETE: { color: number; emoji: string; title: string; module: string; }; CHANNEL_UPDATE: { color: number; emoji: string; title: string; module: string; }; ... 26 more ...; MODULE_ERROR: { ...; }; }'.
+src/modules/helpers/logManager.ts(557,5): error TS7031: Binding element 'embed' implicitly has an 'any' type.
+src/modules/helpers/logManager.ts(623,28): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ timeout: string; kick: string; ban: string; strip: string; }'.
+src/utils/AnimeListScraper.ts(100,7): error TS7034: Variable 'charLinks' implicitly has type 'any[]' in some locations where its type cannot be determined.
+src/utils/AnimeListScraper.ts(107,12): error TS7005: Variable 'charLinks' implicitly has an 'any[]' type.
+src/utils/AnimeListScraper.ts(121,15): error TS7005: Variable 'charLinks' implicitly has an 'any[]' type.
+src/utils/canvasFonts.ts(21,5): error TS7034: Variable 'registering' implicitly has type 'any' in some locations where its type cannot be determined.
+src/utils/canvasFonts.ts(32,11): error TS18048: 'res.statusCode' is possibly 'undefined'.
+src/utils/canvasFonts.ts(32,36): error TS18048: 'res.statusCode' is possibly 'undefined'.
+src/utils/canvasFonts.ts(63,7): error TS7005: Variable 'registering' implicitly has an 'any' type.
+src/utils/economyUtil.ts(155,32): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'Key'.
+src/utils/status.ts(88,18): error TS2339: Property 'url' does not exist on type '{ name: string; type: number; }'.
+src/utils/status.ts(125,12): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ 0: string; 1: string; 2: string; 3: string; 4: string; 5: string; }'.
+src/utils/ticketManager.ts(86,76): error TS18047: 'claimedBy' is possibly 'null'.
