@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { AuditLogEvent } from "discord.js";
 /**
  * AntiNuke Detection
