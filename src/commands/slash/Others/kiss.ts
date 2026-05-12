@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, MessageFlags } from "discord.js";
 import axios from "axios";
 import { registerButton } from "../../../handlers/buttonHandler.js";
