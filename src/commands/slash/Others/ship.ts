@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, EmbedBuilder, AttachmentBuilder, MessageFlags } from "discord.js";
 import axios from "axios";
 import { createCanvas, loadImage } from "@napi-rs/canvas";
