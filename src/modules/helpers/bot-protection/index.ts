@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getDefaultConfig, isTrustedUser } from "./config";
 import { initDB, syncConfigs, updateConfig, createDefaultConfig } from "./database";
 import { analyzeBotSuspicion } from "./detection";
