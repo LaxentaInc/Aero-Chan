@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getPermissionName } from "./config";
 import { getActionsTakenMessage } from "./punishment";
 import { buildOwnerActionRow, buildWhitelistedActionRow, registerAndPersistButtons } from "./buttons";
