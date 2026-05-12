@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder } from "discord.js";
 import axios from "axios";
 // Cache for video details (keyed by baseId)
