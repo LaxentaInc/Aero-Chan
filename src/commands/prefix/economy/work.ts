@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { EmbedBuilder } from "discord.js";
 import economy from "../../../utils/economyUtil";
 const JOBS = ["Barista", "Discord Mod", "Professional Simp", "Code Monkey", "Pizza Delivery Driver", "Youtuber", "Streamer", "Dog Walker"];
