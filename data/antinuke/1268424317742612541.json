@@ -105,11 +105,11 @@
         "name": "TEST",
         "color": 0,
         "permissions": "8",
-        "position": 9,
+        "position": 7,
         "hoist": true,
         "mentionable": true
       }
     ],
-    "updated": 1777337671931
+    "updated": 1778600973918
   }
 }

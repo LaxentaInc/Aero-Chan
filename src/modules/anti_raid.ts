@@ -62,8 +62,8 @@ class AntiRaidManager {
             for (const file of moduleFiles) {
                 try {
                     const modulePath = path.join(currentDir, file);
-                    // eslint-disable-next-line @typescript-eslint/no-require-imports
-                    const moduleExport = require(modulePath) as unknown;
+                    const rawExport = require(modulePath) as Record<string, unknown>;
+                    const moduleExport = (rawExport.default ? rawExport.default : rawExport) as unknown;
 
                     if (this.isValidModule(moduleExport)) {
                         const moduleName = file.replace(/\.(js|ts)$/, '');
@@ -94,7 +94,9 @@ class AntiRaidManager {
             typeof mod.getStatus === 'function' ||
             typeof mod.getConfig === 'function' ||
             typeof mod.handleBotJoin === 'function' ||
-            typeof mod.handleMemberJoin === 'function'
+            typeof mod.handleMemberJoin === 'function' ||
+            typeof mod.setClient === 'function' ||
+            typeof mod.toggleModule === 'function'
         );
     }
 

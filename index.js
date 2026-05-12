@@ -111,7 +111,7 @@ async function initializeBot() {
 
         // Initialize anti-raid system early
         const antiRaid = require('./src/modules/anti_raid');
-        antiRaid.setClient(client);
+        (antiRaid.default || antiRaid).setClient(client);
         logger.info("Anti-raid system initialized");
 
         client.prefixCommands = new Map();
@@ -186,7 +186,8 @@ async function initializeBot() {
                 // Initialize Lavalink now that client.user exists
                 try {
                     logger.info("Initializing Lavalink...");
-                    require('./src/handlers/lavalink')(client);
+                    const lavalinkInit = require('./src/handlers/lavalink');
+                    (lavalinkInit.default || lavalinkInit)(client);
                     logger.info("✅ Lavalink initialized successfully");
                 } catch (err) {
                     logger.error("❌ Failed to initialize Lavalink:", {

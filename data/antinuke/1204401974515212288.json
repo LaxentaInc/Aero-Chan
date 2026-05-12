@@ -71,7 +71,7 @@
         "name": "​👑🇰​​🇮​​🇳​​🇬​ ​🇴​​🇫​ ​🇨​​🇺​​🇷​​🇸​​🇪​​🇸​👑",
         "color": 15601423,
         "permissions": "0",
-        "position": 16,
+        "position": 12,
         "hoist": true,
         "mentionable": false
       },
@@ -80,7 +80,7 @@
         "name": "👑𝔰𝔭𝔢𝔠𝔦𝔞𝔩 𝔤𝔯𝔞𝔡𝔢👑",
         "color": 16777215,
         "permissions": "79543130024979",
-        "position": 15,
+        "position": 11,
         "hoist": true,
         "mentionable": true
       },
@@ -89,7 +89,7 @@
         "name": "new member (LVL.1)",
         "color": 1752220,
         "permissions": "0",
-        "position": 9,
+        "position": 5,
         "hoist": false,
         "mentionable": false
       },
@@ -98,7 +98,7 @@
         "name": "beginner (LVL.5)",
         "color": 3066993,
         "permissions": "0",
-        "position": 10,
+        "position": 6,
         "hoist": false,
         "mentionable": false
       },
@@ -107,7 +107,7 @@
         "name": "Below avarage (LVL.10)",
         "color": 0,
         "permissions": "0",
-        "position": 11,
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -116,7 +116,7 @@
         "name": "avarage (LVL.15)",
         "color": 0,
         "permissions": "0",
-        "position": 12,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -125,7 +125,7 @@
         "name": "above avarage (LVL.20)",
         "color": 1146986,
         "permissions": "0",
-        "position": 13,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -134,7 +134,7 @@
         "name": "Topper (LVL.30)",
         "color": 0,
         "permissions": "0",
-        "position": 14,
+        "position": 10,
         "hoist": false,
         "mentionable": false
       },
@@ -143,7 +143,7 @@
         "name": "moderator",
         "color": 0,
         "permissions": "0",
-        "position": 7,
+        "position": 3,
         "hoist": false,
         "mentionable": false
       },
@@ -152,11 +152,11 @@
         "name": "😊new friend 😊",
         "color": 15844367,
         "permissions": "0",
-        "position": 6,
+        "position": 2,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1777337671945
+    "updated": 1778600973948
   }
 }

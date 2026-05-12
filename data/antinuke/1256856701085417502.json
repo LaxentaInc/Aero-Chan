@@ -1,0 +1,442 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1464141437544435744",
+        "name": "˚ʚ🍑ɞ˚𝓡𝓾𝓵𝓮𝓼-✍˚ʚ🍑ɞ˚",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1499318495710806057",
+        "name": "🎊🎉🎂𝙷𝚊𝚙𝚙𝚢𝙱𝚒𝚛𝚝𝚑𝚍𝚊𝚢🎂🎊🎉",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1500420629696872489",
+        "name": "✨Anime✨🧚🏻‍♀️",
+        "type": 2,
+        "position": 2,
+        "parentId": "1499310520417783938"
+      },
+      {
+        "id": "1501982472106283098",
+        "name": "ayo-who-pinged🙄",
+        "type": 0,
+        "position": 0,
+        "parentId": "1501981911885549618"
+      },
+      {
+        "id": "1409851135933677689",
+        "name": "🎶🎵Music🎶🎵",
+        "type": 2,
+        "position": 0,
+        "parentId": "1499310520417783938"
+      },
+      {
+        "id": "1499629429058572408",
+        "name": "🌸🌹💋salon💄🧖🏻‍♀️💅🏻🌸",
+        "type": 0,
+        "position": 1,
+        "parentId": "1499332836962996326"
+      },
+      {
+        "id": "1464141208854073364",
+        "name": "₊˚ʚ 🍑 ɞ˚Greetings˚ʚ 🍑 ɞ˚",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1499633657156210849",
+        "name": "✅check-in👩🏻‍💻‼️",
+        "type": 0,
+        "position": 1,
+        "parentId": "1464141208854073364"
+      },
+      {
+        "id": "1501986938331070646",
+        "name": "send help",
+        "type": 2,
+        "position": 0,
+        "parentId": "1501981911885549618"
+      },
+      {
+        "id": "1499310520417783938",
+        "name": "₊˚ʚ 🍑 ɞ˚La El Studio˚ʚ 🍑 ɞ˚",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1499645165978124318",
+        "name": "✧･ﾟ✧✿24-7✿✧･ﾟ✧",
+        "type": 0,
+        "position": 0,
+        "parentId": "1499310520417783938"
+      },
+      {
+        "id": "1499468976835789033",
+        "name": "👥welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1464141208854073364"
+      },
+      {
+        "id": "1499308443960348707",
+        "name": "❌🚯whatnot2do🚱❌",
+        "type": 0,
+        "position": 0,
+        "parentId": "1499311830160375808"
+      },
+      {
+        "id": "1499332836962996326",
+        "name": "₊˚ʚ 🍑 ɞ˚Ladies˚ʚ 🍑 ɞ˚",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1499311830160375808",
+        "name": "₊˚ʚ 🍑 ɞ˚La El Chats˚ʚ 🍑 ɞ˚",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1499758313116667914",
+        "name": "Pokemon Unite 💫",
+        "type": 2,
+        "position": 2,
+        "parentId": "1471756326756552808"
+      },
+      {
+        "id": "1499313437900013598",
+        "name": "🎭🤹🏻khidding-around🦆🎭",
+        "type": 0,
+        "position": 1,
+        "parentId": "1499311830160375808"
+      },
+      {
+        "id": "1499312811858198528",
+        "name": "🙆🏻‍♂️man-cave🦖",
+        "type": 0,
+        "position": 0,
+        "parentId": "1499332917032259747"
+      },
+      {
+        "id": "1471764988346630158",
+        "name": "Emojis",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1499466966073868460",
+        "name": "Voice Chat 🎤🎧",
+        "type": 2,
+        "position": 0,
+        "parentId": "1499311830160375808"
+      },
+      {
+        "id": "1501982712334909571",
+        "name": "brainrot-central🤯",
+        "type": 0,
+        "position": 2,
+        "parentId": "1501981911885549618"
+      },
+      {
+        "id": "1499310734721548298",
+        "name": "stickerss♡٩-˃▿˂-۶♡",
+        "type": 0,
+        "position": 0,
+        "parentId": "1471764988346630158"
+      },
+      {
+        "id": "1499467181354778754",
+        "name": "Da Doods💪🏻",
+        "type": 2,
+        "position": 0,
+        "parentId": "1499332917032259747"
+      },
+      {
+        "id": "1499332917032259747",
+        "name": "₊˚ʚ 🍑 ɞ˚Gentlemen˚ʚ 🍑 ɞ˚",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1499297233961615411",
+        "name": "R. E. P. O",
+        "type": 2,
+        "position": 1,
+        "parentId": "1471756326756552808"
+      },
+      {
+        "id": "1499467124555517953",
+        "name": "🙆🏻‍♀️👑chicas👑",
+        "type": 2,
+        "position": 0,
+        "parentId": "1499332836962996326"
+      },
+      {
+        "id": "1499629085234696193",
+        "name": "🔊sports",
+        "type": 0,
+        "position": 1,
+        "parentId": "1499332917032259747"
+      },
+      {
+        "id": "1501981911885549618",
+        "name": "Obiwan's Room",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1499312172646273084",
+        "name": "🫖peach-tea🍵☕🧋",
+        "type": 0,
+        "position": 0,
+        "parentId": "1499332836962996326"
+      },
+      {
+        "id": "1499633776601337946",
+        "name": "づ｡◕‿‿◕｡づpeachi-intros",
+        "type": 0,
+        "position": 2,
+        "parentId": "1464141208854073364"
+      },
+      {
+        "id": "1471756326756552808",
+        "name": "₊˚ʚ 🍑 ɞ˚ Pew Pew Pew🔫 ˚ʚ 🍑 ɞ˚",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1499748487439323136",
+        "name": "owo",
+        "type": 0,
+        "position": 3,
+        "parentId": "1464141208854073364"
+      },
+      {
+        "id": "1499467768238440488",
+        "name": "Peachi sproutling",
+        "type": 2,
+        "position": 0,
+        "parentId": "1464141208854073364"
+      },
+      {
+        "id": "1501982558886301886",
+        "name": "sleep-deprived😪",
+        "type": 0,
+        "position": 1,
+        "parentId": "1501981911885549618"
+      },
+      {
+        "id": "1499344606091939890",
+        "name": "color-update",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1499457911179579512",
+        "name": "🕹️🎯other-games",
+        "type": 0,
+        "position": 1,
+        "parentId": "1471756326756552808"
+      },
+      {
+        "id": "1499479322929664130",
+        "name": "🎮✧vibe-n-game✧🎮",
+        "type": 0,
+        "position": 0,
+        "parentId": "1471756326756552808"
+      },
+      {
+        "id": "1471765619484528674",
+        "name": "emotes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1471764988346630158"
+      },
+      {
+        "id": "1499629694486712472",
+        "name": "🎥Theater🍿🥨",
+        "type": 2,
+        "position": 1,
+        "parentId": "1499310520417783938"
+      },
+      {
+        "id": "1499467347486969896",
+        "name": "Gaming VC 🎧🎮",
+        "type": 2,
+        "position": 0,
+        "parentId": "1471756326756552808"
+      },
+      {
+        "id": "1499666528889471016",
+        "name": "🛞🏎️The Car Garage🏎️🛞",
+        "type": 11,
+        "parentId": "1499312811858198528"
+      },
+      {
+        "id": "1502160940622155896",
+        "name": "🃏 ♣️ ♦️Cards ♦️ ♣️ 🃏",
+        "type": 11,
+        "parentId": "1499312811858198528"
+      },
+      {
+        "id": "1499676923607912508",
+        "name": "/birthday set date (Month ##)",
+        "type": 11,
+        "parentId": "1499318495710806057"
+      },
+      {
+        "id": "1499347376383590600",
+        "name": "Hex Colors",
+        "type": 11,
+        "parentId": "1499344606091939890"
+      },
+      {
+        "id": "1499740430412021780",
+        "name": "Play Cards, Golf, Shooting Game, etc",
+        "type": 11,
+        "parentId": "1499457911179579512"
+      },
+      {
+        "id": "1499663910775820338",
+        "name": "R . E . P . O",
+        "type": 11,
+        "parentId": "1499479322929664130"
+      },
+      {
+        "id": "1499665539109355540",
+        "name": "Go to website:      jackbox.tv     |     Enter (Room Code) shown on Stream",
+        "type": 11,
+        "parentId": "1499479322929664130"
+      },
+      {
+        "id": "1499679808383090821",
+        "name": "Peachy Trivia Hub",
+        "type": 11,
+        "parentId": "1499479322929664130"
+      },
+      {
+        "id": "1499757429792182455",
+        "name": "Pokemon Unite: Let's Rank Up!",
+        "type": 11,
+        "parentId": "1499479322929664130"
+      },
+      {
+        "id": "1499786888318287892",
+        "name": "Beauty • Glam • Skincare • Glow Up!",
+        "type": 11,
+        "parentId": "1499629429058572408"
+      },
+      {
+        "id": "1502161498376503336",
+        "name": "🃏 ♣️ ♦️Cards ♦️ ♣️ 🃏",
+        "type": 11,
+        "parentId": "1499629429058572408"
+      },
+      {
+        "id": "1499670462853152818",
+        "name": "Drop your playlist!",
+        "type": 11,
+        "parentId": "1499645165978124318"
+      },
+      {
+        "id": "1499671811334471841",
+        "name": "Movie Watchlist",
+        "type": 11,
+        "parentId": "1499645165978124318"
+      },
+      {
+        "id": "1499975728605958164",
+        "name": "Anime Weeboos",
+        "type": 11,
+        "parentId": "1499645165978124318"
+      },
+      {
+        "id": "1499751396289806457",
+        "name": "Text Emojis!",
+        "type": 11,
+        "parentId": "1499748487439323136"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1487990239778701473",
+        "name": "Peach Sprouts",
+        "color": 10038562,
+        "permissions": "39719961873985",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1499674298561069096",
+        "name": "USER-1426724125421994115",
+        "color": 16738004,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1501983093286764875",
+        "name": "KenEnergy",
+        "color": 3066993,
+        "permissions": "1827287518928449",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1499301206441590884",
+        "name": "PeachiBroista💁🏻🏋🏻‍♂️🧰🔫",
+        "color": 3447003,
+        "permissions": "692565732482625",
+        "position": 35,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1499301702845595728",
+        "name": "PeachiBabes 💕 👑 💅🏻🌸",
+        "color": 15277667,
+        "permissions": "692565732482625",
+        "position": 34,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1409850362055229541",
+        "name": "Peachiboo Elite",
+        "color": 7419530,
+        "permissions": "8864262742605691",
+        "position": 43,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1499317483071602729",
+        "name": "Happy birthday 🎉 🎊 🎂",
+        "color": 1752220,
+        "permissions": "70506183597120",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1778600973777
+  }
+}

@@ -23,13 +23,6 @@
         "parentId": "1460686405427527760"
       },
       {
-        "id": "1460686409466908768",
-        "name": "🎊│giveaways",
-        "type": 0,
-        "position": 3,
-        "parentId": "1460686405427527760"
-      },
-      {
         "id": "1460686411232448646",
         "name": "◤◢◣◥◤◢◣◥ VIBES ◤◢◣◥◤◢◣◥",
         "type": 4,
@@ -45,7 +38,7 @@
       },
       {
         "id": "1460686413875118080",
-        "name": "🎮│gamer-talk",
+        "name": "kroal-talk",
         "type": 0,
         "position": 1,
         "parentId": "1460686405427527760"
@@ -72,80 +65,17 @@
         "parentId": "1460686411232448646"
       },
       {
-        "id": "1460686421366145157",
-        "name": "▬▬ι═══════ﺤ GAMING ▬▬ι═══════ﺤ",
-        "type": 4,
-        "position": 2,
-        "parentId": null
-      },
-      {
-        "id": "1460686422607527948",
-        "name": "🔍│lfg-find-squad",
-        "type": 0,
-        "position": 0,
-        "parentId": "1460686421366145157"
-      },
-      {
-        "id": "1460686424423530666",
-        "name": "🏆│flex-your-wins",
-        "type": 0,
-        "position": 1,
-        "parentId": "1460686421366145157"
-      },
-      {
-        "id": "1460686425723900131",
-        "name": "🎮・Squad Alpha",
-        "type": 2,
-        "position": 0,
-        "parentId": "1460686421366145157"
-      },
-      {
-        "id": "1460686426395119864",
-        "name": "🎮・Squad Bravo",
-        "type": 2,
-        "position": 1,
-        "parentId": "1460686421366145157"
-      },
-      {
-        "id": "1460686428047413320",
-        "name": "🎮・Solo Grind",
-        "type": 2,
-        "position": 2,
-        "parentId": "1460686421366145157"
-      },
-      {
         "id": "1460686429305704581",
         "name": "━━━━━━༻🔊༺━━━━━━",
         "type": 4,
-        "position": 3,
-        "parentId": null
-      },
-      {
-        "id": "1460686430970843269",
-        "name": "🌙・Late Night Vibes",
-        "type": 2,
-        "position": 0,
-        "parentId": "1460686429305704581"
-      },
-      {
-        "id": "1460686432497700996",
-        "name": "🎵・Music & Gaming",
-        "type": 2,
-        "position": 1,
-        "parentId": "1460686429305704581"
-      },
-      {
-        "id": "1460686434154582080",
-        "name": "💤・AFK Zone",
-        "type": 2,
         "position": 2,
-        "parentId": "1460686429305704581"
+        "parentId": null
       },
       {
         "id": "1482497705266778184",
         "name": "Aero",
         "type": 4,
-        "position": 4,
+        "position": 3,
         "parentId": null
       },
       {
@@ -183,6 +113,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1777337671864
+    "updated": 1778600973800
   }
 }

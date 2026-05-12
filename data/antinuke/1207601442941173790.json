@@ -64,7 +64,7 @@
         "name": "Kebabbaro",
         "color": 10038562,
         "permissions": "32976758374391",
-        "position": 7,
+        "position": 6,
         "hoist": false,
         "mentionable": false
       },
@@ -73,7 +73,7 @@
         "name": "Cassiere della Kebabberia",
         "color": 10038562,
         "permissions": "32976758374391",
-        "position": 6,
+        "position": 5,
         "hoist": false,
         "mentionable": false
       },
@@ -82,7 +82,7 @@
         "name": "Carabiniere",
         "color": 2123412,
         "permissions": "32976758374391",
-        "position": 5,
+        "position": 4,
         "hoist": false,
         "mentionable": false
       },
@@ -91,7 +91,7 @@
         "name": "Polizia Locale",
         "color": 0,
         "permissions": "32957699452871",
-        "position": 4,
+        "position": 3,
         "hoist": false,
         "mentionable": false
       },
@@ -100,7 +100,7 @@
         "name": "Aiutante di Maicol",
         "color": 0,
         "permissions": "32976758374391",
-        "position": 3,
+        "position": 2,
         "hoist": false,
         "mentionable": false
       },
@@ -109,11 +109,11 @@
         "name": "ss",
         "color": 0,
         "permissions": "32957699452871",
-        "position": 2,
+        "position": 1,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1777337671938
+    "updated": 1778600973931
   }
 }

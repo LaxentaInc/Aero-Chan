@@ -141,7 +141,7 @@
         "name": "administrator",
         "color": 9622783,
         "permissions": "0",
-        "position": 18,
+        "position": 11,
         "hoist": false,
         "mentionable": false
       },
@@ -150,7 +150,7 @@
         "name": "moderator",
         "color": 16366335,
         "permissions": "0",
-        "position": 17,
+        "position": 10,
         "hoist": false,
         "mentionable": false
       },
@@ -159,7 +159,7 @@
         "name": "member",
         "color": 16711680,
         "permissions": "0",
-        "position": 16,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -168,7 +168,7 @@
         "name": "💜𝔸ℝ𝕄𝕐⁷⟬⟭💜",
         "color": 13276671,
         "permissions": "31858024238657",
-        "position": 15,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -177,7 +177,7 @@
         "name": "🖤BLIИK💗",
         "color": 16753649,
         "permissions": "31858024238657",
-        "position": 14,
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -186,7 +186,7 @@
         "name": "ONCE 🤠",
         "color": 12773375,
         "permissions": "31858024238657",
-        "position": 13,
+        "position": 6,
         "hoist": false,
         "mentionable": false
       },
@@ -195,7 +195,7 @@
         "name": "multi fan role",
         "color": 16743346,
         "permissions": "31858024238657",
-        "position": 12,
+        "position": 5,
         "hoist": false,
         "mentionable": false
       },
@@ -204,11 +204,11 @@
         "name": "owner",
         "color": 4095,
         "permissions": "349644697108479",
-        "position": 11,
+        "position": 4,
         "hoist": true,
         "mentionable": false
       }
     ],
-    "updated": 1777337671902
+    "updated": 1778600973869
   }
 }

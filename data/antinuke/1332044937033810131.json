@@ -176,7 +176,7 @@
         "name": "༺ Ｏｗｎｅｒ ༻",
         "color": 7419530,
         "permissions": "1721826618638327",
-        "position": 16,
+        "position": 14,
         "hoist": true,
         "mentionable": false
       },
@@ -185,7 +185,7 @@
         "name": "𓆩 Ｃｏ－Ｏｗｎｅｒ 𓆪",
         "color": 10181046,
         "permissions": "1721826618638327",
-        "position": 15,
+        "position": 13,
         "hoist": true,
         "mentionable": false
       },
@@ -194,7 +194,7 @@
         "name": "⟆ 𝒜𝒹𝓂𝒾𝓃 ⟆",
         "color": 13311233,
         "permissions": "1721826618638327",
-        "position": 14,
+        "position": 12,
         "hoist": true,
         "mentionable": false
       },
@@ -203,7 +203,7 @@
         "name": "⦓ Ｍｏｄｅｒａｔｏｒ ⦔",
         "color": 5470718,
         "permissions": "1721826350202855",
-        "position": 13,
+        "position": 11,
         "hoist": true,
         "mentionable": false
       },
@@ -212,7 +212,7 @@
         "name": "➣ 𝕋𝕣𝕚𝕒𝕝 𝕄𝕠𝕕 ➣",
         "color": 44659,
         "permissions": "1721807559716807",
-        "position": 12,
+        "position": 10,
         "hoist": true,
         "mentionable": false
       },
@@ -221,7 +221,7 @@
         "name": "↬ 𝐇𝐞𝐥𝐩𝐞𝐫 ↫",
         "color": 12232469,
         "permissions": "0",
-        "position": 11,
+        "position": 9,
         "hoist": true,
         "mentionable": false
       },
@@ -230,7 +230,7 @@
         "name": "✎ Ｓｕｐｐｏｒｔ Ｔｅａｍ ✎",
         "color": 11129390,
         "permissions": "1720707884502593",
-        "position": 10,
+        "position": 8,
         "hoist": true,
         "mentionable": false
       },
@@ -239,11 +239,11 @@
         "name": "♔ 𝐕𝐈𝐏 ♔",
         "color": 15844367,
         "permissions": "0",
-        "position": 9,
+        "position": 7,
         "hoist": true,
         "mentionable": false
       }
     ],
-    "updated": 1777337671950
+    "updated": 1778600973957
   }
 }

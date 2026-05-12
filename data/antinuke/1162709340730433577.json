@@ -52,7 +52,7 @@
       },
       {
         "id": "1170037209236246600",
-        "name": "Bots: 37",
+        "name": "Bots: 35",
         "type": 2,
         "position": 2,
         "parentId": "1170037196577853531"
@@ -108,7 +108,7 @@
       },
       {
         "id": "1170037200428208318",
-        "name": "All Members: 61",
+        "name": "All Members: 59",
         "type": 2,
         "position": 0,
         "parentId": "1170037196577853531"
@@ -484,7 +484,7 @@
         "name": "Homosexual",
         "color": 10038562,
         "permissions": "0",
-        "position": 47,
+        "position": 46,
         "hoist": false,
         "mentionable": false
       },
@@ -493,7 +493,7 @@
         "name": "Turan Union [TUTC]",
         "color": 49919,
         "permissions": "420013441810431",
-        "position": 58,
+        "position": 57,
         "hoist": true,
         "mentionable": false
       },
@@ -502,7 +502,7 @@
         "name": "Co-Leader",
         "color": 7938002,
         "permissions": "1099511627782",
-        "position": 67,
+        "position": 66,
         "hoist": true,
         "mentionable": false
       },
@@ -511,7 +511,7 @@
         "name": "Co-Leader Vote Ping",
         "color": 10181046,
         "permissions": "0",
-        "position": 38,
+        "position": 37,
         "hoist": false,
         "mentionable": false
       },
@@ -520,7 +520,7 @@
         "name": "Anglican Christian",
         "color": 11018686,
         "permissions": "0",
-        "position": 53,
+        "position": 52,
         "hoist": false,
         "mentionable": false
       },
@@ -529,7 +529,7 @@
         "name": "Catholic Christian",
         "color": 7694885,
         "permissions": "0",
-        "position": 55,
+        "position": 54,
         "hoist": false,
         "mentionable": false
       },
@@ -538,7 +538,7 @@
         "name": "Atheist  ||",
         "color": 11131641,
         "permissions": "0",
-        "position": 49,
+        "position": 48,
         "hoist": false,
         "mentionable": false
       },
@@ -547,7 +547,7 @@
         "name": "Orthodox Christian",
         "color": 11086121,
         "permissions": "0",
-        "position": 54,
+        "position": 53,
         "hoist": false,
         "mentionable": false
       },
@@ -556,7 +556,7 @@
         "name": "Administration",
         "color": 15158332,
         "permissions": "1099511627823",
-        "position": 65,
+        "position": 64,
         "hoist": true,
         "mentionable": true
       },
@@ -565,7 +565,7 @@
         "name": "Moderator",
         "color": 3066993,
         "permissions": "18691769106470",
-        "position": 63,
+        "position": 62,
         "hoist": true,
         "mentionable": true
       },
@@ -574,7 +574,7 @@
         "name": "Pugian Emperor Vote",
         "color": 15277667,
         "permissions": "0",
-        "position": 39,
+        "position": 38,
         "hoist": false,
         "mentionable": false
       },
@@ -583,7 +583,7 @@
         "name": "Protestant Christian",
         "color": 7419530,
         "permissions": "0",
-        "position": 56,
+        "position": 55,
         "hoist": false,
         "mentionable": false
       },
@@ -592,7 +592,7 @@
         "name": "§　　　　　　　　　　　　PINGS　　　　　　　　　　　§",
         "color": 1052688,
         "permissions": "0",
-        "position": 42,
+        "position": 41,
         "hoist": false,
         "mentionable": false
       },
@@ -601,7 +601,7 @@
         "name": "Pansexual",
         "color": 2572413,
         "permissions": "0",
-        "position": 46,
+        "position": 45,
         "hoist": false,
         "mentionable": false
       },
@@ -610,7 +610,7 @@
         "name": "§　　　　　　　　　　　　　INFO　　　　　　　　　　　§",
         "color": 1052688,
         "permissions": "0",
-        "position": 57,
+        "position": 56,
         "hoist": false,
         "mentionable": false
       },
@@ -619,7 +619,7 @@
         "name": "Sunni Muslim",
         "color": 1127241,
         "permissions": "0",
-        "position": 52,
+        "position": 51,
         "hoist": false,
         "mentionable": false
       },
@@ -628,7 +628,7 @@
         "name": "Partnership Ping",
         "color": 6323595,
         "permissions": "0",
-        "position": 36,
+        "position": 35,
         "hoist": false,
         "mentionable": false
       },
@@ -637,7 +637,7 @@
         "name": "Annoucements Ping",
         "color": 1146986,
         "permissions": "0",
-        "position": 41,
+        "position": 40,
         "hoist": false,
         "mentionable": true
       },
@@ -646,7 +646,7 @@
         "name": "Biseuxal",
         "color": 11342935,
         "permissions": "0",
-        "position": 45,
+        "position": 44,
         "hoist": false,
         "mentionable": false
       },
@@ -655,7 +655,7 @@
         "name": "Member",
         "color": 3447003,
         "permissions": "23061931085377",
-        "position": 59,
+        "position": 58,
         "hoist": true,
         "mentionable": false
       },
@@ -664,7 +664,7 @@
         "name": "Jew   ||",
         "color": 2952995,
         "permissions": "0",
-        "position": 50,
+        "position": 49,
         "hoist": false,
         "mentionable": false
       },
@@ -673,7 +673,7 @@
         "name": "Dead Ping",
         "color": 2123412,
         "permissions": "0",
-        "position": 40,
+        "position": 39,
         "hoist": false,
         "mentionable": false
       },
@@ -682,7 +682,7 @@
         "name": "Pugian Emperor",
         "color": 7419530,
         "permissions": "1099511627782",
-        "position": 64,
+        "position": 63,
         "hoist": true,
         "mentionable": false
       },
@@ -691,7 +691,7 @@
         "name": "Shia Muslim",
         "color": 986923,
         "permissions": "0",
-        "position": 51,
+        "position": 50,
         "hoist": false,
         "mentionable": false
       },
@@ -700,7 +700,7 @@
         "name": "Omnisexual",
         "color": 15105570,
         "permissions": "0",
-        "position": 44,
+        "position": 43,
         "hoist": false,
         "mentionable": false
       },
@@ -709,7 +709,7 @@
         "name": "Asexual",
         "color": 1752220,
         "permissions": "0",
-        "position": 43,
+        "position": 42,
         "hoist": false,
         "mentionable": false
       },
@@ -718,7 +718,7 @@
         "name": "𝐎𝐰𝐧𝐞𝐫",
         "color": 15844367,
         "permissions": "420013441810431",
-        "position": 68,
+        "position": 67,
         "hoist": true,
         "mentionable": true
       },
@@ -727,7 +727,7 @@
         "name": "Bots (Dex)",
         "color": 7434660,
         "permissions": "32957699452871",
-        "position": 61,
+        "position": 60,
         "hoist": false,
         "mentionable": false
       },
@@ -736,7 +736,7 @@
         "name": "Straight",
         "color": 2863899,
         "permissions": "0",
-        "position": 48,
+        "position": 47,
         "hoist": false,
         "mentionable": false
       },
@@ -745,7 +745,7 @@
         "name": "Poll Ping",
         "color": 1146986,
         "permissions": "0",
-        "position": 37,
+        "position": 36,
         "hoist": false,
         "mentionable": false
       },
@@ -754,7 +754,7 @@
         "name": "Bots (Chatbots)",
         "color": 9150442,
         "permissions": "31858024107585",
-        "position": 62,
+        "position": 61,
         "hoist": false,
         "mentionable": false
       },
@@ -763,11 +763,11 @@
         "name": "Bots",
         "color": 5000031,
         "permissions": "32959579025367",
-        "position": 60,
+        "position": 59,
         "hoist": true,
         "mentionable": false
       }
     ],
-    "updated": 1777337671955
+    "updated": 1778600973974
   }
 }

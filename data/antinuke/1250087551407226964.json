@@ -99,7 +99,7 @@
         "name": "admin",
         "color": 15277667,
         "permissions": "1721826618638327",
-        "position": 10,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -113,6 +113,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1777337671920
+    "updated": 1778600973899
   }
 }

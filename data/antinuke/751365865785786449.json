@@ -59,21 +59,21 @@
       },
       {
         "id": "762170404130783232",
-        "name": "Member Count: 125",
+        "name": "Member Count: 124",
         "type": 2,
         "position": 0,
         "parentId": "762170402951659520"
       },
       {
         "id": "762170404331716611",
-        "name": "Bot Count: 7",
+        "name": "Bot Count: 3",
         "type": 2,
         "position": 1,
         "parentId": "762170402951659520"
       },
       {
         "id": "762170405439668234",
-        "name": "User Count: 118",
+        "name": "User Count: 121",
         "type": 2,
         "position": 2,
         "parentId": "762170402951659520"
@@ -87,7 +87,7 @@
       },
       {
         "id": "762170406340919306",
-        "name": "Role Count: 139",
+        "name": "Role Count: 138",
         "type": 2,
         "position": 4,
         "parentId": "762170402951659520"
@@ -227,7 +227,7 @@
         "name": "alt",
         "color": 3066993,
         "permissions": "1071698660937",
-        "position": 136,
+        "position": 135,
         "hoist": true,
         "mentionable": true
       },
@@ -245,7 +245,7 @@
         "name": "another role",
         "color": 0,
         "permissions": "1071698660929",
-        "position": 92,
+        "position": 91,
         "hoist": false,
         "mentionable": false
       },
@@ -263,7 +263,7 @@
         "name": "Someone",
         "color": 0,
         "permissions": "6546771521",
-        "position": 132,
+        "position": 131,
         "hoist": false,
         "mentionable": true
       },
@@ -272,7 +272,7 @@
         "name": "hi hi role",
         "color": 0,
         "permissions": "6546771521",
-        "position": 129,
+        "position": 128,
         "hoist": false,
         "mentionable": true
       },
@@ -281,7 +281,7 @@
         "name": "creator of servah",
         "color": 16711680,
         "permissions": "1071698660937",
-        "position": 137,
+        "position": 136,
         "hoist": true,
         "mentionable": false
       },
@@ -290,7 +290,7 @@
         "name": "Simon Says Controller",
         "color": 16705372,
         "permissions": "1071698660929",
-        "position": 106,
+        "position": 105,
         "hoist": false,
         "mentionable": false
       },
@@ -299,7 +299,7 @@
         "name": "Walker",
         "color": 1752220,
         "permissions": "6546771521",
-        "position": 121,
+        "position": 120,
         "hoist": false,
         "mentionable": false
       },
@@ -308,7 +308,7 @@
         "name": "@everyone",
         "color": 0,
         "permissions": "2248473465835073",
-        "position": 128,
+        "position": 127,
         "hoist": false,
         "mentionable": true
       },
@@ -317,7 +317,7 @@
         "name": "Simon Says Player",
         "color": 0,
         "permissions": "1071698660929",
-        "position": 107,
+        "position": 106,
         "hoist": false,
         "mentionable": false
       },
@@ -326,7 +326,7 @@
         "name": "Unverified",
         "color": 1752220,
         "permissions": "6546771521",
-        "position": 120,
+        "position": 119,
         "hoist": false,
         "mentionable": false
       },
@@ -335,11 +335,11 @@
         "name": "Hello",
         "color": 0,
         "permissions": "6546771521",
-        "position": 127,
+        "position": 126,
         "hoist": false,
         "mentionable": true
       }
     ],
-    "updated": 1777337671958
+    "updated": 1778600973979
   }
 }

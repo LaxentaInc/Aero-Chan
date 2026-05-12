@@ -64,7 +64,7 @@
         "name": "F o u n d e r",
         "color": 5964401,
         "permissions": "1721826618638327",
-        "position": 31,
+        "position": 29,
         "hoist": true,
         "mentionable": false
       },
@@ -73,7 +73,7 @@
         "name": "Members",
         "color": 5066061,
         "permissions": "1720707884371521",
-        "position": 27,
+        "position": 25,
         "hoist": true,
         "mentionable": false
       },
@@ -82,7 +82,7 @@
         "name": "Admin",
         "color": 13901112,
         "permissions": "1721826618638327",
-        "position": 30,
+        "position": 28,
         "hoist": true,
         "mentionable": false
       },
@@ -91,7 +91,7 @@
         "name": "He/Him",
         "color": 16093196,
         "permissions": "0",
-        "position": 18,
+        "position": 16,
         "hoist": false,
         "mentionable": false
       },
@@ -100,7 +100,7 @@
         "name": "She/Her",
         "color": 16501848,
         "permissions": "0",
-        "position": 17,
+        "position": 15,
         "hoist": false,
         "mentionable": false
       },
@@ -109,7 +109,7 @@
         "name": "They/Them",
         "color": 11177942,
         "permissions": "0",
-        "position": 16,
+        "position": 14,
         "hoist": false,
         "mentionable": false
       },
@@ -118,7 +118,7 @@
         "name": "Ask",
         "color": 7909721,
         "permissions": "0",
-        "position": 15,
+        "position": 13,
         "hoist": false,
         "mentionable": false
       },
@@ -127,7 +127,7 @@
         "name": "Red",
         "color": 16746640,
         "permissions": "0",
-        "position": 14,
+        "position": 12,
         "hoist": false,
         "mentionable": false
       },
@@ -136,7 +136,7 @@
         "name": "Purple",
         "color": 11176191,
         "permissions": "0",
-        "position": 13,
+        "position": 11,
         "hoist": false,
         "mentionable": false
       },
@@ -145,7 +145,7 @@
         "name": "Green",
         "color": 8978320,
         "permissions": "0",
-        "position": 12,
+        "position": 10,
         "hoist": false,
         "mentionable": false
       },
@@ -154,7 +154,7 @@
         "name": "Pink",
         "color": 16681215,
         "permissions": "0",
-        "position": 11,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -163,7 +163,7 @@
         "name": "Orange",
         "color": 16754568,
         "permissions": "0",
-        "position": 10,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -172,7 +172,7 @@
         "name": "Yellow",
         "color": 16121736,
         "permissions": "0",
-        "position": 9,
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -181,7 +181,7 @@
         "name": "Blue",
         "color": 8973055,
         "permissions": "0",
-        "position": 8,
+        "position": 6,
         "hoist": false,
         "mentionable": false
       },
@@ -190,7 +190,7 @@
         "name": "muted",
         "color": 16007755,
         "permissions": "0",
-        "position": 7,
+        "position": 5,
         "hoist": false,
         "mentionable": false
       },
@@ -199,7 +199,7 @@
         "name": "members",
         "color": 8421504,
         "permissions": "8",
-        "position": 6,
+        "position": 4,
         "hoist": false,
         "mentionable": false
       },
@@ -208,11 +208,11 @@
         "name": "Verified Member",
         "color": 0,
         "permissions": "1051648",
-        "position": 5,
+        "position": 3,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1777337671910
+    "updated": 1778600973883
   }
 }

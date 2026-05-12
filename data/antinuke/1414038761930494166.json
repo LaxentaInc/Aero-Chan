@@ -37,13 +37,6 @@
         "parentId": "1414038763931439124"
       },
       {
-        "id": "1446710386899419250",
-        "name": "vent୨୧",
-        "type": 0,
-        "position": 2,
-        "parentId": "1414038763931439124"
-      },
-      {
         "id": "1447448275136286791",
         "name": "announcements‼️",
         "type": 15,
@@ -68,7 +61,7 @@
         "id": "1453583035143557212",
         "name": "updates-from-other-servers",
         "type": 0,
-        "position": 3,
+        "position": 2,
         "parentId": "1414038763931439124"
       },
       {
@@ -89,14 +82,14 @@
         "id": "1468034093651460096",
         "name": "test-stuff",
         "type": 0,
-        "position": 4,
+        "position": 3,
         "parentId": "1414038763931439124"
       },
       {
         "id": "1468035843963748444",
         "name": "aero-chan-bot",
         "type": 0,
-        "position": 5,
+        "position": 4,
         "parentId": "1414038763931439124"
       }
     ],
@@ -147,6 +140,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1777337671868
+    "updated": 1778600973810
   }
 }

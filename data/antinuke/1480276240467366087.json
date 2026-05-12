@@ -189,6 +189,13 @@
         "type": 0,
         "position": 11,
         "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1499959229228781611",
+        "name": "self-promo",
+        "type": 0,
+        "position": 12,
+        "parentId": "1480276241041854679"
       }
     ],
     "roles": [
@@ -223,7 +230,7 @@
         "id": "1480291919119515760",
         "name": "Yuri's trusted friends",
         "color": 8406617,
-        "permissions": "1211012849438279",
+        "permissions": "1209913329421889",
         "position": 5,
         "hoist": false,
         "mentionable": false
@@ -238,6 +245,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1777337671941
+    "updated": 1778600973937
   }
 }

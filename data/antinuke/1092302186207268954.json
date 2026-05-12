@@ -2,18 +2,11 @@
   "backup": {
     "channels": [
       {
-        "id": "1092302186207268957",
-        "name": "homosexual-supporting-cast",
+        "id": "1480633937314185378",
+        "name": "gambling",
         "type": 0,
         "position": 0,
-        "parentId": "1489086478020513973"
-      },
-      {
-        "id": "1092302186207268958",
-        "name": "gay table",
-        "type": 2,
-        "position": 0,
-        "parentId": "1489087760374693908"
+        "parentId": "1489087536218505217"
       },
       {
         "id": "1107121370392973363",
@@ -23,53 +16,46 @@
         "parentId": "1489087006746087505"
       },
       {
-        "id": "1189384491047854101",
-        "name": "conservative-club✝️😜",
-        "type": 0,
-        "position": 1,
-        "parentId": "1489086478020513973"
-      },
-      {
-        "id": "1223242948364210186",
-        "name": "arttttttttt",
-        "type": 0,
-        "position": 1,
-        "parentId": null
-      },
-      {
-        "id": "1463931321524162591",
-        "name": "vent-channel🥺",
-        "type": 0,
-        "position": 2,
-        "parentId": "1489086478020513973"
-      },
-      {
-        "id": "1480633937314185378",
-        "name": "gambling",
-        "type": 0,
-        "position": 0,
-        "parentId": "1489087536218505217"
-      },
-      {
-        "id": "1480767109310185574",
-        "name": "animal-channel",
-        "type": 0,
-        "position": 0,
-        "parentId": null
-      },
-      {
-        "id": "1481790147757477989",
-        "name": "healing-❤️‍🩹-clinic-2",
-        "type": 0,
-        "position": 2,
-        "parentId": null
-      },
-      {
         "id": "1482561852729851934",
         "name": "boons-spank-bank",
         "type": 0,
         "position": 1,
         "parentId": "1489087006746087505"
+      },
+      {
+        "id": "1489087760374693908",
+        "name": "cafeteria",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1499231197572890735",
+        "name": "snakes",
+        "type": 0,
+        "position": 2,
+        "parentId": "1499231023718994051"
+      },
+      {
+        "id": "1481790147757477989",
+        "name": "healing-❤️‍🩹-clinic-2",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1223242948364210186",
+        "name": "arttttttttt",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1499239081144750260",
+        "name": "honeymoon-suite",
+        "type": 0,
+        "position": 0,
+        "parentId": "1499239029357412483"
       },
       {
         "id": "1482598031542190182",
@@ -79,18 +65,18 @@
         "parentId": "1489087006746087505"
       },
       {
-        "id": "1487645283247460484",
-        "name": "lunch-menu",
+        "id": "1463931321524162591",
+        "name": "vent-channel🥺",
         "type": 0,
-        "position": 0,
-        "parentId": "1489087760374693908"
+        "position": 2,
+        "parentId": "1489086478020513973"
       },
       {
-        "id": "1487910763891785798",
-        "name": "freak-channel",
-        "type": 0,
-        "position": 3,
-        "parentId": "1489086478020513973"
+        "id": "1499231023718994051",
+        "name": "animal sanctuary",
+        "type": 4,
+        "position": 4,
+        "parentId": null
       },
       {
         "id": "1489086478020513973",
@@ -100,38 +86,52 @@
         "parentId": null
       },
       {
-        "id": "1489087006746087505",
-        "name": "gay wards",
-        "type": 4,
-        "position": 1,
-        "parentId": null
+        "id": "1092302186207268958",
+        "name": "gay table",
+        "type": 2,
+        "position": 0,
+        "parentId": "1489087760374693908"
       },
       {
-        "id": "1489087536218505217",
-        "name": "psychiatrically required casino",
-        "type": 4,
-        "position": 2,
-        "parentId": null
-      },
-      {
-        "id": "1489087760374693908",
-        "name": "cafeteria",
-        "type": 4,
-        "position": 3,
-        "parentId": null
-      },
-      {
-        "id": "1491520721715724389",
-        "name": "little-caesars",
+        "id": "1487910763891785798",
+        "name": "freak-channel",
         "type": 0,
         "position": 1,
-        "parentId": "1489087760374693908"
+        "parentId": "1499239029357412483"
+      },
+      {
+        "id": "1498825787556630649",
+        "name": "lingerie-lady-dance-and-yuji",
+        "type": 0,
+        "position": 1,
+        "parentId": "1498826175722684446"
       },
       {
         "id": "1492618922770300968",
         "name": "homegoods",
         "type": 0,
-        "position": 3,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1497350064564211793",
+        "name": "snails",
+        "type": 0,
+        "position": 1,
+        "parentId": "1499231023718994051"
+      },
+      {
+        "id": "1480767109310185574",
+        "name": "animal-channel",
+        "type": 0,
+        "position": 0,
+        "parentId": "1499231023718994051"
+      },
+      {
+        "id": "1499239029357412483",
+        "name": "love hotel",
+        "type": 4,
+        "position": 6,
         "parentId": null
       },
       {
@@ -142,38 +142,95 @@
         "parentId": "1489087760374693908"
       },
       {
-        "id": "1495906367049830531",
-        "name": "wordle",
+        "id": "1499244135704690840",
+        "name": "biology-class",
         "type": 0,
         "position": 4,
         "parentId": null
       },
       {
-        "id": "1497350064564211793",
-        "name": "snails",
+        "id": "1495906367049830531",
+        "name": "wordle",
         "type": 0,
-        "position": 5,
+        "position": 3,
         "parentId": null
+      },
+      {
+        "id": "1487645283247460484",
+        "name": "lunch-menu",
+        "type": 0,
+        "position": 0,
+        "parentId": "1489087760374693908"
       },
       {
         "id": "1497374026501197854",
         "name": "farty-party",
         "type": 0,
-        "position": 4,
+        "position": 3,
         "parentId": "1489086478020513973"
+      },
+      {
+        "id": "1189384491047854101",
+        "name": "conservative-club✝️😜",
+        "type": 0,
+        "position": 1,
+        "parentId": "1489086478020513973"
+      },
+      {
+        "id": "1489087536218505217",
+        "name": "psychiatrically required casino",
+        "type": 4,
+        "position": 3,
+        "parentId": null
       },
       {
         "id": "1498029970717671515",
         "name": "boons-job-thang",
         "type": 0,
-        "position": 6,
+        "position": 0,
+        "parentId": "1498826175722684446"
+      },
+      {
+        "id": "1499556476518138017",
+        "name": "kaimon-corner",
+        "type": 0,
+        "position": 4,
+        "parentId": "1489086478020513973"
+      },
+      {
+        "id": "1092302186207268957",
+        "name": "homosexual-supporting-cast",
+        "type": 0,
+        "position": 0,
+        "parentId": "1489086478020513973"
+      },
+      {
+        "id": "1489087006746087505",
+        "name": "gay wards",
+        "type": 4,
+        "position": 1,
         "parentId": null
       },
       {
-        "id": "1492495829758382140",
-        "name": "DAILY YURI",
-        "type": 11,
-        "parentId": "1107121370392973363"
+        "id": "1491520721715724389",
+        "name": "little-caesars",
+        "type": 0,
+        "position": 1,
+        "parentId": "1489087760374693908"
+      },
+      {
+        "id": "1498826175722684446",
+        "name": "special ed",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1499555892490666064",
+        "name": "lagomorphs",
+        "type": 0,
+        "position": 3,
+        "parentId": "1499231023718994051"
       },
       {
         "id": "1493792730944503868",
@@ -190,6 +247,24 @@
       {
         "id": "1497831671201009824",
         "name": "i need help..",
+        "type": 11,
+        "parentId": "1107121370392973363"
+      },
+      {
+        "id": "1498507539216732175",
+        "name": "hi guys dalt yaoi",
+        "type": 11,
+        "parentId": "1107121370392973363"
+      },
+      {
+        "id": "1499550541595017277",
+        "name": "yao",
+        "type": 11,
+        "parentId": "1107121370392973363"
+      },
+      {
+        "id": "1499551108576837632",
+        "name": "Kaimon🤤",
         "type": 11,
         "parentId": "1107121370392973363"
       }
@@ -233,7 +308,7 @@
       },
       {
         "id": "1205646930131030057",
-        "name": "#bestfaggot",
+        "name": "#1 contender for coolest person ever",
         "color": 4703944,
         "permissions": "8864258447638527",
         "position": 9,
@@ -242,9 +317,9 @@
       },
       {
         "id": "1227487852141608990",
-        "name": "NEWBORN",
-        "color": 16711867,
-        "permissions": "8864262742597583",
+        "name": "THE niche",
+        "color": 16724412,
+        "permissions": "8864262742597575",
         "position": 8,
         "hoist": true,
         "mentionable": true
@@ -286,6 +361,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1777337671918
+    "updated": 1778600973894
   }
 }

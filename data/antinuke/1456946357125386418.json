@@ -19,7 +19,7 @@
         "id": "1497328574477238335",
         "name": "🔗・github-feeds",
         "type": 5,
-        "position": 4,
+        "position": 5,
         "parentId": "1497328557704089770"
       },
       {
@@ -121,17 +121,17 @@
         "parentId": "1497328559000256674"
       },
       {
+        "id": "1503066575316586506",
+        "name": "logo-contest",
+        "type": 15,
+        "position": 0,
+        "parentId": "1497328557704089770"
+      },
+      {
         "id": "1497328561063723192",
         "name": "🎯 | ====== Staff ====== | 🎯",
         "type": 4,
         "position": 4,
-        "parentId": null
-      },
-      {
-        "id": "1497328556751982762",
-        "name": "DELETE THIS",
-        "type": 4,
-        "position": 0,
         "parentId": null
       },
       {
@@ -140,6 +140,13 @@
         "type": 0,
         "position": 1,
         "parentId": "1497328561063723192"
+      },
+      {
+        "id": "1502266953719611575",
+        "name": "discussion",
+        "type": 0,
+        "position": 1,
+        "parentId": "1502266817299873842"
       },
       {
         "id": "1497328580412313702",
@@ -152,7 +159,7 @@
         "id": "1497328571843346483",
         "name": "📜・changelog",
         "type": 5,
-        "position": 2,
+        "position": 3,
         "parentId": "1497328557704089770"
       },
       {
@@ -161,6 +168,13 @@
         "type": 0,
         "position": 3,
         "parentId": "1497328559000256674"
+      },
+      {
+        "id": "1502266993942728844",
+        "name": "code",
+        "type": 0,
+        "position": 2,
+        "parentId": "1502266817299873842"
       },
       {
         "id": "1497328584199504075",
@@ -173,7 +187,7 @@
         "id": "1460686139668041883",
         "name": "📜│tuff-rules",
         "type": 0,
-        "position": 0,
+        "position": 1,
         "parentId": "1497328557704089770"
       },
       {
@@ -187,14 +201,21 @@
         "id": "1497328573219078184",
         "name": "📡・bot-status",
         "type": 0,
-        "position": 3,
+        "position": 4,
         "parentId": "1497328557704089770"
+      },
+      {
+        "id": "1502266817299873842",
+        "name": "💻 | ==== Developers ==== | 💻",
+        "type": 4,
+        "position": 0,
+        "parentId": null
       },
       {
         "id": "1497328577107066972",
         "name": "👋・joins-leaves",
         "type": 0,
-        "position": 5,
+        "position": 6,
         "parentId": "1497328557704089770"
       },
       {
@@ -208,7 +229,7 @@
         "id": "1497328567250587698",
         "name": "🔔・announcements",
         "type": 5,
-        "position": 1,
+        "position": 2,
         "parentId": "1497328557704089770"
       },
       {
@@ -238,6 +259,67 @@
         "type": 0,
         "position": 7,
         "parentId": "1497328561063723192"
+      },
+      {
+        "id": "1502266914423177216",
+        "name": "assets",
+        "type": 0,
+        "position": 0,
+        "parentId": "1502266817299873842"
+      },
+      {
+        "id": "1503056286202204232",
+        "name": "@everyone tf you mean i have to somehow",
+        "type": 10,
+        "parentId": "1497328567250587698"
+      },
+      {
+        "id": "1503058981831184384",
+        "name": "@crunchytomaotes make a thread on ts",
+        "type": 10,
+        "parentId": "1497328567250587698"
+      },
+      {
+        "id": "1503060616833925270",
+        "name": "@everyone was i drunk or smth",
+        "type": 10,
+        "parentId": "1497328567250587698"
+      },
+      {
+        "id": "1503066854170824875",
+        "name": "@everyone i'm rebranding the bot, post",
+        "type": 10,
+        "parentId": "1497328567250587698"
+      },
+      {
+        "id": "1503068483858989208",
+        "name": "I'm preparing something",
+        "type": 10,
+        "parentId": "1497328567250587698"
+      },
+      {
+        "id": "1503071142343344168",
+        "name": "idk",
+        "type": 11,
+        "parentId": "1503066575316586506"
+      },
+      {
+        "id": "1503076776203649074",
+        "name": "This",
+        "type": 11,
+        "parentId": "1503066575316586506"
+      },
+      {
+        "id": "1503357467415937066",
+        "name": "Title",
+        "type": 11,
+        "parentId": "1503066575316586506"
+      },
+      {
+        "id": "1503492496859201709",
+        "name": "More from me (this time not a joky-kiddy)",
+        "type": 11,
+        "parentId": "1503066575316586506"
       }
     ],
     "roles": [
@@ -245,8 +327,8 @@
         "id": "1497325621150486758",
         "name": "Developers",
         "color": 3447003,
-        "permissions": "6546640449",
-        "position": 13,
+        "permissions": "6546640457",
+        "position": 14,
         "hoist": true,
         "mentionable": false
       },
@@ -254,7 +336,7 @@
         "id": "1497325622412968176",
         "name": "Administrators",
         "color": 3066993,
-        "permissions": "6546640449",
+        "permissions": "8864262206128087",
         "position": 12,
         "hoist": true,
         "mentionable": false
@@ -263,7 +345,7 @@
         "id": "1497325623910334505",
         "name": "Moderators",
         "color": 14676313,
-        "permissions": "6546640449",
+        "permissions": "7147931802398535",
         "position": 11,
         "hoist": true,
         "mentionable": false
@@ -272,7 +354,7 @@
         "id": "1497325624677892389",
         "name": "Support",
         "color": 15844367,
-        "permissions": "6546640449",
+        "permissions": "7389240219782977",
         "position": 10,
         "hoist": true,
         "mentionable": false
@@ -325,8 +407,8 @@
       {
         "id": "1497325632483491923",
         "name": "Members",
-        "color": 1752220,
-        "permissions": "6546640449",
+        "color": 15158332,
+        "permissions": "955379071962689",
         "position": 4,
         "hoist": true,
         "mentionable": false
@@ -348,9 +430,18 @@
         "position": 2,
         "hoist": false,
         "mentionable": false
+      },
+      {
+        "id": "1500165025975894058",
+        "name": "Head Administrator",
+        "color": 2067276,
+        "permissions": "8",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
       }
     ],
-    "updated": 1777337671892
+    "updated": 1778600973852
   },
   "userStrips": {
     "416358583220043796": {

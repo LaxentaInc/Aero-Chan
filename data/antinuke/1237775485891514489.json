@@ -330,7 +330,7 @@
         "name": "Asia",
         "color": 3129087,
         "permissions": "0",
-        "position": 22,
+        "position": 18,
         "hoist": false,
         "mentionable": false
       },
@@ -339,7 +339,7 @@
         "name": "Purple",
         "color": 11176191,
         "permissions": "0",
-        "position": 37,
+        "position": 33,
         "hoist": false,
         "mentionable": false
       },
@@ -348,7 +348,7 @@
         "name": "━━━━━━━━",
         "color": 0,
         "permissions": "6546640449",
-        "position": 18,
+        "position": 14,
         "hoist": false,
         "mentionable": false
       },
@@ -357,7 +357,7 @@
         "name": "Administrators",
         "color": 3066993,
         "permissions": "6546640457",
-        "position": 58,
+        "position": 54,
         "hoist": true,
         "mentionable": false
       },
@@ -366,7 +366,7 @@
         "name": "She/Her",
         "color": 15277667,
         "permissions": "0",
-        "position": 10,
+        "position": 6,
         "hoist": false,
         "mentionable": false
       },
@@ -375,7 +375,7 @@
         "name": "Europe",
         "color": 3447003,
         "permissions": "0",
-        "position": 20,
+        "position": 16,
         "hoist": false,
         "mentionable": false
       },
@@ -384,7 +384,7 @@
         "name": "Yellow",
         "color": 16121736,
         "permissions": "0",
-        "position": 33,
+        "position": 29,
         "hoist": false,
         "mentionable": false
       },
@@ -393,7 +393,7 @@
         "name": "Trusted",
         "color": 0,
         "permissions": "311872",
-        "position": 54,
+        "position": 50,
         "hoist": true,
         "mentionable": false
       },
@@ -402,7 +402,7 @@
         "name": "Developers",
         "color": 3447003,
         "permissions": "6546640457",
-        "position": 57,
+        "position": 53,
         "hoist": true,
         "mentionable": false
       },
@@ -411,7 +411,7 @@
         "name": "Early Supporter",
         "color": 65522,
         "permissions": "6479531584",
-        "position": 51,
+        "position": 47,
         "hoist": true,
         "mentionable": false
       },
@@ -420,7 +420,7 @@
         "name": "Members",
         "color": 1752220,
         "permissions": "6546640449",
-        "position": 43,
+        "position": 39,
         "hoist": true,
         "mentionable": false
       },
@@ -429,7 +429,7 @@
         "name": "Blue",
         "color": 8973055,
         "permissions": "0",
-        "position": 32,
+        "position": 28,
         "hoist": false,
         "mentionable": false
       },
@@ -438,7 +438,7 @@
         "name": "Australia",
         "color": 3447003,
         "permissions": "0",
-        "position": 19,
+        "position": 15,
         "hoist": false,
         "mentionable": false
       },
@@ -447,7 +447,7 @@
         "name": "Elite (LVL 50)",
         "color": 15277667,
         "permissions": "103079527936",
-        "position": 53,
+        "position": 49,
         "hoist": false,
         "mentionable": false
       },
@@ -456,7 +456,7 @@
         "name": "Green",
         "color": 8978320,
         "permissions": "0",
-        "position": 36,
+        "position": 32,
         "hoist": false,
         "mentionable": false
       },
@@ -465,7 +465,7 @@
         "name": "Expert (LVL 25)",
         "color": 10181046,
         "permissions": "311808",
-        "position": 49,
+        "position": 45,
         "hoist": false,
         "mentionable": false
       },
@@ -474,7 +474,7 @@
         "name": "Godly (LVL 100)",
         "color": 15844367,
         "permissions": "311808",
-        "position": 55,
+        "position": 51,
         "hoist": false,
         "mentionable": false
       },
@@ -483,7 +483,7 @@
         "name": "Bots",
         "color": 16770790,
         "permissions": "6546640457",
-        "position": 14,
+        "position": 10,
         "hoist": true,
         "mentionable": false
       },
@@ -492,7 +492,7 @@
         "name": "Red",
         "color": 16746640,
         "permissions": "0",
-        "position": 38,
+        "position": 34,
         "hoist": false,
         "mentionable": false
       },
@@ -501,7 +501,7 @@
         "name": "Pink",
         "color": 16681215,
         "permissions": "0",
-        "position": 35,
+        "position": 31,
         "hoist": false,
         "mentionable": false
       },
@@ -510,7 +510,7 @@
         "name": "Advanced (LVL 15)",
         "color": 3447003,
         "permissions": "103079593472",
-        "position": 47,
+        "position": 43,
         "hoist": false,
         "mentionable": false
       },
@@ -519,7 +519,7 @@
         "name": "Partners",
         "color": 10181046,
         "permissions": "6546640449",
-        "position": 52,
+        "position": 48,
         "hoist": true,
         "mentionable": false
       },
@@ -528,7 +528,7 @@
         "name": "Support",
         "color": 15844367,
         "permissions": "6546640449",
-        "position": 16,
+        "position": 12,
         "hoist": true,
         "mentionable": false
       },
@@ -537,7 +537,7 @@
         "name": "Voter",
         "color": 6405375,
         "permissions": "6546640449",
-        "position": 15,
+        "position": 11,
         "hoist": true,
         "mentionable": false
       },
@@ -546,7 +546,7 @@
         "name": "Africa",
         "color": 3129087,
         "permissions": "0",
-        "position": 21,
+        "position": 17,
         "hoist": false,
         "mentionable": false
       },
@@ -555,7 +555,7 @@
         "name": "━━━━━━━━",
         "color": 0,
         "permissions": "6546640449",
-        "position": 13,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -564,7 +564,7 @@
         "name": "Volunteer",
         "color": 10070709,
         "permissions": "32768",
-        "position": 48,
+        "position": 44,
         "hoist": true,
         "mentionable": true
       },
@@ -573,7 +573,7 @@
         "name": "made for each other💘 (e)",
         "color": 16711680,
         "permissions": "1721826619162615",
-        "position": 7,
+        "position": 3,
         "hoist": false,
         "mentionable": false
       },
@@ -582,7 +582,7 @@
         "name": "Patreons",
         "color": 15277667,
         "permissions": "6546640449",
-        "position": 44,
+        "position": 40,
         "hoist": true,
         "mentionable": false
       },
@@ -591,7 +591,7 @@
         "name": "bot",
         "color": 9807270,
         "permissions": "1024",
-        "position": 17,
+        "position": 13,
         "hoist": true,
         "mentionable": false
       },
@@ -600,7 +600,7 @@
         "name": "She/Her",
         "color": 16501848,
         "permissions": "0",
-        "position": 30,
+        "position": 26,
         "hoist": false,
         "mentionable": false
       },
@@ -609,7 +609,7 @@
         "name": "Playstation",
         "color": 10617860,
         "permissions": "0",
-        "position": 26,
+        "position": 22,
         "hoist": false,
         "mentionable": false
       },
@@ -618,7 +618,7 @@
         "name": "Jerk",
         "color": 463644,
         "permissions": "1720707884371521",
-        "position": 12,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -627,7 +627,7 @@
         "name": "\"Always HORNY\" Mod",
         "color": 15277667,
         "permissions": "1721826619162615",
-        "position": 11,
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -636,7 +636,7 @@
         "name": "━━━━━━━━",
         "color": 0,
         "permissions": "6546640449",
-        "position": 39,
+        "position": 35,
         "hoist": false,
         "mentionable": false
       },
@@ -645,7 +645,7 @@
         "name": "North America",
         "color": 3129087,
         "permissions": "0",
-        "position": 24,
+        "position": 20,
         "hoist": false,
         "mentionable": false
       },
@@ -654,7 +654,7 @@
         "name": "Orange",
         "color": 16754568,
         "permissions": "0",
-        "position": 34,
+        "position": 30,
         "hoist": false,
         "mentionable": false
       },
@@ -663,7 +663,7 @@
         "name": "They/Them",
         "color": 11177942,
         "permissions": "0",
-        "position": 29,
+        "position": 25,
         "hoist": false,
         "mentionable": false
       },
@@ -672,7 +672,7 @@
         "name": "Moderators",
         "color": 14676313,
         "permissions": "6546640449",
-        "position": 56,
+        "position": 52,
         "hoist": true,
         "mentionable": false
       },
@@ -681,7 +681,7 @@
         "name": "Contributor",
         "color": 0,
         "permissions": "32768",
-        "position": 50,
+        "position": 46,
         "hoist": true,
         "mentionable": false
       },
@@ -690,7 +690,7 @@
         "name": "PC",
         "color": 15428406,
         "permissions": "0",
-        "position": 28,
+        "position": 24,
         "hoist": false,
         "mentionable": false
       },
@@ -699,7 +699,7 @@
         "name": "He/Him",
         "color": 16093196,
         "permissions": "0",
-        "position": 31,
+        "position": 27,
         "hoist": false,
         "mentionable": false
       },
@@ -708,7 +708,7 @@
         "name": "Co owner",
         "color": 65500,
         "permissions": "1721826619162615",
-        "position": 59,
+        "position": 55,
         "hoist": false,
         "mentionable": false
       },
@@ -717,7 +717,7 @@
         "name": "XBOX",
         "color": 1013776,
         "permissions": "0",
-        "position": 27,
+        "position": 23,
         "hoist": false,
         "mentionable": false
       },
@@ -726,7 +726,7 @@
         "name": "Intermediate (LVL 10)",
         "color": 3066993,
         "permissions": "279040",
-        "position": 46,
+        "position": 42,
         "hoist": false,
         "mentionable": false
       },
@@ -735,7 +735,7 @@
         "name": "Beginner (LVL 5)",
         "color": 1752220,
         "permissions": "263168",
-        "position": 45,
+        "position": 41,
         "hoist": false,
         "mentionable": false
       },
@@ -744,7 +744,7 @@
         "name": "Mobile",
         "color": 10468646,
         "permissions": "0",
-        "position": 25,
+        "position": 21,
         "hoist": false,
         "mentionable": false
       },
@@ -753,7 +753,7 @@
         "name": "South America",
         "color": 3129087,
         "permissions": "0",
-        "position": 23,
+        "position": 19,
         "hoist": false,
         "mentionable": false
       },
@@ -762,11 +762,11 @@
         "name": "Owner",
         "color": 16722549,
         "permissions": "1721826619162615",
-        "position": 60,
+        "position": 56,
         "hoist": true,
         "mentionable": false
       }
     ],
-    "updated": 1777337671888
+    "updated": 1778600973843
   }
 }

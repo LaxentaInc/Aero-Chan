@@ -154,6 +154,20 @@
         "type": 0,
         "position": 2,
         "parentId": null
+      },
+      {
+        "id": "1498989716534460527",
+        "name": "blockmango-interest",
+        "type": 0,
+        "position": 5,
+        "parentId": "1485645799206424807"
+      },
+      {
+        "id": "1503063933546659932",
+        "name": "advertisements📢",
+        "type": 5,
+        "position": 1,
+        "parentId": "1485689945279565934"
       }
     ],
     "roles": [
@@ -162,7 +176,7 @@
         "name": "IGL",
         "color": 15990784,
         "permissions": "1721826618638327",
-        "position": 7,
+        "position": 10,
         "hoist": false,
         "mentionable": false
       },
@@ -171,7 +185,7 @@
         "name": "UHR",
         "color": 3066993,
         "permissions": "1720707884502593",
-        "position": 6,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -180,11 +194,29 @@
         "name": "Minecraft",
         "color": 5898495,
         "permissions": "1720707884502593",
-        "position": 5,
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1498988121906217001",
+        "name": "Blockmango",
+        "color": 15844367,
+        "permissions": "1720707884371521",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1498993454506840104",
+        "name": "Co Owner",
+        "color": 15277667,
+        "permissions": "1721826619162615",
+        "position": 3,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1777337671953
+    "updated": 1778600973964
   }
 }

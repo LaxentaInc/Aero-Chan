@@ -45,7 +45,7 @@
       },
       {
         "id": "1454052113054437529",
-        "name": "🌌Members: 80",
+        "name": "🌌Members: 77",
         "type": 2,
         "position": 0,
         "parentId": null
@@ -344,12 +344,6 @@
         "parentId": "1449323615580590182"
       },
       {
-        "id": "1480987481322033373",
-        "name": "To administrators",
-        "type": 11,
-        "parentId": "1449324050299093105"
-      },
-      {
         "id": "1496907507375804637",
         "name": "Hi",
         "type": 11,
@@ -448,6 +442,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1777337671930
+    "updated": 1778600973916
   }
 }

@@ -131,7 +131,7 @@
         "id": "1474199425525092372",
         "name": "🎂-birthdays",
         "type": 0,
-        "position": 2,
+        "position": 3,
         "parentId": "1474248588921012284"
       },
       {
@@ -150,7 +150,7 @@
       },
       {
         "id": "1474248588921012284",
-        "name": "Robots/Bots",
+        "name": "Bots or random",
         "type": 4,
         "position": 3,
         "parentId": null
@@ -191,16 +191,23 @@
         "parentId": "1493453434014138478"
       },
       {
+        "id": "1500228261622452408",
+        "name": "spam",
+        "type": 0,
+        "position": 2,
+        "parentId": "1474248588921012284"
+      },
+      {
         "id": "1493055081870786580",
         "name": "report this guy he makes me red and angry",
         "type": 11,
         "parentId": "1437548291549298879"
       },
       {
-        "id": "1490907672919146659",
-        "name": "Confession Replies (#302)",
+        "id": "1500640192732860546",
+        "name": "mac shoe",
         "type": 11,
-        "parentId": "1474231628346691835"
+        "parentId": "1474199425525092372"
       },
       {
         "id": "1493783719654199349",
@@ -229,6 +236,42 @@
       {
         "id": "1498476547546284316",
         "name": "Confession Replies (#333)",
+        "type": 11,
+        "parentId": "1474231628346691835"
+      },
+      {
+        "id": "1498525011198083142",
+        "name": "Confession Replies (#336)",
+        "type": 11,
+        "parentId": "1474231628346691835"
+      },
+      {
+        "id": "1498981275548258314",
+        "name": "Confession Replies (#338)",
+        "type": 11,
+        "parentId": "1474231628346691835"
+      },
+      {
+        "id": "1499624212846088242",
+        "name": "Confession Replies (#350)",
+        "type": 11,
+        "parentId": "1474231628346691835"
+      },
+      {
+        "id": "1501654296960172153",
+        "name": "Confession Replies (#380)",
+        "type": 11,
+        "parentId": "1474231628346691835"
+      },
+      {
+        "id": "1501783158067036330",
+        "name": "Confession Replies (#382)",
+        "type": 11,
+        "parentId": "1474231628346691835"
+      },
+      {
+        "id": "1502011536489578578",
+        "name": "Confession Replies (#393)",
         "type": 11,
         "parentId": "1474231628346691835"
       }
@@ -352,6 +395,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1777337671934
+    "updated": 1778600973924
   }
 }

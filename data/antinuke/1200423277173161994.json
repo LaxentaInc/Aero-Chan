@@ -43,7 +43,7 @@
         "name": "CASSIE !",
         "color": 3775435,
         "permissions": "32957699452871",
-        "position": 16,
+        "position": 11,
         "hoist": true,
         "mentionable": false
       },
@@ -52,7 +52,7 @@
         "name": "JOHNNY !",
         "color": 10181046,
         "permissions": "32976758374391",
-        "position": 15,
+        "position": 10,
         "hoist": true,
         "mentionable": false
       },
@@ -61,7 +61,7 @@
         "name": "SONYA !",
         "color": 14991104,
         "permissions": "31858024238657",
-        "position": 14,
+        "position": 9,
         "hoist": true,
         "mentionable": false
       },
@@ -70,11 +70,11 @@
         "name": "USER-1015158069681987655",
         "color": 12477440,
         "permissions": "0",
-        "position": 12,
+        "position": 7,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1777337671957
+    "updated": 1778600973977
   }
 }
