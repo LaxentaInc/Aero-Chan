@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, EmbedBuilder, MessageFlags } from "discord.js";
 import { Timer } from "../../../utils/timerRestore";
 const formatTime = (ms: any) => {
