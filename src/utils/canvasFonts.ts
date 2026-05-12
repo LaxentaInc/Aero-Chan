@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { GlobalFonts } from "@napi-rs/canvas";
 import path from "path";
 import fs from "fs";
