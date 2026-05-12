@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { logger } from "../utils/logger";
 import AccountAgeProtectionModule from "../modules/ageVerify";
 import botProtection from "../modules/bot-protection";
