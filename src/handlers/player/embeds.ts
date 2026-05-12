@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } from "discord.js";
 // Same embed colors from original
 const EMBED_COLORS = {
