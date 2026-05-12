@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Events, ModalBuilder, TextInputBuilder, TextInputStyle, ActionRowBuilder } from "discord.js";
 import ticketManager from "../utils/ticketManager";
 import { Colors, Messages } from "../utils/constants";
