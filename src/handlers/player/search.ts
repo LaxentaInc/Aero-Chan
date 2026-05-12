@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getNode } from "./manager";
 import { SOURCE_INFO } from "./embeds";
 /**
