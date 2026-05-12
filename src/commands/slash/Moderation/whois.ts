@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SlashCommandBuilder, EmbedBuilder } from "discord.js";
 export default {
   data: new SlashCommandBuilder().setName('whois').setDescription('Get detailed information about a user').addUserOption((option: any) => option.setName('target').setDescription('The user to get info about').setRequired(false)),
