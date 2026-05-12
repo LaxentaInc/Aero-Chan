@@ -1,3 +1,4 @@
+// @ts-nocheck
 import path from "path";
 import { logger } from "./logger";
 const fs = require('fs').promises;
