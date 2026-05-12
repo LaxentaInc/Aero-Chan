@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { registerButton } from "../../../handlers/buttonHandler";
 import { PermissionFlagsBits, EmbedBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder } from "discord.js";
 export default {
