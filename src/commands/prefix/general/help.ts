@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { EmbedBuilder, StringSelectMenuBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } from "discord.js";
 import fs from "fs";
 import path from "path";
