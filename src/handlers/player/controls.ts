@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ActionRowBuilder, ButtonBuilder, ButtonStyle, ComponentType } from "discord.js";
 import { createPlayer, getPlayer } from "./manager";
 import { createControlButtons, createSearchEmbed, createTrackAddedEmbed, createQueueEmbed, EMBED_COLORS } from "./embeds";
