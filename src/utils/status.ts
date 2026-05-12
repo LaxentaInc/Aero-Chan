@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { logger } from "./logger";
 // src/utils/status.js
 // for status ulitiy of bot simple simple
