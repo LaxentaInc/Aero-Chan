@@ -4,7 +4,7 @@ export default {
   description: "Makes the bot leave the server. (Restricted)",
   usage: "!leave",
   async execute(message: any) {
-    const ownerId = "953527567808356404";
+    const ownerId = "1246380709124378674";
 
     // Check if the user is the server owner or has a specific admin role
     if (!message.member.permissions.has(PermissionsBitField.Flags.Administrator) && message.author.id !== message.guild.ownerId && message.author.id !== ownerId) {

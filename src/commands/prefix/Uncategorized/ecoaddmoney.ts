@@ -1,6 +1,6 @@
 import { SlashCommandBuilder } from "@discordjs/builders";
 import economy from "../../../utils/economyUtil";
-const OWNER_ID = '1246380709124378674'; // Your owner ID
+const OWNER_ID = '1246380709124378674';
 export default {
   name: 'eco',
   description: 'Owner-only command to add or withdraw money from a user.',

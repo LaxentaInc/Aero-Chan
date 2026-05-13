@@ -320,6 +320,27 @@
         "name": "More from me (this time not a joky-kiddy)",
         "type": 11,
         "parentId": "1503066575316586506"
+      },
+      {
+        "id": "1503832485920772107",
+        "name": "Aero",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1503832491130097815",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1503832485920772107"
+      },
+      {
+        "id": "1503832713738846419",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1503832485920772107"
       }
     ],
     "roles": [
@@ -328,7 +349,7 @@
         "name": "Developers",
         "color": 3447003,
         "permissions": "6546640457",
-        "position": 14,
+        "position": 13,
         "hoist": true,
         "mentionable": false
       },
@@ -337,7 +358,7 @@
         "name": "Administrators",
         "color": 3066993,
         "permissions": "8864262206128087",
-        "position": 12,
+        "position": 11,
         "hoist": true,
         "mentionable": false
       },
@@ -346,7 +367,7 @@
         "name": "Moderators",
         "color": 14676313,
         "permissions": "7147931802398535",
-        "position": 11,
+        "position": 10,
         "hoist": true,
         "mentionable": false
       },
@@ -355,7 +376,7 @@
         "name": "Support",
         "color": 15844367,
         "permissions": "7389240219782977",
-        "position": 10,
+        "position": 9,
         "hoist": true,
         "mentionable": false
       },
@@ -364,7 +385,7 @@
         "name": "━━━━━━━━",
         "color": 0,
         "permissions": "6546640449",
-        "position": 9,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -373,7 +394,7 @@
         "name": "Patreons",
         "color": 15277667,
         "permissions": "6546640449",
-        "position": 8,
+        "position": 7,
         "hoist": true,
         "mentionable": false
       },
@@ -382,7 +403,7 @@
         "name": "Partners",
         "color": 10181046,
         "permissions": "6546640449",
-        "position": 7,
+        "position": 6,
         "hoist": true,
         "mentionable": false
       },
@@ -391,7 +412,7 @@
         "name": "━━━━━━━━",
         "color": 0,
         "permissions": "6546640449",
-        "position": 6,
+        "position": 5,
         "hoist": false,
         "mentionable": false
       },
@@ -400,7 +421,7 @@
         "name": "Voter",
         "color": 6405375,
         "permissions": "6546640449",
-        "position": 5,
+        "position": 4,
         "hoist": true,
         "mentionable": false
       },
@@ -409,7 +430,7 @@
         "name": "Members",
         "color": 15158332,
         "permissions": "955379071962689",
-        "position": 4,
+        "position": 3,
         "hoist": true,
         "mentionable": false
       },
@@ -418,7 +439,7 @@
         "name": "Bots",
         "color": 16770790,
         "permissions": "6546640457",
-        "position": 3,
+        "position": 2,
         "hoist": true,
         "mentionable": false
       },
@@ -427,7 +448,7 @@
         "name": "━━━━━━━━",
         "color": 0,
         "permissions": "6546640449",
-        "position": 2,
+        "position": 1,
         "hoist": false,
         "mentionable": false
       },
@@ -436,12 +457,12 @@
         "name": "Head Administrator",
         "color": 2067276,
         "permissions": "8",
-        "position": 13,
+        "position": 12,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1778605066413
+    "updated": 1778655956560
   },
   "userStrips": {
     "416358583220043796": {
