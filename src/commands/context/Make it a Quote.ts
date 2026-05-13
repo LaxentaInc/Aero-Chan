@@ -30,18 +30,18 @@ export default {
       });
 
       // Create buttons (only "Remove my Quote" now)
-      const row = new ActionRowBuilder().addComponents(new ButtonBuilder().setCustomId(`quote_remove_${interaction.user.id}_placeholder`).setLabel('Remove my Quote').setStyle(ButtonStyle.Danger));
+      // const row = new ActionRowBuilder().addComponents(new ButtonBuilder().setCustomId(`quote_remove_${interaction.user.id}_placeholder`).setLabel('Remove my Quote').setStyle(ButtonStyle.Danger));
       const sentMessage = await interaction.editReply({
         content: `[Jump to original message](${targetMessage.url})`,
         files: [attachment],
-        components: [row]
+        // components: [row]
       });
 
-      // Update button with actual message ID
-      const updatedRow = new ActionRowBuilder().addComponents(new ButtonBuilder().setCustomId(`quote_remove_${interaction.user.id}_${sentMessage.id}`).setLabel('Remove my Quote').setStyle(ButtonStyle.Danger));
-      await interaction.editReply({
-        components: [updatedRow]
-      });
+      // // Update button with actual message ID
+      // const updatedRow = new ActionRowBuilder().addComponents(new ButtonBuilder().setCustomId(`quote_remove_${interaction.user.id}_${sentMessage.id}`).setLabel('Remove my Quote').setStyle(ButtonStyle.Danger));
+      // await interaction.editReply({
+      //   components: [updatedRow]
+      // });
 
       // Store quote metadata for button handling
       storeQuote(sentMessage.id, {

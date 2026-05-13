@@ -1,1 +1,20 @@
-{}
+{
+  "1504040214765768754": {
+    "userId": "1246380709124378674",
+    "channelId": "1465341395438145839",
+    "guildId": null,
+    "originalMessageUrl": "https://discord.com/channels/@me/1465341395438145839/1503632301224099950",
+    "originalAuthor": "1331145720216158208",
+    "createdAt": 1778661533761,
+    "expiresAt": 1778920733761
+  },
+  "1504040291945156768": {
+    "userId": "1246380709124378674",
+    "channelId": "1464652988889956475",
+    "guildId": null,
+    "originalMessageUrl": "https://discord.com/channels/@me/1464652988889956475/1504039170140536852",
+    "originalAuthor": "1437533565402218598",
+    "createdAt": 1778661550645,
+    "expiresAt": 1778920750645
+  }
+}
