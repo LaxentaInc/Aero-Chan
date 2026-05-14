@@ -1,0 +1,71 @@
+{
+  "backup": {
+    "channels": [],
+    "roles": [
+      {
+        "id": "1499767259508379648",
+        "name": "ꉹ‌ؔ 𝒫𝚛𝚒𝚗𝚌𝚎𝓈𝓈 ༷۫۫",
+        "color": 16777215,
+        "permissions": "8864258447638525",
+        "position": 13,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1499769976750346311",
+        "name": "𝚜𝚠𝚎𝚎𝚝 ̣̣̣ ⊹ᣟ ִ ݃",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 6,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1499771245242220626",
+        "name": "𝚝𝚊𝚐 ᣟֹ݂ 𓈒",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 8,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1499771828606865509",
+        "name": "฀฀ 𔘓",
+        "color": 16777215,
+        "permissions": "8864258447638527",
+        "position": 12,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1500322721798688889",
+        "name": "m𝚢ㅤ♡",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 7,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1500448625501929634",
+        "name": "꒰ 𝓈t♡𝚏𝚏 ִ۫ ‌۫   ࣪࣪ 𐇽࣪࣪",
+        "color": 16777215,
+        "permissions": "4012841699372244",
+        "position": 11,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1501298037589540874",
+        "name": "𝚞𝚙𝑙 ˚̣̣̣┊♡",
+        "color": 16777215,
+        "permissions": "2252246557772865",
+        "position": 10,
+        "hoist": true,
+        "mentionable": true
+      }
+    ],
+    "updated": 1778670402009
+  }
+}

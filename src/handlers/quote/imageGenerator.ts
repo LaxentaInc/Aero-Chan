@@ -1,14 +1,78 @@
 // @ts-nocheck
 import { createCanvas, loadImage } from "@napi-rs/canvas";
 import { registerFonts } from "../../utils/canvasFonts";
+import sharp from "sharp";
+
 // font stack: inter for text, noto color emoji for emoji glyphs
 const FONT_TEXT = '"Inter", "Noto Color Emoji"';
 
+// color palette for cycling
+const TEXT_COLORS = [
+  '#FFFFFF', // white (default)
+  '#FFD700', // gold
+  '#00FFFF', // cyan
+  '#FF69B4', // pink
+  '#7CFC00', // lawn green
+  '#FF8C00', // dark orange
+  '#E6E6FA', // lavender
+  '#FF4444', // red
+];
+
+interface QuoteStyle {
+  bold: boolean;
+  italic: boolean;
+  colorIndex: number;
+  showQuotes: boolean;
+}
+
+const DEFAULT_STYLE: QuoteStyle = {
+  bold: false,
+  italic: true,
+  colorIndex: 0,
+  showQuotes: true,
+};
+
 /**
- * Generate a quote image from message content
- * Layout: Left half = user avatar, Right half = quote text
+ * auto-fit font size so text never overflows
+ * starts at maxSize and shrinks until all text fits within the allowed area
  */
-async function generateQuoteImage(messageContent: any, author: any) {
+function calculateFitFontSize(ctx: any, text: string, maxWidth: number, maxLines: number, fontFamily: string, style: QuoteStyle, maxSize = 32, minSize = 14): number {
+  let fontSize = maxSize;
+
+  while (fontSize >= minSize) {
+    const weight = style.bold ? 'bold' : 'normal';
+    const slant = style.italic ? 'italic' : '';
+    ctx.font = `${slant} ${weight} ${fontSize}px ${fontFamily}`.trim();
+
+    const lineHeight = fontSize * 1.35;
+    const words = text.split(' ');
+    let line = '';
+    let lineCount = 0;
+
+    for (const word of words) {
+      const testLine = line + word + ' ';
+      const metrics = ctx.measureText(testLine);
+      if (metrics.width > maxWidth && line !== '') {
+        lineCount++;
+        line = word + ' ';
+      } else {
+        line = testLine;
+      }
+    }
+    if (line) lineCount++;
+
+    if (lineCount <= maxLines) return fontSize;
+    fontSize -= 2;
+  }
+
+  return minSize;
+}
+
+/**
+ * generate a quote image from message content
+ * layout: left half = user avatar, right half = quote text
+ */
+async function generateQuoteImage(messageContent: string, author: any, style: QuoteStyle = DEFAULT_STYLE): Promise<Buffer> {
   // ensure fonts are downloaded + registered before drawing
   await registerFonts();
   const width = 800;
@@ -22,12 +86,12 @@ async function generateQuoteImage(messageContent: any, author: any) {
   // black background
   ctx.fillStyle = '#000000';
   ctx.fillRect(0, 0, width, height);
+
   try {
     // load and draw user avatar on left side
-    const avatarUrl = author.displayAvatarURL({
-      extension: 'png',
-      size: 512
-    });
+    const avatarUrl = typeof author.avatarURL === 'string' 
+      ? author.avatarURL 
+      : author.displayAvatarURL?.({ extension: 'png', forceStatic: true, size: 512 }) || 'https://cdn.discordapp.com/embed/avatars/0.png';
     const avatar = await loadImage(avatarUrl);
 
     // draw avatar covering left portion (half screen)
@@ -45,19 +109,25 @@ async function generateQuoteImage(messageContent: any, author: any) {
     // right side - quote text
     const textStartX = avatarWidth + 60;
     const textWidth = width - textStartX - 60;
+    const maxLines = 6;
 
-    // quote text - clean and readable
-    ctx.fillStyle = '#ffffff';
-    ctx.font = `italic 28px ${FONT_TEXT}`;
+    // auto-fit font size
+    const quotedText = style.showQuotes !== false ? `"${messageContent}"` : messageContent;
+    const fontSize = calculateFitFontSize(ctx, quotedText, textWidth, maxLines, FONT_TEXT, style);
+    const lineHeight = fontSize * 1.35;
+
+    // apply final font style
+    const weight = style.bold ? 'bold' : 'normal';
+    const slant = style.italic ? 'italic' : '';
+    ctx.fillStyle = TEXT_COLORS[style.colorIndex] || TEXT_COLORS[0];
+    ctx.font = `${slant} ${weight} ${fontSize}px ${FONT_TEXT}`.trim();
     ctx.textAlign = 'left';
 
     // word wrap
-    const lineHeight = 38;
-    let y = height / 2 - 40;
-    const words = `"${messageContent}"`.split(' ');
+    const words = quotedText.split(' ');
     let line = '';
-    const lines = [];
-    for (let word of words) {
+    const lines: string[] = [];
+    for (const word of words) {
       const testLine = line + word + ' ';
       const metrics = ctx.measureText(testLine);
       if (metrics.width > textWidth && line !== '') {
@@ -69,34 +139,34 @@ async function generateQuoteImage(messageContent: any, author: any) {
     }
     if (line) lines.push(line.trim());
 
-    // limit lines
-    const maxLines = 4;
+    // limit and truncate last line if needed
     const displayLines = lines.slice(0, maxLines);
+    if (lines.length > maxLines) {
+      const last = displayLines[maxLines - 1];
+      displayLines[maxLines - 1] = last.substring(0, Math.max(0, last.length - 3)) + '...';
+    }
 
     // center vertically
     const totalTextHeight = displayLines.length * lineHeight;
-    y = (height - totalTextHeight) / 2 + 20;
+    const y = (height - totalTextHeight) / 2 + 20;
 
     // draw text lines
-    displayLines.forEach((line: any, i: any) => {
-      let displayLine = line;
-      if (i === maxLines - 1 && lines.length > maxLines) {
-        displayLine = line.substring(0, line.length - 3) + '...';
-      }
-      ctx.fillText(displayLine, textStartX, y + i * lineHeight);
+    displayLines.forEach((textLine, i) => {
+      ctx.fillText(textLine, textStartX, y + i * lineHeight);
     });
 
     // author attribution
     ctx.fillStyle = '#aaaaaa';
     ctx.font = `16px ${FONT_TEXT}`;
     ctx.textAlign = 'left';
+    const authorName = author.displayName || author.username || 'Unknown';
     const authorY = y + displayLines.length * lineHeight + 40;
-    ctx.fillText(`- ${author.displayName}`, textStartX, authorY);
+    ctx.fillText(`- ${authorName}`, textStartX, authorY);
 
     // username/tag below
     ctx.fillStyle = '#666666';
     ctx.font = `13px ${FONT_TEXT}`;
-    const tag = `@${author.username}`;
+    const tag = `@${author.username || 'unknown'}`;
     ctx.fillText(tag, textStartX, authorY + 20);
 
     // aero branding in bottom right
@@ -119,7 +189,21 @@ async function generateQuoteImage(messageContent: any, author: any) {
   // convert to buffer
   return canvas.toBuffer('image/png');
 }
-export { generateQuoteImage };
+
+/**
+ * convert a png buffer to a single-frame gif using sharp
+ */
+async function convertToGif(pngBuffer: Buffer): Promise<Buffer> {
+  return await sharp(pngBuffer)
+    .gif()
+    .toBuffer();
+}
+
+export { generateQuoteImage, convertToGif, TEXT_COLORS, DEFAULT_STYLE };
+export type { QuoteStyle };
 export default {
-  generateQuoteImage
+  generateQuoteImage,
+  convertToGif,
+  TEXT_COLORS,
+  DEFAULT_STYLE
 };

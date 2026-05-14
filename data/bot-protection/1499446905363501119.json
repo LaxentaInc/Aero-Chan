@@ -1,0 +1,56 @@
+{
+  "buttons": {
+    "restore_perms_874208531551776800": {
+      "type": "restore_perms",
+      "targetId": "874208531551776800",
+      "memberId": "874208531551776800",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "TheModBot",
+            "id": "1504077298117247059",
+            "permissions": [
+              "KickMembers",
+              "BanMembers",
+              "ManageChannels",
+              "AddReactions",
+              "ViewChannel",
+              "SendMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "UseExternalEmojis",
+              "MuteMembers",
+              "DeafenMembers",
+              "ManageRoles",
+              "UseApplicationCommands",
+              "SendMessagesInThreads",
+              "ModerateMembers"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1499446905363501119",
+      "relatedMessages": [
+        {
+          "channelId": "1504077306254200883",
+          "messageId": "1504077310813278341"
+        },
+        {
+          "channelId": "1504077321643102332",
+          "messageId": "1504077324398628924"
+        }
+      ],
+      "expiresAt": 1778756778578,
+      "createdAt": 1778670378578,
+      "module": "bot-protection"
+    }
+  }
+}

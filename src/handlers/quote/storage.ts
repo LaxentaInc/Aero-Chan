@@ -5,7 +5,7 @@ const QUOTES_FILE = path.join(__dirname, '../../data/quotes.json');
 const EXPIRY_TIME = 3 * 24 * 60 * 60 * 1000; // 3 days in ms
 
 /**
- * Load quotes from JSON
+ * load quotes from json
  */
 function loadQuotes() {
   try {
@@ -28,7 +28,7 @@ function loadQuotes() {
 }
 
 /**
- * Save quotes to JSON
+ * save quotes to json
  */
 function saveQuotes(quotes: any) {
   try {
@@ -39,7 +39,7 @@ function saveQuotes(quotes: any) {
 }
 
 /**
- * Store a new quote
+ * store a new quote with style + content for regeneration
  */
 function storeQuote(messageId: any, data: any) {
   const quotes = loadQuotes();
@@ -52,7 +52,7 @@ function storeQuote(messageId: any, data: any) {
 }
 
 /**
- * Get quote by message ID
+ * get quote by message id
  */
 function getQuote(messageId: any) {
   const quotes = loadQuotes();
@@ -60,7 +60,20 @@ function getQuote(messageId: any) {
 }
 
 /**
- * Remove a quote
+ * update an existing quote's data (e.g. style changes)
+ */
+function updateQuote(messageId: any, updates: any) {
+  const quotes = loadQuotes();
+  if (quotes[messageId]) {
+    quotes[messageId] = { ...quotes[messageId], ...updates };
+    saveQuotes(quotes);
+    return true;
+  }
+  return false;
+}
+
+/**
+ * remove a quote
  */
 function removeQuote(messageId: any) {
   const quotes = loadQuotes();
@@ -69,14 +82,14 @@ function removeQuote(messageId: any) {
 }
 
 /**
- * Check if quote has expired
+ * check if quote has expired
  */
 function isExpired(quote: any) {
   return Date.now() > quote.expiresAt;
 }
 
 /**
- * Clean up expired quotes and disable their buttons
+ * clean up expired quotes and disable their buttons
  */
 async function cleanupExpiredQuotes(client: any) {
   const quotes = loadQuotes();
@@ -86,15 +99,13 @@ async function cleanupExpiredQuotes(client: any) {
       try {
         let channel = null;
 
-        // Handle DMs differently (when guildId is null)
+        // handle dms differently (when guildId is null)
         if (!quote.guildId) {
-          // For DMs, fetch the user and get their DM channel
           const user = await client.users.fetch(quote.userId).catch(() => null);
           if (user) {
             channel = await user.createDM().catch(() => null);
           }
         } else {
-          // For guild channels, fetch normally
           channel = await client.channels.fetch(quote.channelId).catch(() => null);
         }
         if (channel) {
@@ -106,7 +117,7 @@ async function cleanupExpiredQuotes(client: any) {
           }
         }
       } catch (error: any) {
-        // Ignore errors
+        // ignore errors
       }
       delete quotes[messageId];
       cleaned++;
@@ -117,10 +128,11 @@ async function cleanupExpiredQuotes(client: any) {
     console.log(`Cleaned up ${cleaned} expired quotes`);
   }
 }
-export { storeQuote, getQuote, removeQuote, isExpired, cleanupExpiredQuotes };
+export { storeQuote, getQuote, updateQuote, removeQuote, isExpired, cleanupExpiredQuotes };
 export default {
   storeQuote,
   getQuote,
+  updateQuote,
   removeQuote,
   isExpired,
   cleanupExpiredQuotes

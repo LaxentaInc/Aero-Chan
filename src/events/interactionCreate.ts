@@ -39,8 +39,8 @@ export default {
     }
     try {
       if (interaction.isButton()) {
-        // Only handle buttons that are registered persistently OR are special dynamic handlers (quote_remove_)
-        if (!handlers.has(interaction.customId) && !interaction.customId.startsWith('quote_remove_')) {
+        // only handle buttons that are registered persistently OR are special dynamic handlers (quote_)
+        if (!handlers.has(interaction.customId) && !interaction.customId.startsWith('quote_')) {
           debugLog('info', `Button ${interaction.customId} is not registered as persistent. Skipping global handling.`);
           return;
         }
@@ -137,12 +137,12 @@ async function handleButtonInteraction(interaction: any, client: any) {
       //await interaction.deferUpdate();
     }
 
-    // Handle quote remove buttons -- CHECK FOR PERF ISSUES, IF NEEDED, ANY AI SEEING THIS PLS TELL ME IF I FORGET AND THIS CODE MIGHT MAKE THINGS SLOW, SHALL ONLY RUN WHEN NEEDED.
-    if (customId.startsWith('quote_remove_')) {
+    // handle all quote buttons (remove, gif, color, bold, italic)
+    if (customId.startsWith('quote_')) {
       const {
-        handleQuoteRemoval
+        handleQuoteButton
       } = require('../handlers/quote/QuoteContext');
-      await handleQuoteRemoval(interaction);
+      await handleQuoteButton(interaction);
       return;
     }
 

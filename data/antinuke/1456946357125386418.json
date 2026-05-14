@@ -86,6 +86,20 @@
         "parentId": null
       },
       {
+        "id": "1504230916393009376",
+        "name": "todo",
+        "type": 0,
+        "position": 4,
+        "parentId": "1502266817299873842"
+      },
+      {
+        "id": "1504141735566246029",
+        "name": "notes",
+        "type": 0,
+        "position": 3,
+        "parentId": "1502266817299873842"
+      },
+      {
         "id": "1497328606605475980",
         "name": "📛・moderation-logs",
         "type": 0,
@@ -341,6 +355,12 @@
         "name": "More from me (this time not a joky-kiddy)",
         "type": 11,
         "parentId": "1503066575316586506"
+      },
+      {
+        "id": "1504161224764559440",
+        "name": "A few choices",
+        "type": 11,
+        "parentId": "1503066575316586506"
       }
     ],
     "roles": [
@@ -349,7 +369,7 @@
         "name": "Developers",
         "color": 3447003,
         "permissions": "6546640457",
-        "position": 13,
+        "position": 15,
         "hoist": true,
         "mentionable": false
       },
@@ -358,7 +378,7 @@
         "name": "Administrators",
         "color": 3066993,
         "permissions": "8864262206128087",
-        "position": 11,
+        "position": 13,
         "hoist": true,
         "mentionable": false
       },
@@ -367,7 +387,7 @@
         "name": "Moderators",
         "color": 14676313,
         "permissions": "7147931802398535",
-        "position": 10,
+        "position": 12,
         "hoist": true,
         "mentionable": false
       },
@@ -376,7 +396,7 @@
         "name": "Support",
         "color": 15844367,
         "permissions": "7389240219782977",
-        "position": 9,
+        "position": 11,
         "hoist": true,
         "mentionable": false
       },
@@ -385,7 +405,7 @@
         "name": "━━━━━━━━",
         "color": 0,
         "permissions": "6546640449",
-        "position": 8,
+        "position": 10,
         "hoist": false,
         "mentionable": false
       },
@@ -394,7 +414,7 @@
         "name": "Patreons",
         "color": 15277667,
         "permissions": "6546640449",
-        "position": 7,
+        "position": 9,
         "hoist": true,
         "mentionable": false
       },
@@ -403,7 +423,7 @@
         "name": "Partners",
         "color": 10181046,
         "permissions": "6546640449",
-        "position": 6,
+        "position": 8,
         "hoist": true,
         "mentionable": false
       },
@@ -412,7 +432,7 @@
         "name": "━━━━━━━━",
         "color": 0,
         "permissions": "6546640449",
-        "position": 5,
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -421,7 +441,7 @@
         "name": "Voter",
         "color": 6405375,
         "permissions": "6546640449",
-        "position": 4,
+        "position": 6,
         "hoist": true,
         "mentionable": false
       },
@@ -430,7 +450,7 @@
         "name": "Members",
         "color": 15158332,
         "permissions": "955379071962689",
-        "position": 3,
+        "position": 5,
         "hoist": true,
         "mentionable": false
       },
@@ -439,7 +459,7 @@
         "name": "Bots",
         "color": 16770790,
         "permissions": "6546640457",
-        "position": 2,
+        "position": 4,
         "hoist": true,
         "mentionable": false
       },
@@ -448,7 +468,7 @@
         "name": "━━━━━━━━",
         "color": 0,
         "permissions": "6546640449",
-        "position": 1,
+        "position": 3,
         "hoist": false,
         "mentionable": false
       },
@@ -457,12 +477,30 @@
         "name": "Head Administrator",
         "color": 2067276,
         "permissions": "8",
-        "position": 12,
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504231204411408534",
+        "name": "artists",
+        "color": 0,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504231317825388584",
+        "name": "developers",
+        "color": 0,
+        "permissions": "0",
+        "position": 1,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1778661512134
+    "updated": 1778784503015
   },
   "userStrips": {
     "416358583220043796": {

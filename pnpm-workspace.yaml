@@ -3,4 +3,5 @@ onlyBuiltDependencies:
   - canvas
   - esbuild
   - ffmpeg-static
+  - sharp
   - tesseract.js

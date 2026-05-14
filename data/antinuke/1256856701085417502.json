@@ -68,7 +68,7 @@
         "id": "1499310520417783938",
         "name": "₊˚ʚ 🍑 ɞ˚La El Studio˚ʚ 🍑 ɞ˚",
         "type": 4,
-        "position": 3,
+        "position": 4,
         "parentId": null
       },
       {
@@ -77,6 +77,13 @@
         "type": 0,
         "position": 0,
         "parentId": "1499310520417783938"
+      },
+      {
+        "id": "1504148885579239454",
+        "name": "꒰🍑꒱ʀᴇᴄɪᴘᴇ-ʙᴏx",
+        "type": 15,
+        "position": 0,
+        "parentId": "1504148784890773632"
       },
       {
         "id": "1499468976835789033",
@@ -96,14 +103,14 @@
         "id": "1499332836962996326",
         "name": "₊˚ʚ 🍑 ɞ˚Ladies˚ʚ 🍑 ɞ˚",
         "type": 4,
-        "position": 4,
+        "position": 6,
         "parentId": null
       },
       {
         "id": "1499311830160375808",
         "name": "₊˚ʚ 🍑 ɞ˚La El Chats˚ʚ 🍑 ɞ˚",
         "type": 4,
-        "position": 2,
+        "position": 3,
         "parentId": null
       },
       {
@@ -119,6 +126,13 @@
         "type": 0,
         "position": 1,
         "parentId": "1499311830160375808"
+      },
+      {
+        "id": "1504148784890773632",
+        "name": "Food Recipes",
+        "type": 4,
+        "position": 2,
+        "parentId": null
       },
       {
         "id": "1499312811858198528",
@@ -166,7 +180,7 @@
         "id": "1499332917032259747",
         "name": "₊˚ʚ 🍑 ɞ˚Gentlemen˚ʚ 🍑 ɞ˚",
         "type": 4,
-        "position": 6,
+        "position": 7,
         "parentId": null
       },
       {
@@ -182,6 +196,13 @@
         "type": 2,
         "position": 0,
         "parentId": "1499332836962996326"
+      },
+      {
+        "id": "1504263827154534480",
+        "name": "test-bots",
+        "type": 0,
+        "position": 2,
+        "parentId": "1471764988346630158"
       },
       {
         "id": "1499629085234696193",
@@ -215,7 +236,7 @@
         "id": "1471756326756552808",
         "name": "₊˚ʚ 🍑 ɞ˚ Pew Pew Pew🔫 ˚ʚ 🍑 ɞ˚",
         "type": 4,
-        "position": 7,
+        "position": 8,
         "parentId": null
       },
       {
@@ -370,6 +391,12 @@
         "name": "Text Emojis!",
         "type": 11,
         "parentId": "1499748487439323136"
+      },
+      {
+        "id": "1504148980681015376",
+        "name": "Pozole Verde de Pollo (by Lorie)",
+        "type": 11,
+        "parentId": "1504148885579239454"
       }
     ],
     "roles": [
@@ -378,7 +405,16 @@
         "name": "Peach Sprouts",
         "color": 10038562,
         "permissions": "39719961873985",
-        "position": 36,
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504266058817867907",
+        "name": "Bots",
+        "color": 6323595,
+        "permissions": "1126898487184448",
+        "position": 1,
         "hoist": false,
         "mentionable": false
       },
@@ -387,7 +423,7 @@
         "name": "USER-1426724125421994115",
         "color": 16738004,
         "permissions": "0",
-        "position": 28,
+        "position": 30,
         "hoist": false,
         "mentionable": false
       },
@@ -396,7 +432,7 @@
         "name": "KenEnergy",
         "color": 3066993,
         "permissions": "1827287518928449",
-        "position": 9,
+        "position": 11,
         "hoist": false,
         "mentionable": false
       },
@@ -405,7 +441,7 @@
         "name": "PeachiBroista💁🏻🏋🏻‍♂️🧰🔫",
         "color": 3447003,
         "permissions": "692565732482625",
-        "position": 35,
+        "position": 37,
         "hoist": true,
         "mentionable": false
       },
@@ -414,7 +450,7 @@
         "name": "PeachiBabes 💕 👑 💅🏻🌸",
         "color": 15277667,
         "permissions": "692565732482625",
-        "position": 34,
+        "position": 36,
         "hoist": true,
         "mentionable": false
       },
@@ -423,7 +459,7 @@
         "name": "Peachiboo Elite",
         "color": 7419530,
         "permissions": "8864262742605691",
-        "position": 43,
+        "position": 45,
         "hoist": true,
         "mentionable": false
       },
@@ -432,11 +468,11 @@
         "name": "Happy birthday 🎉 🎊 🎂",
         "color": 1752220,
         "permissions": "70506183597120",
-        "position": 30,
+        "position": 32,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1778661512085
+    "updated": 1778784502938
   }
 }
