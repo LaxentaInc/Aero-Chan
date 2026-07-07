@@ -109,15 +109,60 @@
     ],
     "roles": [
       {
-        "id": "1476838604750983220",
-        "name": "Moderator",
-        "color": 15277667,
-        "permissions": "5468387844462452",
+        "id": "1516767769931157655",
+        "name": "Head Moderator Ⓜ️🙇‍♀️👤",
+        "color": 3447003,
+        "permissions": "8864257373896691",
         "position": 8,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1516787445746630676",
+        "name": "Server owner 🪐☄️",
+        "color": 11187154,
+        "permissions": "8",
+        "position": 7,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1517226746099925163",
+        "name": "😩🦋Server 's most BEAUTIFUL freaksters.. 💫😩💘",
+        "color": 14863283,
+        "permissions": "8864258044977123",
+        "position": 4,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1517426174396203068",
+        "name": "SEXY WIFEY WHO MEOWS FOR EVERYONE 🤍🫶",
+        "color": 12698049,
+        "permissions": "8864257977876451",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520903258200080445",
+        "name": "RACIST",
+        "color": 11027200,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1521559024280277002",
+        "name": "slaves",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 1,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1778784503063
+    "updated": 1783359813811
   }
 }

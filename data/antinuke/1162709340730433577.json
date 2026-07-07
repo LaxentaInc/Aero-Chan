@@ -3,7 +3,7 @@
     "channels": [
       {
         "id": "1170037204966449153",
-        "name": "Members: 24",
+        "name": "Members: 23",
         "type": 2,
         "position": 1,
         "parentId": "1170037196577853531"
@@ -65,6 +65,13 @@
         "parentId": "1162709341204385884"
       },
       {
+        "id": "1517207317089751120",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1517207312069038120"
+      },
+      {
         "id": "1167832467525337158",
         "name": "rock-paper-scissors",
         "type": 0,
@@ -108,7 +115,7 @@
       },
       {
         "id": "1170037200428208318",
-        "name": "All Members: 59",
+        "name": "All Members: 58",
         "type": 2,
         "position": 0,
         "parentId": "1170037196577853531"
@@ -191,6 +198,13 @@
         "parentId": "1162713609906950254"
       },
       {
+        "id": "1517207312069038120",
+        "name": "Aero",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
         "id": "1189565491392565278",
         "name": "server-logs",
         "type": 0,
@@ -231,6 +245,13 @@
         "type": 0,
         "position": 6,
         "parentId": "1165383576888545290"
+      },
+      {
+        "id": "1517207319476179119",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1517207312069038120"
       },
       {
         "id": "1163031929537433640",
@@ -768,6 +789,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1778784503135
+    "updated": 1783359813885
   }
 }

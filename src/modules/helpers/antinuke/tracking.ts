@@ -1,3 +1,5 @@
+import { GuildId, UserId, ActionType } from "../../../types/antiraid";
+
 /**
  * AntiNuke Tracking
  * Track deletions and actions for threshold counting
@@ -7,7 +9,7 @@
  * Track a deleted channel for batch restoration
  * THIS IS ALWAYS CALLED FIRST - NEVER SKIP
  */
-function trackDeletion(deletedChannels: any, guildId: any, target: any) {
+function trackDeletion(deletedChannels: Map<GuildId, any[]>, guildId: GuildId, target: any) {
   if (!deletedChannels.has(guildId)) {
     deletedChannels.set(guildId, []);
   }
@@ -25,7 +27,7 @@ function trackDeletion(deletedChannels: any, guildId: any, target: any) {
 /**
  * Track a deleted role for batch restoration
  */
-function trackRoleDeletion(deletedRoles: any, guildId: any, target: any) {
+function trackRoleDeletion(deletedRoles: Map<GuildId, any[]>, guildId: GuildId, target: any) {
   if (!deletedRoles.has(guildId)) {
     deletedRoles.set(guildId, []);
   }
@@ -45,15 +47,15 @@ function trackRoleDeletion(deletedRoles: any, guildId: any, target: any) {
 /**
  * Track a user action with timestamp
  */
-function trackAction(recentActions: any, guildId: any, userId: any, eventType: any) {
+function trackAction(recentActions: Map<GuildId, Map<UserId, { type: ActionType, timestamp: number }[]>>, guildId: GuildId, userId: UserId, eventType: ActionType) {
   if (!recentActions.has(guildId)) {
     recentActions.set(guildId, new Map());
   }
-  const guildData = recentActions.get(guildId) as any;
+  const guildData = recentActions.get(guildId)!;
   if (!guildData.has(userId)) {
     guildData.set(userId, []);
   }
-  (guildData.get(userId) as any).push({
+  guildData.get(userId)!.push({
     type: eventType,
     timestamp: Date.now()
   });
@@ -62,10 +64,10 @@ function trackAction(recentActions: any, guildId: any, userId: any, eventType: a
 /**
  * Get count of recent actions by a user (within 30s window)
  */
-function getActionCount(recentActions: any, guildId: any, userId: any, eventType = null) {
+function getActionCount(recentActions: Map<GuildId, Map<UserId, { type: ActionType, timestamp: number }[]>>, guildId: GuildId, userId: UserId, eventType: ActionType | null = null): number {
   const now = Date.now();
-  const actions = (recentActions.get(guildId) as any)?.get(userId) || [];
-  return actions.filter((action: any) => {
+  const actions = recentActions.get(guildId)?.get(userId) || [];
+  return actions.filter((action) => {
     const withinWindow = now - action.timestamp < 30000;
     const matchesType = !eventType || action.type === eventType;
     return withinWindow && matchesType;
@@ -75,14 +77,14 @@ function getActionCount(recentActions: any, guildId: any, userId: any, eventType
 /**
  * Clear action tracking for a user (after punishment)
  */
-function clearUserActions(recentActions: any, guildId: any, userId: any) {
-  (recentActions.get(guildId) as any)?.delete(userId);
+function clearUserActions(recentActions: Map<GuildId, Map<UserId, { type: ActionType, timestamp: number }[]>>, guildId: GuildId, userId: UserId) {
+  recentActions.get(guildId)?.delete(userId);
 }
 
 /**
  * Clean up old action tracking data (called periodically)
  */
-function cleanupOldActions(recentActions: any) {
+function cleanupOldActions(recentActions: Map<GuildId, Map<UserId, { type: ActionType, timestamp: number }[]>>): number {
   const now = Date.now();
   let cleanedCount = 0;
   for (const [guildId, guildData] of recentActions.entries()) {
@@ -106,7 +108,7 @@ function cleanupOldActions(recentActions: any) {
 /**
  * Clean up old deletion tracking (called after restore)
  */
-function clearDeletions(deletedChannels: any, guildId: any) {
+function clearDeletions(deletedChannels: Map<GuildId, any[]>, guildId: GuildId) {
   deletedChannels.set(guildId, []);
 }
 export { trackDeletion, trackRoleDeletion, trackAction, getActionCount, clearUserActions, cleanupOldActions, clearDeletions };

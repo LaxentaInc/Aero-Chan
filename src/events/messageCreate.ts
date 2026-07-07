@@ -1,5 +1,5 @@
-// @ts-nocheck
-import { EmbedBuilder, Collection, MessageFlags, PermissionsBitField } from "discord.js";
+import { EmbedBuilder, Collection, MessageFlags, PermissionsBitField, Message, TextChannel } from "discord.js";
+import { ExtendedClient } from "../types/client";
 import mongoose from "mongoose";
 import errorHandler from "../handlers/errorhandler";
 import spamProtection from "../modules/AntiSpam";
@@ -8,38 +8,8 @@ import { handleAgentMessage } from "../handlers/aiAgent";
 const {
   BOT_ID
 } = process.env;
-// Guild prefix schema & model
-const guildPrefixSchema = new mongoose.Schema({
-  guildId: {
-    type: String,
-    required: true,
-    unique: true
-  },
-  prefix: {
-    type: String,
-    required: true
-  }
-});
-const GuildPrefix = (mongoose.models.GuildPrefix || mongoose.model('GuildPrefix', guildPrefixSchema)) as any;
-
-// AFK Schema & Model (auto expires after 24h)
-const afkSchema = new mongoose.Schema({
-  guildId: {
-    type: String,
-    required: true
-  },
-  userId: {
-    type: String,
-    required: true
-  },
-  reason: String,
-  timestamp: {
-    type: Date,
-    default: Date.now,
-    expires: 86400
-  } // 24h expiration
-});
-const AFK = (mongoose.models.AFK || mongoose.model('AFK', afkSchema)) as any;
+import GuildPrefix from "../models/GuildPrefix";
+import AFK from "../models/Afk";
 
 // Cooldown collection for commands
 const cooldowns = new Collection();
@@ -51,18 +21,18 @@ const PREFIX_CACHE_TTL = 60000; // 1 minute cache
 // mongoose is already connected via index.js — no redundant connection needed
 export default {
   name: 'messageCreate',
-  async execute(message: any, client: any) {
+  async execute(message: Message, client: ExtendedClient) {
     try {
       // Ignore messages from bots (except our own) or non-guild messages.
       if (shouldIgnoreMessage(message)) return;
-      if (!message.guild) return;
+      if (!message.inGuild()) return;
 
       // ===== SPAM PROTECTION CHECK (RUNS FIRST) =====
       // Ensure client is set (lazy initialization)
       if (!spamProtection.client && client) {
         spamProtection.setClient(client);
       }
-      await spamProtection.handleMessage(message);
+      await spamProtection.handleMessage(message as any);
       // ============================================
 
       // Check bot permissions.
@@ -75,7 +45,7 @@ export default {
           return;
         }
       }
-      const botPerms = message.channel.permissionsFor(client.user);
+      const botPerms = (message.channel as any).permissionsFor(client.user!);
       if (!botPerms || !botPerms.has(PermissionsBitField.Flags.SendMessages) || !botPerms.has(PermissionsBitField.Flags.EmbedLinks)) {
         logger.warn(`Missing permissions in channel ${message.channel.id}`);
         return;
@@ -116,7 +86,7 @@ export default {
             }
           }
           const timeAFK = getTimeAFK(afkStatus.timestamp);
-          message.channel.send({
+          (message.channel as import('discord.js').TextChannel).send({
             embeds: [new EmbedBuilder().setColor(0x00FF00).setDescription(`<a:e:1333357974751678524> Welcome back ${message.author}! You were AFK for ${timeAFK}.`)]
           });
         }
@@ -139,7 +109,7 @@ export default {
 
       // Only process messages starting with the prefix or a bot mention.
       if (!message.content.startsWith(guildPrefix)) {
-        const mentionRegex = new RegExp(`^<@!?${client.user.id}>`);
+        const mentionRegex = new RegExp(`^<@!?${client.user!.id}>`);
         if (mentionRegex.test(message.content)) {
           message.content = message.content.replace(mentionRegex, guildPrefix).trim();
         } else {
@@ -160,7 +130,7 @@ export default {
     }
   }
 };
-async function getPrefix(guildId: any, client: any) {
+async function getPrefix(guildId: string, client: ExtendedClient) {
   // Fallback: Initialize cache if it doesn't exist
   if (!client.prefixCache) {
     console.log(`[Prefix] Cache missing, initializing...`);
@@ -180,18 +150,18 @@ async function getPrefix(guildId: any, client: any) {
   }
   return '!'; // Default fallback
 }
-function shouldIgnoreMessage(message: any) {
+function shouldIgnoreMessage(message: Message) {
   return message.author.bot && message.author.id !== BOT_ID;
 }
-async function processCommand(message: any, client: any, guildPrefix: any) {
+async function processCommand(message: Message, client: ExtendedClient, guildPrefix: string) {
   const args = message.content.slice(guildPrefix.length).trim().split(/ +/);
-  const commandName = args.shift().toLowerCase();
-  const command = client.prefixCommands.get(commandName) as any;
+  const commandName = args.shift()?.toLowerCase();
+  if (!commandName) return;
+  const command = client.prefixCommands.get(commandName);
   if (!command) return;
 
-  // Permission check.
-  if (command.permissions) {
-    const authorPerms = message.channel.permissionsFor?.(message.author);
+  if (command.permissions && message.channel.isTextBased() && !message.channel.isDMBased()) {
+    const authorPerms = (message.channel as TextChannel).permissionsFor?.(message.author);
     if (!authorPerms || !authorPerms.has(command.permissions)) {
       await autoDeleteLog(message.channel, 'You do not have permission to use this command.');
       return;
@@ -210,13 +180,13 @@ async function processCommand(message: any, client: any, guildPrefix: any) {
       error,
       command: commandName,
       userId: message.author.id,
-      guildId: message.guild.id
+      guildId: message.guild?.id
     });
     await autoDeleteLog(message.channel, 'An error occurred while executing the command.');
     await errorHandler.handle(error, `Command: ${commandName}`);
   }
 }
-async function isOnCooldown(userId: any, action: any, cooldownInSeconds: any) {
+async function isOnCooldown(userId: string, action: string, cooldownInSeconds: number) {
   const key = `${userId}-${action}`;
   const now = Date.now();
   const cooldownAmount = cooldownInSeconds * 1000;
@@ -228,7 +198,7 @@ async function isOnCooldown(userId: any, action: any, cooldownInSeconds: any) {
   setTimeout(() => cooldowns.delete(key), cooldownAmount);
   return false;
 }
-async function autoDeleteLog(channel: any, content: any, deleteAfter: number = 3000) {
+async function autoDeleteLog(channel: any, content: string, deleteAfter: number = 3000) {
   try {
     const logMessage = await channel.send({
       content,
@@ -244,8 +214,8 @@ async function autoDeleteLog(channel: any, content: any, deleteAfter: number = 3
     });
   }
 }
-function getTimeAFK(timestamp: any) {
-  const diff = Date.now() - timestamp;
+function getTimeAFK(timestamp: number | Date) {
+  const diff = Date.now() - (timestamp instanceof Date ? timestamp.getTime() : timestamp);
   const hours = Math.floor(diff / 3600000);
   const minutes = Math.floor(diff % 3600000 / 60000);
   return hours > 0 ? `${hours}h ${minutes}m` : `${minutes}m`;

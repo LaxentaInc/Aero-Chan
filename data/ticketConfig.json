@@ -74,5 +74,31 @@
       "pingRoles": [],
       "closeDelay": 5000
     }
+  },
+  "1456946357125386418": {
+    "ticketChannel": "1497328583134281798",
+    "transcriptChannel": "1497328583134281798",
+    "supportRoles": [
+      "1497325622412968176"
+    ],
+    "categoryId": null,
+    "embedSettings": {
+      "color": 5793266,
+      "title": "Hollowsex ticket support!",
+      "description": "<a:eh:1342443037371928627> Click the button below and describe your issue to create a ticket!!",
+      "thumbnail": "https://cdn.discordapp.com/icons/1456946357125386418/e2c1b13b821561a1961a06d0727a73bb.webp"
+    },
+    "buttonSettings": {
+      "label": "Create Ticket",
+      "emoji": "<<a:eh:1342443908189257728>",
+      "style": 1
+    },
+    "ticketSettings": {
+      "nameFormat": "ticket-{number}",
+      "welcomeMessage": "<a:wel:1342444020726501407> Please be patient! Support will be with you shortly!",
+      "maxTickets": 1,
+      "pingRoles": [],
+      "closeDelay": 5000
+    }
   }
 }

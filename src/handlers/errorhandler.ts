@@ -3,7 +3,7 @@ import { red, yellow } from "colorette";
 import { logger } from "../utils/logger";
 // Using colorette for colorful logs
 export default {
-  handle: async (error: any, source: any, interaction: any) => {
+  handle: async (error: any, source: any, interaction?: any) => {
     // Prevent double handling of the same error.
     if (error._handled) return;
     error._handled = true;

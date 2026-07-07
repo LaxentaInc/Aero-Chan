@@ -250,8 +250,8 @@
         "id": "1175459689367093379",
         "name": "Участник",
         "color": 5766912,
-        "permissions": "0",
-        "position": 14,
+        "permissions": "2573235270131200",
+        "position": 13,
         "hoist": true,
         "mentionable": false
       },
@@ -260,7 +260,7 @@
         "name": "Помощь",
         "color": 1752220,
         "permissions": "0",
-        "position": 18,
+        "position": 17,
         "hoist": false,
         "mentionable": false
       },
@@ -269,7 +269,7 @@
         "name": "Спасибо",
         "color": 15844367,
         "permissions": "0",
-        "position": 19,
+        "position": 18,
         "hoist": false,
         "mentionable": false
       },
@@ -278,7 +278,7 @@
         "name": "Админ",
         "color": 15105570,
         "permissions": "32976758374391",
-        "position": 17,
+        "position": 16,
         "hoist": true,
         "mentionable": false
       },
@@ -287,7 +287,7 @@
         "name": "Модератор",
         "color": 15844367,
         "permissions": "32957699452871",
-        "position": 16,
+        "position": 15,
         "hoist": true,
         "mentionable": false
       },
@@ -296,7 +296,7 @@
         "name": "Команда основателей",
         "color": 16737792,
         "permissions": "8",
-        "position": 21,
+        "position": 20,
         "hoist": true,
         "mentionable": false
       },
@@ -305,7 +305,7 @@
         "name": "Игры",
         "color": 13041408,
         "permissions": "0",
-        "position": 15,
+        "position": 14,
         "hoist": true,
         "mentionable": false
       },
@@ -341,7 +341,7 @@
         "name": "Мемасня",
         "color": 15844367,
         "permissions": "0",
-        "position": 12,
+        "position": 11,
         "hoist": false,
         "mentionable": false
       },
@@ -350,7 +350,7 @@
         "name": "Конфликт",
         "color": 15158332,
         "permissions": "0",
-        "position": 13,
+        "position": 12,
         "hoist": false,
         "mentionable": false
       },
@@ -373,15 +373,6 @@
         "mentionable": false
       },
       {
-        "id": "1363159372707926147",
-        "name": "Голосовые",
-        "color": 6323595,
-        "permissions": "0",
-        "position": 11,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
         "id": "1441853894643945694",
         "name": "новая роль",
         "color": 0,
@@ -400,6 +391,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1778784503090
+    "updated": 1783359813841
   }
 }

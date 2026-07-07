@@ -1,5 +1,4 @@
-// @ts-nocheck
-import { PermissionFlagsBits } from "discord.js";
+import { PermissionFlagsBits, Guild, User, GuildMember, Role } from "discord.js";
 import { saveUserStrip, loadUserStrip } from "./storage";
 /**
  * AntiNuke Punishment
@@ -16,7 +15,7 @@ const DANGEROUS_PERMISSIONS = ['Administrator', 'ManageGuild', 'ManageRoles', 'M
  * @param {User} executor - The executor user object
  * @param {GuildMember} [prefetchedMember] - Optional pre-fetched member to avoid duplicate fetches
  */
-async function stripDangerousRoles(guild: Guild, executor: User, prefetchedMember = null) {
+async function stripDangerousRoles(guild: Guild, executor: User, prefetchedMember: GuildMember | null = null) {
   try {
     const member = prefetchedMember || (await guild.members.fetch(executor.id).catch(() => null));
     if (!member) {
@@ -43,9 +42,9 @@ async function stripDangerousRoles(guild: Guild, executor: User, prefetchedMembe
     }
 
     // Get all roles except @everyone
-    const allRoles = member.roles.cache.filter((role: any) => role.id !== guild.id);
-    const managedRoles = allRoles.filter((role: any) => role.managed);
-    const nonManagedRoles = allRoles.filter((role: any) => !role.managed);
+    const allRoles = member.roles.cache.filter((role: Role) => role.id !== guild.id);
+    const managedRoles = allRoles.filter((role: Role) => role.managed);
+    const nonManagedRoles = allRoles.filter((role: Role) => !role.managed);
 
     // Track what we changed so it can be restored later via buttons
     const strippedRoles = [];
@@ -57,7 +56,7 @@ async function stripDangerousRoles(guild: Guild, executor: User, prefetchedMembe
     for (const role of managedRoles.values()) {
       try {
         const currentPermissions = role.permissions;
-        const permissionsToRemove = DANGEROUS_PERMISSIONS.map((perm: any) => PermissionFlagsBits[perm]).filter(Boolean);
+        const permissionsToRemove = DANGEROUS_PERMISSIONS.map((perm: any) => (PermissionFlagsBits as any)[perm]).filter(Boolean);
         const newPermissions = currentPermissions.remove(permissionsToRemove);
         if (!currentPermissions.equals(newPermissions)) {
           await role.edit({
@@ -85,7 +84,7 @@ async function stripDangerousRoles(guild: Guild, executor: User, prefetchedMembe
     if (nonManagedRoles.size > 0) {
       try {
         // Store roles before removal
-        nonManagedRoles.forEach((role: any) => {
+        nonManagedRoles.forEach((role: Role) => {
           strippedRoles.push({
             id: role.id,
             name: role.name,
@@ -152,7 +151,7 @@ async function stripDangerousRoles(guild: Guild, executor: User, prefetchedMembe
  * @param {Object} config - Guild config
  * @param {GuildMember} [prefetchedMember] - Optional pre-fetched member
  */
-async function executePunishment(guild: Guild, executor: User, punishType: string, config: object, prefetchedMember = null) {
+async function executePunishment(guild: Guild, executor: User, punishType: 'bot' | 'user', config: any, prefetchedMember: GuildMember | null = null) {
   try {
     const member = prefetchedMember || (await guild.members.fetch(executor.id).catch(() => null));
     if (!member) {
@@ -235,7 +234,7 @@ async function executePunishment(guild: Guild, executor: User, punishType: strin
 /**
  * Get human-readable action message
  */
-function getActionsTakenMessage(type: any, config: any) {
+function getActionsTakenMessage(type: 'bot' | 'user', config: any) {
   if (type === 'bot') {
     return '• Bot **STRIPPED** of ALL dangerous permissions\n• Managed roles had permissions **EDITED**\n• Non-managed roles **REMOVED**\n• Bot is now harmless';
   }
@@ -255,7 +254,7 @@ function getActionsTakenMessage(type: any, config: any) {
  * Restore stripped roles/permissions for a user that AntiNuke previously stripped.
  * Uses JSON-backed userStrip snapshot stored in storage.js
  */
-async function restoreUserPermissions(guild: any, userId: any) {
+async function restoreUserPermissions(guild: Guild, userId: string) {
   try {
     const member = await guild.members.fetch(userId).catch(() => null);
     if (!member) {

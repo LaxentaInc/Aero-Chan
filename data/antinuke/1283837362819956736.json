@@ -10,10 +10,10 @@
       },
       {
         "id": "1283837363377672193",
-        "name": "تفراغ-القلب-من-الشحنات-السلبيه",
+        "name": "الصاله-الترحيبية",
         "type": 0,
         "position": 0,
-        "parentId": "1283837363377672192"
+        "parentId": "1504187060787875850"
       },
       {
         "id": "1283837363377672194",
@@ -26,7 +26,7 @@
         "id": "1283837363377672195",
         "name": "🎮 - 🧩 Gaming Voice Channels 🧩 - 🎮",
         "type": 4,
-        "position": 4,
+        "position": 5,
         "parentId": null
       },
       {
@@ -75,7 +75,7 @@
         "id": "1504186401237897377",
         "name": "💻 - ⌨️ Commandes Channels ⌨️ - 💻",
         "type": 4,
-        "position": 3,
+        "position": 4,
         "parentId": null
       },
       {
@@ -101,16 +101,16 @@
       },
       {
         "id": "1504187223145451580",
-        "name": "الصالة-الترحيبية",
+        "name": "تفراغ-القلب-من-الشحنات-السلبيه",
         "type": 0,
         "position": 0,
-        "parentId": "1504187060787875850"
+        "parentId": "1283837363377672192"
       },
       {
         "id": "1504187878991724694",
         "name": "🕌 - ☪️ Don't Forget  ☪️ - 🕌",
         "type": 4,
-        "position": 2,
+        "position": 3,
         "parentId": null
       },
       {
@@ -145,22 +145,22 @@
         "id": "1504553705947533444",
         "name": "بوت-آيو",
         "type": 0,
-        "position": 5,
-        "parentId": "1283837363377672192"
+        "position": 0,
+        "parentId": "1504558196969181294"
       },
       {
         "id": "1504555759458062418",
         "name": "بوت",
         "type": 0,
-        "position": 7,
+        "position": 5,
         "parentId": "1283837363377672192"
       },
       {
         "id": "1504556813532663851",
         "name": "بوت-ايرو",
         "type": 0,
-        "position": 6,
-        "parentId": "1283837363377672192"
+        "position": 1,
+        "parentId": "1504558196969181294"
       },
       {
         "id": "1504557020391411863",
@@ -173,18 +173,92 @@
         "id": "1504557590137536612",
         "name": "ميني-قيمز",
         "type": 0,
-        "position": 8,
-        "parentId": "1283837363377672192"
+        "position": 2,
+        "parentId": "1504558196969181294"
       },
       {
         "id": "1504557809373810738",
         "name": "قصص-ما-قبل-النوم",
         "type": 0,
-        "position": 9,
-        "parentId": "1283837363377672192"
+        "position": 3,
+        "parentId": "1504558196969181294"
+      },
+      {
+        "id": "1504558196969181294",
+        "name": "🤖 - 🖥️ Bots 🖥️ - 🤖",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1504565611898998915",
+        "name": "Aero",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1504565616550609057",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504565611898998915"
+      },
+      {
+        "id": "1506371240615608361",
+        "name": "كلام بدون فائدة",
+        "type": 2,
+        "position": 3,
+        "parentId": "1283837363377672195"
       }
     ],
-    "roles": [],
-    "updated": 1778784944359
+    "roles": [
+      {
+        "id": "1504565235439370340",
+        "name": "🌺°𝕿𝖍𝖊 𝕼𝖚𝖊𝖊𝖓 °🌺",
+        "color": 12157178,
+        "permissions": "8864258447638527",
+        "position": 6,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504566617692967154",
+        "name": "💫_ 𝓞𝓾𝓻 𝓛𝓲𝓰𝓱𝓽 _💫",
+        "color": 13090950,
+        "permissions": "8572877166608193",
+        "position": 5,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504567778894544917",
+        "name": "👑 - 𝒟𝓇ℯ𝓈𝓈 𝓉ℴ 𝒾𝓂𝓅𝓇ℯ𝓈𝓈 𝒬𝓊ℯℯ𝓃 - 👑",
+        "color": 15277667,
+        "permissions": "8572877166608193",
+        "position": 4,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504569029740855336",
+        "name": "🤖 - ⌨ 𝔹𝕆𝕋𝕊 ⌨ - 🤖",
+        "color": 3447003,
+        "permissions": "8864258447638527",
+        "position": 3,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504569370364612689",
+        "name": "⚔ - 🔥𝔏𝔢𝔤𝔢𝔫𝔡 𝔒𝔣 𝔏𝔢𝔤𝔢𝔫𝔡𝔰🔥 - ⚔",
+        "color": 14024704,
+        "permissions": "8572877166608193",
+        "position": 2,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783359813740
   }
 }

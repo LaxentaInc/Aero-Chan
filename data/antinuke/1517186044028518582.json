@@ -1,0 +1,143 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1517186045018505347",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1517186045018505348",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1517186045018505350",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1517186045018505348"
+      },
+      {
+        "id": "1517189658641957014",
+        "name": "🅼αιɳ",
+        "type": 0,
+        "position": 0,
+        "parentId": "1517186045018505347"
+      },
+      {
+        "id": "1517194875576123392",
+        "name": "mihoyo",
+        "type": 0,
+        "position": 1,
+        "parentId": "1517186045018505347"
+      },
+      {
+        "id": "1517195302761922610",
+        "name": "dankmemes",
+        "type": 0,
+        "position": 2,
+        "parentId": "1517186045018505347"
+      },
+      {
+        "id": "1517195631829975201",
+        "name": "smasshorpass",
+        "type": 0,
+        "position": 3,
+        "parentId": "1517186045018505347"
+      },
+      {
+        "id": "1517196738459467847",
+        "name": "karaoke",
+        "type": 2,
+        "position": 1,
+        "parentId": "1517186045018505348"
+      },
+      {
+        "id": "1517197843939463319",
+        "name": "owoassist",
+        "type": 0,
+        "position": 4,
+        "parentId": "1517186045018505347"
+      },
+      {
+        "id": "1517198478185463929",
+        "name": "mudae",
+        "type": 0,
+        "position": 5,
+        "parentId": "1517186045018505347"
+      },
+      {
+        "id": "1517204366673711176",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1517204370276483233",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1517204366673711176"
+      },
+      {
+        "id": "1517204372826624172",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1517204366673711176"
+      },
+      {
+        "id": "1517214524942454946",
+        "name": "lumina",
+        "type": 0,
+        "position": 6,
+        "parentId": "1517186045018505347"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1517189085838442527",
+        "name": "Chiikawa",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1517189230844186644",
+        "name": "Momonga",
+        "color": 15844367,
+        "permissions": "1721826618638327",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1517189366840168651",
+        "name": "Usagi",
+        "color": 11574645,
+        "permissions": "1720707884502593",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1517189442769780817",
+        "name": "Hachiware",
+        "color": 2123412,
+        "permissions": "1721807559716807",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783359813869
+  }
+}

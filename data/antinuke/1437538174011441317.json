@@ -79,13 +79,6 @@
         "parentId": "1437538175324131372"
       },
       {
-        "id": "1437549622318075984",
-        "name": "talk-about-vivler",
-        "type": 0,
-        "position": 2,
-        "parentId": "1437538175324131370"
-      },
-      {
         "id": "1437556468294484048",
         "name": "general",
         "type": 0,
@@ -164,7 +157,7 @@
       },
       {
         "id": "1493416115639156859",
-        "name": "gamenight-discussion",
+        "name": "random",
         "type": 0,
         "position": 1,
         "parentId": "1437538175324131370"
@@ -198,86 +191,26 @@
         "parentId": "1474248588921012284"
       },
       {
-        "id": "1500640192732860546",
-        "name": "mac shoe",
-        "type": 11,
-        "parentId": "1474199425525092372"
-      },
-      {
-        "id": "1493783719654199349",
-        "name": "Confession Replies (#307)",
+        "id": "1513741363294896320",
+        "name": "Confession Replies (#453)",
         "type": 11,
         "parentId": "1474231628346691835"
       },
       {
-        "id": "1497471677703913552",
-        "name": "Confession Replies (#319)",
+        "id": "1513805495675392090",
+        "name": "Confession Replies (#454)",
         "type": 11,
         "parentId": "1474231628346691835"
       },
       {
-        "id": "1497852535040639159",
-        "name": "Confession Replies (#322)",
+        "id": "1518182768415080530",
+        "name": "Confession Replies (#460)",
         "type": 11,
         "parentId": "1474231628346691835"
       },
       {
-        "id": "1497856288468500621",
-        "name": "Confession Replies (#326)",
-        "type": 11,
-        "parentId": "1474231628346691835"
-      },
-      {
-        "id": "1498476547546284316",
-        "name": "Confession Replies (#333)",
-        "type": 11,
-        "parentId": "1474231628346691835"
-      },
-      {
-        "id": "1498525011198083142",
-        "name": "Confession Replies (#336)",
-        "type": 11,
-        "parentId": "1474231628346691835"
-      },
-      {
-        "id": "1498981275548258314",
-        "name": "Confession Replies (#338)",
-        "type": 11,
-        "parentId": "1474231628346691835"
-      },
-      {
-        "id": "1499624212846088242",
-        "name": "Confession Replies (#350)",
-        "type": 11,
-        "parentId": "1474231628346691835"
-      },
-      {
-        "id": "1501654296960172153",
-        "name": "Confession Replies (#380)",
-        "type": 11,
-        "parentId": "1474231628346691835"
-      },
-      {
-        "id": "1501783158067036330",
-        "name": "Confession Replies (#382)",
-        "type": 11,
-        "parentId": "1474231628346691835"
-      },
-      {
-        "id": "1502011536489578578",
-        "name": "Confession Replies (#393)",
-        "type": 11,
-        "parentId": "1474231628346691835"
-      },
-      {
-        "id": "1503875779480784906",
-        "name": "Confession Replies (#400)",
-        "type": 11,
-        "parentId": "1474231628346691835"
-      },
-      {
-        "id": "1504390627826335876",
-        "name": "Confession Replies (#407)",
+        "id": "1519278566628524033",
+        "name": "Confession Replies (#464)",
         "type": 11,
         "parentId": "1474231628346691835"
       }
@@ -288,7 +221,7 @@
         "name": "Owner",
         "color": 1920818,
         "permissions": "0",
-        "position": 22,
+        "position": 19,
         "hoist": false,
         "mentionable": false
       },
@@ -297,7 +230,7 @@
         "name": "Co-owner",
         "color": 1146986,
         "permissions": "1721826618638327",
-        "position": 21,
+        "position": 18,
         "hoist": false,
         "mentionable": false
       },
@@ -306,7 +239,7 @@
         "name": "Cool",
         "color": 3447003,
         "permissions": "0",
-        "position": 18,
+        "position": 15,
         "hoist": false,
         "mentionable": false
       },
@@ -315,7 +248,7 @@
         "name": "dead",
         "color": 3619645,
         "permissions": "0",
-        "position": 17,
+        "position": 14,
         "hoist": false,
         "mentionable": false
       },
@@ -323,33 +256,6 @@
         "id": "1465383153421258752",
         "name": "British 🇬🇧 ☕ 🍪",
         "color": 11027200,
-        "permissions": "0",
-        "position": 16,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1465763861679575244",
-        "name": "Wife",
-        "color": 3066993,
-        "permissions": "0",
-        "position": 15,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1473055571342262423",
-        "name": "President Tyler For 2029",
-        "color": 571919,
-        "permissions": "0",
-        "position": 14,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1473056425956606168",
-        "name": "gay mom",
-        "color": 0,
         "permissions": "0",
         "position": 13,
         "hoist": false,
@@ -401,6 +307,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1778784503101
+    "updated": 1783359813848
   }
 }

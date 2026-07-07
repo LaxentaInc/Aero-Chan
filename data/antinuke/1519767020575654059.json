@@ -1,0 +1,185 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1519767023666860032",
+        "name": ", u got a keyboard?",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1519767023666860033",
+        "name": ", can u speak?",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1519767023666860035",
+        "name": "grim silence",
+        "type": 2,
+        "position": 0,
+        "parentId": "1519767023666860033"
+      },
+      {
+        "id": "1519767472750858492",
+        "name": "adminstration",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1519769145061675028",
+        "name": ", can u cooperate?",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1519769544334245998",
+        "name": "ashen grave",
+        "type": 2,
+        "position": 1,
+        "parentId": "1519767023666860033"
+      },
+      {
+        "id": "1519773391882682659",
+        "name": "control",
+        "type": 0,
+        "position": 1,
+        "parentId": "1519767023666860032"
+      },
+      {
+        "id": "1519774240507695296",
+        "name": "entrance",
+        "type": 0,
+        "position": 0,
+        "parentId": "1519769145061675028"
+      },
+      {
+        "id": "1519775407744876635",
+        "name": "locket",
+        "type": 0,
+        "position": 2,
+        "parentId": "1519767023666860032"
+      },
+      {
+        "id": "1519790541238177864",
+        "name": "dialogue",
+        "type": 0,
+        "position": 0,
+        "parentId": "1519767023666860032"
+      },
+      {
+        "id": "1519804975033614336",
+        "name": "identity",
+        "type": 0,
+        "position": 1,
+        "parentId": "1519769145061675028"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1519777536396103870",
+        "name": "PHANTOM",
+        "color": 16777215,
+        "permissions": "6765829702548727",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519777817737564280",
+        "name": "lady",
+        "color": 16734895,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519778090631430265",
+        "name": "gentleman",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519778476859850923",
+        "name": "upper hands",
+        "color": 10070709,
+        "permissions": "8864262743130111",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519778980100575243",
+        "name": "systems",
+        "color": 10070709,
+        "permissions": "8864262743130111",
+        "position": 18,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1519786627440967732",
+        "name": "solo",
+        "color": 16775673,
+        "permissions": "8864258447638527",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519797283334393926",
+        "name": "------------",
+        "color": 0,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519797452964757514",
+        "name": "-------------",
+        "color": 0,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519797507398307880",
+        "name": "Vamp",
+        "color": 0,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519805102532198490",
+        "name": "user",
+        "color": 0,
+        "permissions": "39719959642689",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520129324785598727",
+        "name": "Divaaaa",
+        "color": 16169424,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783359813836
+  }
+}

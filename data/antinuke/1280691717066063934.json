@@ -133,12 +133,6 @@
         "type": 0,
         "position": 4,
         "parentId": null
-      },
-      {
-        "id": "1500852616178045008",
-        "name": "hffieui",
-        "type": 11,
-        "parentId": "1280691717770838019"
       }
     ],
     "roles": [
@@ -179,6 +173,6 @@
         "mentionable": true
       }
     ],
-    "updated": 1778784503065
+    "updated": 1783359813813
   }
 }

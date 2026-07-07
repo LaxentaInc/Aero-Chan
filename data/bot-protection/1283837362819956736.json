@@ -1,0 +1,291 @@
+{
+  "buttons": {
+    "restore_perms_1008260316192329749": {
+      "type": "restore_perms",
+      "targetId": "1008260316192329749",
+      "memberId": "1008260316192329749",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Welcomer",
+            "id": "1504584924596932711",
+            "permissions": [
+              "Administrator"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1283837362819956736",
+      "relatedMessages": [
+        {
+          "channelId": "1504565603586019339",
+          "messageId": "1504584932394008658"
+        },
+        {
+          "channelId": "1504565616550609057",
+          "messageId": "1504584935673958410"
+        }
+      ],
+      "expiresAt": 1778877802233,
+      "createdAt": 1778791402233,
+      "module": "bot-protection"
+    },
+    "restore_perms_812623032417255434": {
+      "type": "restore_perms",
+      "targetId": "812623032417255434",
+      "memberId": "812623032417255434",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "HidayaBot",
+            "id": "1504587028728119539",
+            "permissions": [
+              "Administrator"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1283837362819956736",
+      "relatedMessages": [
+        {
+          "channelId": "1504565603586019339",
+          "messageId": "1504587037565522031"
+        },
+        {
+          "channelId": "1504565616550609057",
+          "messageId": "1504587039402622998"
+        }
+      ],
+      "expiresAt": 1778878303974,
+      "createdAt": 1778791903974,
+      "module": "bot-protection"
+    },
+    "restore_perms_1008142696801648711": {
+      "type": "restore_perms",
+      "targetId": "1008142696801648711",
+      "memberId": "1008142696801648711",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Himiko",
+            "id": "1504588689127510129",
+            "permissions": [
+              "ViewChannel",
+              "SendMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "UseExternalEmojis"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1283837362819956736",
+      "relatedMessages": [
+        {
+          "channelId": "1504565603586019339",
+          "messageId": "1504588700271640718"
+        },
+        {
+          "channelId": "1504565616550609057",
+          "messageId": "1504588703991992501"
+        }
+      ],
+      "expiresAt": 1778878700828,
+      "createdAt": 1778792300828,
+      "module": "bot-protection"
+    },
+    "restore_perms_1145059407080734882": {
+      "type": "restore_perms",
+      "targetId": "1145059407080734882",
+      "memberId": "1145059407080734882",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "HinakoChan",
+            "id": "1504590261102051328",
+            "permissions": [
+              "AddReactions",
+              "PrioritySpeaker",
+              "ViewChannel",
+              "SendMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "UseExternalEmojis",
+              "Connect",
+              "Speak",
+              "UseVAD",
+              "UseApplicationCommands",
+              "RequestToSpeak",
+              "UseExternalStickers",
+              "UseEmbeddedActivities",
+              "UseSoundboard",
+              "UseExternalSounds"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1283837362819956736",
+      "relatedMessages": [
+        {
+          "channelId": "1504565603586019339",
+          "messageId": "1504590271835541524"
+        },
+        {
+          "channelId": "1504565616550609057",
+          "messageId": "1504590275883045014"
+        }
+      ],
+      "expiresAt": 1778879075233,
+      "createdAt": 1778792675233,
+      "module": "bot-protection"
+    },
+    "restore_perms_1333962792700477450": {
+      "type": "restore_perms",
+      "targetId": "1333962792700477450",
+      "memberId": "1333962792700477450",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Hikari",
+            "id": "1504595692688117834",
+            "permissions": [
+              "Administrator",
+              "SendMessages",
+              "EmbedLinks",
+              "UseApplicationCommands"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1283837362819956736",
+      "relatedMessages": [
+        {
+          "channelId": "1504565603586019339",
+          "messageId": "1504595700778926221"
+        },
+        {
+          "channelId": "1504565616550609057",
+          "messageId": "1504595703434055722"
+        }
+      ],
+      "expiresAt": 1778880369447,
+      "createdAt": 1778793969447,
+      "module": "bot-protection"
+    },
+    "restore_perms_1243494556780068915": {
+      "type": "restore_perms",
+      "targetId": "1243494556780068915",
+      "memberId": "1243494556780068915",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Yoohyeon",
+            "id": "1504596064722751550",
+            "permissions": [
+              "AddReactions",
+              "ViewChannel",
+              "SendMessages",
+              "ManageMessages",
+              "AttachFiles",
+              "UseExternalEmojis"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1283837362819956736",
+      "relatedMessages": [
+        {
+          "channelId": "1504565603586019339",
+          "messageId": "1504596075137208483"
+        },
+        {
+          "channelId": "1504565616550609057",
+          "messageId": "1504596078337724506"
+        }
+      ],
+      "expiresAt": 1778880458742,
+      "createdAt": 1778794058742,
+      "module": "bot-protection"
+    },
+    "restore_perms_356268235697553409": {
+      "type": "restore_perms",
+      "targetId": "356268235697553409",
+      "memberId": "356268235697553409",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": ".fmbot",
+            "id": "1504596496304050310",
+            "permissions": [
+              "AddReactions",
+              "ViewChannel",
+              "SendMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "UseExternalEmojis",
+              "ManageWebhooks",
+              "SendMessagesInThreads"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1283837362819956736",
+      "relatedMessages": [
+        {
+          "channelId": "1504565603586019339",
+          "messageId": "1504596503455596775"
+        },
+        {
+          "channelId": "1504565616550609057",
+          "messageId": "1504596505716195409"
+        }
+      ],
+      "expiresAt": 1778880560580,
+      "createdAt": 1778794160580,
+      "module": "bot-protection"
+    }
+  }
+}

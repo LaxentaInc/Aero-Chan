@@ -1,0 +1,45 @@
+{
+  "buttons": {
+    "restore_perms_432610292342587392": {
+      "type": "restore_perms",
+      "targetId": "432610292342587392",
+      "memberId": "432610292342587392",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Mudae",
+            "id": "1517204350856986767",
+            "permissions": [
+              "AddReactions",
+              "SendMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "UseExternalEmojis",
+              "ManageWebhooks"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1517186044028518582",
+      "relatedMessages": [
+        {
+          "channelId": "1517204358045892817",
+          "messageId": "1517204362454110279"
+        },
+        {
+          "channelId": "1517204372826624172",
+          "messageId": "1517204374693085219"
+        }
+      ],
+      "expiresAt": 1781886512049,
+      "createdAt": 1781800112049,
+      "module": "bot-protection"
+    }
+  }
+}

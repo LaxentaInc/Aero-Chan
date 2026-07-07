@@ -66,14 +66,14 @@
       },
       {
         "id": "762170404331716611",
-        "name": "Bot Count: 3",
+        "name": "Bot Count: 4",
         "type": 2,
         "position": 1,
         "parentId": "762170402951659520"
       },
       {
         "id": "762170405439668234",
-        "name": "User Count: 121",
+        "name": "User Count: 120",
         "type": 2,
         "position": 2,
         "parentId": "762170402951659520"
@@ -340,6 +340,6 @@
         "mentionable": true
       }
     ],
-    "updated": 1778784503143
+    "updated": 1783359813897
   }
 }

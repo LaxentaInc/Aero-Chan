@@ -1,0 +1,706 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1504229620864778466",
+        "name": "☆𖦹﹐🎩rpꗃʬ",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504229620864778465"
+      },
+      {
+        "id": "1504229618855448582",
+        "name": "︰-₊˚♡-︵︵ˊvideos",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504229618855448580"
+      },
+      {
+        "id": "1504627184592093324",
+        "name": "˚˳⊹ଘଓ˖˚⊹casa-do-torajo",
+        "type": 0,
+        "position": 3,
+        "parentId": "1504229620864778465"
+      },
+      {
+        "id": "1504229604288761873",
+        "name": "╭ʚ୨୧‧₊˚regras",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504229604288761872"
+      },
+      {
+        "id": "1504619182547927152",
+        "name": "❀（🎍call◓ᶻ 2",
+        "type": 2,
+        "position": 2,
+        "parentId": "1504229620864778465"
+      },
+      {
+        "id": "1504648539287064608",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504648526481588395"
+      },
+      {
+        "id": "1504229620088705124",
+        "name": "ꉂˊᗜˋɞ﹢❝videos❞❀",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504229620088705123"
+      },
+      {
+        "id": "1504615239193460776",
+        "name": "╭₍🍇₎﹕꒷꒦˚₊quarto-do-jay꒱꒱₊˚",
+        "type": 0,
+        "position": 6,
+        "parentId": "1504582671290863677"
+      },
+      {
+        "id": "1504627876836671558",
+        "name": "₊˚๑🎥꒱┊Call-RPɞ₊ˑ༄",
+        "type": 2,
+        "position": 0,
+        "parentId": "1504229620864778465"
+      },
+      {
+        "id": "1504648526481588395",
+        "name": "Aero",
+        "type": 4,
+        "position": 12,
+        "parentId": null
+      },
+      {
+        "id": "1504229620327776432",
+        "name": "➹˚₊﹒꒰꒱・desabafos︶꒦🧺꒷",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504229620327776431"
+      },
+      {
+        "id": "1504614980098593008",
+        "name": "╭₍🍋‍🟩₎﹕꒷꒦˚₊quarto-do-azedo꒱꒱₊˚",
+        "type": 0,
+        "position": 4,
+        "parentId": "1504582671290863677"
+      },
+      {
+        "id": "1504229618855448581",
+        "name": "┊୨୧✧꒷꒦imagens",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504229618855448580"
+      },
+      {
+        "id": "1504619216924311673",
+        "name": "❀（🎍call◓ᶻ 3",
+        "type": 2,
+        "position": 3,
+        "parentId": "1504229620864778465"
+      },
+      {
+        "id": "1504229620327776433",
+        "name": "╭⊹🌙﹕frases-positivas",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504229620327776431"
+      },
+      {
+        "id": "1504229618855448579",
+        "name": "﹫ⵌ﹒votações﹐✿🎫✦",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504229611092050064"
+      },
+      {
+        "id": "1504229619358761176",
+        "name": "→﹐ʬʬ﹒☕◗﹐tupper﹒〣",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504229619358761172"
+      },
+      {
+        "id": "1504229620327776428",
+        "name": "キ˚₊🚃➹house૮-•-ﻌ-ა",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504229620088705123"
+      },
+      {
+        "id": "1504582671290863677",
+        "name": "ꘓ🛏️⋅Quartos𖦹֢",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1504229604288761874",
+        "name": "ⵓ‧₊˚🎩ʚɞ﹕avisos",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504229604288761872"
+      },
+      {
+        "id": "1504229620327776434",
+        "name": "﹕๑﹕conquistas˚⊹₊",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504229620327776431"
+      },
+      {
+        "id": "1504627335280857299",
+        "name": "﹫ⵌ﹒casa-da-zulmi﹐✿🫐✦",
+        "type": 0,
+        "position": 4,
+        "parentId": "1504229620864778465"
+      },
+      {
+        "id": "1504614889715400807",
+        "name": "╭₍🍋₎﹕꒷꒦˚₊quarto-do-linn꒱꒱₊˚",
+        "type": 0,
+        "position": 3,
+        "parentId": "1504582671290863677"
+      },
+      {
+        "id": "1505686409124516010",
+        "name": "🎥•-filminhoଓ°",
+        "type": 2,
+        "position": 4,
+        "parentId": "1504229620864778465"
+      },
+      {
+        "id": "1504229620327776431",
+        "name": "ꘓ🥪⋅Area de conforto𖦹֢",
+        "type": 4,
+        "position": 10,
+        "parentId": null
+      },
+      {
+        "id": "1504614702020558958",
+        "name": "╭₍🍏₎﹕꒷꒦˚₊quarto-do-torajo꒱꒱₊˚",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504582671290863677"
+      },
+      {
+        "id": "1504648537206423613",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504648526481588395"
+      },
+      {
+        "id": "1504229605165498542",
+        "name": "ꘓ🪷⋅Vagas/Registro𖦹֢",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1504679273318056046",
+        "name": "🍏•-mdtଓ°",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504229620864778465"
+      },
+      {
+        "id": "1504229619358761175",
+        "name": "﹢🌸︿ᵔ﹒lumine？⪩⪨﹢﹗",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504229619358761172"
+      },
+      {
+        "id": "1504229620864778467",
+        "name": "⨳﹒⌕regras-rp﹕📀﹒⿴",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504229620864778465"
+      },
+      {
+        "id": "1504229619358761179",
+        "name": "˚₊︵୨loritta୧︶꒦🎀꒷",
+        "type": 0,
+        "position": 4,
+        "parentId": "1504229619358761172"
+      },
+      {
+        "id": "1504229604288761869",
+        "name": "ꘓ֘-֢🧺ꦿboas-vindas꧞",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504229604288761867"
+      },
+      {
+        "id": "1504229604288761867",
+        "name": "꒰🎐⋅ Recepções e saidas𖦹",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1504229620327776429",
+        "name": "💐⸝⸝♡꒱﹕rpg♬˖",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504229620088705123"
+      },
+      {
+        "id": "1504229620864778465",
+        "name": "ꘓ🐹⋅Chamar𖦹֢",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1504615064626401361",
+        "name": "╭₍🍑₎﹕꒷꒦˚₊quarto-da-pessy꒱꒱₊˚",
+        "type": 0,
+        "position": 5,
+        "parentId": "1504582671290863677"
+      },
+      {
+        "id": "1504229620088705115",
+        "name": "╰╮꒦꒷duvidas˚₊꒷꒥",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504229619841368144"
+      },
+      {
+        "id": "1504229611092050065",
+        "name": "₊˚๑꒱┊chat-geralɞ₊ˑ༄",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504229611092050064"
+      },
+      {
+        "id": "1504229620088705117",
+        "name": "ꘓ💌⋅pfp𖦹֢",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1504229604288761872",
+        "name": "ꘓ🍇⋅Importantes𖦹֢",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1504312992248889384",
+        "name": "˚˳⊹ଘଓ˖˚⊹fanarts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504229611092050064"
+      },
+      {
+        "id": "1504313138282106920",
+        "name": "❀（🎍call◓ᶻ 1",
+        "type": 2,
+        "position": 1,
+        "parentId": "1504229620864778465"
+      },
+      {
+        "id": "1504229604812914833",
+        "name": "╰ʚ꒷︶꒦︶︶₊˚๑꒷꒦",
+        "type": 0,
+        "position": 4,
+        "parentId": "1504229604288761872"
+      },
+      {
+        "id": "1504229604288761870",
+        "name": "ꘓ֘-֢🧺ꦿtchau꧞",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504229604288761867"
+      },
+      {
+        "id": "1504229604812914830",
+        "name": "┊꒰🎐꒱꒷꒦ʚɞpedir-vaga",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504229605165498542"
+      },
+      {
+        "id": "1504229619358761174",
+        "name": "zᶻ⋮🗽﹗akinator▹⟡",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504229619358761172"
+      },
+      {
+        "id": "1504615405812191302",
+        "name": "╭₍⬛₎﹕꒷꒦˚₊quarto-do-suika꒱꒱₊˚",
+        "type": 0,
+        "position": 8,
+        "parentId": "1504582671290863677"
+      },
+      {
+        "id": "1504229619358761177",
+        "name": "リ﹒🥟⇆nekotina﹐౨ৎ₊˚",
+        "type": 0,
+        "position": 3,
+        "parentId": "1504229619358761172"
+      },
+      {
+        "id": "1504229618855448580",
+        "name": "ꘓ🐢⋅midias𖦹֢",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1504229619358761172",
+        "name": "ꘓ🥯⋅Bots𖦹֢",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1504229619841368144",
+        "name": "ꘓ🐞⋅Suporte𖦹֢",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1504229620088705118",
+        "name": "╭₍🍓₎﹕꒷꒦˚₊icons꒱꒱₊˚",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504229620088705117"
+      },
+      {
+        "id": "1504229619841368145",
+        "name": "・﹕୨🐰୧⊹denuncias↷💐ˎˊ˗",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504229619841368144"
+      },
+      {
+        "id": "1504312442702921829",
+        "name": "🍑•-pessy-teoriasଓ°",
+        "type": 15,
+        "position": 3,
+        "parentId": "1504229605165498542"
+      },
+      {
+        "id": "1504229604288761871",
+        "name": "╰ʚ꒷︶꒦︶︶₊˚๑꒷꒦",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504229604288761867"
+      },
+      {
+        "id": "1504229620088705120",
+        "name": "╴◎﹐₊˚๑꒰png꒱！✨੭",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504229620088705117"
+      },
+      {
+        "id": "1504229604288761866",
+        "name": "꒷꒦🥢﹆convite",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1504615332038312106",
+        "name": "╭₍🍓₎﹕꒷꒦˚₊quarto-da-margo꒱꒱₊˚",
+        "type": 0,
+        "position": 7,
+        "parentId": "1504582671290863677"
+      },
+      {
+        "id": "1504229605165498544",
+        "name": "⋆₊˚꒰꒰registro୧🌙",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504229605165498542"
+      },
+      {
+        "id": "1504229620088705119",
+        "name": "﹒💗╯౨⌜wallpaper⌝☆﹒ᶻz",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504229620088705117"
+      },
+      {
+        "id": "1505606614076489848",
+        "name": "♯⬜︰〝espaço-em-branco〞",
+        "type": 0,
+        "position": 5,
+        "parentId": "1504229620864778465"
+      },
+      {
+        "id": "1504229620088705116",
+        "name": "꒱┇⤹︶꒷꒦perguntas💒⊹˚ഒ",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504229619841368144"
+      },
+      {
+        "id": "1504229620088705123",
+        "name": "ꘓ🪶⋅Sugestões 𖦹֢",
+        "type": 4,
+        "position": 11,
+        "parentId": null
+      },
+      {
+        "id": "1504614756965683200",
+        "name": "╭₍🍎₎﹕꒷꒦˚₊quarto-do-morajo꒱꒱₊˚",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504582671290863677"
+      },
+      {
+        "id": "1504229620088705121",
+        "name": "⪩﹔🌷゛リ﹢simbolos﹐％﹒✶",
+        "type": 0,
+        "position": 3,
+        "parentId": "1504229620088705117"
+      },
+      {
+        "id": "1504614831674753054",
+        "name": "╭₍🫐₎﹕꒷꒦˚₊quarto-da-zulmi꒱꒱₊˚",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504582671290863677"
+      },
+      {
+        "id": "1504229605165498543",
+        "name": "♯🏹︰〝vagas〞",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504229605165498542"
+      },
+      {
+        "id": "1504229604812914831",
+        "name": "ⵓ‧🎍₊˚ʚɞ﹕sobre-a-house",
+        "type": 0,
+        "position": 3,
+        "parentId": "1504229604288761872"
+      },
+      {
+        "id": "1504229611092050064",
+        "name": "ꘓ🪴⋅Chats𖦹֢",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1504229619358761171",
+        "name": "˚˳⊹ଘଓ˖˚⊹memes",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504229618855448580"
+      },
+      {
+        "id": "1504229618855448577",
+        "name": "╰╮l﹒⧣₊˚seja-staff",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504229604288761872"
+      },
+      {
+        "id": "1504229620327776435",
+        "name": "╰୨୧🔮﹕diario",
+        "type": 0,
+        "position": 3,
+        "parentId": "1504229620327776431"
+      },
+      {
+        "id": "1504528714870820937",
+        "name": "Poderes Do Azedo",
+        "type": 11,
+        "parentId": "1504312442702921829"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1504229602355052598",
+        "name": "Fundador",
+        "color": 16114494,
+        "permissions": "2190432796663",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504229602355052599",
+        "name": "Adms",
+        "color": 6261159,
+        "permissions": "2190432796663",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504229602355052600",
+        "name": "moderadores",
+        "color": 11739372,
+        "permissions": "2171373875143",
+        "position": 7,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504306210193543359",
+        "name": "bot",
+        "color": 15478297,
+        "permissions": "8864262743130111",
+        "position": 30,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504308377214390383",
+        "name": "✧˖°. ˚₊‧₊˚ 𝑻𝒐𝒓𝒂𝒋𝒐 ˚₊‧₊˚ .°˖✧",
+        "color": 3464058,
+        "permissions": "0",
+        "position": 23,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504308386186133534",
+        "name": "✧˖°. ˚₊‧₊˚ 𝑴𝒐𝒓𝒂𝒋𝒐 ˚₊‧₊˚ .°˖✧",
+        "color": 14763847,
+        "permissions": "0",
+        "position": 22,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504308389231202394",
+        "name": "𖦹°‧★ 𝒁𝒖𝒍𝒎𝒊 ★‧°𖦹",
+        "color": 1982455,
+        "permissions": "0",
+        "position": 21,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504308392150171658",
+        "name": "˚♡˚· ✦ ·˚♡˚· 𝑳𝒊𝒏𝒏 ·˚♡˚· ✦ ·˚",
+        "color": 16766776,
+        "permissions": "0",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504308395392635100",
+        "name": "⋆˚✿˖° ⋆˚✿˖° 𝑨𝒛𝒆𝒅𝒐 °˖✿˚⋆ °˖✿˚⋆",
+        "color": 1069612,
+        "permissions": "0",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504308400929116260",
+        "name": "˗ˏˋ♡ˎˊ˗ 𝗣𝗲𝘀𝘀𝘆 ˗ˏˋ♡ˎˊ˗",
+        "color": 15300371,
+        "permissions": "0",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504308407715233942",
+        "name": "· ⋆˚✿˖° ·˚♡˚· 𝙹𝚊𝚢 ·˚♡˚· °˖✿˚⋆ ·˚",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504308410123026563",
+        "name": "🌹 ·˚♡˚· 𝑀𝑎𝑟𝑔𝑜 ·˚♡˚· 🌹",
+        "color": 14372299,
+        "permissions": "0",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504308947593592910",
+        "name": "ღ 🌻 A b e l  🌻 ღ",
+        "color": 12953376,
+        "permissions": "0",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504308949795606618",
+        "name": "🌸 ⋆˚✿˖° S u i k a  °˖✿˚⋆ 🌸",
+        "color": 789259,
+        "permissions": "0",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504309344366362724",
+        "name": "✨ ·˚♡˚· P o l u x  ·˚♡˚· ✨",
+        "color": 1124526,
+        "permissions": "0",
+        "position": 11,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504493924465639555",
+        "name": "𝑶𝒏𝒍𝒊𝒏𝒆",
+        "color": 683353,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504498685210525796",
+        "name": "𖦹°‧★ 𝙿𝚊𝚒 𝙳𝚘 𝙰𝚣𝚎𝚍𝚘 ★‧°𖦹",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 18,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504499185700044880",
+        "name": "𝑵ã𝒐 𝑻ã𝒐 𝑶𝒏𝒍𝒊𝒏𝒆",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504603616970019030",
+        "name": "Fruta",
+        "color": 8841968,
+        "permissions": "0",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1506408252483834068",
+        "name": "⋆˚✩ ⋆˚✩ 𝓐𝓰𝓪𝓽𝓱𝓪 ✩˚⋆ ✩˚⋆",
+        "color": 16770431,
+        "permissions": "0",
+        "position": 20,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1780026718080
+  }
+}

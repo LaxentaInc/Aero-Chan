@@ -1,5 +1,7 @@
-// @ts-nocheck
 import { getDefaultConfig, DANGEROUS_PERMISSIONS, getPermissionName } from "./config";
+import { ExtendedClient } from "../../../types/client";
+import { GuildId, UserId, ActionType } from "../../../types/antiraid";
+import { Guild, Role, GuildMember, User } from "discord.js";
 import { findExecutor, isTrusted, hasDangerousPermissions, getDangerousPermissions, getAddedDangerousPermissions, isSelfAssignment, validateBotPermissions, canPunish } from "./detection";
 import { stripDangerousRoles, executePunishment } from "./punishment";
 import { neutralizeRole } from "./neutralize";
@@ -19,13 +21,13 @@ import logManager from "../logManager";
 require('dotenv').config();
 class AntiPermissionAbuse {
   moduleName: string;
-  client: any;
-  configs: Map<any, any>;
-  punishedUsers: Map<any, any>;
-  metrics: Record<string, any>;
-  syncInterval: any;
-  cleanupInterval: any;
-  constructor(client = null) {
+  client: ExtendedClient | null;
+  configs: Map<GuildId, any>;
+  punishedUsers: Map<GuildId, Map<UserId, number>>;
+  metrics: Record<string, number>;
+  syncInterval: NodeJS.Timeout | null;
+  cleanupInterval: NodeJS.Timeout | null;
+  constructor(client: ExtendedClient | null = null) {
     this.moduleName = 'APA';
     this.client = client;
     this.configs = new Map();
@@ -62,7 +64,7 @@ class AntiPermissionAbuse {
 
     console.log(`[${this.moduleName}] Anti-Permission Abuse Protection initialized`);
   }
-  setClient(client: any) {
+  setClient(client: ExtendedClient) {
     this.client = client;
     console.log(`[${this.moduleName}] Discord client reference set`);
 
@@ -90,7 +92,7 @@ class AntiPermissionAbuse {
       console.error(`[${this.moduleName}] ❌ Config sync loop failed:`, error.message);
     }
   }
-  getConfig(guildId: any) {
+  getConfig(guildId: GuildId) {
     const cached = this.configs.get(guildId) as any;
     const defaults = getDefaultConfig();
 
@@ -100,7 +102,7 @@ class AntiPermissionAbuse {
       ...cached
     } : defaults;
   }
-  async updateConfig(guildId: any, newConfig: any) {
+  async updateConfig(guildId: GuildId, newConfig: any) {
     const success = await db.updateConfig(guildId, newConfig);
     if (success) {
       this.configs.set(guildId, newConfig);
@@ -114,13 +116,13 @@ class AntiPermissionAbuse {
   // EVENT HANDLERS (called from main bot)
   // ==========================================
 
-  async handleRoleCreate(role: any) {
+  async handleRoleCreate(role: Role) {
     await this.processEvent(role.guild, 'ROLE_CREATE', role, null, role);
   }
-  async handleRoleUpdate(oldRole: any, newRole: any) {
+  async handleRoleUpdate(oldRole: Role, newRole: Role) {
     await this.processEvent(newRole.guild, 'ROLE_UPDATE', newRole, oldRole, newRole);
   }
-  async handleMemberRoleAdd(member: any, role: any) {
+  async handleMemberRoleAdd(member: GuildMember, role: Role) {
     await this.processEvent(member.guild, 'ROLE_ASSIGN', role, null, {
       member,
       role
@@ -131,7 +133,7 @@ class AntiPermissionAbuse {
   // MAIN PROCESSING LOGIC
   // ==========================================
 
-  async processEvent(guild: any, actionType: any, role: any, oldRole: any, eventData: any) {
+  async processEvent(guild: Guild, actionType: ActionType, role: Role, oldRole: Role | null, eventData: any) {
     const guildId = guild.id;
     const config = this.getConfig(guildId);
 
@@ -154,9 +156,8 @@ class AntiPermissionAbuse {
     try {
       // =============================================
       // STEP 1: Check if role has dangerous permissions
-      // =============================================
       let isDangerous = false;
-      let dangerousPerms = [];
+      let dangerousPerms: bigint[] = [];
       if (actionType === 'ROLE_CREATE') {
         isDangerous = hasDangerousPermissions(role);
         if (isDangerous) {
@@ -193,7 +194,7 @@ class AntiPermissionAbuse {
         'ROLE_UPDATE': 'DANGEROUS_ROLE_UPDATE',
         'ROLE_ASSIGN': 'DANGEROUS_ROLE_UPDATE'
       };
-      logManager.log(guild, eventTypeMap[actionType] || actionType, {
+      logManager.log(guild, eventTypeMap[actionType as keyof typeof eventTypeMap] || actionType, {
         target: role,
         executor,
         fields: [{
@@ -244,7 +245,7 @@ class AntiPermissionAbuse {
       if (isTrusted(executor, guild, config)) {
         // Special case: If whitelisted, we still notify (as per original logic, but now cleaner)
         if (config.whitelistedUsers?.includes(executor.id)) {
-          await notifyOwner(guild, executor, actionType, role, dangerousPerms, {
+          await notifyIgnoredAction(guild, executor, actionType, role, dangerousPerms, {
             roleNeutralized: false,
             stripResult: {
               success: false,
@@ -335,18 +336,18 @@ class AntiPermissionAbuse {
       // =============================================
       // Note: Member was already fetched in Step 3!
 
-      let stripResult = {
+      let stripResult: any = {
         success: false,
         count: 0
       };
-      let punishmentResult = {
+      let punishmentResult: any = {
         success: false,
         reason: 'Member not found'
       };
       if (member) {
         // Strip dangerous roles from executor
         if (config.stripExecutorRoles) {
-          stripResult = await stripDangerousRoles(guild, executor, member);
+          stripResult = await stripDangerousRoles(guild, executor);
           if (stripResult.success && stripResult.count > 0) {
             this.metrics.punishmentsExecuted++;
           }
@@ -430,7 +431,7 @@ class AntiPermissionAbuse {
       },
       metrics: this.metrics,
       dangerousPermissions: DANGEROUS_PERMISSIONS.map((p: any) => getPermissionName(p)),
-      isConnectedToMongoDB: this.collection !== null,
+      isConnectedToMongoDB: db.collection !== null,
       hasDiscordClient: this.client !== null
     };
   }

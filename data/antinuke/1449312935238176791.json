@@ -5,7 +5,7 @@
         "id": "1449324050299093105",
         "name": "💡suggestions",
         "type": 15,
-        "position": 1,
+        "position": 3,
         "parentId": "1449323389734092890"
       },
       {
@@ -33,19 +33,19 @@
         "id": "1449323882627600465",
         "name": "📸clips-screenshots",
         "type": 0,
-        "position": 2,
+        "position": 4,
         "parentId": "1449323389734092890"
       },
       {
         "id": "1474744022256844952",
         "name": "🤖bot-commands",
         "type": 0,
-        "position": 4,
+        "position": 5,
         "parentId": "1449318475834195978"
       },
       {
         "id": "1454052113054437529",
-        "name": "🌌Members: 77",
+        "name": "🌌Members: 83",
         "type": 2,
         "position": 0,
         "parentId": null
@@ -54,7 +54,7 @@
         "id": "1449318942610034698",
         "name": "🎮Hypixel",
         "type": 2,
-        "position": 2,
+        "position": 3,
         "parentId": "1449318686510022760"
       },
       {
@@ -68,7 +68,7 @@
         "id": "1449318760107475016",
         "name": "🌎General",
         "type": 2,
-        "position": 0,
+        "position": 1,
         "parentId": "1449318686510022760"
       },
       {
@@ -103,7 +103,7 @@
         "id": "1449319312585261066",
         "name": "🎮SMP/Survival",
         "type": 2,
-        "position": 6,
+        "position": 7,
         "parentId": "1449318686510022760"
       },
       {
@@ -131,7 +131,7 @@
         "id": "1466282585578803270",
         "name": "🌐socials",
         "type": 0,
-        "position": 3,
+        "position": 5,
         "parentId": "1449323389734092890"
       },
       {
@@ -152,7 +152,7 @@
         "id": "1463194319736410112",
         "name": "🛡️staff-announcments",
         "type": 15,
-        "position": 0,
+        "position": 1,
         "parentId": "1449323389734092890"
       },
       {
@@ -173,7 +173,7 @@
         "id": "1453727639658303518",
         "name": "🎮Skate",
         "type": 2,
-        "position": 7,
+        "position": 8,
         "parentId": "1449318686510022760"
       },
       {
@@ -222,14 +222,21 @@
         "id": "1449318851786571887",
         "name": "🎮Mineberry",
         "type": 2,
-        "position": 1,
+        "position": 2,
         "parentId": "1449318686510022760"
+      },
+      {
+        "id": "1517567999220125822",
+        "name": "🎫-tickets",
+        "type": 0,
+        "position": 4,
+        "parentId": "1449318475834195978"
       },
       {
         "id": "1461725369416683706",
         "name": "🎵Music Vibing",
         "type": 2,
-        "position": 8,
+        "position": 9,
         "parentId": "1449318686510022760"
       },
       {
@@ -254,6 +261,13 @@
         "parentId": "1449319482525745242"
       },
       {
+        "id": "1517819120731557898",
+        "name": "⭐-starboard",
+        "type": 0,
+        "position": 0,
+        "parentId": "1449323389734092890"
+      },
+      {
         "id": "1462378865979822152",
         "name": "📕rules",
         "type": 0,
@@ -264,7 +278,7 @@
         "id": "1449319038734962709",
         "name": "🎮PikaNetwork",
         "type": 2,
-        "position": 3,
+        "position": 4,
         "parentId": "1449318686510022760"
       },
       {
@@ -273,6 +287,13 @@
         "type": 0,
         "position": 2,
         "parentId": "1449318475834195978"
+      },
+      {
+        "id": "1517812474534039644",
+        "name": "🔊 Create VC",
+        "type": 2,
+        "position": 0,
+        "parentId": "1449318686510022760"
       },
       {
         "id": "1462452991176216658",
@@ -306,7 +327,7 @@
         "id": "1449318980207771800",
         "name": "🎮Minemen",
         "type": 2,
-        "position": 5,
+        "position": 6,
         "parentId": "1449318686510022760"
       },
       {
@@ -315,6 +336,13 @@
         "type": 2,
         "position": 4,
         "parentId": "1449319482525745242"
+      },
+      {
+        "id": "1517591358691348572",
+        "name": "📢staff-bulletin",
+        "type": 15,
+        "position": 2,
+        "parentId": "1449323389734092890"
       },
       {
         "id": "1449323389734092890",
@@ -334,7 +362,7 @@
         "id": "1449319096922542135",
         "name": "🎮AgeraPvP",
         "type": 2,
-        "position": 4,
+        "position": 5,
         "parentId": "1449318686510022760"
       },
       {
@@ -344,10 +372,16 @@
         "parentId": "1449323615580590182"
       },
       {
-        "id": "1496907507375804637",
-        "name": "Hi",
+        "id": "1517602947746369678",
+        "name": "🤖 Echo — Built for Void Central",
         "type": 11,
-        "parentId": "1462452991176216658"
+        "parentId": "1449323615580590182"
+      },
+      {
+        "id": "1519353388230246450",
+        "name": "Onyx Ranked Bedwars — region poll",
+        "type": 11,
+        "parentId": "1449323615580590182"
       }
     ],
     "roles": [
@@ -356,7 +390,7 @@
         "name": "🔮| Stellar Council",
         "color": 12141543,
         "permissions": "8864258447638527",
-        "position": 18,
+        "position": 19,
         "hoist": true,
         "mentionable": false
       },
@@ -374,7 +408,7 @@
         "name": ".",
         "color": 10181046,
         "permissions": "1125899906842632",
-        "position": 19,
+        "position": 20,
         "hoist": false,
         "mentionable": false
       },
@@ -392,7 +426,7 @@
         "name": "🪐| Orbiters",
         "color": 13133839,
         "permissions": "947554879250383",
-        "position": 16,
+        "position": 17,
         "hoist": true,
         "mentionable": false
       },
@@ -428,7 +462,7 @@
         "name": "Void Central",
         "color": 65797,
         "permissions": "2108863302074367",
-        "position": 17,
+        "position": 18,
         "hoist": true,
         "mentionable": false
       },
@@ -442,6 +476,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1778784503094
+    "updated": 1783359813842
   }
 }

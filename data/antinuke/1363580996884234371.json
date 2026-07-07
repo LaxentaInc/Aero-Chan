@@ -37,13 +37,6 @@
         "parentId": null
       },
       {
-        "id": "1376439689627566251",
-        "name": "『︽ʚsam’s-mc-d0nald’sɞ︽」",
-        "type": 0,
-        "position": 3,
-        "parentId": "1365512446550478909"
-      },
-      {
         "id": "1363853877937573929",
         "name": "🎨₊-art-˚-⌗🖌️",
         "type": 0,
@@ -138,7 +131,7 @@
         "id": "1389573687895916647",
         "name": "＊•̩̩͙✩•̩̩͙˚-fnf-roleplay˚•̩̩͙✩•̩̩͙˚＊",
         "type": 0,
-        "position": 4,
+        "position": 3,
         "parentId": "1365512446550478909"
       },
       {
@@ -390,7 +383,7 @@
         "id": "1403997224433618944",
         "name": "💖-ems-bakery-🎀",
         "type": 0,
-        "position": 5,
+        "position": 4,
         "parentId": "1365512446550478909"
       },
       {
@@ -470,7 +463,7 @@
         "name": "ʚRosieɞ",
         "color": 16766678,
         "permissions": "0",
-        "position": 15,
+        "position": 16,
         "hoist": false,
         "mentionable": false
       },
@@ -479,7 +472,7 @@
         "name": "💙🫐🩵Coolest person here🩵🫐💙",
         "color": 3447003,
         "permissions": "1721826619162615",
-        "position": 11,
+        "position": 12,
         "hoist": false,
         "mentionable": false
       },
@@ -488,7 +481,7 @@
         "name": "new role",
         "color": 0,
         "permissions": "0",
-        "position": 24,
+        "position": 25,
         "hoist": false,
         "mentionable": false
       },
@@ -497,7 +490,7 @@
         "name": "✼ •• ┈┈┈┈๑⋅⋯ ୨🌸~H0STS+G1Rl+FR13ND~🌸୧ ⋯⋅๑┈┈┈┈ •• ✼",
         "color": 8094921,
         "permissions": "2108863302074367",
-        "position": 18,
+        "position": 19,
         "hoist": false,
         "mentionable": false
       },
@@ -506,7 +499,7 @@
         "name": "↝sh1t-p0sts💔彡𓆪",
         "color": 15844367,
         "permissions": "0",
-        "position": 1,
+        "position": 2,
         "hoist": false,
         "mentionable": false
       },
@@ -515,7 +508,7 @@
         "name": "☆࿐ཽ༵༆༒~ADM1NSTRAT0R~༒༆࿐ཽ༵☆",
         "color": 10344959,
         "permissions": "2091258096386001",
-        "position": 45,
+        "position": 46,
         "hoist": false,
         "mentionable": false
       },
@@ -524,7 +517,7 @@
         "name": "🥹S1LLY-ann0uncement ✩˚｡⋆🩷",
         "color": 7781856,
         "permissions": "0",
-        "position": 3,
+        "position": 4,
         "hoist": false,
         "mentionable": false
       },
@@ -533,7 +526,7 @@
         "name": "ann0uncement ⋆⑅˚₊ᡣ𐭩‼️",
         "color": 6323595,
         "permissions": "0",
-        "position": 2,
+        "position": 3,
         "hoist": false,
         "mentionable": false
       },
@@ -542,7 +535,7 @@
         "name": "new role",
         "color": 0,
         "permissions": "0",
-        "position": 25,
+        "position": 26,
         "hoist": false,
         "mentionable": false
       },
@@ -551,7 +544,7 @@
         "name": "Bots",
         "color": 0,
         "permissions": "0",
-        "position": 23,
+        "position": 24,
         "hoist": true,
         "mentionable": false
       },
@@ -560,7 +553,7 @@
         "name": "💫ᬊ彡★My-Y0ung3st-ch1ld★彡༄🤍",
         "color": 12178431,
         "permissions": "0",
-        "position": 4,
+        "position": 5,
         "hoist": false,
         "mentionable": false
       },
@@ -569,7 +562,7 @@
         "name": "new role",
         "color": 0,
         "permissions": "0",
-        "position": 22,
+        "position": 23,
         "hoist": false,
         "mentionable": false
       },
@@ -578,7 +571,7 @@
         "name": "◡̈ʚ﹌🩵✩NATSUK1’S/NAYNAY’S BIT-✩💖﹌ɞ◡̈",
         "color": 10343609,
         "permissions": "0",
-        "position": 20,
+        "position": 21,
         "hoist": false,
         "mentionable": false
       },
@@ -587,7 +580,7 @@
         "name": "Hatsune Miku!",
         "color": 0,
         "permissions": "1135245826002497",
-        "position": 33,
+        "position": 34,
         "hoist": false,
         "mentionable": false
       },
@@ -596,7 +589,7 @@
         "name": "『••~B0TS~••』",
         "color": 6323595,
         "permissions": "0",
-        "position": 40,
+        "position": 41,
         "hoist": true,
         "mentionable": false
       },
@@ -605,7 +598,16 @@
         "name": "✯¸.•´*¨`*•✿~B1RTHDAY^G1RL~✿•*`¨*`•.¸✯",
         "color": 15287420,
         "permissions": "0",
-        "position": 42,
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1510684513783648329",
+        "name": "Certified femboy",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 1,
         "hoist": false,
         "mentionable": false
       },
@@ -614,7 +616,7 @@
         "name": "new role",
         "color": 0,
         "permissions": "0",
-        "position": 32,
+        "position": 33,
         "hoist": false,
         "mentionable": false
       },
@@ -623,7 +625,7 @@
         "name": "★∿💜They/Them💜∿★",
         "color": 12887807,
         "permissions": "0",
-        "position": 6,
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -632,7 +634,7 @@
         "name": "★∿💙He/Him💙∿★",
         "color": 7504639,
         "permissions": "0",
-        "position": 7,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -641,7 +643,7 @@
         "name": "🩷THE REAL TWO TIME🩷",
         "color": 15277667,
         "permissions": "0",
-        "position": 10,
+        "position": 11,
         "hoist": false,
         "mentionable": false
       },
@@ -650,7 +652,7 @@
         "name": "●◉◎~Cutie^Wannabe~◎◉●",
         "color": 7419530,
         "permissions": "1738224908488257",
-        "position": 26,
+        "position": 27,
         "hoist": false,
         "mentionable": false
       },
@@ -659,7 +661,7 @@
         "name": "REAL TWO TIME #2",
         "color": 998481,
         "permissions": "0",
-        "position": 9,
+        "position": 10,
         "hoist": false,
         "mentionable": false
       },
@@ -668,7 +670,7 @@
         "name": "Superninja’s Special Hoes",
         "color": 7419530,
         "permissions": "0",
-        "position": 29,
+        "position": 30,
         "hoist": true,
         "mentionable": false
       },
@@ -677,7 +679,7 @@
         "name": "Superninja’s Hoes",
         "color": 3066993,
         "permissions": "0",
-        "position": 31,
+        "position": 32,
         "hoist": true,
         "mentionable": false
       },
@@ -686,7 +688,7 @@
         "name": "༻𓊈𒆜~M0D3RAT0R~𒆜𓊉༺",
         "color": 2123412,
         "permissions": "2108858603929553",
-        "position": 38,
+        "position": 39,
         "hoist": false,
         "mentionable": false
       },
@@ -695,7 +697,7 @@
         "name": "༻ෆ✿ʚ💖_~Coral’s 4ever~_💗ɞ✿ෆ༺",
         "color": 12097791,
         "permissions": "8",
-        "position": 21,
+        "position": 22,
         "hoist": false,
         "mentionable": false
       },
@@ -704,7 +706,7 @@
         "name": "The Three Good Lookin' Musketeers",
         "color": 15074960,
         "permissions": "0",
-        "position": 13,
+        "position": 14,
         "hoist": true,
         "mentionable": false
       },
@@ -713,7 +715,7 @@
         "name": "★∿🎀She/Her🎀∿★",
         "color": 16746632,
         "permissions": "0",
-        "position": 8,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -722,7 +724,7 @@
         "name": "☆彡彡💫~MY^ST4RZ!!1~💫ミミ☆",
         "color": 16776136,
         "permissions": "1799522648133377",
-        "position": 43,
+        "position": 44,
         "hoist": false,
         "mentionable": false
       },
@@ -731,11 +733,11 @@
         "name": "{☆࿐ཽ༵༆༒<~H0ST~>༒༆࿐ཽ༵☆}",
         "color": 16762101,
         "permissions": "2108859006582783",
-        "position": 46,
+        "position": 47,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1778784502921
+    "updated": 1783359813700
   }
 }

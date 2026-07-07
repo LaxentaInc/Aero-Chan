@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { getDefaultConfig } from "./config";
 import { initMongoDB, syncConfigs, updateConfig } from "./database";
 import { findExecutor, isTrusted, getThreshold, canPunish } from "./detection";
@@ -8,6 +7,9 @@ import { batchRestoreChannels, backupGuild, backupAllGuilds } from "./restoratio
 import { notifyOwner, logToChannel } from "./notification";
 import { registerStoredButtons } from "./buttons";
 import logManager from "../logManager";
+import { ExtendedClient } from "../../../types/client";
+import { ActionType, GuildId, UserId } from "../../../types/antiraid";
+import { Guild, GuildMember, User, Channel, Role, Emoji, Webhook } from "discord.js";
 /**
  * AntiNuke Module - Main Orchestrator
  * 
@@ -18,21 +20,21 @@ import logManager from "../logManager";
  */
 
 class AntiNuke {
-  client: any;
+  client: ExtendedClient | null;
   db: any;
   collection: any;
-  configs: Map<any, any>;
-  recentActions: Map<any, any>;
-  deletedChannels: Map<any, any>;
-  deletedRoles: Map<any, any>;
-  guildUnderAttack: Set<any>;
-  auditLogRequests: Map<any, any>;
-  executorCache: Map<any, any>;
-  backups: Map<any, any>;
-  restoreTimers: Map<any, any>;
-  notifiedAttacks: Map<any, any>;
-  stats: Record<string, any>;
-  constructor(client = null) {
+  configs: Map<GuildId, any>;
+  recentActions: Map<GuildId, Map<UserId, { type: ActionType, timestamp: number }[]>>;
+  deletedChannels: Map<GuildId, any[]>;
+  deletedRoles: Map<GuildId, any[]>;
+  guildUnderAttack: Set<GuildId>;
+  auditLogRequests: Map<GuildId, any>;
+  executorCache: Map<string, any>;
+  backups: Map<GuildId, { channels: any[], roles: any[] }>;
+  restoreTimers: Map<string, NodeJS.Timeout>;
+  notifiedAttacks: Map<string, number>;
+  stats: Record<string, number>;
+  constructor(client: ExtendedClient | null = null) {
     this.client = client;
     this.db = null;
     this.collection = null;
@@ -93,8 +95,8 @@ class AntiNuke {
   // CONFIG MANAGEMENT
   // ========================================
 
-  getConfig(guildId: any) {
-    const cached = this.configs.get(guildId) as any;
+  getConfig(guildId: GuildId) {
+    const cached = this.configs.get(guildId);
     const defaults = getDefaultConfig();
 
     // Always merge with defaults to self-heal corrupted configs
@@ -103,7 +105,7 @@ class AntiNuke {
       ...cached
     } : defaults;
   }
-  async updateConfig(guildId: any, newConfig: any) {
+  async updateConfig(guildId: GuildId, newConfig: any) {
     return await updateConfig(this.collection, this.configs, guildId, newConfig);
   }
 
@@ -111,41 +113,41 @@ class AntiNuke {
   // EVENT HANDLERS
   // ========================================
 
-  handleChannelDelete(channel: any) {
+  handleChannelDelete(channel: Channel & { guild: Guild }) {
     if (!channel.guild) return;
-    this.processEvent(channel.guild, 'CHANNEL_DELETE', channel);
+    void this.processEvent(channel.guild, 'CHANNEL_DELETE', channel);
   }
-  handleChannelCreate(channel: any) {
+  handleChannelCreate(channel: Channel & { guild: Guild }) {
     if (!channel.guild) return;
-    this.processEvent(channel.guild, 'CHANNEL_CREATE', channel);
+    void this.processEvent(channel.guild, 'CHANNEL_CREATE', channel);
     this.scheduleBackup(channel.guild);
   }
-  handleChannelUpdate(oldCh: any, newCh: any) {
+  handleChannelUpdate(oldCh: Channel, newCh: Channel & { guild: Guild }) {
     if (!newCh.guild) return;
     this.scheduleBackup(newCh.guild);
   }
-  handleRoleDelete(role: any) {
-    this.processEvent(role.guild, 'ROLE_DELETE', role);
+  handleRoleDelete(role: Role) {
+    void this.processEvent(role.guild, 'ROLE_DELETE', role);
   }
-  handleEmojiDelete(emoji: any) {
-    this.processEvent(emoji.guild, 'EMOJI_DELETE', emoji);
+  handleEmojiDelete(emoji: Emoji & { guild: Guild }) {
+    void this.processEvent(emoji.guild, 'EMOJI_DELETE', emoji);
   }
-  handleWebhookCreate(webhook: any) {
+  handleWebhookCreate(webhook: Webhook & { guild?: Guild }) {
     if (!webhook.guild) return;
-    this.processEvent(webhook.guild, 'WEBHOOK_CREATE', webhook);
+    void this.processEvent(webhook.guild, 'WEBHOOK_CREATE', webhook);
   }
-  handleWebhookUpdate(webhookOrChannel: any) {
+  handleWebhookUpdate(webhookOrChannel: (Webhook | Channel) & { guild?: Guild }) {
     const guild = webhookOrChannel.guild;
     if (!guild) return;
     // FIXED: Only process once, not twice
-    this.processEvent(guild, 'WEBHOOK_UPDATE', webhookOrChannel);
+    void this.processEvent(guild, 'WEBHOOK_UPDATE', webhookOrChannel);
   }
 
   // ========================================
   // MAIN EVENT PROCESSING (FIXED FLOW)
   // ========================================
 
-  async processEvent(guild: any, eventType: any, target: any) {
+  async processEvent(guild: Guild, eventType: ActionType, target: any) {
     const config = this.getConfig(guild.id);
     if (!config.enabled) return;
 
@@ -197,10 +199,10 @@ class AntiNuke {
       trackAction(this.recentActions, guild.id, executor.id, eventType);
       const totalCount = getActionCount(this.recentActions, guild.id, executor.id);
       try {
-        notifyOwner(guild, executor, executor.bot ? 'bot' : 'user', config, totalCount, eventType, {
+        notifyOwner(guild, executor, executor.bot ? 'bot' : 'user', config, totalCount, eventType as ActionType, {
           whitelisted: true
         });
-        logToChannel(guild, executor, executor.bot ? 'bot' : 'user', config, totalCount, eventType, {
+        logToChannel(guild, executor, executor.bot ? 'bot' : 'user', config, totalCount, eventType as ActionType, {
           whitelisted: true
         });
       } catch (e: any) {
@@ -250,14 +252,14 @@ class AntiNuke {
 
       // 1. STRIP ROLES IMMEDIATELY
       const stripResult = await stripDangerousRoles(guild, executor);
-      if (stripResult.success && stripResult.removedCount > 0) {
+      if (stripResult.success && stripResult.strippedCount && stripResult.strippedCount > 0) {
         this.stats.punishments++;
         // Log to centralized log channel
         logManager.log(guild, 'ROLES_STRIPPED', {
           target: executor,
           fields: [{
             name: '🎭 Roles Removed',
-            value: `${stripResult.removedCount} dangerous roles`,
+            value: `${stripResult.strippedCount} dangerous roles`,
             inline: true
           }, {
             name: '📋 Reason',
@@ -292,8 +294,8 @@ class AntiNuke {
         this.notifiedAttacks.set(notifyKey, Date.now());
         // Pass the FULL count from tracking (includes all 21 deletions)
         const totalCount = getActionCount(this.recentActions, guild.id, executor.id);
-        notifyOwner(guild, executor, punishType, config, totalCount, eventType);
-        logToChannel(guild, executor, punishType, config, totalCount, eventType);
+        notifyOwner(guild, executor, punishType, config, totalCount, eventType as ActionType);
+        logToChannel(guild, executor, punishType, config, totalCount, eventType as ActionType);
       }
 
       // 4. SCHEDULE BATCH RESTORE (4s delay to catch all deletions)
@@ -307,7 +309,7 @@ class AntiNuke {
   // RESTORATION
   // ========================================
 
-  scheduleRestore(guild: any, delayMs: number = 4000) {
+  scheduleRestore(guild: Guild, delayMs: number = 4000) {
     const restoreKey = guild.id;
 
     // Clear existing timer (debounce)
@@ -326,7 +328,7 @@ class AntiNuke {
   // BACKUP MANAGEMENT
   // ========================================
 
-  scheduleBackup(guild: any) {
+  scheduleBackup(guild: Guild) {
     // FIXED: Use separate set for backup debounce (was re-using guildUnderAttack incorrectly)
     const key = `backup-${guild.id}`;
     if (this.restoreTimers.has(key)) return; // Use restoreTimers for backup debounce
@@ -399,25 +401,25 @@ class AntiNuke {
   // API (For commands/dashboard)
   // ========================================
 
-  getStatus(guildId: any) {
+  getStatus(guildId: GuildId) {
     const config = this.getConfig(guildId);
-    const tracked = (this.recentActions.get(guildId) as any)?.size || 0;
-    const backup = this.backups.get(guildId) as any;
+    const tracked = this.recentActions.get(guildId)?.size || 0;
+    const backup = this.backups.get(guildId);
     return {
       enabled: config.enabled,
       trackedUsers: tracked,
       backupChannels: backup?.channels.length || 0,
       backupRoles: backup?.roles.length || 0,
       underAttack: this.guildUnderAttack.has(guildId),
-      pendingChannelRestores: (this.deletedChannels.get(guildId) as any)?.length || 0,
-      pendingRoleRestores: (this.deletedRoles.get(guildId) as any)?.length || 0,
+      pendingChannelRestores: this.deletedChannels.get(guildId)?.length || 0,
+      pendingRoleRestores: this.deletedRoles.get(guildId)?.length || 0,
       stats: this.stats
     };
   }
-  resetUser(guildId: any, userId: any) {
-    (this.recentActions.get(guildId) as any)?.delete(userId);
+  resetUser(guildId: GuildId, userId: UserId) {
+    this.recentActions.get(guildId)?.delete(userId);
   }
-  setClient(client: any) {
+  setClient(client: ExtendedClient) {
     this.client = client;
     console.log('[AntiNuke] Client connected');
 

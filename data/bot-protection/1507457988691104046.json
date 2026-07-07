@@ -1,0 +1,105 @@
+{
+  "buttons": {
+    "restore_perms_1192477105833910332": {
+      "type": "restore_perms",
+      "targetId": "1192477105833910332",
+      "memberId": "1192477105833910332",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "JukeBox",
+            "id": "1510325760194248736",
+            "permissions": [
+              "CreateInstantInvite",
+              "Administrator",
+              "ManageChannels",
+              "ManageGuild",
+              "AddReactions",
+              "ViewAuditLog",
+              "ViewChannel",
+              "SendMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "UseExternalEmojis",
+              "Connect",
+              "Speak",
+              "UseVAD",
+              "UseApplicationCommands",
+              "RequestToSpeak",
+              "UseExternalStickers",
+              "SendMessagesInThreads",
+              "UseEmbeddedActivities"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1507457988691104046",
+      "relatedMessages": [
+        {
+          "channelId": "1510325768167883036",
+          "messageId": "1510325772567576648"
+        },
+        {
+          "channelId": "1510325777126916208",
+          "messageId": "1510325780234764348"
+        }
+      ],
+      "expiresAt": 1780246526380,
+      "createdAt": 1780160126380,
+      "module": "bot-protection"
+    },
+    "restore_perms_1470151477610938509": {
+      "type": "restore_perms",
+      "targetId": "1470151477610938509",
+      "memberId": "1470151477610938509",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Green-Bot",
+            "id": "1510332007035572246",
+            "permissions": [
+              "Administrator",
+              "PrioritySpeaker",
+              "ViewChannel",
+              "SendMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "Connect",
+              "Speak",
+              "UseVAD",
+              "RequestToSpeak"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1507457988691104046",
+      "relatedMessages": [
+        {
+          "channelId": "1510325768167883036",
+          "messageId": "1510332015139098655"
+        },
+        {
+          "channelId": "1510325777126916208",
+          "messageId": "1510332018289020989"
+        }
+      ],
+      "expiresAt": 1780248013754,
+      "createdAt": 1780161613754,
+      "module": "bot-protection"
+    }
+  }
+}

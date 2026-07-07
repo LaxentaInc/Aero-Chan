@@ -350,18 +350,6 @@
         "type": 0,
         "position": 5,
         "parentId": "1470438890539319370"
-      },
-      {
-        "id": "1500130948501475398",
-        "name": "Add a show desktop channel",
-        "type": 11,
-        "parentId": "1470438889561784502"
-      },
-      {
-        "id": "1501610165680738465",
-        "name": "Tuff",
-        "type": 11,
-        "parentId": "1477359104581308579"
       }
     ],
     "roles": [
@@ -447,6 +435,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1778784503039
+    "updated": 1783359813792
   }
 }

@@ -2,51 +2,23 @@
   "backup": {
     "channels": [
       {
-        "id": "1472439735678009388",
-        "name": "Canais de Texto",
-        "type": 4,
-        "position": 0,
-        "parentId": null
-      },
-      {
-        "id": "1472439735678009389",
-        "name": "Canais de Voz",
-        "type": 4,
-        "position": 1,
-        "parentId": null
-      },
-      {
-        "id": "1472439735678009391",
-        "name": "Geral",
-        "type": 2,
-        "position": 0,
-        "parentId": "1472439735678009389"
-      },
-      {
-        "id": "1485125210297470986",
-        "name": "Aero",
-        "type": 4,
-        "position": 2,
-        "parentId": null
-      },
-      {
-        "id": "1485125213581479996",
-        "name": "aero-logs",
-        "type": 0,
-        "position": 0,
-        "parentId": "1485125210297470986"
-      },
-      {
-        "id": "1485125216018632864",
-        "name": "aero-alerts",
-        "type": 0,
-        "position": 1,
-        "parentId": "1485125210297470986"
-      },
-      {
         "id": "1495287701119959130",
         "name": "bots",
         "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1520930976644075722",
+        "name": "respostas༄",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1521350540464754810",
+        "name": "cu",
+        "type": 2,
         "position": 0,
         "parentId": null
       }
@@ -57,11 +29,11 @@
         "name": "⌒⡷ .🍨⊰ 𝓐urudos da osako  ⊹``﹒๑",
         "color": 16232367,
         "permissions": "0",
-        "position": 5,
+        "position": 6,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1778784502980
+    "updated": 1783359813743
   }
 }

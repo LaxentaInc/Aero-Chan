@@ -1,0 +1,71 @@
+{
+  "backup": {
+    "channels": [],
+    "roles": [
+      {
+        "id": "1475969865276854425",
+        "name": "The King of Heros",
+        "color": 16767744,
+        "permissions": "0",
+        "position": 9,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1476007901037592596",
+        "name": "Shadow generals",
+        "color": 15158332,
+        "permissions": "1721826618638327",
+        "position": 8,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1476008662144385024",
+        "name": "Shadow warriors",
+        "color": 25764,
+        "permissions": "1721807559716823",
+        "position": 7,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1482449986141687808",
+        "name": "Retard",
+        "color": 0,
+        "permissions": "1721826618638327",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1482453433343672542",
+        "name": "Serbian Twink",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 5,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1493067745108037754",
+        "name": "Faggot jew",
+        "color": 0,
+        "permissions": "1720707884502593",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1501389002362589184",
+        "name": "The 3 Great Kings",
+        "color": 13478656,
+        "permissions": "1721826618638327",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1781729011867
+  }
+}

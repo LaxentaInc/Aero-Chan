@@ -37,6 +37,13 @@
         "parentId": "1499231023718994051"
       },
       {
+        "id": "1504683558772674670",
+        "name": "court",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      },
+      {
         "id": "1481790147757477989",
         "name": "healing-❤️‍🩹-clinic-2",
         "type": 0,
@@ -101,7 +108,7 @@
       },
       {
         "id": "1498825787556630649",
-        "name": "lingerie-lady-dance-and-yuji",
+        "name": "jade-autistic-corner",
         "type": 0,
         "position": 1,
         "parentId": "1498826175722684446"
@@ -201,8 +208,8 @@
         "id": "1499556476518138017",
         "name": "kaimon-corner",
         "type": 0,
-        "position": 4,
-        "parentId": "1489086478020513973"
+        "position": 3,
+        "parentId": "1498826175722684446"
       },
       {
         "id": "1092302186207268957",
@@ -238,36 +245,6 @@
         "type": 0,
         "position": 3,
         "parentId": "1499231023718994051"
-      },
-      {
-        "id": "1493792730944503868",
-        "name": "daily yaoi🥺",
-        "type": 11,
-        "parentId": "1107121370392973363"
-      },
-      {
-        "id": "1494026509780910170",
-        "name": "baby teru alert..",
-        "type": 11,
-        "parentId": "1107121370392973363"
-      },
-      {
-        "id": "1497831671201009824",
-        "name": "i need help..",
-        "type": 11,
-        "parentId": "1107121370392973363"
-      },
-      {
-        "id": "1498507539216732175",
-        "name": "hi guys dalt yaoi",
-        "type": 11,
-        "parentId": "1107121370392973363"
-      },
-      {
-        "id": "1499550541595017277",
-        "name": "yao",
-        "type": 11,
-        "parentId": "1107121370392973363"
       },
       {
         "id": "1499551108576837632",
@@ -315,8 +292,8 @@
       },
       {
         "id": "1205646930131030057",
-        "name": "#1 contender for coolest person ever",
-        "color": 4703944,
+        "name": "the big A",
+        "color": 6035622,
         "permissions": "8864258447638527",
         "position": 9,
         "hoist": true,
@@ -368,6 +345,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1778784503070
+    "updated": 1783359813819
   }
 }

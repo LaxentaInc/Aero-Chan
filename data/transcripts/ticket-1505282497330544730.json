@@ -1,0 +1,40 @@
+{
+  "ticketInfo": {
+    "userId": "1246380709124378674",
+    "channelId": "1505282497330544730",
+    "guildId": "1456946357125386418",
+    "reason": "testt",
+    "messages": [],
+    "status": "open",
+    "createdAt": 1778957714464,
+    "messageId": "1505282500212293703",
+    "claimed": true,
+    "claimedBy": "1212414997049901096"
+  },
+  "messages": [
+    {
+      "author": "Aero Chan#4001",
+      "content": "<@&1497325622412968176>",
+      "timestamp": "2026-05-16T18:55:14.847Z",
+      "attachments": []
+    },
+    {
+      "author": "heist#9325",
+      "content": "yo aero chan, lemme be real—ur username got me tryna float on air just thinkin’ ‘bout u 😌👀 lowkey want u to take me on a ride, maybe up where the sky’s clear? u got that vibe that makes time just… disappear 💨✨ lemme take u out sometime, yeah?",
+      "timestamp": "2026-05-17T18:34:13.375Z",
+      "attachments": []
+    },
+    {
+      "author": "kroalthekreat",
+      "content": "heist thats not rizz",
+      "timestamp": "2026-05-17T18:34:31.129Z",
+      "attachments": []
+    },
+    {
+      "author": "gamrston",
+      "content": "Oh, really? Well, I'm definitely no expert, but I guess I'll just have to rely on my charm and my dazzling emojis. 😏✨ What's your go-to rizz move, anyway? Maybe you can teach me a thing or two.",
+      "timestamp": "2026-05-17T18:54:35.060Z",
+      "attachments": []
+    }
+  ]
+}

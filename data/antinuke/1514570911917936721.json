@@ -1,0 +1,1315 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1514574424467312671",
+        "name": "╰🍓∷･AFK･୨ω୧",
+        "type": 2,
+        "position": 1,
+        "parentId": "1514574413620576256"
+      },
+      {
+        "id": "1514574423099834484",
+        "name": "︱⚫∷･staff-chat･ﾟ୨♡୧",
+        "type": 0,
+        "position": 2,
+        "parentId": "1514574404019945552"
+      },
+      {
+        "id": "1514574406486331504",
+        "name": "︱🎀∷･Members･ﾟ୨ 0 ୧",
+        "type": 2,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1514574465571356795",
+        "name": "︱💗∷･blacklisted･୨♡୧",
+        "type": 0,
+        "position": 2,
+        "parentId": "1514574414639792149"
+      },
+      {
+        "id": "1514574422063845466",
+        "name": "╭🍉∷･General･୨ω୧",
+        "type": 2,
+        "position": 0,
+        "parentId": "1514574413620576256"
+      },
+      {
+        "id": "1514574440992735342",
+        "name": "╭🍙∷･self-promotion･୨ω୧",
+        "type": 0,
+        "position": 3,
+        "parentId": "1514574410965581859"
+      },
+      {
+        "id": "1514574451575095356",
+        "name": "╰🍣∷･bump･୨♡୧",
+        "type": 0,
+        "position": 3,
+        "parentId": "1514574411875881121"
+      },
+      {
+        "id": "1514574412735713371",
+        "name": "╭ 🍬 ୨ S O C I A L / F U N ୧ 🍭 ╮",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1514574431492640909",
+        "name": "╰🌸∷･support･ﾟ୨ω୧",
+        "type": 0,
+        "position": 2,
+        "parentId": "1514574407668994079"
+      },
+      {
+        "id": "1514574437335306385",
+        "name": "╭🍙∷･self-roles･୨ω୧",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514574410965581859"
+      },
+      {
+        "id": "1514571792491216907",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1514574427960901693",
+        "name": "︱🍓∷･Create Voice･୨ω୧",
+        "type": 2,
+        "position": 2,
+        "parentId": "1514574413620576256"
+      },
+      {
+        "id": "1514574438266441840",
+        "name": "︱🧁∷･events･୨ω୧",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514574410965581859"
+      },
+      {
+        "id": "1514574439772324052",
+        "name": "╰🍙∷･polls･୨ω୧",
+        "type": 0,
+        "position": 2,
+        "parentId": "1514574410965581859"
+      },
+      {
+        "id": "1514574419874287677",
+        "name": "︱🔴∷･announcement-･ﾟ୨♡୧",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514574404019945552"
+      },
+      {
+        "id": "1514574457065312369",
+        "name": "╭🍬∷･rp-channel･୨♡୧",
+        "type": 0,
+        "position": 3,
+        "parentId": "1514574412735713371"
+      },
+      {
+        "id": "1514574408511914124",
+        "name": "╭ 🎀 ୨ N E W S / I N F O S ୧ 🌺 ╮",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1514574461297492048",
+        "name": "╭🍒∷･no-mic･୨ω୧",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514574413620576256"
+      },
+      {
+        "id": "1514574446067974144",
+        "name": "╭🍣∷･main・chat･୨♡୧",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514574411875881121"
+      },
+      {
+        "id": "1515013598240313484",
+        "name": "╰🍬∷･selfie･୨♡୧",
+        "type": 15,
+        "position": 2,
+        "parentId": "1514574412735713371"
+      },
+      {
+        "id": "1514574411875881121",
+        "name": "╭ 🍣 ୨ T E X T C H A N N E L S ୧ 🍣 ╮",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1514574413620576256",
+        "name": "╭ 🍓 ୨ V O I C E C H A T S ୧ 🍒 ╮",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1514574414639792149",
+        "name": "╭ 💞 ୨ P A R T N E R S H I P S ୧ 💞 ╮",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1514574416854650952",
+        "name": "logs",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1514574458055032832",
+        "name": "︱🍭∷･bots・spam・2･୨♡୧",
+        "type": 0,
+        "position": 4,
+        "parentId": "1514574412735713371"
+      },
+      {
+        "id": "1514574454229827687",
+        "name": "︱🍭∷･introduction･୨♡୧",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514574412735713371"
+      },
+      {
+        "id": "1514574483434897408",
+        "name": "channel-update",
+        "type": 0,
+        "position": 5,
+        "parentId": "1514574416854650952"
+      },
+      {
+        "id": "1514574473255194766",
+        "name": "_________________________________",
+        "type": 0,
+        "position": 2,
+        "parentId": "1514574416854650952"
+      },
+      {
+        "id": "1514574459938541691",
+        "name": "╰🍭∷･memes･୨♡୧",
+        "type": 0,
+        "position": 6,
+        "parentId": "1514574412735713371"
+      },
+      {
+        "id": "1514574404905078957",
+        "name": "please-read-channel-description",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1514574464363528284",
+        "name": "︱💗∷･description･୨♡୧",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514574414639792149"
+      },
+      {
+        "id": "1514574463373414531",
+        "name": "╭💞∷･partnership-info･୨♡୧",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514574414639792149"
+      },
+      {
+        "id": "1514574450073538633",
+        "name": "︱🍤∷･bots・spam･୨♡୧",
+        "type": 0,
+        "position": 2,
+        "parentId": "1514574411875881121"
+      },
+      {
+        "id": "1514574409279602789",
+        "name": "╰🎀∷･Booster･ﾟ୨ 0 ୧",
+        "type": 2,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1514574435821162579",
+        "name": "╰🎀∷･booster･ﾟ୨♡୧",
+        "type": 0,
+        "position": 3,
+        "parentId": "1514574408511914124"
+      },
+      {
+        "id": "1514574418699878430",
+        "name": "╭🔴∷･staff-tips･ﾟ୨♡୧",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514574404019945552"
+      },
+      {
+        "id": "1514571792491216910",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1514574426337706138",
+        "name": "╭🌸∷･rules･ﾟ୨ω୧",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514574407668994079"
+      },
+      {
+        "id": "1514574459150008400",
+        "name": "︱🍬∷･media･୨♡୧",
+        "type": 0,
+        "position": 5,
+        "parentId": "1514574412735713371"
+      },
+      {
+        "id": "1514574432482627594",
+        "name": "╭🌺∷･news･ﾟ୨♡୧",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514574408511914124"
+      },
+      {
+        "id": "1514574443693998121",
+        "name": "╰🍙∷･level-up･୨ω୧",
+        "type": 0,
+        "position": 5,
+        "parentId": "1514574410965581859"
+      },
+      {
+        "id": "1514574404019945552",
+        "name": "staff chat",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1514574410965581859",
+        "name": "╭ 🍙 ୨ C O M M U N I T Y ୧ 🍙 ╮",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1514574472080789578",
+        "name": "member-left",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514574416854650952"
+      },
+      {
+        "id": "1514574447246311456",
+        "name": "︱🍣∷international･･୨♡୧",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514574411875881121"
+      },
+      {
+        "id": "1514574425708826765",
+        "name": "╰⚫∷･commands･ﾟ୨♡୧",
+        "type": 0,
+        "position": 3,
+        "parentId": "1514574404019945552"
+      },
+      {
+        "id": "1514574462366781502",
+        "name": "╰🍒∷･music-commands･୨ω୧",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514574413620576256"
+      },
+      {
+        "id": "1514574475310661806",
+        "name": "roles-update",
+        "type": 0,
+        "position": 4,
+        "parentId": "1514574416854650952"
+      },
+      {
+        "id": "1514574434680176711",
+        "name": "︱🌺∷･suggestion･ﾟ୨♡୧",
+        "type": 0,
+        "position": 2,
+        "parentId": "1514574408511914124"
+      },
+      {
+        "id": "1514574453193965598",
+        "name": "╭🍬∷･ask-to-dm･୨♡୧",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514574412735713371"
+      },
+      {
+        "id": "1514574471045054544",
+        "name": "member-joined",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514574416854650952"
+      },
+      {
+        "id": "1514574433484935191",
+        "name": "︱🎀∷･giveaways･ﾟ୨♡୧",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514574408511914124"
+      },
+      {
+        "id": "1514574474433794098",
+        "name": "server-update",
+        "type": 0,
+        "position": 3,
+        "parentId": "1514574416854650952"
+      },
+      {
+        "id": "1514574407668994079",
+        "name": "╭ 🌸 ୨ I M P O R T A N T ୧ 🌸 ╮",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1514574466712338482",
+        "name": "╰💞∷･partnerships･୨♡୧",
+        "type": 0,
+        "position": 3,
+        "parentId": "1514574414639792149"
+      },
+      {
+        "id": "1514574429982556230",
+        "name": "︱🌸∷･info･ﾟ୨ω୧",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514574407668994079"
+      },
+      {
+        "id": "1514574442288644189",
+        "name": "︱🧁∷･starboard･୨ω୧",
+        "type": 0,
+        "position": 4,
+        "parentId": "1514574410965581859"
+      },
+      {
+        "id": "1514574405827690527",
+        "name": "╭🤍∷･discord.gg/",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1514574292803911693",
+        "name": "🌺꒱ ∷ ˚₊‧  Purple ꒱",
+        "color": 11538431,
+        "permissions": "0",
+        "position": 92,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574375838548108",
+        "name": "15꒱",
+        "color": 6085887,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574348588159047",
+        "name": "🍭꒱ ∷ ˚₊‧ Likes Reading꒱",
+        "color": 16769116,
+        "permissions": "0",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574382427537519",
+        "name": "🌸꒱ ∷ ˚₊‧ Partnership Disabled꒱",
+        "color": 16757940,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574293907013655",
+        "name": "🌺꒱ ∷ ˚₊‧ Pink ꒱",
+        "color": 16756479,
+        "permissions": "0",
+        "position": 91,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514917676068241519",
+        "name": ".#. Special Famm !",
+        "color": 8780214,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574358230859776",
+        "name": "🍭꒱ ∷ ˚₊‧ Likes Roleplay꒱",
+        "color": 16769116,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574371774009395",
+        "name": "30꒱",
+        "color": 4362495,
+        "permissions": "0",
+        "position": 27,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574300080898088",
+        "name": "┉ ∙ ⌈  SPECIAL ROLES  ⌉ ∙  ​┉ ∙ ​┉",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 86,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574317709430835",
+        "name": "🍙꒱ ∷ ˚₊‧ Female꒱",
+        "color": 15859966,
+        "permissions": "0",
+        "position": 72,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574272213811290",
+        "name": "┉ ∙ ⌈  COLOR ROLES (Pastel) ⌉ ∙  ​┉ ∙ ​┉",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 112,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574305890144317",
+        "name": "╭ ∙ ┉ ∙ ​┉ ∙ ​┉ ∙ ⌈  ABOUT ME  ⌉ ∙  ​┉ ∙ ​┉ ∙ ​┉ ∙ ╮",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 81,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574332838543410",
+        "name": "🍥꒱ ∷ ˚₊‧ South America ꒱",
+        "color": 16744579,
+        "permissions": "0",
+        "position": 59,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574363918078064",
+        "name": "70꒱",
+        "color": 16730808,
+        "permissions": "0",
+        "position": 33,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574295404380210",
+        "name": "🌺꒱ ∷ ˚₊‧ Lavender ꒱",
+        "color": 10517452,
+        "permissions": "0",
+        "position": 90,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574331697565758",
+        "name": "🍥꒱ ∷ ˚₊‧ North America ꒱",
+        "color": 16744579,
+        "permissions": "0",
+        "position": 60,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574280334114826",
+        "name": "🌺꒱ ∷ ˚₊‧ Azalea ꒱",
+        "color": 16105426,
+        "permissions": "0",
+        "position": 103,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574361091375177",
+        "name": "90꒱",
+        "color": 16711806,
+        "permissions": "0",
+        "position": 35,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574392821022745",
+        "name": "B O T S",
+        "color": 11640025,
+        "permissions": "103140416",
+        "position": 8,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574273140756530",
+        "name": "🌺꒱ ∷ ˚₊‧ Steel Blue ꒱",
+        "color": 5735610,
+        "permissions": "0",
+        "position": 111,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574356825768056",
+        "name": "🍭꒱∷ ˚₊‧ Likes Drawing꒱",
+        "color": 16769116,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574280741097567",
+        "name": "🌺꒱ ∷ ˚₊‧ Zinnwaldite ꒱",
+        "color": 15314597,
+        "permissions": "0",
+        "position": 102,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574273614843916",
+        "name": "🌺꒱ ∷ ˚₊‧ Sky Blue ꒱",
+        "color": 10143979,
+        "permissions": "0",
+        "position": 110,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574279528677490",
+        "name": "🌺꒱ ∷ ˚₊‧ Plum ꒱",
+        "color": 15053755,
+        "permissions": "0",
+        "position": 104,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574376731672637",
+        "name": "10꒱",
+        "color": 9174271,
+        "permissions": "0",
+        "position": 23,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574282041331753",
+        "name": "🌺꒱ ∷ ˚₊‧ Indian Red ꒱",
+        "color": 14062991,
+        "permissions": "0",
+        "position": 101,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574277397970996",
+        "name": "🌺꒱ ∷ ˚₊‧ Burly Wood ꒱",
+        "color": 15190953,
+        "permissions": "0",
+        "position": 106,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574367164469378",
+        "name": "50꒱",
+        "color": 16599798,
+        "permissions": "0",
+        "position": 31,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574303465836705",
+        "name": "💛꒱ ∷ ˚₊‧ Premium ꒱",
+        "color": 16777091,
+        "permissions": "0",
+        "position": 83,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574288001433721",
+        "name": "🌺꒱ ∷ ˚₊‧ Blue ꒱",
+        "color": 3497727,
+        "permissions": "0",
+        "position": 96,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574333920673933",
+        "name": "🍥꒱ ∷ ˚₊‧ Asia꒱",
+        "color": 16744579,
+        "permissions": "0",
+        "position": 58,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574390686253087",
+        "name": "🌸꒱ ∷ ˚₊‧ Dead Chat꒱",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574276253188108",
+        "name": "🌺꒱ ∷ ˚₊‧ Sea Green ꒱",
+        "color": 13036715,
+        "permissions": "0",
+        "position": 107,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574315696296058",
+        "name": "🤍꒱ ∷ ˚₊‧ Shy Neko꒱",
+        "color": 11640025,
+        "permissions": "0",
+        "position": 74,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574322901979256",
+        "name": "🍙꒱ ∷ ˚₊‧ Non Binary ꒱",
+        "color": 9498256,
+        "permissions": "0",
+        "position": 69,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574307039379486",
+        "name": "🎥꒱ ∷ ˚₊‧ Youtubers ꒱",
+        "color": 16747146,
+        "permissions": "0",
+        "position": 80,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574329847873667",
+        "name": "🍣꒱ ∷ ˚₊‧ Closed DM's ꒱",
+        "color": 8424959,
+        "permissions": "0",
+        "position": 62,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574380720590938",
+        "name": ".#. B O T S",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574268417966181",
+        "name": "Supporter",
+        "color": 0,
+        "permissions": "0",
+        "position": 115,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574298881331310",
+        "name": "🌺꒱ ∷ ˚₊‧ Black ꒱",
+        "color": 460551,
+        "permissions": "0",
+        "position": 87,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574312491716709",
+        "name": "🤍꒱ ∷ ˚₊‧ Fruity Neko꒱",
+        "color": 11640025,
+        "permissions": "0",
+        "position": 76,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574288995483648",
+        "name": "🌺꒱ ∷ ˚₊‧ Green ꒱",
+        "color": 5242703,
+        "permissions": "0",
+        "position": 95,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574335153668268",
+        "name": "🍥꒱ ∷ ˚₊‧ Africa꒱",
+        "color": 16744579,
+        "permissions": "0",
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574296553357502",
+        "name": "🌺꒱ ∷ ˚₊‧ Magenta ꒱",
+        "color": 16735487,
+        "permissions": "0",
+        "position": 89,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574301247045653",
+        "name": "🍬꒱ ∷ ˚₊‧ V I P ꒱",
+        "color": 7471013,
+        "permissions": "0",
+        "position": 85,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574353277128815",
+        "name": "🍭꒱ ∷ ˚₊‧ Likes Technology꒱",
+        "color": 16769116,
+        "permissions": "0",
+        "position": 41,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574275682631743",
+        "name": "🌺꒱ ∷ ˚₊‧ Skeptic ꒱",
+        "color": 13297635,
+        "permissions": "0",
+        "position": 108,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574323875319940",
+        "name": "🍙꒱ ∷ ˚₊‧  Gernderfluid꒱",
+        "color": 9498256,
+        "permissions": "0",
+        "position": 68,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574360046731280",
+        "name": "100꒱",
+        "color": 16718678,
+        "permissions": "0",
+        "position": 36,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574370192883774",
+        "name": "35꒱",
+        "color": 10582764,
+        "permissions": "0",
+        "position": 28,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574316531089540",
+        "name": "🍙꒱ ∷ ˚₊‧ Male꒱",
+        "color": 9498256,
+        "permissions": "0",
+        "position": 73,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574340019192018",
+        "name": "🍬꒱ ∷ ˚₊‧ Deredere꒱",
+        "color": 10143979,
+        "permissions": "0",
+        "position": 53,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574285388386397",
+        "name": "🌺꒱ ∷ ˚₊‧ Orange ꒱",
+        "color": 16757588,
+        "permissions": "0",
+        "position": 98,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574373686870038",
+        "name": "20꒱",
+        "color": 3328255,
+        "permissions": "0",
+        "position": 25,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574359480635492",
+        "name": "╭ ∙ ┉ ∙ ​┉ ∙ ​┉  ⌈  LEVEL ROLES  ⌉   ​┉ ∙ ​┉ ∙ ​┉ ∙ ╮",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574341264642263",
+        "name": "🍬꒱ ∷ ˚₊‧ Yandere꒱",
+        "color": 10143979,
+        "permissions": "0",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574269726724178",
+        "name": "┉ ∙ ⌈  ROLES ⌉ ∙  ​┉ ∙ ​┉",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 114,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574395392131083",
+        "name": "Template by: Thusuzzee#0397",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574265389944862",
+        "name": "Administrator",
+        "color": 0,
+        "permissions": "8",
+        "position": 118,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574385988767845",
+        "name": "🌸꒱ ∷ ˚₊‧ News Ping꒱",
+        "color": 2019193,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574314748252191",
+        "name": "🤍꒱ ∷ ˚₊‧ Sweet Neko꒱",
+        "color": 11640025,
+        "permissions": "0",
+        "position": 75,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574264181854289",
+        "name": ".#. S T A F F",
+        "color": 3447003,
+        "permissions": "201334784",
+        "position": 120,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1514574310633640057",
+        "name": "🤍꒱ ∷ ˚₊‧ Wholesome Neko꒱",
+        "color": 11640025,
+        "permissions": "0",
+        "position": 77,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574382956150806",
+        "name": "🌸꒱ ∷ ˚₊‧ Partnership Ping꒱",
+        "color": 10747810,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574330455920661",
+        "name": "🍥꒱ ∷ ˚₊‧ Europe꒱",
+        "color": 16744579,
+        "permissions": "0",
+        "position": 61,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574384285880370",
+        "name": "🌸꒱ ∷ ˚₊‧ Welcome Committee꒱",
+        "color": 2019193,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1514574292011188224",
+        "name": "🌺꒱ ∷ ˚₊‧ Light Blue ꒱",
+        "color": 3209727,
+        "permissions": "0",
+        "position": 93,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574369467138058",
+        "name": "40꒱",
+        "color": 10641919,
+        "permissions": "0",
+        "position": 29,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574351448670208",
+        "name": "🍭꒱ ∷ ˚₊‧ Likes Music꒱",
+        "color": 16769116,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574319177699438",
+        "name": "🍙꒱∷ ˚₊‧ Transgender「 F -> M 」",
+        "color": 9498256,
+        "permissions": "0",
+        "position": 71,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574345366798406",
+        "name": "🍬꒱ ∷ ˚₊‧ Bakadere꒱",
+        "color": 10143979,
+        "permissions": "0",
+        "position": 49,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574387427151882",
+        "name": "🌸꒱ ∷ ˚₊‧ Poll Ping꒱",
+        "color": 2019193,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514581362252709969",
+        "name": ".#. P R O T E C T E D. E X E",
+        "color": 0,
+        "permissions": "0",
+        "position": 121,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574321517985875",
+        "name": "🍙꒱ ∷ ˚₊‧ Transgender「 M -> F」",
+        "color": 9498256,
+        "permissions": "0",
+        "position": 70,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574302467457105",
+        "name": "💌꒱ ∷ ˚₊‧ Partner Manager ꒱",
+        "color": 16502109,
+        "permissions": "0",
+        "position": 84,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574284566036540",
+        "name": "🌺꒱ ∷ ˚₊‧ Red ꒱",
+        "color": 16730441,
+        "permissions": "0",
+        "position": 99,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574373128896612",
+        "name": "25꒱",
+        "color": 2396159,
+        "permissions": "0",
+        "position": 26,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574354409853090",
+        "name": "🍭꒱ ∷ ˚₊‧ Likes Coding꒱",
+        "color": 16769116,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574274902491136",
+        "name": "🌺꒱ ∷ ˚₊‧ Pale Turquoise ꒱",
+        "color": 11983090,
+        "permissions": "0",
+        "position": 109,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574342187647070",
+        "name": "🍬꒱ ∷ ˚₊‧ Tsundere꒱",
+        "color": 10143979,
+        "permissions": "0",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574388542963713",
+        "name": "🌸꒱ ∷ ˚₊‧ Alone in VC꒱",
+        "color": 2019193,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574308708454502",
+        "name": "🤍꒱ ∷ ˚₊‧ Kawaii Neko꒱",
+        "color": 11640025,
+        "permissions": "0",
+        "position": 78,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574278534893788",
+        "name": "🌺꒱ ∷ ˚₊‧ Linen ꒱",
+        "color": 16043999,
+        "permissions": "0",
+        "position": 105,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574290467553305",
+        "name": "🌺 ∷ ˚₊‧ Light Green ꒱",
+        "color": 4652925,
+        "permissions": "0",
+        "position": 94,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574338962231336",
+        "name": "🍬꒱ ∷ ˚₊‧ Dandere꒱",
+        "color": 10143979,
+        "permissions": "0",
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574328455364651",
+        "name": "🍣꒱ ∷ ˚₊‧ Ask to DM ꒱",
+        "color": 8424959,
+        "permissions": "0",
+        "position": 63,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574377977643068",
+        "name": "5꒱",
+        "color": 9371585,
+        "permissions": "0",
+        "position": 22,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574347610619924",
+        "name": "🍭꒱ ∷ ˚₊‧ Likes Anime/Manga꒱",
+        "color": 16769116,
+        "permissions": "0",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574346545528893",
+        "name": "🍬꒱ ∷ ˚₊‧ Himdere꒱",
+        "color": 10143979,
+        "permissions": "0",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574327088021635",
+        "name": "🧸꒱ ∷ ˚₊‧ 13 - 15 ꒱",
+        "color": 11393254,
+        "permissions": "0",
+        "position": 65,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574263280205834",
+        "name": "Moderations Bots",
+        "color": 0,
+        "permissions": "2147347711",
+        "position": 117,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574325209104415",
+        "name": "🧸꒱ ∷ ˚₊‧ +18꒱",
+        "color": 11393254,
+        "permissions": "0",
+        "position": 67,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574368112644147",
+        "name": "45꒱",
+        "color": 13590011,
+        "permissions": "0",
+        "position": 30,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574336508559530",
+        "name": "🍥꒱ ∷ ˚₊‧ Oceania꒱",
+        "color": 16744579,
+        "permissions": "0",
+        "position": 56,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574362613776404",
+        "name": "80꒱",
+        "color": 16713109,
+        "permissions": "0",
+        "position": 34,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574304753483890",
+        "name": "🐱꒱ ∷ ˚₊‧ Members꒱",
+        "color": 6356893,
+        "permissions": "37030977",
+        "position": 82,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574270649339934",
+        "name": "мωυтεժ",
+        "color": 14286926,
+        "permissions": "0",
+        "position": 113,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514574307966324856",
+        "name": "🤍꒱ ∷ ˚₊‧ Neko Master꒱",
+        "color": 11640025,
+        "permissions": "0",
+        "position": 79,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574282955554888",
+        "name": "┉ ∙ ⌈  COLOR ROLES  ⌉ ∙  ​┉ ∙ ​┉",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 100,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514574389893398598",
+        "name": "🌸꒱ ∷ ˚₊‧ Event Ping꒱",
+        "color": 2019193,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1781800675186
+  }
+}

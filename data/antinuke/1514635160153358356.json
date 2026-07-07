@@ -1,0 +1,205 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1514635161613107230",
+        "name": "🤖",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1514635161613107231",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1514635161613107232",
+        "name": "blah-blah",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514635161613107230"
+      },
+      {
+        "id": "1514635161613107233",
+        "name": "Blah blah",
+        "type": 2,
+        "position": 0,
+        "parentId": "1514635161613107231"
+      },
+      {
+        "id": "1514635832907010330",
+        "name": "Rblx",
+        "type": 2,
+        "position": 1,
+        "parentId": "1514635161613107231"
+      },
+      {
+        "id": "1514635936087146646",
+        "name": "Movie",
+        "type": 2,
+        "position": 2,
+        "parentId": "1514635161613107231"
+      },
+      {
+        "id": "1514636952220074184",
+        "name": "bots",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514635161613107230"
+      },
+      {
+        "id": "1514641581137854575",
+        "name": "cat",
+        "type": 0,
+        "position": 2,
+        "parentId": "1514635161613107230"
+      },
+      {
+        "id": "1514642394249953375",
+        "name": "truth-or-dare",
+        "type": 0,
+        "position": 3,
+        "parentId": "1514635161613107230"
+      },
+      {
+        "id": "1514643551584260136",
+        "name": "safe-space",
+        "type": 0,
+        "position": 4,
+        "parentId": "1514635161613107230"
+      },
+      {
+        "id": "1515035815472795688",
+        "name": "67-zone",
+        "type": 0,
+        "position": 5,
+        "parentId": "1514635161613107230"
+      },
+      {
+        "id": "1515059822595280967",
+        "name": "snaps",
+        "type": 0,
+        "position": 6,
+        "parentId": "1514635161613107230"
+      },
+      {
+        "id": "1515462964130353203",
+        "name": "ka2s-3alam",
+        "type": 0,
+        "position": 7,
+        "parentId": "1514635161613107230"
+      },
+      {
+        "id": "1516957165317787800",
+        "name": "Prv",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1516957175564599428",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 0,
+        "parentId": "1516957165317787800"
+      },
+      {
+        "id": "1516968568955080814",
+        "name": "carl",
+        "type": 0,
+        "position": 1,
+        "parentId": "1516957165317787800"
+      },
+      {
+        "id": "1514651995842154588",
+        "name": "Confession Replies (#7)",
+        "type": 11,
+        "parentId": "1514643551584260136"
+      },
+      {
+        "id": "1514652726296842280",
+        "name": "Confession Replies (#10)",
+        "type": 11,
+        "parentId": "1514643551584260136"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1514656807941967923",
+        "name": "Mod",
+        "color": 7407660,
+        "permissions": "1720707884502593",
+        "position": 10,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1515445441234342190",
+        "name": "PINKIE PIE",
+        "color": 16108525,
+        "permissions": "1720707884502593",
+        "position": 9,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1515446073508888606",
+        "name": "RAINBOW DASH",
+        "color": 2930127,
+        "permissions": "1721807559716807",
+        "position": 8,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1515446264651710608",
+        "name": "RARITY",
+        "color": 7354282,
+        "permissions": "1721826618638327",
+        "position": 7,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1515446856908411042",
+        "name": "ADMIN",
+        "color": 6696401,
+        "permissions": "8864262742605823",
+        "position": 6,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1515468608925597726",
+        "name": "TWILIGHT",
+        "color": 8520084,
+        "permissions": "1720707884502593",
+        "position": 5,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1515486352777674832",
+        "name": "STARLIGH GLIMMER",
+        "color": 1526802,
+        "permissions": "1720707884502593",
+        "position": 4,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1516203888150188042",
+        "name": "REVIVE FUCKASSES",
+        "color": 2769308,
+        "permissions": "1720707884502593",
+        "position": 3,
+        "hoist": true,
+        "mentionable": true
+      }
+    ],
+    "updated": 1781800675243
+  }
+}

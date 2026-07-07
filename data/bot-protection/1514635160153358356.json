@@ -1,0 +1,12 @@
+{
+  "buttons": {
+    "whitelist_bot_1475292581616418977": {
+      "type": "whitelist_bot",
+      "targetId": "1475292581616418977",
+      "guildId": "1514635160153358356",
+      "expiresAt": 1781828442938,
+      "createdAt": 1781742042938,
+      "module": "bot-protection"
+    }
+  }
+}

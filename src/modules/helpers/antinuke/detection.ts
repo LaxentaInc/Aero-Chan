@@ -1,5 +1,5 @@
-// @ts-nocheck
-import { AuditLogEvent } from "discord.js";
+import { AuditLogEvent, Guild, User, GuildMember } from "discord.js";
+import { ActionType, UserId } from "../../../types/antiraid";
 /**
  * AntiNuke Detection
  * Executor finding, caching, and validation
@@ -8,7 +8,7 @@ import { AuditLogEvent } from "discord.js";
 /**
  * Map event type to AuditLogEvent
  */
-function getAuditType(eventType: any) {
+function getAuditType(eventType: ActionType): AuditLogEvent | undefined {
   const map = {
     CHANNEL_DELETE: AuditLogEvent.ChannelDelete,
     CHANNEL_CREATE: AuditLogEvent.ChannelCreate,
@@ -17,13 +17,13 @@ function getAuditType(eventType: any) {
     WEBHOOK_CREATE: AuditLogEvent.WebhookCreate,
     WEBHOOK_UPDATE: AuditLogEvent.WebhookUpdate
   };
-  return map[eventType];
+  return map[eventType as keyof typeof map];
 }
 
 /**
  * Find executor from audit logs with caching and request coalescing
  */
-async function findExecutor(guild: any, eventType: any, target: any, context: any) {
+async function findExecutor(guild: Guild, eventType: ActionType, target: any, context: { executorCache: Map<string, any>, auditLogRequests: Map<string, any> }): Promise<User | null> {
   const auditType = getAuditType(eventType);
   if (!auditType) {
     console.log(`[AntiNuke] No audit type for event: ${eventType}`);
@@ -56,7 +56,7 @@ async function findExecutor(guild: any, eventType: any, target: any, context: an
       // So we look for ANY recent action of this type
       const entry = logs.entries.find(e => {
         const targetId = target.id || target.user?.id;
-        const exactMatch = e.target?.id === targetId;
+        const exactMatch = (e.target as any)?.id === targetId;
         const recent = Date.now() - e.createdTimestamp < 10000; // 10 second window
 
         // For rapid-fire attacks, accept any recent entry if no exact match
@@ -95,7 +95,7 @@ async function findExecutor(guild: any, eventType: any, target: any, context: an
 /**
  * Check if user is trusted (owner, in trusted list, or has trusted role)
  */
-function isTrusted(user: any, guild: any, config: any) {
+function isTrusted(user: User, guild: Guild, config: any): boolean {
   if (user.id === guild.ownerId) return true;
   if (config.trustedUsers?.includes(user.id)) return true;
   if (config.whitelistedUsers?.includes(user.id)) return true;
@@ -106,7 +106,7 @@ function isTrusted(user: any, guild: any, config: any) {
 /**
  * Get threshold for event type (different for bots vs users)
  */
-function getThreshold(eventType: any, config: any, isBot: boolean = false) {
+function getThreshold(eventType: ActionType, config: any, isBot: boolean = false): number {
   if (isBot) {
     const botMap = {
       CHANNEL_DELETE: config.botChannelDelete || 2,
@@ -116,7 +116,7 @@ function getThreshold(eventType: any, config: any, isBot: boolean = false) {
       WEBHOOK_CREATE: config.botWebhookCreate || 2,
       WEBHOOK_UPDATE: config.botWebhookUpdate || 3
     };
-    return botMap[eventType] || 2;
+    return botMap[eventType as keyof typeof botMap] || 2;
   }
   const map = {
     CHANNEL_DELETE: config.channelDelete || 5,
@@ -126,13 +126,13 @@ function getThreshold(eventType: any, config: any, isBot: boolean = false) {
     WEBHOOK_CREATE: config.webhookCreate || 3,
     WEBHOOK_UPDATE: config.webhookUpdate || 5
   };
-  return map[eventType] || 999;
+  return map[eventType as keyof typeof map] || 999;
 }
 
 /**
  * Check if we can punish this executor (hierarchy check)
  */
-async function canPunish(guild: any, executorId: any) {
+async function canPunish(guild: Guild, executorId: UserId) {
   try {
     const member = await guild.members.fetch(executorId).catch(() => null);
     if (!member) return {

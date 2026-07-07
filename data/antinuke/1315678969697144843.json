@@ -108,7 +108,7 @@
       },
       {
         "id": "1315743195052642367",
-        "name": "all-members-48",
+        "name": "all-members-52",
         "type": 0,
         "position": 0,
         "parentId": "1315743191009595422"
@@ -184,6 +184,13 @@
         "parentId": "1315678971182186506"
       },
       {
+        "id": "1522375639955406912",
+        "name": "spam",
+        "type": 0,
+        "position": 7,
+        "parentId": null
+      },
+      {
         "id": "1315698328167780374",
         "name": "Staff",
         "type": 4,
@@ -210,6 +217,13 @@
         "type": 0,
         "position": 2,
         "parentId": "1315678971182186506"
+      },
+      {
+        "id": "1511014658985689109",
+        "name": "staff vc",
+        "type": 2,
+        "position": 0,
+        "parentId": "1315698328167780374"
       },
       {
         "id": "1339635737062281348",
@@ -318,7 +332,7 @@
       },
       {
         "id": "1315743198894751815",
-        "name": "members-38",
+        "name": "members-42",
         "type": 0,
         "position": 1,
         "parentId": "1315743191009595422"
@@ -337,7 +351,7 @@
         "name": "Twitch Team (Bridging Noob)",
         "color": 10181046,
         "permissions": "1720707884371521",
-        "position": 25,
+        "position": 26,
         "hoist": true,
         "mentionable": false
       },
@@ -346,8 +360,17 @@
         "name": "Restricted bot",
         "color": 2067276,
         "permissions": "7389250715121728",
-        "position": 12,
+        "position": 13,
         "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1506279302432555018",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
         "mentionable": false
       },
       {
@@ -355,7 +378,7 @@
         "name": "Content Creator",
         "color": 16711680,
         "permissions": "1720707884371521",
-        "position": 23,
+        "position": 24,
         "hoist": true,
         "mentionable": false
       },
@@ -364,7 +387,7 @@
         "name": "Alt Account",
         "color": 1752220,
         "permissions": "0",
-        "position": 16,
+        "position": 17,
         "hoist": false,
         "mentionable": false
       },
@@ -373,7 +396,7 @@
         "name": "Head Admin",
         "color": 1447446,
         "permissions": "8",
-        "position": 39,
+        "position": 42,
         "hoist": true,
         "mentionable": false
       },
@@ -382,7 +405,7 @@
         "name": ".",
         "color": 0,
         "permissions": "8",
-        "position": 43,
+        "position": 47,
         "hoist": false,
         "mentionable": false
       },
@@ -391,8 +414,17 @@
         "name": "Stream Ping",
         "color": 10038562,
         "permissions": "0",
-        "position": 5,
+        "position": 6,
         "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1506279332161519746",
+        "name": "Bademeister",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 46,
+        "hoist": true,
         "mentionable": false
       },
       {
@@ -400,7 +432,7 @@
         "name": "L user",
         "color": 15844367,
         "permissions": "75627968450113",
-        "position": 17,
+        "position": 18,
         "hoist": true,
         "mentionable": false
       },
@@ -409,7 +441,7 @@
         "name": "NoobsCrib",
         "color": 16777215,
         "permissions": "8",
-        "position": 41,
+        "position": 44,
         "hoist": true,
         "mentionable": false
       },
@@ -418,7 +450,7 @@
         "name": "BridgingNoob Community",
         "color": 9047296,
         "permissions": "0",
-        "position": 7,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -427,7 +459,7 @@
         "name": "wannabe staff",
         "color": 22416,
         "permissions": "0",
-        "position": 27,
+        "position": 28,
         "hoist": true,
         "mentionable": false
       },
@@ -436,7 +468,7 @@
         "name": "NoobsCrib Manager",
         "color": 16777215,
         "permissions": "8",
-        "position": 40,
+        "position": 43,
         "hoist": true,
         "mentionable": false
       },
@@ -445,7 +477,7 @@
         "name": "Twitch Team (xyron)",
         "color": 10181046,
         "permissions": "1720707884371521",
-        "position": 26,
+        "position": 27,
         "hoist": true,
         "mentionable": false
       },
@@ -454,7 +486,7 @@
         "name": "Developer",
         "color": 39167,
         "permissions": "0",
-        "position": 30,
+        "position": 32,
         "hoist": true,
         "mentionable": false
       },
@@ -463,7 +495,7 @@
         "name": "Axolotl :D",
         "color": 16122111,
         "permissions": "8",
-        "position": 33,
+        "position": 35,
         "hoist": true,
         "mentionable": false
       },
@@ -472,7 +504,7 @@
         "name": "—-——————————『Staff』—————————————",
         "color": 0,
         "permissions": "0",
-        "position": 24,
+        "position": 25,
         "hoist": false,
         "mentionable": false
       },
@@ -481,8 +513,17 @@
         "name": "Noobs-",
         "color": 53536,
         "permissions": "0",
-        "position": 15,
+        "position": 16,
         "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1506278882964279297",
+        "name": "Hausmeister",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 37,
+        "hoist": true,
         "mentionable": false
       },
       {
@@ -490,7 +531,7 @@
         "name": "Wick Bypass",
         "color": 0,
         "permissions": "0",
-        "position": 38,
+        "position": 41,
         "hoist": false,
         "mentionable": false
       },
@@ -499,7 +540,7 @@
         "name": "Bots",
         "color": 6323595,
         "permissions": "0",
-        "position": 13,
+        "position": 14,
         "hoist": true,
         "mentionable": false
       },
@@ -508,7 +549,7 @@
         "name": "Moderator",
         "color": 11027200,
         "permissions": "8726978605949318",
-        "position": 28,
+        "position": 29,
         "hoist": true,
         "mentionable": false
       },
@@ -517,7 +558,7 @@
         "name": "Announcement Ping",
         "color": 3066993,
         "permissions": "0",
-        "position": 6,
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -526,8 +567,17 @@
         "name": "Noobs+",
         "color": 1048702,
         "permissions": "0",
-        "position": 19,
+        "position": 20,
         "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1510021037260017854",
+        "name": "Goonermeister",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 30,
+        "hoist": true,
         "mentionable": false
       },
       {
@@ -535,7 +585,7 @@
         "name": "Bot Admin",
         "color": 10476031,
         "permissions": "0",
-        "position": 31,
+        "position": 33,
         "hoist": false,
         "mentionable": false
       },
@@ -544,7 +594,7 @@
         "name": "Owner",
         "color": 11683583,
         "permissions": "0",
-        "position": 42,
+        "position": 45,
         "hoist": true,
         "mentionable": false
       },
@@ -553,7 +603,7 @@
         "name": "Bot Owner",
         "color": 13363967,
         "permissions": "0",
-        "position": 32,
+        "position": 34,
         "hoist": false,
         "mentionable": false
       },
@@ -562,7 +612,7 @@
         "name": "Sr. Moderator",
         "color": 1001999,
         "permissions": "8762094526800262",
-        "position": 29,
+        "position": 31,
         "hoist": true,
         "mentionable": false
       },
@@ -571,7 +621,7 @@
         "name": "Friends",
         "color": 2123412,
         "permissions": "0",
-        "position": 20,
+        "position": 21,
         "hoist": true,
         "mentionable": false
       },
@@ -580,7 +630,7 @@
         "name": "Announcement",
         "color": 2067276,
         "permissions": "0",
-        "position": 21,
+        "position": 22,
         "hoist": false,
         "mentionable": false
       },
@@ -589,7 +639,7 @@
         "name": "Noobs",
         "color": 3447003,
         "permissions": "1236849720155713",
-        "position": 18,
+        "position": 19,
         "hoist": true,
         "mentionable": false
       },
@@ -598,7 +648,7 @@
         "name": "xyron Community",
         "color": 9047296,
         "permissions": "0",
-        "position": 8,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -607,7 +657,7 @@
         "name": "Bri’ish",
         "color": 2123412,
         "permissions": "0",
-        "position": 4,
+        "position": 5,
         "hoist": false,
         "mentionable": false
       },
@@ -616,11 +666,11 @@
         "name": "Admin",
         "color": 16746889,
         "permissions": "8",
-        "position": 34,
+        "position": 36,
         "hoist": true,
         "mentionable": false
       }
     ],
-    "updated": 1778784503103
+    "updated": 1783359813851
   }
 }

@@ -1,0 +1,826 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1114330670404210778",
+        "name": "୧-‧₊˚-🍵-⋅dyno",
+        "type": 0,
+        "position": 12,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1106838396472668183",
+        "name": "𓍢ִ໋🌷͙֒₊˚⊹♡chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1438896354586787880",
+        "name": "★-•°•👥face-rev",
+        "type": 0,
+        "position": 13,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1107637593727840359",
+        "name": "˙-✩°˖🫐-⋆｡˚꩜roleplay",
+        "type": 0,
+        "position": 7,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1107650290380963920",
+        "name": "♡₊˚-🦢・₊✧notsobot",
+        "type": 0,
+        "position": 5,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1401552664441131109",
+        "name": "★𝓝𝓪𝓽𝓼📖𝓖𝓸𝓼𝓹𝓮𝓵-𝓒𝓵𝓪𝓼𝓼★",
+        "type": 0,
+        "position": 11,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1203936538623213629",
+        "name": "♥-💗⌠⌑-♡marriage-bot♡-⌑⌡",
+        "type": 0,
+        "position": 15,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1203936714750689310",
+        "name": "🎤⌑𝄞⌒-⑅【wonderhoy】⑅-⌒𝄞⌑",
+        "type": 0,
+        "position": 16,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1106838396472668182",
+        "name": "𝓥𝓸𝓲𝓬𝓮 𝓒𝓱𝓪𝓷𝓷𝓮𝓵𝓼",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1480869668179935304",
+        "name": "roblox-chat",
+        "type": 0,
+        "position": 15,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1112950382126186578",
+        "name": "。°˖-🍣-꒦꒷⩩pancake",
+        "type": 0,
+        "position": 11,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1163664804049862716",
+        "name": "₊˚ʚ-🌸₊˚✧-ﾟroleplay-2",
+        "type": 0,
+        "position": 8,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1107828675170275428",
+        "name": "♫₊˚🎹-✩｡one-word-story",
+        "type": 0,
+        "position": 6,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1484853695093932042",
+        "name": "mudae",
+        "type": 0,
+        "position": 18,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1107650598708457572",
+        "name": "✧˚-༘🍥-⋆｡˚owo",
+        "type": 0,
+        "position": 7,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1106863497129771018",
+        "name": "__-★₊˚﹟🪐-media",
+        "type": 0,
+        "position": 1,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1108022634635087912",
+        "name": "🌊✮-⋆-🦈｡-⋆｡ballsdex",
+        "type": 0,
+        "position": 1,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1107629537564565624",
+        "name": "𖥔🩰-؁-˖songs",
+        "type": 0,
+        "position": 5,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1106864157015420938",
+        "name": "‧₊˚🖇✩-₊˚🎧⊹♡announce",
+        "type": 0,
+        "position": 1,
+        "parentId": "1106863852555083866"
+      },
+      {
+        "id": "1111869860817948672",
+        "name": "˚˖𓍢ִ໋🧨✧˚.༘⋆music2",
+        "type": 2,
+        "position": 3,
+        "parentId": "1106838396472668182"
+      },
+      {
+        "id": "1213270621031628870",
+        "name": "˚†-༘🌌⋆｡˚codes",
+        "type": 0,
+        "position": 9,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1106864225411944468",
+        "name": "⋆｡‧˚ʚ🍓ɞ˚‧｡⋆roles",
+        "type": 0,
+        "position": 4,
+        "parentId": "1106863852555083866"
+      },
+      {
+        "id": "1413189902773915708",
+        "name": "★smash👀💥-or-pass✋★",
+        "type": 0,
+        "position": 12,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1107651222204317806",
+        "name": "༉‧₊˚🕯❀༉‧₊˚yagpdbxyz",
+        "type": 0,
+        "position": 9,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1110045398896218193",
+        "name": "ੈ♡⸝⸝💫༘⋆karuta",
+        "type": 0,
+        "position": 3,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1107668028985974896",
+        "name": "≽^•⩊•^≼",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1107244756599316582",
+        "name": "༘⋆💭₊˚ෆmusic",
+        "type": 2,
+        "position": 2,
+        "parentId": "1106838396472668182"
+      },
+      {
+        "id": "1106862673846616104",
+        "name": "୭-🧷-✧-˚-ᵎᵎ-🎀-greets",
+        "type": 0,
+        "position": 0,
+        "parentId": "1106862637016424448"
+      },
+      {
+        "id": "1106863535063052328",
+        "name": "✧˚-༘-⋆｡♡˚⋆🐾°stories",
+        "type": 0,
+        "position": 3,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1106863852555083866",
+        "name": "𝓘𝓶𝓹𝓸𝓻𝓽𝓪𝓷𝓽",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1112655751664640064",
+        "name": "┆-⤿-💌-⌗vent",
+        "type": 0,
+        "position": 6,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1107651446805119146",
+        "name": "꒰-🥥-꒱ؘ-࿐-࿔･ﾟyggdrasil",
+        "type": 0,
+        "position": 10,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1106838396472668181",
+        "name": "𝓛𝓸𝓫𝓫𝔂",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1106860337124364361",
+        "name": "୧ ‧ ₊˚ 🎐 ⋅vc",
+        "type": 2,
+        "position": 0,
+        "parentId": "1106838396472668182"
+      },
+      {
+        "id": "1107650762173067325",
+        "name": "⑅📜˚₊⁔⊹₊˚truth-or-dare",
+        "type": 0,
+        "position": 8,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1106862637016424448",
+        "name": "≽^•⩊•^≼",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1106863560400830524",
+        "name": "⋆｡ﾟ☁｡⋆｡-ﾟ☾-ﾟ｡⋆facts",
+        "type": 0,
+        "position": 4,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1106864873134108702",
+        "name": "𝓑𝓸𝓽 𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓼",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1514903764270583808",
+        "name": "server-ancestors",
+        "type": 0,
+        "position": 16,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1463800774646567035",
+        "name": "★gacha-character-showcase★",
+        "type": 0,
+        "position": 14,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1106863469002764318",
+        "name": "˚-·-˚-༘🦋⋆｡˚art",
+        "type": 0,
+        "position": 2,
+        "parentId": "1106838396472668181"
+      },
+      {
+        "id": "1107259957142884444",
+        "name": "✩°｡-⋆⸜🩹✮voice-memo",
+        "type": 0,
+        "position": 0,
+        "parentId": "1106838396472668182"
+      },
+      {
+        "id": "1111869975645397033",
+        "name": "🍶𓂃⭑ᜊvc2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1106838396472668182"
+      },
+      {
+        "id": "1480928969430929519",
+        "name": "wordle",
+        "type": 0,
+        "position": 17,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1107145979368587334",
+        "name": "‧₊˚-⋅-🍜-‧₊˚-⋅carl-bot",
+        "type": 0,
+        "position": 2,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1107245112863502358",
+        "name": "୧-‧₊˚-🍮-⋅-☆maki",
+        "type": 0,
+        "position": 4,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1107646440509034556",
+        "name": "˙✧˖°📷-༘-⋆｡˚letters",
+        "type": 0,
+        "position": 6,
+        "parentId": "1106863852555083866"
+      },
+      {
+        "id": "1107962947591995422",
+        "name": "‧₊˚-☁⋅♡𓂃-࣪-ִֶָ☾polls",
+        "type": 0,
+        "position": 3,
+        "parentId": "1106863852555083866"
+      },
+      {
+        "id": "1107652863083151370",
+        "name": "✧˖°🌷📎⋆-˚｡⋆୨୧˚aki",
+        "type": 0,
+        "position": 0,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1189882652254273576",
+        "name": "୧-♫₊˚-“🥣꒷꒦mee6",
+        "type": 0,
+        "position": 14,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1106864189865197589",
+        "name": "𓍢ִ໋🌷͙֒-♡₊˚-🦢・₊✧emojis",
+        "type": 0,
+        "position": 2,
+        "parentId": "1106863852555083866"
+      },
+      {
+        "id": "1106864039872696390",
+        "name": "𖦹-ׂ-𓈒🐇／⋆-۪rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1106863852555083866"
+      },
+      {
+        "id": "1115162334114091049",
+        "name": "╭・🌿𓂃❨˖-₊-⊹tupperbox",
+        "type": 0,
+        "position": 13,
+        "parentId": "1106864873134108702"
+      },
+      {
+        "id": "1106864252834283550",
+        "name": "🎸⋆⭒˚｡⋆role-info",
+        "type": 0,
+        "position": 5,
+        "parentId": "1106863852555083866"
+      },
+      {
+        "id": "1371522430383951922",
+        "name": "ᯓ🌟-teto-word-of-the-day",
+        "type": 0,
+        "position": 10,
+        "parentId": "1106838396472668181"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1514059587383201872",
+        "name": "₊˚⊹♡",
+        "color": 9070675,
+        "permissions": "0",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1311944913352392754",
+        "name": "Pastor/Preacher",
+        "color": 5537004,
+        "permissions": "8797435200562",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514044669133328534",
+        "name": ".✦ ݁˖",
+        "color": 16764842,
+        "permissions": "0",
+        "position": 67,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514059516734603445",
+        "name": "ᯓᡣ𐭩",
+        "color": 6119530,
+        "permissions": "0",
+        "position": 53,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1112651480063819776",
+        "name": "UY PILIPINS 🤯🤯🤯",
+        "color": 16711833,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514058461477077182",
+        "name": "⊹₊⟡⋆",
+        "color": 8797654,
+        "permissions": "0",
+        "position": 58,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514044322436223178",
+        "name": "⋆˚꩜｡",
+        "color": 16754085,
+        "permissions": "0",
+        "position": 69,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1107090161860358264",
+        "name": "yummi bots 😋",
+        "color": 1,
+        "permissions": "0",
+        "position": 47,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1477567939132788889",
+        "name": "dino nerd 🦖⋆.˚ ᡣ𐭩 .𖥔˚⋆˚꩜｡",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1514045149381136535",
+        "name": "⊹ ࣪ ˖ ໒꒱",
+        "color": 12255160,
+        "permissions": "0",
+        "position": 63,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1426514650564001853",
+        "name": "AOD FAN FRFR!!",
+        "color": 27053,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514058253611434055",
+        "name": ".☘︎ ݁˖",
+        "color": 4474584,
+        "permissions": "0",
+        "position": 60,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1353718862973243414",
+        "name": "real chuds💔😭",
+        "color": 39423,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1352956926274699275",
+        "name": "EPIC: THE MUSICAL FANS!!!🗣️🥞",
+        "color": 14466934,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1220005962602254407",
+        "name": "[/p] Selene's wife !!",
+        "color": 16749529,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1264447502447280210",
+        "name": "pjsk WORST game oat??😹🎹/j",
+        "color": 7780843,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1186293275032821841",
+        "name": "【ⓒⓐⓣ】",
+        "color": 12022349,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515614293142405150",
+        "name": "kids of the humble gayass ash",
+        "color": 12816623,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1236532693911605338",
+        "name": "Winnie the pooh’s son",
+        "color": 0,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1106855877551599647",
+        "name": "OMG ITS DA OWNER REEL!!!",
+        "color": 39423,
+        "permissions": "32976758374391",
+        "position": 52,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1467306234532200479",
+        "name": "Ochaco fan/simp frfr",
+        "color": 16763886,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1369193742032179302",
+        "name": "chuuya lover number 5158",
+        "color": 14523756,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1365267862083735604",
+        "name": "Polls ping!",
+        "color": 8761493,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1209050921502249020",
+        "name": "married platonically 💗",
+        "color": 16769273,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514058182010339418",
+        "name": "♬⋆.˚",
+        "color": 11719935,
+        "permissions": "0",
+        "position": 61,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1344973580550541352",
+        "name": "caca demon 😨",
+        "color": 10646886,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514059393254035517",
+        "name": "𓏲 ๋࣭  ࣪ ˖",
+        "color": 13556449,
+        "permissions": "0",
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514044447732531220",
+        "name": "— ᨳଓ .",
+        "color": 13258575,
+        "permissions": "0",
+        "position": 68,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514058920077955162",
+        "name": "𐙚⋆.˚",
+        "color": 15288478,
+        "permissions": "0",
+        "position": 56,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514148095150260334",
+        "name": "dumass admin👿",
+        "color": 7351268,
+        "permissions": "8864262742605823",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514045241357897908",
+        "name": "₊˚⊹ ᰔ",
+        "color": 3191892,
+        "permissions": "0",
+        "position": 62,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1365268451337310248",
+        "name": "Roles ping!",
+        "color": 12032120,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1413866616508256317",
+        "name": "Smash or Pass ping!",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 6,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1249576942563496067",
+        "name": "the world's most biggest creepypasta fan",
+        "color": 3473408,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1107800252305641612",
+        "name": "i love draweng👀🖌️",
+        "color": 11403263,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1291565526446768170",
+        "name": "Broken🥀🥀",
+        "color": 3408930,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1476538956534382662",
+        "name": "Rules ping!",
+        "color": 11956336,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514058746400211034",
+        "name": "᭝ ᨳଓ ՟",
+        "color": 16761066,
+        "permissions": "0",
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1444671102533238784",
+        "name": "AZURETIME NO.1 FANN!!!!!!",
+        "color": 658471,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1476538671409659948",
+        "name": "#1 Mafumom glazer",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514044778021519521",
+        "name": "𝜗𝜚⋆₊˚",
+        "color": 13793081,
+        "permissions": "0",
+        "position": 66,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1262751083604738058",
+        "name": "auramaxxing goats 🥶🥶",
+        "color": 15299700,
+        "permissions": "0",
+        "position": 49,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1252539804076474478",
+        "name": "[/p] Aut's wife !!",
+        "color": 6262783,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514045058893090982",
+        "name": "𝄞⨾𓍢ִ໋",
+        "color": 14393921,
+        "permissions": "0",
+        "position": 64,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514044983047622656",
+        "name": "˚˖𓍢ִ໋❀",
+        "color": 16773292,
+        "permissions": "0",
+        "position": 65,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1106858882636193882",
+        "name": "admin premium 🤫🔥",
+        "color": 39423,
+        "permissions": "2108850416648183",
+        "position": 50,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514058361623154781",
+        "name": "⋆✴︎˚｡⋆",
+        "color": 14795263,
+        "permissions": "0",
+        "position": 59,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1365267717187174451",
+        "name": "Announcement ping!",
+        "color": 11640773,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783359813761
+  }
+}

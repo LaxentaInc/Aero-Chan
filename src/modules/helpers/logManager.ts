@@ -557,7 +557,7 @@ class LogManager {
   async logAlert(guild: any, {
     embed,
     components = []
-  }) {
+  }: { embed: any, components?: any[] }) {
     if (!guild) return false;
     try {
       const channel = await this.getAlertChannel(guild);

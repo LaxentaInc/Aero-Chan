@@ -1,0 +1,211 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1506806491775111229",
+        "name": "Canais de Texto",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1506806492232155157",
+        "name": "Canais de Voz",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1515331741026488442",
+        "name": "Bots",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1515334513868279979",
+        "name": "🎧-música",
+        "type": 0,
+        "position": 0,
+        "parentId": "1515331741026488442"
+      },
+      {
+        "id": "1515803130049335429",
+        "name": "🌍geral",
+        "type": 0,
+        "position": 0,
+        "parentId": "1506806491775111229"
+      },
+      {
+        "id": "1515803277357481984",
+        "name": "📷galeria",
+        "type": 0,
+        "position": 1,
+        "parentId": "1506806491775111229"
+      },
+      {
+        "id": "1515803354775949493",
+        "name": "🎮jogatinas",
+        "type": 0,
+        "position": 2,
+        "parentId": "1506806491775111229"
+      },
+      {
+        "id": "1515804108689506486",
+        "name": "🐈poketwo",
+        "type": 0,
+        "position": 1,
+        "parentId": "1515331741026488442"
+      },
+      {
+        "id": "1515804606746198206",
+        "name": "🧶comandos",
+        "type": 0,
+        "position": 2,
+        "parentId": "1515331741026488442"
+      },
+      {
+        "id": "1515804760262049792",
+        "name": "🏰construção",
+        "type": 0,
+        "position": 3,
+        "parentId": "1506806491775111229"
+      },
+      {
+        "id": "1515804965661048935",
+        "name": "duo",
+        "type": 2,
+        "position": 0,
+        "parentId": "1506806492232155157"
+      },
+      {
+        "id": "1515805026260619354",
+        "name": "squad",
+        "type": 2,
+        "position": 1,
+        "parentId": "1506806492232155157"
+      },
+      {
+        "id": "1515805367613784185",
+        "name": "Gamer comunity",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1515805606970134588",
+        "name": "📚regras",
+        "type": 0,
+        "position": 0,
+        "parentId": "1515805367613784185"
+      },
+      {
+        "id": "1515814311426134178",
+        "name": "boas-vindas",
+        "type": 0,
+        "position": 1,
+        "parentId": "1515805367613784185"
+      },
+      {
+        "id": "1515832929882738721",
+        "name": "novidades🌲",
+        "type": 0,
+        "position": 2,
+        "parentId": "1515805367613784185"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1515328849431363594",
+        "name": "Rei geleia (level 1)",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515329566103572661",
+        "name": "Olho de cuthulho (level 10)",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515329647926054942",
+        "name": "Devorador de mundos (level 20)",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515330265243975720",
+        "name": "Heroico",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515330275742191788",
+        "name": "Lendário",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515330487646687425",
+        "name": "Moderador",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515330534417367040",
+        "name": "Fanático",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515330693666836611",
+        "name": "Staff cor 🟥",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515809000493416629",
+        "name": "Abelha rainha (level 30)",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515809138486280443",
+        "name": "novo cargo",
+        "color": 0,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783359813839
+  }
+}

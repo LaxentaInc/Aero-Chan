@@ -94,5 +94,17 @@
     "messageId": "1433888689179721872",
     "claimed": false,
     "claimedBy": null
+  },
+  "1505282497330544730": {
+    "userId": "1246380709124378674",
+    "channelId": "1505282497330544730",
+    "guildId": "1456946357125386418",
+    "reason": "testt",
+    "messages": [],
+    "status": "closed",
+    "createdAt": 1778957714464,
+    "messageId": "1505282500212293703",
+    "claimed": true,
+    "claimedBy": "1212414997049901096"
   }
 }

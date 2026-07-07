@@ -1,3 +1,6 @@
+import { Message } from "discord.js";
+import { GuildId, UserId } from "../../../types/antiraid";
+
 /**
  * Detection functions for various spam types
  */
@@ -5,7 +8,7 @@
 /**
  * Check for message spam (too many messages in time window)
  */
-function checkMessageSpam(userActivity: any, guildId: any, userId: any, config: any) {
+function checkMessageSpam(userActivity: Map<GuildId, Map<UserId, any>>, guildId: GuildId, userId: UserId, config: any) {
   const activity = getUserActivity(userActivity, guildId, userId);
   const now = Date.now();
   const windowMs = config.messageTimeWindow * 1000;
@@ -22,7 +25,7 @@ function checkMessageSpam(userActivity: any, guildId: any, userId: any, config: 
 /**
  * Check for link spam (fast regex check)
  */
-function checkLinkSpamFast(message: any, config: any, linkRegex: any) {
+function checkLinkSpamFast(message: Message, config: any, linkRegex: RegExp) {
   // Quick test first (doesn't capture groups)
   linkRegex.lastIndex = 0;
   if (!linkRegex.test(message.content)) return null;
@@ -47,7 +50,7 @@ function checkLinkSpamFast(message: any, config: any, linkRegex: any) {
 
   // Check against blocked domains (case-insensitive)
   const blockedLinks = [];
-  const lowerLinks = links.map((l: any) => l.toLowerCase());
+  const lowerLinks = links.map((l: string) => l.toLowerCase());
   for (const link of lowerLinks) {
     for (const domain of config.blockedDomains) {
       if (link.includes(domain.toLowerCase())) {
@@ -69,7 +72,8 @@ function checkLinkSpamFast(message: any, config: any, linkRegex: any) {
 /**
  * Check for image spam
  */
-function checkImageSpam(message: any, userActivity: any, config: any) {
+function checkImageSpam(message: Message, userActivity: Map<GuildId, Map<UserId, any>>, config: any) {
+  if (!message.guild) return null;
   const activity = getUserActivity(userActivity, message.guild.id, message.author.id);
   const now = Date.now();
   const windowMs = config.imageTimeWindow * 1000;
@@ -86,7 +90,7 @@ function checkImageSpam(message: any, userActivity: any, config: any) {
 /**
  * Check for webhook spam
  */
-function checkWebhookSpam(userActivity: any, guildId: any, userId: any, config: any) {
+function checkWebhookSpam(userActivity: Map<GuildId, Map<UserId, any>>, guildId: GuildId, userId: UserId, config: any) {
   const activity = getUserActivity(userActivity, guildId, userId);
   const now = Date.now();
   const windowMs = config.webhookTimeWindow * 1000;
@@ -101,11 +105,11 @@ function checkWebhookSpam(userActivity: any, guildId: any, userId: any, config: 
 }
 
 // Helper to get user activity (from tracking module)
-function getUserActivity(userActivity: any, guildId: any, userId: any) {
+function getUserActivity(userActivity: Map<GuildId, Map<UserId, any>>, guildId: GuildId, userId: UserId) {
   if (!userActivity.has(guildId)) {
     userActivity.set(guildId, new Map());
   }
-  const guildData = userActivity.get(guildId) as any;
+  const guildData = userActivity.get(guildId)!;
   if (!guildData.has(userId)) {
     guildData.set(userId, {
       messages: [],
@@ -113,7 +117,7 @@ function getUserActivity(userActivity: any, guildId: any, userId: any) {
       lastViolation: 0
     });
   }
-  return guildData.get(userId) as any;
+  return guildData.get(userId);
 }
 export { checkMessageSpam, checkLinkSpamFast, checkImageSpam, checkWebhookSpam };
 export default {

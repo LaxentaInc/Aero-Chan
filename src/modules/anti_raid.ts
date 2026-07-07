@@ -1,19 +1,14 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import { getCollection } from '@/utils/CloudDB';
 import { Collection } from 'mongodb';
-import { Client, Guild } from 'discord.js';
+import { Guild } from 'discord.js';
 
-export interface AntiRaidModule {
-    getStatus?: (guildId: string) => unknown;
-    getConfig?: (guildId: string) => { enabled: boolean; [key: string]: unknown };
-    toggleModule?: (guildId: string, enabled: boolean) => Promise<void> | void;
-    disable?: (guildId: string) => Promise<void> | void;
-    shutdown?: () => Promise<void> | void;
-    handleBotJoin?: (guild: Guild) => void;
-    handleMemberJoin?: (member: unknown) => void;
-    setClient?: (client: Client) => void;
-}
+import AntiSpam from './AntiSpam';
+import AntiNuke from './AntiNuke';
+import APA from './APA';
+import AMA from './AMA';
+import BotProtection from './bot-protection';
+import { AntiRaidModuleInterface, GuildId } from '../types/antiraid';
+import { ExtendedClient } from '../types/client';
 
 export interface GuildSettingsCache {
     antiRaidEnabled: boolean;
@@ -29,75 +24,32 @@ export interface AntiRaidDocument {
 }
 
 class AntiRaidManager {
-    public modules = new Map<string, AntiRaidModule>();
+    public modules = new Map<string, AntiRaidModuleInterface>();
     public guildSettings = new Map<string, GuildSettingsCache>();
     public collection: Collection<AntiRaidDocument> | null = null;
-    public client: Client | null = null;
+    public client: ExtendedClient | null = null;
 
     private syncInterval: NodeJS.Timeout | null = null;
+    private lastSyncTime: Date = new Date(0);
 
     constructor() {
-        this.discoverModules();
+        this.registerModules();
         void this.initMongoDB();
         this.syncInterval = setInterval(() => { void this.syncMainSettings(); }, 1800000);
         console.log('[AntiRaid] Master system initialized');
     }
 
-    private discoverModules(): void {
+    private registerModules(): void {
         try {
-            const currentDir = __dirname;
-            const files = fs.readdirSync(currentDir);
-
-            const moduleFiles = files.filter(file =>
-                (file.endsWith('.js') || file.endsWith('.ts')) &&
-                file !== 'anti_raid.js' &&
-                file !== 'anti_raid.ts' &&
-                file !== 'analytics.js' &&
-                file !== 'analytics.ts' &&
-                !file.includes('test') &&
-                !file.includes('example')
-            );
-            console.log(`[AntiRaid] Discovered potential modules:`, moduleFiles);
-
-            for (const file of moduleFiles) {
-                try {
-                    const modulePath = path.join(currentDir, file);
-                    const rawExport = require(modulePath) as Record<string, unknown>;
-                    const moduleExport = (rawExport.default ? rawExport.default : rawExport) as unknown;
-
-                    if (this.isValidModule(moduleExport)) {
-                        const moduleName = file.replace(/\.(js|ts)$/, '');
-                        this.modules.set(moduleName, moduleExport as AntiRaidModule);
-                        console.log(`[AntiRaid] Loaded module: ${moduleName}`);
-                    } else {
-                        console.log(`[AntiRaid] Skipped ${file} - NOT a valid anti-raid module`);
-                    }
-                } catch (error) {
-                    console.error(`[AntiRaid] Failed to load ${file}:`, error instanceof Error ? error.message : String(error));
-                }
-            }
-
+            this.modules.set('AntiSpam', AntiSpam);
+            this.modules.set('AntiNuke', AntiNuke);
+            this.modules.set('APA', APA);
+            this.modules.set('AMA', AMA);
+            this.modules.set('bot-protection', BotProtection);
             console.log(`[AntiRaid] Total modules loaded: ${String(this.modules.size)}`);
-
         } catch (error) {
-            console.error('[AntiRaid] Module discovery failed:', error instanceof Error ? error.message : String(error));
+            console.error('[AntiRaid] Module registration failed:', error instanceof Error ? error.message : String(error));
         }
-    }
-
-    private isValidModule(moduleExport: unknown): boolean {
-        if (moduleExport === null || moduleExport === undefined || typeof moduleExport !== 'object') {
-            return false;
-        }
-
-        const mod = moduleExport as Record<string, unknown>;
-        return (
-            typeof mod.getStatus === 'function' ||
-            typeof mod.getConfig === 'function' ||
-            typeof mod.handleBotJoin === 'function' ||
-            typeof mod.handleMemberJoin === 'function' ||
-            typeof mod.setClient === 'function' ||
-            typeof mod.toggleModule === 'function'
-        );
     }
 
     public async initMongoDB(): Promise<void> {
@@ -114,7 +66,11 @@ class AntiRaidManager {
         if (this.collection === null) return;
 
         try {
-            const dbSettings = await this.collection.find({}).toArray();
+            const dbSettings = await this.collection.find({ lastUpdated: { $gt: this.lastSyncTime } }).toArray();
+
+            if (dbSettings.length > 0) {
+                this.lastSyncTime = new Date();
+            }
 
             for (const setting of dbSettings) {
                 const guildId = setting.guildId;
@@ -350,7 +306,7 @@ class AntiRaidManager {
         };
     }
 
-    public setClient(client: Client): void {
+    public setClient(client: ExtendedClient): void {
         this.client = client;
         console.log('[AntiRaid] Discord client reference set');
 

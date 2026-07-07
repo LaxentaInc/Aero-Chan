@@ -1,5 +1,5 @@
-// @ts-nocheck
-import { Collection, MessageFlags } from "discord.js";
+import { Collection, MessageFlags, Interaction } from "discord.js";
+import { ExtendedClient } from "../types/client";
 import { logger } from "../utils/logger";
 import { handleButton, handlers } from "../handlers/buttonHandler";
 import { handleCommand } from "../handlers/commandHandler";
@@ -29,11 +29,11 @@ const cooldowns = new Collection();
 const COOLDOWN_DURATION = 3000; // 3 seconds
 export default {
   name: 'interactionCreate',
-  async execute(interaction: any, client: any) {
+  async execute(interaction: Interaction, client: ExtendedClient) {
     debugLog('debug', `New interaction received - Type: ${interaction.type}`);
     debugLog('debug', `User: ${interaction.user.tag} (${interaction.user.id})`);
     debugLog('debug', `Guild: ${interaction.guild?.name || 'DM'} (${interaction.guild?.id || 'N/A'})`);
-    debugLog('debug', `Channel: ${interaction.channel?.name || 'Unknown'} (${interaction.channel?.id || 'N/A'})`);
+    debugLog('debug', `Channel: ${(interaction.channel as any)?.name || 'Unknown'} (${interaction.channel?.id || 'N/A'})`);
     if (DEBUG_MODE) {
       debugLog('debug', `Available commands: ${Array.from(client.slashCommands.keys()).join(', ')}`);
     }
@@ -67,12 +67,12 @@ export default {
         }
       } else if (interaction.isCommand()) {
         debugLog('info', `Command interaction triggered - Command: ${interaction.commandName}`);
-        debugLog('debug', `Command options: ${JSON.stringify(interaction.options?.data || {})}`);
+        debugLog('debug', `Command options: ${JSON.stringify((interaction as any).options?.data || {})}`);
         await handleCommandInteraction(interaction, client);
       } else if (interaction.isAutocomplete()) {
         // ✅ Added Autocomplete Handling
         debugLog('info', `Autocomplete interaction triggered - Command: ${interaction.commandName}`);
-        const command = client.slashCommands.get(interaction.commandName) as any;
+        const command = client.slashCommands.get(interaction.commandName);
         if (!command || !command.autocomplete) return;
         try {
           await command.autocomplete(interaction);
@@ -80,44 +80,24 @@ export default {
         } catch (error: any) {
           debugLog('error', `Autocomplete error for "${interaction.commandName}": ${error.message}`);
         }
-      } else if (interaction.isContextMenuCommand()) {
-        // ✅ Added Context Menu Handling
-        debugLog('info', `Context menu interaction triggered - Command: ${interaction.commandName}`);
-        const lookupKey = interaction.commandName.toLowerCase();
-        console.log(`🔍 Looking for context menu command: "${interaction.commandName}" -> key: "${lookupKey}"`);
-        console.log(`📋 Available commands: ${Array.from(client.slashCommands.keys()).join(', ')}`);
-        const command = client.slashCommands.get(lookupKey) as any;
-        if (!command) {
-          console.error(`❌ Context menu command not found: ${interaction.commandName}`);
-          console.log(`   Tried lookup key: "${lookupKey}"`);
-          debugLog('warn', `Context menu command not found: ${interaction.commandName}`);
-          return await interaction.reply({
-            content: `Command "${interaction.commandName}" not found.`,
-            flags: 64
-          }).catch(() => {});
-        }
-        try {
-          await command.execute(interaction, client);
-          debugLog('debug', `Context menu executed for command: ${interaction.commandName}`);
-        } catch (error: any) {
-          debugLog('error', `Context menu error for "${interaction.commandName}": ${error.message}`);
-          await replySafe(interaction, 'An error occurred while processing this action.');
-        }
       } else {
         debugLog('warn', `Unhandled interaction type received: ${interaction.type}`);
       }
     } catch (error: any) {
       debugLog('error', `Error in interactionCreate handler: ${error.message}\nStack: ${error.stack}`);
-      if (!interaction.replied && !interaction.deferred) {
-        await interaction.reply({
-          content: 'An unexpected error occurred. Please try again later.',
-          flags: MessageFlags.Ephemeral
-        }).catch((err: any) => debugLog('error', `Failed to send error reply: ${err.message}`));
+      if (!interaction.isAutocomplete()) {
+        const int = interaction as import('discord.js').RepliableInteraction;
+        if (!int.replied && !int.deferred) {
+          await int.reply({
+            content: 'An unexpected error occurred. Please try again later.',
+            flags: MessageFlags.Ephemeral
+          }).catch((err: any) => debugLog('error', `Failed to send error reply: ${err.message}`));
+        }
       }
     }
   }
 };
-async function handleButtonInteraction(interaction: any, client: any) {
+async function handleButtonInteraction(interaction: any, client: ExtendedClient) {
   const {
     customId,
     user
@@ -152,14 +132,14 @@ async function handleButtonInteraction(interaction: any, client: any) {
       return;
     }
     debugLog('debug', `Executing button handler for ${customId}`);
-    await handleButton(interaction, client);
+    await handleButton(interaction);
     debugLog('info', `Button interaction completed successfully - CustomID: ${customId}`);
   } catch (error: any) {
     debugLog('error', `Button handler error for "${customId}": ${error.message}\nStack: ${error.stack}`);
     await replySafe(interaction, 'An error occurred while processing your request.');
   }
 }
-async function handleCommandInteraction(interaction: any, client: any) {
+async function handleCommandInteraction(interaction: any, client: ExtendedClient) {
   const {
     commandName
   } = interaction;

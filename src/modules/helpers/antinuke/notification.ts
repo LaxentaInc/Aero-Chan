@@ -1,8 +1,8 @@
-// @ts-nocheck
 import { getActionsTakenMessage } from "./punishment";
-import { ActionRowBuilder, ButtonBuilder, ButtonStyle } from "discord.js";
+import { ActionRowBuilder, ButtonBuilder, ButtonStyle, Guild, User, GuildMember } from "discord.js";
 import { buildOwnerActionRow, buildWhitelistedActionRow, registerAndPersistButtons } from "./buttons";
 import logManager from "../logManager";
+import { ActionType } from "../../../types/antiraid";
 /**
  * AntiNuke Notifications
  * Owner DMs and channel logging
@@ -15,7 +15,7 @@ const ownerDmMessages = new Map();
 /**
  * Get human-readable action type
  */
-function getActionDescription(type: any, count: any) {
+function getActionDescription(type: string, count: number) {
   const descriptions = {
     'CHANNEL_DELETE': `Deleted ${count} channel(s)`,
     'CHANNEL_CREATE': `Mass created ${count} channel(s)`,
@@ -24,30 +24,30 @@ function getActionDescription(type: any, count: any) {
     'WEBHOOK_CREATE': `Created ${count} webhook(s)`,
     'WEBHOOK_UPDATE': `Modified ${count} webhook(s)`
   };
-  return descriptions[type] || `${count} destructive action(s)`;
+  return (descriptions as any)[type] || `${count} destructive action(s)`;
 }
 
 /**
  * PREPARE NOTIFICATION PAYLOAD (Shared between DM and Channel)
  */
-async function prepareAntiNukePayload(guild: any, executor: any, type: any, config: any, actionCount: any, actionType: any, extra: any) {
+async function prepareAntiNukePayload(guild: Guild, executor: User | GuildMember, type: string, config: any, actionCount: number, actionType: ActionType | null, extra: any) {
   const owner = await guild.fetchOwner();
-  const isBot = executor.bot;
+  const isBot = (executor as User).bot || (executor as GuildMember).user?.bot;
   const whitelisted = !!extra?.whitelisted;
   let embed;
-  let components = [];
-  let buttonMetas = [];
+  let components: any[] = [];
+  let buttonMetas: any[] = [];
   if (isBot) {
     // ========================================
     // BOT ATTACK - Scary, detailed message
     // ========================================
-    const accountAge = Math.floor((Date.now() - executor.createdTimestamp) / (1000 * 60 * 60 * 24));
+    const accountAge = Math.floor((Date.now() - (executor as any).createdTimestamp) / (1000 * 60 * 60 * 24));
     embed = {
       title: '<a:computer6:1333357940341735464> **ANTI-NUKE TRIGGERED**',
       description: [`**${guild.name}** experienced an automated attack. Last resort emergency response activated.`, `We neutralized the threat as fast as technically possible, but some damage occurred before we could respond AS Discord tells us AFTER an event happened.`, `This is expected behavior for last-resort protection.`].join(' '),
       fields: [{
         name: '<:timeout:1422451090259181568> **Attacker Information**',
-        value: [`**Bot:** ${executor.username}`, `**ID:** \`${executor.id}\``, `**Mention:** <@${executor.id}>`, `**Account Age:** ${accountAge} days`].join('\n'),
+        value: [`**Bot:** ${(executor as User).username || (executor as GuildMember).user?.username}`, `**ID:** \`${executor.id}\``, `**Mention:** <@${executor.id}>`, `**Account Age:** ${accountAge} days`].join('\n'),
         inline: false
       }, {
         name: '<a:loading_1310498088724729876:1342443735039868989> **Attack Summary**',
@@ -62,7 +62,7 @@ async function prepareAntiNukePayload(guild: any, executor: any, type: any, conf
         value: ['**This is a LAST RESORT module.** It only activates when preventive protections fail.', '', '**Why Discord Makes This Hard:**', 'Discord processes API requests instantly (0-100ms)', 'Events reach us AFTER completion (200-500ms delay)', '**NO bot can intercept requests before Discord processes them**', '', '**How To Actually Prevent This:**', 'Go to https://www.laxenta.tech/dashboard and enable **ALL THE MODULES**', 'Enable **bot permission stripping** on join', 'Use **AMA, APA, BOT-PROT Modules**'].join('\n'),
         inline: false
       }],
-      timestamp: new Date(),
+      timestamp: new Date().toISOString(),
       footer: {
         text: `Anti-Nuke System (Last Resort)`
       }
@@ -73,7 +73,7 @@ async function prepareAntiNukePayload(guild: any, executor: any, type: any, conf
     // ========================================
     // USER ACTION - Calm, short message
     // ========================================
-    const actionDesc = getActionDescription(actionType, actionCount);
+    const actionDesc = getActionDescription(actionType || '', actionCount);
     if (whitelisted) {
       // WHitelisted User
       const {
@@ -88,14 +88,14 @@ async function prepareAntiNukePayload(guild: any, executor: any, type: any, conf
         description: [`A **whitelisted user** performed actions that would normally trigger AntiNuke in **${guild.name}**.`, `No automatic punishment was taken because they are whitelisted.`].join('\n\n'),
         fields: [{
           name: 'User',
-          value: `${executor.username} (<@${executor.id}>)`,
+          value: `${(executor as User).username || (executor as GuildMember).user?.username} (<@${executor.id}>)`,
           inline: true
         }, {
           name: 'What They Did?',
           value: actionDesc,
           inline: true
         }],
-        timestamp: new Date(),
+        timestamp: new Date().toISOString(),
         footer: {
           text: `Anti-Nuke System`
         }
@@ -138,7 +138,7 @@ async function prepareAntiNukePayload(guild: any, executor: any, type: any, conf
         description: [`A user in **${guild.name}** exceeded action thresholds set for raid/nuke preventions.`, `**Everything is under control** - the situation has been handled automatically and restoration has been initiated.`, `If you want this user to not get caught up in these violations, or you want to change the configuration, do /dashboard :D`].join('\n\n'),
         fields: [{
           name: 'User',
-          value: `${executor.username} (<@${executor.id}>)`,
+          value: `${(executor as User).username || (executor as GuildMember).user?.username} (<@${executor.id}>)`,
           inline: true
         }, {
           name: 'What They Did?',
@@ -149,7 +149,7 @@ async function prepareAntiNukePayload(guild: any, executor: any, type: any, conf
           value: getActionsTakenMessage('user', config).replace(/\n/g, ', ').replace(/• /g, ''),
           inline: false
         }],
-        timestamp: new Date(),
+        timestamp: new Date().toISOString(),
         footer: {
           text: `Anti-Nuke System`
         }
@@ -181,7 +181,7 @@ async function prepareAntiNukePayload(guild: any, executor: any, type: any, conf
 /**
  * Notify server owner about an attack
  */
-async function notifyOwner(guild: any, executor: any, type: any, config: any, actionCount: any, actionType = null, extra: Record<string, any> = {}) {
+async function notifyOwner(guild: Guild, executor: User | GuildMember, type: string, config: any, actionCount: number, actionType: ActionType | null = null, extra: Record<string, any> = {}) {
   if (!config.notifyOwner) return;
   try {
     const {
@@ -227,7 +227,7 @@ async function notifyOwner(guild: any, executor: any, type: any, config: any, ac
 /**
  * Log attack to centralized alert channel (synced with owner embed)
  */
-async function logToChannel(guild: any, executor: any, type: any, config: any, actionCount: any, actionType = null, extra: Record<string, any> = {}) {
+async function logToChannel(guild: Guild, executor: User | GuildMember, type: string, config: any, actionCount: number, actionType: ActionType | null = null, extra: Record<string, any> = {}) {
   try {
     const {
       embed,

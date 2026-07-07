@@ -1,5 +1,7 @@
-// @ts-nocheck
 import { getDefaultConfig } from "./config";
+import { ExtendedClient } from "../../../types/client";
+import { GuildId, UserId } from "../../../types/antiraid";
+import { Guild, GuildMember, GuildBan, User } from "discord.js";
 import { initMongoDB, syncConfigs, createDefaultConfig, updateConfig } from "./database";
 import { cleanupOldActions } from "./tracking";
 import { handleModeratorAction, trackAction, handleMassActionViolation, isTrustedUser } from "./detection";
@@ -13,16 +15,16 @@ import logManager from "../logManager";
 
 class MassActionProtectionModule {
   moduleName: string;
-  configs: Map<any, any>;
-  actionTracking: Map<any, any>;
-  processingViolations: Set<any>;
+  configs: Map<GuildId, any>;
+  actionTracking: Map<GuildId, Map<UserId, any[]>>;
+  processingViolations: Set<string>;
   mongoClient: any;
   db: any;
   collection: any;
-  client: any;
-  syncInterval: any;
-  cleanupInterval: any;
-  constructor(discordClient = null) {
+  client: ExtendedClient | null;
+  syncInterval: NodeJS.Timeout | null;
+  cleanupInterval: NodeJS.Timeout | null;
+  constructor(discordClient: ExtendedClient | null = null) {
     this.moduleName = 'mass-action-protection';
     this.configs = new Map(); // guildId -> config cache
     this.actionTracking = new Map(); // guildId -> Map(userId -> actions[])
@@ -42,7 +44,7 @@ class MassActionProtectionModule {
     this.initMongoDB();
     console.log(`[${this.moduleName}] Module initialized`);
   }
-  setClient(client: any) {
+  setClient(client: ExtendedClient) {
     this.client = client;
     console.log(`[${this.moduleName}] Discord client reference set`);
 
@@ -60,12 +62,8 @@ class MassActionProtectionModule {
    */
   async initMongoDB() {
     const {
-      mongoClient,
-      db,
       collection
     } = await initMongoDB();
-    this.mongoClient = mongoClient;
-    this.db = db;
     this.collection = collection;
 
     // Initial config sync
@@ -82,7 +80,7 @@ class MassActionProtectionModule {
   /**
    * Get configuration for a guild (with defaults)
    */
-  getConfig(guildId: any) {
+  getConfig(guildId: GuildId) {
     const cached = this.configs.get(guildId) as any;
     const defaults = getDefaultConfig();
 
@@ -96,24 +94,24 @@ class MassActionProtectionModule {
   /**
    * Handle member removal (kick detection)
    */
-  async handleMemberRemove(member: any) {
-    await this.handleModeratorAction(member.guild, 'MEMBER_KICK', member);
+  async handleMemberRemove(member: GuildMember) {
+    await this.handleModeratorAction(member.guild, 'MEMBER_KICK', member.user);
   }
 
   /**
    * Handle ban addition
    */
-  async handleBanAdd(ban: any) {
+  async handleBanAdd(ban: GuildBan) {
     await this.handleModeratorAction(ban.guild, 'MEMBER_BAN_ADD', ban.user);
   }
 
   /**
    * Handle moderator actions (kick/ban)
    */
-  async handleModeratorAction(guild: any, actionType: any, targetUser: any) {
+  async handleModeratorAction(guild: Guild, actionType: string, targetUser: User) {
     const context = {
-      getConfig: (gid: any) => this.getConfig(gid),
-      trackAction: (gid: any, eid: any, at: any, tu: any, cfg: any) => this.trackAction(gid, eid, at, tu, cfg),
+      getConfig: (gid: GuildId) => this.getConfig(gid),
+      trackAction: (gid: GuildId, eid: UserId, at: string, tu: User, cfg: any) => this.trackAction(gid, eid, at, tu, cfg),
       moduleName: this.moduleName
     };
     await handleModeratorAction(guild, actionType, targetUser, context);
@@ -125,11 +123,11 @@ class MassActionProtectionModule {
   /**
    * Track and analyze moderator actions
    */
-  async trackAction(guildId: any, executorId: any, actionType: any, targetUser: any, config: any) {
+  async trackAction(guildId: GuildId, executorId: UserId, actionType: string, targetUser: User, config: any) {
     const context = {
       actionTracking: this.actionTracking,
       processingViolations: this.processingViolations,
-      handleMassActionViolation: (gid: any, eid: any, vd: any, cfg: any) => this.handleMassActionViolation(gid, eid, vd, cfg),
+      handleMassActionViolation: (gid: GuildId, eid: UserId, vd: any, cfg: any) => this.handleMassActionViolation(gid, eid, vd, cfg),
       moduleName: this.moduleName
     };
     await trackAction(guildId, executorId, actionType, targetUser, config, context);
@@ -138,13 +136,13 @@ class MassActionProtectionModule {
   /**
    * Handle mass action violation
    */
-  async handleMassActionViolation(guildId: any, executorId: any, violationData: any, config: any) {
+  async handleMassActionViolation(guildId: GuildId, executorId: UserId, violationData: any, config: any) {
     const context = {
-      getGuildById: (gid: any) => this.getGuildById(gid),
+      getGuildById: (gid: GuildId) => this.getGuildById(gid),
       actionTracking: this.actionTracking,
       processingViolations: this.processingViolations,
       moduleName: this.moduleName,
-      stripDangerousRoles: (m: any, g: any) => stripDangerousRoles(m, g) // Pass strip function
+      stripDangerousRoles: (m: GuildMember, g: Guild) => stripDangerousRoles(m, g) // Pass strip function
     };
     await handleMassActionViolation(guildId, executorId, violationData, config, context);
   }
@@ -152,7 +150,7 @@ class MassActionProtectionModule {
   /**
    * Execute punishment action on violator
    */
-  async executePunishment(member: any, guild: any, action: any, config: any) {
+  async executePunishment(member: GuildMember, guild: Guild, action: string, config: any) {
     return await executePunishment(member, guild, action, config);
   }
 
@@ -162,14 +160,14 @@ class MassActionProtectionModule {
   /**
    * Unified notification
    */
-  async notifyAndLog(guild: any, violator: any, violationData: any, actionsPerformed: any, config: any) {
+  async notifyAndLog(guild: Guild, violator: User, violationData: any, actionsPerformed: any, config: any) {
     await notifyAndLog(guild, violator, violationData, actionsPerformed, config);
   }
 
   /**
    * Check if user is trusted (owner or in trusted list)
    */
-  isTrustedUser(user: any, guild: any, config: any) {
+  isTrustedUser(user: User, guild: Guild, config: any) {
     return isTrustedUser(user, guild, config);
   }
 
@@ -177,13 +175,13 @@ class MassActionProtectionModule {
    * Clean up old action tracking data
    */
   cleanupOldActions() {
-    cleanupOldActions(this.actionTracking, (gid: any) => this.getConfig(gid));
+    cleanupOldActions(this.actionTracking, (gid: GuildId) => this.getConfig(gid));
   }
 
   /**
    * Get guild by ID (helper method)
    */
-  async getGuildById(guildId: any) {
+  async getGuildById(guildId: GuildId) {
     if (!this.client) {
       console.error(`[${this.moduleName}] ❌ Discord client not set! Call setClient(client) first.`);
       return null;
@@ -226,7 +224,7 @@ class MassActionProtectionModule {
     return {
       activeUsers: guildTracking.size,
       totalActions,
-      userBreakdown: Array.from(guildTracking.entries()).map(([userId, actions]) => ({
+      userBreakdown: Array.from(guildTracking.entries()).map(([userId, actions]: any) => ({
         userId,
         actionCount: actions.length,
         kicks: actions.filter((a: any) => a.type === 'MEMBER_KICK').length,
@@ -286,7 +284,7 @@ class MassActionProtectionModule {
     if (userId) {
       return guildTracking.get(userId) as any || [];
     } else {
-      const allActions = [];
+      const allActions: any[] = [];
       guildTracking.forEach((userActions: any, uid: any) => {
         userActions.forEach((action: any) => {
           allActions.push({

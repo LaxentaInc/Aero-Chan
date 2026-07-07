@@ -1,5 +1,7 @@
-// @ts-nocheck
 import { getDefaultConfig, isTrustedUser } from "./config";
+import { ExtendedClient } from "../../../types/client";
+import { GuildId } from "../../../types/antiraid";
+import { GuildMember, User } from "discord.js";
 import { initDB, syncConfigs, updateConfig, createDefaultConfig } from "./database";
 import { analyzeBotSuspicion } from "./detection";
 import { stripBotPermissions } from "./permissions";
@@ -16,11 +18,12 @@ import logManager from "../logManager";
 
 class BotProtectionModule {
   moduleName: string;
-  configs: Map<any, any>;
+  configs: Map<GuildId, any>;
   mongoClient: any;
   db: any;
   collection: any;
-  syncInterval: any;
+  client: ExtendedClient | null = null;
+  syncInterval: NodeJS.Timeout | null;
   constructor() {
     this.moduleName = 'bot-protection';
     this.configs = new Map(); // guildId -> config cache
@@ -39,7 +42,7 @@ class BotProtectionModule {
   /**
    * Set Discord client reference
    */
-  setClient(client: any) {
+  setClient(client: ExtendedClient) {
     this.client = client;
     console.log(`[${this.moduleName}] Discord client reference set`);
 
@@ -57,10 +60,8 @@ class BotProtectionModule {
    */
   async initMongoDB() {
     const dbResult = await initDB();
-    this.mongoClient = dbResult.mongoClient;
-    this.db = dbResult.db;
     this.collection = dbResult.collection;
-    if (this.db) {
+    if (this.collection) {
       // Initial config sync
       await this.syncConfigs();
     }
@@ -76,8 +77,8 @@ class BotProtectionModule {
   /**
    * Get configuration for a guild (with defaults)
    */
-  getConfig(guildId: any) {
-    const cached = this.configs.get(guildId) as any;
+  getConfig(guildId: GuildId) {
+    const cached = this.configs.get(guildId);
     const defaults = getDefaultConfig();
 
     // Always merge with defaults to self-heal corrupted configs
@@ -91,7 +92,7 @@ class BotProtectionModule {
    * Handle bot member join (call this from guildMemberAdd event)
    * ALL bots get permissions stripped immediately - suspicious ones get kicked + adder punished
    */
-  async handleBotJoin(member: any, inviter = null) {
+  async handleBotJoin(member: GuildMember, inviter: User | null = null) {
     // Only process bots
     if (!member.user.bot) return;
     const guildId = member.guild.id;
@@ -145,7 +146,7 @@ class BotProtectionModule {
   /**
    * Handle suspicious bot detection
    */
-  async handleSuspiciousBot(member: any, inviter: any, suspicionData: any, config: any, strippedPermissions: any) {
+  async handleSuspiciousBot(member: GuildMember, inviter: User | null, suspicionData: any, config: any, strippedPermissions: any) {
     const guild = member.guild;
     const botUser = member.user;
     const guildId = guild.id;
@@ -170,7 +171,13 @@ class BotProtectionModule {
         inline: false
       }]
     });
-    const actionsTaken = {
+    const actionsTaken: {
+      botKicked: boolean;
+      botBanned: boolean;
+      userPunished: boolean;
+      punishmentTypes: string[];
+      errors: string[];
+    } = {
       botKicked: false,
       botBanned: false,
       userPunished: false,
@@ -235,7 +242,7 @@ class BotProtectionModule {
   /**
    * Create default config for a guild in MongoDB
    */
-  async createDefaultConfig(guildId: any) {
+  async createDefaultConfig(guildId: GuildId) {
     const defaultConfig = getDefaultConfig();
     return await createDefaultConfig(this.collection, guildId, defaultConfig, this.configs);
   }
@@ -243,14 +250,14 @@ class BotProtectionModule {
   /**
    * Update config in MongoDB (called from frontend API)
    */
-  async updateConfig(guildId: any, newConfig: any) {
+  async updateConfig(guildId: GuildId, newConfig: any) {
     return await updateConfig(this.collection, guildId, newConfig, this.configs);
   }
 
   /**
    * Get module status for a guild
    */
-  getStatus(guildId: any) {
+  getStatus(guildId: GuildId) {
     const config = this.getConfig(guildId);
     return {
       moduleName: this.moduleName,
@@ -266,7 +273,7 @@ class BotProtectionModule {
   /**
    * Manual enable/disable for testing
    */
-  async toggleModule(guildId: any, enabled: any) {
+  async toggleModule(guildId: GuildId, enabled: boolean) {
     const currentConfig = this.getConfig(guildId);
     const newConfig = {
       ...currentConfig,

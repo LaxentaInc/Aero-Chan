@@ -1,0 +1,39 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1515710655255281766",
+        "name": "Textkanaler",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1515710655255281768",
+        "name": "かわいい-💕",
+        "type": 0,
+        "position": 0,
+        "parentId": "1515710655255281766"
+      },
+      {
+        "id": "1515710655255281769",
+        "name": "Allmänt",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1515715754467524668",
+        "name": "ピンク",
+        "color": 16300031,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783359813859
+  }
+}

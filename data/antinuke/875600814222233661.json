@@ -128,6 +128,13 @@
         "parentId": "875600814222233662"
       },
       {
+        "id": "1512946296552685588",
+        "name": "Aero",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
         "id": "887692871665352754",
         "name": "flying-gym",
         "type": 0,
@@ -279,7 +286,7 @@
         "name": "aero-logs",
         "type": 0,
         "position": 0,
-        "parentId": null
+        "parentId": "1512946296552685588"
       },
       {
         "id": "985141019228139520",
@@ -301,6 +308,13 @@
         "type": 4,
         "position": 3,
         "parentId": null
+      },
+      {
+        "id": "1512946301371678821",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1512946296552685588"
       }
     ],
     "roles": [
@@ -557,6 +571,6 @@
         "mentionable": true
       }
     ],
-    "updated": 1778784503036
+    "updated": 1783359813789
   }
 }

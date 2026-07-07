@@ -8,7 +8,7 @@
     "noImplicitOverride": true,
     "skipLibCheck": true,
     // @ts-ignore
-    "ignoreDeprecations": "5.0",
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
       "@/*": [

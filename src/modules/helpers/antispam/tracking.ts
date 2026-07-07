@@ -1,3 +1,6 @@
+import { Message } from "discord.js";
+import { GuildId, UserId } from "../../../types/antiraid";
+
 /**
  * User activity tracking and cleanup functions
  */
@@ -5,11 +8,11 @@
 /**
  * Get or create user activity record
  */
-function getUserActivity(userActivity: any, guildId: any, userId: any) {
+function getUserActivity(userActivity: Map<GuildId, Map<UserId, any>>, guildId: GuildId, userId: UserId) {
   if (!userActivity.has(guildId)) {
     userActivity.set(guildId, new Map());
   }
-  const guildData = userActivity.get(guildId) as any;
+  const guildData = userActivity.get(guildId)!;
   if (!guildData.has(userId)) {
     guildData.set(userId, {
       messages: [],
@@ -17,13 +20,13 @@ function getUserActivity(userActivity: any, guildId: any, userId: any) {
       lastViolation: 0
     });
   }
-  return guildData.get(userId) as any;
+  return guildData.get(userId);
 }
 
 /**
  * Track a message for the user
  */
-function trackMessage(userActivity: any, guildId: any, userId: any, message: any) {
+function trackMessage(userActivity: Map<GuildId, Map<UserId, any>>, guildId: GuildId, userId: UserId, message: Message & { webhookId?: string }) {
   const activity = getUserActivity(userActivity, guildId, userId);
   const now = Date.now();
   activity.messages.push({
@@ -42,7 +45,7 @@ function trackMessage(userActivity: any, guildId: any, userId: any, message: any
 /**
  * Cleanup old data periodically
  */
-function cleanup(userActivity: any, punishmentLocks: any, recentNotifications: any, getConfigFn: any, stats: any) {
+function cleanup(userActivity: Map<GuildId, Map<UserId, any>>, punishmentLocks: Map<string, number>, recentNotifications: Map<string, number>, getConfigFn: (guildId: GuildId) => any, stats: any) {
   const now = Date.now();
   for (const [guildId, guildData] of userActivity.entries()) {
     const config = getConfigFn(guildId);
@@ -89,7 +92,7 @@ function cleanup(userActivity: any, punishmentLocks: any, recentNotifications: a
 /**
  * Reset user strikes
  */
-function resetUserStrikes(userActivity: any, punishmentLocks: any, guildId: any, userId: any) {
+function resetUserStrikes(userActivity: Map<GuildId, Map<UserId, any>>, punishmentLocks: Map<string, number>, guildId: GuildId, userId: UserId) {
   const activity = getUserActivity(userActivity, guildId, userId);
   activity.strikes = 0;
   activity.lastViolation = 0;
@@ -102,7 +105,7 @@ function resetUserStrikes(userActivity: any, punishmentLocks: any, guildId: any,
 /**
  * Get user strike info
  */
-function getUserStrikes(userActivity: any, punishmentLocks: any, guildId: any, userId: any) {
+function getUserStrikes(userActivity: Map<GuildId, Map<UserId, any>>, punishmentLocks: Map<string, number>, guildId: GuildId, userId: UserId) {
   const activity = getUserActivity(userActivity, guildId, userId);
   const lockKey = `${guildId}:${userId}`;
   return {
@@ -110,14 +113,14 @@ function getUserStrikes(userActivity: any, punishmentLocks: any, guildId: any, u
     lastViolation: activity.lastViolation,
     recentMessages: activity.messages.length,
     isLocked: punishmentLocks.has(lockKey),
-    lockExpires: punishmentLocks.has(lockKey) ? new Date((punishmentLocks.get(lockKey) as any) + 5000) : null
+    lockExpires: punishmentLocks.has(lockKey) ? new Date(punishmentLocks.get(lockKey)! + 5000) : null
   };
 }
 
 /**
  * Clear cache for all users
  */
-function clearCache(userActivity: any) {
+function clearCache(userActivity: Map<GuildId, Map<UserId, any>>) {
   userActivity.clear();
 }
 export { getUserActivity, trackMessage, cleanup, resetUserStrikes, getUserStrikes, clearCache };

@@ -1,0 +1,182 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1515435466583969892",
+        "name": "ᣟᣟᣟᣟ6／𝟙4／2026ᣟᣟᣟ",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1515435466583969895",
+        "name": "𓈒　　        𓈈🕯️　　주황",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1515435466583969896",
+        "name": "ᣟᰍ゜𝕣u𓈒l𝕖ხoo𝕜ᣟᣟ𓂂ຽ𓏼",
+        "type": 0,
+        "position": 0,
+        "parentId": "1515435466583969895"
+      },
+      {
+        "id": "1515435466583969897",
+        "name": "𓐇루이゜𝕞ɑ⑅𝕚l。🥯",
+        "type": 0,
+        "position": 1,
+        "parentId": "1515435466583969895"
+      },
+      {
+        "id": "1515435466583969898",
+        "name": ".　　　　　𓏽 ݁   ۫📋  ᩧ 𓂂   ᰍ ׄ",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1515435466583969899",
+        "name": "ᘛᥥ𓏫𓏼゛t̲i𝕔𝕜ᧉt゜ᦡ",
+        "type": 0,
+        "position": 0,
+        "parentId": "1515435466583969898"
+      },
+      {
+        "id": "1515435466583969900",
+        "name": "🧺✿𓐇。ხ𝕠𝕠st̲",
+        "type": 0,
+        "position": 1,
+        "parentId": "1515435466583969898"
+      },
+      {
+        "id": "1515435466583969901",
+        "name": "（𓈒  ◌ -ˆ ω ˆ- ͚）   𓏼🍙",
+        "type": 2,
+        "position": 0,
+        "parentId": "1515435466583969898"
+      },
+      {
+        "id": "1515435466768388216",
+        "name": "ׂ 　 ׂ   　 　 　𓈒　　　 　 ׂ  　현",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1515435466768388217",
+        "name": "ֺ𓐇𝄂。ch𝕒t゜꒱",
+        "type": 0,
+        "position": 0,
+        "parentId": "1515435466768388216"
+      },
+      {
+        "id": "1515435466768388218",
+        "name": "◌⌛・𝕩lo͟v。✿˚𓏼",
+        "type": 0,
+        "position": 1,
+        "parentId": "1515435466768388216"
+      },
+      {
+        "id": "1515435466768388219",
+        "name": ".　　　　　𓏽 ݁   ۫🏹  ᩧ 𓂂   ᰍ ׄ",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1515435466768388220",
+        "name": "우무티゜（d𝕚ɑriᧉs）𓏼",
+        "type": 15,
+        "position": 0,
+        "parentId": "1515435466768388219"
+      },
+      {
+        "id": "1515435466768388221",
+        "name": "◌🏷️𓐇゜i𐓣t𝕣✿",
+        "type": 0,
+        "position": 1,
+        "parentId": "1515435466768388219"
+      },
+      {
+        "id": "1515435466768388222",
+        "name": "𓈒　　        𓈈🚬　　주황",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1515435466768388223",
+        "name": "ຽ。하루𓂂🍞）𓏼",
+        "type": 0,
+        "position": 0,
+        "parentId": "1515435466768388222"
+      },
+      {
+        "id": "1515435466768388224",
+        "name": "ᣟ݂രᰍ。ɑ͟ω♡ყ゛🥐",
+        "type": 0,
+        "position": 1,
+        "parentId": "1515435466768388222"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1515435466063609887",
+        "name": "ᘛᥥ　oω𓈒𝕟　🧺ᧆ",
+        "color": 0,
+        "permissions": "8",
+        "position": 7,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1515437201100378112",
+        "name": "ᘛᥥ　𝕔o oω𓈒𝕟　🪵ᧆ",
+        "color": 0,
+        "permissions": "8",
+        "position": 6,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1515437470752309388",
+        "name": "⾕　𝒮𝕥af𝕗　ಇ.",
+        "color": 0,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515438906223624242",
+        "name": "🪵  ๋̣̣̥۪  　𝕞o𝒹　ゃ",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515440149448757391",
+        "name": "Იᰍ   ݂⑅𓈒　𝕥ri⍺ℓs",
+        "color": 0,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515441190131073224",
+        "name": "᷒   𑛁᷼𐪃  ۪  𝂅　𝕙ᧉɑd ოᨵd",
+        "color": 0,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783359813828
+  }
+}

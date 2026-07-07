@@ -24,11 +24,11 @@ export default {
         value: result.translated.length > 1024 ? result.translated.slice(0, 1021) + "..." : result.translated
       } as any, {
         name: "Target Language",
-        value: LANGUAGES[result.targetLang] || result.targetLang,
+        value: LANGUAGES[result.targetLang as keyof typeof LANGUAGES] || result.targetLang,
         inline: true
       } as any, {
         name: "Source Language",
-        value: result.sourceLang === 'auto' ? "Auto-detected" : LANGUAGES[result.sourceLang] || result.sourceLang,
+        value: result.sourceLang === 'auto' ? "Auto-detected" : LANGUAGES[result.sourceLang as keyof typeof LANGUAGES] || result.sourceLang,
         inline: true
       } as any);
       // .setTimestamp()

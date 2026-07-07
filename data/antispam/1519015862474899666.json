@@ -1,0 +1,41 @@
+{
+  "buttons": {
+    "whitelist_spam_user_1143601645624762389": {
+      "type": "whitelist_user",
+      "targetId": "1143601645624762389",
+      "guildId": "1519015862474899666",
+      "relatedMessages": [
+        {
+          "channelId": "1523733929310289930",
+          "messageId": "1523733930908450902"
+        },
+        {
+          "channelId": "1523733933999652944",
+          "messageId": "1523733939913756743"
+        }
+      ],
+      "expiresAt": 1783443280928,
+      "createdAt": 1783356880928,
+      "module": "antispam"
+    },
+    "remove_punishment_1143601645624762389": {
+      "type": "remove_punishment",
+      "targetId": "1143601645624762389",
+      "guildId": "1519015862474899666",
+      "punishmentType": "timeout",
+      "relatedMessages": [
+        {
+          "channelId": "1523733929310289930",
+          "messageId": "1523733930908450902"
+        },
+        {
+          "channelId": "1523733933999652944",
+          "messageId": "1523733939913756743"
+        }
+      ],
+      "expiresAt": 1783443281341,
+      "createdAt": 1783356881341,
+      "module": "antispam"
+    }
+  }
+}

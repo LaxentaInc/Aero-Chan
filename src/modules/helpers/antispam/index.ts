@@ -1,5 +1,7 @@
-// @ts-nocheck
 import { getDefaultConfig, buildTrustedSets, hasAdminPermissions, isWhitelisted } from "./config";
+import { ExtendedClient } from "../../../types/client";
+import { GuildId, UserId } from "../../../types/antiraid";
+import { Message, GuildMember } from "discord.js";
 import { checkMessageSpam, checkLinkSpamFast, checkImageSpam, checkWebhookSpam } from "./detection";
 import { getUserActivity, trackMessage, cleanup, resetUserStrikes, getUserStrikes, clearCache } from "./tracking";
 import { initDB, refreshConfig, updateConfig, syncConfigs } from "./database";
@@ -12,22 +14,22 @@ import logManager from "../logManager";
  */
 
 class SpamProtection {
-  client: any;
+  client: ExtendedClient | null;
   db: any;
-  configs: Map<any, any>;
-  configLastRefresh: Map<any, any>;
-  userActivity: Map<any, any>;
-  punishmentLocks: Map<any, any>;
-  recentNotifications: Map<any, any>;
-  strikeCooldowns: Map<any, any>;
-  pendingDeletes: Map<any, any>;
-  deleteTimers: Map<any, any>;
-  trustedUsersSets: Map<any, any>;
-  trustedRolesSets: Map<any, any>;
-  stats: Record<string, any>;
+  configs: Map<GuildId, any>;
+  configLastRefresh: Map<GuildId, number>;
+  userActivity: Map<GuildId, Map<UserId, any[]>>;
+  punishmentLocks: Map<string, number>;
+  recentNotifications: Map<string, number>;
+  strikeCooldowns: Map<string, number>;
+  pendingDeletes: Map<string, Set<string>>;
+  deleteTimers: Map<string, NodeJS.Timeout>;
+  trustedUsersSets: Map<GuildId, Set<UserId>>;
+  trustedRolesSets: Map<GuildId, Set<string>>;
+  stats: Record<string, number>;
   linkRegex: RegExp;
   discordInviteRegex: RegExp;
-  constructor(client = null) {
+  constructor(client: ExtendedClient | null = null) {
     this.client = client;
     this.db = null;
     this.configs = new Map();
@@ -66,7 +68,7 @@ class SpamProtection {
   }
 
   // Set client (must be called after bot is ready)
-  setClient(client: any) {
+  setClient(client: ExtendedClient) {
     this.client = client;
     console.log('[SpamProtection] Client set successfully');
 
@@ -91,14 +93,14 @@ class SpamProtection {
   }
 
   // Get config (with caching)
-  getConfig(guildId: any) {
-    const lastRefresh = this.configLastRefresh.get(guildId) as any || 0;
+  getConfig(guildId: GuildId) {
+    const lastRefresh = this.configLastRefresh.get(guildId) || 0;
     const needsRefresh = Date.now() - lastRefresh > 3600000; // 1 hour cache
 
     if (needsRefresh && this.db) {
       refreshConfig(this.db, guildId, this.configs, this.configLastRefresh, this.trustedUsersSets, this.trustedRolesSets).catch(() => {});
     }
-    const cached = this.configs.get(guildId) as any;
+    const cached = this.configs.get(guildId);
     const defaults = getDefaultConfig();
 
     // Always merge with defaults to self-heal corrupted configs
@@ -109,12 +111,12 @@ class SpamProtection {
   }
 
   // Update config
-  async updateConfig(guildId: any, config: any) {
+  async updateConfig(guildId: GuildId, config: any) {
     return updateConfig(this.db, guildId, config, this.configs, this.configLastRefresh, this.trustedUsersSets, this.trustedRolesSets);
   }
 
   // Main message handler
-  async handleMessage(message: any) {
+  async handleMessage(message: Message & { guild: any, member: GuildMember }) {
     this.stats.messagesProcessed++;
 
     // Early exits (ignore system messages. Allow bots ONLY if they are webhooks)
@@ -157,7 +159,7 @@ class SpamProtection {
     // Check if user is currently being punished
     const lockKey = `${message.guild.id}:${message.author.id}`;
     if (this.punishmentLocks.has(lockKey)) {
-      const lockTime = this.punishmentLocks.get(lockKey) as any;
+      const lockTime = this.punishmentLocks.get(lockKey)!;
       if (Date.now() - lockTime < config.punishmentLockTime) {
         if (config.deleteSpamMessages) {
           this.scheduleDelete(message.channel.id, message.id);
@@ -169,7 +171,7 @@ class SpamProtection {
     }
 
     // Track message
-    trackMessage(this.userActivity, message.guild.id, message.author.id, message);
+    trackMessage(this.userActivity, message.guild.id, message.author.id, message as any);
 
     // Run spam checks
     const violations = [];
@@ -234,7 +236,7 @@ class SpamProtection {
       const activity = getUserActivity(this.userActivity, guildId, userId);
 
       // Determine deletion strategy
-      const linkViolation = violations.find(v => v.type === 'link_spam') as any;
+      const linkViolation = violations.find((v: any) => v.type === 'link_spam') as any;
       const isContentViolation = violations.some((v: any) => ['image_spam', 'webhook_spam'].includes(v.type));
       const isMessageSpam = violations.some((v: any) => v.type === 'message_spam');
       if (linkViolation) {
@@ -429,29 +431,30 @@ class SpamProtection {
   }
 
   // Execute batch deletion
-  async executeBatchDelete(channelId: any) {
+  async executeBatchDelete(channelId: string) {
     try {
       const messageIds = this.pendingDeletes.get(channelId) as any;
       if (!messageIds || messageIds.size === 0) return;
       const channel = this.client?.channels.cache.get(channelId);
-      if (!channel) {
-        console.log('[SpamProtection] โŒ Channel not found for deletion');
+      if (!channel || !channel.isTextBased()) {
+        console.log('[SpamProtection] ❌ Channel not found for deletion or is not text-based');
         return;
       }
-      const idsArray = Array.from(messageIds);
+      const textChannel = channel as import('discord.js').TextChannel;
+      const idsArray = Array.from(messageIds) as string[];
       console.log(`[SpamProtection] 🗑️ Deleting ${idsArray.length} spam message(s)...`);
       if (idsArray.length === 1) {
-        await channel.messages.delete(idsArray[0]).catch((err: any) => {
+        await textChannel.messages.delete(idsArray[0]).catch((err: any) => {
           console.error('[SpamProtection] Failed to delete single message:', err.message);
         });
       } else if (idsArray.length <= 100) {
-        await channel.bulkDelete(idsArray, true).catch((err: any) => {
+        await textChannel.bulkDelete(idsArray, true).catch((err: any) => {
           console.error('[SpamProtection] Failed to bulk delete:', err.message);
         });
       } else {
         for (let i = 0; i < idsArray.length; i += 100) {
           const chunk = idsArray.slice(i, i + 100);
-          await channel.bulkDelete(chunk, true).catch((err: any) => {
+          await textChannel.bulkDelete(chunk, true).catch((err: any) => {
             console.error('[SpamProtection] Failed to bulk delete chunk:', err.message);
           });
         }
@@ -460,12 +463,12 @@ class SpamProtection {
       console.log(`[SpamProtection] SUCCESS: Deleted ${idsArray.length} message(s)! Total deleted: ${this.stats.messagesDeleted}`);
 
       // Log to centralized log channel
-      if (channel.guild) {
-        logManager.log(channel.guild, 'MESSAGES_DELETED', {
+      if (textChannel.guild) {
+        logManager.log(textChannel.guild, 'MESSAGES_DELETED', {
           description: `Deleted ${idsArray.length} spam message(s)`,
           fields: [{
             name: '📁 Channel',
-            value: `#${channel.name}`,
+            value: `#${textChannel.name}`,
             inline: true
           }, {
             name: '🗑️ Messages',

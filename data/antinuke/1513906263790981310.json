@@ -1,0 +1,332 @@
+{
+  "backup": {
+    "channels": [],
+    "roles": [
+      {
+        "id": "1514215383547248701",
+        "name": "🌍Edolas🌍",
+        "color": 0,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513997067247161568",
+        "name": "🔥Magie de feu🔥",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514682786491924742",
+        "name": "Magie d'acier",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514215485082963988",
+        "name": "🐉chasseur de dragon🐉",
+        "color": 11018786,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513994670575714434",
+        "name": "🦁Saberthooth🦁",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 34,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1514214652832251985",
+        "name": "🌑Magie de l'ombre🌑",
+        "color": 0,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513997700696113183",
+        "name": "⚔️épeiste⚔️",
+        "color": 0,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513941086865985797",
+        "name": "Bot🤖",
+        "color": 0,
+        "permissions": "2108850416648191",
+        "position": 38,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514216200396083342",
+        "name": "💧Magie de l'eau💧",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513997203667025950",
+        "name": "🧊Magie de glace🧊",
+        "color": 6400216,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514665072968994866",
+        "name": "🌍Magie de territoire🌍",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513906832769552384",
+        "name": "Modérateur",
+        "color": 0,
+        "permissions": "8",
+        "position": 41,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1516089333394833458",
+        "name": "pas de personnage",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 3,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1514651381007646983",
+        "name": "⭐Esprit⭐",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 12,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1514215695125057597",
+        "name": "😈chasseur de demon😈",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514664181050114220",
+        "name": "👿Magie démoniaque👿",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514242318822150215",
+        "name": "🔱Chasseur de dieu🔱",
+        "color": 0,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514215048212648059",
+        "name": "🍃💨🌪️Magie céleste🍃💨🌪️",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513997345396756512",
+        "name": "⭐Magie constellationniste ⭐",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513995056762060920",
+        "name": "🦄🪽Blue pegasus🦄🪽",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515050011455520818",
+        "name": "✨Magie de taille✨",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514310623209455678",
+        "name": "👑3eme maitre de fairy tail👑",
+        "color": 9306112,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513994848556810450",
+        "name": "🧜‍♀️Lamias scales🧜‍♀️",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 33,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1513907051208904876",
+        "name": "Manager",
+        "color": 0,
+        "permissions": "1721826618638327",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514215233445695508",
+        "name": "🐱🪽Exeed🐱🪽",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514705376736444457",
+        "name": "⚪Magie blanc⚪",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513995954670534907",
+        "name": "🔫Crime sorcière🔫",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 31,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1514663962015305840",
+        "name": "🃏Magie des cartes🃏",
+        "color": 8012868,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514310815275159733",
+        "name": "👑1er maitre de fairy tail👑",
+        "color": 8126464,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513907412057456700",
+        "name": "Responsable",
+        "color": 0,
+        "permissions": "1721807559716807",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514216020439732395",
+        "name": "⚡ Magie de la foudre⚡",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514214815491428423",
+        "name": "🔆Magie de la lumière🔆",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514650945059946547",
+        "name": "🧚‍♀️Fairy tail d'edolas🧚‍♀️",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 13,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1513994380439060650",
+        "name": "🧚‍♀️Fairy tail🧚‍♀️",
+        "color": 16711680,
+        "permissions": "1134697073607680",
+        "position": 35,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1514005129039315005",
+        "name": "👑7eme maitre de fairy tail👑",
+        "color": 8716293,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1514683198515187742",
+        "name": "✨Magie de transphormation ✨",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1781718303104
+  }
+}

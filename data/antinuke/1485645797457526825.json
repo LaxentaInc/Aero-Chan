@@ -176,7 +176,7 @@
         "name": "IGL",
         "color": 15990784,
         "permissions": "1721826618638327",
-        "position": 11,
+        "position": 14,
         "hoist": false,
         "mentionable": false
       },
@@ -185,7 +185,7 @@
         "name": "UHR",
         "color": 3066993,
         "permissions": "1720707884502593",
-        "position": 10,
+        "position": 13,
         "hoist": false,
         "mentionable": false
       },
@@ -194,7 +194,7 @@
         "name": "Minecraft",
         "color": 5898495,
         "permissions": "1720707884502593",
-        "position": 9,
+        "position": 12,
         "hoist": false,
         "mentionable": false
       },
@@ -203,7 +203,7 @@
         "name": "Blockmango",
         "color": 15844367,
         "permissions": "1720707884371521",
-        "position": 5,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -212,11 +212,20 @@
         "name": "Co Owner",
         "color": 15277667,
         "permissions": "1721826619162615",
-        "position": 4,
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513184965976785069",
+        "name": "Piku",
+        "color": 15844367,
+        "permissions": "1721826619162615",
+        "position": 3,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1778784503132
+    "updated": 1783359813883
   }
 }

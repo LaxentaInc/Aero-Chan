@@ -1,20 +1,20 @@
 {
   "buttons": {
-    "restore_perms_716390085896962058": {
+    "restore_perms_646937666251915264": {
       "type": "restore_perms",
-      "targetId": "716390085896962058",
-      "memberId": "716390085896962058",
+      "targetId": "646937666251915264",
+      "memberId": "646937666251915264",
       "strippedPermissions": {
         "success": true,
         "strippedRoles": [
           {
-            "name": "Pokétwo",
-            "id": "1496376501455552677",
+            "name": "Karuta",
+            "id": "1505288153144102924",
             "permissions": [
-              "Administrator",
+              "CreateInstantInvite",
               "AddReactions",
+              "ViewChannel",
               "SendMessages",
-              "ManageMessages",
               "EmbedLinks",
               "AttachFiles",
               "ReadMessageHistory",
@@ -32,15 +32,15 @@
       "relatedMessages": [
         {
           "channelId": "1485127806508732446",
-          "messageId": "1496376511203246183"
+          "messageId": "1505288163554234552"
         },
         {
           "channelId": "1485125216018632864",
-          "messageId": "1496376514630123541"
+          "messageId": "1505288167404732596"
         }
       ],
-      "expiresAt": 1776920762799,
-      "createdAt": 1776834362799,
+      "expiresAt": 1779045465656,
+      "createdAt": 1778959065656,
       "module": "bot-protection"
     }
   }

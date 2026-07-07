@@ -1,0 +1,147 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1472770582461546497",
+        "name": "Información",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1472770582461546498",
+        "name": "bienvenida-y-reglas",
+        "type": 0,
+        "position": 0,
+        "parentId": "1472770582461546497"
+      },
+      {
+        "id": "1472770582461546499",
+        "name": "anuncios",
+        "type": 0,
+        "position": 1,
+        "parentId": "1472770582461546497"
+      },
+      {
+        "id": "1472770582461546500",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1472770582461546501",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1472770582461546500"
+      },
+      {
+        "id": "1472770582461546502",
+        "name": "eventos",
+        "type": 0,
+        "position": 1,
+        "parentId": "1472770582461546500"
+      },
+      {
+        "id": "1472770582461546503",
+        "name": "ideas-y-opiniones",
+        "type": 0,
+        "position": 2,
+        "parentId": "1472770582461546500"
+      },
+      {
+        "id": "1472770582461546504",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1472770582461546505",
+        "name": "Lounge",
+        "type": 2,
+        "position": 0,
+        "parentId": "1472770582461546504"
+      },
+      {
+        "id": "1472770582461546506",
+        "name": "Lugar de reunión de la comunidad",
+        "type": 2,
+        "position": 1,
+        "parentId": "1472770582461546504"
+      },
+      {
+        "id": "1472770582620672204",
+        "name": "Sala de transmisión",
+        "type": 2,
+        "position": 2,
+        "parentId": "1472770582461546504"
+      },
+      {
+        "id": "1483647401704161503",
+        "name": "uploads",
+        "type": 0,
+        "position": 3,
+        "parentId": "1472770582461546500"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1513783353722277918",
+        "name": "moderator",
+        "color": 0,
+        "permissions": "2248473465835073",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513783517744594954",
+        "name": "member",
+        "color": 0,
+        "permissions": "2248473465835073",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514478460804927593",
+        "name": "bots",
+        "color": 0,
+        "permissions": "2248473465835073",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514926308394532954",
+        "name": "bots",
+        "color": 0,
+        "permissions": "2248473465835073",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514926424337813555",
+        "name": "bots",
+        "color": 16711680,
+        "permissions": "2248473465835073",
+        "position": 6,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514927329892237332",
+        "name": "member",
+        "color": 16744685,
+        "permissions": "2248473465835073",
+        "position": 5,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783359813832
+  }
+}

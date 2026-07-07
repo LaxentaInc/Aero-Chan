@@ -19,8 +19,8 @@
         "id": "1503937602565443708",
         "name": "General",
         "type": 2,
-        "position": 0,
-        "parentId": null
+        "position": 1,
+        "parentId": "1503938720049533008"
       },
       {
         "id": "1503937974046560287",
@@ -82,8 +82,8 @@
         "id": "1503940414862917834",
         "name": "General 2",
         "type": 2,
-        "position": 1,
-        "parentId": null
+        "position": 2,
+        "parentId": "1503938720049533008"
       },
       {
         "id": "1503940519162806282",
@@ -454,6 +454,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1778784502994
+    "updated": 1783359813757
   }
 }

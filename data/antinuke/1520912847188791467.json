@@ -1,0 +1,492 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1520946562472349788",
+        "name": "🕊️-pigeon-chat",
+        "type": 0,
+        "position": 1,
+        "parentId": "1520946486278623343"
+      },
+      {
+        "id": "1520946984117076038",
+        "name": "Pigeon Category",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1520947631705161818",
+        "name": "UnstableRedefined shop",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1520947083312627862",
+        "name": "👑-pigeon-legends",
+        "type": 0,
+        "position": 3,
+        "parentId": "1520946984117076038"
+      },
+      {
+        "id": "1520947670376517702",
+        "name": "🔗-links",
+        "type": 0,
+        "position": 1,
+        "parentId": "1520947631705161818"
+      },
+      {
+        "id": "1520947642421608479",
+        "name": "📚-faq",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520947631705161818"
+      },
+      {
+        "id": "1520947058725617714",
+        "name": "🐦-pigeon-spotting",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520946984117076038"
+      },
+      {
+        "id": "1520912847981379674",
+        "name": "INFO",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1520947248878588104",
+        "name": "🎁-giveaways",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520947211830300745"
+      },
+      {
+        "id": "1520947211830300745",
+        "name": "Extra",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1520947709228482691",
+        "name": "🛒-shop",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520947631705161818"
+      },
+      {
+        "id": "1520946503361888510",
+        "name": "💬-general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520946486278623343"
+      },
+      {
+        "id": "1520946486278623343",
+        "name": "General",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1520947823967731773",
+        "name": "Support",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1520945691302690878",
+        "name": "Welcome to Pigeon Land!",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1520945339803111624",
+        "name": "🆘-support",
+        "type": 0,
+        "position": 3,
+        "parentId": "1520912847981379674"
+      },
+      {
+        "id": "1520947742803886100",
+        "name": "🎟️-tickets",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520947823967731773"
+      },
+      {
+        "id": "1520947025426776234",
+        "name": "🥖-pigeon-food",
+        "type": 0,
+        "position": 1,
+        "parentId": "1520946984117076038"
+      },
+      {
+        "id": "1520946994883858452",
+        "name": "🕊️-pigeon-talk",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520946984117076038"
+      },
+      {
+        "id": "1520947276657459320",
+        "name": "🧩-polls",
+        "type": 0,
+        "position": 1,
+        "parentId": "1520947211830300745"
+      },
+      {
+        "id": "1520945732369256448",
+        "name": "👋-welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520945691302690878"
+      },
+      {
+        "id": "1520948010685567146",
+        "name": "❓-how-to-join",
+        "type": 0,
+        "position": 1,
+        "parentId": "1520947823967731773"
+      },
+      {
+        "id": "1520946646819541193",
+        "name": "😂-memes",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520946486278623343"
+      },
+      {
+        "id": "1520945294823522456",
+        "name": "📌-server-info",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520912847981379674"
+      },
+      {
+        "id": "1520947510133264574",
+        "name": "🤖-bot-commands",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520947211830300745"
+      },
+      {
+        "id": "1520940616266154065",
+        "name": "📜•-rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520912847981379674"
+      },
+      {
+        "id": "1520945223029620816",
+        "name": "📢-announcements",
+        "type": 0,
+        "position": 1,
+        "parentId": "1520912847981379674"
+      },
+      {
+        "id": "1520940616266154068",
+        "name": "admin-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1520946797785120890",
+        "name": "🔗-server-ip",
+        "type": 0,
+        "position": 6,
+        "parentId": "1520912847981379674"
+      },
+      {
+        "id": "1520946734816297010",
+        "name": "📷-media",
+        "type": 0,
+        "position": 3,
+        "parentId": "1520946486278623343"
+      },
+      {
+        "id": "1520945365602406410",
+        "name": "🎉-events",
+        "type": 0,
+        "position": 4,
+        "parentId": "1520912847981379674"
+      },
+      {
+        "id": "1520946887136509982",
+        "name": "🧱-builds",
+        "type": 0,
+        "position": 4,
+        "parentId": "1520946486278623343"
+      },
+      {
+        "id": "1520945434514817235",
+        "name": "🧾-changelog",
+        "type": 0,
+        "position": 5,
+        "parentId": "1520912847981379674"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1520948487456555008",
+        "name": "Manager",
+        "color": 328965,
+        "permissions": "8",
+        "position": 38,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520957665214464000",
+        "name": "Golden Pigeon",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 26,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520956930871263344",
+        "name": "Supreme Pigeon",
+        "color": 2097409,
+        "permissions": "0",
+        "position": 29,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520958374164824216",
+        "name": "Elite Pigeon",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 20,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520957941669433364",
+        "name": "Ghost Pigeon",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 24,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520952195116302447",
+        "name": "Bot",
+        "color": 2949631,
+        "permissions": "8",
+        "position": 31,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520958769008214176",
+        "name": "Young Pigeon",
+        "color": 16170686,
+        "permissions": "0",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520950565817946132",
+        "name": "Helper",
+        "color": 12745742,
+        "permissions": "1374389603328",
+        "position": 34,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520958934175973446",
+        "name": "Egg Pigeon",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520957352256213064",
+        "name": "Legendary Pigeon",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 28,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520958512614735952",
+        "name": "Trusted Pigeon",
+        "color": 16440669,
+        "permissions": "0",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520958625051578479",
+        "name": "Friendly Pigeon",
+        "color": 9163263,
+        "permissions": "0",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520958212134666381",
+        "name": "Active Pigeon",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 21,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520952352310562927",
+        "name": "Content Creator",
+        "color": 10684913,
+        "permissions": "274877910272",
+        "position": 30,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520948988642201691",
+        "name": "Sr Mod",
+        "color": 215328,
+        "permissions": "18717601898630",
+        "position": 37,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520949685269827606",
+        "name": "Jr Mod",
+        "color": 3204106,
+        "permissions": "1374389611648",
+        "position": 35,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520950039764144169",
+        "name": "Mod",
+        "color": 8447102,
+        "permissions": "1099650048134",
+        "position": 36,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520957591541387545",
+        "name": "Diamond Pigeon",
+        "color": 297442,
+        "permissions": "0",
+        "position": 27,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520951607666151464",
+        "name": "Event Manager",
+        "color": 2687224,
+        "permissions": "580825607326720",
+        "position": 32,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520958767691468951",
+        "name": "Pigeon",
+        "color": 8791365,
+        "permissions": "0",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520957677654511708",
+        "name": "Veteran Pigeon",
+        "color": 7995245,
+        "permissions": "0",
+        "position": 25,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520958043351679006",
+        "name": "Chill Pigeon",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 23,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520958622467625051",
+        "name": "Loyal Pigeon",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 18,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520948404249690202",
+        "name": "Admin",
+        "color": 10031891,
+        "permissions": "8",
+        "position": 39,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520951170129068052",
+        "name": "Support Team",
+        "color": 14081280,
+        "permissions": "274877991936",
+        "position": 33,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520948122711359568",
+        "name": "Pigeon | Owner",
+        "color": 16711680,
+        "permissions": "8",
+        "position": 40,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520958927473479812",
+        "name": "Hatchling Pigeon",
+        "color": 530436,
+        "permissions": "0",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520958137501487257",
+        "name": "Fire Pigeon",
+        "color": 16729119,
+        "permissions": "0",
+        "position": 22,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783359813706
+  }
+}

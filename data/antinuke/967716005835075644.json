@@ -58,6 +58,13 @@
         "parentId": "1115563919763832852"
       },
       {
+        "id": "1513990770141565058",
+        "name": "friends-table",
+        "type": 0,
+        "position": 5,
+        "parentId": "1328670054132482109"
+      },
+      {
         "id": "1330796779641245790",
         "name": "no-restriction-ch",
         "type": 0,
@@ -302,7 +309,7 @@
         "name": "Security",
         "color": 0,
         "permissions": "8",
-        "position": 80,
+        "position": 81,
         "hoist": false,
         "mentionable": false
       },
@@ -311,16 +318,25 @@
         "name": "〲⚒  Sr.Mod",
         "color": 15105570,
         "permissions": "4504708870319232",
-        "position": 75,
+        "position": 76,
         "hoist": true,
         "mentionable": false
+      },
+      {
+        "id": "1519763074259620090",
+        "name": "the broiled ones",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 68,
+        "hoist": true,
+        "mentionable": true
       },
       {
         "id": "1111218461780234300",
         "name": "〲⚒ Adminstrator",
         "color": 61180,
         "permissions": "8582783202425838",
-        "position": 76,
+        "position": 77,
         "hoist": true,
         "mentionable": true
       },
@@ -365,7 +381,7 @@
         "name": "🦋 Dᴇᴀʀ Fʀɪᴇɴᴅ〲",
         "color": 1988563,
         "permissions": "0",
-        "position": 69,
+        "position": 70,
         "hoist": true,
         "mentionable": false
       },
@@ -392,7 +408,7 @@
         "name": "〲⚒  Helper",
         "color": 3447003,
         "permissions": "1099515953216",
-        "position": 73,
+        "position": 74,
         "hoist": true,
         "mentionable": false
       },
@@ -401,7 +417,7 @@
         "name": "VIP",
         "color": 47871,
         "permissions": "0",
-        "position": 71,
+        "position": 72,
         "hoist": true,
         "mentionable": false
       },
@@ -473,7 +489,7 @@
         "name": "〲⚒ Developer",
         "color": 31743,
         "permissions": "448891488320",
-        "position": 77,
+        "position": 78,
         "hoist": true,
         "mentionable": false
       },
@@ -482,7 +498,7 @@
         "name": "〲⚒  Trainee",
         "color": 1752220,
         "permissions": "0",
-        "position": 72,
+        "position": 73,
         "hoist": true,
         "mentionable": false
       },
@@ -527,7 +543,7 @@
         "name": "Manager",
         "color": 10250739,
         "permissions": "8",
-        "position": 78,
+        "position": 79,
         "hoist": true,
         "mentionable": false
       },
@@ -599,7 +615,7 @@
         "name": "〲⚒ Moderator",
         "color": 2752510,
         "permissions": "6814762465229761",
-        "position": 74,
+        "position": 75,
         "hoist": true,
         "mentionable": true
       },
@@ -617,7 +633,7 @@
         "name": "✰*Partners 〲✰*",
         "color": 3456731,
         "permissions": "6892820396109633",
-        "position": 70,
+        "position": 71,
         "hoist": true,
         "mentionable": false
       },
@@ -644,7 +660,7 @@
         "name": "〲Owner  ⛅ـﮩ",
         "color": 555744,
         "permissions": "7175412882865097",
-        "position": 79,
+        "position": 80,
         "hoist": true,
         "mentionable": true
       },
@@ -653,7 +669,7 @@
         "name": "Youtuber",
         "color": 16319235,
         "permissions": "0",
-        "position": 68,
+        "position": 69,
         "hoist": true,
         "mentionable": false
       },
@@ -685,6 +701,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1778784503087
+    "updated": 1783359813837
   }
 }
