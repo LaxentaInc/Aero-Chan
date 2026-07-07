@@ -177,13 +177,6 @@
         "parentId": null
       },
       {
-        "id": "1258648635730825267",
-        "name": "💎｜Subscribers VC 🔒",
-        "type": 2,
-        "position": 1,
-        "parentId": "1115563919763832852"
-      },
-      {
         "id": "1462814460056965355",
         "name": "aero-alerts",
         "type": 0,
@@ -701,6 +694,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1783444258761
+    "updated": 1783445122075
   }
 }

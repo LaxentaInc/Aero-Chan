@@ -120,10 +120,11 @@ export default {
       // Build the categories object based solely on prefix folders
       const categories = {};
       for (const folder of commandFolders) {
-        const commandFiles = fs.readdirSync(path.join(prefixFolderPath, folder)).filter((file: any) => file.endsWith(".js"));
+        const commandFiles = fs.readdirSync(path.join(prefixFolderPath, folder)).filter((file: any) => file.endsWith(".js") || file.endsWith(".ts"));
         const cmds = commandFiles.map((file: any) => {
           try {
-            const command = require(path.join(prefixFolderPath, folder, file));
+            const rawCommand = require(path.join(prefixFolderPath, folder, file));
+            const command = rawCommand.default || rawCommand;
             return {
               name: command.name,
               description: command.description

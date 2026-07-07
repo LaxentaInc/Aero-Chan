@@ -19,7 +19,7 @@
         "id": "1524094764666978355",
         "name": "Speed Dating Table 2",
         "type": 2,
-        "position": 9,
+        "position": 8,
         "parentId": "1514876958272393227"
       },
       {
@@ -47,7 +47,7 @@
         "id": "1524094908024094790",
         "name": "Speed Dating Table 3",
         "type": 2,
-        "position": 10,
+        "position": 9,
         "parentId": "1514876958272393227"
       },
       {
@@ -82,14 +82,14 @@
         "id": "1524093495676108970",
         "name": "Need Company",
         "type": 2,
-        "position": 6,
+        "position": 5,
         "parentId": "1514876958272393227"
       },
       {
         "id": "1524094701110563086",
         "name": "Speed Dating Table 1",
         "type": 2,
-        "position": 8,
+        "position": 7,
         "parentId": "1514876958272393227"
       },
       {
@@ -182,13 +182,6 @@
         "type": 0,
         "position": 1,
         "parentId": "1522031720814088252"
-      },
-      {
-        "id": "1522421126876233779",
-        "name": "music request 3",
-        "type": 2,
-        "position": 5,
-        "parentId": "1514876958272393227"
       },
       {
         "id": "1522028652693426306",
@@ -327,7 +320,7 @@
         "id": "1524093725222113540",
         "name": "Looking for a partner/friend",
         "type": 2,
-        "position": 7,
+        "position": 6,
         "parentId": "1514876958272393227"
       },
       {
@@ -720,6 +713,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1783444258525
+    "updated": 1783445121885
   }
 }
