@@ -1,7 +1,36 @@
 {
   "backup": {
-    "channels": [],
+    "channels": [
+      {
+        "id": "1521339897498046524",
+        "name": "🍓cнαт",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1521339897498046526",
+        "name": "geral",
+        "type": 0,
+        "position": 0,
+        "parentId": "1521339897498046524"
+      },
+      {
+        "id": "1521339897498046527",
+        "name": "🎵𝘷𝘰𝘻",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1521565112819777748",
+        "name": "🍒cσмαη∂σs",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      }
+    ],
     "roles": [],
-    "updated": 1783441396266
+    "updated": 1783442103692
   }
 }

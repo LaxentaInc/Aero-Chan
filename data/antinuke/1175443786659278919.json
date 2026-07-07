@@ -58,6 +58,13 @@
         "parentId": null
       },
       {
+        "id": "1524090360932859995",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 8,
+        "parentId": null
+      },
+      {
         "id": "1289570051212705853",
         "name": "▭-Re/stream",
         "type": 2,
@@ -251,7 +258,7 @@
         "name": "Участник",
         "color": 5766912,
         "permissions": "2573235270131200",
-        "position": 13,
+        "position": 14,
         "hoist": true,
         "mentionable": false
       },
@@ -260,7 +267,7 @@
         "name": "Помощь",
         "color": 1752220,
         "permissions": "0",
-        "position": 17,
+        "position": 18,
         "hoist": false,
         "mentionable": false
       },
@@ -269,7 +276,7 @@
         "name": "Спасибо",
         "color": 15844367,
         "permissions": "0",
-        "position": 18,
+        "position": 19,
         "hoist": false,
         "mentionable": false
       },
@@ -278,7 +285,7 @@
         "name": "Админ",
         "color": 15105570,
         "permissions": "32976758374391",
-        "position": 16,
+        "position": 17,
         "hoist": true,
         "mentionable": false
       },
@@ -287,7 +294,7 @@
         "name": "Модератор",
         "color": 15844367,
         "permissions": "32957699452871",
-        "position": 15,
+        "position": 16,
         "hoist": true,
         "mentionable": false
       },
@@ -296,7 +303,7 @@
         "name": "Команда основателей",
         "color": 16737792,
         "permissions": "8",
-        "position": 20,
+        "position": 21,
         "hoist": true,
         "mentionable": false
       },
@@ -305,7 +312,7 @@
         "name": "Игры",
         "color": 13041408,
         "permissions": "0",
-        "position": 14,
+        "position": 15,
         "hoist": true,
         "mentionable": false
       },
@@ -314,7 +321,7 @@
         "name": "Узнал из партнерства",
         "color": 0,
         "permissions": "0",
-        "position": 9,
+        "position": 10,
         "hoist": false,
         "mentionable": false
       },
@@ -323,7 +330,7 @@
         "name": "Узнал с сайтов",
         "color": 0,
         "permissions": "0",
-        "position": 8,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -332,7 +339,7 @@
         "name": "Узнал из ютуба",
         "color": 0,
         "permissions": "0",
-        "position": 7,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -341,7 +348,7 @@
         "name": "Мемасня",
         "color": 15844367,
         "permissions": "0",
-        "position": 11,
+        "position": 12,
         "hoist": false,
         "mentionable": false
       },
@@ -350,7 +357,7 @@
         "name": "Конфликт",
         "color": 15158332,
         "permissions": "0",
-        "position": 12,
+        "position": 13,
         "hoist": false,
         "mentionable": false
       },
@@ -359,7 +366,7 @@
         "name": "Сибирянин",
         "color": 5533306,
         "permissions": "0",
-        "position": 6,
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -368,7 +375,7 @@
         "name": "Узнал из профиля",
         "color": 0,
         "permissions": "0",
-        "position": 10,
+        "position": 11,
         "hoist": false,
         "mentionable": false
       },
@@ -377,7 +384,7 @@
         "name": "новая роль",
         "color": 0,
         "permissions": "0",
-        "position": 2,
+        "position": 3,
         "hoist": false,
         "mentionable": false
       },
@@ -386,11 +393,20 @@
         "name": "новая роль",
         "color": 0,
         "permissions": "0",
-        "position": 1,
+        "position": 2,
         "hoist": false,
         "mentionable": false
+      },
+      {
+        "id": "1524090351433027875",
+        "name": "🌿 New Member",
+        "color": 1752220,
+        "permissions": "8",
+        "position": 1,
+        "hoist": false,
+        "mentionable": true
       }
     ],
-    "updated": 1783441396249
+    "updated": 1783442103665
   }
 }

@@ -44,9 +44,6 @@ class AntiPermissionAbuse {
       permissionFailures: 0
     };
 
-    // Intervals
-    this.syncInterval = null;
-    this.cleanupInterval = null;
     this.init();
   }
   async init() {

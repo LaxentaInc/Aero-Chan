@@ -1,7 +1,1250 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1783441396159
+    "channels": [
+      {
+        "id": "1502506330022219896",
+        "name": "song-sharing",
+        "type": 0,
+        "position": 1,
+        "parentId": "1502506115940749372"
+      },
+      {
+        "id": "1508382168668176456",
+        "name": "the-quiet-chats-aka-private",
+        "type": 0,
+        "position": 1,
+        "parentId": "1508381221711773716"
+      },
+      {
+        "id": "1502488688096051246",
+        "name": "Chaos VC",
+        "type": 2,
+        "position": 1,
+        "parentId": "1502488688096051244"
+      },
+      {
+        "id": "1514420037551652925",
+        "name": "looking-for-group",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514419789433667614"
+      },
+      {
+        "id": "1517991265508003860",
+        "name": "other-groups",
+        "type": 0,
+        "position": 8,
+        "parentId": "1502497938289459281"
+      },
+      {
+        "id": "1518865433720127548",
+        "name": "jsab-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1518865244439449690"
+      },
+      {
+        "id": "1518863936370249849",
+        "name": "beat-saber-clips",
+        "type": 0,
+        "position": 2,
+        "parentId": "1518861801624830002"
+      },
+      {
+        "id": "1508381221711773716",
+        "name": "🌈 FRAGMEANT ZONE",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1514421021359210586",
+        "name": "reactions-and-moments",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514420638515990610"
+      },
+      {
+        "id": "1508381990691274862",
+        "name": "the-fragmented-deck",
+        "type": 0,
+        "position": 0,
+        "parentId": "1508381221711773716"
+      },
+      {
+        "id": "1502508037708189717",
+        "name": "absolutely-losing-it",
+        "type": 0,
+        "position": 5,
+        "parentId": "1502507785106231341"
+      },
+      {
+        "id": "1502505830828736694",
+        "name": "world-sharing",
+        "type": 0,
+        "position": 1,
+        "parentId": "1502505593423003809"
+      },
+      {
+        "id": "1508384808684883988",
+        "name": "Fragments VC",
+        "type": 2,
+        "position": 0,
+        "parentId": "1508381221711773716"
+      },
+      {
+        "id": "1518871383747203163",
+        "name": "faq",
+        "type": 15,
+        "position": 5,
+        "parentId": "1502497938289459281"
+      },
+      {
+        "id": "1508382270543761510",
+        "name": "the-card-in-control",
+        "type": 0,
+        "position": 2,
+        "parentId": "1508381221711773716"
+      },
+      {
+        "id": "1502771289318883610",
+        "name": "oc-art",
+        "type": 15,
+        "position": 1,
+        "parentId": "1502506729684865115"
+      },
+      {
+        "id": "1502498305551372438",
+        "name": "announcements",
+        "type": 0,
+        "position": 2,
+        "parentId": "1502497938289459281"
+      },
+      {
+        "id": "1502505885740695563",
+        "name": "avatar-sharing",
+        "type": 0,
+        "position": 2,
+        "parentId": "1502505593423003809"
+      },
+      {
+        "id": "1514421495324213471",
+        "name": "sleep-deprived-core",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514421314847379536"
+      },
+      {
+        "id": "1502497938289459281",
+        "name": "📌 INFO CATEGORY",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1518863551631196261",
+        "name": "clips-and-screenshots",
+        "type": 0,
+        "position": 3,
+        "parentId": "1518861771987746816"
+      },
+      {
+        "id": "1502551032327045130",
+        "name": "YouTube VC",
+        "type": 2,
+        "position": 8,
+        "parentId": "1502488688096051244"
+      },
+      {
+        "id": "1518863863276113950",
+        "name": "lfg-beat-saber",
+        "type": 0,
+        "position": 1,
+        "parentId": "1518861801624830002"
+      },
+      {
+        "id": "1502498247082639511",
+        "name": "rules",
+        "type": 0,
+        "position": 1,
+        "parentId": "1502497938289459281"
+      },
+      {
+        "id": "1514742678502248529",
+        "name": "quotes",
+        "type": 0,
+        "position": 6,
+        "parentId": "1502488688096051240"
+      },
+      {
+        "id": "1514421469554151524",
+        "name": "night-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514421314847379536"
+      },
+      {
+        "id": "1502507958960128090",
+        "name": "goober-central",
+        "type": 0,
+        "position": 3,
+        "parentId": "1502507785106231341"
+      },
+      {
+        "id": "1523211175037243552",
+        "name": "ROLEPLAY!!!",
+        "type": 4,
+        "position": 17,
+        "parentId": null
+      },
+      {
+        "id": "1514421314847379536",
+        "name": "🌙 NIGHT ZONE",
+        "type": 4,
+        "position": 11,
+        "parentId": null
+      },
+      {
+        "id": "1514421542023331891",
+        "name": "3am-thoughts",
+        "type": 0,
+        "position": 2,
+        "parentId": "1514421314847379536"
+      },
+      {
+        "id": "1518861801624830002",
+        "name": "🎵 Beat Saber",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1502507135479713852",
+        "name": "server-suggestions",
+        "type": 15,
+        "position": 5,
+        "parentId": "1502506729684865115"
+      },
+      {
+        "id": "1502509738728882327",
+        "name": "staff-log",
+        "type": 0,
+        "position": 1,
+        "parentId": "1502508407087956109"
+      },
+      {
+        "id": "1502506115940749372",
+        "name": "🎶 VIBS",
+        "type": 4,
+        "position": 10,
+        "parentId": null
+      },
+      {
+        "id": "1518862830802178209",
+        "name": "lfg-gorilla-tag",
+        "type": 0,
+        "position": 1,
+        "parentId": "1518861713112301588"
+      },
+      {
+        "id": "1502507444398460949",
+        "name": "Sleepy VC",
+        "type": 2,
+        "position": 5,
+        "parentId": "1502488688096051244"
+      },
+      {
+        "id": "1523213138827153409",
+        "name": "rp-suggestions",
+        "type": 15,
+        "position": 0,
+        "parentId": "1523211175037243552"
+      },
+      {
+        "id": "1502488688096051241",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1502488688096051240"
+      },
+      {
+        "id": "1502509677827588187",
+        "name": "staff-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1502508407087956109"
+      },
+      {
+        "id": "1502507057591615628",
+        "name": "edits",
+        "type": 15,
+        "position": 2,
+        "parentId": "1502506729684865115"
+      },
+      {
+        "id": "1502506607437807706",
+        "name": "shitposting",
+        "type": 0,
+        "position": 2,
+        "parentId": "1502506444703010847"
+      },
+      {
+        "id": "1502506444703010847",
+        "name": "🤪 GOOBER ZONE",
+        "type": 4,
+        "position": 14,
+        "parentId": null
+      },
+      {
+        "id": "1514420276375322684",
+        "name": "game-recommendations",
+        "type": 0,
+        "position": 3,
+        "parentId": "1514419789433667614"
+      },
+      {
+        "id": "1502506862904610917",
+        "name": "art",
+        "type": 15,
+        "position": 0,
+        "parentId": "1502506729684865115"
+      },
+      {
+        "id": "1502771603455610980",
+        "name": "update-logs",
+        "type": 0,
+        "position": 4,
+        "parentId": "1502497938289459281"
+      },
+      {
+        "id": "1515340308718813225",
+        "name": "bot-testing",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1502506526894457032",
+        "name": "chaos",
+        "type": 0,
+        "position": 0,
+        "parentId": "1502506444703010847"
+      },
+      {
+        "id": "1518865244439449690",
+        "name": "🎧 Just Shapes & Beats (JSAB)",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1502507397984555068",
+        "name": "VRChat VC",
+        "type": 2,
+        "position": 4,
+        "parentId": "1502488688096051244"
+      },
+      {
+        "id": "1518865478167298209",
+        "name": "jsab-lfg",
+        "type": 0,
+        "position": 1,
+        "parentId": "1518865244439449690"
+      },
+      {
+        "id": "1518862902038106142",
+        "name": "clips-and-screenshots",
+        "type": 0,
+        "position": 2,
+        "parentId": "1518861713112301588"
+      },
+      {
+        "id": "1518864090314047658",
+        "name": "tips-and-help",
+        "type": 0,
+        "position": 5,
+        "parentId": "1518861801624830002"
+      },
+      {
+        "id": "1518861771987746816",
+        "name": "🚗 Yeeps",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1514421910102872094",
+        "name": "3AM VC",
+        "type": 2,
+        "position": 11,
+        "parentId": "1502488688096051244"
+      },
+      {
+        "id": "1518864042481946644",
+        "name": "scores-and-challenges",
+        "type": 0,
+        "position": 4,
+        "parentId": "1518861801624830002"
+      },
+      {
+        "id": "1502508001691566181",
+        "name": "sleep-deprived",
+        "type": 0,
+        "position": 4,
+        "parentId": "1502507785106231341"
+      },
+      {
+        "id": "1518863388757856426",
+        "name": "yeeps-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1518861771987746816"
+      },
+      {
+        "id": "1518863448438476860",
+        "name": "lfg-yeeps",
+        "type": 0,
+        "position": 1,
+        "parentId": "1518861771987746816"
+      },
+      {
+        "id": "1502498345396998166",
+        "name": "roles",
+        "type": 0,
+        "position": 3,
+        "parentId": "1502497938289459281"
+      },
+      {
+        "id": "1502509421245370621",
+        "name": "Fish VC",
+        "type": 2,
+        "position": 7,
+        "parentId": "1502488688096051244"
+      },
+      {
+        "id": "1502506019585265724",
+        "name": "funny-vr-moments",
+        "type": 0,
+        "position": 5,
+        "parentId": "1502505593423003809"
+      },
+      {
+        "id": "1502507920439644240",
+        "name": "vibing-zone",
+        "type": 0,
+        "position": 2,
+        "parentId": "1502507785106231341"
+      },
+      {
+        "id": "1502507785106231341",
+        "name": "🎉 EXTRA FUN CHANNELS",
+        "type": 4,
+        "position": 16,
+        "parentId": null
+      },
+      {
+        "id": "1514419875047801013",
+        "name": "gaming-general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514419789433667614"
+      },
+      {
+        "id": "1502506370052784180",
+        "name": "spotify-links",
+        "type": 0,
+        "position": 2,
+        "parentId": "1502506115940749372"
+      },
+      {
+        "id": "1518861713112301588",
+        "name": "🦍 Gorilla Tag",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1502505973867090021",
+        "name": "looking-for-group",
+        "type": 0,
+        "position": 4,
+        "parentId": "1502505593423003809"
+      },
+      {
+        "id": "1502772669849010288",
+        "name": "art-suggestions",
+        "type": 15,
+        "position": 4,
+        "parentId": "1502506729684865115"
+      },
+      {
+        "id": "1502488688096051245",
+        "name": "Chill VC",
+        "type": 2,
+        "position": 0,
+        "parentId": "1502488688096051244"
+      },
+      {
+        "id": "1502507882439245916",
+        "name": "bonkers-chat",
+        "type": 0,
+        "position": 1,
+        "parentId": "1502507785106231341"
+      },
+      {
+        "id": "1503096010048798830",
+        "name": "Late Night VC",
+        "type": 2,
+        "position": 10,
+        "parentId": "1502488688096051244"
+      },
+      {
+        "id": "1502507083054972948",
+        "name": "clips",
+        "type": 15,
+        "position": 3,
+        "parentId": "1502506729684865115"
+      },
+      {
+        "id": "1518862777316278272",
+        "name": "gorilla-tag-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1518861713112301588"
+      },
+      {
+        "id": "1518863490033516654",
+        "name": "builds-and-creations",
+        "type": 0,
+        "position": 2,
+        "parentId": "1518861771987746816"
+      },
+      {
+        "id": "1502505927582945320",
+        "name": "vr-photos",
+        "type": 0,
+        "position": 3,
+        "parentId": "1502505593423003809"
+      },
+      {
+        "id": "1502505765007659078",
+        "name": "vrchat-general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1502505593423003809"
+      },
+      {
+        "id": "1502505107617742948",
+        "name": "late-night-chat",
+        "type": 0,
+        "position": 2,
+        "parentId": "1502488688096051240"
+      },
+      {
+        "id": "1514420638515990610",
+        "name": "📸 MEDIA / FUN EXPANSION",
+        "type": 4,
+        "position": 12,
+        "parentId": null
+      },
+      {
+        "id": "1518863984869118013",
+        "name": "custom-levels",
+        "type": 0,
+        "position": 3,
+        "parentId": "1518861801624830002"
+      },
+      {
+        "id": "1518865833575579668",
+        "name": "jsab-music",
+        "type": 0,
+        "position": 5,
+        "parentId": "1518865244439449690"
+      },
+      {
+        "id": "1514420166988009552",
+        "name": "clips-and-highlights",
+        "type": 0,
+        "position": 2,
+        "parentId": "1514419789433667614"
+      },
+      {
+        "id": "1516554697694249090",
+        "name": "medic-spam",
+        "type": 0,
+        "position": 4,
+        "parentId": "1514419789433667614"
+      },
+      {
+        "id": "1518865517039980555",
+        "name": "jsab-media",
+        "type": 0,
+        "position": 2,
+        "parentId": "1518865244439449690"
+      },
+      {
+        "id": "1502508407087956109",
+        "name": "🛡️ TRUSTED ZONE",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1502506729684865115",
+        "name": "🎨 CREATIVE",
+        "type": 4,
+        "position": 13,
+        "parentId": null
+      },
+      {
+        "id": "1518862939765870645",
+        "name": "maps-and-secrets",
+        "type": 0,
+        "position": 3,
+        "parentId": "1518861713112301588"
+      },
+      {
+        "id": "1514421040854335499",
+        "name": "voice-chat-highlights",
+        "type": 0,
+        "position": 2,
+        "parentId": "1514420638515990610"
+      },
+      {
+        "id": "1514420990581411931",
+        "name": "funny-clips",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514420638515990610"
+      },
+      {
+        "id": "1518863817239429170",
+        "name": "beat-saber-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1518861801624830002"
+      },
+      {
+        "id": "1502505270641692873",
+        "name": "random",
+        "type": 0,
+        "position": 1,
+        "parentId": "1502488688096051240"
+      },
+      {
+        "id": "1502509826041839626",
+        "name": "trusted-goobers",
+        "type": 0,
+        "position": 2,
+        "parentId": "1502508407087956109"
+      },
+      {
+        "id": "1518865790114332854",
+        "name": "jsab-tips",
+        "type": 0,
+        "position": 4,
+        "parentId": "1518865244439449690"
+      },
+      {
+        "id": "1502498108787916860",
+        "name": "welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1502497938289459281"
+      },
+      {
+        "id": "1502507834821185638",
+        "name": "the-void",
+        "type": 0,
+        "position": 0,
+        "parentId": "1502507785106231341"
+      },
+      {
+        "id": "1502507492737810452",
+        "name": "Music VC",
+        "type": 2,
+        "position": 6,
+        "parentId": "1502488688096051244"
+      },
+      {
+        "id": "1502704277209223318",
+        "name": "Drawing VC",
+        "type": 2,
+        "position": 9,
+        "parentId": "1502488688096051244"
+      },
+      {
+        "id": "1502488688096051244",
+        "name": "🔊 VOICE CHANNELS",
+        "type": 4,
+        "position": 15,
+        "parentId": null
+      },
+      {
+        "id": "1507116846908706836",
+        "name": "Gaming VC",
+        "type": 2,
+        "position": 3,
+        "parentId": "1502488688096051244"
+      },
+      {
+        "id": "1502506652388298832",
+        "name": "out-of-context",
+        "type": 0,
+        "position": 3,
+        "parentId": "1502506444703010847"
+      },
+      {
+        "id": "1508342222775652382",
+        "name": "bot-commands",
+        "type": 0,
+        "position": 6,
+        "parentId": "1502497938289459281"
+      },
+      {
+        "id": "1523212896665079838",
+        "name": "Roleplay VC",
+        "type": 2,
+        "position": 0,
+        "parentId": "1523211175037243552"
+      },
+      {
+        "id": "1518871134622322800",
+        "name": "introduce-yourself",
+        "type": 15,
+        "position": 7,
+        "parentId": "1502497938289459281"
+      },
+      {
+        "id": "1502505593423003809",
+        "name": "🥽 VRCHAT",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1523212530804195378",
+        "name": "roleplay-gen",
+        "type": 0,
+        "position": 1,
+        "parentId": "1523211175037243552"
+      },
+      {
+        "id": "1502505380947824753",
+        "name": "media-sharing",
+        "type": 0,
+        "position": 4,
+        "parentId": "1502488688096051240"
+      },
+      {
+        "id": "1502505432420319363",
+        "name": "question-of-the-day",
+        "type": 0,
+        "position": 3,
+        "parentId": "1502488688096051240"
+      },
+      {
+        "id": "1514421976960204953",
+        "name": "Party VC",
+        "type": 2,
+        "position": 2,
+        "parentId": "1502488688096051244"
+      },
+      {
+        "id": "1518865622438510703",
+        "name": "jsab-levels-and-achievements",
+        "type": 0,
+        "position": 3,
+        "parentId": "1518865244439449690"
+      },
+      {
+        "id": "1502488688096051240",
+        "name": "💬 HANGOUT",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1502505328153989302",
+        "name": "memes",
+        "type": 0,
+        "position": 5,
+        "parentId": "1502488688096051240"
+      },
+      {
+        "id": "1514419789433667614",
+        "name": "🎮 Gaming",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1502506567398850590",
+        "name": "cursed-images",
+        "type": 0,
+        "position": 1,
+        "parentId": "1502506444703010847"
+      },
+      {
+        "id": "1502506239332978778",
+        "name": "music",
+        "type": 0,
+        "position": 0,
+        "parentId": "1502506115940749372"
+      },
+      {
+        "id": "1518119662754463865",
+        "name": "Guess i gotta do ts",
+        "type": 11,
+        "parentId": "1502498305551372438"
+      },
+      {
+        "id": "1518120098160709684",
+        "name": "I made #Medic-spam",
+        "type": 11,
+        "parentId": "1502498305551372438"
+      },
+      {
+        "id": "1516166742383005919",
+        "name": "Recent art I made",
+        "type": 11,
+        "parentId": "1502506862904610917"
+      },
+      {
+        "id": "1516683025029795913",
+        "name": "Professor Beak :D",
+        "type": 11,
+        "parentId": "1502506862904610917"
+      },
+      {
+        "id": "1518131942631932004",
+        "name": "MoonBot",
+        "type": 11,
+        "parentId": "1502506862904610917"
+      },
+      {
+        "id": "1518842199712858182",
+        "name": "this is awkward",
+        "type": 11,
+        "parentId": "1502506862904610917"
+      },
+      {
+        "id": "1502508507382022224",
+        "name": "fish channel",
+        "type": 11,
+        "parentId": "1502507135479713852"
+      },
+      {
+        "id": "1502526210100432908",
+        "name": "Role iders",
+        "type": 11,
+        "parentId": "1502507135479713852"
+      },
+      {
+        "id": "1502526504754745464",
+        "name": "Give me custom role idk",
+        "type": 11,
+        "parentId": "1502507135479713852"
+      },
+      {
+        "id": "1502552501008994344",
+        "name": "A drawing VC to stream art lapses or active drawings?",
+        "type": 11,
+        "parentId": "1502507135479713852"
+      },
+      {
+        "id": "1502766078634364968",
+        "name": "Late Night Gaming/Specials",
+        "type": 11,
+        "parentId": "1502507135479713852"
+      },
+      {
+        "id": "1502788600188637295",
+        "name": "oh ok",
+        "type": 11,
+        "parentId": "1502507135479713852"
+      },
+      {
+        "id": "1503234828496146462",
+        "name": "Basic gaming vc",
+        "type": 11,
+        "parentId": "1502507135479713852"
+      },
+      {
+        "id": "1518073010232233994",
+        "name": "Yes",
+        "type": 11,
+        "parentId": "1502507135479713852"
+      },
+      {
+        "id": "1517518356893274163",
+        "name": "Asuril",
+        "type": 11,
+        "parentId": "1502771289318883610"
+      },
+      {
+        "id": "1519211470171406397",
+        "name": "Celestine — In a AU.",
+        "type": 11,
+        "parentId": "1502771289318883610"
+      },
+      {
+        "id": "1518892744548810872",
+        "name": "WLGF'S ID",
+        "type": 11,
+        "parentId": "1518871134622322800"
+      },
+      {
+        "id": "1518897372221018213",
+        "name": "M00NB0T's information",
+        "type": 11,
+        "parentId": "1518871134622322800"
+      },
+      {
+        "id": "1518902182219354162",
+        "name": "Introduction — DuckieMcQuack21",
+        "type": 11,
+        "parentId": "1518871134622322800"
+      },
+      {
+        "id": "1518912292815769740",
+        "name": "No",
+        "type": 11,
+        "parentId": "1518871134622322800"
+      },
+      {
+        "id": "1519430043271434310",
+        "name": "Spectra Octis Canon",
+        "type": 11,
+        "parentId": "1518871134622322800"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1514397113243402301",
+        "name": "Meme Dealer",
+        "color": 8257280,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1518883352608903168",
+        "name": "Photography",
+        "color": 5103798,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1518882411147034735",
+        "name": "Beat Saber",
+        "color": 5100287,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1502515593121890415",
+        "name": "Neon Blue",
+        "color": 49151,
+        "permissions": "0",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1518882533855461456",
+        "name": "Yeeps",
+        "color": 8191851,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1518883110564008047",
+        "name": "Animator",
+        "color": 16758861,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1502523883314614323",
+        "name": "Trusted",
+        "color": 3908956,
+        "permissions": "1720707884371521",
+        "position": 36,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1515200810051702855",
+        "name": "Daveling Elite",
+        "color": 14483456,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1502514872397860864",
+        "name": "Void Purple",
+        "color": 6950317,
+        "permissions": "0",
+        "position": 20,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1503857277759651922",
+        "name": "Big Alpha",
+        "color": 2818819,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1502516211676876930",
+        "name": "Sleepy Gray",
+        "color": 11579568,
+        "permissions": "0",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514386319545995386",
+        "name": "Flareling Elite",
+        "color": 12726834,
+        "permissions": "1720707884371521",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1505007973183787018",
+        "name": "Socially Awkward Shark Girl",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1502515847300780063",
+        "name": "Chaos Red",
+        "color": 16724273,
+        "permissions": "0",
+        "position": 18,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514395267225358427",
+        "name": "Voice Chat Dweller",
+        "color": 6139362,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1518882850714423316",
+        "name": "Artist",
+        "color": 16751317,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514383992386748427",
+        "name": "GÆ",
+        "color": 15418782,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1503955649170636821",
+        "name": "Top Tier Shiter",
+        "color": 39935,
+        "permissions": "0",
+        "position": 22,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1508341083426390016",
+        "name": "Bots",
+        "color": 14127347,
+        "permissions": "0",
+        "position": 35,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514395976373375107",
+        "name": "Lurker",
+        "color": 8359053,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1502522456903123054",
+        "name": "Staff",
+        "color": 3103400,
+        "permissions": "1721807559716807",
+        "position": 38,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1507218858702934147",
+        "name": "Alts",
+        "color": 12611893,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1508378279730614282",
+        "name": "Top Tier Goober",
+        "color": 13841016,
+        "permissions": "8864262743130111",
+        "position": 39,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1518883572386234419",
+        "name": "Cosplayer",
+        "color": 13073919,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514398030856454247",
+        "name": "Certified Silly",
+        "color": 16774223,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1518698630943608892",
+        "name": "Fish",
+        "color": 13172991,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514397818033406003",
+        "name": "Chaos Gremlin",
+        "color": 16739072,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1518883786350395533",
+        "name": "Music Artist",
+        "color": 16731576,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504119257171103855",
+        "name": "Owners Brother",
+        "color": 1200640,
+        "permissions": "1721826619162615",
+        "position": 40,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1518882106120343592",
+        "name": "Gorilla Tag",
+        "color": 16735309,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1502515971968078084",
+        "name": "Soft Pink",
+        "color": 16758465,
+        "permissions": "0",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1502522100823494717",
+        "name": "Owner",
+        "color": 5832846,
+        "permissions": "1721826619162615",
+        "position": 41,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514397435680788552",
+        "name": "Event Survivor",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1518882652403400814",
+        "name": "JSAB",
+        "color": 2140159,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514394690865332359",
+        "name": "OG Goobers",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 33,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1514395655202934815",
+        "name": "Professional Yapper",
+        "color": 16738740,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783442103488
   }
 }

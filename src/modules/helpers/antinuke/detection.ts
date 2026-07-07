@@ -23,7 +23,7 @@ function getAuditType(eventType: ActionType): AuditLogEvent | undefined {
 /**
  * Find executor from audit logs with caching and request coalescing
  */
-async function findExecutor(guild: Guild, eventType: ActionType, target: any, context: { executorCache: Map<string, any>, auditLogRequests: Map<string, any> }): Promise<User | null> {
+async function findExecutor(guild: Guild, eventType: ActionType, target: any, context: { executorCache: any, auditLogRequests: Map<string, any> }): Promise<User | null> {
   const auditType = getAuditType(eventType);
   if (!auditType) {
     console.log(`[AntiNuke] No audit type for event: ${eventType}`);

@@ -1,7 +1,67 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1783441396314
+    "channels": [
+      {
+        "id": "1483296347489566890",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1483296347489566891",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1483296347489566893",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1483296347489566891"
+      },
+      {
+        "id": "1504680904289681438",
+        "name": "tomoe",
+        "type": 0,
+        "position": 0,
+        "parentId": "1483296347489566890"
+      },
+      {
+        "id": "1508310033715429466",
+        "name": "rimbaud",
+        "type": 0,
+        "position": 1,
+        "parentId": "1483296347489566890"
+      },
+      {
+        "id": "1515894751176687706",
+        "name": "inyro",
+        "type": 0,
+        "position": 2,
+        "parentId": "1483296347489566890"
+      },
+      {
+        "id": "1516324490064298024",
+        "name": "mhf",
+        "type": 0,
+        "position": 3,
+        "parentId": "1483296347489566890"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1483296565589442690",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": true
+      }
+    ],
+    "updated": 1783442103773
   }
 }

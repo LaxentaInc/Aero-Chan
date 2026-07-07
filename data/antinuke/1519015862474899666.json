@@ -1,7 +1,359 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1783441396096
+    "channels": [
+      {
+        "id": "1519015863439724544",
+        "name": "🕸",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1519015863439724545",
+        "name": "‹    ✦ 𓏻 𝘷𝘰𝘪𝘤𝘦 𝘤𝘩𝘢𝘯𝘯𝘦𝘭𝘴 ’ ◟🕷",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1519015863439724546",
+        "name": "𝘮𝘢𝘪𝘯-𝘤𝘩𝘢𝘵⋆˙⟡",
+        "type": 0,
+        "position": 0,
+        "parentId": "1519015863439724544"
+      },
+      {
+        "id": "1519015863439724547",
+        "name": "ν¢ 1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1519015863439724545"
+      },
+      {
+        "id": "1519017536052658366",
+        "name": "𝘮𝘦𝘥𝘪𝘢⋆˙⟡",
+        "type": 0,
+        "position": 2,
+        "parentId": "1519015863439724544"
+      },
+      {
+        "id": "1519017820241924187",
+        "name": "𝘢𝘳𝘵⋆˙⟡",
+        "type": 0,
+        "position": 1,
+        "parentId": "1519015863439724544"
+      },
+      {
+        "id": "1519020503405170781",
+        "name": "𝘐𝘮𝘱𝘰𝘳𝘵𝘢𝘯𝘵 ⋆ ˚｡⋆",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1519020778920611861",
+        "name": "𝘙𝘶𝘭𝘦𝘴⋆˙⟡",
+        "type": 0,
+        "position": 2,
+        "parentId": "1519020503405170781"
+      },
+      {
+        "id": "1519022647227322478",
+        "name": "𝘣𝘰𝘵𝘴⋆˙⟡",
+        "type": 0,
+        "position": 3,
+        "parentId": "1519020503405170781"
+      },
+      {
+        "id": "1519023057954668778",
+        "name": "𝘞𝘦𝘭𝘤𝘰𝘮𝘦⋆˙⟡",
+        "type": 0,
+        "position": 0,
+        "parentId": "1519020503405170781"
+      },
+      {
+        "id": "1519379826572525718",
+        "name": "𝘎𝘰𝘰𝘥𝘣𝘺𝘦⋆˙⟡",
+        "type": 0,
+        "position": 1,
+        "parentId": "1519020503405170781"
+      },
+      {
+        "id": "1519381527786688762",
+        "name": "ν¢ 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1519015863439724545"
+      },
+      {
+        "id": "1519381589199683655",
+        "name": "ν¢ 3",
+        "type": 2,
+        "position": 2,
+        "parentId": "1519015863439724545"
+      },
+      {
+        "id": "1519385011055493210",
+        "name": "𝘊𝘰𝘰𝘭 𝘴𝘵𝘶𝘧𝘧⋆˙⟡",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1519385620105920714",
+        "name": "𝘠𝘨𝘨𝘥𝘳𝘢𝘴𝘪𝘭⋆˚｡⋆",
+        "type": 0,
+        "position": 0,
+        "parentId": "1519385011055493210"
+      },
+      {
+        "id": "1519388994411040940",
+        "name": "𝘝𝘪𝘳𝘵𝘶𝘢𝘭𝘧𝘪𝘴𝘩𝘦𝘳⋆˚｡⋆",
+        "type": 0,
+        "position": 1,
+        "parentId": "1519385011055493210"
+      },
+      {
+        "id": "1520133700623274127",
+        "name": "𝘮𝘶𝘥𝘢𝘦",
+        "type": 0,
+        "position": 2,
+        "parentId": "1519385011055493210"
+      },
+      {
+        "id": "1520378103661334638",
+        "name": "𝘙𝘰𝘭𝘦𝘴⋆˙⟡",
+        "type": 0,
+        "position": 4,
+        "parentId": "1519020503405170781"
+      },
+      {
+        "id": "1520475012044165221",
+        "name": "𝘳𝘰𝘭𝘦𝘴⋆˙⟡",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1520688710105169940",
+        "name": "bot-testing",
+        "type": 0,
+        "position": 5,
+        "parentId": "1519020503405170781"
+      },
+      {
+        "id": "1523733851711602880",
+        "name": "Aero",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1523733856262426634",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1523733851711602880"
+      },
+      {
+        "id": "1523733929310289930",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1523733851711602880"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1519018448783540255",
+        "name": "-ˋˏ✄ αιzαѕ'ѕ вαву ѕρι∂єяѕ ┈",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1519019440061153360",
+        "name": "𝖈𝖔𝖔𝖑 𝖘𝖕𝖎𝖉𝖊𝖗𝖘 ⋆ ˚｡⋆୨୧˚",
+        "color": 5533306,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519019681925697637",
+        "name": "ᥲძmіᥒ ༻𓆪₊˚",
+        "color": 9807270,
+        "permissions": "8",
+        "position": 7,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1519382260309033060",
+        "name": "𝘵𝘩𝘦 𝘰𝘯𝘦 𝘢𝘯𝘥 𝘰𝘯𝘭𝘺 𝘈𝘐𝘡𝘈",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519382488760320100",
+        "name": "𝘵𝘩𝘦 𝘰𝘯𝘦 𝘢𝘯𝘥 𝘰𝘯𝘭𝘺 𝘋𝘐𝘠𝘈",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519382602686140678",
+        "name": "⋆˙⟡ 𝘢𝘪𝘻𝘢'𝘴 𝘴𝘶𝘱𝘦𝘳 𝘯𝘰𝘵-𝘨𝘰𝘢𝘵𝘦𝘥 𝘣𝘳𝘰𝘵𝘩𝘦𝘳",
+        "color": 0,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520373676141314159",
+        "name": "18+",
+        "color": 5533306,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520373791971348521",
+        "name": "18-",
+        "color": 5533306,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520373834375626772",
+        "name": "she/her",
+        "color": 5533306,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520373916676128919",
+        "name": "he/him",
+        "color": 5533306,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520373960787890176",
+        "name": "they/them",
+        "color": 5533306,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520374020577693787",
+        "name": "‹ ︎   ✦ 𓏻  𝘳𝘦𝘥 ’ ◟🍒",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520374020581752935",
+        "name": "‹ ︎   ✦ 𓏻  𝘰𝘳𝘢𝘯𝘨𝘦 ’ ◟🍊",
+        "color": 11027200,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520374457288622180",
+        "name": "‹ ︎   ✦ 𓏻  𝘨𝘳𝘦𝘦𝘯 ’ ◟🍏",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520374457355731045",
+        "name": "‹ ︎   ✦ 𓏻  𝘺𝘦𝘭𝘭𝘰𝘸 ’ ◟🍋",
+        "color": 12745742,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520375056515989584",
+        "name": "‹ ︎   ✦ 𓏻  𝘣𝘭𝘶𝘦 ’ ◟🫐",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520375099658731550",
+        "name": "‹ ︎   ✦ 𓏻  𝘱𝘶𝘳𝘱𝘭𝘦 ’ ◟🍇",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520376242501849128",
+        "name": "‹ ︎   ✦ 𓏻  𝘣𝘳𝘰𝘸𝘯 ’ ◟🍫",
+        "color": 3153409,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520376334486995216",
+        "name": "‹ ︎   ✦ 𓏻  𝘣𝘭𝘢𝘤𝘬 ’ ◟✒",
+        "color": 2097152,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520377022172626985",
+        "name": "‹ ︎   ✦ 𓏻  𝘸𝘩𝘪𝘵𝘦 ’ ◟☁",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520462806766583910",
+        "name": "any",
+        "color": 5533306,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783442103395
   }
 }

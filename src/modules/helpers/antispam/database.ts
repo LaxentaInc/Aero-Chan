@@ -74,7 +74,7 @@ async function refreshConfig(collection: any, guildId: any, configs: any, config
 /**
  * update config in MongoDB
  */
-async function updateConfig(collection: any, guildId: any, newConfig: any, configs: any, configLastRefresh: any, trustedUsersSets: any, trustedRolesSets: any) {
+async function updateConfig(collection: any, guildId: any, newConfig: any, configs: any, trustedUsersSets: any, trustedRolesSets: any) {
   if (!collection) return false;
   try {
     let currentConfig = configs.get(guildId) as any;
@@ -105,7 +105,6 @@ async function updateConfig(collection: any, guildId: any, newConfig: any, confi
     });
     configs.set(guildId, finalConfig);
     buildTrustedSets(guildId, finalConfig, trustedUsersSets, trustedRolesSets);
-    configLastRefresh.set(guildId, Date.now());
     return true;
   } catch (error: any) {
     console.error(`[SpamProtection] ❌ failed to update config:`, error.message);

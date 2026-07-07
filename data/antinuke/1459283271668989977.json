@@ -1,7 +1,111 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1783441396107
+    "channels": [
+      {
+        "id": "1460686405427527760",
+        "name": "╭─── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ───╮",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1460686406656589981",
+        "name": "📜│rules-n-stuff",
+        "type": 0,
+        "position": 0,
+        "parentId": "1460686405427527760"
+      },
+      {
+        "id": "1460686408183447603",
+        "name": "📢│announcements",
+        "type": 0,
+        "position": 1,
+        "parentId": "1460686405427527760"
+      },
+      {
+        "id": "1460686411232448646",
+        "name": "◤◢◣◥◤◢◣◥ VIBES ◤◢◣◥◤◢◣◥",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1460686412692197396",
+        "name": "💭│kroal-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1460686411232448646"
+      },
+      {
+        "id": "1460686415607365634",
+        "name": "😂│memes-n-clips",
+        "type": 0,
+        "position": 1,
+        "parentId": "1460686411232448646"
+      },
+      {
+        "id": "1460686417398206701",
+        "name": "🤖│bot-spam",
+        "type": 0,
+        "position": 2,
+        "parentId": "1460686411232448646"
+      },
+      {
+        "id": "1460686419688165627",
+        "name": "🔥│rage-quit-stories",
+        "type": 0,
+        "position": 3,
+        "parentId": "1460686411232448646"
+      },
+      {
+        "id": "1460686429305704581",
+        "name": "━━━━━━༻🔊༺━━━━━━",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1482497705266778184",
+        "name": "Aero",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1482497715937214574",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1482497705266778184"
+      },
+      {
+        "id": "1482501859166916840",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1482497705266778184"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1459967142689640691",
+        "name": "Kroal",
+        "color": 15277667,
+        "permissions": "8864258447638527",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1459977310290841714",
+        "name": "yrdyy",
+        "color": 0,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783442103415
   }
 }

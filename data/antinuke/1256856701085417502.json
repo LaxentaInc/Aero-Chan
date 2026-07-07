@@ -1,7 +1,178 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1783441396088
+    "channels": [
+      {
+        "id": "1464141437544435744",
+        "name": "𝓡𝓾𝓵𝓮𝓼✍",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1471756326756552808",
+        "name": "₊˚ʚ ɞ˚ Feu Feu🔫 ˚ʚ ɞ˚",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1471764988346630158",
+        "name": "Emojis",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1471765619484528674",
+        "name": "emotes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1471764988346630158"
+      },
+      {
+        "id": "1499297233961615411",
+        "name": "R. E. P. O",
+        "type": 2,
+        "position": 1,
+        "parentId": "1471756326756552808"
+      },
+      {
+        "id": "1499310520417783938",
+        "name": "ThyStudio",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1499310734721548298",
+        "name": "stickerss♡٩-˃▿˂-۶♡",
+        "type": 0,
+        "position": 0,
+        "parentId": "1471764988346630158"
+      },
+      {
+        "id": "1499467347486969896",
+        "name": "Gaming VC 🎧🎮",
+        "type": 2,
+        "position": 0,
+        "parentId": "1471756326756552808"
+      },
+      {
+        "id": "1499479322929664130",
+        "name": "🎮vibe-n-game🎮",
+        "type": 0,
+        "position": 0,
+        "parentId": "1471756326756552808"
+      },
+      {
+        "id": "1499629085234696193",
+        "name": "🔊sports",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520952456597733406"
+      },
+      {
+        "id": "1499629694486712472",
+        "name": "🎥Theater🍿🥨",
+        "type": 2,
+        "position": 0,
+        "parentId": "1499310520417783938"
+      },
+      {
+        "id": "1500420629696872489",
+        "name": "✨Anime✨🧚🏻‍♀️",
+        "type": 2,
+        "position": 1,
+        "parentId": "1499310520417783938"
+      },
+      {
+        "id": "1504148784890773632",
+        "name": "Food Recipes",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1504263827154534480",
+        "name": "test-bots",
+        "type": 0,
+        "position": 2,
+        "parentId": "1471764988346630158"
+      },
+      {
+        "id": "1505761355171496090",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 3,
+        "parentId": "1471764988346630158"
+      },
+      {
+        "id": "1520950313853521981",
+        "name": "ʀᴇᴄɪᴘᴇ-ʙᴏx",
+        "type": 15,
+        "position": 0,
+        "parentId": "1504148784890773632"
+      },
+      {
+        "id": "1520950520703881367",
+        "name": "👥welcome",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1520952343523496077",
+        "name": "🎶Music🎶",
+        "type": 2,
+        "position": 2,
+        "parentId": "1499310520417783938"
+      },
+      {
+        "id": "1520952456597733406",
+        "name": "Sports",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1487990239778701473",
+        "name": "Guests",
+        "color": 5533306,
+        "permissions": "39719961873985",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504266058817867907",
+        "name": "Bots",
+        "color": 6323595,
+        "permissions": "1126898487184448",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1499674298561069096",
+        "name": "USER-1426724125421994115",
+        "color": 16738004,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1409850362055229541",
+        "name": "Vice Admin",
+        "color": 7419530,
+        "permissions": "8864262742605691",
+        "position": 40,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783442103384
   }
 }

@@ -1,7 +1,696 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1783441396128
+    "channels": [
+      {
+        "id": "1520751140520853594",
+        "name": "🔷♧_announcements",
+        "type": 0,
+        "position": 1,
+        "parentId": "1520749744165617664"
+      },
+      {
+        "id": "1520761589043826748",
+        "name": "🦋★_petz",
+        "type": 0,
+        "position": 7,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520873232046096625",
+        "name": "🦋★_lyrics",
+        "type": 0,
+        "position": 12,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520746815010504714",
+        "name": "🦋★_general_2",
+        "type": 0,
+        "position": 1,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520768780421038230",
+        "name": "🦋★_spamz",
+        "type": 0,
+        "position": 10,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520745547638509641",
+        "name": "🪼☆_yapping",
+        "type": 2,
+        "position": 0,
+        "parentId": "1520745547638509639"
+      },
+      {
+        "id": "1520750360619384872",
+        "name": "🔷♧_rolez",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520749744165617664"
+      },
+      {
+        "id": "1520761475650683040",
+        "name": "🦋★_irl_stuffz",
+        "type": 0,
+        "position": 6,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520762684738637894",
+        "name": "🦋★_media",
+        "type": 0,
+        "position": 8,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520768458374123560",
+        "name": "🐋♤_truth_or_dare",
+        "type": 0,
+        "position": 5,
+        "parentId": "1520763913078050818"
+      },
+      {
+        "id": "1520766273766690846",
+        "name": "🫐●_levelz",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520763949069631518"
+      },
+      {
+        "id": "1520763949069631518",
+        "name": "🫐 ●  CLANKERZ",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1520768550376050839",
+        "name": "🐋♤_hear_me_out",
+        "type": 0,
+        "position": 6,
+        "parentId": "1520763913078050818"
+      },
+      {
+        "id": "1520796594960728205",
+        "name": "🌊♢_roleplay",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520762195355504751"
+      },
+      {
+        "id": "1520763913078050818",
+        "name": "🐋♤  FUNZ",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1520768271949762712",
+        "name": "🐋♤_smash_or_pass",
+        "type": 0,
+        "position": 3,
+        "parentId": "1520763913078050818"
+      },
+      {
+        "id": "1520772933688229898",
+        "name": "🦋★_promo",
+        "type": 0,
+        "position": 11,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520778583747068145",
+        "name": "🫐●_confessionz",
+        "type": 0,
+        "position": 7,
+        "parentId": "1520763949069631518"
+      },
+      {
+        "id": "1520747342758940772",
+        "name": "🪼☆_music",
+        "type": 2,
+        "position": 1,
+        "parentId": "1520745547638509639"
+      },
+      {
+        "id": "1520773298353344692",
+        "name": "🫐●_cat_bot",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520763949069631518"
+      },
+      {
+        "id": "1520745547638509640",
+        "name": "🦋★_general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520745547638509639",
+        "name": "🪼☆  VC CHANNELZ",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1520749744165617664",
+        "name": "🔷♧  IMPORTANT",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1520815755351031889",
+        "name": "🌊♢_inspirational_quotes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1520762195355504751"
+      },
+      {
+        "id": "1520769863977664543",
+        "name": "🐋♤_silly_playground",
+        "type": 0,
+        "position": 7,
+        "parentId": "1520763913078050818"
+      },
+      {
+        "id": "1520758358662054019",
+        "name": "🦋★_fandomz",
+        "type": 0,
+        "position": 5,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520770907549728828",
+        "name": "🪼☆_movie_night",
+        "type": 2,
+        "position": 3,
+        "parentId": "1520745547638509639"
+      },
+      {
+        "id": "1520746992051945535",
+        "name": "🦋★_art",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520774836929167391",
+        "name": "🫐●_pride_bot",
+        "type": 0,
+        "position": 6,
+        "parentId": "1520763949069631518"
+      },
+      {
+        "id": "1520762195355504751",
+        "name": "🌊 ◇  RANDOM",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1520768229067329847",
+        "name": "🐋♤_storytime",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520763913078050818"
+      },
+      {
+        "id": "1520747895970730085",
+        "name": "🦋★_food",
+        "type": 0,
+        "position": 3,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520748215908175972",
+        "name": "🦋★_gamez",
+        "type": 0,
+        "position": 4,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520745547638509638",
+        "name": "🦋★  TXT CHANNELZ",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1520767503536619610",
+        "name": "🔷♧_rulez",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520749744165617664"
+      },
+      {
+        "id": "1520766547801538662",
+        "name": "🦋★_vent_corner",
+        "type": 0,
+        "position": 9,
+        "parentId": "1520745547638509638"
+      },
+      {
+        "id": "1520774224623566928",
+        "name": "🫐●_dank_memer",
+        "type": 0,
+        "position": 3,
+        "parentId": "1520763949069631518"
+      },
+      {
+        "id": "1520747364414132296",
+        "name": "🪼☆_gaming",
+        "type": 2,
+        "position": 2,
+        "parentId": "1520745547638509639"
+      },
+      {
+        "id": "1520774323684511824",
+        "name": "🫐●_owo",
+        "type": 0,
+        "position": 4,
+        "parentId": "1520763949069631518"
+      },
+      {
+        "id": "1520769046491168881",
+        "name": "🐋♤_qotd",
+        "type": 15,
+        "position": 0,
+        "parentId": "1520763913078050818"
+      },
+      {
+        "id": "1520769248908021941",
+        "name": "🐋♤_would_you_rather",
+        "type": 15,
+        "position": 1,
+        "parentId": "1520763913078050818"
+      },
+      {
+        "id": "1521894222653952000",
+        "name": "🌊♢_orangcat",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520762195355504751"
+      },
+      {
+        "id": "1520774573203652679",
+        "name": "🫐●_pokétwo",
+        "type": 0,
+        "position": 5,
+        "parentId": "1520763949069631518"
+      },
+      {
+        "id": "1520768362345664572",
+        "name": "🐋♤_opinions",
+        "type": 0,
+        "position": 4,
+        "parentId": "1520763913078050818"
+      },
+      {
+        "id": "1520773219009695884",
+        "name": "🫐●_akinator",
+        "type": 0,
+        "position": 1,
+        "parentId": "1520763949069631518"
+      },
+      {
+        "id": "1521161591649865972",
+        "name": "qotd 1 sjsvs",
+        "type": 11,
+        "parentId": "1520769046491168881"
+      },
+      {
+        "id": "1521161940380942376",
+        "name": "wyr 1",
+        "type": 11,
+        "parentId": "1520769248908021941"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1520755927178018887",
+        "name": "yellow",
+        "color": 16775313,
+        "permissions": "0",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520763784380022814",
+        "name": "she / her",
+        "color": 10759523,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520764296261537913",
+        "name": "other / ask",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520754225284517958",
+        "name": "14 to 18",
+        "color": 4146095,
+        "permissions": "1720707884502593",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520756388916367372",
+        "name": "black",
+        "color": 1579032,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520772930357956708",
+        "name": "stupid lil bots u pmo",
+        "color": 12745742,
+        "permissions": "0",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520878968864112640",
+        "name": "QOTD",
+        "color": 5379898,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520756289859354645",
+        "name": "white",
+        "color": 15198183,
+        "permissions": "0",
+        "position": 42,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520756343068430346",
+        "name": "grey",
+        "color": 4868682,
+        "permissions": "0",
+        "position": 41,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520754083533684918",
+        "name": "0 to 13",
+        "color": 3892584,
+        "permissions": "1720707884502593",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523295398582681860",
+        "name": "WARNING 3",
+        "color": 3425297,
+        "permissions": "0",
+        "position": 58,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520756092584591540",
+        "name": "purple",
+        "color": 8472796,
+        "permissions": "0",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520780396181327923",
+        "name": "stupid arcane chan",
+        "color": 2367256,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520764008737669221",
+        "name": "he / they",
+        "color": 8748200,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520911073794854994",
+        "name": "PEAK admin ❤️",
+        "color": 16752098,
+        "permissions": "1721826618638327",
+        "position": 51,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520878133220475085",
+        "name": "Would You Rather",
+        "color": 3979169,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520759131106050150",
+        "name": "peak owner eheh",
+        "color": 3066993,
+        "permissions": "1721826618638327",
+        "position": 55,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520764095765151764",
+        "name": "she / they",
+        "color": 5715294,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520778585088983062",
+        "name": "mint",
+        "color": 9488362,
+        "permissions": "1721807559716807",
+        "position": 53,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520783928997314611",
+        "name": "im a real person",
+        "color": 12956081,
+        "permissions": "1720707884502593",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520757909892628490",
+        "name": "cyan",
+        "color": 6082533,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520902050936787055",
+        "name": "announcements",
+        "color": 3943285,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520754288958374029",
+        "name": "19+",
+        "color": 13936502,
+        "permissions": "1720707884502593",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520763681594413086",
+        "name": "he / him",
+        "color": 5076671,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523295237701763215",
+        "name": "WARNING 1",
+        "color": 4550681,
+        "permissions": "0",
+        "position": 56,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520755879006306375",
+        "name": "orange",
+        "color": 13009718,
+        "permissions": "0",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520755826342498345",
+        "name": "red",
+        "color": 14502988,
+        "permissions": "0",
+        "position": 49,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520754403009892534",
+        "name": "prefer not to say (age)",
+        "color": 16762052,
+        "permissions": "1720707884502593",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520756437314437130",
+        "name": "brown",
+        "color": 4007700,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523295318043660390",
+        "name": "WARNING 2",
+        "color": 4872235,
+        "permissions": "0",
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520776423361609868",
+        "name": "hi im carl",
+        "color": 2123412,
+        "permissions": "1720707884502593",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520912874803953684",
+        "name": "chance clanker",
+        "color": 11513775,
+        "permissions": "1720707884502593",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520773671730282661",
+        "name": "good clanker",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 22,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520763847735115950",
+        "name": "they / them",
+        "color": 8730565,
+        "permissions": "0",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520757114694271036",
+        "name": "awesum admin",
+        "color": 10886686,
+        "permissions": "1721807559716807",
+        "position": 50,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520764235812966583",
+        "name": "any / all",
+        "color": 1146986,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520758029232898158",
+        "name": "berry",
+        "color": 16711680,
+        "permissions": "1721826618638327",
+        "position": 54,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520755978331754647",
+        "name": "green",
+        "color": 5148513,
+        "permissions": "0",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520756144396828812",
+        "name": "pink",
+        "color": 15708412,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520756041917272185",
+        "name": "blue",
+        "color": 5007314,
+        "permissions": "0",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783442103448
   }
 }

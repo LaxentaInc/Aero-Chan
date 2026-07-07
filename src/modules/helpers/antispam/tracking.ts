@@ -8,30 +8,28 @@ import { GuildId, UserId } from "../../../types/antiraid";
 /**
  * Get or create user activity record
  */
-function getUserActivity(userActivity: Map<GuildId, Map<UserId, any>>, guildId: GuildId, userId: UserId) {
-  if (!userActivity.has(guildId)) {
-    userActivity.set(guildId, new Map());
-  }
-  const guildData = userActivity.get(guildId)!;
-  if (!guildData.has(userId)) {
-    guildData.set(userId, {
+function getUserActivity(userActivity: any, guildId: GuildId, userId: UserId) {
+  const key = `${guildId}-${userId}`;
+  let activity = userActivity.get(key);
+  if (!activity) {
+    activity = {
       messages: [],
       strikes: 0,
       lastViolation: 0
-    });
+    };
+    userActivity.set(key, activity);
   }
-  return guildData.get(userId);
+  return activity;
 }
 
 /**
  * Track a message for the user
  */
-function trackMessage(userActivity: Map<GuildId, Map<UserId, any>>, guildId: GuildId, userId: UserId, message: Message & { webhookId?: string }) {
+function trackMessage(userActivity: any, guildId: GuildId, userId: UserId, message: Message & { webhookId?: string }, config: any) {
   const activity = getUserActivity(userActivity, guildId, userId);
   const now = Date.now();
   activity.messages.push({
     messageId: message.id,
-    // Store ID for deletion
     timestamp: now,
     hasImage: message.attachments.size > 0,
     isWebhook: !!message.webhookId,
@@ -40,64 +38,28 @@ function trackMessage(userActivity: Map<GuildId, Map<UserId, any>>, guildId: Gui
 
   // Aggressive cleanup: only keep last 30 seconds worth
   activity.messages = activity.messages.filter((msg: any) => now - msg.timestamp < 30000);
+  
+  const key = `${guildId}-${userId}`;
+  const strikeExpiry = config.strikeExpiry || 300;
+  userActivity.set(key, activity, strikeExpiry); // Update TTL dynamically
 }
 
 /**
  * Cleanup old data periodically
  */
-function cleanup(userActivity: Map<GuildId, Map<UserId, any>>, punishmentLocks: Map<string, number>, recentNotifications: Map<string, number>, getConfigFn: (guildId: GuildId) => any, stats: any) {
-  const now = Date.now();
-  for (const [guildId, guildData] of userActivity.entries()) {
-    const config = getConfigFn(guildId);
-    const strikeExpiryMs = config.strikeExpiry * 1000;
-    for (const [userId, activity] of guildData.entries()) {
-      // Reset strikes if expired
-      if (activity.strikes > 0 && activity.lastViolation > 0) {
-        if (now - activity.lastViolation > strikeExpiryMs) {
-          activity.strikes = 0;
-          activity.lastViolation = 0;
-        }
-      }
-
-      // Remove if no recent activity
-      if (activity.messages.length === 0 && activity.strikes === 0) {
-        guildData.delete(userId);
-      }
-    }
-
-    // Remove empty guilds
-    if (guildData.size === 0) {
-      userActivity.delete(guildId);
-    }
-  }
-
-  // Clean expired punishment locks
-  for (const [key, timestamp] of punishmentLocks.entries()) {
-    if (now - timestamp > 30000) {
-      punishmentLocks.delete(key);
-    }
-  }
-
-  // Clean old notification records
-  for (const [key, timestamp] of recentNotifications.entries()) {
-    if (now - timestamp > 60000) {
-      recentNotifications.delete(key);
-    }
-  }
-  if (stats.messagesProcessed > 0) {
-    // console.log(`[SpamProtection] Cleanup: ${userActivity.size} guilds, ${punishmentLocks.size} locks, Stats: ${JSON.stringify(stats)}`);
-  }
-}
+// Deprecated: NodeCache handles this internally
 
 /**
  * Reset user strikes
  */
-function resetUserStrikes(userActivity: Map<GuildId, Map<UserId, any>>, punishmentLocks: Map<string, number>, guildId: GuildId, userId: UserId) {
+function resetUserStrikes(userActivity: any, punishmentLocks: any, guildId: GuildId, userId: UserId) {
   const activity = getUserActivity(userActivity, guildId, userId);
   activity.strikes = 0;
   activity.lastViolation = 0;
+  userActivity.set(`${guildId}-${userId}`, activity);
+  
   const lockKey = `${guildId}:${userId}`;
-  punishmentLocks.delete(lockKey);
+  punishmentLocks.del(lockKey);
   console.log(`[SpamProtection] Reset strikes for user ${userId}`);
   return true;
 }
@@ -105,29 +67,29 @@ function resetUserStrikes(userActivity: Map<GuildId, Map<UserId, any>>, punishme
 /**
  * Get user strike info
  */
-function getUserStrikes(userActivity: Map<GuildId, Map<UserId, any>>, punishmentLocks: Map<string, number>, guildId: GuildId, userId: UserId) {
+function getUserStrikes(userActivity: any, punishmentLocks: any, guildId: GuildId, userId: UserId) {
   const activity = getUserActivity(userActivity, guildId, userId);
   const lockKey = `${guildId}:${userId}`;
+  const isLocked = punishmentLocks.has(lockKey);
   return {
     strikes: activity.strikes,
     lastViolation: activity.lastViolation,
     recentMessages: activity.messages.length,
-    isLocked: punishmentLocks.has(lockKey),
-    lockExpires: punishmentLocks.has(lockKey) ? new Date(punishmentLocks.get(lockKey)! + 5000) : null
+    isLocked,
+    lockExpires: isLocked ? new Date(punishmentLocks.get(lockKey) + 5000) : null
   };
 }
 
 /**
  * Clear cache for all users
  */
-function clearCache(userActivity: Map<GuildId, Map<UserId, any>>) {
-  userActivity.clear();
+function clearCache(userActivity: any) {
+  userActivity.flushAll();
 }
-export { getUserActivity, trackMessage, cleanup, resetUserStrikes, getUserStrikes, clearCache };
+export { getUserActivity, trackMessage, resetUserStrikes, getUserStrikes, clearCache };
 export default {
   getUserActivity,
   trackMessage,
-  cleanup,
   resetUserStrikes,
   getUserStrikes,
   clearCache

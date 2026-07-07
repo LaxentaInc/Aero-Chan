@@ -47,27 +47,24 @@ function trackRoleDeletion(deletedRoles: Map<GuildId, any[]>, guildId: GuildId, 
 /**
  * Track a user action with timestamp
  */
-function trackAction(recentActions: Map<GuildId, Map<UserId, { type: ActionType, timestamp: number }[]>>, guildId: GuildId, userId: UserId, eventType: ActionType) {
-  if (!recentActions.has(guildId)) {
-    recentActions.set(guildId, new Map());
-  }
-  const guildData = recentActions.get(guildId)!;
-  if (!guildData.has(userId)) {
-    guildData.set(userId, []);
-  }
-  guildData.get(userId)!.push({
+function trackAction(recentActions: any, guildId: GuildId, userId: UserId, eventType: ActionType) {
+  const key = `${guildId}-${userId}`;
+  const actions = recentActions.get(key) || [];
+  actions.push({
     type: eventType,
     timestamp: Date.now()
   });
+  recentActions.set(key, actions);
 }
 
 /**
  * Get count of recent actions by a user (within 30s window)
  */
-function getActionCount(recentActions: Map<GuildId, Map<UserId, { type: ActionType, timestamp: number }[]>>, guildId: GuildId, userId: UserId, eventType: ActionType | null = null): number {
+function getActionCount(recentActions: any, guildId: GuildId, userId: UserId, eventType: ActionType | null = null): number {
   const now = Date.now();
-  const actions = recentActions.get(guildId)?.get(userId) || [];
-  return actions.filter((action) => {
+  const key = `${guildId}-${userId}`;
+  const actions = recentActions.get(key) || [];
+  return actions.filter((action: any) => {
     const withinWindow = now - action.timestamp < 30000;
     const matchesType = !eventType || action.type === eventType;
     return withinWindow && matchesType;
@@ -77,33 +74,14 @@ function getActionCount(recentActions: Map<GuildId, Map<UserId, { type: ActionTy
 /**
  * Clear action tracking for a user (after punishment)
  */
-function clearUserActions(recentActions: Map<GuildId, Map<UserId, { type: ActionType, timestamp: number }[]>>, guildId: GuildId, userId: UserId) {
-  recentActions.get(guildId)?.delete(userId);
+function clearUserActions(recentActions: any, guildId: GuildId, userId: UserId) {
+  recentActions.del(`${guildId}-${userId}`);
 }
 
 /**
  * Clean up old action tracking data (called periodically)
  */
-function cleanupOldActions(recentActions: Map<GuildId, Map<UserId, { type: ActionType, timestamp: number }[]>>): number {
-  const now = Date.now();
-  let cleanedCount = 0;
-  for (const [guildId, guildData] of recentActions.entries()) {
-    for (const [userId, actions] of guildData.entries()) {
-      // Keep only actions from last 5 minutes
-      const recent = actions.filter((a: any) => now - a.timestamp < 300000);
-      if (recent.length === 0) {
-        guildData.delete(userId);
-        cleanedCount++;
-      } else {
-        guildData.set(userId, recent);
-      }
-    }
-    if (guildData.size === 0) {
-      recentActions.delete(guildId);
-    }
-  }
-  return cleanedCount;
-}
+// Deprecated: NodeCache handles this internally
 
 /**
  * Clean up old deletion tracking (called after restore)
@@ -111,13 +89,12 @@ function cleanupOldActions(recentActions: Map<GuildId, Map<UserId, { type: Actio
 function clearDeletions(deletedChannels: Map<GuildId, any[]>, guildId: GuildId) {
   deletedChannels.set(guildId, []);
 }
-export { trackDeletion, trackRoleDeletion, trackAction, getActionCount, clearUserActions, cleanupOldActions, clearDeletions };
+export { trackDeletion, trackRoleDeletion, trackAction, getActionCount, clearUserActions, clearDeletions };
 export default {
   trackDeletion,
   trackRoleDeletion,
   trackAction,
   getActionCount,
   clearUserActions,
-  cleanupOldActions,
   clearDeletions
 };

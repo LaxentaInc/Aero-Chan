@@ -1,7 +1,459 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1783441396144
+    "channels": [
+      {
+        "id": "1503937602565443705",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1503937602565443707",
+        "name": "testing",
+        "type": 0,
+        "position": 0,
+        "parentId": "1503937602565443705"
+      },
+      {
+        "id": "1503937602565443708",
+        "name": "General",
+        "type": 2,
+        "position": 1,
+        "parentId": "1503938720049533008"
+      },
+      {
+        "id": "1503937974046560287",
+        "name": "Welcome & Info | 📖",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1503938720049533008",
+        "name": "Communication | 🌎",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1503938880309825646",
+        "name": "Backstage |🩸",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1503939571044323399",
+        "name": "welcome✨",
+        "type": 0,
+        "position": 3,
+        "parentId": "1503937974046560287"
+      },
+      {
+        "id": "1503939758009876520",
+        "name": "rules👤",
+        "type": 0,
+        "position": 0,
+        "parentId": "1503937974046560287"
+      },
+      {
+        "id": "1503939972573429860",
+        "name": "general💬",
+        "type": 0,
+        "position": 0,
+        "parentId": "1503938720049533008"
+      },
+      {
+        "id": "1503940153218039898",
+        "name": "memes😂",
+        "type": 0,
+        "position": 1,
+        "parentId": "1503938720049533008"
+      },
+      {
+        "id": "1503940243777388648",
+        "name": "music🎵",
+        "type": 0,
+        "position": 2,
+        "parentId": "1503938720049533008"
+      },
+      {
+        "id": "1503940414862917834",
+        "name": "General 2",
+        "type": 2,
+        "position": 2,
+        "parentId": "1503938720049533008"
+      },
+      {
+        "id": "1503940519162806282",
+        "name": "mod",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504279205259640962"
+      },
+      {
+        "id": "1503940539966296084",
+        "name": "admin",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504279205259640962"
+      },
+      {
+        "id": "1503940557481709670",
+        "name": "logging",
+        "type": 0,
+        "position": 1,
+        "parentId": "1503938880309825646"
+      },
+      {
+        "id": "1504089127392641165",
+        "name": "verify-to-enter",
+        "type": 0,
+        "position": 2,
+        "parentId": "1503937974046560287"
+      },
+      {
+        "id": "1504277918522671145",
+        "name": "midnight-confessions🌙",
+        "type": 0,
+        "position": 2,
+        "parentId": "1504293454400983050"
+      },
+      {
+        "id": "1504278181853532290",
+        "name": "announcements‼️",
+        "type": 5,
+        "position": 1,
+        "parentId": "1503937974046560287"
+      },
+      {
+        "id": "1504278326720598026",
+        "name": "Main Tent VC",
+        "type": 2,
+        "position": 0,
+        "parentId": "1503938720049533008"
+      },
+      {
+        "id": "1504279205259640962",
+        "name": "Staff Ring|🔮",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1504279415201337464",
+        "name": "performers-only",
+        "type": 0,
+        "position": 0,
+        "parentId": "1503938880309825646"
+      },
+      {
+        "id": "1504279550895456327",
+        "name": "banished-performers",
+        "type": 0,
+        "position": 2,
+        "parentId": "1503938880309825646"
+      },
+      {
+        "id": "1504293454400983050",
+        "name": "Activites|🤹‍♂️",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1504293569190690876",
+        "name": "casino-tent🎰",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504293454400983050"
+      },
+      {
+        "id": "1504293646118424726",
+        "name": "fortune-wheel🪬",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504293454400983050"
+      },
+      {
+        "id": "1504293734760579213",
+        "name": "creature-collection👾",
+        "type": 0,
+        "position": 3,
+        "parentId": "1504293454400983050"
+      },
+      {
+        "id": "1504294060079317084",
+        "name": "arcade-of-freaks🖼️",
+        "type": 0,
+        "position": 4,
+        "parentId": "1504293454400983050"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1504281915912618025",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504281919129518081",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504281909432418445",
+        "name": "18+",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1503942238126997504",
+        "name": "Crowd Darling 🎟️",
+        "color": 15335679,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504281908853346506",
+        "name": "15-17",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504281910342320318",
+        "name": "He/Him",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504281912401723462",
+        "name": "Any",
+        "color": 5533306,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1503942233643028560",
+        "name": "Co-ringmaster 🩸",
+        "color": 1315860,
+        "permissions": "8864258447638519",
+        "position": 39,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504281917367783444",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504281918093398116",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1503942236768043038",
+        "name": "Audience Favorite 🌟",
+        "color": 16187136,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504281907972538408",
+        "name": "13-15",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504281916751478926",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504281912989061251",
+        "name": "Mystic  🔮",
+        "color": 11579487,
+        "permissions": "1024",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1503942236168130830",
+        "name": "Freak Performer 🎭",
+        "color": 3092271,
+        "permissions": "1024",
+        "position": 25,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1503942240484069506",
+        "name": "Verified Performer 🎭",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504281913861476545",
+        "name": "Acrobat🎪",
+        "color": 13297057,
+        "permissions": "1024",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504281914947666032",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1503942239389225033",
+        "name": "The Forgotten Act ☠️",
+        "color": 0,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1503942238680645723",
+        "name": "Broken Puppet 🎪",
+        "color": 3749713,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1503942233043501166",
+        "name": "Ringmaster 🎩",
+        "color": 9700613,
+        "permissions": "8864258447638527",
+        "position": 40,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1503942236180713492",
+        "name": "Lost Act🕯️",
+        "color": 16777215,
+        "permissions": "1024",
+        "position": 24,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504281911542153286",
+        "name": "They/Them",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1503942237434810589",
+        "name": "Director's Favorite 🎭",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504281914909921282",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1503942234892927107",
+        "name": "Nightmare Jester 🤡",
+        "color": 5440900,
+        "permissions": "4052768318136016",
+        "position": 36,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1503942234662244393",
+        "name": "Masters of Mayhem  🔥",
+        "color": 11161859,
+        "permissions": "4061581725384645",
+        "position": 37,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1504281911013670962",
+        "name": "She/Her",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1503940881345151046",
+        "name": "Member",
+        "color": 11796403,
+        "permissions": "1232176829210176",
+        "position": 21,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783442103467
   }
 }

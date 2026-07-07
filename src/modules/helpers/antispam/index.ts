@@ -112,7 +112,7 @@ class SpamProtection {
 
   // Update config
   async updateConfig(guildId: GuildId, config: any) {
-    return updateConfig(this.db, guildId, config, this.configs, this.configLastRefresh, this.trustedUsersSets, this.trustedRolesSets);
+    return updateConfig(this.db, guildId, config, this.configs, this.trustedUsersSets, this.trustedRolesSets);
   }
 
   // Main message handler
@@ -159,19 +159,19 @@ class SpamProtection {
     // Check if user is currently being punished
     const lockKey = `${message.guild.id}:${message.author.id}`;
     if (this.punishmentLocks.has(lockKey)) {
-      const lockTime = this.punishmentLocks.get(lockKey)!;
+      const lockTime = this.punishmentLocks.get(lockKey) as number;
       if (Date.now() - lockTime < config.punishmentLockTime) {
         if (config.deleteSpamMessages) {
           this.scheduleDelete(message.channel.id, message.id);
         }
         return;
       } else {
-        this.punishmentLocks.delete(lockKey);
+        this.punishmentLocks.del(lockKey);
       }
     }
 
     // Track message
-    trackMessage(this.userActivity, message.guild.id, message.author.id, message as any);
+    trackMessage(this.userActivity, message.guild.id, message.author.id, message as any, config);
 
     // Run spam checks
     const violations = [];
@@ -508,10 +508,9 @@ class SpamProtection {
     return {
       ...this.stats,
       maps: {
-        userActivity: this.userActivity.size,
-        configs: this.configs.size,
-        punishmentLocks: this.punishmentLocks.size,
-        recentNotifications: this.recentNotifications.size,
+        activeGuilds: this.configs.keys().length,
+        trackedUsers: this.userActivity.keys().length,
+        activeLocks: this.punishmentLocks.keys().length,
         pendingDeletes: this.pendingDeletes.size
       },
       ratios: {

@@ -8,7 +8,7 @@ import { GuildId, UserId } from "../../../types/antiraid";
 /**
  * Check for message spam (too many messages in time window)
  */
-function checkMessageSpam(userActivity: Map<GuildId, Map<UserId, any>>, guildId: GuildId, userId: UserId, config: any) {
+function checkMessageSpam(userActivity: any, guildId: GuildId, userId: UserId, config: any) {
   const activity = getUserActivity(userActivity, guildId, userId);
   const now = Date.now();
   const windowMs = config.messageTimeWindow * 1000;
@@ -72,7 +72,7 @@ function checkLinkSpamFast(message: Message, config: any, linkRegex: RegExp) {
 /**
  * Check for image spam
  */
-function checkImageSpam(message: Message, userActivity: Map<GuildId, Map<UserId, any>>, config: any) {
+function checkImageSpam(message: Message, userActivity: any, config: any) {
   if (!message.guild) return null;
   const activity = getUserActivity(userActivity, message.guild.id, message.author.id);
   const now = Date.now();
@@ -90,7 +90,7 @@ function checkImageSpam(message: Message, userActivity: Map<GuildId, Map<UserId,
 /**
  * Check for webhook spam
  */
-function checkWebhookSpam(userActivity: Map<GuildId, Map<UserId, any>>, guildId: GuildId, userId: UserId, config: any) {
+function checkWebhookSpam(userActivity: any, guildId: GuildId, userId: UserId, config: any) {
   const activity = getUserActivity(userActivity, guildId, userId);
   const now = Date.now();
   const windowMs = config.webhookTimeWindow * 1000;
@@ -105,19 +105,18 @@ function checkWebhookSpam(userActivity: Map<GuildId, Map<UserId, any>>, guildId:
 }
 
 // Helper to get user activity (from tracking module)
-function getUserActivity(userActivity: Map<GuildId, Map<UserId, any>>, guildId: GuildId, userId: UserId) {
-  if (!userActivity.has(guildId)) {
-    userActivity.set(guildId, new Map());
-  }
-  const guildData = userActivity.get(guildId)!;
-  if (!guildData.has(userId)) {
-    guildData.set(userId, {
+function getUserActivity(userActivity: any, guildId: GuildId, userId: UserId) {
+  const key = `${guildId}-${userId}`;
+  let activity = userActivity.get(key);
+  if (!activity) {
+    activity = {
       messages: [],
       strikes: 0,
       lastViolation: 0
-    });
+    };
+    userActivity.set(key, activity);
   }
-  return guildData.get(userId);
+  return activity;
 }
 export { checkMessageSpam, checkLinkSpamFast, checkImageSpam, checkWebhookSpam };
 export default {

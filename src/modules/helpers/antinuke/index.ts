@@ -1,12 +1,13 @@
 import { getDefaultConfig } from "./config";
 import { initMongoDB, syncConfigs, updateConfig } from "./database";
 import { findExecutor, isTrusted, getThreshold, canPunish } from "./detection";
-import { trackDeletion, trackAction, getActionCount, cleanupOldActions, clearDeletions, trackRoleDeletion } from "./tracking";
+import { trackDeletion, trackAction, getActionCount, clearDeletions, trackRoleDeletion } from "./tracking";
 import { stripDangerousRoles, executePunishment } from "./punishment";
 import { batchRestoreChannels, backupGuild, backupAllGuilds } from "./restoration";
 import { notifyOwner, logToChannel } from "./notification";
 import { registerStoredButtons } from "./buttons";
 import logManager from "../logManager";
+import NodeCache from "node-cache";
 import { ExtendedClient } from "../../../types/client";
 import { ActionType, GuildId, UserId } from "../../../types/antiraid";
 import { Guild, GuildMember, User, Channel, Role, Emoji, Webhook } from "discord.js";
@@ -23,25 +24,25 @@ class AntiNuke {
   client: ExtendedClient | null;
   db: any;
   collection: any;
-  configs: Map<GuildId, any>;
-  recentActions: Map<GuildId, Map<UserId, { type: ActionType, timestamp: number }[]>>;
+  configs: NodeCache;
+  recentActions: NodeCache;
   deletedChannels: Map<GuildId, any[]>;
   deletedRoles: Map<GuildId, any[]>;
   guildUnderAttack: Set<GuildId>;
   auditLogRequests: Map<GuildId, any>;
-  executorCache: Map<string, any>;
+  executorCache: NodeCache;
   backups: Map<GuildId, { channels: any[], roles: any[] }>;
   restoreTimers: Map<string, NodeJS.Timeout>;
-  notifiedAttacks: Map<string, number>;
+  notifiedAttacks: NodeCache;
   stats: Record<string, number>;
   constructor(client: ExtendedClient | null = null) {
     this.client = client;
     this.db = null;
     this.collection = null;
-    this.configs = new Map();
+    this.configs = new NodeCache({ stdTTL: 1800, checkperiod: 300 });
 
-    // Track recent actions: guildId -> userId -> [{ type, timestamp }]
-    this.recentActions = new Map();
+    // Track recent actions: guildId-userId -> [{ type, timestamp }]
+    this.recentActions = new NodeCache({ stdTTL: 300, checkperiod: 60 });
 
     // Track deleted channels for batch restoration: guildId -> [channel data]
     this.deletedChannels = new Map();
@@ -57,7 +58,7 @@ class AntiNuke {
     this.auditLogRequests = new Map();
 
     // Performance: Cache recent executors
-    this.executorCache = new Map();
+    this.executorCache = new NodeCache({ stdTTL: 60, checkperiod: 15 });
 
     // Simple backups: guildId -> { channels: [], roles: [] }
     this.backups = new Map();
@@ -67,7 +68,7 @@ class AntiNuke {
 
     // FIXED: Track notified attacks to prevent owner DM spam
     // guildId-executorId -> timestamp of last notification
-    this.notifiedAttacks = new Map();
+    this.notifiedAttacks = new NodeCache({ stdTTL: 300, checkperiod: 60 });
 
     // Stats
     this.stats = {
@@ -96,14 +97,23 @@ class AntiNuke {
   // ========================================
 
   getConfig(guildId: GuildId) {
-    const cached = this.configs.get(guildId);
+    let cached = this.configs.get(guildId) as any;
     const defaults = getDefaultConfig();
 
-    // Always merge with defaults to self-heal corrupted configs
-    return cached ? {
-      ...defaults,
-      ...cached
-    } : defaults;
+    if (!cached) {
+      cached = defaults;
+      this.configs.set(guildId, cached);
+      
+      if (this.collection) {
+        this.collection.findOne({ guildId }).then((doc: any) => {
+          if (doc && doc.config) {
+             this.configs.set(guildId, { ...defaults, ...doc.config });
+          }
+        }).catch(() => {});
+      }
+    }
+
+    return { ...defaults, ...cached };
   }
   async updateConfig(guildId: GuildId, newConfig: any) {
     return await updateConfig(this.collection, this.configs, guildId, newConfig);
@@ -349,13 +359,8 @@ class AntiNuke {
 
   startCleanupTimer() {
     setInterval(() => {
-      cleanupOldActions(this.recentActions);
-
       // FIXED: Cleanup old deletion tracking (prevent memory leak)
       this.cleanupDeletionTracking();
-
-      // FIXED: Cleanup old notification tracking
-      this.cleanupNotificationTracking();
     }, 60000);
   }
   cleanupDeletionTracking() {
@@ -382,16 +387,7 @@ class AntiNuke {
       }
     }
   }
-  cleanupNotificationTracking() {
-    const now = Date.now();
-    const maxAge = 5 * 60 * 1000; // 5 minutes
 
-    for (const [key, timestamp] of this.notifiedAttacks.entries()) {
-      if (now - timestamp > maxAge) {
-        this.notifiedAttacks.delete(key);
-      }
-    }
-  }
   startBackupTimer() {
     setTimeout(() => this.backupAllGuilds(), 5000);
     setInterval(() => this.backupAllGuilds(), 3600000);
@@ -403,7 +399,7 @@ class AntiNuke {
 
   getStatus(guildId: GuildId) {
     const config = this.getConfig(guildId);
-    const tracked = this.recentActions.get(guildId)?.size || 0;
+    const tracked = this.recentActions.keys().filter((k: string) => k.startsWith(`${guildId}-`)).length;
     const backup = this.backups.get(guildId);
     return {
       enabled: config.enabled,
@@ -417,7 +413,7 @@ class AntiNuke {
     };
   }
   resetUser(guildId: GuildId, userId: UserId) {
-    this.recentActions.get(guildId)?.delete(userId);
+    this.recentActions.del(`${guildId}-${userId}`);
   }
   setClient(client: ExtendedClient) {
     this.client = client;

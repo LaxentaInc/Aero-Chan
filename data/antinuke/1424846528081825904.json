@@ -1,7 +1,669 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1783441396275
+    "channels": [
+      {
+        "id": "1522382570451369995",
+        "name": "੭﹕﹒ಇ",
+        "type": 0,
+        "position": 11,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522377222072045630",
+        "name": "🗒﹒を﹒regras﹒๑",
+        "type": 0,
+        "position": 1,
+        "parentId": "1522376843418927114"
+      },
+      {
+        "id": "1522385184786219078",
+        "name": "🃏﹒を﹒mudae﹒๑",
+        "type": 0,
+        "position": 13,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522439524532224012",
+        "name": "🎧﹒を﹒música²﹒๑",
+        "type": 2,
+        "position": 3,
+        "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1522456555537305833",
+        "name": "੭﹕﹒ಇ",
+        "type": 0,
+        "position": 2,
+        "parentId": "1522455901485924393"
+      },
+      {
+        "id": "1522379260453453957",
+        "name": "੭﹕﹒Geral﹒ಇ.",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1522710544044523751",
+        "name": "੭﹕﹒Romance﹒ಇ.",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1522795065980883075",
+        "name": "🔇﹒を﹒afk²﹒๑",
+        "type": 2,
+        "position": 7,
+        "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1522717434618970293",
+        "name": "📢﹒を﹒reunião﹒๑",
+        "type": 2,
+        "position": 1,
+        "parentId": "1522714468013047838"
+      },
+      {
+        "id": "1523750235187314800",
+        "name": "Aero",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1522388385623314615",
+        "name": "੭﹕﹒Calls﹒ಇ.",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1522454853568167936",
+        "name": "🏪﹒を﹒farmácia﹒๑",
+        "type": 0,
+        "position": 19,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522379926878027887",
+        "name": "📷﹒を﹒mídias﹒๑",
+        "type": 0,
+        "position": 1,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522381282355712071",
+        "name": "🎞﹒を﹒edits﹒๑",
+        "type": 0,
+        "position": 6,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522381498240471283",
+        "name": "🎼﹒を﹒músicas﹒๑",
+        "type": 0,
+        "position": 9,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522450172318056508",
+        "name": "🏕﹒を﹒acampamento﹒๑",
+        "type": 0,
+        "position": 7,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522379688066945178",
+        "name": "💬﹒を﹒geral﹒๑",
+        "type": 0,
+        "position": 0,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522384976698544229",
+        "name": "🤖﹒を﹒comandos﹒๑",
+        "type": 0,
+        "position": 12,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522448398517665902",
+        "name": "🏙﹒を﹒cidade﹒๑",
+        "type": 0,
+        "position": 3,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522710409646313472",
+        "name": "੭﹕﹒K-pop﹒ಇ.",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1522713310703780032",
+        "name": "੭﹕﹒Filmes e séries﹒ಇ.",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1522454141706960916",
+        "name": "🚎﹒を﹒metrô﹒๑",
+        "type": 0,
+        "position": 11,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522380237508313181",
+        "name": "🎨﹒を﹒artes﹒๑",
+        "type": 0,
+        "position": 4,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522376843418927114",
+        "name": "੭﹕﹒Começo﹒ಇ.",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1522388662577266789",
+        "name": "🎙﹒を﹒call²﹒๑",
+        "type": 2,
+        "position": 1,
+        "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1523750239956373535",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1523750235187314800"
+      },
+      {
+        "id": "1522441309787394078",
+        "name": "💬﹒を﹒chat-call²﹒๑",
+        "type": 0,
+        "position": 1,
+        "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1522448902286999572",
+        "name": "🎡﹒を﹒parque﹒de﹒diversão﹒๑",
+        "type": 0,
+        "position": 5,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522717341173940294",
+        "name": "🎙️﹒を﹒Call﹒๑",
+        "type": 2,
+        "position": 0,
+        "parentId": "1522714468013047838"
+      },
+      {
+        "id": "1522448094665637928",
+        "name": "੭﹕﹒ಇ",
+        "type": 0,
+        "position": 2,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522454278617305198",
+        "name": "🏢﹒を﹒escola﹒๑",
+        "type": 0,
+        "position": 13,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522454406489182339",
+        "name": "🏥﹒を﹒hospital﹒๑",
+        "type": 0,
+        "position": 15,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522447123541393579",
+        "name": "੭﹕﹒RPG﹒ಇ.",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1522447449472503929",
+        "name": "🗃﹒を﹒ficha﹒๑",
+        "type": 0,
+        "position": 0,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522377543875821568",
+        "name": "⚰️﹒を﹒saída﹒๑",
+        "type": 0,
+        "position": 4,
+        "parentId": "1522376843418927114"
+      },
+      {
+        "id": "1522454735150645299",
+        "name": "🪩﹒を﹒clube﹒๑",
+        "type": 0,
+        "position": 18,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522448714436972654",
+        "name": "🏞﹒を﹒parque﹒central﹒๑",
+        "type": 0,
+        "position": 4,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522715109435244624",
+        "name": "💬﹒を﹒chat﹒๑",
+        "type": 0,
+        "position": 0,
+        "parentId": "1522714468013047838"
+      },
+      {
+        "id": "1522440155838025738",
+        "name": "🎮﹒を﹒Jogos²﹒๑",
+        "type": 2,
+        "position": 5,
+        "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1522460635550580856",
+        "name": "teste-bot",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1522455309090554016",
+        "name": "📢﹒を﹒avisos﹒๑",
+        "type": 5,
+        "position": 0,
+        "parentId": "1522376843418927114"
+      },
+      {
+        "id": "1522457600031981620",
+        "name": "👀﹒を﹒confissões﹒๑",
+        "type": 0,
+        "position": 4,
+        "parentId": "1522455901485924393"
+      },
+      {
+        "id": "1522453927075774575",
+        "name": "੭﹕﹒ಇ",
+        "type": 0,
+        "position": 9,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522794915979853945",
+        "name": "🔇﹒を﹒afk¹﹒๑",
+        "type": 2,
+        "position": 6,
+        "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1522707134687609064",
+        "name": "🎂﹒を﹒aniversário﹒๑",
+        "type": 0,
+        "position": 5,
+        "parentId": "1522455901485924393"
+      },
+      {
+        "id": "1522441034955751575",
+        "name": "💬﹒を﹒chat-call¹﹒๑",
+        "type": 0,
+        "position": 0,
+        "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1522400303427747850",
+        "name": "🎮﹒を﹒Jogos¹﹒๑",
+        "type": 2,
+        "position": 4,
+        "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1522377362535350504",
+        "name": "੭﹕﹒ಇ",
+        "type": 0,
+        "position": 2,
+        "parentId": "1522376843418927114"
+      },
+      {
+        "id": "1522452056928030882",
+        "name": "🌲﹒を﹒floresta﹒๑",
+        "type": 0,
+        "position": 8,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522381662040887366",
+        "name": "📑﹒を﹒poemas﹒๑",
+        "type": 0,
+        "position": 8,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522454659007119410",
+        "name": "🏦﹒を﹒banco﹒๑",
+        "type": 0,
+        "position": 16,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522454707971293285",
+        "name": "🛩﹒を﹒aeroporto﹒๑",
+        "type": 0,
+        "position": 17,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522454169607471134",
+        "name": "🎟﹒を﹒cinema﹒๑",
+        "type": 0,
+        "position": 12,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522449719119446167",
+        "name": "🏖﹒を﹒praia﹒๑",
+        "type": 0,
+        "position": 6,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522455901485924393",
+        "name": "੭﹕﹒Comunidade﹒ಇ.",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1522454897344249978",
+        "name": "🪼﹒を﹒aquário﹒๑",
+        "type": 0,
+        "position": 20,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522377450145710292",
+        "name": "🚪﹒を﹒entrada﹒๑",
+        "type": 0,
+        "position": 3,
+        "parentId": "1522376843418927114"
+      },
+      {
+        "id": "1522380007446679642",
+        "name": "੭﹕﹒ಇ",
+        "type": 0,
+        "position": 3,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522454307788820555",
+        "name": "🏨﹒を﹒hotel﹒๑",
+        "type": 0,
+        "position": 14,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522378844047409378",
+        "name": "📣﹒を﹒anúncios﹒๑",
+        "type": 0,
+        "position": 6,
+        "parentId": "1522376843418927114"
+      },
+      {
+        "id": "1522456430450573412",
+        "name": "✉️﹒を﹒sugestões-e-pedidos﹒๑",
+        "type": 15,
+        "position": 1,
+        "parentId": "1522455901485924393"
+      },
+      {
+        "id": "1522381953934819471",
+        "name": "🖥﹒を﹒programação﹒๑",
+        "type": 0,
+        "position": 10,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522714468013047838",
+        "name": "੭﹕﹒Staffs﹒ಇ",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1523750360483889182",
+        "name": "🎤﹒を﹒karaoke²﹒๑",
+        "type": 2,
+        "position": 9,
+        "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1522447635540344913",
+        "name": "📜﹒を﹒templates﹒๑",
+        "type": 0,
+        "position": 1,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1522795284105531464",
+        "name": "﹒を﹒face-reveal﹒๑",
+        "type": 0,
+        "position": 6,
+        "parentId": "1522455901485924393"
+      },
+      {
+        "id": "1522380829328936980",
+        "name": "✏️﹒を﹒wips﹒๑",
+        "type": 0,
+        "position": 5,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522377631566270536",
+        "name": "੭﹕﹒ಇ",
+        "type": 0,
+        "position": 5,
+        "parentId": "1522376843418927114"
+      },
+      {
+        "id": "1522383252810104903",
+        "name": "🎯﹒を﹒memes﹒๑",
+        "type": 0,
+        "position": 2,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522388586735996949",
+        "name": "🎙﹒を﹒call¹﹒๑",
+        "type": 2,
+        "position": 0,
+        "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1522457315515695205",
+        "name": "🦪﹒を﹒pérolas﹒๑",
+        "type": 0,
+        "position": 3,
+        "parentId": "1522455901485924393"
+      },
+      {
+        "id": "1522456091919908935",
+        "name": "📩﹒を﹒opniões﹒๑",
+        "type": 15,
+        "position": 0,
+        "parentId": "1522455901485924393"
+      },
+      {
+        "id": "1522385499107364874",
+        "name": "🎀﹒を﹒ações-nekotina﹒๑",
+        "type": 0,
+        "position": 14,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522453964522520676",
+        "name": "🍽﹒を﹒restaurante﹒๑",
+        "type": 0,
+        "position": 10,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1523750230468853902",
+        "name": "🎤﹒を﹒karaoke¹﹒๑",
+        "type": 2,
+        "position": 8,
+        "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1522794570306289685",
+        "name": "📚﹒を﹒histórias﹒๑",
+        "type": 0,
+        "position": 7,
+        "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1522388937195257926",
+        "name": "🎧﹒を﹒música¹﹒๑",
+        "type": 2,
+        "position": 2,
+        "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1522717068380737556",
+        "name": "📢﹒を﹒marcar-reunião﹒๑",
+        "type": 0,
+        "position": 1,
+        "parentId": "1522714468013047838"
+      },
+      {
+        "id": "1522459852784275497",
+        "name": "Casa nos rpgs",
+        "type": 11,
+        "parentId": "1522456430450573412"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1519750405133963284",
+        "name": "Resenhudos",
+        "color": 16737024,
+        "permissions": "8477234650152959",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520278111596445848",
+        "name": "Membros da resenhada",
+        "color": 0,
+        "permissions": "110191919431233",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520433877506719854",
+        "name": "Bots",
+        "color": 0,
+        "permissions": "2108850416648183",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520439355829653624",
+        "name": "👑 Dono",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 23,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1520538619343929364",
+        "name": "🛡️Administradores",
+        "color": 0,
+        "permissions": "8",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520552975091630301",
+        "name": "👑 Cofundador",
+        "color": 15105570,
+        "permissions": "8",
+        "position": 22,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520553615788474479",
+        "name": "⚖️ Gerente",
+        "color": 2123412,
+        "permissions": "6773001051710864",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520554727056740533",
+        "name": "🔨 Moderador",
+        "color": 10038562,
+        "permissions": "6756498982109190",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520555334115000377",
+        "name": "🤖 Bot",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520969372334686238",
+        "name": "Staff",
+        "color": 15158332,
+        "permissions": "7737810261376983",
+        "position": 21,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1522458825066545174",
+        "name": "Testes sarais",
+        "color": 7419530,
+        "permissions": "1720707884371521",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1522459019607019552",
+        "name": "Bots",
+        "color": 11027200,
+        "permissions": "1721807559716815",
+        "position": 20,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783442103708
   }
 }

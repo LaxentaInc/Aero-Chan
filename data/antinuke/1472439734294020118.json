@@ -1,7 +1,39 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1783441396127
+    "channels": [
+      {
+        "id": "1495287701119959130",
+        "name": "bots",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1520930976644075722",
+        "name": "respostas༄",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1521350540464754810",
+        "name": "cu",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1490958745700663426",
+        "name": "⌒⡷ .🍨⊰ 𝓐urudos da osako  ⊹``﹒๑",
+        "color": 16232367,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783442103444
   }
 }

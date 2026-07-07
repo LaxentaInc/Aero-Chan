@@ -1,7 +1,423 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1783441396164
+    "channels": [
+      {
+        "id": "1515029243615121459",
+        "name": "Kanały tekstowe",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1515029243615121460",
+        "name": "VC",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1515029243615121461",
+        "name": "𝕨𝕖𝕝𝕔𝕦𝕞𝕖",
+        "type": 0,
+        "position": 1,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515029243615121462",
+        "name": "𝕤𝕝𝕖𝕖𝕡",
+        "type": 2,
+        "position": 0,
+        "parentId": "1515029243615121460"
+      },
+      {
+        "id": "1515030045423571084",
+        "name": "🅖🅔🅝🅔🅡🅐🅛-⓿-❶",
+        "type": 0,
+        "position": 2,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515030364110983308",
+        "name": "𝑔𝑒𝑛𝑒𝑟𝑎𝑙-𝟶-𝟸",
+        "type": 0,
+        "position": 3,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515030424592846939",
+        "name": "𝔞𝔯𝔱",
+        "type": 0,
+        "position": 4,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515032337799446529",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1515036782251737200",
+        "name": "ǝı̣ɟןǝs",
+        "type": 0,
+        "position": 5,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515036839625359420",
+        "name": "ᴘɪᴄ",
+        "type": 0,
+        "position": 6,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515038167852388533",
+        "name": "🅿🅷🅾🆃🅾",
+        "type": 0,
+        "position": 7,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515038298203226212",
+        "name": "🅑🅞🅞🅚🅢",
+        "type": 0,
+        "position": 9,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515040196213866516",
+        "name": "𝕧𝕔 𝟚",
+        "type": 2,
+        "position": 1,
+        "parentId": "1515029243615121460"
+      },
+      {
+        "id": "1515040252220407879",
+        "name": "𝕜𝕒𝕣𝕒𝕠𝕜𝕖",
+        "type": 2,
+        "position": 2,
+        "parentId": "1515029243615121460"
+      },
+      {
+        "id": "1515040452284518480",
+        "name": "AFK",
+        "type": 2,
+        "position": 3,
+        "parentId": "1515029243615121460"
+      },
+      {
+        "id": "1515041780725453030",
+        "name": "𝕤𝕖𝕧𝕖𝕣-𝕣𝕦𝕝𝕖𝕤",
+        "type": 0,
+        "position": 10,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515053681677172887",
+        "name": "🆅🅴🆁🆈🅵🅸🅲🅰🆃🅸🅾🅽",
+        "type": 0,
+        "position": 0,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515075132119453756",
+        "name": "🆅🅸🅳🅴🅾",
+        "type": 0,
+        "position": 11,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515075358670454784",
+        "name": "🅘🅒🅩🅔🅝🅘🅔",
+        "type": 0,
+        "position": 12,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515075655115477217",
+        "name": "🍳⛎😀🍄𝓔",
+        "type": 0,
+        "position": 13,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515075740545060894",
+        "name": "ꭶꭷꭷꮄ",
+        "type": 0,
+        "position": 14,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515075809730101248",
+        "name": "🐬🌱🕴🥄🎉",
+        "type": 0,
+        "position": 15,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515076095597215804",
+        "name": "ᅳeᅳᅳdᅳᅳiᅳᅳtᅳᅳsᅳ",
+        "type": 0,
+        "position": 16,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515076240309223564",
+        "name": "år†§",
+        "type": 0,
+        "position": 17,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515086393184096420",
+        "name": "role",
+        "type": 0,
+        "position": 8,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515194398139486278",
+        "name": "about-you",
+        "type": 0,
+        "position": 18,
+        "parentId": "1515029243615121459"
+      },
+      {
+        "id": "1515816841082306711",
+        "name": "Vc1",
+        "type": 2,
+        "position": 4,
+        "parentId": "1515029243615121460"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1515089674929045534",
+        "name": "michu",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515088119974596660",
+        "name": "3",
+        "color": 0,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515029396556218569",
+        "name": "Moderation",
+        "color": 10181046,
+        "permissions": "8864258447638527",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515086779391283320",
+        "name": "he",
+        "color": 0,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515088145421701260",
+        "name": "67",
+        "color": 0,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515086750672748755",
+        "name": "hi",
+        "color": 0,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515086605705281689",
+        "name": "she",
+        "color": 0,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515079946639511563",
+        "name": "npw role",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515086798584283236",
+        "name": "they",
+        "color": 0,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515088192431194183",
+        "name": "15",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515087993784762479",
+        "name": "dziewczyna",
+        "color": 0,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515088160156028969",
+        "name": "8",
+        "color": 0,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515086543067414698",
+        "name": "xe/xim",
+        "color": 0,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515086727050559558",
+        "name": "hers",
+        "color": 0,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515077171717210133",
+        "name": "пѳт ѵёячfїёд",
+        "color": 1572608,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515088273750491267",
+        "name": "18+",
+        "color": 0,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515088129982332938",
+        "name": "4",
+        "color": 0,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515086896319955023",
+        "name": "ona",
+        "color": 0,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515077312247238727",
+        "name": "ѵε૨ყƒเε∂",
+        "color": 16711819,
+        "permissions": "8",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515715072675020873",
+        "name": "Moderation",
+        "color": 10181046,
+        "permissions": "8864262470499955",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515088109212274809",
+        "name": "2",
+        "color": 0,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515088174324514948",
+        "name": "9",
+        "color": 0,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515086876787085332",
+        "name": "them",
+        "color": 0,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515088062290596070",
+        "name": "1",
+        "color": 0,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515086939383140595",
+        "name": "chlopak",
+        "color": 0,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783442103502
   }
 }

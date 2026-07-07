@@ -1,7 +1,46 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1783441396192
+    "channels": [
+      {
+        "id": "1514714283425005608",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1514714283425005609",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1514714283425005611",
+        "name": "afk",
+        "type": 2,
+        "position": 0,
+        "parentId": "1514714283425005609"
+      },
+      {
+        "id": "1524068048296874036",
+        "name": "chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514714283425005608"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1514720790279360693",
+        "name": "femboy",
+        "color": 0,
+        "permissions": "8863983569731583",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783442103549
   }
 }
