@@ -1,52 +1,7 @@
 {
   "backup": {
-    "channels": [
-      {
-        "id": "1514714283425005608",
-        "name": "Canales de texto",
-        "type": 4,
-        "position": 0,
-        "parentId": null
-      },
-      {
-        "id": "1514714283425005609",
-        "name": "Canales de voz",
-        "type": 4,
-        "position": 1,
-        "parentId": null
-      },
-      {
-        "id": "1514714283425005610",
-        "name": "general",
-        "type": 0,
-        "position": 0,
-        "parentId": "1514714283425005608"
-      },
-      {
-        "id": "1514714283425005611",
-        "name": "afk",
-        "type": 2,
-        "position": 0,
-        "parentId": "1514714283425005609"
-      },
-      {
-        "id": "1520504136980762745",
-        "name": "Neko chatbot con Kosta Kecmanovic  ⚣",
-        "type": 11,
-        "parentId": "1514714283425005610"
-      }
-    ],
-    "roles": [
-      {
-        "id": "1514720790279360693",
-        "name": "femboy",
-        "color": 0,
-        "permissions": "8863983569731583",
-        "position": 2,
-        "hoist": false,
-        "mentionable": false
-      }
-    ],
-    "updated": 1783359813790
+    "channels": [],
+    "roles": [],
+    "updated": 1783441396192
   }
 }

@@ -1,43 +1,7 @@
 {
   "backup": {
-    "channels": [
-      {
-        "id": "1480002034546638960",
-        "name": "Text channels",
-        "type": 4,
-        "position": 0,
-        "parentId": null
-      },
-      {
-        "id": "1480002034546638961",
-        "name": "Voice channels",
-        "type": 4,
-        "position": 1,
-        "parentId": null
-      },
-      {
-        "id": "1480002034546638962",
-        "name": "‧₊˚-main┊",
-        "type": 0,
-        "position": 0,
-        "parentId": "1480002034546638960"
-      },
-      {
-        "id": "1480002034546638963",
-        "name": "‧₊˚-chill┊",
-        "type": 2,
-        "position": 1,
-        "parentId": "1480002034546638961"
-      },
-      {
-        "id": "1480002676753174631",
-        "name": "‧₊˚-gaming┊",
-        "type": 2,
-        "position": 0,
-        "parentId": "1480002034546638961"
-      }
-    ],
+    "channels": [],
     "roles": [],
-    "updated": 1783359813892
+    "updated": 1783441396306
   }
 }

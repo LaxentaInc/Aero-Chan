@@ -1,36 +1,7 @@
 {
   "backup": {
-    "channels": [
-      {
-        "id": "1460179478499164295",
-        "name": "Text Channels",
-        "type": 4,
-        "position": 0,
-        "parentId": null
-      },
-      {
-        "id": "1460179478499164296",
-        "name": "Voice Channels",
-        "type": 4,
-        "position": 1,
-        "parentId": null
-      },
-      {
-        "id": "1460179478499164297",
-        "name": "porn",
-        "type": 0,
-        "position": 0,
-        "parentId": "1460179478499164295"
-      },
-      {
-        "id": "1460179478499164298",
-        "name": "porn",
-        "type": 2,
-        "position": 0,
-        "parentId": "1460179478499164296"
-      }
-    ],
+    "channels": [],
     "roles": [],
-    "updated": 1783359813712
+    "updated": 1783441396086
   }
 }

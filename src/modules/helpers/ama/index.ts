@@ -8,6 +8,7 @@ import { handleModeratorAction, trackAction, handleMassActionViolation, isTruste
 import { executePunishment, stripDangerousRoles } from "./punishment";
 import { notifyAndLog } from "./notification";
 import logManager from "../logManager";
+import NodeCache from "node-cache";
 /**
  * Mass Action Protection Module (AMA)
  * Modularized version
@@ -15,30 +16,23 @@ import logManager from "../logManager";
 
 class MassActionProtectionModule {
   moduleName: string;
-  configs: Map<GuildId, any>;
-  actionTracking: Map<GuildId, Map<UserId, any[]>>;
+  configs: NodeCache;
+  actionTracking: NodeCache;
   processingViolations: Set<string>;
   mongoClient: any;
   db: any;
   collection: any;
   client: ExtendedClient | null;
-  syncInterval: NodeJS.Timeout | null;
-  cleanupInterval: NodeJS.Timeout | null;
+  
   constructor(discordClient: ExtendedClient | null = null) {
     this.moduleName = 'mass-action-protection';
-    this.configs = new Map(); // guildId -> config cache
-    this.actionTracking = new Map(); // guildId -> Map(userId -> actions[])
+    this.configs = new NodeCache({ stdTTL: 1800, checkperiod: 300 });
+    this.actionTracking = new NodeCache({ stdTTL: 300, checkperiod: 60 }); // 5 min
     this.processingViolations = new Set(); // Globally track users being punished to prevent spam (Debounce)
     this.mongoClient = null;
     this.db = null;
     this.collection = null;
     this.client = discordClient;
-
-    // Sync configs every 30 minutes
-    this.syncInterval = setInterval(() => this.syncConfigs(), 1800000);
-
-    // Clean old action tracking every 5 minutes
-    this.cleanupInterval = setInterval(() => this.cleanupOldActions(), 300000);
 
     // Initialize MongoDB connection
     this.initMongoDB();
@@ -81,14 +75,23 @@ class MassActionProtectionModule {
    * Get configuration for a guild (with defaults)
    */
   getConfig(guildId: GuildId) {
-    const cached = this.configs.get(guildId) as any;
+    let cached = this.configs.get(guildId) as any;
     const defaults = getDefaultConfig();
 
-    // Always merge with defaults to self-heal corrupted configs
-    return cached ? {
-      ...defaults,
-      ...cached
-    } : defaults;
+    if (!cached) {
+      cached = defaults;
+      this.configs.set(guildId, cached);
+      
+      if (this.collection) {
+        this.collection.findOne({ guildId }).then((doc: any) => {
+          if (doc && doc.config) {
+             this.configs.set(guildId, { ...defaults, ...doc.config });
+          }
+        }).catch(() => {});
+      }
+    }
+
+    return { ...defaults, ...cached };
   }
 
   /**
@@ -171,11 +174,8 @@ class MassActionProtectionModule {
     return isTrustedUser(user, guild, config);
   }
 
-  /**
-   * Clean up old action tracking data
-   */
   cleanupOldActions() {
-    cleanupOldActions(this.actionTracking, (gid: GuildId) => this.getConfig(gid));
+    // Left empty as NodeCache handles cleanup via TTL
   }
 
   /**
@@ -212,24 +212,31 @@ class MassActionProtectionModule {
    * Get current action tracking stats for a guild
    */
   getTrackingStats(guildId: any) {
-    const guildTracking = this.actionTracking.get(guildId) as any;
-    if (!guildTracking) return {
+    const prefix = `${guildId}-`;
+    const keys = this.actionTracking.keys().filter(k => k.startsWith(prefix));
+    
+    if (keys.length === 0) return {
       activeUsers: 0,
       totalActions: 0
     };
+    
     let totalActions = 0;
-    guildTracking.forEach((userActions: any) => {
-      totalActions += userActions.length;
-    });
-    return {
-      activeUsers: guildTracking.size,
-      totalActions,
-      userBreakdown: Array.from(guildTracking.entries()).map(([userId, actions]: any) => ({
+    const userBreakdown = keys.map(key => {
+      const actions = (this.actionTracking.get(key) as any[]) || [];
+      const userId = key.replace(prefix, '');
+      totalActions += actions.length;
+      return {
         userId,
         actionCount: actions.length,
         kicks: actions.filter((a: any) => a.type === 'MEMBER_KICK').length,
         bans: actions.filter((a: any) => a.type === 'MEMBER_BAN_ADD').length
-      }))
+      };
+    });
+
+    return {
+      activeUsers: keys.length,
+      totalActions,
+      userBreakdown
     };
   }
 
@@ -302,12 +309,8 @@ class MassActionProtectionModule {
    */
   async shutdown() {
     console.log(`[${this.moduleName}] 🛑 Shutting down...`);
-    if (this.syncInterval) {
-      clearInterval(this.syncInterval);
-    }
-    if (this.cleanupInterval) {
-      clearInterval(this.cleanupInterval);
-    }
+    this.configs.close();
+    this.actionTracking.close();
     if (this.mongoClient) {
       await this.mongoClient.close();
       console.log(`[${this.moduleName}] ✅ MongoDB connection closed`);

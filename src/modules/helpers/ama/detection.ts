@@ -122,17 +122,8 @@ async function trackAction(guildId: any, executorId: any, actionType: any, targe
     return;
   }
 
-  // Initialize tracking for guild if needed
-  if (!actionTracking.has(guildId)) {
-    actionTracking.set(guildId, new Map());
-  }
-  const guildTracking = actionTracking.get(guildId) as any;
-
-  // Initialize tracking for user if needed
-  if (!guildTracking.has(executorId)) {
-    guildTracking.set(executorId, []);
-  }
-  const userActions = guildTracking.get(executorId) as any;
+  // Retrieve tracking for user
+  const userActions = (actionTracking.get(uniqueKey) as any[]) || [];
   const now = Date.now();
 
   // Extract user info safely
@@ -150,7 +141,7 @@ async function trackAction(guildId: any, executorId: any, actionType: any, targe
   // Remove actions outside time window
   const timeWindowMs = config.timeWindow * 1000;
   const recentActions = userActions.filter((action: any) => now - action.timestamp < timeWindowMs);
-  guildTracking.set(executorId, recentActions);
+  actionTracking.set(uniqueKey, recentActions);
 
   // Count actions by type
   const kickCount = recentActions.filter((a: any) => a.type === 'MEMBER_KICK').length;

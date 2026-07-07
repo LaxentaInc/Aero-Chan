@@ -3,11 +3,13 @@ import { ExtendedClient } from "../../../types/client";
 import { GuildId, UserId } from "../../../types/antiraid";
 import { Message, GuildMember } from "discord.js";
 import { checkMessageSpam, checkLinkSpamFast, checkImageSpam, checkWebhookSpam } from "./detection";
-import { getUserActivity, trackMessage, cleanup, resetUserStrikes, getUserStrikes, clearCache } from "./tracking";
+import { getUserActivity, trackMessage, resetUserStrikes, getUserStrikes, clearCache } from "./tracking";
 import { initDB, refreshConfig, updateConfig, syncConfigs } from "./database";
 import { executePunishment } from "./punishment";
 import { sendWarnings, notifyPunishment, notifyTrustedSpam } from "./notification";
 import logManager from "../logManager";
+import NodeCache from "node-cache";
+
 /**
  * AntiSpam System - Main Entry Point
  * Modular spam protection for Laxenta
@@ -16,12 +18,11 @@ import logManager from "../logManager";
 class SpamProtection {
   client: ExtendedClient | null;
   db: any;
-  configs: Map<GuildId, any>;
-  configLastRefresh: Map<GuildId, number>;
-  userActivity: Map<GuildId, Map<UserId, any[]>>;
-  punishmentLocks: Map<string, number>;
-  recentNotifications: Map<string, number>;
-  strikeCooldowns: Map<string, number>;
+  configs: NodeCache;
+  userActivity: NodeCache;
+  punishmentLocks: NodeCache;
+  recentNotifications: NodeCache;
+  strikeCooldowns: NodeCache;
   pendingDeletes: Map<string, Set<string>>;
   deleteTimers: Map<string, NodeJS.Timeout>;
   trustedUsersSets: Map<GuildId, Set<UserId>>;
@@ -32,16 +33,15 @@ class SpamProtection {
   constructor(client: ExtendedClient | null = null) {
     this.client = client;
     this.db = null;
-    this.configs = new Map();
-    this.configLastRefresh = new Map();
+    this.configs = new NodeCache({ stdTTL: 3600, checkperiod: 600 }); // 1 hour
 
-    // Track user activity
-    this.userActivity = new Map();
+    // Track user activity (TTL handled per entry)
+    this.userActivity = new NodeCache({ stdTTL: 300, checkperiod: 30 }); // 5 mins
 
     // Race condition prevention
-    this.punishmentLocks = new Map();
-    this.recentNotifications = new Map();
-    this.strikeCooldowns = new Map(); // Prevent rapid strike accumulation
+    this.punishmentLocks = new NodeCache({ stdTTL: 10, checkperiod: 2 });
+    this.recentNotifications = new NodeCache({ stdTTL: 300, checkperiod: 60 });
+    this.strikeCooldowns = new NodeCache({ stdTTL: 5, checkperiod: 1 });
 
     // Batch deletion
     this.pendingDeletes = new Map();
@@ -64,7 +64,6 @@ class SpamProtection {
     this.linkRegex = /(https?:\/\/[^\s]+)/gi;
     this.discordInviteRegex = /(discord\.gg|discord\.com\/invite|discordapp\.com\/invite)\/[a-zA-Z0-9]+/gi;
     this.initDB();
-    this.startCleanupTimer();
   }
 
   // Set client (must be called after bot is ready)
@@ -81,33 +80,34 @@ class SpamProtection {
     }
   }
 
-  // Initialize MongoDB
   async initDB() {
     const {
       collection
     } = await initDB();
     this.db = collection;
-    if (this.db) {
-      await syncConfigs(this.db, this.configs, this.configLastRefresh, this.trustedUsersSets, this.trustedRolesSets);
-    }
   }
 
   // Get config (with caching)
   getConfig(guildId: GuildId) {
-    const lastRefresh = this.configLastRefresh.get(guildId) || 0;
-    const needsRefresh = Date.now() - lastRefresh > 3600000; // 1 hour cache
-
-    if (needsRefresh && this.db) {
-      refreshConfig(this.db, guildId, this.configs, this.configLastRefresh, this.trustedUsersSets, this.trustedRolesSets).catch(() => {});
-    }
-    const cached = this.configs.get(guildId);
+    let cached = this.configs.get(guildId) as any;
     const defaults = getDefaultConfig();
 
-    // Always merge with defaults to self-heal corrupted configs
-    return cached ? {
-      ...defaults,
-      ...cached
-    } : defaults;
+    if (!cached) {
+      cached = defaults;
+      this.configs.set(guildId, cached);
+      
+      if (this.db) {
+        this.db.findOne({ guildId }).then((doc: any) => {
+          if (doc && doc.config) {
+             const fullConfig = { ...defaults, ...doc.config };
+             this.configs.set(guildId, fullConfig);
+             buildTrustedSets(guildId, fullConfig, this.trustedUsersSets, this.trustedRolesSets);
+          }
+        }).catch(() => {});
+      }
+    }
+
+    return { ...defaults, ...cached };
   }
 
   // Update config
@@ -491,9 +491,7 @@ class SpamProtection {
 
   // Start cleanup timer
   startCleanupTimer() {
-    setInterval(() => {
-      cleanup(this.userActivity, this.punishmentLocks, this.recentNotifications, (guildId: any) => this.getConfig(guildId), this.stats);
-    }, 60000); // Every minute
+    // Deprecated: NodeCache handles this internally
   }
 
   // Utility methods

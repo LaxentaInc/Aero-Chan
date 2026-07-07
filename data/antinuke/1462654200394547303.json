@@ -1,57 +1,7 @@
 {
   "backup": {
-    "channels": [
-      {
-        "id": "1462654201468424305",
-        "name": "Text Channels",
-        "type": 4,
-        "position": 0,
-        "parentId": null
-      },
-      {
-        "id": "1462654201468424306",
-        "name": "Voice Channels",
-        "type": 4,
-        "position": 1,
-        "parentId": null
-      },
-      {
-        "id": "1462654201468424308",
-        "name": "General",
-        "type": 2,
-        "position": 0,
-        "parentId": "1462654201468424306"
-      },
-      {
-        "id": "1480733538138718360",
-        "name": "welcome-🎥",
-        "type": 0,
-        "position": 0,
-        "parentId": "1462654201468424305"
-      },
-      {
-        "id": "1480733568912068649",
-        "name": "rules",
-        "type": 0,
-        "position": 1,
-        "parentId": "1462654201468424305"
-      },
-      {
-        "id": "1522356969363476598",
-        "name": "crumpets-dirt",
-        "type": 0,
-        "position": 2,
-        "parentId": "1462654201468424305"
-      },
-      {
-        "id": "1522357009528262686",
-        "name": "idk-everyone-else",
-        "type": 0,
-        "position": 3,
-        "parentId": "1462654201468424305"
-      }
-    ],
+    "channels": [],
     "roles": [],
-    "updated": 1783359813894
+    "updated": 1783441396309
   }
 }

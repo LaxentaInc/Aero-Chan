@@ -1,43 +1,7 @@
 {
   "backup": {
-    "channels": [
-      {
-        "id": "1521987307832611068",
-        "name": "Canales de texto",
-        "type": 4,
-        "position": 0,
-        "parentId": null
-      },
-      {
-        "id": "1521987307832611069",
-        "name": "Canales de voz",
-        "type": 4,
-        "position": 1,
-        "parentId": null
-      },
-      {
-        "id": "1521987307832611070",
-        "name": "general",
-        "type": 0,
-        "position": 0,
-        "parentId": "1521987307832611068"
-      },
-      {
-        "id": "1521987307832611071",
-        "name": "General",
-        "type": 2,
-        "position": 0,
-        "parentId": "1521987307832611069"
-      },
-      {
-        "id": "1521989322134388766",
-        "name": "estemmm-cosos-y-eso",
-        "type": 0,
-        "position": 0,
-        "parentId": null
-      }
-    ],
+    "channels": [],
     "roles": [],
-    "updated": 1783359813893
+    "updated": 1783441396308
   }
 }

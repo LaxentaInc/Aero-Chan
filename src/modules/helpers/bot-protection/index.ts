@@ -8,6 +8,8 @@ import { stripBotPermissions } from "./permissions";
 import { punishUser } from "./punishment";
 import { logPunishmentFailure, notifyGoodBotPermissionStrip, notifyOwner, logBotKick } from "./notification";
 import logManager from "../logManager";
+import NodeCache from "node-cache";
+
 /**
  * Bot Protection Module - Main Entry Point
  * Modular bot protection for Discord servers
@@ -18,21 +20,18 @@ import logManager from "../logManager";
 
 class BotProtectionModule {
   moduleName: string;
-  configs: Map<GuildId, any>;
+  configs: NodeCache;
   mongoClient: any;
   db: any;
   collection: any;
   client: ExtendedClient | null = null;
-  syncInterval: NodeJS.Timeout | null;
+  
   constructor() {
     this.moduleName = 'bot-protection';
-    this.configs = new Map(); // guildId -> config cache
+    this.configs = new NodeCache({ stdTTL: 1800, checkperiod: 300 }); // 30 min cache
     this.mongoClient = null;
     this.db = null;
     this.collection = null;
-
-    // Sync configs every 30 minutes
-    this.syncInterval = setInterval(() => this.syncConfigs(), 1800000);
 
     // Initialize MongoDB connection
     this.initMongoDB();
@@ -78,14 +77,24 @@ class BotProtectionModule {
    * Get configuration for a guild (with defaults)
    */
   getConfig(guildId: GuildId) {
-    const cached = this.configs.get(guildId);
+    let cached = this.configs.get(guildId) as any;
     const defaults = getDefaultConfig();
 
-    // Always merge with defaults to self-heal corrupted configs
-    return cached ? {
-      ...defaults,
-      ...cached
-    } : defaults;
+    if (!cached) {
+      cached = defaults;
+      this.configs.set(guildId, cached);
+    }
+    
+    // Stale-while-revalidate: Fetch from DB in background if not already fetching
+    if (this.collection) {
+      this.collection.findOne({ guildId }).then((doc: any) => {
+        if (doc && doc.config) {
+            this.configs.set(guildId, { ...defaults, ...doc.config });
+        }
+      }).catch(() => {});
+    }
+
+    return { ...defaults, ...cached };
   }
 
   /**
@@ -287,9 +296,8 @@ class BotProtectionModule {
    */
   async shutdown() {
     console.log(`[${this.moduleName}] 🛑 Shutting down...`);
-    if (this.syncInterval) {
-      clearInterval(this.syncInterval);
-    }
+    this.configs.close();
+    console.log(`[${this.moduleName}] Module destroyed`);
     if (this.mongoClient) {
       await this.mongoClient.close();
       console.log(`[${this.moduleName}] ✅ MongoDB connection closed`);

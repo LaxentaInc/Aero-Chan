@@ -1,36 +1,7 @@
 {
   "backup": {
-    "channels": [
-      {
-        "id": "1423900222630924308",
-        "name": "Text Channels",
-        "type": 4,
-        "position": 0,
-        "parentId": null
-      },
-      {
-        "id": "1423900222630924309",
-        "name": "Voice Channels",
-        "type": 4,
-        "position": 1,
-        "parentId": null
-      },
-      {
-        "id": "1423900222630924310",
-        "name": "general",
-        "type": 0,
-        "position": 0,
-        "parentId": "1423900222630924308"
-      },
-      {
-        "id": "1423900222630924311",
-        "name": "General",
-        "type": 2,
-        "position": 0,
-        "parentId": "1423900222630924309"
-      }
-    ],
+    "channels": [],
     "roles": [],
-    "updated": 1783359813875
+    "updated": 1783441396291
   }
 }

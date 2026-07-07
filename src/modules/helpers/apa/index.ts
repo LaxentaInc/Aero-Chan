@@ -9,6 +9,7 @@ import { notifyAndLog, notifyPermissionFailure, notifyIgnoredAction } from "./no
 import { registerStoredButtons } from "./buttons";
 import db from "./database";
 import logManager from "../logManager";
+import NodeCache from "node-cache";
 /**
  * APA (Anti-Permission Abuse) Module - Main Orchestrator
  * 
@@ -22,18 +23,17 @@ require('dotenv').config();
 class AntiPermissionAbuse {
   moduleName: string;
   client: ExtendedClient | null;
-  configs: Map<GuildId, any>;
-  punishedUsers: Map<GuildId, Map<UserId, number>>;
+  configs: NodeCache;
+  punishedUsers: NodeCache;
   metrics: Record<string, number>;
-  syncInterval: NodeJS.Timeout | null;
-  cleanupInterval: NodeJS.Timeout | null;
+  
   constructor(client: ExtendedClient | null = null) {
     this.moduleName = 'APA';
     this.client = client;
-    this.configs = new Map();
+    this.configs = new NodeCache({ stdTTL: 1800, checkperiod: 300 });
 
-    // Duplicate punishment prevention: guildId -> Map<userId, timestamp>
-    this.punishedUsers = new Map();
+    // Duplicate punishment prevention: guildId-userId -> timestamp
+    this.punishedUsers = new NodeCache({ stdTTL: 60, checkperiod: 15 });
 
     // Performance metrics
     this.metrics = {
@@ -52,13 +52,7 @@ class AntiPermissionAbuse {
   async init() {
     // Initialize DB connection
     await db.connect();
-    await this.syncConfigs();
-
-    // Cleanup punished users periodically
-    this.cleanupInterval = setInterval(() => this.cleanupPunishedUsers(), 60000);
-
-    // Sync configs periodically (30 minutes)
-    this.syncInterval = setInterval(() => this.syncConfigs(), 1800000);
+    // Buttons are now registered in setClient to ensure DB/Client readiness
 
     // Buttons are now registered in setClient to ensure DB/Client readiness
 
@@ -93,14 +87,23 @@ class AntiPermissionAbuse {
     }
   }
   getConfig(guildId: GuildId) {
-    const cached = this.configs.get(guildId) as any;
+    let cached = this.configs.get(guildId) as any;
     const defaults = getDefaultConfig();
 
-    // Always merge with defaults to self-heal corrupted configs
-    return cached ? {
-      ...defaults,
-      ...cached
-    } : defaults;
+    if (!cached) {
+      cached = defaults;
+      this.configs.set(guildId, cached);
+      
+      if (db.collection) {
+        db.collection.findOne({ guildId }).then((doc: any) => {
+          if (doc && doc.config) {
+             this.configs.set(guildId, { ...defaults, ...doc.config });
+          }
+        }).catch(() => {});
+      }
+    }
+
+    return { ...defaults, ...cached };
   }
   async updateConfig(guildId: GuildId, newConfig: any) {
     const success = await db.updateConfig(guildId, newConfig);
@@ -385,33 +388,12 @@ class AntiPermissionAbuse {
   // ==========================================
 
   isAlreadyPunished(guildId: any, userId: any) {
-    if (!this.punishedUsers.has(guildId)) {
-      return false;
-    }
-    const guildPunished = this.punishedUsers.get(guildId) as any;
-    return guildPunished.has(userId);
+    return this.punishedUsers.has(`${guildId}-${userId}`);
   }
   markAsPunished(guildId: any, userId: any) {
-    if (!this.punishedUsers.has(guildId)) {
-      this.punishedUsers.set(guildId, new Map());
-    }
-    const guildPunished = this.punishedUsers.get(guildId) as any;
-    guildPunished.set(userId, Date.now());
-  }
-  cleanupPunishedUsers() {
-    const now = Date.now();
-    this.punishedUsers.forEach((guildPunished: any, guildId: any) => {
-      const config = this.getConfig(guildId);
-      const cooldownMs = (config.punishmentCooldown || 300) * 1000;
-      guildPunished.forEach((timestamp: any, userId: any) => {
-        if (now - timestamp > cooldownMs) {
-          guildPunished.delete(userId);
-        }
-      });
-      if (guildPunished.size === 0) {
-        this.punishedUsers.delete(guildId);
-      }
-    });
+    const config = this.getConfig(guildId);
+    const cooldownMs = (config.punishmentCooldown || 300);
+    this.punishedUsers.set(`${guildId}-${userId}`, Date.now(), cooldownMs);
   }
 
   // ==========================================
@@ -437,8 +419,8 @@ class AntiPermissionAbuse {
   }
   async shutdown() {
     console.log(`[${this.moduleName}] 🛑 Shutting down...`);
-    if (this.syncInterval) clearInterval(this.syncInterval);
-    if (this.cleanupInterval) clearInterval(this.cleanupInterval);
+    this.configs.close();
+    this.punishedUsers.close();
     await db.close();
   }
 }

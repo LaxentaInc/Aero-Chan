@@ -3,7 +3,7 @@
     "channels": [
       {
         "id": "1170037204966449153",
-        "name": "Members: 23",
+        "name": "Members: 22",
         "type": 2,
         "position": 1,
         "parentId": "1170037196577853531"
@@ -115,7 +115,7 @@
       },
       {
         "id": "1170037200428208318",
-        "name": "All Members: 58",
+        "name": "All Members: 57",
         "type": 2,
         "position": 0,
         "parentId": "1170037196577853531"
@@ -789,6 +789,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1783359813885
+    "updated": 1783441396302
   }
 }
