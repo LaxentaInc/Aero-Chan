@@ -7,8 +7,7 @@
     "strict": true,
     "noImplicitOverride": true,
     "skipLibCheck": true,
-    // @ts-ignore
-    "ignoreDeprecations": "6.0",
+    "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
       "@/*": [

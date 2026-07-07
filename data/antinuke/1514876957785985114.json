@@ -16,6 +16,13 @@
         "parentId": "1522031720814088252"
       },
       {
+        "id": "1524094764666978355",
+        "name": "Speed Dating Table 2",
+        "type": 2,
+        "position": 9,
+        "parentId": "1514876958272393227"
+      },
+      {
         "id": "1522041359593373727",
         "name": "suggestions",
         "type": 0,
@@ -30,10 +37,24 @@
         "parentId": "1514876958272393227"
       },
       {
+        "id": "1524099705552896101",
+        "name": "gaming🕹️",
+        "type": 0,
+        "position": 11,
+        "parentId": "1522028100425089024"
+      },
+      {
+        "id": "1524094908024094790",
+        "name": "Speed Dating Table 3",
+        "type": 2,
+        "position": 10,
+        "parentId": "1514876958272393227"
+      },
+      {
         "id": "1522050391452156064",
         "name": "Lonely Corner",
         "type": 2,
-        "position": 3,
+        "position": 2,
         "parentId": "1514876958272393227"
       },
       {
@@ -58,6 +79,20 @@
         "parentId": "1522028588214259793"
       },
       {
+        "id": "1524093495676108970",
+        "name": "Need Company",
+        "type": 2,
+        "position": 6,
+        "parentId": "1514876958272393227"
+      },
+      {
+        "id": "1524094701110563086",
+        "name": "Speed Dating Table 1",
+        "type": 2,
+        "position": 8,
+        "parentId": "1514876958272393227"
+      },
+      {
         "id": "1522041876885143602",
         "name": "logs",
         "type": 0,
@@ -77,6 +112,20 @@
         "type": 0,
         "position": 5,
         "parentId": "1522041690641141985"
+      },
+      {
+        "id": "1524093501766369524",
+        "name": "Aero",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1524093505432195294",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1524093501766369524"
       },
       {
         "id": "1521951965058433245",
@@ -138,7 +187,7 @@
         "id": "1522421126876233779",
         "name": "music request 3",
         "type": 2,
-        "position": 6,
+        "position": 5,
         "parentId": "1514876958272393227"
       },
       {
@@ -222,7 +271,7 @@
         "id": "1522420935083163668",
         "name": "music request 1",
         "type": 2,
-        "position": 4,
+        "position": 3,
         "parentId": "1514876958272393227"
       },
       {
@@ -273,6 +322,13 @@
         "type": 0,
         "position": 4,
         "parentId": "1522041690641141985"
+      },
+      {
+        "id": "1524093725222113540",
+        "name": "Looking for a partner/friend",
+        "type": 2,
+        "position": 7,
+        "parentId": "1514876958272393227"
       },
       {
         "id": "1522320532027211967",
@@ -352,13 +408,6 @@
         "parentId": "1522041690641141985"
       },
       {
-        "id": "1521899185937580122",
-        "name": "Vc 1",
-        "type": 2,
-        "position": 1,
-        "parentId": "1514876958272393227"
-      },
-      {
         "id": "1522953926519947496",
         "name": "arsenal",
         "type": 0,
@@ -383,14 +432,14 @@
         "id": "1522421076024496199",
         "name": "music request 2",
         "type": 2,
-        "position": 5,
+        "position": 4,
         "parentId": "1514876958272393227"
       },
       {
         "id": "1522050022496145649",
         "name": "freaky",
         "type": 2,
-        "position": 2,
+        "position": 1,
         "parentId": "1514876958272393227"
       },
       {
@@ -451,12 +500,6 @@
         "name": "Huuhh",
         "type": 11,
         "parentId": "1522041827799072948"
-      },
-      {
-        "id": "1523853646444630206",
-        "name": "Uncertain",
-        "type": 11,
-        "parentId": "1522953926519947496"
       }
     ],
     "roles": [
@@ -677,6 +720,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1783442279393
+    "updated": 1783444258525
   }
 }

@@ -152,21 +152,37 @@ function initializeManager(client: any) {
 function getNode(client: any) {
   const nodeManager = client.lavalink.nodeManager;
 
-  // Try leastUsedNodes
-  if (nodeManager.leastUsedNodes?.length > 0) {
-    return nodeManager.leastUsedNodes[0];
+  // Try connected nodes from map that have populated info (meaning /v4/info succeeded)
+  if (nodeManager.nodes) {
+    const fullyConnected = [...nodeManager.nodes.values()].filter((n: any) => {
+      console.log(`[getNode] Checking node ${n.id} | connected: ${n.connected} | info present: ${!!n.info}`);
+      return n.connected && !!n.info;
+    });
+    if (fullyConnected.length > 0) return fullyConnected[0];
   }
 
-  // Try connected nodes from map
-  if (nodeManager.nodes) {
-    const connected = [...nodeManager.nodes.values()].filter((n: any) => n.connected);
-    if (connected.length > 0) return connected[0];
+  // Try leastUsedNodes as fallback
+  if (nodeManager.leastUsedNodes?.length > 0) {
+    console.log(`[getNode] Falling back to leastUsedNodes[0]`);
+    return nodeManager.leastUsedNodes[0];
   }
 
   // Try usableNodes
   if (nodeManager.usableNodes?.length > 0) {
+    console.log(`[getNode] Falling back to usableNodes[0]`);
     return nodeManager.usableNodes[0];
   }
+  
+  // Last resort: any connected node
+  if (nodeManager.nodes) {
+    const connected = [...nodeManager.nodes.values()].filter((n: any) => n.connected);
+    if (connected.length > 0) {
+       console.log(`[getNode] Last resort: returning connected node ${connected[0].id}`);
+       return connected[0];
+    }
+  }
+  
+  console.log(`[getNode] No nodes available at all!`);
   return null;
 }
 

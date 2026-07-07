@@ -62,9 +62,7 @@ birthdaySchema.index({
   month: 1,
   day: 1
 });
-birthdaySchema.index({
-  userId: 1
-});
+
 birthdaySchema.index({
   'followers.userId': 1
 });
