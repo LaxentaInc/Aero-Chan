@@ -350,12 +350,6 @@
         "type": 0,
         "position": 0,
         "parentId": "1502266817299873842"
-      },
-      {
-        "id": "1513227845395288234",
-        "name": "@everyone have i gone too far with the",
-        "type": 10,
-        "parentId": "1497328567250587698"
       }
     ],
     "roles": [
@@ -504,7 +498,7 @@
         "mentionable": false
       }
     ],
-    "updated": 1783445121995
+    "updated": 1783524121267
   },
   "userStrips": {
     "416358583220043796": {

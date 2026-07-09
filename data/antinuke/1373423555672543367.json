@@ -147,6 +147,27 @@
         "type": 0,
         "position": 2,
         "parentId": "1412422411688869888"
+      },
+      {
+        "id": "1524235007064018994",
+        "name": "Aero",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1524235011660841001",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1524235007064018994"
+      },
+      {
+        "id": "1524235014110183595",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1524235007064018994"
       }
     ],
     "roles": [
@@ -187,6 +208,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1783445122005
+    "updated": 1783524121278
   }
 }

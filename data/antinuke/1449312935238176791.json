@@ -384,7 +384,7 @@
         "name": "🔮| Stellar Council",
         "color": 12141543,
         "permissions": "8864258447638527",
-        "position": 19,
+        "position": 20,
         "hoist": true,
         "mentionable": false
       },
@@ -393,7 +393,7 @@
         "name": "🌌| VoidWalkers",
         "color": 6358451,
         "permissions": "71371723234881",
-        "position": 11,
+        "position": 12,
         "hoist": true,
         "mentionable": true
       },
@@ -402,7 +402,7 @@
         "name": ".",
         "color": 10181046,
         "permissions": "1125899906842632",
-        "position": 20,
+        "position": 21,
         "hoist": false,
         "mentionable": false
       },
@@ -411,7 +411,7 @@
         "name": "☀| Luminaires",
         "color": 13383680,
         "permissions": "1099540988928",
-        "position": 13,
+        "position": 14,
         "hoist": true,
         "mentionable": false
       },
@@ -420,7 +420,7 @@
         "name": "🪐| Orbiters",
         "color": 13133839,
         "permissions": "947554879250383",
-        "position": 17,
+        "position": 18,
         "hoist": true,
         "mentionable": false
       },
@@ -429,7 +429,7 @@
         "name": "🛸| CosmoBot",
         "color": 6323595,
         "permissions": "2048",
-        "position": 9,
+        "position": 10,
         "hoist": true,
         "mentionable": false
       },
@@ -438,7 +438,7 @@
         "name": "🔓 Cracked",
         "color": 9145227,
         "permissions": "0",
-        "position": 2,
+        "position": 3,
         "hoist": false,
         "mentionable": false
       },
@@ -447,7 +447,7 @@
         "name": "💫| Starlight",
         "color": 15844367,
         "permissions": "1703115702652737",
-        "position": 12,
+        "position": 13,
         "hoist": true,
         "mentionable": false
       },
@@ -456,7 +456,7 @@
         "name": "Void Central",
         "color": 65797,
         "permissions": "2108863302074367",
-        "position": 18,
+        "position": 19,
         "hoist": true,
         "mentionable": false
       },
@@ -465,11 +465,11 @@
         "name": "💎 Premium",
         "color": 2067276,
         "permissions": "0",
-        "position": 1,
+        "position": 2,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1783445122081
+    "updated": 1783524121346
   }
 }

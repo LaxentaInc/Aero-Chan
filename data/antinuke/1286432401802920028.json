@@ -1,0 +1,102 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1286432402331140177",
+        "name": "Information",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1286432402331140179",
+        "name": "welcome-and-rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1286432402331140177"
+      },
+      {
+        "id": "1286432402331140180",
+        "name": "announcements",
+        "type": 0,
+        "position": 1,
+        "parentId": "1286432402331140177"
+      },
+      {
+        "id": "1286432402331140181",
+        "name": "resources",
+        "type": 0,
+        "position": 2,
+        "parentId": "1286432402331140177"
+      },
+      {
+        "id": "1286432402331140182",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1286432402331140184",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1286432402331140182"
+      },
+      {
+        "id": "1286432402331140185",
+        "name": "meeting-plans",
+        "type": 0,
+        "position": 1,
+        "parentId": "1286432402331140182"
+      },
+      {
+        "id": "1286432402331140186",
+        "name": "off-topic",
+        "type": 0,
+        "position": 2,
+        "parentId": "1286432402331140182"
+      },
+      {
+        "id": "1286432402473877655",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1286432402473877656",
+        "name": "Lounge",
+        "type": 2,
+        "position": 0,
+        "parentId": "1286432402473877655"
+      },
+      {
+        "id": "1286432402473877657",
+        "name": "Meeting Room 1",
+        "type": 2,
+        "position": 1,
+        "parentId": "1286432402473877655"
+      },
+      {
+        "id": "1286432402473877658",
+        "name": "Meeting Room 2",
+        "type": 2,
+        "position": 2,
+        "parentId": "1286432402473877655"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1286432401802920029",
+        "name": "officers (example)",
+        "color": 3066993,
+        "permissions": "1720709360909911",
+        "position": 4,
+        "hoist": true,
+        "mentionable": true
+      }
+    ],
+    "updated": 1783524121286
+  }
+}
