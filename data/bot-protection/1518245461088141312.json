@@ -1,0 +1,45 @@
+{
+  "buttons": {
+    "restore_perms_510016054391734273": {
+      "type": "restore_perms",
+      "targetId": "510016054391734273",
+      "memberId": "510016054391734273",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "counting",
+            "id": "1525574507669098561",
+            "permissions": [
+              "AddReactions",
+              "ViewChannel",
+              "SendMessages",
+              "EmbedLinks",
+              "ReadMessageHistory",
+              "ManageRoles"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1518245461088141312",
+      "relatedMessages": [
+        {
+          "channelId": "1525574517295022130",
+          "messageId": "1525574525436035112"
+        },
+        {
+          "channelId": "1525574537369092298",
+          "messageId": "1525574540212830412"
+        }
+      ],
+      "expiresAt": 1783882113955,
+      "createdAt": 1783795713955,
+      "module": "bot-protection"
+    }
+  }
+}

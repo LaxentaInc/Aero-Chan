@@ -1,0 +1,1118 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1506218391147646986",
+        "name": "cat",
+        "type": 0,
+        "position": 18,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1362966235767374024",
+        "name": "outfits👕👖",
+        "type": 0,
+        "position": 7,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1362967501151011049",
+        "name": "fav-anime’s-and-rate",
+        "type": 0,
+        "position": 12,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1501432017013837845",
+        "name": "quotes",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1496681800875905075",
+        "name": "finish-the-lyrics",
+        "type": 0,
+        "position": 17,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1372228492988776468",
+        "name": "games⛳",
+        "type": 0,
+        "position": 15,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1487800665093832927",
+        "name": "truth-or-dare",
+        "type": 0,
+        "position": 0,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1487986918774804571",
+        "name": "new-freaky-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1363278355398525098"
+      },
+      {
+        "id": "1355720272103342122",
+        "name": "VC Calls",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1363326299405287594",
+        "name": "Darks bedroom.",
+        "type": 2,
+        "position": 5,
+        "parentId": "1355720272103342122"
+      },
+      {
+        "id": "1487982536289157120",
+        "name": "would-you-rather",
+        "type": 0,
+        "position": 16,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1359407098294964294",
+        "name": "kos",
+        "type": 0,
+        "position": 1,
+        "parentId": "1355720272103342121"
+      },
+      {
+        "id": "1523221570728890388",
+        "name": "singing-and-songs",
+        "type": 0,
+        "position": 20,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1357828139908337784",
+        "name": "ranks👑",
+        "type": 0,
+        "position": 2,
+        "parentId": "1357827325885943956"
+      },
+      {
+        "id": "1355723039093948519",
+        "name": "station🚨",
+        "type": 0,
+        "position": 1,
+        "parentId": "1357827325885943956"
+      },
+      {
+        "id": "1360703173886476448",
+        "name": "Night vc/chill vc",
+        "type": 2,
+        "position": 3,
+        "parentId": "1355720272103342122"
+      },
+      {
+        "id": "1363278355398525098",
+        "name": "Secret🤫",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1359407277064327198",
+        "name": "we-listen-and-we-do-not-judge💯",
+        "type": 0,
+        "position": 3,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1365529220108914688",
+        "name": "edits😇",
+        "type": 0,
+        "position": 14,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1362255284508037420",
+        "name": "kiss-channel💋",
+        "type": 0,
+        "position": 5,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1362966982298832926",
+        "name": "pets🐶",
+        "type": 0,
+        "position": 10,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1360717659624181910",
+        "name": "face-reveal🤳",
+        "type": 0,
+        "position": 6,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1364367761815507105",
+        "name": "gun-fight-arena-vids-pics",
+        "type": 0,
+        "position": 13,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1397328942771339364",
+        "name": "𝓴𝓪𝓻𝓪𝓸𝓴𝓮!",
+        "type": 2,
+        "position": 6,
+        "parentId": "1355720272103342122"
+      },
+      {
+        "id": "1360717954353987624",
+        "name": "media📸",
+        "type": 0,
+        "position": 4,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1355720272560263279",
+        "name": "Monkey Chat🗣",
+        "type": 2,
+        "position": 0,
+        "parentId": "1355720272103342122"
+      },
+      {
+        "id": "1361837123115941908",
+        "name": "Dark & Nazu’s VC",
+        "type": 2,
+        "position": 4,
+        "parentId": "1355720272103342122"
+      },
+      {
+        "id": "1360702740182990909",
+        "name": "Hangout",
+        "type": 2,
+        "position": 2,
+        "parentId": "1355720272103342122"
+      },
+      {
+        "id": "1385704829741170830",
+        "name": "rules",
+        "type": 0,
+        "position": 4,
+        "parentId": "1357827325885943956"
+      },
+      {
+        "id": "1357826975863144498",
+        "name": "Fun💫",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1357837682520363179",
+        "name": "welcome-n-goodbye👋",
+        "type": 0,
+        "position": 3,
+        "parentId": "1357827325885943956"
+      },
+      {
+        "id": "1525291079140900904",
+        "name": "karaoke🎶",
+        "type": 0,
+        "position": 21,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1357992466468569182",
+        "name": "MUSIC🎧",
+        "type": 2,
+        "position": 1,
+        "parentId": "1355720272103342122"
+      },
+      {
+        "id": "1357827325885943956",
+        "name": "Important‼",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1355720272103342121",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1362966414125830316",
+        "name": "foods🍔🍟",
+        "type": 0,
+        "position": 8,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1358908974828880082",
+        "name": "hear-me-out🗣",
+        "type": 0,
+        "position": 1,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1522401273830313984",
+        "name": "pokemonდ",
+        "type": 0,
+        "position": 19,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1355720272103342123",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1355720272103342121"
+      },
+      {
+        "id": "1357828094190293113",
+        "name": "announcements📢",
+        "type": 0,
+        "position": 0,
+        "parentId": "1357827325885943956"
+      },
+      {
+        "id": "1525689609177137202",
+        "name": "only-for-dark",
+        "type": 0,
+        "position": 22,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1362966787918008392",
+        "name": "arts-🎨🖌",
+        "type": 0,
+        "position": 9,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1362967354816073939",
+        "name": "selfies🤳",
+        "type": 0,
+        "position": 11,
+        "parentId": "1357826975863144498"
+      },
+      {
+        "id": "1365532788660633760",
+        "name": "confessions🙏",
+        "type": 0,
+        "position": 2,
+        "parentId": "1357826975863144498"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1412177017847283791",
+        "name": "🔞",
+        "color": 0,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361594398361780354",
+        "name": "𝓜𝓲𝓶𝓲'𝓼 𝓑𝓲𝓽𝓬𝓱💜",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 74,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1369325345689571389",
+        "name": "Rich🤑",
+        "color": 11384859,
+        "permissions": "0",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385252189571907754",
+        "name": "Freaky",
+        "color": 0,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412258727926435960",
+        "name": "Gnome 🫠",
+        "color": 13303971,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1362651026640863242",
+        "name": "Man Child",
+        "color": 2067276,
+        "permissions": "1720707884502593",
+        "position": 70,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385247637443186779",
+        "name": "Gooner",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361588726521659433",
+        "name": "Gambling addict",
+        "color": 1928448,
+        "permissions": "0",
+        "position": 78,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361520096127746078",
+        "name": "Caked up🎂",
+        "color": 11053224,
+        "permissions": "0",
+        "position": 84,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385698543133524068",
+        "name": "Nigga siblings",
+        "color": 0,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361594229884850256",
+        "name": "Real asf",
+        "color": 0,
+        "permissions": "0",
+        "position": 75,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1489829548030951524",
+        "name": "The rainbow man🏳️‍🌈",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361588624734552174",
+        "name": "“It be like that”",
+        "color": 10143488,
+        "permissions": "0",
+        "position": 79,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523167201958432879",
+        "name": "Gay nigga 🏳️‍🌈",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385169442228535316",
+        "name": "White Nigga",
+        "color": 0,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1369141291039985696",
+        "name": "Wifey",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1386047074612547715",
+        "name": "Angel's brother",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1362649443052159117",
+        "name": "Man Child",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 72,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1367639202145243136",
+        "name": "Darks bodyguard",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1364073694347001969",
+        "name": "Cookie god",
+        "color": 11027200,
+        "permissions": "0",
+        "position": 67,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412258473974038578",
+        "name": "𝔻𝕒𝕣𝕜'𝕤 𝕡𝕣𝕠𝕡𝕖𝕣𝕥𝕪. ᥫ᭡🖤",
+        "color": 0,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385253159349260338",
+        "name": "Queen",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1360914041232556122",
+        "name": "Angel🪽",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 91,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1368728960904466432",
+        "name": "𝓗𝓾𝓷𝓽𝓮𝓻 🔫",
+        "color": 10603751,
+        "permissions": "0",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385166462486052864",
+        "name": "autistic",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1360914235617706135",
+        "name": "Pretty asf😖",
+        "color": 14745739,
+        "permissions": "0",
+        "position": 90,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1386867512846585987",
+        "name": "PRO LEVEL THREAT",
+        "color": 0,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412258967727378604",
+        "name": "𝔻𝕒𝕣𝕜'𝕤 𝕘𝕠𝕠𝕕 𝕓𝕠𝕪",
+        "color": 1773361,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1366571197768142938",
+        "name": "Dark’s loyal soldier",
+        "color": 40110,
+        "permissions": "0",
+        "position": 60,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1366568979820187778",
+        "name": "Best rival player",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 61,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1362652277533573231",
+        "name": "Man Child",
+        "color": 5676100,
+        "permissions": "0",
+        "position": 69,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1367681093414944798",
+        "name": "Bad girl!",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1384522493745954956",
+        "name": "Muted",
+        "color": 9936031,
+        "permissions": "0",
+        "position": 41,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1367214423227371640",
+        "name": "Good boy Angel",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 56,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385168776903004180",
+        "name": "anxiety",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385247986140844073",
+        "name": "Dark's best friend/helper",
+        "color": 0,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1418767133361573918",
+        "name": "The Clash Royal King",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385285463924801628",
+        "name": "Angel's bestfriend",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1362650395310162050",
+        "name": "Man Child",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 71,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1391244094956900472",
+        "name": "Isamu fw you",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1359282325132804246",
+        "name": "Master/Lord",
+        "color": 54015,
+        "permissions": "0",
+        "position": 101,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361424623773679686",
+        "name": "LXVI",
+        "color": 0,
+        "permissions": "0",
+        "position": 86,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1360785331359715348",
+        "name": "Weird one",
+        "color": 1053462,
+        "permissions": "0",
+        "position": 93,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361424110651052182",
+        "name": "XVI",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 88,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385251706060804166",
+        "name": "Inf/10 girl",
+        "color": 39935,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361588375534043257",
+        "name": "Demon👺",
+        "color": 7471104,
+        "permissions": "0",
+        "position": 80,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1358266714243993821",
+        "name": "Tester",
+        "color": 0,
+        "permissions": "0",
+        "position": 102,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361424404646592803",
+        "name": "MXVI",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 87,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1365519965272277114",
+        "name": "Demon sneaker",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 62,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1369141454227902524",
+        "name": "Send nazu a pic every 24 hours",
+        "color": 14845184,
+        "permissions": "0",
+        "position": 49,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1357824434689544282",
+        "name": "Perms",
+        "color": 2123412,
+        "permissions": "6875780902027255",
+        "position": 108,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361520385887174757",
+        "name": "He’s too big for me",
+        "color": 212838,
+        "permissions": "0",
+        "position": 82,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361588991622906007",
+        "name": "BULLY👁️‍🗨️",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 77,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385476932552101970",
+        "name": "High MotherFuckers",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412258781605138483",
+        "name": "𝔻𝕒𝕣𝕜'𝕤  𝕗𝕦𝕥𝕦𝕣𝕖 𝕙𝕦𝕤𝕓𝕒𝕟𝕕. ♡",
+        "color": 3034208,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1360785188073771068",
+        "name": "Yapper",
+        "color": 515,
+        "permissions": "0",
+        "position": 94,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385240079739654218",
+        "name": "Mental Bitch",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385252817274535936",
+        "name": "King",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1380315941065199667",
+        "name": "DaGOAT",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1364453202593972315",
+        "name": "MONKS GOOD BOY",
+        "color": 0,
+        "permissions": "0",
+        "position": 64,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1366901417897496696",
+        "name": "🍪𝓜𝓪𝓼𝓼𝓲𝓿𝓮 𝓒𝓸𝓸𝓴𝓲𝓮 🍪",
+        "color": 15121025,
+        "permissions": "0",
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1369123095750901911",
+        "name": "FAG",
+        "color": 0,
+        "permissions": "0",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1366901106008916108",
+        "name": "𝓑𝓵𝓸𝓸𝓭 𝓛𝓾𝓼𝓽 🩸",
+        "color": 11344153,
+        "permissions": "0",
+        "position": 58,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1359282473951035412",
+        "name": "Maid",
+        "color": 62975,
+        "permissions": "0",
+        "position": 100,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412176831817187429",
+        "name": "Dark’s Big Bro🥀🖤",
+        "color": 6815744,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361520310557474816",
+        "name": "I prefer both holes",
+        "color": 0,
+        "permissions": "0",
+        "position": 83,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412259349685862460",
+        "name": "𝔻𝕒𝕣𝕜'𝕤 𝕃𝕦𝕟𝕔𝕙.🍝🥗🍱",
+        "color": 1846326,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385248822816542811",
+        "name": "Angel's friend",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1374228830264365056",
+        "name": "Nazus owner",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1368723238632296530",
+        "name": "HOLLOW IS GOATED",
+        "color": 18687,
+        "permissions": "0",
+        "position": 53,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1364453012407320627",
+        "name": "Monk’s fruit bitch",
+        "color": 0,
+        "permissions": "0",
+        "position": 65,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361423749379002468",
+        "name": "XXVI",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 89,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1364073808604172388",
+        "name": "Shit talker",
+        "color": 0,
+        "permissions": "0",
+        "position": 66,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1365518705336909824",
+        "name": "Yapper",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 63,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412259573699706880",
+        "name": "𝔻𝕒𝕣𝕜'𝕤 𝕡𝕦𝕡𝕡𝕪. ♡🐶",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1380316092538421268",
+        "name": "Dark bestie westie",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1369141738970546257",
+        "name": "💕Nazzzz",
+        "color": 16449662,
+        "permissions": "0",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1364073614982250566",
+        "name": "Cookie lover.🍪",
+        "color": 4992788,
+        "permissions": "0",
+        "position": 68,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361464439894704198",
+        "name": "Num 1 God",
+        "color": 0,
+        "permissions": "0",
+        "position": 85,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1374229102965555351",
+        "name": "Shy baby",
+        "color": 3233390,
+        "permissions": "0",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1361592540809138287",
+        "name": "Hashira’s",
+        "color": 25599,
+        "permissions": "0",
+        "position": 76,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1360785509034627204",
+        "name": "Crybaby😔🍼",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 92,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1360713159391838279",
+        "name": "Recruiter",
+        "color": 3952991,
+        "permissions": "8796160132097",
+        "position": 95,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1412177535277469897",
+        "name": "Lazy Genius",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1358266477408686351",
+        "name": "Helper",
+        "color": 7125742,
+        "permissions": "0",
+        "position": 103,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1366571750791315476",
+        "name": "W mobile player",
+        "color": 5912320,
+        "permissions": "0",
+        "position": 59,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1360689358784696420",
+        "name": "Leader",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 96,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1382156303496908850",
+        "name": "Isamu bestie westie",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 42,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1385476818139742298",
+        "name": "High on Weed",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215721725
+  }
+}

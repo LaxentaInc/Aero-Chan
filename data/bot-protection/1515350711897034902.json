@@ -1,0 +1,45 @@
+{
+  "buttons": {
+    "restore_perms_949479338275913799": {
+      "type": "restore_perms",
+      "targetId": "949479338275913799",
+      "memberId": "949479338275913799",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Make it a Quote",
+            "id": "1531385277598400709",
+            "permissions": [
+              "ViewChannel",
+              "SendMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "SendMessagesInThreads"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1515350711897034902",
+      "relatedMessages": [
+        {
+          "channelId": "1531385285429166161",
+          "messageId": "1531385290567061627"
+        },
+        {
+          "channelId": "1531385300016828608",
+          "messageId": "1531385302248062987"
+        }
+      ],
+      "expiresAt": 1785267507286,
+      "createdAt": 1785181107286,
+      "module": "bot-protection"
+    }
+  }
+}

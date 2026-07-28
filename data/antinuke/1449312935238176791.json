@@ -45,7 +45,7 @@
       },
       {
         "id": "1454052113054437529",
-        "name": "🌌Members: 83",
+        "name": "🌌Members: 80",
         "type": 2,
         "position": 0,
         "parentId": null
@@ -147,6 +147,13 @@
         "type": 2,
         "position": 1,
         "parentId": "1449319482525745242"
+      },
+      {
+        "id": "1527691486463000807",
+        "name": "staff-commands",
+        "type": 0,
+        "position": 1,
+        "parentId": "1459215181891502192"
       },
       {
         "id": "1463194319736410112",
@@ -372,8 +379,8 @@
         "parentId": "1449323615580590182"
       },
       {
-        "id": "1517602947746369678",
-        "name": "🤖 Echo — Built for Void Central",
+        "id": "1519353388230246450",
+        "name": "Onyx Ranked Bedwars — region poll",
         "type": 11,
         "parentId": "1449323615580590182"
       }
@@ -470,6 +477,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1783524121346
+    "updated": 1785215722543
   }
 }

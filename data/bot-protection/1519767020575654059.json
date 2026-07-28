@@ -1,0 +1,104 @@
+{
+  "buttons": {
+    "restore_perms_762217899355013120": {
+      "type": "restore_perms",
+      "targetId": "762217899355013120",
+      "memberId": "762217899355013120",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "TempVoice",
+            "id": "1526707430040404140",
+            "permissions": [
+              "CreateInstantInvite",
+              "Administrator",
+              "ManageChannels",
+              "ViewChannel",
+              "SendMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "UseExternalEmojis",
+              "Connect",
+              "Speak",
+              "MoveMembers",
+              "ManageRoles",
+              "ManageWebhooks",
+              "ManageThreads",
+              "CreatePublicThreads",
+              "CreatePrivateThreads",
+              "SendMessagesInThreads"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1519767020575654059",
+      "relatedMessages": [
+        {
+          "channelId": "1526707439091581161",
+          "messageId": "1526707446192668833"
+        },
+        {
+          "channelId": "1526707449879330856",
+          "messageId": "1526707453016670461"
+        }
+      ],
+      "expiresAt": 1784152221411,
+      "createdAt": 1784065821411,
+      "module": "bot-protection"
+    },
+    "restore_perms_652505019920285707": {
+      "type": "restore_perms",
+      "targetId": "652505019920285707",
+      "memberId": "652505019920285707",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Wicks",
+            "id": "1526727348274073713",
+            "permissions": [
+              "CreateInstantInvite",
+              "KickMembers",
+              "BanMembers",
+              "Administrator",
+              "ManageChannels",
+              "ManageGuild",
+              "ViewAuditLog",
+              "ChangeNickname",
+              "ManageNicknames",
+              "ManageRoles",
+              "ManageWebhooks",
+              "ManageEmojisAndStickers",
+              "ManageGuildExpressions"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1519767020575654059",
+      "relatedMessages": [
+        {
+          "channelId": "1526707439091581161",
+          "messageId": "1526727356520075388"
+        },
+        {
+          "channelId": "1526707449879330856",
+          "messageId": "1526727359930171493"
+        }
+      ],
+      "expiresAt": 1784156967694,
+      "createdAt": 1784070567694,
+      "module": "bot-protection"
+    }
+  }
+}

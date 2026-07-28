@@ -1,0 +1,1064 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1520787075140550776",
+        "name": "🧩Server Events",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1511067196695253202",
+        "name": "🛹gamenights-ad",
+        "type": 5,
+        "position": 3,
+        "parentId": "1509307825090986055"
+      },
+      {
+        "id": "1479591081480814802",
+        "name": "Voice #2",
+        "type": 2,
+        "position": 2,
+        "parentId": "1479590739011829802"
+      },
+      {
+        "id": "1479603346016043128",
+        "name": "🎥-videos-schaakmat",
+        "type": 5,
+        "position": 0,
+        "parentId": "1478374034927517781"
+      },
+      {
+        "id": "1479857725847502919",
+        "name": "Squads #1",
+        "type": 2,
+        "position": 5,
+        "parentId": "1479590739011829802"
+      },
+      {
+        "id": "1481032497331568701",
+        "name": "✒️-roles-req",
+        "type": 0,
+        "position": 2,
+        "parentId": "1488914598525407403"
+      },
+      {
+        "id": "1486033686364422245",
+        "name": "💡-suggestions",
+        "type": 15,
+        "position": 5,
+        "parentId": "1478371612196602038"
+      },
+      {
+        "id": "1482447186565533927",
+        "name": "🤖-bot-commands",
+        "type": 0,
+        "position": 2,
+        "parentId": "1478371612196602038"
+      },
+      {
+        "id": "1504919740412461096",
+        "name": "tourney",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1513310351226306683",
+        "name": "dyno-logs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1513310265670762647"
+      },
+      {
+        "id": "1479583812588404937",
+        "name": "report-discussion",
+        "type": 0,
+        "position": 1,
+        "parentId": "1479583054929596587"
+      },
+      {
+        "id": "1509281209295831060",
+        "name": "🏆gamenights-leaderboard",
+        "type": 5,
+        "position": 2,
+        "parentId": "1509307825090986055"
+      },
+      {
+        "id": "1482454182479790101",
+        "name": "🔨-moderator-only",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1482473861332336872",
+        "name": "Squads #2",
+        "type": 2,
+        "position": 6,
+        "parentId": "1479590739011829802"
+      },
+      {
+        "id": "1479583054929596587",
+        "name": "AC (Cheater) Related",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1504919676365439127",
+        "name": "tourney-codes",
+        "type": 0,
+        "position": 0,
+        "parentId": "1504919740412461096"
+      },
+      {
+        "id": "1494790240672415805",
+        "name": "AFK",
+        "type": 2,
+        "position": 7,
+        "parentId": "1479590739011829802"
+      },
+      {
+        "id": "1478374531365212201",
+        "name": "📖-rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1488914598525407403"
+      },
+      {
+        "id": "1513310864193880274",
+        "name": "admin-anncs",
+        "type": 5,
+        "position": 0,
+        "parentId": "1513310265670762647"
+      },
+      {
+        "id": "1482447162058080547",
+        "name": "📷-media",
+        "type": 0,
+        "position": 1,
+        "parentId": "1478371612196602038"
+      },
+      {
+        "id": "1513310265670762647",
+        "name": "heads and admins",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1505873708667895828",
+        "name": "📜admin-guidelines",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1505231167454974112",
+        "name": "winner-entries",
+        "type": 15,
+        "position": 1,
+        "parentId": "1520787075140550776"
+      },
+      {
+        "id": "1478374794993860719",
+        "name": "📢-announcements",
+        "type": 5,
+        "position": 1,
+        "parentId": "1488914598525407403"
+      },
+      {
+        "id": "1479591644989886504",
+        "name": "Doubles #2",
+        "type": 2,
+        "position": 4,
+        "parentId": "1479590739011829802"
+      },
+      {
+        "id": "1481018773988446392",
+        "name": "✨-self-promo",
+        "type": 0,
+        "position": 2,
+        "parentId": "1478374034927517781"
+      },
+      {
+        "id": "1488914598525407403",
+        "name": "❗IMPORTANT",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1488934852941189302",
+        "name": "💈-poll-ping",
+        "type": 5,
+        "position": 3,
+        "parentId": "1488914598525407403"
+      },
+      {
+        "id": "1492517918846746837",
+        "name": "🎫-tickets",
+        "type": 5,
+        "position": 4,
+        "parentId": "1488914598525407403"
+      },
+      {
+        "id": "1479591414466609262",
+        "name": "Doubles #1",
+        "type": 2,
+        "position": 3,
+        "parentId": "1479590739011829802"
+      },
+      {
+        "id": "1479603525330665492",
+        "name": "🔴-live-announces",
+        "type": 0,
+        "position": 1,
+        "parentId": "1478374034927517781"
+      },
+      {
+        "id": "1503120684925321318",
+        "name": "🚨warns-listing",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1478371612196602038",
+        "name": "💬 COMMUNITY",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1517131984806215690",
+        "name": "7️⃣7️⃣7️⃣gambling",
+        "type": 0,
+        "position": 6,
+        "parentId": "1478371612196602038"
+      },
+      {
+        "id": "1504919641598853180",
+        "name": "tourney-chat",
+        "type": 0,
+        "position": 1,
+        "parentId": "1504919740412461096"
+      },
+      {
+        "id": "1479590844683128965",
+        "name": "Voice #1",
+        "type": 2,
+        "position": 1,
+        "parentId": "1479590739011829802"
+      },
+      {
+        "id": "1502790543183446107",
+        "name": "👾-gamenights",
+        "type": 5,
+        "position": 1,
+        "parentId": "1509307825090986055"
+      },
+      {
+        "id": "1478371612196602040",
+        "name": "🌎-general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1478371612196602038"
+      },
+      {
+        "id": "1478374034927517781",
+        "name": "📷 VIDEOS & LIVES",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1500339459558735985",
+        "name": "🗣-make-it-a-quote",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520787075140550776"
+      },
+      {
+        "id": "1509307825090986055",
+        "name": "🧩 Gamenight Related",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1502947550989258802",
+        "name": "❓-questions",
+        "type": 15,
+        "position": 4,
+        "parentId": "1478371612196602038"
+      },
+      {
+        "id": "1491247534621065391",
+        "name": "🎲-event-organizers",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1502299916607946902",
+        "name": "📫-transcripts",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1507760698669793341",
+        "name": "Tournament vc",
+        "type": 2,
+        "position": 8,
+        "parentId": "1479590739011829802"
+      },
+      {
+        "id": "1493354979639955566",
+        "name": "🔍-ac-news",
+        "type": 5,
+        "position": 0,
+        "parentId": "1479583054929596587"
+      },
+      {
+        "id": "1479590739011829802",
+        "name": "VC🗣️",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1482501519126433813",
+        "name": "🎨-fanart",
+        "type": 0,
+        "position": 3,
+        "parentId": "1478371612196602038"
+      },
+      {
+        "id": "1518708331831886036",
+        "name": "ranks",
+        "type": 0,
+        "position": 7,
+        "parentId": "1478371612196602038"
+      },
+      {
+        "id": "1494428751218348245",
+        "name": "🎮-gamenight-chat",
+        "type": 0,
+        "position": 4,
+        "parentId": "1509307825090986055"
+      },
+      {
+        "id": "1478371612196602041",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1479590739011829802"
+      },
+      {
+        "id": "1494827923721420850",
+        "name": "📢-bedwars-updates",
+        "type": 0,
+        "position": 5,
+        "parentId": "1488914598525407403"
+      },
+      {
+        "id": "1488914949454434517",
+        "name": "🏆-events",
+        "type": 5,
+        "position": 0,
+        "parentId": "1509307825090986055"
+      },
+      {
+        "id": "1486034770574967007",
+        "name": "Video ideas",
+        "type": 11,
+        "parentId": "1486033686364422245"
+      },
+      {
+        "id": "1515382982767153162",
+        "name": "I think this will make people active",
+        "type": 11,
+        "parentId": "1486033686364422245"
+      },
+      {
+        "id": "1518770350748602559",
+        "name": "Should @Thescaryant and @Schaakmat01 make a comeback?",
+        "type": 10,
+        "parentId": "1488934852941189302"
+      },
+      {
+        "id": "1523457432238559334",
+        "name": "How Many Languages Can You Speak?",
+        "type": 10,
+        "parentId": "1488934852941189302"
+      },
+      {
+        "id": "1520818194049138790",
+        "name": "Roblox Mythbusters",
+        "type": 11,
+        "parentId": "1505231167454974112"
+      },
+      {
+        "id": "1522635453378072769",
+        "name": "Quote event",
+        "type": 11,
+        "parentId": "1505231167454974112"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1488933506548764726",
+        "name": "Head Event Host 🧩",
+        "color": 4241737,
+        "permissions": "1720707884371521",
+        "position": 71,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1495089538337607764",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515029500604453016",
+        "name": "🟡Gold",
+        "color": 0,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1507783168961282149",
+        "name": "QUIT",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1491521647977566370",
+        "name": "Discord Manager 🛠️",
+        "color": 0,
+        "permissions": "1721826619162615",
+        "position": 76,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1482780904567996589",
+        "name": "Video Ping 📢",
+        "color": 0,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1491148859492143278",
+        "name": "🟥 Level 1 🟥",
+        "color": 15609650,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1499495177822146711",
+        "name": "Closs BF...?",
+        "color": 15277667,
+        "permissions": "1721807559716807",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1492963210142417086",
+        "name": "Event Host 🧩",
+        "color": 10092424,
+        "permissions": "0",
+        "position": 67,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1478758206296817805",
+        "name": "founder/leader",
+        "color": 2123412,
+        "permissions": "7065456334065663",
+        "position": 82,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1491150359823909014",
+        "name": "⭐ Level 15 ⭐",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1479596401657909372",
+        "name": "Big Content Creator",
+        "color": 14891064,
+        "permissions": "0",
+        "position": 53,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1492962231569354804",
+        "name": "Report-Checkers⚕️",
+        "color": 9976056,
+        "permissions": "0",
+        "position": 68,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1482780852344848484",
+        "name": "Live 🔴",
+        "color": 0,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1502802084653961406",
+        "name": "Event Winner 5X",
+        "color": 12910580,
+        "permissions": "0",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515030000234135643",
+        "name": "🟣Nightmare",
+        "color": 0,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1482780995123150909",
+        "name": "Poll Ping 📢",
+        "color": 0,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1518707633245126869",
+        "name": "Blatant 🤡",
+        "color": 16711680,
+        "permissions": "1720707884371521",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1509276575907053689",
+        "name": "Close to Ac Mod",
+        "color": 7419530,
+        "permissions": "1720707884371521",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515029866699817002",
+        "name": "🟢Emerald",
+        "color": 0,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1515029240041574590",
+        "name": "🔘Silver",
+        "color": 0,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1484262734081298662",
+        "name": "AC Mod Ping 📢",
+        "color": 0,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1502942532638605442",
+        "name": "Bedwars Updates Ping 📢",
+        "color": 0,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1479586772471250975",
+        "name": "Booster",
+        "color": 16711855,
+        "permissions": "0",
+        "position": 54,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1479587579803336964",
+        "name": "VIP",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 43,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1507466178447151154",
+        "name": "On cc ARC",
+        "color": 62207,
+        "permissions": "1720707884371521",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1492960701973663917",
+        "name": "Co Owner",
+        "color": 16754432,
+        "permissions": "1721826619162615",
+        "position": 77,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1492963389310243047",
+        "name": "Department Heads",
+        "color": 0,
+        "permissions": "0",
+        "position": 74,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1481738725456347188",
+        "name": "Active Reporter",
+        "color": 9936031,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1502802000763556010",
+        "name": "Event Winner 3X",
+        "color": 13959167,
+        "permissions": "0",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504912078832406689",
+        "name": "💥 Level 40 💥 XP Boss",
+        "color": 16766720,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1513310077820469388",
+        "name": "Bounty's Manager🔨",
+        "color": 16742400,
+        "permissions": "1721807559716807",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1489699430029463715",
+        "name": "🔴YT Live Mod🔴",
+        "color": 16711680,
+        "permissions": "1720707884371521",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1492964554366517402",
+        "name": "Trial Moderator",
+        "color": 12708840,
+        "permissions": "0",
+        "position": 64,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1480039244041949214",
+        "name": "Bots",
+        "color": 6323595,
+        "permissions": "8",
+        "position": 40,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1491150012443525321",
+        "name": "🟦 Level 5 🟦",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515029780825903285",
+        "name": "🔵Diamond",
+        "color": 0,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1479946941675864124",
+        "name": "YT Alt 🟥",
+        "color": 10485760,
+        "permissions": "0",
+        "position": 52,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1503067630783823944",
+        "name": "Tournament Host",
+        "color": 4259584,
+        "permissions": "1721807559716807",
+        "position": 60,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1502714191109423164",
+        "name": "Event Winner 👑",
+        "color": 10420216,
+        "permissions": "0",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1508997759586533581",
+        "name": "🛡️ Ac Mod 🛡️",
+        "color": 10181046,
+        "permissions": "1721807559716807",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1505672973573554317",
+        "name": "Helper 🎟",
+        "color": 16755444,
+        "permissions": "0",
+        "position": 66,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1491521290882777288",
+        "name": "Sweet Friends",
+        "color": 15277667,
+        "permissions": "1720707884371521",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1491522661883445541",
+        "name": "Sweet BF...?",
+        "color": 16344319,
+        "permissions": "1720707884371521",
+        "position": 75,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1501671478981300405",
+        "name": "Important",
+        "color": 13041408,
+        "permissions": "1720707884371521",
+        "position": 59,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1479584851987271722",
+        "name": "YT 🔴",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 51,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1505673148115189850",
+        "name": "Head Helper 🎟",
+        "color": 16024063,
+        "permissions": "0",
+        "position": 70,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1491150210473263104",
+        "name": "🟩 Level 10 🟩",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1504919340150161408",
+        "name": "1st Tourney Participant",
+        "color": 5790860,
+        "permissions": "0",
+        "position": 44,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1479584938062905466",
+        "name": "Admin",
+        "color": 0,
+        "permissions": "33817",
+        "position": 81,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1482780942870380727",
+        "name": "Announcement Ping 📢",
+        "color": 0,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1505674322180706395",
+        "name": "Trials",
+        "color": 0,
+        "permissions": "0",
+        "position": 65,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1479587004407615660",
+        "name": "Small Content Creator",
+        "color": 15245729,
+        "permissions": "0",
+        "position": 49,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1478752608939278558",
+        "name": "Discord Member",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 42,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1492962467285041403",
+        "name": "Head Anti-Cheat Reporter ⚕️",
+        "color": 6357159,
+        "permissions": "0",
+        "position": 72,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1479587747772629002",
+        "name": "Schaakmat01",
+        "color": 7060207,
+        "permissions": "8864262743130111",
+        "position": 79,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1515028127158374572",
+        "name": "🟤Bronze",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1504913501280272536",
+        "name": "👑 Level 50 👑 XP King",
+        "color": 0,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1491519758611517671",
+        "name": "Moderator 💠",
+        "color": 8840191,
+        "permissions": "1721807559716807",
+        "position": 69,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1479584355813687306",
+        "name": "Owner",
+        "color": 3447003,
+        "permissions": "8864262743130111",
+        "position": 78,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1480239637590052885",
+        "name": "OG",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1489018564999643196",
+        "name": "Gamenight Ping 📢",
+        "color": 0,
+        "permissions": "1720707884371521",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1492966679506849792",
+        "name": "Trial Event Host",
+        "color": 14090188,
+        "permissions": "0",
+        "position": 62,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1505672853943746742",
+        "name": "Trial Helper",
+        "color": 16766178,
+        "permissions": "0",
+        "position": 61,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1479587822628241560",
+        "name": "Best Friends",
+        "color": 8186025,
+        "permissions": "0",
+        "position": 48,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1488618227075383327",
+        "name": "✨ Respectfull✨",
+        "color": 16771328,
+        "permissions": "1720707884371521",
+        "position": 58,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1482124062535712818",
+        "name": "Sweet",
+        "color": 7419530,
+        "permissions": "8864262743130111",
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515029589917700107",
+        "name": "🟥Platinum",
+        "color": 0,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1504900990028087387",
+        "name": "⚡Level 30⚡XP Pro",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1492966752764559420",
+        "name": "Trial Anti-Cheat Reporter",
+        "color": 14469119,
+        "permissions": "0",
+        "position": 63,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1483907015817298184",
+        "name": "Head Moderator 💠",
+        "color": 5027066,
+        "permissions": "1757010991251447",
+        "position": 73,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1491150819389607946",
+        "name": "🌟 Level 20 🌟",
+        "color": 10979602,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783844218424
+  }
+}

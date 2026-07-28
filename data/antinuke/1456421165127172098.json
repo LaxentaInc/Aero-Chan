@@ -1,0 +1,173 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1456421166335004864",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1456421166335004865",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1456421166335004864"
+      },
+      {
+        "id": "1456421166335004866",
+        "name": "𝐕𝐞𝐧𝐭",
+        "type": 0,
+        "position": 1,
+        "parentId": "1456421166335004864"
+      },
+      {
+        "id": "1456421166335004867",
+        "name": "𝐌𝐮𝐬𝐢𝐜",
+        "type": 0,
+        "position": 2,
+        "parentId": "1456421166335004864"
+      },
+      {
+        "id": "1456421166335004868",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1456421166335004869",
+        "name": "Lounge",
+        "type": 2,
+        "position": 0,
+        "parentId": "1456421166335004868"
+      },
+      {
+        "id": "1456421166335004870",
+        "name": "Stream Room",
+        "type": 2,
+        "position": 1,
+        "parentId": "1456421166335004868"
+      },
+      {
+        "id": "1456422227187597385",
+        "name": "𝐌𝐞𝐦𝐞𝐬",
+        "type": 0,
+        "position": 3,
+        "parentId": "1456421166335004864"
+      },
+      {
+        "id": "1456422473666134235",
+        "name": "𝐀𝐝𝐯𝐢𝐜𝐞",
+        "type": 0,
+        "position": 4,
+        "parentId": "1456421166335004864"
+      },
+      {
+        "id": "1456423058280808651",
+        "name": "𝐈𝐧𝐭𝐫𝐨𝐬",
+        "type": 0,
+        "position": 5,
+        "parentId": "1456421166335004864"
+      },
+      {
+        "id": "1456424815928807570",
+        "name": "𝐑𝐮𝐥𝐞𝐬",
+        "type": 0,
+        "position": 6,
+        "parentId": "1456421166335004864"
+      },
+      {
+        "id": "1456425425692786730",
+        "name": "𝐑𝐨𝐥𝐞𝐬",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1456428231057215611",
+        "name": "𝐋𝐞𝐭-𝐦𝐞-𝐤𝐧𝐨𝐰-𝐰𝐡𝐚𝐭-𝐢-𝐬𝐡𝐨𝐮𝐥𝐝-𝐚𝐝𝐝",
+        "type": 0,
+        "position": 7,
+        "parentId": "1456421166335004864"
+      },
+      {
+        "id": "1456428319892574270",
+        "name": "𝐑𝐚𝐧𝐝𝐨𝐦",
+        "type": 0,
+        "position": 8,
+        "parentId": "1456421166335004864"
+      },
+      {
+        "id": "1468195804517896376",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1468197092928389132",
+        "name": "enabling-bots",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1472735097491816529",
+        "name": "announcements",
+        "type": 5,
+        "position": 1,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1472733592319688876",
+        "name": "Pronouns",
+        "color": 1146986,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1472733939507662942",
+        "name": "Blue",
+        "color": 655615,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1472734686173335656",
+        "name": "new role",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1472734783850156138",
+        "name": "new role",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1472734847851303165",
+        "name": "new role",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215721904
+  }
+}

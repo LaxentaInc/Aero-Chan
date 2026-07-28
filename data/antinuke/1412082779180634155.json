@@ -1,0 +1,1778 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1465037094207623270",
+        "name": "⇢-˗ˏˋ-dicussion-࿐ྂ",
+        "type": 0,
+        "position": 1,
+        "parentId": "1465036591033614591"
+      },
+      {
+        "id": "1465227885861273744",
+        "name": "˖᯽-݁˖·cafèˏ-࿐ྂ",
+        "type": 0,
+        "position": 3,
+        "parentId": "1465036591033614591"
+      },
+      {
+        "id": "1444647363632169021",
+        "name": "✦゛pollsㆍ⌗",
+        "type": 0,
+        "position": 4,
+        "parentId": "1439091498669838367"
+      },
+      {
+        "id": "1502282228938575964",
+        "name": "Jail",
+        "type": 2,
+        "position": 1,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1434660480294584411",
+        "name": "🐾゛petsㆍ⌗",
+        "type": 0,
+        "position": 8,
+        "parentId": "1433710238350970971"
+      },
+      {
+        "id": "1439890402848018492",
+        "name": "⸝⸝゛censorboardㆍ︵",
+        "type": 0,
+        "position": 0,
+        "parentId": "1439091498669838367"
+      },
+      {
+        "id": "1479770080257769492",
+        "name": "Tord's room",
+        "type": 2,
+        "position": 18,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1480263301907747018",
+        "name": "╰►golfballs-classroom-a1⸙͎۪۫-⊰",
+        "type": 0,
+        "position": 0,
+        "parentId": "1480262814697390080"
+      },
+      {
+        "id": "1488111930420891840",
+        "name": "unusualrealitysㆍspace",
+        "type": 0,
+        "position": 4,
+        "parentId": "1479252783139000442"
+      },
+      {
+        "id": "1422260387251752960",
+        "name": "┊ㆍconfessions",
+        "type": 0,
+        "position": 2,
+        "parentId": "1433710238350970971"
+      },
+      {
+        "id": "1513025251112517832",
+        "name": "ִֶָ𓂃🏞ㆍlandscapesㆍノ゛",
+        "type": 0,
+        "position": 9,
+        "parentId": "1433710238350970971"
+      },
+      {
+        "id": "1503114549514211378",
+        "name": "saltˊs︲funfact",
+        "type": 0,
+        "position": 8,
+        "parentId": "1480261154772095216"
+      },
+      {
+        "id": "1450007512568041535",
+        "name": "〃╰⌞〃◠updates◠‿𓈒ֵ۫𓏼ིྀ🪭",
+        "type": 0,
+        "position": 3,
+        "parentId": "1426562458188910602"
+      },
+      {
+        "id": "1458403745305198747",
+        "name": "pizza-place",
+        "type": 0,
+        "position": 2,
+        "parentId": "1479254367512039588"
+      },
+      {
+        "id": "1444796687884484780",
+        "name": "╰˖𐙚🌺┆·dandys·world",
+        "type": 0,
+        "position": 8,
+        "parentId": "1444796443851362455"
+      },
+      {
+        "id": "1500384093949526066",
+        "name": "‧˚꒰  ʟᴀᴡs ᴀɴᴅ ᴏʀᴅᴇʀs  ⋮ ⌗  ┆  017",
+        "type": 4,
+        "position": 19,
+        "parentId": null
+      },
+      {
+        "id": "1451927847336939687",
+        "name": "thoughts",
+        "type": 0,
+        "position": 3,
+        "parentId": "1426562827795038310"
+      },
+      {
+        "id": "1518666673387864144",
+        "name": "sharpness's room",
+        "type": 2,
+        "position": 28,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1518666652563013763",
+        "name": "sharp's empire",
+        "type": 2,
+        "position": 27,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1426575194352386078",
+        "name": "┆🪭·ii-rp-outside-of-hotel-oj",
+        "type": 0,
+        "position": 3,
+        "parentId": "1444060859709132870"
+      },
+      {
+        "id": "1479473647642214545",
+        "name": "pencils room",
+        "type": 2,
+        "position": 17,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1452820868253089802",
+        "name": "‧˚꒰  promotion  ⋮ ⌗  ┆  003",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1502196600246636635",
+        "name": "lazz-bot-testing",
+        "type": 0,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1452893208664211559",
+        "name": "┆·giveaways",
+        "type": 0,
+        "position": 0,
+        "parentId": "1479252783139000442"
+      },
+      {
+        "id": "1477938863123988571",
+        "name": "Karaoke night",
+        "type": 2,
+        "position": 8,
+        "parentId": "1433708390877495409"
+      },
+      {
+        "id": "1519713207302754396",
+        "name": "Gardenias garden",
+        "type": 2,
+        "position": 29,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1426563520404787200",
+        "name": "┊✦゛rules",
+        "type": 0,
+        "position": 2,
+        "parentId": "1453085393791615039"
+      },
+      {
+        "id": "1501455235850178570",
+        "name": "fantasysㆍspace",
+        "type": 0,
+        "position": 11,
+        "parentId": "1480261154772095216"
+      },
+      {
+        "id": "1455571375791149078",
+        "name": "‧˚꒰  Home  ⋮ ⌗  ┆  015",
+        "type": 4,
+        "position": 17,
+        "parentId": null
+      },
+      {
+        "id": "1508499397674274927",
+        "name": "verif-system",
+        "type": 0,
+        "position": 11,
+        "parentId": null
+      },
+      {
+        "id": "1422584807631618049",
+        "name": "exploration",
+        "type": 0,
+        "position": 1,
+        "parentId": "1479254367512039588"
+      },
+      {
+        "id": "1480261154772095216",
+        "name": "‧˚꒰  small  town  ⋮ ⌗  ┆  005",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1465036591033614591",
+        "name": "⇢ ˗ˏˋ CANDIDATE'S SECTION. ࿐ྂ",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1433709944225533953",
+        "name": "Art stream -3",
+        "type": 2,
+        "position": 2,
+        "parentId": "1426566274183467128"
+      },
+      {
+        "id": "1479254367512039588",
+        "name": "‧˚꒰  server's  territory  ⋮ ⌗  ┆  014",
+        "type": 4,
+        "position": 16,
+        "parentId": null
+      },
+      {
+        "id": "1479959298108035273",
+        "name": "‧˚꒰  zheobuu's tent ⋮ ⌗ ┆",
+        "type": 2,
+        "position": 3,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1454396663052374207",
+        "name": "╭˖𐙚🪭┊ㆍcapital︲city",
+        "type": 0,
+        "position": 0,
+        "parentId": "1433710238350970971"
+      },
+      {
+        "id": "1529146468202446938",
+        "name": "Vegas room",
+        "type": 2,
+        "position": 4,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1500384311050899466",
+        "name": "courtroom-1",
+        "type": 0,
+        "position": 3,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1412085786601328801",
+        "name": "┆🪭·hotel-oj",
+        "type": 0,
+        "position": 4,
+        "parentId": "1444060859709132870"
+      },
+      {
+        "id": "1479774024472203294",
+        "name": "Mob's empire",
+        "type": 2,
+        "position": 2,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1447962976337531051",
+        "name": "┆💭·theories",
+        "type": 0,
+        "position": 6,
+        "parentId": "1426566274183467128"
+      },
+      {
+        "id": "1479473047508353126",
+        "name": "Christians room",
+        "type": 2,
+        "position": 15,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1499405016627150910",
+        "name": "ㆍlensㆍpublicㆍtransportㆍnewsㆍ",
+        "type": 0,
+        "position": 9,
+        "parentId": "1480261154772095216"
+      },
+      {
+        "id": "1422584913600712744",
+        "name": "Chat n chill !!",
+        "type": 2,
+        "position": 4,
+        "parentId": "1433708390877495409"
+      },
+      {
+        "id": "1517992576852951131",
+        "name": "azure's room",
+        "type": 2,
+        "position": 20,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1440284557965529179",
+        "name": "headcanons-aces-grief",
+        "type": 15,
+        "position": 5,
+        "parentId": "1426561448448102612"
+      },
+      {
+        "id": "1445562773508591787",
+        "name": "┆🔢·counting",
+        "type": 0,
+        "position": 5,
+        "parentId": "1439699380398592162"
+      },
+      {
+        "id": "1479842099439472722",
+        "name": "Gambling room",
+        "type": 2,
+        "position": 9,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1500484988506870024",
+        "name": "fate-voting",
+        "type": 0,
+        "position": 9,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1493205312730169465",
+        "name": "┊🥽ㆍaotd",
+        "type": 0,
+        "position": 4,
+        "parentId": "1439699380398592162"
+      },
+      {
+        "id": "1458419310656491610",
+        "name": "outside",
+        "type": 0,
+        "position": 5,
+        "parentId": "1479254367512039588"
+      },
+      {
+        "id": "1526751736419713045",
+        "name": "ticket-0007",
+        "type": 0,
+        "position": 9,
+        "parentId": "1453085393791615039"
+      },
+      {
+        "id": "1462007363757408458",
+        "name": "Sleeping...",
+        "type": 2,
+        "position": 13,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1426575820490539048",
+        "name": "┆🪭·wiki-and-websites-alike",
+        "type": 0,
+        "position": 2,
+        "parentId": "1444060859709132870"
+      },
+      {
+        "id": "1412085926925963364",
+        "name": "╭˖𐙚💠┆·inanimate-insanity-lobby",
+        "type": 0,
+        "position": 0,
+        "parentId": "1444060859709132870"
+      },
+      {
+        "id": "1454717408161042646",
+        "name": "┆🎀·soybean",
+        "type": 0,
+        "position": 4,
+        "parentId": "1444796443851362455"
+      },
+      {
+        "id": "1412485313686667305",
+        "name": "aces-house-theory-chat-old",
+        "type": 0,
+        "position": 0,
+        "parentId": "1426561448448102612"
+      },
+      {
+        "id": "1450037157870702614",
+        "name": "╰►⸝⸝silly⸙͎۪۫-⊰🪭",
+        "type": 0,
+        "position": 4,
+        "parentId": "1426562458188910602"
+      },
+      {
+        "id": "1480535977918468207",
+        "name": "Music room",
+        "type": 2,
+        "position": 23,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1519732779775164476",
+        "name": "purgatory",
+        "type": 2,
+        "position": 30,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1426979262434381906",
+        "name": "General",
+        "type": 2,
+        "position": 3,
+        "parentId": "1433708390877495409"
+      },
+      {
+        "id": "1465037073953325289",
+        "name": "·̩͙།-͝-︶-͝-︶-͝-⏝-͝-︶-͝-︶-͝-︶-⏝-͝-︶-͝-͝།-·̩͙",
+        "type": 0,
+        "position": 0,
+        "parentId": "1465036591033614591"
+      },
+      {
+        "id": "1497973132856787024",
+        "name": "┆·homestuck",
+        "type": 0,
+        "position": 6,
+        "parentId": "1444796443851362455"
+      },
+      {
+        "id": "1441765089286815816",
+        "name": "Fan's bedroom (sleepinhhg)",
+        "type": 2,
+        "position": 0,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1504135459746615408",
+        "name": "two-time",
+        "type": 0,
+        "position": 10,
+        "parentId": null
+      },
+      {
+        "id": "1426561448448102612",
+        "name": "‧˚꒰  ace's  grief  ⋮ ⌗  ┆  013",
+        "type": 4,
+        "position": 15,
+        "parentId": null
+      },
+      {
+        "id": "1479437233122578453",
+        "name": "┊✦゛phoenix︲drop",
+        "type": 0,
+        "position": 1,
+        "parentId": "1433710238350970971"
+      },
+      {
+        "id": "1478420622693371975",
+        "name": "wifie's paragon",
+        "type": 2,
+        "position": 1,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1480262814697390080",
+        "name": "‧˚꒰  school  ⋮ ⌗  ┆  007",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1435978576259186840",
+        "name": "storytime",
+        "type": 0,
+        "position": 5,
+        "parentId": "1479252783139000442"
+      },
+      {
+        "id": "1480262714701119549",
+        "name": "gaberials︲forums",
+        "type": 15,
+        "position": 3,
+        "parentId": "1480261154772095216"
+      },
+      {
+        "id": "1449298054636109824",
+        "name": "Sun moon and star Game night",
+        "type": 2,
+        "position": 7,
+        "parentId": "1433708390877495409"
+      },
+      {
+        "id": "1500428838092669060",
+        "name": "federal-courtroom-2",
+        "type": 0,
+        "position": 7,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1439907921948311603",
+        "name": "┆💫·headcanons",
+        "type": 0,
+        "position": 1,
+        "parentId": "1479252783139000442"
+      },
+      {
+        "id": "1433709914726993920",
+        "name": "Art stream -1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1426566274183467128"
+      },
+      {
+        "id": "1486737834923528222",
+        "name": "Averys bedroom. /«[.NO ENTERING.]»\\",
+        "type": 2,
+        "position": 7,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1426561717034287206",
+        "name": "‧˚꒰  letters  ⋮ ⌗  ┆  010",
+        "type": 4,
+        "position": 12,
+        "parentId": null
+      },
+      {
+        "id": "1527135841208766545",
+        "name": "ticket-0008",
+        "type": 0,
+        "position": 10,
+        "parentId": "1453085393791615039"
+      },
+      {
+        "id": "1479361874083450900",
+        "name": "Pride area",
+        "type": 2,
+        "position": 11,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1451895287160242318",
+        "name": "⸝⸝゛mediaㆍ︵",
+        "type": 0,
+        "position": 10,
+        "parentId": "1433710238350970971"
+      },
+      {
+        "id": "1425852278547681301",
+        "name": "vent-poems",
+        "type": 0,
+        "position": 2,
+        "parentId": "1426561717034287206"
+      },
+      {
+        "id": "1465259078895931412",
+        "name": "𓏲-๋࣭-࣪-˖-˗ˏˋshellz-room˖᯽-݁˖",
+        "type": 0,
+        "position": 6,
+        "parentId": "1465036591033614591"
+      },
+      {
+        "id": "1477928579408072845",
+        "name": "Wifie's room",
+        "type": 2,
+        "position": 12,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1517992353883881622",
+        "name": "azures-room",
+        "type": 0,
+        "position": 12,
+        "parentId": "1480261154772095216"
+      },
+      {
+        "id": "1485548093603844167",
+        "name": "PJSK VC",
+        "type": 2,
+        "position": 9,
+        "parentId": "1433708390877495409"
+      },
+      {
+        "id": "1526646586497695774",
+        "name": "closed-0003",
+        "type": 0,
+        "position": 6,
+        "parentId": "1453085393791615039"
+      },
+      {
+        "id": "1433710238350970971",
+        "name": "‧˚꒰  server’s town  ⋮ ⌗  ┆  004",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1450175799540846734",
+        "name": "opinions",
+        "type": 0,
+        "position": 2,
+        "parentId": "1426562827795038310"
+      },
+      {
+        "id": "1412086853343121668",
+        "name": "╭˖𐙚🌠┆·yap·about·your·characters",
+        "type": 0,
+        "position": 0,
+        "parentId": "1444796443851362455"
+      },
+      {
+        "id": "1439630889385590975",
+        "name": "fun-facts",
+        "type": 0,
+        "position": 0,
+        "parentId": "1426562827795038310"
+      },
+      {
+        "id": "1442117801056665641",
+        "name": "Ace's Private Stream ( INVITED ONLY )",
+        "type": 2,
+        "position": 0,
+        "parentId": "1426561448448102612"
+      },
+      {
+        "id": "1500428878206992485",
+        "name": "supreme-courtroom",
+        "type": 0,
+        "position": 8,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1480263769371181087",
+        "name": "╰►adachi-reis-classroom-a2‿𓈒ֵ۫𓏼ིྀ",
+        "type": 0,
+        "position": 1,
+        "parentId": "1480262814697390080"
+      },
+      {
+        "id": "1423230624197644298",
+        "name": "flex-channel",
+        "type": 0,
+        "position": 1,
+        "parentId": "1426562827795038310"
+      },
+      {
+        "id": "1491163815465717902",
+        "name": "zipˊsㆍgarden",
+        "type": 0,
+        "position": 6,
+        "parentId": "1480261154772095216"
+      },
+      {
+        "id": "1478746636082479318",
+        "name": "┆📼·animations",
+        "type": 0,
+        "position": 9,
+        "parentId": "1426566274183467128"
+      },
+      {
+        "id": "1439091674482737152",
+        "name": "✦゛rolesㆍ⌗",
+        "type": 0,
+        "position": 1,
+        "parentId": "1439091498669838367"
+      },
+      {
+        "id": "1433710028778639381",
+        "name": "Art stream -2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1426566274183467128"
+      },
+      {
+        "id": "1496060602156711936",
+        "name": "🧷ㆍcosmicsㆍreplyㆍanswer",
+        "type": 0,
+        "position": 2,
+        "parentId": "1480261154772095216"
+      },
+      {
+        "id": "1479473330653233192",
+        "name": "Len’s Room (ask2enter)",
+        "type": 2,
+        "position": 16,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1446362368513937598",
+        "name": "┆🔮·bots",
+        "type": 0,
+        "position": 8,
+        "parentId": "1439699380398592162"
+      },
+      {
+        "id": "1444061705389998080",
+        "name": "┆🪩·spoilers",
+        "type": 0,
+        "position": 7,
+        "parentId": "1444796443851362455"
+      },
+      {
+        "id": "1436066973191504024",
+        "name": "┆🎭·joke·art",
+        "type": 0,
+        "position": 7,
+        "parentId": "1426566274183467128"
+      },
+      {
+        "id": "1501095001994694756",
+        "name": "Averys paragon",
+        "type": 2,
+        "position": 25,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1444796443851362455",
+        "name": "‧˚꒰  fandoms  ⋮ ⌗  ┆  012",
+        "type": 4,
+        "position": 14,
+        "parentId": null
+      },
+      {
+        "id": "1497970516865061035",
+        "name": "╰˖𐙚🖌┆ㆍvent-animation",
+        "type": 0,
+        "position": 12,
+        "parentId": "1426566274183467128"
+      },
+      {
+        "id": "1500380729417273344",
+        "name": "lawsuit-submission",
+        "type": 15,
+        "position": 0,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1426552897138855937",
+        "name": "┊✦゛discussions",
+        "type": 0,
+        "position": 3,
+        "parentId": "1433710238350970971"
+      },
+      {
+        "id": "1457870115419983984",
+        "name": "╭˖𐙚🌈┆·roles",
+        "type": 0,
+        "position": 3,
+        "parentId": "1479252783139000442"
+      },
+      {
+        "id": "1500428727295938650",
+        "name": "federal-courtroom-1",
+        "type": 0,
+        "position": 6,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1479769988263968850",
+        "name": "Tenna's room",
+        "type": 2,
+        "position": 19,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1497120339656966297",
+        "name": "┊𓏵ㆍspokeisheresㆍchat",
+        "type": 0,
+        "position": 2,
+        "parentId": "1439699380398592162"
+      },
+      {
+        "id": "1479383716295086161",
+        "name": "✦゛takesㆍ⌗",
+        "type": 0,
+        "position": 7,
+        "parentId": "1433710238350970971"
+      },
+      {
+        "id": "1428196263634931742",
+        "name": "general-but-aces-grief",
+        "type": 0,
+        "position": 3,
+        "parentId": "1426561448448102612"
+      },
+      {
+        "id": "1412082780623470697",
+        "name": "II GENERAL",
+        "type": 2,
+        "position": 2,
+        "parentId": "1433708390877495409"
+      },
+      {
+        "id": "1479518946766880982",
+        "name": "Grounded room",
+        "type": 2,
+        "position": 21,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1465259705319559332",
+        "name": "⇢-˗ˏˋ˖tsukasa-tenmas-room˖᯽-݁˖·",
+        "type": 0,
+        "position": 7,
+        "parentId": "1465036591033614591"
+      },
+      {
+        "id": "1465258696371212372",
+        "name": "⇢-˗ˏˋgolfballs-room-࿐ྂ",
+        "type": 0,
+        "position": 5,
+        "parentId": "1465036591033614591"
+      },
+      {
+        "id": "1444060859709132870",
+        "name": "‧˚꒰  object shows  ⋮ ⌗  ┆  016",
+        "type": 4,
+        "position": 18,
+        "parentId": null
+      },
+      {
+        "id": "1447524530720342141",
+        "name": "Gaming",
+        "type": 2,
+        "position": 1,
+        "parentId": "1433708390877495409"
+      },
+      {
+        "id": "1452845560653680745",
+        "name": "ִֶָ𓂃💠ㆍcheckupsㆍノ゛",
+        "type": 0,
+        "position": 5,
+        "parentId": "1439091498669838367"
+      },
+      {
+        "id": "1526645658055082114",
+        "name": "closed-0002",
+        "type": 0,
+        "position": 5,
+        "parentId": "1453085393791615039"
+      },
+      {
+        "id": "1503987592058638486",
+        "name": "ㆍbows︲room",
+        "type": 0,
+        "position": 14,
+        "parentId": "1480261154772095216"
+      },
+      {
+        "id": "1458416071353569424",
+        "name": "basement",
+        "type": 0,
+        "position": 4,
+        "parentId": "1479254367512039588"
+      },
+      {
+        "id": "1426566414533398649",
+        "name": "┆🌆·vent-art",
+        "type": 0,
+        "position": 11,
+        "parentId": "1426566274183467128"
+      },
+      {
+        "id": "1502194280532279417",
+        "name": "YuriR1sh's empire",
+        "type": 2,
+        "position": 6,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1465038865688694803",
+        "name": "⇢-˗ˏˋ-center-࿐ྂ",
+        "type": 0,
+        "position": 2,
+        "parentId": "1465036591033614591"
+      },
+      {
+        "id": "1497966673960108162",
+        "name": "┆💔ㆍangst-art",
+        "type": 0,
+        "position": 10,
+        "parentId": "1426566274183467128"
+      },
+      {
+        "id": "1426566274183467128",
+        "name": "‧˚꒰  Art  Gallery  ⋮ ⌗  ┆  006",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1467119989923512351",
+        "name": "⇢-˗ˏˋ˖unusualrealitys-room᯽-݁˖·",
+        "type": 0,
+        "position": 9,
+        "parentId": "1465036591033614591"
+      },
+      {
+        "id": "1426562827795038310",
+        "name": "‧˚꒰  farlands  ⋮ ⌗  ┆  011",
+        "type": 4,
+        "position": 13,
+        "parentId": null
+      },
+      {
+        "id": "1516536013760237739",
+        "name": "﹒ᴗ͈ˬᴗ͈﹕zheos︲memory︲pills﹒꒱꒱",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1434455901837856921",
+        "name": "﹒ᴗ͈ˬᴗ͈﹕dream︲world﹒꒱꒱",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1436103499741003857",
+        "name": "aces-grief-theories-forum",
+        "type": 15,
+        "position": 4,
+        "parentId": "1426561448448102612"
+      },
+      {
+        "id": "1500384507675545690",
+        "name": "courtroom-2",
+        "type": 0,
+        "position": 4,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1500727565252300832",
+        "name": "ㆍsparkysㆍcandylandㆍ",
+        "type": 0,
+        "position": 10,
+        "parentId": "1480261154772095216"
+      },
+      {
+        "id": "1412485545963294730",
+        "name": "aces-house-theories-forums-old",
+        "type": 15,
+        "position": 1,
+        "parentId": "1426561448448102612"
+      },
+      {
+        "id": "1526657750237446174",
+        "name": "closed-0005",
+        "type": 0,
+        "position": 7,
+        "parentId": "1453085393791615039"
+      },
+      {
+        "id": "1511593908415758417",
+        "name": "🌀ㆍsong︲ofㆍthe︲day",
+        "type": 0,
+        "position": 0,
+        "parentId": "1480261154772095216"
+      },
+      {
+        "id": "1475888301985759283",
+        "name": "⋆✮❀˙⋆✮wifies˙s-notes-and-room⋆˚",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1498668555397370027",
+        "name": "╰˖𐙚🌆┊ㆍexit",
+        "type": 0,
+        "position": 4,
+        "parentId": "1453085393791615039"
+      },
+      {
+        "id": "1458414280021119133",
+        "name": "kitchen-burnt",
+        "type": 0,
+        "position": 3,
+        "parentId": "1479254367512039588"
+      },
+      {
+        "id": "1457808141839241421",
+        "name": "┊✦゛ticket",
+        "type": 0,
+        "position": 3,
+        "parentId": "1453085393791615039"
+      },
+      {
+        "id": "1447114116895473740",
+        "name": "┆🚬·kevin·spencer",
+        "type": 0,
+        "position": 2,
+        "parentId": "1444796443851362455"
+      },
+      {
+        "id": "1527002409279422504",
+        "name": "nsfw-channel",
+        "type": 0,
+        "position": 6,
+        "parentId": "1479254367512039588"
+      },
+      {
+        "id": "1465260548143845532",
+        "name": "⇢-aris-news-and-facts-board࿐ྂ",
+        "type": 0,
+        "position": 10,
+        "parentId": "1465036591033614591"
+      },
+      {
+        "id": "1479260391489142896",
+        "name": "╭˖𐙚🌆┊ㆍenter",
+        "type": 0,
+        "position": 0,
+        "parentId": "1453085393791615039"
+      },
+      {
+        "id": "1425832188447952966",
+        "name": "┊ㆍnegativeㆍvent🫂",
+        "type": 0,
+        "position": 4,
+        "parentId": "1433710238350970971"
+      },
+      {
+        "id": "1426572941742575787",
+        "name": "╰╮⸝𓏲annoucements‿𓈒ֵ۫𓏼ིྀ🪭",
+        "type": 0,
+        "position": 0,
+        "parentId": "1426562458188910602"
+      },
+      {
+        "id": "1426574266131808328",
+        "name": "random-facts",
+        "type": 0,
+        "position": 2,
+        "parentId": "1426561448448102612"
+      },
+      {
+        "id": "1425852346906185808",
+        "name": "subtle-poems",
+        "type": 0,
+        "position": 0,
+        "parentId": "1426561717034287206"
+      },
+      {
+        "id": "1503984529717592164",
+        "name": "charlie︲bedroom",
+        "type": 0,
+        "position": 13,
+        "parentId": "1480261154772095216"
+      },
+      {
+        "id": "1440368766272802896",
+        "name": "╰˖𐙚🪩┆·osc-dex",
+        "type": 0,
+        "position": 6,
+        "parentId": "1444060859709132870"
+      },
+      {
+        "id": "1505184998851084348",
+        "name": "quotes",
+        "type": 0,
+        "position": 5,
+        "parentId": "1426561717034287206"
+      },
+      {
+        "id": "1500384824047698030",
+        "name": "courtroom",
+        "type": 2,
+        "position": 0,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1508727102902636684",
+        "name": "⋆✮❀˙⋆✮roleplay-area𐙚⋆",
+        "type": 0,
+        "position": 12,
+        "parentId": null
+      },
+      {
+        "id": "1479774324662472814",
+        "name": "Center household",
+        "type": 2,
+        "position": 8,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1439080572638199949",
+        "name": "╭˖𐙚🎰┆·gambling",
+        "type": 0,
+        "position": 0,
+        "parentId": "1439699380398592162"
+      },
+      {
+        "id": "1414987904794497045",
+        "name": "╭˖𐙚🖌┆ㆍarts",
+        "type": 0,
+        "position": 0,
+        "parentId": "1426566274183467128"
+      },
+      {
+        "id": "1479085086447108146",
+        "name": "┊✦゛positiveㆍvent",
+        "type": 0,
+        "position": 5,
+        "parentId": "1433710238350970971"
+      },
+      {
+        "id": "1447097912331993272",
+        "name": "╰►⸝⸝minor-annouces⸙͎۪۫-⊰🪭",
+        "type": 0,
+        "position": 1,
+        "parentId": "1426562458188910602"
+      },
+      {
+        "id": "1465039006214394027",
+        "name": "꒷︶꒷꒥꒷‧₊˚꒷︶꒷꒥꒷‧₊˚꒷︶꒷꒥꒷‧₊˚꒷︶꒷꒥",
+        "type": 0,
+        "position": 4,
+        "parentId": "1465036591033614591"
+      },
+      {
+        "id": "1455571454195400864",
+        "name": "living-room",
+        "type": 2,
+        "position": 10,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1439233976102424577",
+        "name": "movie-night",
+        "type": 2,
+        "position": 5,
+        "parentId": "1433708390877495409"
+      },
+      {
+        "id": "1447524714087190648",
+        "name": "Among us",
+        "type": 2,
+        "position": 6,
+        "parentId": "1433708390877495409"
+      },
+      {
+        "id": "1521207338420142181",
+        "name": "hoոeypot",
+        "type": 0,
+        "position": 13,
+        "parentId": null
+      },
+      {
+        "id": "1483008958754066553",
+        "name": "Cosmic/pin's room",
+        "type": 2,
+        "position": 24,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1479252783139000442",
+        "name": "no category yet",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1425852220917682308",
+        "name": "poems-channel",
+        "type": 0,
+        "position": 1,
+        "parentId": "1426561717034287206"
+      },
+      {
+        "id": "1422880895701880852",
+        "name": "sing-along",
+        "type": 0,
+        "position": 4,
+        "parentId": "1426561717034287206"
+      },
+      {
+        "id": "1458011491360964638",
+        "name": "vent-lyrics",
+        "type": 0,
+        "position": 3,
+        "parentId": "1426561717034287206"
+      },
+      {
+        "id": "1444422447859368088",
+        "name": "┆🎥·edits",
+        "type": 0,
+        "position": 8,
+        "parentId": "1426566274183467128"
+      },
+      {
+        "id": "1442453128359313449",
+        "name": "╰˖𐙚🏵┆·truth-or-dare",
+        "type": 0,
+        "position": 9,
+        "parentId": "1439699380398592162"
+      },
+      {
+        "id": "1439454271241457694",
+        "name": "┆🫖·akinator",
+        "type": 0,
+        "position": 7,
+        "parentId": "1439699380398592162"
+      },
+      {
+        "id": "1506232569715232868",
+        "name": "Wifiesland",
+        "type": 2,
+        "position": 26,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1483573092394598503",
+        "name": "⸙͎۪۫🌈‿𓈒ֵ۫⊰˚ʀᴏʟᴇꜱ‿𓈒ֵ۫𓏼ིྀ",
+        "type": 0,
+        "position": 2,
+        "parentId": "1479252783139000442"
+      },
+      {
+        "id": "1510923873116491836",
+        "name": "family-court",
+        "type": 0,
+        "position": 10,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1439893012032258059",
+        "name": "⸝⸝゛starʙᴏᴀʀᴅㆍ︵",
+        "type": 0,
+        "position": 6,
+        "parentId": "1439091498669838367"
+      },
+      {
+        "id": "1434140835850620990",
+        "name": "┆🌃·my·inner·damos",
+        "type": 0,
+        "position": 3,
+        "parentId": "1444796443851362455"
+      },
+      {
+        "id": "1424095797691285625",
+        "name": "┆🌷·hear·me·out",
+        "type": 0,
+        "position": 6,
+        "parentId": "1439699380398592162"
+      },
+      {
+        "id": "1462431543203987486",
+        "name": "Court",
+        "type": 2,
+        "position": 22,
+        "parentId": "1455571375791149078"
+      },
+      {
+        "id": "1453085393791615039",
+        "name": "‧˚꒰  Server's Entrance ⋮ ⌗  ┆  000",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1500384903504724038",
+        "name": "crime-review",
+        "type": 15,
+        "position": 1,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1425542010600685679",
+        "name": "💬゛introㆍ⌗",
+        "type": 0,
+        "position": 3,
+        "parentId": "1439091498669838367"
+      },
+      {
+        "id": "1439699380398592162",
+        "name": "‧˚꒰  Arcade  ⋮ ⌗  ┆  008",
+        "type": 4,
+        "position": 10,
+        "parentId": null
+      },
+      {
+        "id": "1463244236286591169",
+        "name": "⋆✮❀˙⋆✮azel˙s-personal-babbles𐙚⋆",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1500385000737214484",
+        "name": "jail",
+        "type": 0,
+        "position": 5,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1433708390877495409",
+        "name": "‧˚꒰  crowd  talk  ⋮ ⌗  ┆  009",
+        "type": 4,
+        "position": 11,
+        "parentId": null
+      },
+      {
+        "id": "1422260445133144094",
+        "name": "ROLEPLAY VC!!",
+        "type": 2,
+        "position": 0,
+        "parentId": "1433708390877495409"
+      },
+      {
+        "id": "1500484833443446906",
+        "name": "evidence-collection",
+        "type": 15,
+        "position": 2,
+        "parentId": "1500384093949526066"
+      },
+      {
+        "id": "1479261407500570654",
+        "name": "mimu-stuff-do-not-chat",
+        "type": 0,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1467820203038740480",
+        "name": "⇢-˗ˏˋ˖painty-room᯽-݁˖·",
+        "type": 0,
+        "position": 11,
+        "parentId": "1465036591033614591"
+      },
+      {
+        "id": "1473690726079529041",
+        "name": "⋆˙⋆spoke˙s-investigation-room⋆˚",
+        "type": 0,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1412723393979224094",
+        "name": "┆💠·rp-inanimate-insanity-lobby",
+        "type": 0,
+        "position": 1,
+        "parentId": "1444060859709132870"
+      },
+      {
+        "id": "1412094909489348608",
+        "name": "┆🗣️·debate·object·shows·or·fandoms",
+        "type": 15,
+        "position": 5,
+        "parentId": "1444796443851362455"
+      },
+      {
+        "id": "1502645541555933335",
+        "name": "☆┆⏤͟͟͞͞-staffmod-shenanigans┆✻▸🪭",
+        "type": 0,
+        "position": 6,
+        "parentId": "1426562458188910602"
+      },
+      {
+        "id": "1526684295962431690",
+        "name": "Aero",
+        "type": 4,
+        "position": 20,
+        "parentId": null
+      },
+      {
+        "id": "1439091498669838367",
+        "name": "‧˚꒰  Server's Board  ⋮ ⌗ ┆ 002",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1496006621292138636",
+        "name": "🧷ㆍcosmics︲lifeㆍadvice︲tips",
+        "type": 0,
+        "position": 1,
+        "parentId": "1480261154772095216"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1439096561140236448",
+        "name": "୨୧₊⁺﹒13  below  ₊ ᡣ𐭩",
+        "color": 16569042,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1439097131641212998",
+        "name": "🩷﹒⌗﹒Female ⸝⸝",
+        "color": 16762865,
+        "permissions": "0",
+        "position": 41,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1453227679640715406",
+        "name": "﹒⌗﹒co - owner  ⸝⸝  🪽",
+        "color": 9807270,
+        "permissions": "1721826618638327",
+        "position": 63,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1439098446064910366",
+        "name": "彡꒰   pink   ꒱ 🍥",
+        "color": 16697574,
+        "permissions": "0",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1439098364510867456",
+        "name": "彡꒰   purple   ꒱ 🍇",
+        "color": 12217341,
+        "permissions": "0",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1439098239256105152",
+        "name": "彡꒰   cyan   ꒱ 💎",
+        "color": 9163263,
+        "permissions": "0",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457652983339941990",
+        "name": ".✦ ݁˖ ︴They ﾉ Them    𐦯",
+        "color": 9331372,
+        "permissions": "0",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1512753526047248385",
+        "name": "‧˚꒰  lazzlingss ୭ ˚. ᵎᵎ",
+        "color": 0,
+        "permissions": "0",
+        "position": 60,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1439096884495909004",
+        "name": "୨୧₊⁺﹒13  above  ₊ ᡣ𐭩",
+        "color": 16760767,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1439097843770982571",
+        "name": "彡꒰   orange   ꒱ 📙",
+        "color": 16755294,
+        "permissions": "0",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1439098123657150577",
+        "name": "彡꒰   blue   ꒱ 🫐",
+        "color": 5858559,
+        "permissions": "0",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526965312073760779",
+        "name": "୨୧₊˗ˏˋ ꒰ VERIFIED AGE (15+!! ) ꒱ ˎˊ˗  ₊ ᡣ",
+        "color": 16777215,
+        "permissions": "1720707884502593",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1450007191980474428",
+        "name": "˗ˏˋ ꒰ daily checkup ꒱ ˎˊ˗",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1476242531137093633",
+        "name": "```Evilfies [OWNER.]```",
+        "color": 0,
+        "permissions": "1721835208572927",
+        "position": 64,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1413587671795630131",
+        "name": "★☽✩✧୧˚ 𝑭𝑨𝑵 / 𝑶𝑾𝑵𝑬𝑹 ˚୨✧✩☾★",
+        "color": 14365748,
+        "permissions": "4360658820005887",
+        "position": 65,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1457652796873773056",
+        "name": ".✦ ݁˖ ︴He ﾉ Him    𐦯",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1439097518259437698",
+        "name": "💖﹒⌗﹒others ⸝⸝",
+        "color": 16775345,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1439097971030626444",
+        "name": "彡꒰   yellow   ꒱ 🌼",
+        "color": 16771453,
+        "permissions": "0",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1493017567105646662",
+        "name": ".𐔌 Moderator  𐦯 +",
+        "color": 0,
+        "permissions": "6225407187087319",
+        "position": 62,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1439101912459903018",
+        "name": "୨୧₊⁺﹒not  telling   ₊ ᡣ𐭩",
+        "color": 16769266,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1439098537014071398",
+        "name": "彡꒰   gray   ꒱ 🍙",
+        "color": 10066329,
+        "permissions": "0",
+        "position": 42,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1486875064086298866",
+        "name": "goonball",
+        "color": 10792370,
+        "permissions": "0",
+        "position": 58,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1517448300939317268",
+        "name": "FLAMEFRAGS",
+        "color": 1787006,
+        "permissions": "1720707884502593",
+        "position": 49,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1500878539640016916",
+        "name": "Avery — [ SERVER OWNER. ]",
+        "color": 2966145,
+        "permissions": "1721835208572927",
+        "position": 66,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1465026870448885942",
+        "name": "⇢ ˗ˏˋ CANDIDATE ! ࿐ྂ",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1465025335136616538",
+        "name": "𐔌 Trial - Mod 𐦯",
+        "color": 10070709,
+        "permissions": "1721807559716807",
+        "position": 61,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1508333370269241354",
+        "name": "୧ °  EVENT PING  ‿   ⸝⸝",
+        "color": 13107093,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1500732263070040184",
+        "name": "🌺 CANDYLAND ! 💫",
+        "color": 16506349,
+        "permissions": "1720707884502593",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1439097362856546374",
+        "name": "💙﹒⌗﹒male ⸝⸝",
+        "color": 10935551,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1499091766647980112",
+        "name": "stupid botss",
+        "color": 0,
+        "permissions": "8864262742605823",
+        "position": 59,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1439097747482476595",
+        "name": "彡꒰   red   ꒱ 🔖",
+        "color": 16726843,
+        "permissions": "0",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1439098051980562463",
+        "name": "彡꒰   green   ꒱ 🍀",
+        "color": 12058501,
+        "permissions": "0",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1506553814298398730",
+        "name": "➤ Charlie domplur . ˚〃  ᩙᩙ      ◠",
+        "color": 16770911,
+        "permissions": "1720707884502593",
+        "position": 53,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1444131576697847919",
+        "name": "彡꒰   brown   ꒱ 🍪",
+        "color": 11230524,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526661334467481792",
+        "name": "୨୧₊˗ˏˋ ꒰ VERIFIED AGE (13+!!! ) ꒱ ˎˊ˗  ₊ ᡣ",
+        "color": 16777215,
+        "permissions": "1720707884502593",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457653111077474466",
+        "name": ".✦ ݁˖ ︴It ﾉ Its    𐦯",
+        "color": 8701111,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1503804373795475506",
+        "name": "CHANCE GAMBLER COOLIO!!!",
+        "color": 0,
+        "permissions": "1720707884502593",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1457651436618776577",
+        "name": ".✦ ݁˖ ︴She ﾉ Her    𐦯",
+        "color": 13463948,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526872447347851294",
+        "name": "୨୧₊˗ˏˋ ꒰ VERIFIED AGE (12-13!! ) ꒱ ˎˊ˗  ₊ ᡣ",
+        "color": 16514559,
+        "permissions": "1720707884502593",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1439096990213341284",
+        "name": "୨୧₊⁺﹒18  +  ₊ ᡣ𐭩",
+        "color": 16762327,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1439097272443998331",
+        "name": "💜﹒⌗﹒non-binary ⸝⸝",
+        "color": 13669375,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722657
+  }
+}

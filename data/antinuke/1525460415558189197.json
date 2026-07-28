@@ -1,0 +1,80 @@
+{
+  "backup": {
+    "channels": [],
+    "roles": [
+      {
+        "id": "1525536996510929108",
+        "name": "Dono",
+        "color": 4539460,
+        "permissions": "8864258447638527",
+        "position": 10,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1525542552303042640",
+        "name": "Civil",
+        "color": 15844367,
+        "permissions": "6232996129967168",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525543531278631053",
+        "name": "Prototype",
+        "color": 3066993,
+        "permissions": "6232996129967168",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525543695750004926",
+        "name": "Prototype 10k",
+        "color": 999459,
+        "permissions": "6232996129967168",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525543845964546148",
+        "name": "Recalibrad",
+        "color": 3447003,
+        "permissions": "6232996129967168",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525543960372580463",
+        "name": "Ultimate",
+        "color": 1752220,
+        "permissions": "6232996197092416",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525544268796661901",
+        "name": "Ultimate 10k",
+        "color": 12745742,
+        "permissions": "6232996197092416",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525544349029372104",
+        "name": "Omniverse",
+        "color": 65386,
+        "permissions": "6232996197092416",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783792155881
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "buttons": {
+    "restore_perms_1227318291475730443": {
+      "type": "restore_perms",
+      "targetId": "1227318291475730443",
+      "memberId": "1227318291475730443",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "PhoenixBot Staging",
+            "id": "1525769716092637248",
+            "permissions": [
+              "KickMembers",
+              "BanMembers",
+              "Administrator",
+              "ManageChannels",
+              "AddReactions",
+              "ViewAuditLog",
+              "PrioritySpeaker",
+              "ViewChannel",
+              "SendMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "ChangeNickname",
+              "ManageNicknames",
+              "ManageRoles",
+              "ManageWebhooks",
+              "ManageEmojisAndStickers",
+              "ManageGuildExpressions",
+              "SendMessagesInThreads",
+              "ModerateMembers",
+              "CreateGuildExpressions"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1525027241078030508",
+      "relatedMessages": [
+        {
+          "channelId": "1525769724406009968",
+          "messageId": "1525769734446907473"
+        },
+        {
+          "channelId": "1525769743947010162",
+          "messageId": "1525769746270654556"
+        }
+      ],
+      "expiresAt": 1783928654009,
+      "createdAt": 1783842254009,
+      "module": "bot-protection"
+    }
+  }
+}

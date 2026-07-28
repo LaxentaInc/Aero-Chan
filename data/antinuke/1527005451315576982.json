@@ -1,0 +1,850 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1527297427957354546",
+        "name": "🌶️・confessions",
+        "type": 0,
+        "position": 2,
+        "parentId": "1527005452171346141"
+      },
+      {
+        "id": "1529041371724513352",
+        "name": "jail",
+        "type": 0,
+        "position": 1,
+        "parentId": "1529041363344035841"
+      },
+      {
+        "id": "1527529843388846212",
+        "name": "Vc 3",
+        "type": 2,
+        "position": 2,
+        "parentId": "1527005452171346142"
+      },
+      {
+        "id": "1527595180205543474",
+        "name": "✨ Appreciations",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1527888774246436864",
+        "name": "🥇・counting",
+        "type": 0,
+        "position": 4,
+        "parentId": "1527005452171346141"
+      },
+      {
+        "id": "1527608847542259822",
+        "name": "modlogs",
+        "type": 0,
+        "position": 2,
+        "parentId": "1527204459275485385"
+      },
+      {
+        "id": "1528023249156575384",
+        "name": "Suggestions",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1527565303830024232",
+        "name": "🤖 Commands",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1529915554507390986",
+        "name": "⚙️・custom",
+        "type": 0,
+        "position": 3,
+        "parentId": "1527565303830024232"
+      },
+      {
+        "id": "1527329111326855228",
+        "name": "👤 Profile",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1527570731641213058",
+        "name": "🖼️・pictures",
+        "type": 0,
+        "position": 0,
+        "parentId": "1527569728229609543"
+      },
+      {
+        "id": "1530966408203075749",
+        "name": "📢・announcements",
+        "type": 5,
+        "position": 1,
+        "parentId": "1527328491949789194"
+      },
+      {
+        "id": "1529041363344035841",
+        "name": "greed-mod",
+        "type": 4,
+        "position": 10,
+        "parentId": null
+      },
+      {
+        "id": "1527328491949789194",
+        "name": "📌 Important",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1527652669953675384",
+        "name": "🏆・level",
+        "type": 0,
+        "position": 1,
+        "parentId": "1527595180205543474"
+      },
+      {
+        "id": "1527567408842276974",
+        "name": "🫂・venting",
+        "type": 0,
+        "position": 1,
+        "parentId": "1527005452171346141"
+      },
+      {
+        "id": "1529798260624064634",
+        "name": "reports",
+        "type": 0,
+        "position": 1,
+        "parentId": "1527204459275485385"
+      },
+      {
+        "id": "1527550168705274016",
+        "name": "💐・welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": "1527549948567097374"
+      },
+      {
+        "id": "1527331621613863044",
+        "name": "・banners",
+        "type": 0,
+        "position": 1,
+        "parentId": "1527329111326855228"
+      },
+      {
+        "id": "1527550246622859395",
+        "name": "🥀・farewell",
+        "type": 0,
+        "position": 1,
+        "parentId": "1527549948567097374"
+      },
+      {
+        "id": "1527204459275485385",
+        "name": "Staff",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1530966531339714700",
+        "name": "⁉️・qnas",
+        "type": 0,
+        "position": 2,
+        "parentId": "1527328491949789194"
+      },
+      {
+        "id": "1527594897035497512",
+        "name": "🏦・gambling",
+        "type": 0,
+        "position": 2,
+        "parentId": "1527565303830024232"
+      },
+      {
+        "id": "1527549948567097374",
+        "name": "☁️ Greetings",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1527570650557059174",
+        "name": "🎨・edits",
+        "type": 0,
+        "position": 1,
+        "parentId": "1527569728229609543"
+      },
+      {
+        "id": "1527207333879349278",
+        "name": "📜・rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1527328491949789194"
+      },
+      {
+        "id": "1527529780289863700",
+        "name": "Vc 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1527005452171346142"
+      },
+      {
+        "id": "1527608846867234967",
+        "name": "wick-logs",
+        "type": 0,
+        "position": 3,
+        "parentId": "1527204459275485385"
+      },
+      {
+        "id": "1527595342764179516",
+        "name": "💎・boosts",
+        "type": 0,
+        "position": 0,
+        "parentId": "1527595180205543474"
+      },
+      {
+        "id": "1527005452171346142",
+        "name": "🔊 Voice Chat",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1527569728229609543",
+        "name": "🎥 Media",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1527204583716159623",
+        "name": "staff",
+        "type": 0,
+        "position": 0,
+        "parentId": "1527204459275485385"
+      },
+      {
+        "id": "1527565450953883748",
+        "name": "🧋・greed",
+        "type": 0,
+        "position": 0,
+        "parentId": "1527565303830024232"
+      },
+      {
+        "id": "1530501814384984137",
+        "name": "💬・chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1527005452171346141"
+      },
+      {
+        "id": "1527005452171346141",
+        "name": "🐱 Social",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1527332552468336742",
+        "name": "・pfps",
+        "type": 0,
+        "position": 0,
+        "parentId": "1527329111326855228"
+      },
+      {
+        "id": "1528009613793034441",
+        "name": "・matchings",
+        "type": 0,
+        "position": 2,
+        "parentId": "1527329111326855228"
+      },
+      {
+        "id": "1528063327941427200",
+        "name": "📰・journal",
+        "type": 0,
+        "position": 3,
+        "parentId": "1527005452171346141"
+      },
+      {
+        "id": "1527005452171346144",
+        "name": "Vc 1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1527005452171346142"
+      },
+      {
+        "id": "1530966588302295060",
+        "name": "🗳️・polls",
+        "type": 0,
+        "position": 3,
+        "parentId": "1527328491949789194"
+      },
+      {
+        "id": "1527570620282441908",
+        "name": "📸・videos",
+        "type": 0,
+        "position": 2,
+        "parentId": "1527569728229609543"
+      },
+      {
+        "id": "1527567263425630228",
+        "name": "🪙・owo",
+        "type": 0,
+        "position": 1,
+        "parentId": "1527565303830024232"
+      },
+      {
+        "id": "1529041370369622187",
+        "name": "logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1529041363344035841"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1527967749228335264",
+        "name": "⭐ - Stargazer",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 62,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1528060507922235492",
+        "name": "annoying af",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527636929946976346",
+        "name": "orange",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 76,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527971703819468921",
+        "name": "💕 - Daydreamer",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 41,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527968055659855902",
+        "name": "💀 - Chronically Online",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 52,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1528003398748606526",
+        "name": "Novice Yapi",
+        "color": 48383,
+        "permissions": "0",
+        "position": 63,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1527636799508189205",
+        "name": "pink",
+        "color": 15374773,
+        "permissions": "0",
+        "position": 77,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527969881482465431",
+        "name": "🎉 - Events",
+        "color": 7858895,
+        "permissions": "0",
+        "position": 48,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527576259113254992",
+        "name": "🌸 • New Member",
+        "color": 16500479,
+        "permissions": "3073",
+        "position": 31,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1527969684174147584",
+        "name": "🐶 - Dog Person",
+        "color": 16304071,
+        "permissions": "0",
+        "position": 50,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1529041374790422538",
+        "name": "imute",
+        "color": 0,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527350864266788984",
+        "name": "Mod",
+        "color": 526344,
+        "permissions": "8582787766419455",
+        "position": 86,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1527965829499457687",
+        "name": "🎮 - Gamer",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 54,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527636990793617509",
+        "name": "yellow",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 73,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528093744891564153",
+        "name": "Cutie Diva",
+        "color": 444916,
+        "permissions": "0",
+        "position": 66,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527182771880198275",
+        "name": "Admin",
+        "color": 1,
+        "permissions": "1721835208572927",
+        "position": 87,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1527971269486575697",
+        "name": "🌧️ - Rain Lover",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 42,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527655372041621544",
+        "name": "purple",
+        "color": 12403199,
+        "permissions": "0",
+        "position": 78,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527968044289097869",
+        "name": "💤 - Sleepy",
+        "color": 9688807,
+        "permissions": "0",
+        "position": 53,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527636747931095230",
+        "name": "blue",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 71,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529041379140042766",
+        "name": "rmute",
+        "color": 0,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527655254613557360",
+        "name": "blue",
+        "color": 1442047,
+        "permissions": "0",
+        "position": 80,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527269648301559908",
+        "name": "she/her",
+        "color": 16352940,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527644251985281044",
+        "name": "black",
+        "color": 328451,
+        "permissions": "0",
+        "position": 79,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527963543373348964",
+        "name": "🎵 - Music Enthusiast",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 49,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1529041364422230076",
+        "name": "jailed",
+        "color": 0,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527636846622937270",
+        "name": "purple",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 75,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530240108857524296",
+        "name": "💻 - Editor",
+        "color": 63999,
+        "permissions": "0",
+        "position": 55,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527970725527294043",
+        "name": "🎶 - Playlist Addict",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 46,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1529916240892792982",
+        "name": "ㅤ",
+        "color": 0,
+        "permissions": "8",
+        "position": 88,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527548238683705527",
+        "name": "🍥 - Anime Fan",
+        "color": 4236543,
+        "permissions": "0",
+        "position": 57,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527637122188578836",
+        "name": "white",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 69,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527696962160431255",
+        "name": "+18",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527636879451881482",
+        "name": "red",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 70,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527972292259221596",
+        "name": "❄️ - Chill",
+        "color": 1644568,
+        "permissions": "0",
+        "position": 38,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527967584790642698",
+        "name": "🌸 - Soft Soul",
+        "color": 16686558,
+        "permissions": "0",
+        "position": 61,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527967872851116182",
+        "name": "💅 - Yapper",
+        "color": 15260034,
+        "permissions": "0",
+        "position": 58,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1528003579929952286",
+        "name": "Elite Yapat",
+        "color": 65338,
+        "permissions": "0",
+        "position": 64,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1528003710217748582",
+        "name": "Supreme Yapper",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 65,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1527967220234457188",
+        "name": "☁️ - Cozy",
+        "color": 16181480,
+        "permissions": "0",
+        "position": 56,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527971178990534746",
+        "name": "🌞 - Early Bird",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 43,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1528000518717440051",
+        "name": "💫 Rookie",
+        "color": 3683037,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527970460527104020",
+        "name": "☕ - Coffee Lover",
+        "color": 6632963,
+        "permissions": "0",
+        "position": 47,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527637026512306388",
+        "name": "green",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 72,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528422072076996698",
+        "name": "🍁 - Naturist",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 44,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1531319229868015749",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527269906511298681",
+        "name": "he/him",
+        "color": 10412799,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527972157077065769",
+        "name": "👅 - Meme Lover",
+        "color": 4912047,
+        "permissions": "0",
+        "position": 39,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527970957262717062",
+        "name": "🎭 - Performer",
+        "color": 7668740,
+        "permissions": "0",
+        "position": 45,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1529210259762057428",
+        "name": "🎗️- Down To Earth",
+        "color": 460551,
+        "permissions": "0",
+        "position": 60,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527697025477644508",
+        "name": "-18",
+        "color": 1752220,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527655678934646924",
+        "name": "pink",
+        "color": 16226559,
+        "permissions": "0",
+        "position": 68,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527967416737468537",
+        "name": "🌙 - Night Owl",
+        "color": 14743795,
+        "permissions": "0",
+        "position": 59,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527968318743646248",
+        "name": "🐱 - Cat Person",
+        "color": 16302209,
+        "permissions": "0",
+        "position": 51,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527971904202215514",
+        "name": "🧠 - Overthinker",
+        "color": 14587542,
+        "permissions": "0",
+        "position": 40,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1527637054907875448",
+        "name": "grey",
+        "color": 8026746,
+        "permissions": "0",
+        "position": 74,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527201314121977968",
+        "name": "Bots",
+        "color": 56319,
+        "permissions": "8",
+        "position": 81,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1528005069096616047",
+        "name": "Cutest Baby :3",
+        "color": 16754423,
+        "permissions": "0",
+        "position": 67,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1529910957881430079",
+        "name": "pic",
+        "color": 0,
+        "permissions": "49152",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527653426362847333",
+        "name": "🦇 • New Member",
+        "color": 1,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": true
+      }
+    ],
+    "updated": 1785215722747
+  }
+}

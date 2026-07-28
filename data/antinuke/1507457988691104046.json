@@ -37,6 +37,13 @@
         "parentId": null
       },
       {
+        "id": "1525169614680756405",
+        "name": "Phòng Ngủ 💤",
+        "type": 2,
+        "position": 3,
+        "parentId": null
+      },
+      {
         "id": "1507462038262120489",
         "name": "hướng-dẫn",
         "type": 0,
@@ -171,7 +178,7 @@
       },
       {
         "id": "1507593574592676053",
-        "name": "phòng Lọ F2p wuwa",
+        "name": "phòng Lọ Ttai",
         "type": 2,
         "position": 0,
         "parentId": null
@@ -242,20 +249,11 @@
     ],
     "roles": [
       {
-        "id": "1515743057222439043",
-        "name": "Phản Thanh Phục Minh",
-        "color": 8820479,
-        "permissions": "1721826619162615",
-        "position": 14,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1523219064061694051",
-        "name": "Hội người già 2",
-        "color": 10181046,
+        "id": "1507571327496884375",
+        "name": "Nữ Đế",
+        "color": 15844367,
         "permissions": "0",
-        "position": 4,
+        "position": 31,
         "hoist": false,
         "mentionable": false
       },
@@ -264,25 +262,7 @@
         "name": "Team hệ Tày",
         "color": 0,
         "permissions": "0",
-        "position": 31,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1524328964997513356",
-        "name": "Remake Monstercat",
-        "color": 3066993,
-        "permissions": "0",
-        "position": 1,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1524083530617983187",
-        "name": "Đạo dụ 🔞",
-        "color": 8257791,
-        "permissions": "0",
-        "position": 3,
+        "position": 29,
         "hoist": false,
         "mentionable": false
       },
@@ -291,88 +271,7 @@
         "name": "Nghịch đồ",
         "color": 16711680,
         "permissions": "8864262743130111",
-        "position": 30,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1516378485072068628",
-        "name": "Thù Siêu Dai",
-        "color": 1703961,
-        "permissions": "1721826619162615",
-        "position": 9,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1509114445551636510",
-        "name": "Thái giám",
-        "color": 2577,
-        "permissions": "0",
-        "position": 24,
-        "hoist": true,
-        "mentionable": false
-      },
-      {
-        "id": "1515740559795294409",
-        "name": "Loli con",
-        "color": 16712194,
-        "permissions": "0",
-        "position": 17,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1518200749266436107",
-        "name": "Hội Người cao tuổi",
-        "color": 65370,
-        "permissions": "0",
-        "position": 32,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1521561814008332419",
-        "name": "Vợ Linh",
-        "color": 16711782,
-        "permissions": "0",
-        "position": 6,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1507571327496884375",
-        "name": "Nữ Đế",
-        "color": 15844367,
-        "permissions": "0",
-        "position": 33,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1515904048543568013",
-        "name": "Hoàng Tộc 👑",
-        "color": 16056064,
-        "permissions": "1721826619162615",
-        "position": 12,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1515742649196216563",
-        "name": "Gia Cát Lượng",
-        "color": 8913151,
-        "permissions": "1721826619162615",
-        "position": 15,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1516306896213114940",
-        "name": "Sad Nhân",
-        "color": 2228224,
-        "permissions": "1721826619162615",
-        "position": 10,
+        "position": 28,
         "hoist": false,
         "mentionable": false
       },
@@ -381,34 +280,25 @@
         "name": "Baby",
         "color": 16384255,
         "permissions": "8864258447638527",
-        "position": 25,
+        "position": 23,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1515746839503306754",
-        "name": "Thích Dỗi",
-        "color": 54783,
-        "permissions": "1721826619162615",
-        "position": 13,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1518622742826451095",
-        "name": "ReiAyanami",
-        "color": 6992866,
+        "id": "1509114445551636510",
+        "name": "Thái giám",
+        "color": 2577,
         "permissions": "0",
-        "position": 8,
-        "hoist": false,
+        "position": 22,
+        "hoist": true,
         "mentionable": false
       },
       {
-        "id": "1524328750651805797",
-        "name": "Wuwa Player",
-        "color": 9816041,
+        "id": "1515740559795294409",
+        "name": "Loli con",
+        "color": 16712194,
         "permissions": "0",
-        "position": 2,
+        "position": 15,
         "hoist": false,
         "mentionable": false
       },
@@ -417,11 +307,119 @@
         "name": "Kẻ ăn thịt loli 🗿",
         "color": 0,
         "permissions": "0",
-        "position": 16,
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515742649196216563",
+        "name": "Gia Cát Lượng",
+        "color": 8913151,
+        "permissions": "1721826619162615",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515743057222439043",
+        "name": "Phản Thanh Phục Minh",
+        "color": 8820479,
+        "permissions": "1721826619162615",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515746839503306754",
+        "name": "Thích Dỗi",
+        "color": 54783,
+        "permissions": "1721826619162615",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515904048543568013",
+        "name": "Hoàng Tộc 👑",
+        "color": 16056064,
+        "permissions": "1721826619162615",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1516306896213114940",
+        "name": "Sad Nhân",
+        "color": 2228224,
+        "permissions": "1721826619162615",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1516378485072068628",
+        "name": "Thù Siêu Dai",
+        "color": 1703961,
+        "permissions": "1721826619162615",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1518200749266436107",
+        "name": "Hội Người cao tuổi",
+        "color": 65370,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523219064061694051",
+        "name": "Hội người già 2",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524083530617983187",
+        "name": "Đạo dụ 🔞",
+        "color": 8257791,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524328750651805797",
+        "name": "Wuwa Player",
+        "color": 9816041,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524328964997513356",
+        "name": "Remake Monstercat",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530877632655261819",
+        "name": "ULTIMA",
+        "color": 232935,
+        "permissions": "0",
+        "position": 1,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1783524121142
+    "updated": 1785215721571
   }
 }

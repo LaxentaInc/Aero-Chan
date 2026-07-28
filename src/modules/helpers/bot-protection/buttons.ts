@@ -57,8 +57,11 @@ async function registerAndPersist(guildId: any, customId: any, meta: any) {
  */
 async function handleButtonInteraction(interaction: any, meta: any) {
   try {
-    // lazy load instance
-    const botProtection = require('./index');
+    // lazy load the bot protection module index to avoid circular dependencies between index.ts and buttons.ts during initialization.
+    // when compiled from es module default export to commonjs, the export is wrapped in a default property.
+    // we unwrap default or fallback to the root module so handlebuttoninteraction can access class methods like getconfig and updateconfig.
+    const botProtectionModule = require('./index');
+    const botProtection = botProtectionModule.default || botProtectionModule;
     const guildId = meta.guildId || interaction.guildId;
     if (!guildId) {
       return interaction.reply({

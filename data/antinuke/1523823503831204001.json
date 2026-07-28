@@ -1,0 +1,192 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1523823504330457159",
+        "name": "Salons textuels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1523823504330457160",
+        "name": "Salons vocaux",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1523823504330457161",
+        "name": "général",
+        "type": 0,
+        "position": 1,
+        "parentId": "1523823504330457159"
+      },
+      {
+        "id": "1527077397084766239",
+        "name": "mems",
+        "type": 15,
+        "position": 0,
+        "parentId": "1523823504330457159"
+      },
+      {
+        "id": "1527079746251391109",
+        "name": "☕/chill",
+        "type": 2,
+        "position": 0,
+        "parentId": "1523823504330457160"
+      },
+      {
+        "id": "1527081144795791430",
+        "name": "📜rules",
+        "type": 0,
+        "position": 2,
+        "parentId": "1523823504330457159"
+      },
+      {
+        "id": "1527081944129736755",
+        "name": "🎮Efootball chilling",
+        "type": 2,
+        "position": 1,
+        "parentId": "1523823504330457160"
+      },
+      {
+        "id": "1528125158424842350",
+        "name": "chat",
+        "type": 0,
+        "position": 3,
+        "parentId": "1523823504330457159"
+      },
+      {
+        "id": "1528133490388762634",
+        "name": "VOICE ADMINS",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1528134213491228754",
+        "name": "FREE FIRE🏹",
+        "type": 2,
+        "position": 2,
+        "parentId": "1523823504330457160"
+      },
+      {
+        "id": "1528140903053660300",
+        "name": "CHI HAJAAA",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1528175064036540446",
+        "name": "story time",
+        "type": 2,
+        "position": 0,
+        "parentId": "1528140903053660300"
+      },
+      {
+        "id": "1528491914066923741",
+        "name": "CHAMBRE 1",
+        "type": 2,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1528491996904165418",
+        "name": "CHILL",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1528492054232043675",
+        "name": "1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1528491996904165418"
+      },
+      {
+        "id": "1528492077661290598",
+        "name": "2",
+        "type": 0,
+        "position": 0,
+        "parentId": "1528491996904165418"
+      },
+      {
+        "id": "1528492108036444260",
+        "name": "3",
+        "type": 2,
+        "position": 1,
+        "parentId": "1528491996904165418"
+      },
+      {
+        "id": "1528492139485462670",
+        "name": "4",
+        "type": 2,
+        "position": 2,
+        "parentId": "1528491996904165418"
+      },
+      {
+        "id": "1527077693286514688",
+        "name": "kono fchkeel adrari",
+        "type": 11,
+        "parentId": "1527077397084766239"
+      },
+      {
+        "id": "1527078920724414565",
+        "name": "Rg",
+        "type": 11,
+        "parentId": "1527077397084766239"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1528131521213370580",
+        "name": ".",
+        "color": 0,
+        "permissions": "8798173398199",
+        "position": 34,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1528132292298412113",
+        "name": "ADMIN",
+        "color": 15844367,
+        "permissions": "9244850441459",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528132885800812585",
+        "name": "VERIFY",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 32,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1528863766949793842",
+        "name": "MUTE POWER",
+        "color": 0,
+        "permissions": "4194304",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528862307986313226",
+        "name": "MOVE POWER",
+        "color": 0,
+        "permissions": "16777224",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722704
+  }
+}

@@ -793,130 +793,10 @@
         "parentId": "1502506115940749372"
       },
       {
-        "id": "1518119662754463865",
-        "name": "Guess i gotta do ts",
-        "type": 11,
-        "parentId": "1502498305551372438"
-      },
-      {
-        "id": "1518120098160709684",
-        "name": "I made #Medic-spam",
-        "type": 11,
-        "parentId": "1502498305551372438"
-      },
-      {
-        "id": "1516166742383005919",
-        "name": "Recent art I made",
+        "id": "1529412436715896842",
+        "name": "Intern",
         "type": 11,
         "parentId": "1502506862904610917"
-      },
-      {
-        "id": "1516683025029795913",
-        "name": "Professor Beak :D",
-        "type": 11,
-        "parentId": "1502506862904610917"
-      },
-      {
-        "id": "1518131942631932004",
-        "name": "MoonBot",
-        "type": 11,
-        "parentId": "1502506862904610917"
-      },
-      {
-        "id": "1518842199712858182",
-        "name": "this is awkward",
-        "type": 11,
-        "parentId": "1502506862904610917"
-      },
-      {
-        "id": "1502508507382022224",
-        "name": "fish channel",
-        "type": 11,
-        "parentId": "1502507135479713852"
-      },
-      {
-        "id": "1502526210100432908",
-        "name": "Role iders",
-        "type": 11,
-        "parentId": "1502507135479713852"
-      },
-      {
-        "id": "1502526504754745464",
-        "name": "Give me custom role idk",
-        "type": 11,
-        "parentId": "1502507135479713852"
-      },
-      {
-        "id": "1502552501008994344",
-        "name": "A drawing VC to stream art lapses or active drawings?",
-        "type": 11,
-        "parentId": "1502507135479713852"
-      },
-      {
-        "id": "1502766078634364968",
-        "name": "Late Night Gaming/Specials",
-        "type": 11,
-        "parentId": "1502507135479713852"
-      },
-      {
-        "id": "1502788600188637295",
-        "name": "oh ok",
-        "type": 11,
-        "parentId": "1502507135479713852"
-      },
-      {
-        "id": "1503234828496146462",
-        "name": "Basic gaming vc",
-        "type": 11,
-        "parentId": "1502507135479713852"
-      },
-      {
-        "id": "1518073010232233994",
-        "name": "Yes",
-        "type": 11,
-        "parentId": "1502507135479713852"
-      },
-      {
-        "id": "1517518356893274163",
-        "name": "Asuril",
-        "type": 11,
-        "parentId": "1502771289318883610"
-      },
-      {
-        "id": "1519211470171406397",
-        "name": "Celestine — In a AU.",
-        "type": 11,
-        "parentId": "1502771289318883610"
-      },
-      {
-        "id": "1518892744548810872",
-        "name": "WLGF'S ID",
-        "type": 11,
-        "parentId": "1518871134622322800"
-      },
-      {
-        "id": "1518897372221018213",
-        "name": "M00NB0T's information",
-        "type": 11,
-        "parentId": "1518871134622322800"
-      },
-      {
-        "id": "1518902182219354162",
-        "name": "Introduction — DuckieMcQuack21",
-        "type": 11,
-        "parentId": "1518871134622322800"
-      },
-      {
-        "id": "1518912292815769740",
-        "name": "No",
-        "type": 11,
-        "parentId": "1518871134622322800"
-      },
-      {
-        "id": "1519430043271434310",
-        "name": "Spectra Octis Canon",
-        "type": 11,
-        "parentId": "1518871134622322800"
       }
     ],
     "roles": [
@@ -1245,6 +1125,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1783524121250
+    "updated": 1785215722052
   }
 }

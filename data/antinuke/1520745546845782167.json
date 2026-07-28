@@ -243,7 +243,7 @@
         "id": "1520767503536619610",
         "name": "🔷♧_rulez",
         "type": 0,
-        "position": 2,
+        "position": 3,
         "parentId": "1520749744165617664"
       },
       {
@@ -327,57 +327,85 @@
         "name": "wyr 1",
         "type": 11,
         "parentId": "1520769248908021941"
+      },
+      {
+        "id": "1525564815261831278",
+        "name": "🔷♧_suggestions",
+        "type": 15,
+        "position": 2,
+        "parentId": "1520749744165617664"
+      },
+      {
+        "id": "1525593040389931179",
+        "name": "🪼□  MOD STUFF",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1525593082693812357",
+        "name": "Aero",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1525593387254812742",
+        "name": "🪼□_mod_chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525593040389931179"
       }
     ],
     "roles": [
       {
         "id": "1520755927178018887",
-        "name": "yellow",
+        "name": "₊˚⛅.ೃ࿔ Y3LL0W *:🌻･",
         "color": 16775313,
         "permissions": "0",
-        "position": 47,
+        "position": 56,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520763784380022814",
-        "name": "she / her",
+        "name": "💖⋆.ೃ࿔  SH3 / H3R  🌸*:･💗",
         "color": 10759523,
         "permissions": "0",
-        "position": 32,
+        "position": 41,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520764296261537913",
-        "name": "other / ask",
+        "name": "✨.𖥔 ݁ ˖ִ ࣪  0TH3R / 4SK ⚝₊ ⊹˚ 🐱",
         "color": 15158332,
         "permissions": "0",
-        "position": 27,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520754225284517958",
-        "name": "14 to 18",
-        "color": 4146095,
-        "permissions": "1720707884502593",
         "position": 36,
         "hoist": false,
         "mentionable": false
       },
       {
+        "id": "1520754225284517958",
+        "name": "⊹₊🔥 14 to 18  ⋆｡°✩",
+        "color": 4146095,
+        "permissions": "1720707884502593",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
         "id": "1520756388916367372",
-        "name": "black",
+        "name": "˙✧˖°📷  BL4CK  ༘ ⋆｡˚",
         "color": 1579032,
         "permissions": "0",
-        "position": 40,
+        "position": 49,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520772930357956708",
-        "name": "stupid lil bots u pmo",
+        "name": "(¬_¬\") stupid lil bots u pmo 📺",
         "color": 12745742,
         "permissions": "0",
         "position": 19,
@@ -386,62 +414,62 @@
       },
       {
         "id": "1520878968864112640",
-        "name": "QOTD",
+        "name": "❔ ᡣ𐭩 •｡ Q0TD  ꪆৎ ˚⋅ .ᐣ❓",
         "color": 5379898,
         "permissions": "0",
-        "position": 23,
+        "position": 33,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520756289859354645",
-        "name": "white",
+        "name": "ִֶָ. ..𓂃 ࣪ ִֶָ  WH1T3 🪽་༘࿐",
         "color": 15198183,
         "permissions": "0",
-        "position": 42,
+        "position": 51,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520756343068430346",
-        "name": "grey",
+        "name": "‧₊˚🖇️✩ ₊˚ GR3Y 🎧⊹♡",
         "color": 4868682,
         "permissions": "0",
-        "position": 41,
+        "position": 50,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520754083533684918",
-        "name": "0 to 13",
+        "name": "⭒˚.⋆⭒🖤⃝      0 to 13 🪐⭒˚.⋆⭒",
         "color": 3892584,
         "permissions": "1720707884502593",
-        "position": 37,
+        "position": 46,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1523295398582681860",
-        "name": "WARNING 3",
+        "name": "WARNING 3 ⚠️‼️⛔️",
         "color": 3425297,
         "permissions": "0",
-        "position": 58,
+        "position": 69,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520756092584591540",
-        "name": "purple",
+        "name": "ִֶָ˖ ִֶָ🍇་༘˚˖𓍢ִ໋🪻 PURPL3 ✧💜⋆",
         "color": 8472796,
         "permissions": "0",
-        "position": 44,
+        "position": 53,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520780396181327923",
-        "name": "stupid arcane chan",
-        "color": 2367256,
+        "name": "💢 stupid arcane chan ٩(ˋᗣˊ*)و",
+        "color": 1981464,
         "permissions": "0",
         "position": 20,
         "hoist": false,
@@ -449,248 +477,347 @@
       },
       {
         "id": "1520764008737669221",
-        "name": "he / they",
+        "name": "💙𝄞⨾💿  H3 / TH3Y ✮˚.⋆💜",
         "color": 8748200,
-        "permissions": "0",
-        "position": 30,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520911073794854994",
-        "name": "PEAK admin ❤️",
-        "color": 16752098,
-        "permissions": "1721826618638327",
-        "position": 51,
-        "hoist": true,
-        "mentionable": false
-      },
-      {
-        "id": "1520878133220475085",
-        "name": "Would You Rather",
-        "color": 3979169,
-        "permissions": "0",
-        "position": 24,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520759131106050150",
-        "name": "peak owner eheh",
-        "color": 3066993,
-        "permissions": "1721826618638327",
-        "position": 55,
-        "hoist": true,
-        "mentionable": false
-      },
-      {
-        "id": "1520764095765151764",
-        "name": "she / they",
-        "color": 5715294,
-        "permissions": "0",
-        "position": 29,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520778585088983062",
-        "name": "mint",
-        "color": 9488362,
-        "permissions": "1721807559716807",
-        "position": 53,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520783928997314611",
-        "name": "im a real person",
-        "color": 12956081,
-        "permissions": "1720707884502593",
-        "position": 26,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520757909892628490",
-        "name": "cyan",
-        "color": 6082533,
-        "permissions": "0",
-        "position": 38,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520902050936787055",
-        "name": "announcements",
-        "color": 3943285,
-        "permissions": "0",
-        "position": 25,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520754288958374029",
-        "name": "19+",
-        "color": 13936502,
-        "permissions": "1720707884502593",
-        "position": 35,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520763681594413086",
-        "name": "he / him",
-        "color": 5076671,
-        "permissions": "0",
-        "position": 33,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1523295237701763215",
-        "name": "WARNING 1",
-        "color": 4550681,
-        "permissions": "0",
-        "position": 56,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520755879006306375",
-        "name": "orange",
-        "color": 13009718,
-        "permissions": "0",
-        "position": 48,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520755826342498345",
-        "name": "red",
-        "color": 14502988,
-        "permissions": "0",
-        "position": 49,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520754403009892534",
-        "name": "prefer not to say (age)",
-        "color": 16762052,
-        "permissions": "1720707884502593",
-        "position": 34,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520756437314437130",
-        "name": "brown",
-        "color": 4007700,
         "permissions": "0",
         "position": 39,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1523295318043660390",
-        "name": "WARNING 2",
-        "color": 4872235,
+        "id": "1520911073794854994",
+        "name": "⋆˙✨ ⋆.˚ P34K 4DM1N ⊹₊⟡ ⋆💫",
+        "color": 16752098,
+        "permissions": "1721826618638327",
+        "position": 62,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520878133220475085",
+        "name": "🍒 ˚ W0ULD U R4TH3R ✩ ˖🫐 ⋆｡˚꩜",
+        "color": 3979169,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520759131106050150",
+        "name": "☆｡ ‧˚ʚ🔌   0WN3R  🔋ɞ˚‧｡ ☆:",
+        "color": 3066993,
+        "permissions": "1721826618638327",
+        "position": 66,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520764095765151764",
+        "name": "💜 ‧₊˚♪  SH3 / TH3Y   𝄞₊˚⊹💗",
+        "color": 5715294,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520778585088983062",
+        "name": "༘⋆🤍˚  M1NT .❄️₊˚ෆ",
+        "color": 9488362,
+        "permissions": "1721807559716807",
+        "position": 64,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520783928997314611",
+        "name": "⋆.˚✮🎧 R34L P3RS0N 🎧✮˚.⋆",
+        "color": 5336974,
+        "permissions": "1720707884502593",
+        "position": 60,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520757909892628490",
+        "name": "‧₊˚ ⛲️ ‧₊𓏲 CY4N  ๋࣭ ࣪ ˖🎐",
+        "color": 6082533,
+        "permissions": "0",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520902050936787055",
+        "name": "⤷ 📢゛4NN0UNC3M3NTS ˎˊ˗ 🚨.ᐟ.ᐟ",
+        "color": 3943285,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520754288958374029",
+        "name": "⊹ ࣪ ˖⏱  19+  ୭˚. ᵎ",
+        "color": 13936502,
+        "permissions": "1720707884502593",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520763681594413086",
+        "name": "🩵ִֶָ𓂃 ࣪˖ ִֶָ🧸  H3 / H1M  ་༘࿐💙",
+        "color": 5076671,
+        "permissions": "0",
+        "position": 42,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523295237701763215",
+        "name": "WARNING 1 ‼️",
+        "color": 4550681,
+        "permissions": "0",
+        "position": 67,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520755879006306375",
+        "name": "°｡🍊𓏲 0R4NG3 ⋆.🧺 ₊˚",
+        "color": 13009718,
         "permissions": "0",
         "position": 57,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1520776423361609868",
-        "name": "hi im carl",
-        "color": 2123412,
+        "id": "1520755826342498345",
+        "name": "𖦹୭˚.🍓 R3D  ᵎᵎ｡𖦹°‧",
+        "color": 14502988,
+        "permissions": "0",
+        "position": 58,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520754403009892534",
+        "name": "🕚＂pr3f3r n0t t0 s4y!! (age)🪽࿐",
+        "color": 16762052,
         "permissions": "1720707884502593",
-        "position": 21,
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520756437314437130",
+        "name": "🤎ྀིྀི⋆౨ BR0WN ৎ˚⟡˖ ࣪",
+        "color": 4007700,
+        "permissions": "0",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523295318043660390",
+        "name": "WARNING 2 ⚠️⛔️",
+        "color": 4872235,
+        "permissions": "0",
+        "position": 68,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520912874803953684",
-        "name": "chance clanker",
+        "name": "°🥂⋆.ೃ CH4NC3 CL4NK3R 🍾࿔*:･",
         "color": 11513775,
         "permissions": "1720707884502593",
-        "position": 52,
+        "position": 63,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520773671730282661",
-        "name": "good clanker",
+        "name": "⸜(｡˃ ᵕ ˂ )⸝♡ good clanker 💓",
         "color": 15844367,
         "permissions": "0",
-        "position": 22,
+        "position": 21,
         "hoist": true,
         "mentionable": false
       },
       {
         "id": "1520763847735115950",
-        "name": "they / them",
+        "name": "🩶ִֶָ. ..𓂃 ࣪ ִֶָ TH3Y / TH3M 🦇་༘࿐💜",
         "color": 8730565,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520757114694271036",
+        "name": "₊˚⛅.ೃ࿔  4W3SUM 4DM1N *:🌻･",
+        "color": 10886686,
+        "permissions": "1721807559716807",
+        "position": 61,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520764235812966583",
+        "name": "₊˚ʚ  ₊ 4NY / 4LL 🌎˚✧ ﾟ. 🌈",
+        "color": 1146986,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520758029232898158",
+        "name": "₊˚⊹♡🍰  B3RRY 🍓♡⊹˚₊",
+        "color": 16711680,
+        "permissions": "1721826618638327",
+        "position": 65,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1520755978331754647",
+        "name": "⋆. 𐙚 ̊🍋‍🟩 GR33N ♪⋆.✮",
+        "color": 5148513,
+        "permissions": "0",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520756144396828812",
+        "name": "˚⋆𐙚｡˚🩷₊ P1NK ✧🍥✧˖°",
+        "color": 15708412,
+        "permissions": "0",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520756041917272185",
+        "name": "💤.•📎*. BLU3 ★🌀.*•",
+        "color": 5007314,
+        "permissions": "0",
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525561038945390783",
+        "name": "⊹🪭₊ 4S14  🥡⟡🥢⋆",
+        "color": 10038562,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525561185897025698",
+        "name": "° 🇿🇦 🐆 | 4FR1C4  🌺⋆.ೃ࿔",
+        "color": 11027200,
         "permissions": "0",
         "position": 31,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1520757114694271036",
-        "name": "awesum admin",
-        "color": 10886686,
-        "permissions": "1721807559716807",
-        "position": 50,
-        "hoist": true,
+        "id": "1525561287780732968",
+        "name": "🗽🏙️ = N. 4M3R1C4  = 🚕🍕 ✪",
+        "color": 4285366,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1520764235812966583",
-        "name": "any / all",
-        "color": 1146986,
+        "id": "1525561427610308710",
+        "name": "🍍🌸 ⋆｡𖦹 S. 4M3R1C4 ⋆｡𖦹° 🥥🌴",
+        "color": 5071643,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525561533881516062",
+        "name": "🏛️.ೃ࿔ ✈︎ 3UR0P3  *:･🇪🇺",
+        "color": 15844367,
         "permissions": "0",
         "position": 28,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1520758029232898158",
-        "name": "berry",
-        "color": 16711680,
-        "permissions": "1721826618638327",
-        "position": 54,
-        "hoist": true,
-        "mentionable": false
-      },
-      {
-        "id": "1520755978331754647",
-        "name": "green",
-        "color": 5148513,
+        "id": "1525561651938594826",
+        "name": "🇦🇺 ⋆˚✿˖° 4USTR4L14 𐙚 ₊ ⊹ 🦘༘",
+        "color": 11907481,
         "permissions": "0",
-        "position": 46,
+        "position": 27,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1520756144396828812",
-        "name": "pink",
-        "color": 15708412,
+        "id": "1525563374652489959",
+        "name": "‧₊˚✩ ₊˚ L4PT0P 💻⊹♡",
+        "color": 9807270,
         "permissions": "0",
-        "position": 43,
+        "position": 25,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1520756041917272185",
-        "name": "blue",
-        "color": 5007314,
+        "id": "1525563471117160621",
+        "name": "📞. ₊˚ ☎︎ PH0N3 ₊˚✧ ﾟ. 📲",
+        "color": 29629,
         "permissions": "0",
-        "position": 45,
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525563659013591080",
+        "name": "🖱️๋࣭ ⭑ PC ✮🖥️₊ ⊹",
+        "color": 5185311,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525563750227378190",
+        "name": "⊹ ࣪ ˖⏱ 0TH3R D3V1C3  ୭˚. ᵎ",
+        "color": 9562343,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525563834394349830",
+        "name": "✎ᝰ.📱 1P4D 🗒 ˎˊ˗",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525581281784631348",
+        "name": "🤬. ݁₊ ⊹ SW34R J4R . ݁˖ . ݁🫙",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 1,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1783524121217
+    "updated": 1783800243073
   }
 }

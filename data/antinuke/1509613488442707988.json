@@ -1,0 +1,167 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1509613488878784704",
+        "name": "TEXTO🔯✡️",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1509613488878784705",
+        "name": "Calls",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1509613488878784707",
+        "name": "Geral✡️",
+        "type": 2,
+        "position": 0,
+        "parentId": "1509613488878784705"
+      },
+      {
+        "id": "1510695450590707842",
+        "name": "asterebalkerfalemaq",
+        "type": 0,
+        "position": 0,
+        "parentId": "1509613488878784705"
+      },
+      {
+        "id": "1512253918514516160",
+        "name": "artes🖌️🎨",
+        "type": 0,
+        "position": 1,
+        "parentId": "1509613488878784704"
+      },
+      {
+        "id": "1512253995366875147",
+        "name": "geral💬",
+        "type": 0,
+        "position": 0,
+        "parentId": "1509613488878784704"
+      },
+      {
+        "id": "1512254482099208443",
+        "name": "jogos🕹️",
+        "type": 0,
+        "position": 2,
+        "parentId": "1509613488878784704"
+      },
+      {
+        "id": "1512255013601153124",
+        "name": "Minecraft⛏️",
+        "type": 2,
+        "position": 1,
+        "parentId": "1509613488878784705"
+      },
+      {
+        "id": "1512255214256918628",
+        "name": "Jogos🎮",
+        "type": 2,
+        "position": 2,
+        "parentId": "1509613488878784705"
+      },
+      {
+        "id": "1512255280350756904",
+        "name": "Musicas🎵",
+        "type": 2,
+        "position": 3,
+        "parentId": "1509613488878784705"
+      },
+      {
+        "id": "1512256441275125881",
+        "name": "Bom dia💠",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1512256554030731384",
+        "name": "bem-vindos✅",
+        "type": 0,
+        "position": 0,
+        "parentId": "1512256441275125881"
+      },
+      {
+        "id": "1512260235472142406",
+        "name": "mal-vindos❌",
+        "type": 0,
+        "position": 1,
+        "parentId": "1512256441275125881"
+      },
+      {
+        "id": "1512260803057680494",
+        "name": "regras📃",
+        "type": 0,
+        "position": 2,
+        "parentId": "1512256441275125881"
+      },
+      {
+        "id": "1512261841059840071",
+        "name": "anuncios📢",
+        "type": 0,
+        "position": 3,
+        "parentId": "1512256441275125881"
+      },
+      {
+        "id": "1513265122766880768",
+        "name": "comando🤖",
+        "type": 0,
+        "position": 3,
+        "parentId": "1509613488878784704"
+      },
+      {
+        "id": "1528439066666860655",
+        "name": "Call Separada🫂",
+        "type": 2,
+        "position": 4,
+        "parentId": "1509613488878784705"
+      },
+      {
+        "id": "1528439193657802884",
+        "name": "enquetes-maneiras😛",
+        "type": 0,
+        "position": 4,
+        "parentId": "1512256441275125881"
+      },
+      {
+        "id": "1531117557178962034",
+        "name": "downloads⬇️",
+        "type": 0,
+        "position": 4,
+        "parentId": "1509613488878784704"
+      },
+      {
+        "id": "1531119980316459008",
+        "name": "bot-legal-ilegal",
+        "type": 0,
+        "position": 5,
+        "parentId": "1509613488878784704"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1510687937535283373",
+        "name": "Resenhudos",
+        "color": 2123412,
+        "permissions": "119194003065409",
+        "position": 7,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1510688246361755648",
+        "name": "Rei da resenha",
+        "color": 15158332,
+        "permissions": "8864258447638527",
+        "position": 9,
+        "hoist": true,
+        "mentionable": true
+      }
+    ],
+    "updated": 1785215721836
+  }
+}

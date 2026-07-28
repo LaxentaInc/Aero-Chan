@@ -56,8 +56,10 @@ async function registerAndPersist(guildId: any, customId: any, meta: any) {
  */
 async function handleButtonInteraction(interaction: any, meta: any) {
   try {
-    // lazy load to avoid circular dependency
-    const amaModule = require('./index');
+    // unwrap default property when lazily loading automated mention abuse module index inside button handler.
+    // ensures class instance methods like getconfig and updateconfig are accessible without module wrapper errors.
+    const amaModuleMod = require('./index');
+    const amaModule = amaModuleMod.default || amaModuleMod;
     const guildId = meta.guildId || interaction.guildId;
     if (!guildId) {
       return interaction.reply({

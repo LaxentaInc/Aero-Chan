@@ -1,0 +1,342 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1510858059021291692",
+        "name": "important",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1510858059021291693",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1510858059021291695",
+        "name": "general",
+        "type": 2,
+        "position": 0,
+        "parentId": "1510858059021291693"
+      },
+      {
+        "id": "1511899721495744593",
+        "name": "Priv Chat",
+        "type": 2,
+        "position": 4,
+        "parentId": "1510858059021291693"
+      },
+      {
+        "id": "1511900695635431515",
+        "name": "╔═════════════╗",
+        "type": 0,
+        "position": 0,
+        "parentId": "1510858059021291692"
+      },
+      {
+        "id": "1511900991975461044",
+        "name": "║・𝗔𝗻𝗻𝗼𝘂𝗻𝗰𝗲𝗺𝗲𝗻𝘁",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1511901424672444546",
+        "name": "╚═════════════╝",
+        "type": 0,
+        "position": 3,
+        "parentId": "1510858059021291692"
+      },
+      {
+        "id": "1511902640957558814",
+        "name": "╔═════════════╗",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1512194650033750076",
+        "name": "SLEEPY BOY",
+        "type": 2,
+        "position": 3,
+        "parentId": "1510858059021291693"
+      },
+      {
+        "id": "1514022700560023553",
+        "name": "OwO",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1528259249229004848",
+        "name": "owo",
+        "type": 0,
+        "position": 0,
+        "parentId": "1514022700560023553"
+      },
+      {
+        "id": "1528259410164715610",
+        "name": "owo-dots",
+        "type": 0,
+        "position": 1,
+        "parentId": "1514022700560023553"
+      },
+      {
+        "id": "1528259443437863095",
+        "name": "owo-worstshun",
+        "type": 0,
+        "position": 2,
+        "parentId": "1514022700560023553"
+      },
+      {
+        "id": "1528259469430100018",
+        "name": "owo-roki-asian",
+        "type": 0,
+        "position": 3,
+        "parentId": "1514022700560023553"
+      },
+      {
+        "id": "1528261530473332797",
+        "name": "owo-trix",
+        "type": 0,
+        "position": 4,
+        "parentId": "1514022700560023553"
+      },
+      {
+        "id": "1528261546910810182",
+        "name": "owo-lilly",
+        "type": 0,
+        "position": 5,
+        "parentId": "1514022700560023553"
+      },
+      {
+        "id": "1528261571749347338",
+        "name": "owo-cui",
+        "type": 0,
+        "position": 6,
+        "parentId": "1514022700560023553"
+      },
+      {
+        "id": "1528261594335809688",
+        "name": "owo-alex",
+        "type": 0,
+        "position": 7,
+        "parentId": "1514022700560023553"
+      },
+      {
+        "id": "1528263017232597143",
+        "name": "owo-carson",
+        "type": 0,
+        "position": 8,
+        "parentId": "1514022700560023553"
+      },
+      {
+        "id": "1528315729919873164",
+        "name": "ella-and-mason",
+        "type": 0,
+        "position": 9,
+        "parentId": "1514022700560023553"
+      },
+      {
+        "id": "1528316337699422339",
+        "name": "DO NOT JOIN",
+        "type": 2,
+        "position": 5,
+        "parentId": "1510858059021291693"
+      },
+      {
+        "id": "1528500880893149294",
+        "name": "owo-mj",
+        "type": 0,
+        "position": 10,
+        "parentId": "1514022700560023553"
+      },
+      {
+        "id": "1528912387107852388",
+        "name": "scary (idfk)",
+        "type": 2,
+        "position": 2,
+        "parentId": "1510858059021291693"
+      },
+      {
+        "id": "1529642883022327991",
+        "name": "val",
+        "type": 2,
+        "position": 1,
+        "parentId": "1510858059021291693"
+      },
+      {
+        "id": "1529656742932254790",
+        "name": "Priv chat",
+        "type": 2,
+        "position": 6,
+        "parentId": "1510858059021291693"
+      },
+      {
+        "id": "1529702167924183123",
+        "name": "snipe",
+        "type": 0,
+        "position": 2,
+        "parentId": "1510858059021291692"
+      },
+      {
+        "id": "1530095803413168188",
+        "name": "chat",
+        "type": 0,
+        "position": 1,
+        "parentId": "1510858059021291692"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1511839566208696472",
+        "name": "co owner",
+        "color": 7419530,
+        "permissions": "8864258447638527",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1511841421638762546",
+        "name": "admin",
+        "color": 3447003,
+        "permissions": "8864258447638483",
+        "position": 20,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1511842357195182152",
+        "name": "daniel",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1511843400964636792",
+        "name": "TUFF",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1511918837438746775",
+        "name": "$",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1514314013801054339",
+        "name": "white cuz",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525703386857476247",
+        "name": "cute femboy",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525704648999043215",
+        "name": "alex the goat",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527924757759262730",
+        "name": "lilys goodboy",
+        "color": 13928177,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527925254264062123",
+        "name": "ella's goodboy",
+        "color": 986638,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529481829621432441",
+        "name": "Valorant Lover",
+        "color": 16711680,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529482434046070824",
+        "name": "Cypher",
+        "color": 0,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529483877100552322",
+        "name": "jett main",
+        "color": 16777215,
+        "permissions": "8864258447638483",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529485338953650388",
+        "name": "Raze main",
+        "color": 15105570,
+        "permissions": "8864258447638483",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1529602605284855818",
+        "name": "Jett Main",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1531328945344221314",
+        "name": "Server Booster",
+        "color": 16546303,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215721996
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1326741120230756424",
+        "name": "update-log",
+        "type": 0,
+        "position": 0,
+        "parentId": "1437978489545560188"
+      },
+      {
+        "id": "1326741120230756425",
+        "name": "text-channel-old",
+        "type": 0,
+        "position": 0,
+        "parentId": "1508622787928002662"
+      },
+      {
+        "id": "1326741120230756427",
+        "name": "text-channel-2-old",
+        "type": 0,
+        "position": 1,
+        "parentId": "1508622787928002662"
+      },
+      {
+        "id": "1326741120474157159",
+        "name": "voice chat",
+        "type": 2,
+        "position": 0,
+        "parentId": "1529754132838224012"
+      },
+      {
+        "id": "1326741120474157161",
+        "name": "voice chat 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1529754132838224012"
+      },
+      {
+        "id": "1437978489545560188",
+        "name": "✌('ω'✌ ) Info ( ✌'ω')✌",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1437978630818107414",
+        "name": "General Channels （╹◡╹）",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1437978837542633512",
+        "name": "Fun stuff (WIP )",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1438653487583068251",
+        "name": "voting-channel-old",
+        "type": 0,
+        "position": 2,
+        "parentId": "1508622787928002662"
+      },
+      {
+        "id": "1502523972355493951",
+        "name": "images-and-videos-old",
+        "type": 0,
+        "position": 3,
+        "parentId": "1508622787928002662"
+      },
+      {
+        "id": "1502528207860142100",
+        "name": "discussions",
+        "type": 15,
+        "position": 0,
+        "parentId": "1437978630818107414"
+      },
+      {
+        "id": "1506844002396147754",
+        "name": "executive-channel",
+        "type": 0,
+        "position": 1,
+        "parentId": "1437978489545560188"
+      },
+      {
+        "id": "1508622787928002662",
+        "name": "old channels",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1508623023635169381",
+        "name": "text-channel",
+        "type": 0,
+        "position": 1,
+        "parentId": "1437978630818107414"
+      },
+      {
+        "id": "1508623248294678771",
+        "name": "text-channel-2",
+        "type": 0,
+        "position": 2,
+        "parentId": "1437978630818107414"
+      },
+      {
+        "id": "1508623442772099093",
+        "name": "voting-channel",
+        "type": 0,
+        "position": 3,
+        "parentId": "1437978630818107414"
+      },
+      {
+        "id": "1508623605855027392",
+        "name": "images-and-videos-old",
+        "type": 0,
+        "position": 4,
+        "parentId": "1437978630818107414"
+      },
+      {
+        "id": "1529744835165290496",
+        "name": "gambling",
+        "type": 0,
+        "position": 0,
+        "parentId": "1437978837542633512"
+      },
+      {
+        "id": "1529754132838224012",
+        "name": "Voice Channels (*´∀`)♪",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1529754968242782218",
+        "name": "hot-takes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1437978837542633512"
+      },
+      {
+        "id": "1530053356696113202",
+        "name": "hyper-fixations",
+        "type": 0,
+        "position": 2,
+        "parentId": "1437978837542633512"
+      },
+      {
+        "id": "1530383963447623710",
+        "name": "schizophrenia-testing-for-cj",
+        "type": 0,
+        "position": 2,
+        "parentId": "1437978489545560188"
+      },
+      {
+        "id": "1530669374891888680",
+        "name": "rules",
+        "type": 0,
+        "position": 3,
+        "parentId": "1437978489545560188"
+      },
+      {
+        "id": "1531062280035237989",
+        "name": "spam",
+        "type": 0,
+        "position": 3,
+        "parentId": "1437978837542633512"
+      },
+      {
+        "id": "1531412758615166976",
+        "name": "images-and-videos",
+        "type": 0,
+        "position": 5,
+        "parentId": "1437978630818107414"
+      },
+      {
+        "id": "1531449780599918602",
+        "name": "shipping-channel",
+        "type": 0,
+        "position": 4,
+        "parentId": "1437978837542633512"
+      },
+      {
+        "id": "1506784160591642734",
+        "name": "Any suggestions to “better” this server?",
+        "type": 11,
+        "parentId": "1502528207860142100"
+      },
+      {
+        "id": "1507220186581696632",
+        "name": "any ways of getting sulfuric acid or nitric acid",
+        "type": 11,
+        "parentId": "1502528207860142100"
+      },
+      {
+        "id": "1508306966580039781",
+        "name": "PLEASE SEND IMAGES IN HERE FOR ME TO TURN INTO EMOJIS FOR THIS SERVER",
+        "type": 11,
+        "parentId": "1502528207860142100"
+      },
+      {
+        "id": "1509727767262920725",
+        "name": "How to bully Brynlee/annoy her",
+        "type": 11,
+        "parentId": "1502528207860142100"
+      },
+      {
+        "id": "1529741061352849440",
+        "name": "Bots/apps needed",
+        "type": 11,
+        "parentId": "1502528207860142100"
+      },
+      {
+        "id": "1530760989102837811",
+        "name": "A",
+        "type": 11,
+        "parentId": "1502528207860142100"
+      },
+      {
+        "id": "1530762823213514913",
+        "name": "Spam",
+        "type": 11,
+        "parentId": "1502528207860142100"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1445592792679190591",
+        "name": "Level 1 Moderator(worker)",
+        "color": 1752220,
+        "permissions": "1721738706022339",
+        "position": 11,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1487298521760792616",
+        "name": "Level 2 Moderator(Leader)",
+        "color": 3447003,
+        "permissions": "4254950548025303",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1506810087476564048",
+        "name": "Luke Y.",
+        "color": 10181046,
+        "permissions": "4360663115235319",
+        "position": 8,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1530369296369451219",
+        "name": "Apps/bots",
+        "color": 16717824,
+        "permissions": "0",
+        "position": 7,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1530784721724772383",
+        "name": "Nepo baby",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1531057310942887946",
+        "name": "Level 3 Moderator(Temporary Admin)",
+        "color": 15844367,
+        "permissions": "4254950548025335",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1531070981458755584",
+        "name": "Jockie bot",
+        "color": 11027200,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722507
+  }
+}

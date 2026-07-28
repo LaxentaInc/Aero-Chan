@@ -1,0 +1,613 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1521644891149570069",
+        "name": "Coisas zicas do rp zicudo",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1512776377047191562",
+        "name": "📷┃mídia",
+        "type": 0,
+        "position": 1,
+        "parentId": "1512920539650592961"
+      },
+      {
+        "id": "1517586576526540974",
+        "name": "Centro de emojis/figurinhas/efeitos sonoros",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1521641989399904458",
+        "name": "🍞┃fabrica-de-pães",
+        "type": 0,
+        "position": 13,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1521178022718214224",
+        "name": "🗳️┃votações",
+        "type": 0,
+        "position": 5,
+        "parentId": "1512929476344807626"
+      },
+      {
+        "id": "1512775009959936081",
+        "name": "📺┃lives",
+        "type": 2,
+        "position": 1,
+        "parentId": "1512923566683979866"
+      },
+      {
+        "id": "1512879534217887887",
+        "name": "Jogos",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1517588639486574592",
+        "name": "💼┃escolha-de-cargos",
+        "type": 15,
+        "position": 4,
+        "parentId": "1512929476344807626"
+      },
+      {
+        "id": "1512932467487543447",
+        "name": "📰┃regras",
+        "type": 0,
+        "position": 0,
+        "parentId": "1512929476344807626"
+      },
+      {
+        "id": "1521235812669325352",
+        "name": "⭐┃rp-livre-2",
+        "type": 0,
+        "position": 1,
+        "parentId": "1521235433164378212"
+      },
+      {
+        "id": "1521176790188560494",
+        "name": "RP zicudo",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1521647846707953755",
+        "name": "📰┃lista-de-participação",
+        "type": 0,
+        "position": 2,
+        "parentId": "1521644891149570069"
+      },
+      {
+        "id": "1521634604585586838",
+        "name": "🥼┃loja-de-roupas",
+        "type": 0,
+        "position": 9,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1512775179779047535",
+        "name": "🔎┃teorias",
+        "type": 0,
+        "position": 2,
+        "parentId": "1512920539650592961"
+      },
+      {
+        "id": "1524432277788954785",
+        "name": "🕳️┃abismo",
+        "type": 0,
+        "position": 7,
+        "parentId": "1512920539650592961"
+      },
+      {
+        "id": "1521634375182192851",
+        "name": "🏥┃hospital",
+        "type": 0,
+        "position": 8,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1521178950917689364",
+        "name": "🦖┃museu",
+        "type": 0,
+        "position": 7,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1522370169589203034",
+        "name": "💠┃missões-diárias",
+        "type": 0,
+        "position": 3,
+        "parentId": "1521644891149570069"
+      },
+      {
+        "id": "1521266982291243069",
+        "name": "☠️┃make-it-meme",
+        "type": 0,
+        "position": 2,
+        "parentId": "1512879534217887887"
+      },
+      {
+        "id": "1517587584664994063",
+        "name": "🍷🗿┃emojis",
+        "type": 0,
+        "position": 1,
+        "parentId": "1517586576526540974"
+      },
+      {
+        "id": "1521637105652994148",
+        "name": "🕳┃esgoto",
+        "type": 0,
+        "position": 11,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1521635942757040290",
+        "name": "💿┃lan-house",
+        "type": 0,
+        "position": 10,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1521177631498698954",
+        "name": "🍜┃loja-do-thomps",
+        "type": 0,
+        "position": 5,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1512932645510578226",
+        "name": "⚠️┃avisos",
+        "type": 0,
+        "position": 3,
+        "parentId": "1512929476344807626"
+      },
+      {
+        "id": "1521235433164378212",
+        "name": "RP livre",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1529983050639737082",
+        "name": "📊┃rank-de-dinheiro",
+        "type": 0,
+        "position": 5,
+        "parentId": "1521644891149570069"
+      },
+      {
+        "id": "1521178898069721290",
+        "name": "🪙┃feiras",
+        "type": 0,
+        "position": 4,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1526002283601596558",
+        "name": "🎇┃campo-das-especulações",
+        "type": 0,
+        "position": 14,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1522420825284935820",
+        "name": "🌍┃tudo",
+        "type": 0,
+        "position": 0,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1512920539650592961",
+        "name": "central",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1529269846313930872",
+        "name": "🔓┃quase-tudo-liberado",
+        "type": 0,
+        "position": 6,
+        "parentId": "1512920539650592961"
+      },
+      {
+        "id": "1512774385612755146",
+        "name": "🤣┃memes",
+        "type": 0,
+        "position": 4,
+        "parentId": "1512920539650592961"
+      },
+      {
+        "id": "1521235926934622279",
+        "name": "✨┃rp-livre-3",
+        "type": 0,
+        "position": 2,
+        "parentId": "1521235433164378212"
+      },
+      {
+        "id": "1521177488569667736",
+        "name": "🌆┃centro-da-cidade",
+        "type": 0,
+        "position": 2,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1521637471044239431",
+        "name": "🐆┃zoologico",
+        "type": 0,
+        "position": 12,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1512933894985482240",
+        "name": "⚙️┃comandos",
+        "type": 0,
+        "position": 3,
+        "parentId": "1512920539650592961"
+      },
+      {
+        "id": "1521235471747776682",
+        "name": "🌟┃rp-livre-1",
+        "type": 0,
+        "position": 0,
+        "parentId": "1521235433164378212"
+      },
+      {
+        "id": "1512879712660361228",
+        "name": "Gartic-phone",
+        "type": 2,
+        "position": 0,
+        "parentId": "1512879534217887887"
+      },
+      {
+        "id": "1521178921872392332",
+        "name": "🦀┃ilha-do-pescador",
+        "type": 0,
+        "position": 6,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1521181554016129176",
+        "name": "🍥┃regras-do-rp",
+        "type": 0,
+        "position": 1,
+        "parentId": "1521644891149570069"
+      },
+      {
+        "id": "1521177532420984984",
+        "name": "⛲┃praça-inha",
+        "type": 0,
+        "position": 1,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1512929476344807626",
+        "name": "Outros",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1517587231089496126",
+        "name": "🔥┃figurinhas",
+        "type": 0,
+        "position": 0,
+        "parentId": "1517586576526540974"
+      },
+      {
+        "id": "1517588198069375107",
+        "name": "🗣️┃efeitos sonoros",
+        "type": 2,
+        "position": 0,
+        "parentId": "1517586576526540974"
+      },
+      {
+        "id": "1512931145531261039",
+        "name": "🛎️┃boas-vindas",
+        "type": 0,
+        "position": 1,
+        "parentId": "1512929476344807626"
+      },
+      {
+        "id": "1522380663922098307",
+        "name": "💸┃dinheiro-dos-participantes",
+        "type": 0,
+        "position": 4,
+        "parentId": "1521644891149570069"
+      },
+      {
+        "id": "1521642213816401960",
+        "name": "🥶┃chat-em-camera-lenta",
+        "type": 0,
+        "position": 5,
+        "parentId": "1512920539650592961"
+      },
+      {
+        "id": "1521645636154425567",
+        "name": "📑┃seus-personagens",
+        "type": 15,
+        "position": 0,
+        "parentId": "1521644891149570069"
+      },
+      {
+        "id": "1512923566683979866",
+        "name": "Central de voz",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1505624245798178939",
+        "name": "💬┃bate-papo",
+        "type": 0,
+        "position": 0,
+        "parentId": "1512920539650592961"
+      },
+      {
+        "id": "1512933446325108846",
+        "name": "🔢┃count",
+        "type": 0,
+        "position": 0,
+        "parentId": "1512879534217887887"
+      },
+      {
+        "id": "1513174716809220178",
+        "name": "🖌️┃gartic",
+        "type": 0,
+        "position": 1,
+        "parentId": "1512879534217887887"
+      },
+      {
+        "id": "1512828927012245525",
+        "name": "🎙️┃chat de voz",
+        "type": 2,
+        "position": 0,
+        "parentId": "1512923566683979866"
+      },
+      {
+        "id": "1512931716346675382",
+        "name": "📔┃sugestões",
+        "type": 15,
+        "position": 2,
+        "parentId": "1512929476344807626"
+      },
+      {
+        "id": "1521177573558845651",
+        "name": "🪨┃caverna",
+        "type": 0,
+        "position": 3,
+        "parentId": "1521176790188560494"
+      },
+      {
+        "id": "1521175735518232656",
+        "name": "PRECISO DE SUGESTÕES PARA LOCAIS PARA RP",
+        "type": 11,
+        "parentId": "1512931716346675382"
+      },
+      {
+        "id": "1524432918024294502",
+        "name": "abismo",
+        "type": 11,
+        "parentId": "1512931716346675382"
+      },
+      {
+        "id": "1521675648140312696",
+        "name": "Não pode \"/mamar\", \"/macetar\" e nenhum comando libidinoso",
+        "type": 12,
+        "parentId": "1512932467487543447"
+      },
+      {
+        "id": "1524239398961414144",
+        "name": "Sei lá",
+        "type": 12,
+        "parentId": "1512933446325108846"
+      },
+      {
+        "id": "1524250603424059593",
+        "name": "Oxi",
+        "type": 11,
+        "parentId": "1517587231089496126"
+      },
+      {
+        "id": "1521645865981186079",
+        "name": "Pra que esse canal",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1521652697109889024",
+        "name": "Opa",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1521652706689683587",
+        "name": "John Doe",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1521652983538913331",
+        "name": "Tartaruga ninja do esgoto",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1521653446154129560",
+        "name": "Leido",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1522006732371525733",
+        "name": "haaland",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1522018069013205183",
+        "name": "Pedro",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1522022292358430841",
+        "name": "Satoru gojo",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1522045716116148316",
+        "name": "Chineguin Branco",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1522051713312362638",
+        "name": "Pike mano rodas",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1522180049443225700",
+        "name": "LONGUS PURPURUS",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1522310739480674335",
+        "name": "thomps",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1523762592609337427",
+        "name": "Petróleo",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1526451405244731492",
+        "name": "Senhor Lava-Lava",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1526894866963890296",
+        "name": "Alien /cívil/",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1521691742095540334",
+        "name": "Users de RP 🍥",
+        "color": 16688127,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523438104512565531",
+        "name": "❌ não users de RP",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524529014700638378",
+        "name": "Pedra",
+        "color": 0,
+        "permissions": "40546675924737",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524529972289605632",
+        "name": "Rubi",
+        "color": 16718619,
+        "permissions": "49378269531713",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1524530990016631046",
+        "name": "Bronze",
+        "color": 12745742,
+        "permissions": "1826262212922945",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1524531520206012588",
+        "name": "Prata",
+        "color": 13684944,
+        "permissions": "4359554179006033",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1524531937300054036",
+        "name": "Ouro",
+        "color": 15844367,
+        "permissions": "8864262742605823",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524532553867067524",
+        "name": "Diamante",
+        "color": 5168383,
+        "permissions": "8864262742605823",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1526209866010460231",
+        "name": "Pedra abisal",
+        "color": 0,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526253217653067827",
+        "name": "Bots",
+        "color": 9044223,
+        "permissions": "0",
+        "position": 2,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1526253733204459611",
+        "name": "Ouro",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722629
+  }
+}

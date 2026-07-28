@@ -55,8 +55,10 @@ async function registerAndPersist(guildId: any, customId: any, meta: any) {
  */
 async function handleButtonInteraction(interaction: any, meta: any) {
   try {
-    // lazy load instance
-    const antiSpam = require('./index');
+    // unwrap default property when lazily loading antispam module index inside button interaction handler.
+    // ensures getconfig and updateconfig methods are directly accessible on the transpiled module instance.
+    const antiSpamModule = require('./index');
+    const antiSpam = antiSpamModule.default || antiSpamModule;
     const guildId = meta.guildId || interaction.guildId;
     if (!guildId) {
       return interaction.reply({

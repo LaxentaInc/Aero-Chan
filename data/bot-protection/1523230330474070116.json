@@ -1,0 +1,26 @@
+{
+  "buttons": {
+    "restore_perms_1450060292716494940": {
+      "type": "restore_perms",
+      "targetId": "1450060292716494940",
+      "memberId": "1450060292716494940",
+      "strippedPermissions": {
+        "success": false,
+        "strippedRoles": [],
+        "strippedPermissions": [],
+        "errorMessage": "Failed to strip integration role: Missing Permissions",
+        "roleCount": 0
+      },
+      "guildId": "1523230330474070116",
+      "relatedMessages": [
+        {
+          "channelId": "1531529962362765404",
+          "messageId": "1531529967899246602"
+        }
+      ],
+      "expiresAt": 1785301999754,
+      "createdAt": 1785215599754,
+      "module": "bot-protection"
+    }
+  }
+}

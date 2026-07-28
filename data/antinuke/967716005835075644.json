@@ -23,13 +23,6 @@
         "parentId": null
       },
       {
-        "id": "1334710024391364720",
-        "name": "looking-for",
-        "type": 0,
-        "position": 7,
-        "parentId": "971549697930055680"
-      },
-      {
         "id": "1462814452087787686",
         "name": "aero-logs",
         "type": 0,
@@ -68,7 +61,7 @@
         "id": "1330796779641245790",
         "name": "no-restriction-ch",
         "type": 0,
-        "position": 8,
+        "position": 7,
         "parentId": "971549697930055680"
       },
       {
@@ -280,13 +273,6 @@
         "type": 5,
         "position": 1,
         "parentId": null
-      },
-      {
-        "id": "1392492598605643786",
-        "name": "access-server",
-        "type": 0,
-        "position": 0,
-        "parentId": "1328975802775109673"
       },
       {
         "id": "1071032701433434193",
@@ -694,6 +680,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1783524121340
+    "updated": 1785215722526
   }
 }

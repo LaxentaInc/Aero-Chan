@@ -58,6 +58,13 @@
         "parentId": "1522388385623314615"
       },
       {
+        "id": "1525256786276257802",
+        "name": "💕﹒を﹒call-romanca²﹒๑",
+        "type": 2,
+        "position": 0,
+        "parentId": "1522710544044523751"
+      },
+      {
         "id": "1522717434618970293",
         "name": "📢﹒を﹒reunião﹒๑",
         "type": 2,
@@ -65,11 +72,18 @@
         "parentId": "1522714468013047838"
       },
       {
-        "id": "1523750235187314800",
-        "name": "Aero",
-        "type": 4,
-        "position": 9,
-        "parentId": null
+        "id": "1525510748510617691",
+        "name": "🇰🇷﹒を﹒idol﹒๑",
+        "type": 0,
+        "position": 1,
+        "parentId": "1522710409646313472"
+      },
+      {
+        "id": "1525271180792172614",
+        "name": "੭﹕﹒ಇ",
+        "type": 0,
+        "position": 2,
+        "parentId": "1522713310703780032"
       },
       {
         "id": "1522388385623314615",
@@ -82,7 +96,7 @@
         "id": "1522454853568167936",
         "name": "🏪﹒を﹒farmácia﹒๑",
         "type": 0,
-        "position": 19,
+        "position": 20,
         "parentId": "1522447123541393579"
       },
       {
@@ -107,6 +121,13 @@
         "parentId": "1522379260453453957"
       },
       {
+        "id": "1525272455436828773",
+        "name": "🍿﹒を﹒Cineminha¹﹒๑",
+        "type": 2,
+        "position": 0,
+        "parentId": "1522713310703780032"
+      },
+      {
         "id": "1522450172318056508",
         "name": "🏕﹒を﹒acampamento﹒๑",
         "type": 0,
@@ -121,11 +142,25 @@
         "parentId": "1522379260453453957"
       },
       {
+        "id": "1525257932088807465",
+        "name": "🩷﹒を﹒Jantar²﹒๑",
+        "type": 2,
+        "position": 2,
+        "parentId": "1522710544044523751"
+      },
+      {
         "id": "1522384976698544229",
         "name": "🤖﹒を﹒comandos﹒๑",
         "type": 0,
         "position": 12,
         "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1529190622580178944",
+        "name": "✔️﹒を﹒parceria﹒๑",
+        "type": 0,
+        "position": 7,
+        "parentId": "1522376843418927114"
       },
       {
         "id": "1522448398517665902",
@@ -142,6 +177,20 @@
         "parentId": null
       },
       {
+        "id": "1528748101005742080",
+        "name": "✍️﹒を﹒desabafos﹒๑",
+        "type": 0,
+        "position": 8,
+        "parentId": "1522455901485924393"
+      },
+      {
+        "id": "1529976269649739796",
+        "name": "☕﹒を﹒cafeteria﹒๑",
+        "type": 0,
+        "position": 22,
+        "parentId": "1522447123541393579"
+      },
+      {
         "id": "1522713310703780032",
         "name": "੭﹕﹒Filmes e séries﹒ಇ.",
         "type": 4,
@@ -152,7 +201,7 @@
         "id": "1522454141706960916",
         "name": "🚎﹒を﹒metrô﹒๑",
         "type": 0,
-        "position": 11,
+        "position": 12,
         "parentId": "1522447123541393579"
       },
       {
@@ -161,6 +210,13 @@
         "type": 0,
         "position": 4,
         "parentId": "1522379260453453957"
+      },
+      {
+        "id": "1529945603474325696",
+        "name": "💐﹒を﹒jardim﹒๑",
+        "type": 0,
+        "position": 9,
+        "parentId": "1522447123541393579"
       },
       {
         "id": "1522376843418927114",
@@ -177,11 +233,18 @@
         "parentId": "1522388385623314615"
       },
       {
+        "id": "1525258808023318658",
+        "name": "💓﹒を﹒noite-romântica¹﹒๑",
+        "type": 2,
+        "position": 3,
+        "parentId": "1522710544044523751"
+      },
+      {
         "id": "1523750239956373535",
         "name": "aero-logs",
         "type": 0,
         "position": 0,
-        "parentId": "1523750235187314800"
+        "parentId": "1525510544688418836"
       },
       {
         "id": "1522441309787394078",
@@ -205,6 +268,13 @@
         "parentId": "1522714468013047838"
       },
       {
+        "id": "1525262956277792868",
+        "name": "💓﹒を﹒Noite romântica²﹒๑",
+        "type": 2,
+        "position": 4,
+        "parentId": "1522710544044523751"
+      },
+      {
         "id": "1522448094665637928",
         "name": "੭﹕﹒ಇ",
         "type": 0,
@@ -215,15 +285,22 @@
         "id": "1522454278617305198",
         "name": "🏢﹒を﹒escola﹒๑",
         "type": 0,
-        "position": 13,
+        "position": 14,
         "parentId": "1522447123541393579"
       },
       {
         "id": "1522454406489182339",
         "name": "🏥﹒を﹒hospital﹒๑",
         "type": 0,
-        "position": 15,
+        "position": 16,
         "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1525270666306261033",
+        "name": "🎬﹒を﹒séries﹒๑",
+        "type": 0,
+        "position": 1,
+        "parentId": "1522713310703780032"
       },
       {
         "id": "1522447123541393579",
@@ -247,10 +324,17 @@
         "parentId": "1522376843418927114"
       },
       {
+        "id": "1525252687912894535",
+        "name": "💝﹒を﹒promessas﹒๑",
+        "type": 0,
+        "position": 3,
+        "parentId": "1522710544044523751"
+      },
+      {
         "id": "1522454735150645299",
         "name": "🪩﹒を﹒clube﹒๑",
         "type": 0,
-        "position": 18,
+        "position": 19,
         "parentId": "1522447123541393579"
       },
       {
@@ -299,7 +383,7 @@
         "id": "1522453927075774575",
         "name": "੭﹕﹒ಇ",
         "type": 0,
-        "position": 9,
+        "position": 10,
         "parentId": "1522447123541393579"
       },
       {
@@ -322,6 +406,20 @@
         "type": 0,
         "position": 0,
         "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1528747857044181133",
+        "name": "੭﹕﹒ಇ",
+        "type": 0,
+        "position": 7,
+        "parentId": "1522455901485924393"
+      },
+      {
+        "id": "1525256863845712124",
+        "name": "💕﹒を﹒call-romanca¹﹒๑",
+        "type": 0,
+        "position": 5,
+        "parentId": "1522710544044523751"
       },
       {
         "id": "1522400303427747850",
@@ -352,24 +450,52 @@
         "parentId": "1522379260453453957"
       },
       {
+        "id": "1525252346404278486",
+        "name": "💞﹒を﹒pedido﹒๑",
+        "type": 0,
+        "position": 2,
+        "parentId": "1522710544044523751"
+      },
+      {
+        "id": "1525252193526087690",
+        "name": "💘﹒を﹒declaração﹒๑",
+        "type": 0,
+        "position": 1,
+        "parentId": "1522710544044523751"
+      },
+      {
+        "id": "1525253004511416412",
+        "name": "੭﹕﹒ಇ",
+        "type": 0,
+        "position": 4,
+        "parentId": "1522710544044523751"
+      },
+      {
         "id": "1522454659007119410",
         "name": "🏦﹒を﹒banco﹒๑",
         "type": 0,
-        "position": 16,
+        "position": 17,
         "parentId": "1522447123541393579"
       },
       {
         "id": "1522454707971293285",
         "name": "🛩﹒を﹒aeroporto﹒๑",
         "type": 0,
-        "position": 17,
+        "position": 18,
         "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1525257378604384338",
+        "name": "🩷﹒を﹒jantar¹﹒๑",
+        "type": 2,
+        "position": 1,
+        "parentId": "1522710544044523751"
       },
       {
         "id": "1522454169607471134",
         "name": "🎟﹒を﹒cinema﹒๑",
         "type": 0,
-        "position": 12,
+        "position": 13,
         "parentId": "1522447123541393579"
       },
       {
@@ -378,6 +504,13 @@
         "type": 0,
         "position": 6,
         "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1525510538631577600",
+        "name": "🎤﹒を﹒bias﹒๑",
+        "type": 0,
+        "position": 0,
+        "parentId": "1522710409646313472"
       },
       {
         "id": "1522455901485924393",
@@ -390,8 +523,15 @@
         "id": "1522454897344249978",
         "name": "🪼﹒を﹒aquário﹒๑",
         "type": 0,
-        "position": 20,
+        "position": 21,
         "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1525511130796134541",
+        "name": "✏️﹒を﹒fanart﹒๑",
+        "type": 0,
+        "position": 3,
+        "parentId": "1522710409646313472"
       },
       {
         "id": "1522377450145710292",
@@ -399,6 +539,13 @@
         "type": 0,
         "position": 3,
         "parentId": "1522376843418927114"
+      },
+      {
+        "id": "1525270367793582161",
+        "name": "🎥﹒を﹒filme﹒๑",
+        "type": 0,
+        "position": 0,
+        "parentId": "1522713310703780032"
       },
       {
         "id": "1522380007446679642",
@@ -411,8 +558,15 @@
         "id": "1522454307788820555",
         "name": "🏨﹒を﹒hotel﹒๑",
         "type": 0,
-        "position": 14,
+        "position": 15,
         "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1525251662388793405",
+        "name": "💌﹒を﹒cartinho﹒๑",
+        "type": 0,
+        "position": 0,
+        "parentId": "1522710544044523751"
       },
       {
         "id": "1522378844047409378",
@@ -420,6 +574,13 @@
         "type": 0,
         "position": 6,
         "parentId": "1522376843418927114"
+      },
+      {
+        "id": "1525510544688418836",
+        "name": "Aero",
+        "type": 4,
+        "position": 10,
+        "parentId": null
       },
       {
         "id": "1522456430450573412",
@@ -485,6 +646,13 @@
         "parentId": "1522379260453453957"
       },
       {
+        "id": "1525273612154830999",
+        "name": "🍿﹒を﹒cineminha²﹒๑",
+        "type": 0,
+        "position": 3,
+        "parentId": "1522713310703780032"
+      },
+      {
         "id": "1522388586735996949",
         "name": "🎙﹒を﹒call¹﹒๑",
         "type": 2,
@@ -516,7 +684,7 @@
         "id": "1522453964522520676",
         "name": "🍽﹒を﹒restaurante﹒๑",
         "type": 0,
-        "position": 10,
+        "position": 11,
         "parentId": "1522447123541393579"
       },
       {
@@ -525,6 +693,13 @@
         "type": 2,
         "position": 8,
         "parentId": "1522388385623314615"
+      },
+      {
+        "id": "1525510917540810895",
+        "name": "🍰﹒を﹒aniversário﹒๑",
+        "type": 0,
+        "position": 2,
+        "parentId": "1522710409646313472"
       },
       {
         "id": "1522794570306289685",
@@ -541,11 +716,31 @@
         "parentId": "1522388385623314615"
       },
       {
+        "id": "1524445890641793165",
+        "name": "🎙﹒を﹒call de rp﹒๑",
+        "type": 2,
+        "position": 0,
+        "parentId": "1522447123541393579"
+      },
+      {
+        "id": "1525255688341819513",
+        "name": "੭﹕﹒Projetos﹒ಇ.",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
         "id": "1522717068380737556",
         "name": "📢﹒を﹒marcar-reunião﹒๑",
         "type": 0,
         "position": 1,
         "parentId": "1522714468013047838"
+      },
+      {
+        "id": "1529609161417953280",
+        "name": "Quarto",
+        "type": 11,
+        "parentId": "1522454307788820555"
       },
       {
         "id": "1522459852784275497",
@@ -558,18 +753,18 @@
       {
         "id": "1519750405133963284",
         "name": "Resenhudos",
-        "color": 16737024,
+        "color": 7419530,
         "permissions": "8477234650152959",
-        "position": 24,
+        "position": 25,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520278111596445848",
         "name": "Membros da resenhada",
-        "color": 0,
+        "color": 11669994,
         "permissions": "110191919431233",
-        "position": 16,
+        "position": 17,
         "hoist": true,
         "mentionable": false
       },
@@ -578,16 +773,16 @@
         "name": "Bots",
         "color": 0,
         "permissions": "2108850416648183",
-        "position": 15,
+        "position": 16,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520439355829653624",
         "name": "👑 Dono",
-        "color": 15844367,
+        "color": 14254335,
         "permissions": "0",
-        "position": 23,
+        "position": 24,
         "hoist": true,
         "mentionable": true
       },
@@ -596,16 +791,16 @@
         "name": "🛡️Administradores",
         "color": 0,
         "permissions": "8",
-        "position": 13,
+        "position": 14,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520552975091630301",
         "name": "👑 Cofundador",
-        "color": 15105570,
+        "color": 10301626,
         "permissions": "8",
-        "position": 22,
+        "position": 23,
         "hoist": true,
         "mentionable": false
       },
@@ -614,7 +809,7 @@
         "name": "⚖️ Gerente",
         "color": 2123412,
         "permissions": "6773001051710864",
-        "position": 12,
+        "position": 13,
         "hoist": false,
         "mentionable": false
       },
@@ -623,7 +818,7 @@
         "name": "🔨 Moderador",
         "color": 10038562,
         "permissions": "6756498982109190",
-        "position": 11,
+        "position": 12,
         "hoist": false,
         "mentionable": false
       },
@@ -632,16 +827,16 @@
         "name": "🤖 Bot",
         "color": 6323595,
         "permissions": "0",
-        "position": 10,
+        "position": 11,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520969372334686238",
         "name": "Staff",
-        "color": 15158332,
+        "color": 13338879,
         "permissions": "7737810261376983",
-        "position": 21,
+        "position": 22,
         "hoist": true,
         "mentionable": false
       },
@@ -650,20 +845,20 @@
         "name": "Testes sarais",
         "color": 7419530,
         "permissions": "1720707884371521",
-        "position": 3,
+        "position": 4,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1522459019607019552",
         "name": "Bots",
-        "color": 11027200,
+        "color": 7419530,
         "permissions": "1721807559716815",
-        "position": 20,
+        "position": 21,
         "hoist": true,
         "mentionable": false
       }
     ],
-    "updated": 1783524121374
+    "updated": 1785215722623
   }
 }

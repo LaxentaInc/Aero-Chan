@@ -1,0 +1,156 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1243219472962162728",
+        "name": "TEXTO 📄",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1243219472962162729",
+        "name": "CANALES DE VOZ 🔊",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1243219472962162731",
+        "name": "juego",
+        "type": 2,
+        "position": 0,
+        "parentId": "1243219472962162729"
+      },
+      {
+        "id": "1254940200124022804",
+        "name": "IMPORTANTE 📢",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1260380155319287898",
+        "name": "«🚷»¦administración",
+        "type": 0,
+        "position": 0,
+        "parentId": "1289709334942715924"
+      },
+      {
+        "id": "1260385042308530247",
+        "name": "memes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1243219472962162728"
+      },
+      {
+        "id": "1260388737880424499",
+        "name": "arte",
+        "type": 0,
+        "position": 2,
+        "parentId": "1243219472962162728"
+      },
+      {
+        "id": "1289709334942715924",
+        "name": "ADMIN 🚧",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1305613905506078810",
+        "name": "bienvenidas",
+        "type": 0,
+        "position": 0,
+        "parentId": "1254940200124022804"
+      },
+      {
+        "id": "1316886802677895258",
+        "name": "chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1243219472962162728"
+      },
+      {
+        "id": "1318088191047237682",
+        "name": "anuncios",
+        "type": 0,
+        "position": 1,
+        "parentId": "1254940200124022804"
+      },
+      {
+        "id": "1505797540203860089",
+        "name": "videos",
+        "type": 0,
+        "position": 3,
+        "parentId": "1243219472962162728"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1254926368253284484",
+        "name": "Owner",
+        "color": 3447003,
+        "permissions": "1721826618638327",
+        "position": 12,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1260377628905312296",
+        "name": "miembro",
+        "color": 16777215,
+        "permissions": "70815424437825",
+        "position": 11,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1306003386260389939",
+        "name": "miembro verde",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 10,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1327482686909972553",
+        "name": "Muted",
+        "color": 8487814,
+        "permissions": "2248473734270529",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1373517587299958805",
+        "name": "Admin 2",
+        "color": 16580608,
+        "permissions": "1721826618638335",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1379450960685826180",
+        "name": "El enano birrioso",
+        "color": 15105570,
+        "permissions": "1720707884502593",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1379451108694687847",
+        "name": "Elbburger king",
+        "color": 0,
+        "permissions": "1720707884502601",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722894
+  }
+}

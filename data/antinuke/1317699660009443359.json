@@ -1,0 +1,131 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1317699665117974588",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1317699665117974589",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1317699665117974590",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1317699665117974588"
+      },
+      {
+        "id": "1317699665117974591",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1317699665117974589"
+      },
+      {
+        "id": "1317706063746699294",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1317709955624861706"
+      },
+      {
+        "id": "1317709955624861706",
+        "name": "Important!",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1317710113863241768",
+        "name": "intros",
+        "type": 0,
+        "position": 1,
+        "parentId": "1317709955624861706"
+      },
+      {
+        "id": "1317710811141247069",
+        "name": "announcements",
+        "type": 0,
+        "position": 2,
+        "parentId": "1317709955624861706"
+      },
+      {
+        "id": "1317712724637253652",
+        "name": "welcome",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1317720330399121449",
+        "name": "suggestions",
+        "type": 0,
+        "position": 3,
+        "parentId": "1317709955624861706"
+      },
+      {
+        "id": "1511817526307192893",
+        "name": "general-2",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1317703462812647505",
+        "name": "Mistakes",
+        "color": 3447003,
+        "permissions": "1720707884502593",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1317704022693515294",
+        "name": "Head mod",
+        "color": 14364905,
+        "permissions": "1721807559716807",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1317704154503708712",
+        "name": "Owner",
+        "color": 15158332,
+        "permissions": "1721826618638327",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1317704574945071155",
+        "name": "non-stop grinder",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1317718357335871539",
+        "name": "unknown",
+        "color": 0,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215721981
+  }
+}

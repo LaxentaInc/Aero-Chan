@@ -1,0 +1,370 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1530061041772531812",
+        "name": "🇨🇷│costarica",
+        "type": 0,
+        "position": 1,
+        "parentId": "1530058743130230896"
+      },
+      {
+        "id": "1527049869984796763",
+        "name": "📒│reglamiento",
+        "type": 0,
+        "position": 0,
+        "parentId": "1527049477330964613"
+      },
+      {
+        "id": "1530062232044437625",
+        "name": "🇪🇸│españa",
+        "type": 0,
+        "position": 7,
+        "parentId": "1530058743130230896"
+      },
+      {
+        "id": "1530648536209690665",
+        "name": "👾│saphiremoon",
+        "type": 0,
+        "position": 4,
+        "parentId": "1530072764306821220"
+      },
+      {
+        "id": "1530066563548577913",
+        "name": "⟡Soporte",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1530061809015460014",
+        "name": "🇧🇷│brasil",
+        "type": 0,
+        "position": 4,
+        "parentId": "1530058743130230896"
+      },
+      {
+        "id": "1530057998951518410",
+        "name": "🔥│level",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1530073640089944216",
+        "name": "👻│pokétwo8236",
+        "type": 0,
+        "position": 2,
+        "parentId": "1530072764306821220"
+      },
+      {
+        "id": "1527048652445585449",
+        "name": "📜│𝓒𝓪𝓹𝓬𝓾𝓽-𝑷𝑹𝑬𝑴𝑰𝑼𝑴",
+        "type": 0,
+        "position": 1,
+        "parentId": "1527047960603398295"
+      },
+      {
+        "id": "1527047341989957775",
+        "name": "🪻│ℬ𝗶ℰ𝓝ℬ𝙚𝓝𝓲𝒟𝓐",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1531508384468041728",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1531508379946586122"
+      },
+      {
+        "id": "1527049477330964613",
+        "name": "✧📜Rules",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1527046352939516198",
+        "name": "✧hilos",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1530058743130230896",
+        "name": "⟡🗒️Chats",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1529313356836503603",
+        "name": "🎮🕹│gᥲmᥱs_ᥱ᥎ᥱᥒ𝗍",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1531509681619472426",
+        "name": "General 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1531509285450809364"
+      },
+      {
+        "id": "1530072896490307706",
+        "name": "💤│lawliet",
+        "type": 0,
+        "position": 0,
+        "parentId": "1530072764306821220"
+      },
+      {
+        "id": "1529202415839088781",
+        "name": "forous",
+        "type": 15,
+        "position": 0,
+        "parentId": "1527046352939516198"
+      },
+      {
+        "id": "1530060508093222932",
+        "name": "🇮🇩│indonesia",
+        "type": 0,
+        "position": 0,
+        "parentId": "1530058743130230896"
+      },
+      {
+        "id": "1530220864585334956",
+        "name": "🛹│userskin",
+        "type": 15,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1531508379946586122",
+        "name": "✧🤖Aero",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1531510008498491392",
+        "name": "🎵│Musica",
+        "type": 2,
+        "position": 3,
+        "parentId": "1531509285450809364"
+      },
+      {
+        "id": "1530072764306821220",
+        "name": "⟡🤖Bots",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1530070176618381526",
+        "name": "🦴│soportedebugs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1530066563548577913"
+      },
+      {
+        "id": "1530220396354207844",
+        "name": "⚔️│videogames",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1527057459892719756",
+        "name": "📢│𝓐𝓷𝓾𝓷𝓬𝓲𝓸𝓼",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1531508373508456610",
+        "name": "🎥│canaleveryone",
+        "type": 0,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1531509752742285442",
+        "name": "General 3",
+        "type": 2,
+        "position": 2,
+        "parentId": "1531509285450809364"
+      },
+      {
+        "id": "1530061675724669149",
+        "name": "🇵🇹│portugal",
+        "type": 0,
+        "position": 3,
+        "parentId": "1530058743130230896"
+      },
+      {
+        "id": "1530067107847475351",
+        "name": "❓│help",
+        "type": 0,
+        "position": 0,
+        "parentId": "1530066563548577913"
+      },
+      {
+        "id": "1531525649640980620",
+        "name": "🤖│Idderoblox",
+        "type": 2,
+        "position": 4,
+        "parentId": "1531509285450809364"
+      },
+      {
+        "id": "1527046352939516197",
+        "name": "✧Txt",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1530062125458915338",
+        "name": "🇯🇵│japon",
+        "type": 0,
+        "position": 6,
+        "parentId": "1530058743130230896"
+      },
+      {
+        "id": "1530073071203913738",
+        "name": "🎀│nekotina",
+        "type": 0,
+        "position": 1,
+        "parentId": "1530072764306821220"
+      },
+      {
+        "id": "1530660580510404738",
+        "name": "🎵│musica",
+        "type": 0,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1531509502652977272",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1531509285450809364"
+      },
+      {
+        "id": "1527046352939516199",
+        "name": "⚡general⚡",
+        "type": 0,
+        "position": 0,
+        "parentId": "1527046352939516197"
+      },
+      {
+        "id": "1530645733437345923",
+        "name": "౨foro",
+        "type": 15,
+        "position": 1,
+        "parentId": "1527046352939516198"
+      },
+      {
+        "id": "1530061307372507166",
+        "name": "🇺🇸│usa",
+        "type": 0,
+        "position": 2,
+        "parentId": "1530058743130230896"
+      },
+      {
+        "id": "1531509285450809364",
+        "name": "✧🍰canalesdevoz",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1530064868311564428",
+        "name": "📜│rules",
+        "type": 0,
+        "position": 1,
+        "parentId": "1527049477330964613"
+      },
+      {
+        "id": "1530061982877618237",
+        "name": "🇨🇳│china",
+        "type": 0,
+        "position": 5,
+        "parentId": "1530058743130230896"
+      },
+      {
+        "id": "1527047960603398295",
+        "name": "✧𝐀𝐩𝐤𝐬",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1527048272978383059",
+        "name": "📚│𝒜𝓁𝒾𝓰𝓉𝒽-𝑀𝑜𝑡𝑖𝑜𝑛",
+        "type": 0,
+        "position": 0,
+        "parentId": "1527047960603398295"
+      },
+      {
+        "id": "1530225942016950372",
+        "name": "✅verificación",
+        "type": 0,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1530073911772053524",
+        "name": "⚡│unbelievaboat⋆⟡",
+        "type": 0,
+        "position": 3,
+        "parentId": "1530072764306821220"
+      },
+      {
+        "id": "1529312211380474037",
+        "name": "📹 Youtube 📹",
+        "type": 11,
+        "parentId": "1529202415839088781"
+      },
+      {
+        "id": "1530221552149332078",
+        "name": "🎥Creator video",
+        "type": 11,
+        "parentId": "1529202415839088781"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1529199724354207974",
+        "name": "Owner 👑",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529199876142010428",
+        "name": "Administrador",
+        "color": 39935,
+        "permissions": "8",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530223188003262534",
+        "name": "𝙌𝙪𝙚𝙨𝙩𝙞𝙤𝙣❓",
+        "color": 16711680,
+        "permissions": "6755399441055808",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722404
+  }
+}

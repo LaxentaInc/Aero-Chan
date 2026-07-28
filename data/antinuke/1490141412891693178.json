@@ -1,0 +1,129 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1490141414758289498",
+        "name": "ler",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1490141414758289501",
+        "name": "comunidade",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1495593347501260840",
+        "name": "💬chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1490141414758289501"
+      },
+      {
+        "id": "1495593475759018154",
+        "name": "📸midias",
+        "type": 0,
+        "position": 1,
+        "parentId": "1490141414758289501"
+      },
+      {
+        "id": "1495599132348256276",
+        "name": "📣anunciamentos",
+        "type": 0,
+        "position": 0,
+        "parentId": "1490141414758289498"
+      },
+      {
+        "id": "1495599592337834054",
+        "name": "❗regras",
+        "type": 0,
+        "position": 1,
+        "parentId": "1490141414758289498"
+      },
+      {
+        "id": "1495602480287846532",
+        "name": "try",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1495603083793924106",
+        "name": "tryout",
+        "type": 0,
+        "position": 0,
+        "parentId": "1495602480287846532"
+      },
+      {
+        "id": "1495603391181754399",
+        "name": "👥try",
+        "type": 2,
+        "position": 0,
+        "parentId": "1495602480287846532"
+      },
+      {
+        "id": "1495603430599692388",
+        "name": "log",
+        "type": 0,
+        "position": 1,
+        "parentId": "1495602480287846532"
+      },
+      {
+        "id": "1495641996403146804",
+        "name": "closed-0002",
+        "type": 0,
+        "position": 2,
+        "parentId": "1495602480287846532"
+      },
+      {
+        "id": "1514392715641487440",
+        "name": "SA deepwoken",
+        "type": 2,
+        "position": 0,
+        "parentId": "1490141414758289501"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1495602705098604544",
+        "name": "ally",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1495602831795949678",
+        "name": ".",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1495604303736344729",
+        "name": "mod",
+        "color": 5572873,
+        "permissions": "8855460475566923",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1495604743026770081",
+        "name": "lieu",
+        "color": 9936031,
+        "permissions": "1024",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722382
+  }
+}

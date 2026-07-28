@@ -13,7 +13,12 @@ const { logger } = require('./src/utils/logger');
 const { updateBotStatus } = require('./src/utils/status');
 const { getClient, closeConnection } = require('./src/utils/CloudDB');
 const mongoose = require('mongoose');
+const axios = require('axios');
 require('dotenv').config();
+
+// configure global axios default headers so all outgoing http requests from commands (e.g. nekos.best anime gifs across 60+ commands) automatically include a valid user-agent.
+// nekos.best security rules block requests without a user-agent header with a 403 forbidden error.
+axios.defaults.headers.common['User-Agent'] = 'AeroBot/1.0 (https://discord.gg/yourserver; contact@aero.bot)';
 
 // Define Models for Caching
 const afkSchema = new mongoose.Schema({

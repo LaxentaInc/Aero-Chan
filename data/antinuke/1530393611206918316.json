@@ -1,0 +1,103 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1530393612381327502",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1530393612381327503",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1530393612381327504",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1530393612381327502"
+      },
+      {
+        "id": "1530393612381327505",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1530393612381327503"
+      },
+      {
+        "id": "1531412877867614359",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1531412882653315183",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1531412877867614359"
+      },
+      {
+        "id": "1531412884972896348",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1531412877867614359"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1530439196458881036",
+        "name": "Top Mod",
+        "color": 3066993,
+        "permissions": "8864258447638527",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530460340918288404",
+        "name": "Goat",
+        "color": 2123412,
+        "permissions": "1721826618638327",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530658949190127686",
+        "name": "Swag",
+        "color": 15844367,
+        "permissions": "1721826618638335",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530662212153118741",
+        "name": "Dih Sucker",
+        "color": 70945,
+        "permissions": "1721807559716807",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530789127820283954",
+        "name": "Femboy Lover",
+        "color": 15277667,
+        "permissions": "1720707884502593",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722389
+  }
+}

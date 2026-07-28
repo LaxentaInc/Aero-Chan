@@ -39,7 +39,9 @@ async function notifyOwner(guild: any, botUser: any, inviter: any, suspicionData
       const {
         isTrustedUser
       } = require('./config');
-      const config = require('./index').getConfig(guild.id);
+      // unwrap default property from es module transpilation before calling getconfig on the root module instance.
+      const indexMod = require('./index');
+      const config = (indexMod.default || indexMod).getConfig(guild.id);
       embed.fields.push({
         name: `${EMOJIS.MARKER} Added By`,
         value: [`**User:** ${inviter.username}`, `**ID:** ${inviter.id}`, `**Trusted:** ${isTrustedUser(inviter, guild, config) ? 'Yes' : 'No'}`].join('\n'),
@@ -374,7 +376,9 @@ function handleWhitelistCollector(message: any, guild: any, botUser: any, checkP
       const {
         isTrustedUser
       } = require('./config');
-      const config = require('./index').getConfig(guild.id);
+      // unwrap default property from commonjs require call to ensure getconfig is accessible on the module instance.
+      const indexMod = require('./index');
+      const config = (indexMod.default || indexMod).getConfig(guild.id);
       const authorized = isTrustedUser(i.user, guild, config);
       if (!authorized) {
         return i.reply({
@@ -385,7 +389,9 @@ function handleWhitelistCollector(message: any, guild: any, botUser: any, checkP
     }
     await i.deferUpdate();
     try {
-      const botProtection = require('./index');
+      // unwrap default property when lazily loading botprotection instance for whitelisting inside button collector.
+      const botProtectionMod = require('./index');
+      const botProtection = botProtectionMod.default || botProtectionMod;
       const currentConfig = botProtection.getConfig(guild.id);
       const whitelist = currentConfig.whitlistedBots || [];
       if (!whitelist.includes(botUser.id)) {

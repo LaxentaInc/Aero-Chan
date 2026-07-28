@@ -19,7 +19,7 @@
         "id": "1524094764666978355",
         "name": "Speed Dating Table 2",
         "type": 2,
-        "position": 8,
+        "position": 9,
         "parentId": "1514876958272393227"
       },
       {
@@ -47,14 +47,14 @@
         "id": "1524094908024094790",
         "name": "Speed Dating Table 3",
         "type": 2,
-        "position": 9,
+        "position": 10,
         "parentId": "1514876958272393227"
       },
       {
         "id": "1522050391452156064",
         "name": "Lonely Corner",
         "type": 2,
-        "position": 2,
+        "position": 3,
         "parentId": "1514876958272393227"
       },
       {
@@ -82,14 +82,14 @@
         "id": "1524093495676108970",
         "name": "Need Company",
         "type": 2,
-        "position": 5,
+        "position": 6,
         "parentId": "1514876958272393227"
       },
       {
         "id": "1524094701110563086",
         "name": "Speed Dating Table 1",
         "type": 2,
-        "position": 7,
+        "position": 8,
         "parentId": "1514876958272393227"
       },
       {
@@ -261,10 +261,17 @@
         "parentId": null
       },
       {
+        "id": "1524555313108357222",
+        "name": "VC 1",
+        "type": 2,
+        "position": 1,
+        "parentId": "1514876958272393227"
+      },
+      {
         "id": "1522420935083163668",
         "name": "music request 1",
         "type": 2,
-        "position": 3,
+        "position": 4,
         "parentId": "1514876958272393227"
       },
       {
@@ -320,7 +327,7 @@
         "id": "1524093725222113540",
         "name": "Looking for a partner/friend",
         "type": 2,
-        "position": 6,
+        "position": 7,
         "parentId": "1514876958272393227"
       },
       {
@@ -425,14 +432,14 @@
         "id": "1522421076024496199",
         "name": "music request 2",
         "type": 2,
-        "position": 4,
+        "position": 5,
         "parentId": "1514876958272393227"
       },
       {
         "id": "1522050022496145649",
         "name": "freaky",
         "type": 2,
-        "position": 1,
+        "position": 2,
         "parentId": "1514876958272393227"
       },
       {
@@ -483,16 +490,17 @@
         "parentId": "1522028785606594740"
       },
       {
-        "id": "1523184304618733638",
-        "name": "guys how to count",
-        "type": 11,
-        "parentId": "1522029219985489930"
-      },
-      {
         "id": "1523146819897659542",
         "name": "Huuhh",
         "type": 11,
         "parentId": "1522041827799072948"
+      },
+      {
+        "id": "1526757297395728426",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1524093501766369524"
       }
     ],
     "roles": [
@@ -501,7 +509,7 @@
         "name": "18+",
         "color": 526344,
         "permissions": "0",
-        "position": 30,
+        "position": 31,
         "hoist": true,
         "mentionable": true
       },
@@ -510,7 +518,7 @@
         "name": "🌙 Night Owl",
         "color": 7341726,
         "permissions": "0",
-        "position": 40,
+        "position": 41,
         "hoist": true,
         "mentionable": true
       },
@@ -519,7 +527,7 @@
         "name": "Edith-Anti-Nuke-Role",
         "color": 0,
         "permissions": "8",
-        "position": 48,
+        "position": 49,
         "hoist": false,
         "mentionable": false
       },
@@ -528,7 +536,7 @@
         "name": "🩸 Member",
         "color": 4851721,
         "permissions": "110226077883968",
-        "position": 34,
+        "position": 35,
         "hoist": false,
         "mentionable": false
       },
@@ -537,7 +545,7 @@
         "name": "⛓️ Enforcer",
         "color": 8527107,
         "permissions": "1099511701506",
-        "position": 36,
+        "position": 37,
         "hoist": true,
         "mentionable": true
       },
@@ -546,7 +554,7 @@
         "name": "👁️ Red Eye",
         "color": 13570578,
         "permissions": "300195157910546",
-        "position": 37,
+        "position": 38,
         "hoist": true,
         "mentionable": true
       },
@@ -555,7 +563,7 @@
         "name": "chill girl",
         "color": 16253641,
         "permissions": "0",
-        "position": 32,
+        "position": 33,
         "hoist": false,
         "mentionable": false
       },
@@ -564,7 +572,7 @@
         "name": "BOT",
         "color": 9936031,
         "permissions": "8",
-        "position": 3,
+        "position": 4,
         "hoist": false,
         "mentionable": false
       },
@@ -573,7 +581,7 @@
         "name": "💔 Heartless",
         "color": 9807270,
         "permissions": "0",
-        "position": 42,
+        "position": 43,
         "hoist": true,
         "mentionable": true
       },
@@ -582,7 +590,7 @@
         "name": "QuarantineEDITH",
         "color": 0,
         "permissions": "0",
-        "position": 49,
+        "position": 50,
         "hoist": false,
         "mentionable": false
       },
@@ -591,7 +599,7 @@
         "name": "🎧 Music Lover",
         "color": 3343431,
         "permissions": "0",
-        "position": 45,
+        "position": 46,
         "hoist": true,
         "mentionable": true
       },
@@ -600,7 +608,7 @@
         "name": "cyrene",
         "color": 14906599,
         "permissions": "0",
-        "position": 39,
+        "position": 40,
         "hoist": false,
         "mentionable": true
       },
@@ -609,7 +617,7 @@
         "name": "🎮 Gamer",
         "color": 1661739,
         "permissions": "0",
-        "position": 41,
+        "position": 42,
         "hoist": true,
         "mentionable": true
       },
@@ -618,7 +626,7 @@
         "name": "chill boy",
         "color": 3066993,
         "permissions": "0",
-        "position": 33,
+        "position": 34,
         "hoist": true,
         "mentionable": true
       },
@@ -627,7 +635,7 @@
         "name": "chill other",
         "color": 15187266,
         "permissions": "0",
-        "position": 31,
+        "position": 32,
         "hoist": true,
         "mentionable": true
       },
@@ -636,7 +644,7 @@
         "name": "xen",
         "color": 7419530,
         "permissions": "12",
-        "position": 1,
+        "position": 2,
         "hoist": false,
         "mentionable": false
       },
@@ -645,7 +653,7 @@
         "name": "18-",
         "color": 16777215,
         "permissions": "0",
-        "position": 29,
+        "position": 30,
         "hoist": true,
         "mentionable": true
       },
@@ -654,7 +662,7 @@
         "name": "🔮Celtic Warlock",
         "color": 7214226,
         "permissions": "201326592",
-        "position": 2,
+        "position": 3,
         "hoist": false,
         "mentionable": false
       },
@@ -663,7 +671,7 @@
         "name": "💬 Chiller",
         "color": 3447003,
         "permissions": "0",
-        "position": 38,
+        "position": 39,
         "hoist": true,
         "mentionable": true
       },
@@ -672,7 +680,7 @@
         "name": "🌹 Romantic",
         "color": 16031458,
         "permissions": "0",
-        "position": 43,
+        "position": 44,
         "hoist": true,
         "mentionable": true
       },
@@ -681,7 +689,7 @@
         "name": "🗡️ Ops",
         "color": 5533306,
         "permissions": "57200911319056",
-        "position": 35,
+        "position": 36,
         "hoist": false,
         "mentionable": false
       },
@@ -690,7 +698,7 @@
         "name": "👑 Founder",
         "color": 16777215,
         "permissions": "8864262743130071",
-        "position": 50,
+        "position": 51,
         "hoist": true,
         "mentionable": true
       },
@@ -699,7 +707,7 @@
         "name": "🖤 Soul",
         "color": 65793,
         "permissions": "0",
-        "position": 44,
+        "position": 45,
         "hoist": true,
         "mentionable": true
       },
@@ -708,11 +716,11 @@
         "name": "Edith-Anti-Nuke-Role",
         "color": 0,
         "permissions": "8",
-        "position": 7,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1783524121150
+    "updated": 1784095997085
   }
 }

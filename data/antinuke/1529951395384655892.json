@@ -1,0 +1,209 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1529952486218268824",
+        "name": "slashes",
+        "type": 0,
+        "position": 0,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952516928962712",
+        "name": "spec",
+        "type": 0,
+        "position": 1,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952548201693334",
+        "name": "flare",
+        "type": 0,
+        "position": 2,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952567583314012",
+        "name": "cracks",
+        "type": 0,
+        "position": 3,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952589385306179",
+        "name": "impact",
+        "type": 0,
+        "position": 4,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952635044495561",
+        "name": "fire",
+        "type": 0,
+        "position": 5,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952672193450044",
+        "name": "water",
+        "type": 0,
+        "position": 6,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952692678561802",
+        "name": "lightning",
+        "type": 0,
+        "position": 7,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952734533517363",
+        "name": "wind",
+        "type": 0,
+        "position": 10,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952839135137972",
+        "name": "circle",
+        "type": 0,
+        "position": 12,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952855039938762",
+        "name": "outlines",
+        "type": 0,
+        "position": 13,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952871217500231",
+        "name": "halftones",
+        "type": 0,
+        "position": 11,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952903253725224",
+        "name": "star",
+        "type": 0,
+        "position": 8,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529952939911807178",
+        "name": "beam",
+        "type": 0,
+        "position": 9,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529953416707575948",
+        "name": "talk",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1529953431362736128",
+        "name": "talk",
+        "type": 0,
+        "position": 0,
+        "parentId": "1529953416707575948"
+      },
+      {
+        "id": "1529953507132571740",
+        "name": "textures",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1529954419603411146",
+        "name": "extra",
+        "type": 0,
+        "position": 14,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529954783727976608",
+        "name": "smoke",
+        "type": 0,
+        "position": 15,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529955139484651651",
+        "name": "cloud",
+        "type": 0,
+        "position": 16,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529955986679398601",
+        "name": "__os__",
+        "type": 0,
+        "position": 18,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529964286590582804",
+        "name": "__anims__",
+        "type": 0,
+        "position": 19,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1529964963467231342",
+        "name": "limeon",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1529964999295111350",
+        "name": "bot-commands",
+        "type": 0,
+        "position": 0,
+        "parentId": "1529964963467231342"
+      },
+      {
+        "id": "1529992070708596957",
+        "name": "spiral",
+        "type": 0,
+        "position": 17,
+        "parentId": "1529953507132571740"
+      },
+      {
+        "id": "1530318496758759516",
+        "name": "__onlyforme__",
+        "type": 0,
+        "position": 20,
+        "parentId": "1529953507132571740"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1529954017885683813",
+        "name": "members",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 2,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1529954042036355265",
+        "name": "owner",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 3,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722004
+  }
+}

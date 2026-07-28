@@ -1,0 +1,66 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1487436179295961098",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1487436179295961099",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1487436179295961098"
+      },
+      {
+        "id": "1487436179295961100",
+        "name": "clips-y-destacados",
+        "type": 0,
+        "position": 1,
+        "parentId": "1487436179295961098"
+      },
+      {
+        "id": "1487436179295961101",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1487436179295961102",
+        "name": "Sala",
+        "type": 2,
+        "position": 0,
+        "parentId": "1487436179295961101"
+      },
+      {
+        "id": "1487436179295961103",
+        "name": "Juegos",
+        "type": 2,
+        "position": 1,
+        "parentId": "1487436179295961101"
+      },
+      {
+        "id": "1527901955102605322",
+        "name": "Neko chatbot con Santi",
+        "type": 11,
+        "parentId": "1487436179295961100"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1527916926985179279",
+        "name": "Dominante Female",
+        "color": 0,
+        "permissions": "66560",
+        "position": 1,
+        "hoist": false,
+        "mentionable": true
+      }
+    ],
+    "updated": 1785215722890
+  }
+}

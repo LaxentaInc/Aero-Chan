@@ -3,24 +3,10 @@
     "channels": [
       {
         "id": "1519767023666860032",
-        "name": ", u got a keyboard?",
+        "name": "𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 𝐂𝐡𝐚𝐧𝐧𝐞𝐥𝐬﹒∿",
         "type": 4,
         "position": 1,
         "parentId": null
-      },
-      {
-        "id": "1519767023666860033",
-        "name": ", can u speak?",
-        "type": 4,
-        "position": 2,
-        "parentId": null
-      },
-      {
-        "id": "1519767023666860035",
-        "name": "grim silence",
-        "type": 2,
-        "position": 0,
-        "parentId": "1519767023666860033"
       },
       {
         "id": "1519767472750858492",
@@ -31,51 +17,184 @@
       },
       {
         "id": "1519769145061675028",
-        "name": ", can u cooperate?",
+        "name": "𝐈𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥𝐬﹒∿",
         "type": 4,
         "position": 0,
         "parentId": null
       },
       {
-        "id": "1519769544334245998",
-        "name": "ashen grave",
-        "type": 2,
-        "position": 1,
-        "parentId": "1519767023666860033"
-      },
-      {
         "id": "1519773391882682659",
-        "name": "control",
-        "type": 0,
-        "position": 1,
-        "parentId": "1519767023666860032"
-      },
-      {
-        "id": "1519774240507695296",
-        "name": "entrance",
-        "type": 0,
-        "position": 0,
-        "parentId": "1519769145061675028"
-      },
-      {
-        "id": "1519775407744876635",
-        "name": "locket",
+        "name": "﹒﹒🐾・cmd﹒ᰍ",
         "type": 0,
         "position": 2,
         "parentId": "1519767023666860032"
       },
       {
-        "id": "1519790541238177864",
-        "name": "dialogue",
+        "id": "1519774240507695296",
+        "name": "．🌷、．welcome﹒ᰍ",
         "type": 0,
-        "position": 0,
+        "position": 1,
+        "parentId": "1519769145061675028"
+      },
+      {
+        "id": "1519790541238177864",
+        "name": "﹒﹒🍷・chat﹒ᰍ",
+        "type": 0,
+        "position": 1,
         "parentId": "1519767023666860032"
       },
       {
         "id": "1519804975033614336",
-        "name": "identity",
+        "name": "﹒﹒🚨・news﹒ᰍ",
+        "type": 0,
+        "position": 2,
+        "parentId": "1519769145061675028"
+      },
+      {
+        "id": "1524824074692464791",
+        "name": "faveve",
         "type": 0,
         "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1524824194532245655",
+        "name": "femchat",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1526698461553234000",
+        "name": "Aero",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1526698466389004500",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1526698461553234000"
+      },
+      {
+        "id": "1526698969525260350",
+        "name": "╭☁・📜・rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1519769145061675028"
+      },
+      {
+        "id": "1526699423671779428",
+        "name": "﹒﹒🧁・boosts﹒ᰍ",
+        "type": 0,
+        "position": 3,
+        "parentId": "1519769145061675028"
+      },
+      {
+        "id": "1526700009284698353",
+        "name": "﹒﹒🎁・giveaways﹒ᰍ",
+        "type": 0,
+        "position": 4,
+        "parentId": "1519769145061675028"
+      },
+      {
+        "id": "1526700150926479391",
+        "name": "﹒﹒🧁・media﹒ᰍ",
+        "type": 0,
+        "position": 3,
+        "parentId": "1519767023666860032"
+      },
+      {
+        "id": "1526701849808343212",
+        "name": "﹒﹒🎨・art﹒ᰍ",
+        "type": 0,
+        "position": 4,
+        "parentId": "1519767023666860032"
+      },
+      {
+        "id": "1526702258216112378",
+        "name": "╭☁・🍥・note",
+        "type": 15,
+        "position": 0,
+        "parentId": "1519767023666860032"
+      },
+      {
+        "id": "1526702869451902996",
+        "name": "﹒﹒🍪・profiles﹒ᰍ",
+        "type": 0,
+        "position": 5,
+        "parentId": "1519767023666860032"
+      },
+      {
+        "id": "1526704806591336520",
+        "name": "𝐇𝐞𝐥𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥𝐬﹒∿",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1526705391151616021",
+        "name": "・🎟️・tickets",
+        "type": 0,
+        "position": 0,
+        "parentId": "1526704806591336520"
+      },
+      {
+        "id": "1526707449879330856",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1526698461553234000"
+      },
+      {
+        "id": "1526707639600545812",
+        "name": "𝐀𝐮𝐝𝐢𝐨 𝐑𝐨𝐨𝐦𝐬﹒∿",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1526707640758046901",
+        "name": "➕ Create Voice﹒ᰍ",
+        "type": 2,
+        "position": 0,
+        "parentId": "1526707639600545812"
+      },
+      {
+        "id": "1526707642922303608",
+        "name": "╭☁・🐾・interface﹒ᰍ",
+        "type": 0,
+        "position": 0,
+        "parentId": "1526707639600545812"
+      },
+      {
+        "id": "1526709572696543413",
+        "name": "🐾・Voice Room 1 ﹒ᰍ",
+        "type": 2,
+        "position": 1,
+        "parentId": "1526707639600545812"
+      },
+      {
+        "id": "1526710157839437854",
+        "name": "🐾・Voice Room 2 ﹒ᰍ",
+        "type": 2,
+        "position": 2,
+        "parentId": "1526707639600545812"
+      },
+      {
+        "id": "1526710206820651118",
+        "name": "🐾・Voice Room 3 ﹒ᰍ",
+        "type": 2,
+        "position": 3,
+        "parentId": "1526707639600545812"
+      },
+      {
+        "id": "1526713907979489481",
+        "name": "﹒﹒🪔・roles﹒ᰍ",
+        "type": 0,
+        "position": 5,
         "parentId": "1519769145061675028"
       }
     ],
@@ -84,8 +203,8 @@
         "id": "1519777536396103870",
         "name": "PHANTOM",
         "color": 16777215,
-        "permissions": "6765829702548727",
-        "position": 22,
+        "permissions": "8864262742605823",
+        "position": 28,
         "hoist": false,
         "mentionable": false
       },
@@ -94,7 +213,7 @@
         "name": "lady",
         "color": 16734895,
         "permissions": "0",
-        "position": 15,
+        "position": 21,
         "hoist": false,
         "mentionable": false
       },
@@ -103,16 +222,16 @@
         "name": "gentleman",
         "color": 3447003,
         "permissions": "0",
-        "position": 14,
+        "position": 20,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1519778476859850923",
-        "name": "upper hands",
+        "name": "UpperHands",
         "color": 10070709,
-        "permissions": "8864262743130111",
-        "position": 20,
+        "permissions": "8864262743130103",
+        "position": 26,
         "hoist": false,
         "mentionable": false
       },
@@ -121,7 +240,7 @@
         "name": "systems",
         "color": 10070709,
         "permissions": "8864262743130111",
-        "position": 18,
+        "position": 19,
         "hoist": true,
         "mentionable": false
       },
@@ -129,57 +248,100 @@
         "id": "1519786627440967732",
         "name": "solo",
         "color": 16775673,
-        "permissions": "8864258447638527",
-        "position": 21,
+        "permissions": "8864262743130103",
+        "position": 27,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1519797283334393926",
-        "name": "------------",
+        "name": "14~17",
         "color": 0,
         "permissions": "0",
-        "position": 19,
+        "position": 24,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1519797452964757514",
-        "name": "-------------",
+        "name": "+18",
         "color": 0,
         "permissions": "0",
-        "position": 16,
+        "position": 22,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1519797507398307880",
         "name": "Vamp",
-        "color": 0,
+        "color": 2123412,
         "permissions": "0",
-        "position": 17,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1519805102532198490",
-        "name": "user",
-        "color": 0,
-        "permissions": "39719959642689",
-        "position": 13,
+        "position": 23,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1520129324785598727",
-        "name": "Divaaaa",
+        "name": "فيمبو",
         "color": 16169424,
         "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525167771145732126",
+        "name": "Muted",
+        "color": 0,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525630400498630676",
+        "name": "الارزعكش🤗",
+        "color": 11534494,
+        "permissions": "1721807559716807",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525632380805840978",
+        "name": "جنتلنجا؟",
+        "color": 5541347,
+        "permissions": "1791093808561729",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526735389048705178",
+        "name": ".",
+        "color": 0,
+        "permissions": "8",
         "position": 1,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1783524121338
+    "updated": 1785215722515
+  },
+  "userStrips": {
+    "762217899355013120": {
+      "strippedRoles": [
+        {
+          "id": "1526707430040404140",
+          "name": "TempVoice",
+          "managed": true,
+          "permissions": "8",
+          "type": "managed"
+        }
+      ],
+      "strippedCount": 1,
+      "failedManagedRoles": 0,
+      "updated": 1784065866866
+    }
   }
 }

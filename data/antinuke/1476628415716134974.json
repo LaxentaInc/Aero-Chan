@@ -10,16 +10,16 @@
       },
       {
         "id": "1476628416605192326",
-        "name": "🧾🇲edia",
+        "name": "🧾media",
         "type": 0,
-        "position": 4,
+        "position": 5,
         "parentId": "1476628416605192325"
       },
       {
         "id": "1476628416605192327",
-        "name": "🧾🇨hat",
+        "name": "🧾chat",
         "type": 0,
-        "position": 5,
+        "position": 4,
         "parentId": "1476628416605192325"
       },
       {
@@ -30,87 +30,38 @@
         "parentId": null
       },
       {
-        "id": "1476628416605192329",
-        "name": "☕TALKING AREA",
-        "type": 2,
-        "position": 1,
-        "parentId": "1476628416605192328"
-      },
-      {
         "id": "1476628416605192330",
         "name": "🎮Gaming Area1️⃣",
         "type": 2,
-        "position": 0,
+        "position": 1,
         "parentId": "1476628416605192328"
       },
       {
         "id": "1476632561835970824",
         "name": "🔉Private",
         "type": 2,
-        "position": 5,
-        "parentId": "1476628416605192328"
+        "position": 0,
+        "parentId": "1525839451304231002"
       },
       {
         "id": "1479134281488924715",
         "name": "🤖bot-commands",
         "type": 0,
-        "position": 3,
+        "position": 7,
         "parentId": "1476628416605192325"
       },
       {
-        "id": "1513950002957779075",
-        "name": "DUO🗣️",
-        "type": 2,
-        "position": 3,
-        "parentId": "1476628416605192328"
-      },
-      {
-        "id": "1513950077524246618",
-        "name": "TRIO🗣️",
-        "type": 2,
-        "position": 2,
-        "parentId": "1476628416605192328"
-      },
-      {
-        "id": "1513950123103752202",
-        "name": "SQUAD🗣️",
-        "type": 2,
-        "position": 4,
-        "parentId": "1476628416605192328"
-      },
-      {
-        "id": "1518331197258989843",
-        "name": "MUSIC🎵",
-        "type": 2,
-        "position": 6,
-        "parentId": "1476628416605192328"
-      },
-      {
-        "id": "1520009847192686672",
-        "name": "AFK channel🤡",
-        "type": 2,
-        "position": 7,
-        "parentId": "1476628416605192328"
-      },
-      {
-        "id": "1520045392773906513",
-        "name": "👋welcome",
+        "id": "1520051621063557361",
+        "name": "🗞️annoucement",
         "type": 5,
         "position": 0,
         "parentId": "1476628416605192325"
       },
       {
-        "id": "1520051621063557361",
-        "name": "🗞️🇦nnoucement",
+        "id": "1520523248884777031",
+        "name": "📽️youtube",
         "type": 5,
         "position": 2,
-        "parentId": "1476628416605192325"
-      },
-      {
-        "id": "1520523248884777031",
-        "name": "📽️🇾outube",
-        "type": 5,
-        "position": 1,
         "parentId": "1476628416605192325"
       },
       {
@@ -128,17 +79,10 @@
         "parentId": null
       },
       {
-        "id": "1521090945829834792",
-        "name": "🇵vp area⚔️",
-        "type": 2,
-        "position": 8,
-        "parentId": "1476628416605192328"
-      },
-      {
         "id": "1523738682668875857",
         "name": "Aero",
         "type": 4,
-        "position": 2,
+        "position": 3,
         "parentId": null
       },
       {
@@ -154,6 +98,48 @@
         "type": 0,
         "position": 1,
         "parentId": "1523738682668875857"
+      },
+      {
+        "id": "1524466736311832636",
+        "name": "🎟️ticket",
+        "type": 0,
+        "position": 6,
+        "parentId": "1476628416605192325"
+      },
+      {
+        "id": "1525604500185022655",
+        "name": "👋welcome",
+        "type": 0,
+        "position": 1,
+        "parentId": "1476628416605192325"
+      },
+      {
+        "id": "1525839451304231002",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1525839452553871553",
+        "name": "Join to Create",
+        "type": 2,
+        "position": 0,
+        "parentId": "1476628416605192328"
+      },
+      {
+        "id": "1527029089041518642",
+        "name": "👨‍💻dev-news",
+        "type": 5,
+        "position": 3,
+        "parentId": "1476628416605192325"
+      },
+      {
+        "id": "1529584656746545292",
+        "name": "invite-player",
+        "type": 0,
+        "position": 8,
+        "parentId": "1476628416605192325"
       }
     ],
     "roles": [
@@ -162,7 +148,7 @@
         "name": "VIP Members 🔸",
         "color": 16768256,
         "permissions": "0",
-        "position": 19,
+        "position": 22,
         "hoist": true,
         "mentionable": false
       },
@@ -171,7 +157,7 @@
         "name": "OWNER 👑",
         "color": 16722988,
         "permissions": "0",
-        "position": 22,
+        "position": 25,
         "hoist": true,
         "mentionable": false
       },
@@ -180,7 +166,7 @@
         "name": "Junior Mod 🖥️",
         "color": 127077,
         "permissions": "7455392258237265",
-        "position": 20,
+        "position": 23,
         "hoist": true,
         "mentionable": true
       },
@@ -189,7 +175,7 @@
         "name": "18+",
         "color": 65470,
         "permissions": "0",
-        "position": 16,
+        "position": 19,
         "hoist": false,
         "mentionable": false
       },
@@ -198,7 +184,7 @@
         "name": "18-",
         "color": 11342935,
         "permissions": "0",
-        "position": 15,
+        "position": 18,
         "hoist": false,
         "mentionable": false
       },
@@ -207,7 +193,7 @@
         "name": "PVPR ⚔️",
         "color": 49663,
         "permissions": "0",
-        "position": 17,
+        "position": 20,
         "hoist": false,
         "mentionable": false
       },
@@ -215,8 +201,8 @@
         "id": "1518641976482861057",
         "name": "Senior Mod 🖥️",
         "color": 12648703,
-        "permissions": "8864262743130111",
-        "position": 21,
+        "permissions": "8864262743130103",
+        "position": 24,
         "hoist": true,
         "mentionable": true
       },
@@ -225,7 +211,7 @@
         "name": "Helper 📧",
         "color": 16760549,
         "permissions": "0",
-        "position": 18,
+        "position": 21,
         "hoist": false,
         "mentionable": false
       },
@@ -234,29 +220,38 @@
         "name": "MEDIA 📹",
         "color": 15158332,
         "permissions": "1720707884371521",
-        "position": 3,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1521969272690049054",
-        "name": "new role",
-        "color": 10181046,
+        "name": "Ticket Support  🎟️",
+        "color": 11342935,
         "permissions": "0",
-        "position": 2,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1521969501837721711",
-        "name": "Mod Jr",
-        "color": 14171,
-        "permissions": "0",
-        "position": 1,
+        "id": "1524472091045265559",
+        "name": "?",
+        "color": 1146986,
+        "permissions": "8864262743130111",
+        "position": 7,
         "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526307811997257899",
+        "name": "Bot🤖",
+        "color": 11027200,
+        "permissions": "0",
+        "position": 2,
+        "hoist": true,
         "mentionable": false
       }
     ],
-    "updated": 1783524121160
+    "updated": 1785215721730
   }
 }

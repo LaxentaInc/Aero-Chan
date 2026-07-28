@@ -1,0 +1,36 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1526809106583781507",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1526809106583781509",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1526809106583781510",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1526809106583781507"
+      },
+      {
+        "id": "1526809106583781511",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1526809106583781509"
+      }
+    ],
+    "roles": [],
+    "updated": 1785215722256
+  }
+}

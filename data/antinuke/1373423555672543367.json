@@ -12,22 +12,22 @@
         "id": "1373423557039751171",
         "name": "genel",
         "type": 0,
-        "position": 2,
+        "position": 1,
         "parentId": "1412421842957762571"
       },
       {
         "id": "1373424038185009233",
         "name": "bot-komutları",
         "type": 0,
-        "position": 5,
+        "position": 4,
         "parentId": "1412421842957762571"
       },
       {
         "id": "1373442841233063977",
         "name": "oyun",
         "type": 2,
-        "position": 0,
-        "parentId": "1412421192987709440"
+        "position": 1,
+        "parentId": "1412421574983811122"
       },
       {
         "id": "1412419577715097701",
@@ -44,13 +44,6 @@
         "parentId": "1412421574983811122"
       },
       {
-        "id": "1412420443637551155",
-        "name": "şikayet",
-        "type": 0,
-        "position": 1,
-        "parentId": "1412421842957762571"
-      },
-      {
         "id": "1412421192987709440",
         "name": "oyun-sohbet",
         "type": 4,
@@ -61,7 +54,7 @@
         "id": "1412421337179488286",
         "name": "oyun 2",
         "type": 2,
-        "position": 1,
+        "position": 0,
         "parentId": "1412421192987709440"
       },
       {
@@ -89,7 +82,7 @@
         "id": "1412422829701333093",
         "name": "kuralar",
         "type": 0,
-        "position": 1,
+        "position": 0,
         "parentId": "1412422411688869888"
       },
       {
@@ -103,28 +96,28 @@
         "id": "1412425010164793374",
         "name": "fotğraf-ve-meme",
         "type": 0,
-        "position": 4,
+        "position": 3,
         "parentId": "1412421842957762571"
       },
       {
         "id": "1412489199503806556",
         "name": "kelime-oyunu",
         "type": 0,
-        "position": 3,
+        "position": 2,
         "parentId": "1412421842957762571"
       },
       {
         "id": "1420062534613991506",
         "name": "oyunlar",
         "type": 0,
-        "position": 0,
+        "position": 1,
         "parentId": "1412422411688869888"
       },
       {
         "id": "1451642990610223296",
         "name": "oyun 3",
         "type": 2,
-        "position": 2,
+        "position": 1,
         "parentId": "1412421192987709440"
       },
       {
@@ -145,7 +138,7 @@
         "id": "1519969167099559996",
         "name": "oyuncu-arama",
         "type": 0,
-        "position": 2,
+        "position": 3,
         "parentId": "1412422411688869888"
       },
       {
@@ -168,6 +161,37 @@
         "type": 0,
         "position": 1,
         "parentId": "1524235007064018994"
+      },
+      {
+        "id": "1526547122676170873",
+        "name": "şikayet",
+        "type": 15,
+        "position": 2,
+        "parentId": "1412422411688869888"
+      },
+      {
+        "id": "1525983383681892543",
+        "name": "korkuyorum",
+        "type": 11,
+        "parentId": "1373423557039751171"
+      },
+      {
+        "id": "1526331004246294679",
+        "name": "kayradan topluca engel yıyorus",
+        "type": 11,
+        "parentId": "1373423557039751171"
+      },
+      {
+        "id": "1526613870398144602",
+        "name": "Gereksiz kışkırmta huzur bozmak ve kavgaya sebeb olmak",
+        "type": 11,
+        "parentId": "1526547122676170873"
+      },
+      {
+        "id": "1526629061429035219",
+        "name": "küfür edenler listesi cinsel içerik ve nefret söylemi",
+        "type": 11,
+        "parentId": "1526547122676170873"
       }
     ],
     "roles": [
@@ -176,7 +200,7 @@
         "name": "Mod",
         "color": 0,
         "permissions": "2108859006582783",
-        "position": 10,
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -185,7 +209,7 @@
         "name": "mod yetkili",
         "color": 15844367,
         "permissions": "0",
-        "position": 8,
+        "position": 5,
         "hoist": false,
         "mentionable": false
       },
@@ -194,7 +218,7 @@
         "name": "yönetici",
         "color": 15158332,
         "permissions": "8864258447638527",
-        "position": 7,
+        "position": 4,
         "hoist": false,
         "mentionable": false
       },
@@ -203,11 +227,11 @@
         "name": "bot",
         "color": 1146986,
         "permissions": "0",
-        "position": 5,
+        "position": 2,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1783524121278
+    "updated": 1784095997321
   }
 }

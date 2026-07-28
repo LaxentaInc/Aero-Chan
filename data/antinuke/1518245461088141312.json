@@ -23,6 +23,13 @@
         "parentId": "1518245463524904987"
       },
       {
+        "id": "1525574530163281990",
+        "name": "Aero",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
         "id": "1518245463923495005",
         "name": "📞┃atendimento",
         "type": 0,
@@ -56,6 +63,13 @@
         "type": 0,
         "position": 1,
         "parentId": "1518245463730552941"
+      },
+      {
+        "id": "1525574537369092298",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1525574530163281990"
       },
       {
         "id": "1518245463923495004",
@@ -170,6 +184,13 @@
         "parentId": "1518245463524904980"
       },
       {
+        "id": "1525574535120814090",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525574530163281990"
+      },
+      {
         "id": "1518245462690234492",
         "name": "🔌┃cmd²",
         "type": 0,
@@ -259,7 +280,7 @@
         "name": "SaddleBrown",
         "color": 9127187,
         "permissions": "0",
-        "position": 79,
+        "position": 80,
         "hoist": false,
         "mentionable": false
       },
@@ -268,7 +289,7 @@
         "name": "Turquoise",
         "color": 4251856,
         "permissions": "0",
-        "position": 109,
+        "position": 110,
         "hoist": false,
         "mentionable": false
       },
@@ -277,7 +298,7 @@
         "name": "Pink",
         "color": 16761035,
         "permissions": "0",
-        "position": 51,
+        "position": 52,
         "hoist": false,
         "mentionable": false
       },
@@ -286,7 +307,7 @@
         "name": "Chartreuse",
         "color": 8388352,
         "permissions": "0",
-        "position": 88,
+        "position": 89,
         "hoist": false,
         "mentionable": false
       },
@@ -295,7 +316,7 @@
         "name": "NVL 50+",
         "color": 13180859,
         "permissions": "0",
-        "position": 28,
+        "position": 29,
         "hoist": false,
         "mentionable": false
       },
@@ -304,7 +325,7 @@
         "name": "NVL 75+",
         "color": 16726843,
         "permissions": "0",
-        "position": 29,
+        "position": 30,
         "hoist": false,
         "mentionable": false
       },
@@ -313,7 +334,7 @@
         "name": "IndianRed",
         "color": 13458524,
         "permissions": "0",
-        "position": 49,
+        "position": 50,
         "hoist": false,
         "mentionable": false
       },
@@ -322,7 +343,7 @@
         "name": "Silver",
         "color": 12632256,
         "permissions": "0",
-        "position": 133,
+        "position": 134,
         "hoist": false,
         "mentionable": false
       },
@@ -331,7 +352,7 @@
         "name": "Yellow",
         "color": 16776960,
         "permissions": "0",
-        "position": 33,
+        "position": 34,
         "hoist": false,
         "mentionable": false
       },
@@ -340,7 +361,7 @@
         "name": "Indigo",
         "color": 4915330,
         "permissions": "0",
-        "position": 66,
+        "position": 67,
         "hoist": false,
         "mentionable": false
       },
@@ -349,7 +370,7 @@
         "name": "Gold",
         "color": 16766720,
         "permissions": "0",
-        "position": 34,
+        "position": 35,
         "hoist": false,
         "mentionable": false
       },
@@ -358,7 +379,7 @@
         "name": "Olive",
         "color": 8421376,
         "permissions": "0",
-        "position": 83,
+        "position": 84,
         "hoist": false,
         "mentionable": false
       },
@@ -367,7 +388,7 @@
         "name": "SlateGray",
         "color": 7372944,
         "permissions": "0",
-        "position": 113,
+        "position": 114,
         "hoist": false,
         "mentionable": false
       },
@@ -376,7 +397,7 @@
         "name": "MediumTurquoise",
         "color": 4772300,
         "permissions": "0",
-        "position": 108,
+        "position": 109,
         "hoist": false,
         "mentionable": false
       },
@@ -385,7 +406,7 @@
         "name": "Violet",
         "color": 15631086,
         "permissions": "0",
-        "position": 59,
+        "position": 60,
         "hoist": false,
         "mentionable": false
       },
@@ -394,7 +415,7 @@
         "name": "Chocolate",
         "color": 13789470,
         "permissions": "0",
-        "position": 75,
+        "position": 76,
         "hoist": false,
         "mentionable": false
       },
@@ -403,7 +424,7 @@
         "name": "Blue",
         "color": 255,
         "permissions": "0",
-        "position": 123,
+        "position": 124,
         "hoist": false,
         "mentionable": false
       },
@@ -412,7 +433,7 @@
         "name": "White",
         "color": 16777215,
         "permissions": "0",
-        "position": 130,
+        "position": 131,
         "hoist": false,
         "mentionable": false
       },
@@ -421,7 +442,7 @@
         "name": "👑 Dono",
         "color": 0,
         "permissions": "10282121813751",
-        "position": 144,
+        "position": 145,
         "hoist": true,
         "mentionable": false
       },
@@ -430,7 +451,7 @@
         "name": "LightCoral",
         "color": 15761536,
         "permissions": "0",
-        "position": 50,
+        "position": 51,
         "hoist": false,
         "mentionable": false
       },
@@ -439,7 +460,7 @@
         "name": "Brown",
         "color": 10824234,
         "permissions": "0",
-        "position": 44,
+        "position": 45,
         "hoist": false,
         "mentionable": false
       },
@@ -448,7 +469,7 @@
         "name": "Coral",
         "color": 16744272,
         "permissions": "0",
-        "position": 40,
+        "position": 41,
         "hoist": false,
         "mentionable": false
       },
@@ -457,7 +478,7 @@
         "name": "LightPink",
         "color": 16758465,
         "permissions": "0",
-        "position": 52,
+        "position": 53,
         "hoist": false,
         "mentionable": false
       },
@@ -466,7 +487,7 @@
         "name": "Gray",
         "color": 8421504,
         "permissions": "0",
-        "position": 135,
+        "position": 136,
         "hoist": false,
         "mentionable": false
       },
@@ -475,7 +496,7 @@
         "name": "SkyBlue",
         "color": 8900331,
         "permissions": "0",
-        "position": 117,
+        "position": 118,
         "hoist": false,
         "mentionable": false
       },
@@ -484,7 +505,7 @@
         "name": "DodgerBlue",
         "color": 2003199,
         "permissions": "0",
-        "position": 120,
+        "position": 121,
         "hoist": false,
         "mentionable": false
       },
@@ -493,7 +514,7 @@
         "name": "SeaGreen",
         "color": 3050327,
         "permissions": "0",
-        "position": 95,
+        "position": 96,
         "hoist": false,
         "mentionable": false
       },
@@ -502,7 +523,7 @@
         "name": "NVL 25+",
         "color": 9723641,
         "permissions": "0",
-        "position": 27,
+        "position": 28,
         "hoist": false,
         "mentionable": false
       },
@@ -511,7 +532,7 @@
         "name": "Feminino",
         "color": 16740978,
         "permissions": "0",
-        "position": 16,
+        "position": 17,
         "hoist": false,
         "mentionable": false
       },
@@ -520,7 +541,7 @@
         "name": "YellowGreen",
         "color": 10145074,
         "permissions": "0",
-        "position": 86,
+        "position": 87,
         "hoist": false,
         "mentionable": false
       },
@@ -529,7 +550,7 @@
         "name": "MediumBlue",
         "color": 205,
         "permissions": "0",
-        "position": 124,
+        "position": 125,
         "hoist": false,
         "mentionable": false
       },
@@ -538,7 +559,7 @@
         "name": "Admin",
         "color": 0,
         "permissions": "8589410039",
-        "position": 142,
+        "position": 143,
         "hoist": true,
         "mentionable": true
       },
@@ -547,7 +568,7 @@
         "name": "DarkSeaGreen",
         "color": 9419919,
         "permissions": "0",
-        "position": 97,
+        "position": 98,
         "hoist": false,
         "mentionable": false
       },
@@ -556,7 +577,7 @@
         "name": "💗 Suporte",
         "color": 0,
         "permissions": "6710361665",
-        "position": 139,
+        "position": 140,
         "hoist": true,
         "mentionable": true
       },
@@ -565,7 +586,7 @@
         "name": "Event Winner",
         "color": 15844367,
         "permissions": "0",
-        "position": 21,
+        "position": 22,
         "hoist": false,
         "mentionable": false
       },
@@ -574,7 +595,7 @@
         "name": "MediumAquamarine",
         "color": 6737322,
         "permissions": "0",
-        "position": 103,
+        "position": 104,
         "hoist": false,
         "mentionable": false
       },
@@ -583,7 +604,7 @@
         "name": "Gainsboro",
         "color": 14474460,
         "permissions": "0",
-        "position": 131,
+        "position": 132,
         "hoist": false,
         "mentionable": false
       },
@@ -592,7 +613,7 @@
         "name": "MediumSeaGreen",
         "color": 3978097,
         "permissions": "0",
-        "position": 96,
+        "position": 97,
         "hoist": false,
         "mentionable": false
       },
@@ -601,7 +622,7 @@
         "name": "Lime",
         "color": 65280,
         "permissions": "0",
-        "position": 90,
+        "position": 91,
         "hoist": false,
         "mentionable": false
       },
@@ -610,7 +631,7 @@
         "name": "MediumSpringGreen",
         "color": 64154,
         "permissions": "0",
-        "position": 101,
+        "position": 102,
         "hoist": false,
         "mentionable": false
       },
@@ -619,7 +640,7 @@
         "name": "PaleGreen",
         "color": 10025880,
         "permissions": "0",
-        "position": 99,
+        "position": 100,
         "hoist": false,
         "mentionable": false
       },
@@ -628,7 +649,7 @@
         "name": "DarkGray",
         "color": 11119017,
         "permissions": "0",
-        "position": 134,
+        "position": 135,
         "hoist": false,
         "mentionable": false
       },
@@ -637,7 +658,7 @@
         "name": "Siena",
         "color": 10506797,
         "permissions": "0",
-        "position": 78,
+        "position": 79,
         "hoist": false,
         "mentionable": false
       },
@@ -646,7 +667,7 @@
         "name": "Khaki",
         "color": 15787660,
         "permissions": "0",
-        "position": 32,
+        "position": 33,
         "hoist": false,
         "mentionable": false
       },
@@ -655,7 +676,7 @@
         "name": "Sorteios/Eventos",
         "color": 16690175,
         "permissions": "0",
-        "position": 7,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -664,7 +685,7 @@
         "name": "Tomato",
         "color": 16737095,
         "permissions": "0",
-        "position": 39,
+        "position": 40,
         "hoist": false,
         "mentionable": false
       },
@@ -673,7 +694,7 @@
         "name": "SpringGreen",
         "color": 65407,
         "permissions": "0",
-        "position": 100,
+        "position": 101,
         "hoist": false,
         "mentionable": false
       },
@@ -682,7 +703,7 @@
         "name": "Plum",
         "color": 14524637,
         "permissions": "0",
-        "position": 57,
+        "position": 58,
         "hoist": false,
         "mentionable": false
       },
@@ -691,7 +712,7 @@
         "name": "LightBlue",
         "color": 11393254,
         "permissions": "0",
-        "position": 116,
+        "position": 117,
         "hoist": false,
         "mentionable": false
       },
@@ -700,7 +721,7 @@
         "name": "🤖 Bot",
         "color": 0,
         "permissions": "6546775617",
-        "position": 141,
+        "position": 142,
         "hoist": false,
         "mentionable": false
       },
@@ -709,7 +730,7 @@
         "name": "DarkTurquoise",
         "color": 52945,
         "permissions": "0",
-        "position": 110,
+        "position": 111,
         "hoist": false,
         "mentionable": false
       },
@@ -718,7 +739,7 @@
         "name": "DarkBlue",
         "color": 139,
         "permissions": "0",
-        "position": 125,
+        "position": 126,
         "hoist": false,
         "mentionable": false
       },
@@ -727,7 +748,7 @@
         "name": "DarkSalmon",
         "color": 15308410,
         "permissions": "0",
-        "position": 42,
+        "position": 43,
         "hoist": false,
         "mentionable": false
       },
@@ -736,7 +757,7 @@
         "name": "👮 Mod",
         "color": 0,
         "permissions": "247496965831",
-        "position": 140,
+        "position": 141,
         "hoist": true,
         "mentionable": true
       },
@@ -745,7 +766,7 @@
         "name": "MediumOrchid",
         "color": 12211667,
         "permissions": "0",
-        "position": 63,
+        "position": 64,
         "hoist": false,
         "mentionable": false
       },
@@ -754,7 +775,7 @@
         "name": "DarkSlateBlue",
         "color": 4734347,
         "permissions": "0",
-        "position": 128,
+        "position": 129,
         "hoist": false,
         "mentionable": false
       },
@@ -763,7 +784,7 @@
         "name": "ForestGreen",
         "color": 2263842,
         "permissions": "0",
-        "position": 92,
+        "position": 93,
         "hoist": false,
         "mentionable": false
       },
@@ -772,7 +793,7 @@
         "name": "SteelBlue",
         "color": 4620980,
         "permissions": "0",
-        "position": 115,
+        "position": 116,
         "hoist": false,
         "mentionable": false
       },
@@ -781,7 +802,7 @@
         "name": "Goldenrod",
         "color": 14329120,
         "permissions": "0",
-        "position": 81,
+        "position": 82,
         "hoist": false,
         "mentionable": false
       },
@@ -790,7 +811,7 @@
         "name": "HotPink",
         "color": 16738740,
         "permissions": "0",
-        "position": 54,
+        "position": 55,
         "hoist": false,
         "mentionable": false
       },
@@ -799,7 +820,7 @@
         "name": "ﾠﾠﾠﾠﾠ ﾠﾠﾠﾠCONQUISTAS ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ",
         "color": 0,
         "permissions": "0",
-        "position": 31,
+        "position": 32,
         "hoist": false,
         "mentionable": false
       },
@@ -808,7 +829,7 @@
         "name": "GreenYellow",
         "color": 11403055,
         "permissions": "0",
-        "position": 87,
+        "position": 88,
         "hoist": false,
         "mentionable": false
       },
@@ -817,7 +838,7 @@
         "name": "Fuchsia",
         "color": 16711935,
         "permissions": "0",
-        "position": 60,
+        "position": 61,
         "hoist": false,
         "mentionable": false
       },
@@ -826,7 +847,7 @@
         "name": "LightGrey",
         "color": 13882323,
         "permissions": "0",
-        "position": 132,
+        "position": 133,
         "hoist": false,
         "mentionable": false
       },
@@ -835,7 +856,7 @@
         "name": "PaleVioletRed",
         "color": 14381203,
         "permissions": "0",
-        "position": 53,
+        "position": 54,
         "hoist": false,
         "mentionable": false
       },
@@ -844,7 +865,7 @@
         "name": "RoyalBlue",
         "color": 4286945,
         "permissions": "0",
-        "position": 121,
+        "position": 122,
         "hoist": false,
         "mentionable": false
       },
@@ -853,7 +874,7 @@
         "name": "18+ anos",
         "color": 7823615,
         "permissions": "0",
-        "position": 12,
+        "position": 13,
         "hoist": false,
         "mentionable": false
       },
@@ -862,7 +883,7 @@
         "name": "MidnightBlue",
         "color": 1644912,
         "permissions": "0",
-        "position": 127,
+        "position": 128,
         "hoist": false,
         "mentionable": false
       },
@@ -871,7 +892,7 @@
         "name": "Membro",
         "color": 15844367,
         "permissions": "6546644545",
-        "position": 18,
+        "position": 19,
         "hoist": true,
         "mentionable": false
       },
@@ -880,7 +901,7 @@
         "name": "Nice Suggestion",
         "color": 10682331,
         "permissions": "0",
-        "position": 20,
+        "position": 21,
         "hoist": false,
         "mentionable": false
       },
@@ -889,7 +910,7 @@
         "name": "Purple",
         "color": 10494192,
         "permissions": "0",
-        "position": 62,
+        "position": 63,
         "hoist": false,
         "mentionable": false
       },
@@ -898,7 +919,7 @@
         "name": "DarkOrchid",
         "color": 10040012,
         "permissions": "0",
-        "position": 64,
+        "position": 65,
         "hoist": false,
         "mentionable": false
       },
@@ -907,7 +928,7 @@
         "name": "Wheat",
         "color": 16113331,
         "permissions": "0",
-        "position": 72,
+        "position": 73,
         "hoist": false,
         "mentionable": false
       },
@@ -916,7 +937,7 @@
         "name": "Seguindo a Vida",
         "color": 11403181,
         "permissions": "0",
-        "position": 9,
+        "position": 10,
         "hoist": false,
         "mentionable": false
       },
@@ -925,7 +946,7 @@
         "name": "Black",
         "color": 789259,
         "permissions": "0",
-        "position": 137,
+        "position": 138,
         "hoist": false,
         "mentionable": false
       },
@@ -934,7 +955,7 @@
         "name": "MediumPurple",
         "color": 9662683,
         "permissions": "0",
-        "position": 68,
+        "position": 69,
         "hoist": false,
         "mentionable": false
       },
@@ -943,7 +964,7 @@
         "name": "CornflowerBlue",
         "color": 6591981,
         "permissions": "0",
-        "position": 122,
+        "position": 123,
         "hoist": false,
         "mentionable": false
       },
@@ -952,7 +973,7 @@
         "name": "Orchid",
         "color": 14315734,
         "permissions": "0",
-        "position": 58,
+        "position": 59,
         "hoist": false,
         "mentionable": false
       },
@@ -961,7 +982,7 @@
         "name": "Salmon",
         "color": 16416882,
         "permissions": "0",
-        "position": 43,
+        "position": 44,
         "hoist": false,
         "mentionable": false
       },
@@ -970,7 +991,7 @@
         "name": "Cyan",
         "color": 65535,
         "permissions": "0",
-        "position": 111,
+        "position": 112,
         "hoist": false,
         "mentionable": false
       },
@@ -979,7 +1000,7 @@
         "name": "Red",
         "color": 16711680,
         "permissions": "0",
-        "position": 38,
+        "position": 39,
         "hoist": false,
         "mentionable": false
       },
@@ -988,7 +1009,7 @@
         "name": "Peru",
         "color": 13468991,
         "permissions": "0",
-        "position": 76,
+        "position": 77,
         "hoist": false,
         "mentionable": false
       },
@@ -997,7 +1018,7 @@
         "name": "MediumSlateBlue",
         "color": 8087790,
         "permissions": "0",
-        "position": 69,
+        "position": 70,
         "hoist": false,
         "mentionable": false
       },
@@ -1006,7 +1027,7 @@
         "name": "🛠️",
         "color": 0,
         "permissions": "1071698533961",
-        "position": 143,
+        "position": 144,
         "hoist": false,
         "mentionable": false
       },
@@ -1015,7 +1036,7 @@
         "name": "DarkRed",
         "color": 9109504,
         "permissions": "0",
-        "position": 46,
+        "position": 47,
         "hoist": false,
         "mentionable": false
       },
@@ -1024,7 +1045,7 @@
         "name": "DarkCyan",
         "color": 35723,
         "permissions": "0",
-        "position": 106,
+        "position": 107,
         "hoist": false,
         "mentionable": false
       },
@@ -1033,7 +1054,7 @@
         "name": "Não-binário",
         "color": 16777215,
         "permissions": "0",
-        "position": 15,
+        "position": 16,
         "hoist": false,
         "mentionable": false
       },
@@ -1042,7 +1063,7 @@
         "name": "ﾠﾠﾠﾠﾠ ﾠﾠﾠ NOTIFICAÇÕESﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ",
         "color": 0,
         "permissions": "0",
-        "position": 8,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -1051,7 +1072,7 @@
         "name": "BlueViolet",
         "color": 9055202,
         "permissions": "0",
-        "position": 67,
+        "position": 68,
         "hoist": false,
         "mentionable": false
       },
@@ -1060,7 +1081,7 @@
         "name": "Tan",
         "color": 13808780,
         "permissions": "0",
-        "position": 70,
+        "position": 71,
         "hoist": false,
         "mentionable": false
       },
@@ -1069,7 +1090,7 @@
         "name": "DeepSkyBlue",
         "color": 49151,
         "permissions": "0",
-        "position": 119,
+        "position": 120,
         "hoist": false,
         "mentionable": false
       },
@@ -1078,7 +1099,7 @@
         "name": "BurlyWood",
         "color": 14596231,
         "permissions": "0",
-        "position": 71,
+        "position": 72,
         "hoist": false,
         "mentionable": false
       },
@@ -1087,7 +1108,7 @@
         "name": "SandyBrown",
         "color": 16032864,
         "permissions": "0",
-        "position": 74,
+        "position": 75,
         "hoist": false,
         "mentionable": false
       },
@@ -1096,7 +1117,7 @@
         "name": "Atualizações Servidor",
         "color": 16690175,
         "permissions": "0",
-        "position": 6,
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -1105,7 +1126,7 @@
         "name": "DarkGreen",
         "color": 25600,
         "permissions": "0",
-        "position": 94,
+        "position": 95,
         "hoist": false,
         "mentionable": false
       },
@@ -1114,7 +1135,7 @@
         "name": "NVL 10+",
         "color": 16747842,
         "permissions": "0",
-        "position": 26,
+        "position": 27,
         "hoist": false,
         "mentionable": false
       },
@@ -1123,7 +1144,7 @@
         "name": "RosyBrown",
         "color": 12357519,
         "permissions": "0",
-        "position": 77,
+        "position": 78,
         "hoist": false,
         "mentionable": false
       },
@@ -1132,7 +1153,7 @@
         "name": "LightSkyBlue",
         "color": 8900346,
         "permissions": "0",
-        "position": 118,
+        "position": 119,
         "hoist": false,
         "mentionable": false
       },
@@ -1141,7 +1162,7 @@
         "name": "NavajoWhite",
         "color": 16768685,
         "permissions": "0",
-        "position": 73,
+        "position": 74,
         "hoist": false,
         "mentionable": false
       },
@@ -1150,11 +1171,11 @@
         "name": "DarkOliveGreen",
         "color": 5597999,
         "permissions": "0",
-        "position": 84,
+        "position": 85,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1783524121295
+    "updated": 1783844218330
   }
 }

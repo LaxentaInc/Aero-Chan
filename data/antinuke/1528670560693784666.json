@@ -1,0 +1,123 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1528670564968042606",
+        "name": "Canale de text",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1528670564968042607",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1528670564968042606"
+      },
+      {
+        "id": "1528670564968042609",
+        "name": "Canale de voce",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1528670564968042611",
+        "name": "Gaming",
+        "type": 2,
+        "position": 0,
+        "parentId": "1528670564968042609"
+      },
+      {
+        "id": "1528670778818826240",
+        "name": "reguli",
+        "type": 0,
+        "position": 1,
+        "parentId": "1528670564968042606"
+      },
+      {
+        "id": "1528672827748909166",
+        "name": "ip-servere-non-premium",
+        "type": 0,
+        "position": 2,
+        "parentId": "1528670564968042606"
+      },
+      {
+        "id": "1528672928538034237",
+        "name": "Gaming 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1528670564968042609"
+      },
+      {
+        "id": "1528672966097895504",
+        "name": "Gaming-3",
+        "type": 2,
+        "position": 2,
+        "parentId": "1528670564968042609"
+      },
+      {
+        "id": "1528673005318967316",
+        "name": "Gaming-4",
+        "type": 2,
+        "position": 3,
+        "parentId": "1528670564968042609"
+      },
+      {
+        "id": "1528673038403375104",
+        "name": "Gaming-5",
+        "type": 2,
+        "position": 4,
+        "parentId": "1528670564968042609"
+      },
+      {
+        "id": "1528673070779465899",
+        "name": "Gaming-6",
+        "type": 2,
+        "position": 5,
+        "parentId": "1528670564968042609"
+      },
+      {
+        "id": "1528673106091180173",
+        "name": "Gaming-7",
+        "type": 2,
+        "position": 6,
+        "parentId": "1528670564968042609"
+      },
+      {
+        "id": "1528673145702187078",
+        "name": "Gaming 8",
+        "type": 2,
+        "position": 7,
+        "parentId": "1528670564968042609"
+      },
+      {
+        "id": "1528673190505746502",
+        "name": "Gaming 9",
+        "type": 2,
+        "position": 8,
+        "parentId": "1528670564968042609"
+      },
+      {
+        "id": "1528673233094836254",
+        "name": "Gaming 10",
+        "type": 2,
+        "position": 9,
+        "parentId": "1528670564968042609"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1528674619140210878",
+        "name": "rol nou",
+        "color": 0,
+        "permissions": "8864258447638527",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722597
+  }
+}

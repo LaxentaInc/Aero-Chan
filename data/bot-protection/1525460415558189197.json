@@ -1,0 +1,112 @@
+{
+  "buttons": {
+    "restore_perms_411916947773587456": {
+      "type": "restore_perms",
+      "targetId": "411916947773587456",
+      "memberId": "411916947773587456",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Jockie Music",
+            "id": "1525555610609782898",
+            "permissions": [
+              "Administrator"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1525460415558189197",
+      "relatedMessages": [
+        {
+          "channelId": "1525555618675429457",
+          "messageId": "1525555623125844028"
+        },
+        {
+          "channelId": "1525555632919285912",
+          "messageId": "1525555635255644241"
+        }
+      ],
+      "expiresAt": 1783877606915,
+      "createdAt": 1783791206915,
+      "module": "bot-protection"
+    },
+    "restore_perms_480904000544440320": {
+      "type": "restore_perms",
+      "targetId": "480904000544440320",
+      "memberId": "480904000544440320",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Miyuki X",
+            "id": "1525559517604085965",
+            "permissions": [
+              "CreateInstantInvite",
+              "KickMembers",
+              "BanMembers",
+              "ManageChannels",
+              "ManageGuild",
+              "AddReactions",
+              "ViewAuditLog",
+              "PrioritySpeaker",
+              "ViewChannel",
+              "SendMessages",
+              "SendTTSMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "MentionEveryone",
+              "UseExternalEmojis",
+              "Connect",
+              "Speak",
+              "MuteMembers",
+              "DeafenMembers",
+              "MoveMembers",
+              "UseVAD",
+              "ChangeNickname",
+              "ManageNicknames",
+              "ManageRoles",
+              "ManageWebhooks",
+              "ManageEmojisAndStickers",
+              "ManageGuildExpressions",
+              "UseApplicationCommands",
+              "ManageEvents",
+              "ManageThreads",
+              "CreatePublicThreads",
+              "CreatePrivateThreads",
+              "UseExternalStickers",
+              "SendMessagesInThreads",
+              "ModerateMembers"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1525460415558189197",
+      "relatedMessages": [
+        {
+          "channelId": "1525555618675429457",
+          "messageId": "1525559526403608738"
+        },
+        {
+          "channelId": "1525555981071810632",
+          "messageId": "1525559529738076348"
+        }
+      ],
+      "expiresAt": 1783878535428,
+      "createdAt": 1783792135428,
+      "module": "bot-protection"
+    }
+  }
+}

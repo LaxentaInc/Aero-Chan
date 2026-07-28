@@ -1,0 +1,142 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1419467610831196210",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1419467610831196211",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1419467610831196210"
+      },
+      {
+        "id": "1419467610831196212",
+        "name": "clips-and-highlights",
+        "type": 0,
+        "position": 1,
+        "parentId": "1419467610831196210"
+      },
+      {
+        "id": "1419467610831196213",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1419467610831196214",
+        "name": "discussions about the game",
+        "type": 2,
+        "position": 0,
+        "parentId": "1419467610831196213"
+      },
+      {
+        "id": "1419468090877411459",
+        "name": "SCP VC",
+        "type": 2,
+        "position": 1,
+        "parentId": "1419467610831196213"
+      },
+      {
+        "id": "1419468187770028188",
+        "name": "Radio VC",
+        "type": 2,
+        "position": 2,
+        "parentId": "1419467610831196213"
+      },
+      {
+        "id": "1419468540649410620",
+        "name": "rules",
+        "type": 0,
+        "position": 2,
+        "parentId": "1419467610831196210"
+      },
+      {
+        "id": "1419478013724201113",
+        "name": "levels",
+        "type": 0,
+        "position": 3,
+        "parentId": "1419467610831196210"
+      },
+      {
+        "id": "1420599595615912047",
+        "name": "sneak-peeks",
+        "type": 0,
+        "position": 4,
+        "parentId": "1419467610831196210"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1419468806895439952",
+        "name": "big man administrator (s)",
+        "color": 1118481,
+        "permissions": "4360658820268031",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1419469283569827941",
+        "name": "day one",
+        "color": 10038562,
+        "permissions": "8933599398977",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1419469628153004033",
+        "name": "Apollyon",
+        "color": 15277667,
+        "permissions": "137506376769",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1419470087064260618",
+        "name": "Keter",
+        "color": 16718336,
+        "permissions": "137439267904",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1419470493710422066",
+        "name": "Euclid",
+        "color": 15844367,
+        "permissions": "137439267904",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1419470727010324652",
+        "name": "Safe",
+        "color": 3066993,
+        "permissions": "137439218752",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1419470982506090506",
+        "name": "Mobile Task Force",
+        "color": 2123412,
+        "permissions": "8",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722347
+  }
+}

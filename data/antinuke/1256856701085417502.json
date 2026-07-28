@@ -12,14 +12,14 @@
         "id": "1471756326756552808",
         "name": "₊˚ʚ ɞ˚ Feu Feu🔫 ˚ʚ ɞ˚",
         "type": 4,
-        "position": 2,
+        "position": 0,
         "parentId": null
       },
       {
         "id": "1471764988346630158",
         "name": "Emojis",
         "type": 4,
-        "position": 4,
+        "position": 3,
         "parentId": null
       },
       {
@@ -65,13 +65,6 @@
         "parentId": "1471756326756552808"
       },
       {
-        "id": "1499629085234696193",
-        "name": "🔊sports",
-        "type": 0,
-        "position": 0,
-        "parentId": "1520952456597733406"
-      },
-      {
         "id": "1499629694486712472",
         "name": "🎥Theater🍿🥨",
         "type": 2,
@@ -87,9 +80,9 @@
       },
       {
         "id": "1504148784890773632",
-        "name": "Food Recipes",
+        "name": "Forums",
         "type": 4,
-        "position": 0,
+        "position": 2,
         "parentId": null
       },
       {
@@ -128,11 +121,11 @@
         "parentId": "1499310520417783938"
       },
       {
-        "id": "1520952456597733406",
-        "name": "Sports",
-        "type": 4,
-        "position": 3,
-        "parentId": null
+        "id": "1527869289355280434",
+        "name": "other-ideas",
+        "type": 15,
+        "position": 1,
+        "parentId": "1504148784890773632"
       }
     ],
     "roles": [
@@ -173,6 +166,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1783524121169
+    "updated": 1785215721764
   }
 }

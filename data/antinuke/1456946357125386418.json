@@ -261,13 +261,6 @@
         "parentId": "1497328561063723192"
       },
       {
-        "id": "1513564222817173504",
-        "name": "🕳️-the-abyss",
-        "type": 0,
-        "position": 7,
-        "parentId": "1497328559000256674"
-      },
-      {
         "id": "1497328578684125479",
         "name": "🎵・Music",
         "type": 2,
@@ -294,13 +287,6 @@
         "type": 0,
         "position": 5,
         "parentId": "1497328557704089770"
-      },
-      {
-        "id": "1513574468210130954",
-        "name": "abyss-logs",
-        "type": 0,
-        "position": 9,
-        "parentId": "1497328561063723192"
       },
       {
         "id": "1497328604571242546",
@@ -493,12 +479,21 @@
         "name": "Project manager",
         "color": 15105570,
         "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530011980063182888",
+        "name": "twinks",
+        "color": 14048903,
+        "permissions": "0",
         "position": 20,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1783524121267
+    "updated": 1785215722156
   },
   "userStrips": {
     "416358583220043796": {

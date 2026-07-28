@@ -1,0 +1,604 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1390585328510832671",
+        "name": "chats",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1390585328510832672",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1390585328510832673",
+        "name": "‧₊-♪˚⊹-general-chat-‧₊-♪˚⊹",
+        "type": 0,
+        "position": 0,
+        "parentId": "1390585328510832671"
+      },
+      {
+        "id": "1390585328510832674",
+        "name": "࣪ ˖ 𖦹°⋆ vc-1  ࣪ ˖ 𖦹°⋆",
+        "type": 2,
+        "position": 0,
+        "parentId": "1390585328510832672"
+      },
+      {
+        "id": "1488001459718062130",
+        "name": "࣪ ˖ 𖦹°⋆ vc-2 ࣪ ˖ 𖦹°⋆",
+        "type": 2,
+        "position": 1,
+        "parentId": "1390585328510832672"
+      },
+      {
+        "id": "1488008700366160022",
+        "name": "˖-܁♬⋆˚𝄞-roles-˖-܁♬⋆˚𝄞",
+        "type": 0,
+        "position": 0,
+        "parentId": "1526879673836113973"
+      },
+      {
+        "id": "1488663597314867511",
+        "name": "ᝰᐟ-tree-ᝰᐟ",
+        "type": 0,
+        "position": 3,
+        "parentId": "1526880019937497098"
+      },
+      {
+        "id": "1488668115763073216",
+        "name": "ᝰᐟ-mudae-ᝰᐟ",
+        "type": 0,
+        "position": 4,
+        "parentId": "1526880019937497098"
+      },
+      {
+        "id": "1511116276305625269",
+        "name": "ᝰᐟ-pokemon-ᝰᐟ",
+        "type": 0,
+        "position": 2,
+        "parentId": "1526880019937497098"
+      },
+      {
+        "id": "1526780549891625081",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1526781850456952973",
+        "name": "ᝰᐟ-wordle-ᝰᐟ",
+        "type": 0,
+        "position": 0,
+        "parentId": "1526880019937497098"
+      },
+      {
+        "id": "1526875073523224596",
+        "name": "‧₊-♪˚⊹-media-‧₊-♪˚⊹",
+        "type": 0,
+        "position": 1,
+        "parentId": "1390585328510832671"
+      },
+      {
+        "id": "1526875878741639198",
+        "name": "‧₊-♪˚⊹-public-forum-‧₊-♪˚⊹",
+        "type": 15,
+        "position": 2,
+        "parentId": "1390585328510832671"
+      },
+      {
+        "id": "1526877176220352512",
+        "name": "˖-܁♬⋆˚𝄞-polls-˖-܁♬⋆˚𝄞",
+        "type": 0,
+        "position": 4,
+        "parentId": "1526879673836113973"
+      },
+      {
+        "id": "1526878416270397441",
+        "name": "˖-܁♬⋆˚𝄞-announcements-˖-܁♬⋆˚𝄞",
+        "type": 0,
+        "position": 2,
+        "parentId": "1526879673836113973"
+      },
+      {
+        "id": "1526879673836113973",
+        "name": "Important things",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1526880019937497098",
+        "name": "various activitiys",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1526880524906266635",
+        "name": "ᝰᐟ-counting-ᝰᐟ",
+        "type": 0,
+        "position": 5,
+        "parentId": "1526880019937497098"
+      },
+      {
+        "id": "1526902299585286204",
+        "name": "˖-܁♬⋆˚𝄞-rules-˖-܁♬⋆˚𝄞",
+        "type": 0,
+        "position": 1,
+        "parentId": "1526879673836113973"
+      },
+      {
+        "id": "1526902776372920380",
+        "name": "levels",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1526903824353329283",
+        "name": "‧₊-♪˚⊹-music-‧₊-♪˚⊹",
+        "type": 0,
+        "position": 3,
+        "parentId": "1390585328510832671"
+      },
+      {
+        "id": "1526904923437006930",
+        "name": "˖-܁♬⋆˚𝄞-server-requests-n-suggestions-˖-܁♬⋆˚𝄞",
+        "type": 0,
+        "position": 5,
+        "parentId": "1526879673836113973"
+      },
+      {
+        "id": "1526905569972064336",
+        "name": "˖-܁♬⋆˚𝄞-intros-˖-܁♬⋆˚𝄞",
+        "type": 0,
+        "position": 6,
+        "parentId": "1526879673836113973"
+      },
+      {
+        "id": "1526906667890118877",
+        "name": "ᝰᐟ-confessions-ᝰᐟ",
+        "type": 0,
+        "position": 6,
+        "parentId": "1526880019937497098"
+      },
+      {
+        "id": "1526914676997492786",
+        "name": "࣪ ˖ 𖦹°⋆ vc-3 ࣪ ˖ 𖦹°⋆",
+        "type": 2,
+        "position": 2,
+        "parentId": "1390585328510832672"
+      },
+      {
+        "id": "1526914839258202142",
+        "name": "˖-܁♬⋆˚𝄞-update-announcement-forum-˖-܁♬⋆˚𝄞",
+        "type": 15,
+        "position": 3,
+        "parentId": "1526879673836113973"
+      },
+      {
+        "id": "1526923946039971851",
+        "name": "‧₊-♪˚⊹-venting-‧₊-♪˚⊹",
+        "type": 0,
+        "position": 4,
+        "parentId": "1390585328510832671"
+      },
+      {
+        "id": "1528338434786197504",
+        "name": "musicdex",
+        "type": 0,
+        "position": 1,
+        "parentId": "1526880019937497098"
+      },
+      {
+        "id": "1526876705229377597",
+        "name": "i didnt know this was something i could make honestly",
+        "type": 11,
+        "parentId": "1526875878741639198"
+      },
+      {
+        "id": "1526915827473977495",
+        "name": "I will be doing stuff to get people to join soon",
+        "type": 11,
+        "parentId": "1526914839258202142"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1526873670583058513",
+        "name": "cream",
+        "color": 15988171,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526873472951910410",
+        "name": "white",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 42,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526873148476227615",
+        "name": "light cool toned pink",
+        "color": 16744441,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526872877972848701",
+        "name": "hot pink",
+        "color": 16711816,
+        "permissions": "0",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529362042056867900",
+        "name": "Mod",
+        "color": 11599657,
+        "permissions": "1721807559716807",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1511116969049460878",
+        "name": "Stupid robots",
+        "color": 0,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526874007989911622",
+        "name": "dark brown",
+        "color": 7355652,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1488672910540406844",
+        "name": "dark green",
+        "color": 2063365,
+        "permissions": "0",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526898392519807027",
+        "name": "she/they",
+        "color": 0,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526873000878542848",
+        "name": "light warm toned pink",
+        "color": 16610206,
+        "permissions": "0",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526898426929877093",
+        "name": "he/they",
+        "color": 0,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526898326484684840",
+        "name": "she/her",
+        "color": 0,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526899944282128425",
+        "name": "13-14",
+        "color": 0,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1488672908543787139",
+        "name": "bright green",
+        "color": 53034,
+        "permissions": "0",
+        "position": 53,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529361621569503327",
+        "name": "Vent access",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1488672898192511080",
+        "name": "dark red",
+        "color": 10813440,
+        "permissions": "0",
+        "position": 59,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1488672901103353986",
+        "name": "bright orange",
+        "color": 16742144,
+        "permissions": "0",
+        "position": 58,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526898563790016672",
+        "name": "just refer to me with my name",
+        "color": 0,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1488005592722178118",
+        "name": "Alan",
+        "color": 1752220,
+        "permissions": "1721826618638327",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526899987550572694",
+        "name": "15-16",
+        "color": 0,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526900074641231922",
+        "name": "17",
+        "color": 0,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529388085643710558",
+        "name": "Flamingo",
+        "color": 15698343,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526782687367659662",
+        "name": "Owner",
+        "color": 40479,
+        "permissions": "0",
+        "position": 62,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1526872534992031774",
+        "name": "bright purple",
+        "color": 9175295,
+        "permissions": "0",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1488672904680968302",
+        "name": "bright yellow",
+        "color": 16763904,
+        "permissions": "0",
+        "position": 56,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526873925995331647",
+        "name": "light brown",
+        "color": 13540686,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526872633097064538",
+        "name": "dark purple",
+        "color": 3276916,
+        "permissions": "0",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526873243787595776",
+        "name": "cyan",
+        "color": 65518,
+        "permissions": "0",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1488672912415260682",
+        "name": "bright blue",
+        "color": 30719,
+        "permissions": "0",
+        "position": 49,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526898428989145228",
+        "name": "Other pronouns / ask",
+        "color": 0,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526922420357959742",
+        "name": "Dm request",
+        "color": 0,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526898251150790676",
+        "name": "they/them",
+        "color": 0,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1488005846091825254",
+        "name": "Iris",
+        "color": 11735570,
+        "permissions": "1721826618638327",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526873589733916825",
+        "name": "black",
+        "color": 328965,
+        "permissions": "0",
+        "position": 41,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1488672896535630017",
+        "name": "bright red",
+        "color": 16711684,
+        "permissions": "0",
+        "position": 60,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526898358969438328",
+        "name": "he/him",
+        "color": 0,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526873319226216488",
+        "name": "teal",
+        "color": 54941,
+        "permissions": "0",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526873743375339712",
+        "name": "mustard",
+        "color": 14533376,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529360556371476561",
+        "name": "The Beatles",
+        "color": 16638319,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1488672906517938228",
+        "name": "dark yellow",
+        "color": 12491534,
+        "permissions": "0",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1488672902873092376",
+        "name": "dark orange",
+        "color": 12800260,
+        "permissions": "0",
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1488672914357354526",
+        "name": "dark Blue",
+        "color": 399504,
+        "permissions": "0",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526873376076075068",
+        "name": "chartreuse",
+        "color": 11396880,
+        "permissions": "0",
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722819
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1489006655411589192",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1489006655411589193",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1489006655411589194",
+        "name": "thefreakos",
+        "type": 0,
+        "position": 0,
+        "parentId": "1489006655411589192"
+      },
+      {
+        "id": "1489006655411589195",
+        "name": "Chit-Chat !!!",
+        "type": 2,
+        "position": 0,
+        "parentId": "1489006655411589193"
+      },
+      {
+        "id": "1490817645350486026",
+        "name": "personal-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1524890648489234442",
+        "name": "confessions",
+        "type": 0,
+        "position": 1,
+        "parentId": "1489006655411589192"
+      },
+      {
+        "id": "1525143558301159535",
+        "name": "oc-ideas-ranting-suggestions-advice",
+        "type": 0,
+        "position": 2,
+        "parentId": "1489006655411589192"
+      },
+      {
+        "id": "1527781924955754496",
+        "name": "finns corner ! っ ̯ -｡",
+        "type": 2,
+        "position": 1,
+        "parentId": "1489006655411589193"
+      },
+      {
+        "id": "1530012017950195793",
+        "name": "Music Corner !! °^°",
+        "type": 2,
+        "position": 2,
+        "parentId": "1489006655411589193"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1523615555582558238",
+        "name": "Owner",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523615887997927555",
+        "name": "Silly Person",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523616095766839386",
+        "name": "My Everything <3",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523859752977829989",
+        "name": "Kunikida's Husband :3",
+        "color": 12755539,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523862236387475616",
+        "name": "Sunday's Husband :3",
+        "color": 8695241,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523908242810339338",
+        "name": "Capitano (Mine & Ziyu's Husband) <3",
+        "color": 1131879,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523908671573328049",
+        "name": "Moderator",
+        "color": 11409689,
+        "permissions": "1721807559716807",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523909856694898728",
+        "name": "Enigma",
+        "color": 0,
+        "permissions": "1720707884502593",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523914501294915737",
+        "name": "Alucard and D (My Dhampir Husbands) <33",
+        "color": 8087881,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524078662293520495",
+        "name": "The Coolest Sc3n3 K1d",
+        "color": 1667609,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524078854744834068",
+        "name": "Alpha",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524082795696361683",
+        "name": "Puppy Boy :3",
+        "color": 1667609,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524459264175767733",
+        "name": "Omega",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524524239498117182",
+        "name": "Femboy + Boykisser",
+        "color": 11342935,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524857987737587833",
+        "name": "Rule Maker",
+        "color": 0,
+        "permissions": "1721826618638327",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525141144755896451",
+        "name": "Puppy Girl :3",
+        "color": 4462184,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722667
+  }
+}

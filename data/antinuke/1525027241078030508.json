@@ -1,0 +1,26 @@
+{
+  "backup": {
+    "channels": [],
+    "roles": [
+      {
+        "id": "1525028319681052682",
+        "name": "emperor larper🥹",
+        "color": 3158064,
+        "permissions": "8864258447638527",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525029128007454821",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1783842307104
+  }
+}

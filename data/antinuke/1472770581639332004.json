@@ -2,109 +2,116 @@
   "backup": {
     "channels": [
       {
-        "id": "1472770582461546497",
+        "id": "1525740748711133256",
+        "name": "Aero",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1525740768092749834",
         "name": "Información",
         "type": 4,
-        "position": 0,
+        "position": 1,
         "parentId": null
       },
       {
-        "id": "1472770582461546498",
-        "name": "bienvenida-y-reglas",
-        "type": 0,
-        "position": 0,
-        "parentId": "1472770582461546497"
-      },
-      {
-        "id": "1472770582461546499",
-        "name": "anuncios",
-        "type": 0,
-        "position": 1,
-        "parentId": "1472770582461546497"
-      },
-      {
-        "id": "1472770582461546500",
+        "id": "1525740770395422760",
         "name": "Canales de texto",
         "type": 4,
-        "position": 1,
+        "position": 2,
         "parentId": null
       },
       {
-        "id": "1472770582461546501",
-        "name": "general",
-        "type": 0,
-        "position": 0,
-        "parentId": "1472770582461546500"
-      },
-      {
-        "id": "1472770582461546502",
-        "name": "eventos",
-        "type": 0,
-        "position": 1,
-        "parentId": "1472770582461546500"
-      },
-      {
-        "id": "1472770582461546503",
-        "name": "ideas-y-opiniones",
-        "type": 0,
-        "position": 2,
-        "parentId": "1472770582461546500"
-      },
-      {
-        "id": "1472770582461546504",
+        "id": "1525740772878454784",
         "name": "Canales de voz",
         "type": 4,
-        "position": 2,
+        "position": 3,
         "parentId": null
       },
       {
-        "id": "1472770582461546505",
+        "id": "1525740774728138884",
+        "name": "Aero",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1525740776934473798",
         "name": "Lounge",
         "type": 2,
         "position": 0,
-        "parentId": "1472770582461546504"
+        "parentId": "1525740772878454784"
       },
       {
-        "id": "1472770582461546506",
-        "name": "Lugar de reunión de la comunidad",
-        "type": 2,
-        "position": 1,
-        "parentId": "1472770582461546504"
-      },
-      {
-        "id": "1472770582620672204",
-        "name": "Sala de transmisión",
-        "type": 2,
-        "position": 2,
-        "parentId": "1472770582461546504"
-      },
-      {
-        "id": "1483647401704161503",
-        "name": "uploads",
+        "id": "1525740778788229294",
+        "name": "general",
         "type": 0,
-        "position": 3,
-        "parentId": "1472770582461546500"
+        "position": 0,
+        "parentId": "1525740770395422760"
       },
       {
-        "id": "1524139589856395457",
-        "name": "Aero",
-        "type": 4,
-        "position": 3,
-        "parentId": null
+        "id": "1525740781162205285",
+        "name": "bienvenida-y-reglas",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525740768092749834"
       },
       {
-        "id": "1524139594671591474",
+        "id": "1525740783620063323",
         "name": "aero-logs",
         "type": 0,
         "position": 0,
-        "parentId": "1524139589856395457"
+        "parentId": "1525740748711133256"
       },
       {
-        "id": "1524139597133779155",
+        "id": "1525740785721540668",
+        "name": "anuncios",
+        "type": 0,
+        "position": 1,
+        "parentId": "1525740768092749834"
+      },
+      {
+        "id": "1525740787508445299",
+        "name": "Lugar de reunión de la comunidad",
+        "type": 2,
+        "position": 1,
+        "parentId": "1525740772878454784"
+      },
+      {
+        "id": "1525740789852934205",
+        "name": "eventos",
+        "type": 0,
+        "position": 1,
+        "parentId": "1525740770395422760"
+      },
+      {
+        "id": "1525740791727656980",
         "name": "aero-alerts",
         "type": 0,
         "position": 1,
-        "parentId": "1524139589856395457"
+        "parentId": "1525740748711133256"
+      },
+      {
+        "id": "1525740793254514709",
+        "name": "ideas-y-opiniones",
+        "type": 0,
+        "position": 2,
+        "parentId": "1525740770395422760"
+      },
+      {
+        "id": "1525740795808972903",
+        "name": "Sala de transmisión",
+        "type": 2,
+        "position": 2,
+        "parentId": "1525740772878454784"
+      },
+      {
+        "id": "1525740798136684687",
+        "name": "uploads",
+        "type": 0,
+        "position": 3,
+        "parentId": "1525740770395422760"
       }
     ],
     "roles": [
@@ -163,6 +170,22 @@
         "mentionable": false
       }
     ],
-    "updated": 1783524121333
+    "updated": 1783837018360
+  },
+  "userStrips": {
+    "1483695354674286633": {
+      "strippedRoles": [
+        {
+          "id": "1523950245854187522",
+          "name": "Chrome",
+          "managed": true,
+          "permissions": "8",
+          "type": "managed"
+        }
+      ],
+      "strippedCount": 1,
+      "failedManagedRoles": 0,
+      "updated": 1783835340149
+    }
   }
 }

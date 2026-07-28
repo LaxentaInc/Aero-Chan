@@ -1,0 +1,60 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1244691873747173426",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1244691873747173428",
+        "name": "clips-and-highlights",
+        "type": 0,
+        "position": 0,
+        "parentId": "1244691873747173426"
+      },
+      {
+        "id": "1244691873747173429",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1244691873747173430",
+        "name": "Lobby",
+        "type": 2,
+        "position": 0,
+        "parentId": "1244691873747173429"
+      },
+      {
+        "id": "1244691873747173431",
+        "name": "Gaming",
+        "type": 2,
+        "position": 1,
+        "parentId": "1244691873747173429"
+      },
+      {
+        "id": "1505671270912753684",
+        "name": "chat",
+        "type": 0,
+        "position": 1,
+        "parentId": "1244691873747173426"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1363276041426305154",
+        "name": "ma balls itch",
+        "color": 0,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215721923
+  }
+}

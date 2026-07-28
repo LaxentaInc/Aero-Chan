@@ -2,202 +2,6 @@
   "backup": {
     "channels": [
       {
-        "id": "1480276241041854679",
-        "name": "Text Channels",
-        "type": 4,
-        "position": 1,
-        "parentId": null
-      },
-      {
-        "id": "1480276241532584077",
-        "name": "Voice Channels",
-        "type": 4,
-        "position": 4,
-        "parentId": null
-      },
-      {
-        "id": "1480276241532584078",
-        "name": "general💬",
-        "type": 0,
-        "position": 0,
-        "parentId": "1480276241041854679"
-      },
-      {
-        "id": "1480276344003887106",
-        "name": "vc 1",
-        "type": 2,
-        "position": 0,
-        "parentId": "1480276241532584077"
-      },
-      {
-        "id": "1480278473887973520",
-        "name": "umamusume🐎",
-        "type": 0,
-        "position": 1,
-        "parentId": "1480276241041854679"
-      },
-      {
-        "id": "1480279699417727037",
-        "name": "vc 2",
-        "type": 2,
-        "position": 2,
-        "parentId": "1480276241532584077"
-      },
-      {
-        "id": "1480279774684250228",
-        "name": "VC 3",
-        "type": 2,
-        "position": 3,
-        "parentId": "1480276241532584077"
-      },
-      {
-        "id": "1480281270000029938",
-        "name": "wordle🤓",
-        "type": 0,
-        "position": 2,
-        "parentId": "1480276241041854679"
-      },
-      {
-        "id": "1480283376383561870",
-        "name": "verification",
-        "type": 0,
-        "position": 0,
-        "parentId": null
-      },
-      {
-        "id": "1480284057945505935",
-        "name": "pets🐢",
-        "type": 0,
-        "position": 3,
-        "parentId": "1480276241041854679"
-      },
-      {
-        "id": "1480284772172435696",
-        "name": "Information🕵️‍♂️",
-        "type": 4,
-        "position": 0,
-        "parentId": null
-      },
-      {
-        "id": "1480284881698164848",
-        "name": "rules🕵️‍♀️",
-        "type": 0,
-        "position": 0,
-        "parentId": "1480284772172435696"
-      },
-      {
-        "id": "1480286847761383434",
-        "name": "news📄",
-        "type": 0,
-        "position": 1,
-        "parentId": "1480284772172435696"
-      },
-      {
-        "id": "1480287318622605574",
-        "name": "welcome👋",
-        "type": 0,
-        "position": 2,
-        "parentId": "1480284772172435696"
-      },
-      {
-        "id": "1480680787388141568",
-        "name": "mudae",
-        "type": 0,
-        "position": 4,
-        "parentId": "1480276241041854679"
-      },
-      {
-        "id": "1480681209888505948",
-        "name": "Aero",
-        "type": 4,
-        "position": 5,
-        "parentId": null
-      },
-      {
-        "id": "1480681212317270177",
-        "name": "aero-logs",
-        "type": 0,
-        "position": 0,
-        "parentId": "1480681209888505948"
-      },
-      {
-        "id": "1480681217782190234",
-        "name": "aero-alerts",
-        "type": 0,
-        "position": 1,
-        "parentId": "1480681209888505948"
-      },
-      {
-        "id": "1483236385858256928",
-        "name": "gambling🎰",
-        "type": 0,
-        "position": 5,
-        "parentId": "1480276241041854679"
-      },
-      {
-        "id": "1492662127922647221",
-        "name": "anime-watch-party",
-        "type": 2,
-        "position": 1,
-        "parentId": "1480276241532584077"
-      },
-      {
-        "id": "1494497395654787172",
-        "name": "yuri👩‍❤️‍💋‍👩",
-        "type": 0,
-        "position": 6,
-        "parentId": "1480276241041854679"
-      },
-      {
-        "id": "1494863194366410862",
-        "name": "yaoi👨‍❤️‍💋‍👨",
-        "type": 0,
-        "position": 7,
-        "parentId": "1480276241041854679"
-      },
-      {
-        "id": "1499959229228781611",
-        "name": "self-promo",
-        "type": 0,
-        "position": 8,
-        "parentId": "1480276241041854679"
-      },
-      {
-        "id": "1512241372596277248",
-        "name": "e-sex",
-        "type": 2,
-        "position": 4,
-        "parentId": "1480276241532584077"
-      },
-      {
-        "id": "1517692243698253844",
-        "name": "Group Extreme",
-        "type": 4,
-        "position": 3,
-        "parentId": null
-      },
-      {
-        "id": "1517692500746174556",
-        "name": "group-extreme-1",
-        "type": 0,
-        "position": 0,
-        "parentId": "1517692243698253844"
-      },
-      {
-        "id": "1517700629802254527",
-        "name": "group-extreme-gen",
-        "type": 0,
-        "position": 1,
-        "parentId": "1517692243698253844"
-      },
-      {
-        "id": "1520608549309251767",
-        "name": "group-extreme-rules-1",
-        "type": 0,
-        "position": 2,
-        "parentId": "1517692243698253844"
-      },
-      {
         "id": "1521325146550436002",
         "name": "porn",
         "type": 0,
@@ -212,6 +16,104 @@
         "parentId": "1480276241532584077"
       },
       {
+        "id": "1483236385858256928",
+        "name": "gambling🎰",
+        "type": 0,
+        "position": 5,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480286847761383434",
+        "name": "news📄",
+        "type": 0,
+        "position": 1,
+        "parentId": "1480284772172435696"
+      },
+      {
+        "id": "1480276241041854679",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1480284057945505935",
+        "name": "pets🐢",
+        "type": 0,
+        "position": 3,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480287318622605574",
+        "name": "welcome👋",
+        "type": 0,
+        "position": 2,
+        "parentId": "1480284772172435696"
+      },
+      {
+        "id": "1480681212317270177",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1480681209888505948"
+      },
+      {
+        "id": "1480276344003887106",
+        "name": "vc 1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1480276241532584077"
+      },
+      {
+        "id": "1480279774684250228",
+        "name": "VC 3",
+        "type": 2,
+        "position": 3,
+        "parentId": "1480276241532584077"
+      },
+      {
+        "id": "1480681217782190234",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1480681209888505948"
+      },
+      {
+        "id": "1480278473887973520",
+        "name": "umamusume🐎",
+        "type": 0,
+        "position": 1,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480281270000029938",
+        "name": "wordle🤓",
+        "type": 0,
+        "position": 2,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480284772172435696",
+        "name": "Information🕵️‍♂️",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1517692243698253844",
+        "name": "Group Extreme",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1525645429365145610",
+        "name": "pfps",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
         "id": "1524231992584044744",
         "name": "hate-connor",
         "type": 0,
@@ -219,11 +121,130 @@
         "parentId": "1524232330401812570"
       },
       {
+        "id": "1520608549309251767",
+        "name": "group-extreme-rules-1",
+        "type": 0,
+        "position": 2,
+        "parentId": "1517692243698253844"
+      },
+      {
+        "id": "1512241372596277248",
+        "name": "e-sex",
+        "type": 2,
+        "position": 4,
+        "parentId": "1480276241532584077"
+      },
+      {
+        "id": "1480283376383561870",
+        "name": "verification",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1499959229228781611",
+        "name": "self-promo",
+        "type": 0,
+        "position": 8,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480284881698164848",
+        "name": "rules🕵️‍♀️",
+        "type": 0,
+        "position": 0,
+        "parentId": "1480284772172435696"
+      },
+      {
+        "id": "1480681209888505948",
+        "name": "Aero",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1480680787388141568",
+        "name": "mudae",
+        "type": 0,
+        "position": 4,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1492662127922647221",
+        "name": "anime-watch-party",
+        "type": 2,
+        "position": 1,
+        "parentId": "1480276241532584077"
+      },
+      {
+        "id": "1517692500746174556",
+        "name": "group-extreme-1",
+        "type": 0,
+        "position": 0,
+        "parentId": "1517692243698253844"
+      },
+      {
         "id": "1524232330401812570",
         "name": "Connor Hate",
         "type": 4,
         "position": 2,
         "parentId": null
+      },
+      {
+        "id": "1517700629802254527",
+        "name": "group-extreme-gen",
+        "type": 0,
+        "position": 1,
+        "parentId": "1517692243698253844"
+      },
+      {
+        "id": "1494497395654787172",
+        "name": "yuri👩‍❤️‍💋‍👩",
+        "type": 0,
+        "position": 6,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480276241532584077",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1494863194366410862",
+        "name": "yaoi👨‍❤️‍💋‍👨",
+        "type": 0,
+        "position": 7,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1480279699417727037",
+        "name": "vc 2",
+        "type": 2,
+        "position": 2,
+        "parentId": "1480276241532584077"
+      },
+      {
+        "id": "1480276241532584078",
+        "name": "general💬",
+        "type": 0,
+        "position": 0,
+        "parentId": "1480276241041854679"
+      },
+      {
+        "id": "1526811403271540766",
+        "name": "vc-chat-for-toga",
+        "type": 0,
+        "position": 0,
+        "parentId": "1480276241532584077"
+      },
+      {
+        "id": "1526816373588627469",
+        "name": "role-request-channel",
+        "type": 0,
+        "position": 10,
+        "parentId": "1480276241041854679"
       }
     ],
     "roles": [
@@ -232,7 +253,7 @@
         "name": "top 1 femboy",
         "color": 14652369,
         "permissions": "8864258447638527",
-        "position": 18,
+        "position": 23,
         "hoist": false,
         "mentionable": false
       },
@@ -241,7 +262,7 @@
         "name": "Unverified",
         "color": 0,
         "permissions": "0",
-        "position": 17,
+        "position": 22,
         "hoist": false,
         "mentionable": false
       },
@@ -250,7 +271,7 @@
         "name": "Yuri's trusted friends",
         "color": 8406617,
         "permissions": "1245097634401857",
-        "position": 16,
+        "position": 21,
         "hoist": false,
         "mentionable": false
       },
@@ -259,7 +280,7 @@
         "name": "chud",
         "color": 0,
         "permissions": "0",
-        "position": 15,
+        "position": 20,
         "hoist": false,
         "mentionable": false
       },
@@ -268,7 +289,7 @@
         "name": "Cum Bomb Sahur",
         "color": 0,
         "permissions": "14741438713409",
-        "position": 14,
+        "position": 19,
         "hoist": false,
         "mentionable": false
       },
@@ -277,7 +298,7 @@
         "name": "Language Man",
         "color": 0,
         "permissions": "1720707884502593",
-        "position": 13,
+        "position": 18,
         "hoist": false,
         "mentionable": false
       },
@@ -286,7 +307,7 @@
         "name": "PPF Guy",
         "color": 0,
         "permissions": "0",
-        "position": 12,
+        "position": 17,
         "hoist": false,
         "mentionable": false
       },
@@ -295,7 +316,7 @@
         "name": "worst player in server",
         "color": 0,
         "permissions": "0",
-        "position": 11,
+        "position": 16,
         "hoist": false,
         "mentionable": false
       },
@@ -304,7 +325,7 @@
         "name": "Most Hated Human",
         "color": 0,
         "permissions": "0",
-        "position": 10,
+        "position": 15,
         "hoist": false,
         "mentionable": false
       },
@@ -313,7 +334,7 @@
         "name": "Latina",
         "color": 15373567,
         "permissions": "0",
-        "position": 9,
+        "position": 14,
         "hoist": false,
         "mentionable": false
       },
@@ -322,11 +343,47 @@
         "name": "Joesph Mussolini",
         "color": 0,
         "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526019947384275086",
+        "name": "Gooners",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526427604025081936",
+        "name": "tryna ignore it",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526444667242025000",
+        "name": "Tyler Ninja Window Blevins",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526814070282649610",
+        "name": "Cuck",
+        "color": 11329279,
+        "permissions": "0",
         "position": 1,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1783524121370
+    "updated": 1784095997497
   }
 }

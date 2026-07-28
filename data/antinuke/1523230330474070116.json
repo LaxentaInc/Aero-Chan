@@ -1,0 +1,351 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1523231813495947436",
+        "name": "standards",
+        "type": 0,
+        "position": 0,
+        "parentId": "1523233277094269030"
+      },
+      {
+        "id": "1524331689931706398",
+        "name": "daniels-stairhouse",
+        "type": 2,
+        "position": 1,
+        "parentId": "1523230331308609607"
+      },
+      {
+        "id": "1531529963516199004",
+        "name": "Aero",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1523237353286795285",
+        "name": "ticket-2",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1523268631402905711",
+        "name": "Ice spice",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1523232096179453962",
+        "name": "Tickets",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1529988620449222656",
+        "name": "welcome",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1523254154070331412",
+        "name": "accounts",
+        "type": 0,
+        "position": 0,
+        "parentId": "1523250968408358913"
+      },
+      {
+        "id": "1523568442383401031",
+        "name": "Important",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1523247527330058251",
+        "name": "backgrounds",
+        "type": 0,
+        "position": 4,
+        "parentId": "1523233277094269030"
+      },
+      {
+        "id": "1523230331308609609",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1523230331308609607"
+      },
+      {
+        "id": "1527741328690253895",
+        "name": "Editing help",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1523232921865945138",
+        "name": "announcements",
+        "type": 0,
+        "position": 0,
+        "parentId": "1523568442383401031"
+      },
+      {
+        "id": "1523248125727211560",
+        "name": "overlays",
+        "type": 0,
+        "position": 5,
+        "parentId": "1523233277094269030"
+      },
+      {
+        "id": "1523230331308609606",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1527741294967787611",
+        "name": "tuts",
+        "type": 0,
+        "position": 0,
+        "parentId": "1527741328690253895"
+      },
+      {
+        "id": "1524626292425752729",
+        "name": "Music nd chill",
+        "type": 2,
+        "position": 2,
+        "parentId": "1523230331308609607"
+      },
+      {
+        "id": "1523233232840036452",
+        "name": "edits",
+        "type": 0,
+        "position": 1,
+        "parentId": "1523233277094269030"
+      },
+      {
+        "id": "1523230331308609607",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1524298742973468743",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1523230331308609606"
+      },
+      {
+        "id": "1523268678781501560",
+        "name": "ice-spice",
+        "type": 0,
+        "position": 0,
+        "parentId": "1523268631402905711"
+      },
+      {
+        "id": "1523248466162090105",
+        "name": "feedback",
+        "type": 0,
+        "position": 6,
+        "parentId": "1523233277094269030"
+      },
+      {
+        "id": "1523254467913584720",
+        "name": "clips",
+        "type": 0,
+        "position": 7,
+        "parentId": "1523233277094269030"
+      },
+      {
+        "id": "1531529956587208864",
+        "name": "hօneypot",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1523402287429456013",
+        "name": "ticket-7",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1523250968408358913",
+        "name": "Accounts",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1523585714997166192",
+        "name": "ranks",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1523247280587669624",
+        "name": "qr-codes",
+        "type": 0,
+        "position": 3,
+        "parentId": "1523233277094269030"
+      },
+      {
+        "id": "1523568188653174955",
+        "name": "rules",
+        "type": 0,
+        "position": 1,
+        "parentId": "1523568442383401031"
+      },
+      {
+        "id": "1528049263337144371",
+        "name": "name-tag",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1523233277094269030",
+        "name": "Edit stuff",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1523232062608244797",
+        "name": "apply",
+        "type": 0,
+        "position": 0,
+        "parentId": "1523232096179453962"
+      },
+      {
+        "id": "1523233397294760026",
+        "name": "audios",
+        "type": 0,
+        "position": 2,
+        "parentId": "1523233277094269030"
+      },
+      {
+        "id": "1523586466348007506",
+        "name": "Lols",
+        "type": 11,
+        "parentId": "1523585714997166192"
+      },
+      {
+        "id": "1523658961868558526",
+        "name": "Rank me",
+        "type": 11,
+        "parentId": "1523585714997166192"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1523230764211114004",
+        "name": "Owner",
+        "color": 15277667,
+        "permissions": "1721826618638327",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523251640130605216",
+        "name": "Mod",
+        "color": 3447003,
+        "permissions": "2091258029277171",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523585776389066782",
+        "name": "D",
+        "color": 0,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523585824879415417",
+        "name": "C",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523585885524856842",
+        "name": "B",
+        "color": 9807270,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523586038986178600",
+        "name": "A",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523586087933706302",
+        "name": "S-",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523586138617417778",
+        "name": "S",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523586197857763339",
+        "name": "Top 5",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523659686149226497",
+        "name": "The one above all",
+        "color": 16711922,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1531002030259437589",
+        "name": "chat rev",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722502
+  }
+}

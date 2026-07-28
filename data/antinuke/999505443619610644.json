@@ -1,0 +1,421 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "999505444127113256",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "999505444127113257",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "999505444127113258",
+        "name": "👋-𝕎𝕖𝕝𝕔𝕠𝕞𝕖",
+        "type": 0,
+        "position": 0,
+        "parentId": "1523779200774045887"
+      },
+      {
+        "id": "999505444127113259",
+        "name": "𝔾𝕖𝕟𝕖𝕣𝕒𝕝",
+        "type": 2,
+        "position": 0,
+        "parentId": "999505444127113257"
+      },
+      {
+        "id": "999866701342593144",
+        "name": "📽️-𝕊𝕥𝕣𝕖𝕒𝕞𝕚𝕟𝕘-𝕀𝕟𝕗𝕠",
+        "type": 0,
+        "position": 4,
+        "parentId": "1523779200774045887"
+      },
+      {
+        "id": "999869363865780305",
+        "name": "𝔾𝕖𝕟𝕖𝕣𝕒𝕝 𝟚",
+        "type": 2,
+        "position": 1,
+        "parentId": "999505444127113257"
+      },
+      {
+        "id": "999869469654528041",
+        "name": "🎵-𝕄𝕦𝕤𝕚𝕔",
+        "type": 0,
+        "position": 2,
+        "parentId": "999505444127113256"
+      },
+      {
+        "id": "999880764197965944",
+        "name": "📜-ℝ𝕦𝕝𝕖𝕤",
+        "type": 0,
+        "position": 1,
+        "parentId": "1523779200774045887"
+      },
+      {
+        "id": "1000107020726309015",
+        "name": "🤖-𝔹𝕠𝕥-ℂ𝕠𝕞𝕞𝕒𝕟𝕕𝕤",
+        "type": 0,
+        "position": 1,
+        "parentId": "999505444127113256"
+      },
+      {
+        "id": "1000107089030545559",
+        "name": "🤬-ℍ𝕒𝕟𝕕𝕝𝕚𝕟𝕘 𝔹𝕖𝕖𝕗",
+        "type": 2,
+        "position": 2,
+        "parentId": "999505444127113257"
+      },
+      {
+        "id": "1000107211122552853",
+        "name": "💬-𝔻𝕚𝕤𝕔𝕦𝕤𝕤𝕚𝕠𝕟-ℝ𝕠𝕠𝕞",
+        "type": 0,
+        "position": 0,
+        "parentId": "999505444127113257"
+      },
+      {
+        "id": "1000107495601229966",
+        "name": "📢-𝔸𝕟𝕟𝕠𝕦𝕟𝕔𝕖𝕞𝕖𝕟𝕥𝕤",
+        "type": 0,
+        "position": 2,
+        "parentId": "1523779200774045887"
+      },
+      {
+        "id": "1003666288150859858",
+        "name": "↗️-ℙ𝕠𝕝𝕝𝕤",
+        "type": 0,
+        "position": 3,
+        "parentId": "1523779200774045887"
+      },
+      {
+        "id": "1003667172905730049",
+        "name": "🤳-𝕄𝕖𝕕𝕚𝕒",
+        "type": 0,
+        "position": 3,
+        "parentId": "999505444127113256"
+      },
+      {
+        "id": "1004919753925734410",
+        "name": "🎂-𝔹𝕚𝕣𝕥𝕙𝕕𝕒𝕪𝕤",
+        "type": 0,
+        "position": 4,
+        "parentId": "999505444127113256"
+      },
+      {
+        "id": "1277172244321407026",
+        "name": "👻-𝔾𝕖𝕟𝕖𝕣𝕒𝕝",
+        "type": 0,
+        "position": 0,
+        "parentId": "999505444127113256"
+      },
+      {
+        "id": "1523598845458514021",
+        "name": "👿𝕋𝕚𝕞𝕖𝕠𝕦𝕥 𝔽𝕠𝕣 ℝ𝕦𝕝𝕖𝕓𝕣𝕖𝕒𝕜𝕖𝕣𝕤👿",
+        "type": 2,
+        "position": 4,
+        "parentId": "999505444127113257"
+      },
+      {
+        "id": "1523779200774045887",
+        "name": "Welcome & Info",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1523930996226134099",
+        "name": "🎞️-𝕄𝕠𝕧𝕚𝕖 ℕ𝕚𝕘𝕙𝕥",
+        "type": 2,
+        "position": 3,
+        "parentId": "999505444127113257"
+      },
+      {
+        "id": "1525558464686850168",
+        "name": "🌹🌺🌷🌻🌸🍀𝑇ℎ𝑒 𝐺𝑎𝑟𝑑𝑒𝑛 𝐻𝑖𝑑𝑑𝑒𝑛 𝐼𝑛 𝑇ℎ𝑒 𝐹𝑜𝑟𝑒𝑠𝑡",
+        "type": 2,
+        "position": 5,
+        "parentId": "999505444127113257"
+      },
+      {
+        "id": "1526934212987584612",
+        "name": "ADS and ALLIES",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1526934684573892790",
+        "name": "𝔾𝕒𝕟𝕘-𝕀𝕟𝕗𝕠",
+        "type": 0,
+        "position": 0,
+        "parentId": "1526934212987584612"
+      },
+      {
+        "id": "1526935175760580638",
+        "name": "𝔸𝕝𝕝𝕚𝕖𝕤",
+        "type": 0,
+        "position": 1,
+        "parentId": "1526934212987584612"
+      },
+      {
+        "id": "1526935222896295966",
+        "name": "𝔸𝔻𝕤",
+        "type": 0,
+        "position": 2,
+        "parentId": "1526934212987584612"
+      },
+      {
+        "id": "1530650975436800010",
+        "name": "50-100 REROLLS REWARD",
+        "type": 13,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1531529712906670192",
+        "name": "Dark Horse⛈️",
+        "type": 2,
+        "position": 6,
+        "parentId": "999505444127113257"
+      },
+      {
+        "id": "1531529717948092598",
+        "name": "Aero",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1531529722750570547",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1531529717948092598"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1525302751083630602",
+        "name": "Mila da goat",
+        "color": 16614655,
+        "permissions": "0",
+        "position": 26,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "999890485877428274",
+        "name": "Unverified",
+        "color": 0,
+        "permissions": "68672",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524154670187286628",
+        "name": "DIVISION 0",
+        "color": 787717,
+        "permissions": "79439783365696",
+        "position": 28,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1523782135109128385",
+        "name": "bot",
+        "color": 5533306,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "999884547393069096",
+        "name": "plot armor",
+        "color": 2474073,
+        "permissions": "1071698660929",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527421875569950841",
+        "name": "Mila's dumb brother",
+        "color": 5814261,
+        "permissions": "1755892189351489",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1000990354557906973",
+        "name": "MC",
+        "color": 3162442,
+        "permissions": "1071698660929",
+        "position": 22,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1000990344785170523",
+        "name": "new role",
+        "color": 0,
+        "permissions": "1071698660929",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "999892863485739039",
+        "name": "max plot armor",
+        "color": 5972086,
+        "permissions": "9867791617601",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "999867609258393680",
+        "name": "Boss Mod",
+        "color": 10038562,
+        "permissions": "28582998425335",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527023711276896519",
+        "name": "Turtle",
+        "color": 39464,
+        "permissions": "2885633908378817",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530488019327385630",
+        "name": "THE WONDERFUL TRU",
+        "color": 936053,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "999890486993113148",
+        "name": "Verified",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524470278779047936",
+        "name": "pic perms",
+        "color": 0,
+        "permissions": "79578229214273",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524561989207064789",
+        "name": "sneaky sneak",
+        "color": 1770782,
+        "permissions": "351981230464577",
+        "position": 27,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1527023645866594306",
+        "name": "Turtle",
+        "color": 39464,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1000940501022818405",
+        "name": "W person",
+        "color": 2588365,
+        "permissions": "1071698464321",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1523054361213800609",
+        "name": "fruad watch",
+        "color": 10181046,
+        "permissions": "70368744279040",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1000000638299684984",
+        "name": "Owner",
+        "color": 14516534,
+        "permissions": "1071698669121",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1063653965562130533",
+        "name": "L Person",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1524222202214482184",
+        "name": "DRAGON",
+        "color": 2556932,
+        "permissions": "8864258447638271",
+        "position": 32,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1523600048364195962",
+        "name": "NARUTO TYPE OF TIMING",
+        "color": 10181046,
+        "permissions": "70369012714496",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "999870526715605053",
+        "name": "Youtuber",
+        "color": 12332581,
+        "permissions": "28587293409015",
+        "position": 23,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1524286840473911359",
+        "name": "Prodigy",
+        "color": 2123412,
+        "permissions": "1720707884502593",
+        "position": 30,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215721620
+  }
+}

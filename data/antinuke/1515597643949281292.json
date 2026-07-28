@@ -247,10 +247,10 @@
         "parentId": null
       },
       {
-        "id": "1518350128627454102",
-        "name": "Intro template",
+        "id": "1527371104103038986",
+        "name": "۫𓂅    ౿ ݁  .     愛     ︵   ｡ Ꮺ ˚owner diary",
         "type": 11,
-        "parentId": "1518349926679974061"
+        "parentId": "1517383265671970847"
       },
       {
         "id": "1518394918089789551",
@@ -265,7 +265,7 @@
         "name": "🌷﹒ Admin ੭ ꒰ ୨୧ ꒱ ⸝⸝",
         "color": 16761728,
         "permissions": "1721807828152311",
-        "position": 55,
+        "position": 56,
         "hoist": true,
         "mentionable": false
       },
@@ -274,7 +274,7 @@
         "name": "Chocolate",
         "color": 13789470,
         "permissions": "0",
-        "position": 24,
+        "position": 25,
         "hoist": false,
         "mentionable": false
       },
@@ -283,7 +283,7 @@
         "name": "キ﹒🩰﹒Pink",
         "color": 16754649,
         "permissions": "0",
-        "position": 49,
+        "position": 50,
         "hoist": false,
         "mentionable": false
       },
@@ -292,7 +292,7 @@
         "name": "ㆍ ♡ Orange ㆍ",
         "color": 16755007,
         "permissions": "0",
-        "position": 44,
+        "position": 45,
         "hoist": false,
         "mentionable": false
       },
@@ -301,7 +301,7 @@
         "name": "⏆﹒✾﹒﹒Partnership ping",
         "color": 11342935,
         "permissions": "0",
-        "position": 2,
+        "position": 3,
         "hoist": false,
         "mentionable": false
       },
@@ -310,7 +310,7 @@
         "name": "Magenta",
         "color": 16711935,
         "permissions": "0",
-        "position": 26,
+        "position": 27,
         "hoist": false,
         "mentionable": false
       },
@@ -319,7 +319,7 @@
         "name": "SNOW",
         "color": 0,
         "permissions": "0",
-        "position": 16,
+        "position": 17,
         "hoist": false,
         "mentionable": false
       },
@@ -328,7 +328,7 @@
         "name": "⸝⸝ㆍ ♩　 members 　˃˂",
         "color": 11599760,
         "permissions": "594670538395201",
-        "position": 53,
+        "position": 54,
         "hoist": true,
         "mentionable": false
       },
@@ -337,7 +337,7 @@
         "name": "⸝⸝ㆍ ♩　 pre-members 　˃˂",
         "color": 1752220,
         "permissions": "0",
-        "position": 4,
+        "position": 5,
         "hoist": false,
         "mentionable": false
       },
@@ -346,7 +346,7 @@
         "name": "Aqua",
         "color": 65535,
         "permissions": "0",
-        "position": 23,
+        "position": 24,
         "hoist": false,
         "mentionable": false
       },
@@ -355,7 +355,7 @@
         "name": "ꕀ Moderator ⌑ ﹒ 🌬️",
         "color": 16777102,
         "permissions": "1721807559716807",
-        "position": 54,
+        "position": 55,
         "hoist": true,
         "mentionable": false
       },
@@ -364,7 +364,7 @@
         "name": "Yellow",
         "color": 16776960,
         "permissions": "0",
-        "position": 25,
+        "position": 26,
         "hoist": false,
         "mentionable": false
       },
@@ -373,7 +373,7 @@
         "name": "﹐Blue ﹒ 🥣",
         "color": 8308991,
         "permissions": "0",
-        "position": 47,
+        "position": 48,
         "hoist": false,
         "mentionable": false
       },
@@ -382,7 +382,7 @@
         "name": "﹒🐑 ﹐ she/her/hers ﹒♡",
         "color": 10149375,
         "permissions": "0",
-        "position": 39,
+        "position": 40,
         "hoist": false,
         "mentionable": false
       },
@@ -391,7 +391,7 @@
         "name": "Spring green",
         "color": 65407,
         "permissions": "0",
-        "position": 22,
+        "position": 23,
         "hoist": false,
         "mentionable": false
       },
@@ -400,7 +400,7 @@
         "name": "︵︵ 13-14 ﹐🦢",
         "color": 16747146,
         "permissions": "0",
-        "position": 42,
+        "position": 43,
         "hoist": false,
         "mentionable": false
       },
@@ -409,7 +409,7 @@
         "name": "୨୧ ㆍ Owner ◝",
         "color": 16705535,
         "permissions": "0",
-        "position": 57,
+        "position": 58,
         "hoist": true,
         "mentionable": false
       },
@@ -418,7 +418,7 @@
         "name": "🌂﹑ Purple ⌢",
         "color": 13868287,
         "permissions": "0",
-        "position": 48,
+        "position": 49,
         "hoist": false,
         "mentionable": false
       },
@@ -427,7 +427,7 @@
         "name": "unverified",
         "color": 0,
         "permissions": "0",
-        "position": 17,
+        "position": 18,
         "hoist": false,
         "mentionable": false
       },
@@ -436,7 +436,7 @@
         "name": "Image perm",
         "color": 10809781,
         "permissions": "33792",
-        "position": 1,
+        "position": 2,
         "hoist": false,
         "mentionable": false
       },
@@ -445,7 +445,7 @@
         "name": "Ask2dm",
         "color": 6422485,
         "permissions": "0",
-        "position": 31,
+        "position": 32,
         "hoist": false,
         "mentionable": false
       },
@@ -454,7 +454,7 @@
         "name": "🧸．➹﹒brown",
         "color": 14326324,
         "permissions": "0",
-        "position": 50,
+        "position": 51,
         "hoist": false,
         "mentionable": false
       },
@@ -463,7 +463,7 @@
         "name": "Crimson",
         "color": 16752762,
         "permissions": "0",
-        "position": 28,
+        "position": 29,
         "hoist": false,
         "mentionable": false
       },
@@ -472,7 +472,7 @@
         "name": "﹒︵ 🍚 they/them/theirs ﹕",
         "color": 16755194,
         "permissions": "0",
-        "position": 37,
+        "position": 38,
         "hoist": false,
         "mentionable": false
       },
@@ -481,7 +481,7 @@
         "name": "Hot pink",
         "color": 16738740,
         "permissions": "0",
-        "position": 27,
+        "position": 28,
         "hoist": false,
         "mentionable": false
       },
@@ -490,7 +490,7 @@
         "name": "͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞    ୨୧   ‿͞ ‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞‿͞",
         "color": 11073791,
         "permissions": "0",
-        "position": 35,
+        "position": 36,
         "hoist": true,
         "mentionable": false
       },
@@ -499,7 +499,7 @@
         "name": "⟡﹒Yellow ﹐ ﹅",
         "color": 16580483,
         "permissions": "0",
-        "position": 45,
+        "position": 46,
         "hoist": false,
         "mentionable": false
       },
@@ -508,7 +508,7 @@
         "name": "Red",
         "color": 16711680,
         "permissions": "0",
-        "position": 20,
+        "position": 21,
         "hoist": false,
         "mentionable": false
       },
@@ -517,7 +517,7 @@
         "name": "♫ ㆍ he/him/his ㆍ🐩",
         "color": 12949503,
         "permissions": "0",
-        "position": 38,
+        "position": 39,
         "hoist": false,
         "mentionable": false
       },
@@ -526,7 +526,7 @@
         "name": "◦ 15-16 ・ ♡",
         "color": 16761216,
         "permissions": "0",
-        "position": 41,
+        "position": 42,
         "hoist": false,
         "mentionable": false
       },
@@ -535,7 +535,7 @@
         "name": "♡︶︶ ⟢ Co - Owner",
         "color": 16749716,
         "permissions": "1721826618638327",
-        "position": 56,
+        "position": 57,
         "hoist": true,
         "mentionable": false
       },
@@ -544,7 +544,7 @@
         "name": "⸝⸝ㆍ17-19　˃˂",
         "color": 10736111,
         "permissions": "0",
-        "position": 40,
+        "position": 41,
         "hoist": false,
         "mentionable": false
       },
@@ -553,7 +553,7 @@
         "name": "🐁 ୨𓏼．．white",
         "color": 16777215,
         "permissions": "0",
-        "position": 43,
+        "position": 44,
         "hoist": false,
         "mentionable": false
       },
@@ -562,7 +562,7 @@
         "name": "Dms closed",
         "color": 16732754,
         "permissions": "0",
-        "position": 30,
+        "position": 31,
         "hoist": false,
         "mentionable": false
       },
@@ -571,7 +571,7 @@
         "name": "Silver",
         "color": 12632256,
         "permissions": "0",
-        "position": 21,
+        "position": 22,
         "hoist": false,
         "mentionable": false
       },
@@ -580,7 +580,7 @@
         "name": "꒰ 💢 ㆍ Red ㆍ ⸝⸝",
         "color": 16736352,
         "permissions": "0",
-        "position": 51,
+        "position": 52,
         "hoist": false,
         "mentionable": false
       },
@@ -589,7 +589,7 @@
         "name": "Blue",
         "color": 255,
         "permissions": "0",
-        "position": 19,
+        "position": 20,
         "hoist": false,
         "mentionable": false
       },
@@ -598,7 +598,7 @@
         "name": "Dms open",
         "color": 12844971,
         "permissions": "0",
-        "position": 29,
+        "position": 30,
         "hoist": false,
         "mentionable": false
       },
@@ -607,7 +607,7 @@
         "name": "≧﹒Green ﹐ ☘️",
         "color": 10354563,
         "permissions": "0",
-        "position": 46,
+        "position": 47,
         "hoist": false,
         "mentionable": false
       },
@@ -616,11 +616,11 @@
         "name": "🍥 ∿　 other pronoun(s) ・",
         "color": 16748989,
         "permissions": "0",
-        "position": 36,
+        "position": 37,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1783524121359
+    "updated": 1785215722590
   }
 }

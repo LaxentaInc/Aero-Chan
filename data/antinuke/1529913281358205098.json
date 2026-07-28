@@ -1,0 +1,263 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1529913282461175959",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1529913282461175960",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1529913282461175961",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1529916401911992412"
+      },
+      {
+        "id": "1529913282461175962",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1529916401911992412"
+      },
+      {
+        "id": "1529914978046578718",
+        "name": "bot-channel",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1529916395549233363",
+        "name": "Info",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1529916400347513003",
+        "name": "announcements",
+        "type": 0,
+        "position": 0,
+        "parentId": "1529916395549233363"
+      },
+      {
+        "id": "1529916401911992412",
+        "name": "General",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1529916403946225735",
+        "name": "commands",
+        "type": 0,
+        "position": 1,
+        "parentId": "1529916401911992412"
+      },
+      {
+        "id": "1529916407293149358",
+        "name": "Music",
+        "type": 2,
+        "position": 1,
+        "parentId": "1529916401911992412"
+      },
+      {
+        "id": "1529916410237681734",
+        "name": "AFK",
+        "type": 2,
+        "position": 2,
+        "parentId": "1529916401911992412"
+      },
+      {
+        "id": "1529916921745772725",
+        "name": "Partnerships",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1529916925063336118",
+        "name": "partnership-requirements",
+        "type": 0,
+        "position": 0,
+        "parentId": "1529916921745772725"
+      },
+      {
+        "id": "1529916927302959186",
+        "name": "big-partners",
+        "type": 0,
+        "position": 1,
+        "parentId": "1529916921745772725"
+      },
+      {
+        "id": "1529916929840517150",
+        "name": "small-partners",
+        "type": 0,
+        "position": 2,
+        "parentId": "1529916921745772725"
+      },
+      {
+        "id": "1529920441462816818",
+        "name": "fan-art",
+        "type": 0,
+        "position": 2,
+        "parentId": "1529916401911992412"
+      },
+      {
+        "id": "1529922682521522196",
+        "name": "mod-chat",
+        "type": 0,
+        "position": 1,
+        "parentId": "1529913282461175959"
+      },
+      {
+        "id": "1529922744257482822",
+        "name": "discussion",
+        "type": 0,
+        "position": 3,
+        "parentId": "1529916401911992412"
+      },
+      {
+        "id": "1529924651286003752",
+        "name": "night-gaming",
+        "type": 2,
+        "position": 0,
+        "parentId": "1529913282461175960"
+      },
+      {
+        "id": "1529993551327395960",
+        "name": "hall-of-fame",
+        "type": 0,
+        "position": 2,
+        "parentId": "1529913282461175959"
+      },
+      {
+        "id": "1529993577730670622",
+        "name": "hall-of-shame",
+        "type": 0,
+        "position": 3,
+        "parentId": "1529913282461175959"
+      },
+      {
+        "id": "1530016644737404998",
+        "name": "bump",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1530020247661445202",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1530020248118362276",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1530027899741143040",
+        "name": "welcome",
+        "type": 5,
+        "position": 0,
+        "parentId": "1529913282461175959"
+      },
+      {
+        "id": "1530028722030379200",
+        "name": "roles",
+        "type": 0,
+        "position": 4,
+        "parentId": "1529913282461175959"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1529913611726885005",
+        "name": "👑Owner",
+        "color": 7419530,
+        "permissions": "1721826618638327",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529914462168023161",
+        "name": "🔨Mods",
+        "color": 3447003,
+        "permissions": "1721807559716807",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529915224528785511",
+        "name": "⚡Admin",
+        "color": 15158332,
+        "permissions": "1721826618638327",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529915516456665228",
+        "name": "🛠️Head Mod",
+        "color": 3066993,
+        "permissions": "1721826618638327",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529916428654870709",
+        "name": "-- Staff Roles --",
+        "color": 0,
+        "permissions": "0",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1529916980172165140",
+        "name": "-- Members --",
+        "color": 0,
+        "permissions": "0",
+        "position": 13,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1530018134180888697",
+        "name": "bots",
+        "color": 3447003,
+        "permissions": "2108850416648183",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530027928694423735",
+        "name": "Member",
+        "color": 5951477,
+        "permissions": "2222085186637377",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785215722645
+  }
+}

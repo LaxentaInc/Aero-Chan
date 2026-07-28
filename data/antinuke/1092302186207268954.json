@@ -245,12 +245,6 @@
         "type": 0,
         "position": 3,
         "parentId": "1499231023718994051"
-      },
-      {
-        "id": "1499551108576837632",
-        "name": "Kaimon🤤",
-        "type": 11,
-        "parentId": "1107121370392973363"
       }
     ],
     "roles": [
@@ -259,7 +253,7 @@
         "name": "cheeseburger 🍔",
         "color": 10057892,
         "permissions": "6766385966874615",
-        "position": 14,
+        "position": 16,
         "hoist": true,
         "mentionable": true
       },
@@ -268,7 +262,7 @@
         "name": "diddlytoes scarglemarble altoona",
         "color": 14614486,
         "permissions": "7738362634428263",
-        "position": 13,
+        "position": 15,
         "hoist": true,
         "mentionable": true
       },
@@ -277,7 +271,7 @@
         "name": "schnobby kumalala savesta boy",
         "color": 16667790,
         "permissions": "8797166764032",
-        "position": 12,
+        "position": 14,
         "hoist": true,
         "mentionable": true
       },
@@ -286,16 +280,16 @@
         "name": "among us",
         "color": 0,
         "permissions": "6788376199430135",
-        "position": 10,
+        "position": 12,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1205646930131030057",
-        "name": "the big A",
-        "color": 6035622,
+        "name": "big sloppy wet kiss",
+        "color": 6695337,
         "permissions": "8864258447638527",
-        "position": 9,
+        "position": 11,
         "hoist": true,
         "mentionable": true
       },
@@ -304,16 +298,16 @@
         "name": "THE niche",
         "color": 16724412,
         "permissions": "8864262742597575",
-        "position": 8,
+        "position": 10,
         "hoist": true,
         "mentionable": true
       },
       {
         "id": "1313711239058165862",
         "name": "freak frit",
-        "color": 13719383,
+        "color": 16711680,
         "permissions": "8864262742605823",
-        "position": 7,
+        "position": 9,
         "hoist": true,
         "mentionable": true
       },
@@ -322,7 +316,7 @@
         "name": "The Divine Mother of All",
         "color": 16758745,
         "permissions": "8829078370508775",
-        "position": 6,
+        "position": 8,
         "hoist": true,
         "mentionable": true
       },
@@ -331,7 +325,7 @@
         "name": "lil white boy",
         "color": 12266797,
         "permissions": "8864262742597607",
-        "position": 5,
+        "position": 7,
         "hoist": true,
         "mentionable": true
       },
@@ -340,11 +334,20 @@
         "name": "papacita",
         "color": 11788541,
         "permissions": "8863137045929825",
-        "position": 1,
+        "position": 3,
         "hoist": true,
         "mentionable": false
+      },
+      {
+        "id": "1527049094458118256",
+        "name": "the mylo one",
+        "color": 11993044,
+        "permissions": "8864261400420327",
+        "position": 2,
+        "hoist": true,
+        "mentionable": true
       }
     ],
-    "updated": 1783524121315
+    "updated": 1785215722420
   }
 }

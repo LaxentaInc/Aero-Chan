@@ -57,7 +57,7 @@
         "name": "OG☄️",
         "color": 0,
         "permissions": "0",
-        "position": 3,
+        "position": 4,
         "hoist": false,
         "mentionable": false
       },
@@ -66,7 +66,7 @@
         "name": "OG☄️",
         "color": 0,
         "permissions": "0",
-        "position": 2,
+        "position": 3,
         "hoist": false,
         "mentionable": false
       },
@@ -75,11 +75,11 @@
         "name": "Dark red",
         "color": 4850692,
         "permissions": "0",
-        "position": 1,
+        "position": 2,
         "hoist": true,
         "mentionable": false
       }
     ],
-    "updated": 1783524121337
+    "updated": 1785215722512
   }
 }

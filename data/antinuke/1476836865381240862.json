@@ -105,6 +105,13 @@
         "type": 0,
         "position": 2,
         "parentId": "1476836865381240863"
+      },
+      {
+        "id": "1526699829173026956",
+        "name": "alinas-shenanigans",
+        "type": 0,
+        "position": 0,
+        "parentId": null
       }
     ],
     "roles": [
@@ -113,7 +120,7 @@
         "name": "Head Moderator Ⓜ️🙇‍♀️👤",
         "color": 3447003,
         "permissions": "8864257373896691",
-        "position": 8,
+        "position": 9,
         "hoist": false,
         "mentionable": true
       },
@@ -122,7 +129,7 @@
         "name": "Server owner 🪐☄️",
         "color": 11187154,
         "permissions": "8",
-        "position": 7,
+        "position": 8,
         "hoist": true,
         "mentionable": true
       },
@@ -131,7 +138,7 @@
         "name": "😩🦋Server 's most BEAUTIFUL freaksters.. 💫😩💘",
         "color": 14863283,
         "permissions": "8864258044977123",
-        "position": 4,
+        "position": 5,
         "hoist": true,
         "mentionable": true
       },
@@ -140,7 +147,7 @@
         "name": "SEXY WIFEY WHO MEOWS FOR EVERYONE 🤍🫶",
         "color": 12698049,
         "permissions": "8864257977876451",
-        "position": 3,
+        "position": 4,
         "hoist": false,
         "mentionable": false
       },
@@ -149,7 +156,7 @@
         "name": "RACIST",
         "color": 11027200,
         "permissions": "0",
-        "position": 6,
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -158,11 +165,11 @@
         "name": "slaves",
         "color": 2123412,
         "permissions": "0",
-        "position": 1,
+        "position": 2,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1783524121311
+    "updated": 1785215722408
   }
 }

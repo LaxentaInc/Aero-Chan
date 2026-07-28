@@ -1,0 +1,48 @@
+{
+  "buttons": {
+    "restore_perms_412347257233604609": {
+      "type": "restore_perms",
+      "targetId": "412347257233604609",
+      "memberId": "412347257233604609",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 0
+      },
+      "guildId": "1326741120230756422",
+      "relatedMessages": [
+        {
+          "channelId": "1531412223195611236",
+          "messageId": "1531412230082396321"
+        }
+      ],
+      "expiresAt": 1785273927521,
+      "createdAt": 1785187527521,
+      "module": "bot-protection"
+    },
+    "restore_perms_411916947773587456": {
+      "type": "restore_perms",
+      "targetId": "411916947773587456",
+      "memberId": "411916947773587456",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 0
+      },
+      "guildId": "1326741120230756422",
+      "relatedMessages": [
+        {
+          "channelId": "1531412223195611236",
+          "messageId": "1531413122588348548"
+        }
+      ],
+      "expiresAt": 1785274140083,
+      "createdAt": 1785187740083,
+      "module": "bot-protection"
+    }
+  }
+}
