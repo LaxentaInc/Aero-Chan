@@ -202,10 +202,11 @@ function loadAllButtons() {
       if (data?.buttons && Object.keys(data.buttons).length > 0) {
         // Filter out expired buttons
         const now = Date.now();
-        const validButtons = {};
+        const validButtons: Record<string, any> = {};
         for (const [customId, meta] of Object.entries(data.buttons)) {
-          if (!meta.expiresAt || meta.expiresAt > now) {
-            validButtons[customId] = meta;
+          const metaObj = meta as any;
+          if (!metaObj.expiresAt || metaObj.expiresAt > now) {
+            validButtons[customId] = metaObj;
           }
         }
         if (Object.keys(validButtons).length > 0) {

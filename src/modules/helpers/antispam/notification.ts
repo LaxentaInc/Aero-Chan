@@ -190,10 +190,11 @@ async function notifyPunishment(context: any, targetMember: any, violations: any
     const customId = `whitelist_spam_user_${targetMember.id}`;
     const relatedMessages = [];
 
+    const finalEmbed = new EmbedBuilder(embed as any);
     // 1. Log to Centralized Channel
     try {
       const alertMsg = await logManager.logAlert(context.guild, {
-        embed,
+        embed: finalEmbed,
         components
       });
       if (alertMsg) {
@@ -211,7 +212,7 @@ async function notifyPunishment(context: any, targetMember: any, violations: any
         const owner = await context.guild.fetchOwner();
         if (owner) {
           const sentMsg = await owner.send({
-            embeds: [embed],
+            embeds: [finalEmbed],
             components
           });
           if (sentMsg) {
@@ -299,10 +300,11 @@ async function notifyTrustedSpam(context: any, targetMember: any, violations: an
     const components = createTrustedComponents(targetMember);
     const relatedMessages = [];
 
+    const finalEmbed = new EmbedBuilder(embed as any);
     // 1. Log to Centralized Channel
     try {
       const alertMsg = await logManager.logAlert(context.guild, {
-        embed,
+        embed: finalEmbed,
         components
       });
       if (alertMsg) {
@@ -320,7 +322,7 @@ async function notifyTrustedSpam(context: any, targetMember: any, violations: an
         const owner = await context.guild.fetchOwner();
         if (owner) {
           const sentMsg = await owner.send({
-            embeds: [embed],
+            embeds: [finalEmbed],
             components
           });
           if (sentMsg) {

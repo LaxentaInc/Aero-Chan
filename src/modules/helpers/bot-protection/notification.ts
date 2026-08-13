@@ -1,5 +1,5 @@
 
-import { ActionRowBuilder, ButtonBuilder, ButtonStyle, ComponentType } from "discord.js";
+import { ActionRowBuilder, ButtonBuilder, ButtonStyle, ComponentType, EmbedBuilder } from "discord.js";
 import EMOJIS from "./emojis";
 import { restoreBotPermissions } from "./permissions";
 import logManager from "../logManager";
@@ -61,7 +61,7 @@ async function notifyOwner(guild: any, botUser: any, inviter: any, suspicionData
       });
     }
     await owner.send({
-      embeds: [embed],
+      embeds: [new EmbedBuilder(embed as any)],
       components
     });
   } catch (error: any) {
@@ -120,7 +120,7 @@ async function logBotKick(guild: any, botUser: any, inviter: any, suspicionData:
 
   // Use LogManager to send to alert channel
   await logManager.logAlert(guild, {
-    embed,
+    embed: new EmbedBuilder(embed as any),
     components
   });
   console.log(`[bot-protection] Logged alert to aero-alerts`);
@@ -196,7 +196,7 @@ async function logPunishmentFailure(guild: any, user: any, member: any, suspicio
 
   // Use LogManager to send to centralized alert channel (aero-alerts)
   await logManager.logAlert(guild, {
-    embed
+    embed: new EmbedBuilder(embed as any)
   });
   console.log(`[bot-protection] Sent punishment failure alert to aero-alerts`);
 
@@ -205,7 +205,7 @@ async function logPunishmentFailure(guild: any, user: any, member: any, suspicio
     const owner = await guild.fetchOwner();
     await owner.send({
       content: `${EMOJIS.SHIELD} **URGENT: Bot Protection Action Failed in ${guild.name}**`,
-      embeds: [embed]
+      embeds: [new EmbedBuilder(embed as any)]
     });
     console.log(`[bot-protection] Sent punishment failure DM to owner`);
   } catch (err: any) {
@@ -222,8 +222,8 @@ async function notifyGoodBotPermissionStrip(member: any, inviter: any, strippedP
   const botUser = member.user;
 
   // Build the embed (no color for clean look)
-  const getEmbed = (restored: boolean = false, restorer = null) => {
-    const embed = {
+  const getEmbed = (restored: boolean = false, restorer: any = null) => {
+    const embed: any = {
       title: `${EMOJIS.SHIELD} BOT PERMISSIONS AUTO-STRIPPED`,
       description: `A bot joined **${guild.name}** and passed security checks, but all permissions were automatically stripped as a precaution.`,
       fields: [{
@@ -273,7 +273,7 @@ async function notifyGoodBotPermissionStrip(member: any, inviter: any, strippedP
   };
 
   // Create Button
-  const getComponents = (disabled: boolean = false, restoredBy = null) => {
+  const getComponents = (disabled: boolean = false, restoredBy: any = null) => {
     const row = new ActionRowBuilder().addComponents(new ButtonBuilder().setCustomId(`restore_perms_${botUser.id}`).setLabel(restoredBy ? `Restored by ${restoredBy.username}` : 'Restore Permissions').setStyle(restoredBy ? ButtonStyle.Success : ButtonStyle.Primary).setEmoji(restoredBy ? '<a:wack_1327965151781064715:1332327203106717736>' : '<a:pats_1327965154998095973:1332327251253133383>').setDisabled(disabled));
     return [row];
   };
@@ -285,7 +285,7 @@ async function notifyGoodBotPermissionStrip(member: any, inviter: any, strippedP
   try {
     const owner = await guild.fetchOwner();
     const msg = await owner.send({
-      embeds: [getEmbed()],
+      embeds: [new EmbedBuilder(getEmbed() as any)],
       components: getComponents()
     });
     sentMessages.push(msg);
@@ -300,7 +300,7 @@ async function notifyGoodBotPermissionStrip(member: any, inviter: any, strippedP
       try {
         const user = await guild.client.users.fetch(userId);
         const msg = await user.send({
-          embeds: [getEmbed()],
+          embeds: [new EmbedBuilder(getEmbed() as any)],
           components: getComponents()
         });
         sentMessages.push(msg);
@@ -314,7 +314,7 @@ async function notifyGoodBotPermissionStrip(member: any, inviter: any, strippedP
   // Log to centralized alert channel (aero-alerts) AND generic log channel
   if (config.logActions) {
     const alertMsg = await logManager.logAlert(guild, {
-      embed: getEmbed(),
+      embed: new EmbedBuilder(getEmbed() as any),
       components: getComponents()
     });
     if (alertMsg) {

@@ -10,12 +10,12 @@ import { DANGEROUS_PERMISSIONS } from "./config";
  * Get audit log type for action
  */
 function getAuditLogType(actionType: any) {
-  const mapping = {
+  const mapping: Record<string, any> = {
     'ROLE_CREATE': AuditLogEvent.RoleCreate,
     'ROLE_UPDATE': AuditLogEvent.RoleUpdate,
     'ROLE_ASSIGN': AuditLogEvent.MemberRoleUpdate
   };
-  return mapping[actionType] || null;
+  return mapping[actionType as string] || null;
 }
 
 /**
@@ -33,10 +33,10 @@ async function findExecutor(guild: any, actionType: any, role: any, eventData: a
     let relevantEntry = null;
     if (actionType === 'ROLE_CREATE' || actionType === 'ROLE_UPDATE') {
       // For role create/update, target is the role
-      relevantEntry = auditLogs.entries.find(entry => entry.target && entry.target.id === role.id && Date.now() - entry.createdTimestamp < 10000) as any;
+      relevantEntry = auditLogs.entries.find((entry: any) => entry.target && entry.target.id === role.id && Date.now() - entry.createdTimestamp < 10000) as any;
     } else if (actionType === 'ROLE_ASSIGN') {
       // For role assignment, target is the member
-      relevantEntry = auditLogs.entries.find(entry => entry.target && entry.target.id === eventData.member.id && Date.now() - entry.createdTimestamp < 10000) as any;
+      relevantEntry = auditLogs.entries.find((entry: any) => entry.target && entry.target.id === eventData.member.id && Date.now() - entry.createdTimestamp < 10000) as any;
     }
     return relevantEntry ? relevantEntry.executor : null;
   } catch (error: any) {

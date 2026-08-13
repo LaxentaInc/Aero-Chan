@@ -1,5 +1,5 @@
 
-import { ChannelType, PermissionFlagsBits, EmbedBuilder, Guild, GuildTextChannel, CategoryChannel, User, TextChannel, Message } from "discord.js";
+import { ChannelType, PermissionFlagsBits, EmbedBuilder, Guild, CategoryChannel, User, TextChannel, Message } from "discord.js";
 /**
  * LogManager - Centralized Logging System for Anti-Raid Modules
  * 
@@ -18,7 +18,7 @@ import { ChannelType, PermissionFlagsBits, EmbedBuilder, Guild, GuildTextChannel
 // =============================================
 // EVENT TYPE REGISTRY (Scalable - just add new types here)
 // =============================================
-const EVENT_TYPES = {
+const EVENT_TYPES: Record<string, any> = {
   // AntiNuke Events
   CHANNEL_CREATE: {
     color: 0x2ECC71,
@@ -615,7 +615,7 @@ class LogManager {
     });
   }
   async logPunishment(guild: Guild, action: string, target: any, executor: User, reason: string) {
-    const actionMap = {
+    const actionMap: Record<string, string> = {
       'timeout': 'USER_TIMEOUT',
       'kick': 'USER_KICKED',
       'ban': 'USER_BANNED',

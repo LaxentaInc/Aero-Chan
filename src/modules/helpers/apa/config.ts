@@ -48,17 +48,17 @@ function getDefaultConfig() {
   };
 }
 function getPermissionName(permBigInt: any) {
-  const permMap = {
-    [PermissionFlagsBits.Administrator]: 'Administrator',
-    [PermissionFlagsBits.ManageGuild]: 'Manage Server',
-    [PermissionFlagsBits.ManageRoles]: 'Manage Roles',
-    [PermissionFlagsBits.ManageChannels]: 'Manage Channels',
-    [PermissionFlagsBits.BanMembers]: 'Ban Members',
-    [PermissionFlagsBits.KickMembers]: 'Kick Members',
-    [PermissionFlagsBits.ManageWebhooks]: 'Manage Webhooks',
-    [PermissionFlagsBits.ManageGuildExpressions]: 'Manage Emojis/Stickers'
+  const permMap: Record<string, string> = {
+    [String(PermissionFlagsBits.Administrator)]: 'Administrator',
+    [String(PermissionFlagsBits.ManageGuild)]: 'Manage Server',
+    [String(PermissionFlagsBits.ManageRoles)]: 'Manage Roles',
+    [String(PermissionFlagsBits.ManageChannels)]: 'Manage Channels',
+    [String(PermissionFlagsBits.BanMembers)]: 'Ban Members',
+    [String(PermissionFlagsBits.KickMembers)]: 'Kick Members',
+    [String(PermissionFlagsBits.ManageWebhooks)]: 'Manage Webhooks',
+    [String(PermissionFlagsBits.ManageGuildExpressions)]: 'Manage Emojis/Stickers'
   };
-  return permMap[permBigInt] || 'Unknown Permission';
+  return permMap[String(permBigInt)] || 'Unknown Permission';
 }
 export { getDefaultConfig, defaultConfig, DANGEROUS_PERMISSIONS, DANGEROUS_PERMISSION_NAMES, getPermissionName };
 export default {

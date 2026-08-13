@@ -1,4 +1,5 @@
 
+import { Role, Guild } from "discord.js";
 import { DANGEROUS_PERMISSIONS, getPermissionName } from "./config";
 import { saveRoleNeutralization, loadRoleNeutralization, clearRoleNeutralization } from "./storage";
 /**
@@ -13,10 +14,18 @@ import { saveRoleNeutralization, loadRoleNeutralization, clearRoleNeutralization
  * @param {Role} role - The role to neutralize
  * @param {BigInt[]} dangerousPerms - Array of dangerous permission flags to remove
  */
-async function neutralizeRole(role: Role, dangerousPerms: BigInt[]) {
+async function neutralizeRole(role: Role, dangerousPerms: bigint[]) {
   try {
     const guild = role.guild;
     const botMember = guild.members.me;
+
+    if (!botMember) {
+      console.error(`[APA] ❌ Cannot neutralize role ${role.name} - bot member not found`);
+      return {
+        success: false,
+        reason: 'Bot member not found'
+      };
+    }
 
     // Check if bot can manage this role (hierarchy)
     if (botMember.roles.highest.position <= role.position) {
@@ -84,6 +93,13 @@ async function restoreRolePermissions(guild: Guild, roleId: string) {
       };
     }
     const botMember = guild.members.me;
+
+    if (!botMember) {
+      return {
+        success: false,
+        reason: 'Bot member not found'
+      };
+    }
 
     // Check hierarchy again
     if (botMember.roles.highest.position <= role.position) {

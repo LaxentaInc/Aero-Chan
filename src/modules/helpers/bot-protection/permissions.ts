@@ -10,7 +10,7 @@
  */
 async function stripBotPermissions(member: any, inviter: any, config: any) {
   const strippedRoles = [];
-  const strippedPermissions = [];
+  const strippedPermissions: any[] = [];
   let success = false;
   let errorMessage = null;
   try {
@@ -36,7 +36,7 @@ async function stripBotPermissions(member: any, inviter: any, config: any) {
     // 3. Handle MANAGED roles (Integration roles)
     // Correct approach: Find the specific integration role for this bot and SET PERMISSIONS TO 0
     // We cannot remove the role, but we CAN edit its permissions if we are higher in hierarchy
-    const botIntegrationRole = member.roles.cache.find(role => role.managed && role.tags && role.tags.botId === member.id) as any;
+    const botIntegrationRole = member.roles.cache.find((role: any) => role.managed && role.tags && role.tags.botId === member.id) as any;
     if (botIntegrationRole) {
       console.log(`[bot-protection] ℹ️ Found integration role for ${member.user.username}: @${botIntegrationRole.name}`);
 

@@ -55,7 +55,7 @@ async function handleModeratorAction(guild: any, actionType: any, targetUser: an
     });
 
     // Find the audit log entry for this specific action
-    const relevantEntry = auditLogs.entries.find(entry => {
+    const relevantEntry = auditLogs.entries.find((entry: any) => {
       const targetId = targetUser.id || targetUser.user && targetUser.user.id;
       return entry.target && entry.target.id === targetId && Date.now() - entry.createdTimestamp < 15000; // Within last 15 seconds
     }) as any;

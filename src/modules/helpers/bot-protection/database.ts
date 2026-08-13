@@ -70,7 +70,7 @@ async function syncConfigs(collection: any, configs: any) {
 async function updateConfig(collection: any, guildId: any, newConfig: any, configs: any) {
   if (!collection) return false;
   try {
-    const mongoUpdate = {};
+    const mongoUpdate: Record<string, any> = {};
     for (const [key, value] of Object.entries(newConfig)) {
       mongoUpdate[`config.${key}`] = value;
     }

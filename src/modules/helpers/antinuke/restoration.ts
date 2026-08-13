@@ -43,7 +43,7 @@ async function batchRestoreChannels(guild: Guild, deletedChannels: Map<string, a
     console.log(`[AntiNuke] 🔄 Batch restoring ${deletedR.length} roles...`);
 
     // Get full role data from backup
-    const rolesToRestore = deletedR.map((d: any) => backup.roles.find(b => b.id === d.id) as any).filter(Boolean);
+    const rolesToRestore = deletedR.map((d: any) => backup.roles.find((b: any) => b.id === d.id) as any).filter(Boolean);
 
     // Sort by position (lower positions first)
     rolesToRestore.sort((a: any, b: any) => a.position - b.position);
@@ -72,7 +72,7 @@ async function batchRestoreChannels(guild: Guild, deletedChannels: Map<string, a
     console.log(`[AntiNuke] 🔄 Batch restoring ${deletedCh.length} channels...`);
 
     // Get full channel data from backup
-    const channelsToRestore = deletedCh.map((d: any) => backup.channels.find(b => b.id === d.id) as any).filter(Boolean);
+    const channelsToRestore = deletedCh.map((d: any) => backup.channels.find((b: any) => b.id === d.id) as any).filter(Boolean);
     if (channelsToRestore.length === 0) {
       console.log(`[AntiNuke] ⚠️ No matching channels found in backup (${deletedCh.length} deleted, ${backup.channels.length} in backup)`);
     }

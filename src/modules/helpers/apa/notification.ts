@@ -17,7 +17,7 @@ const ownerDmMessages = new Map();
  * Get human-readable action type title
  */
 function getActionTitle(actionType: any) {
-  const titles = {
+  const titles: Record<string, string> = {
     'ROLE_CREATE': '<a:marker_1326464173361856524:1342443432240746577> Role Created with Dangerous Permissions',
     'ROLE_UPDATE': '<a:marker_1326464173361856524:1342443432240746577> Dangerous Permissions Added to Role',
     'ROLE_ASSIGN': '<a:marker_1326464173361856524:1342443432240746577> Dangerous Role Assigned by Untrusted User'
@@ -29,7 +29,7 @@ function getActionTitle(actionType: any) {
  * Get action description for embeds
  */
 function getActionDescription(actionType: any, role: any) {
-  const descriptions = {
+  const descriptions: Record<string, string> = {
     'ROLE_CREATE': `Created role **${role.name}** with dangerous permissions`,
     'ROLE_UPDATE': `Added dangerous permissions to role **${role.name}**`,
     'ROLE_ASSIGN': `Assigned dangerous role **${role.name}** to a member`
@@ -68,8 +68,8 @@ async function prepareNotificationPayload(guild: any, executor: any, actionType:
   const isWhitelisted = config.whitelistedUsers?.includes(executor.id);
   const now = Math.floor(Date.now() / 1000);
   let embed;
-  let components = [];
-  let buttonMetas = [];
+  let components: any[] = [];
+  let buttonMetas: any[] = [];
   if (isWhitelisted) {
     // WHITELISTED PAYLOAD
     const {
@@ -224,7 +224,7 @@ async function notifyAndLog(guild: any, executor: any, actionType: any, role: an
       components,
       buttonMetas
     } = await prepareNotificationPayload(guild, executor, actionType, role, dangerousPerms, results, config);
-    const relatedMessages = [];
+    const relatedMessages: any[] = [];
 
     // 1. Notify Owner
     if (config.notifyOwner) {

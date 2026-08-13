@@ -1,5 +1,5 @@
 
-import { PermissionFlagsBits } from "discord.js";
+import { PermissionFlagsBits, Guild, User } from "discord.js";
 import { DANGEROUS_PERMISSIONS } from "./config";
 import { saveUserStrip, loadUserStrip, clearUserStrip } from "./storage";
 /**
