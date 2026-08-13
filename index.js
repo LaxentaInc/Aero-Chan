@@ -205,15 +205,20 @@ async function initializeBot() {
                     console.error('[Lavalink Init Error]:', err);
                 }
 
+                const preCmdTime = performance.now();
                 await loadAllCommands(client);
+                logger.info(`⏱️ [Boot Trace] loadAllCommands took ${((performance.now() - preCmdTime) / 1000).toFixed(2)}s`);
                 logger.info(`📝 Prefix commands loaded: ${client.prefixCommands.size}`);
                 logger.info(`⚡ Slash commands loaded: ${client.slashCommands.size}`);
 
                 statusCleanup = updateBotStatus(client, client.manager);
                 logger.info("📡 Status rotation started");
 
-                // Initial guild sync
-                await syncAllGuilds(client, mongoClient);
+                // Initial guild sync (Run in background so it doesn't block boot)
+                const preSyncTime = performance.now();
+                syncAllGuilds(client, mongoClient).then(() => {
+                    logger.info(`⏱️ [Boot Trace] Background syncAllGuilds finished in ${((performance.now() - preSyncTime) / 1000).toFixed(2)}s`);
+                }).catch(err => logger.error('Background sync failed:', err));
 
                 // Start periodic sync (every 30 minutes)
                 startGuildSync(client, mongoClient);

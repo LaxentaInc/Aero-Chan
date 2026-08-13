@@ -13,15 +13,15 @@ let guildSyncInterval: NodeJS.Timeout | null = null;
 async function syncAllGuilds(client: Client, mongoClient: MongoClient) {
   try {
     logger.info('Starting full guild sync...');
+    const t0 = performance.now();
     const db = mongoClient.db('antiraid');
     const guildsCollection = db.collection('bot_guilds');
-    const guildData = [];
-    for (const [guildId, guild] of client.guilds.cache) {
+    const syncPromises = client.guilds.cache.map(async (guild) => {
       try {
-        // Check if bot has required permissions (using native .me property to avoid API spam)
-        const botMember = guild.members.me || (await guild.members.fetch(client.user!.id).catch(() => null));
+        // Check if bot has required permissions (using native .me property exclusively to avoid rate limit queues)
+        const botMember = guild.members.me;
         const hasPermissions = botMember && (botMember.permissions.has('Administrator') || botMember.permissions.has('ManageGuild'));
-        const guildDoc = {
+        return {
           guildId: guild.id,
           name: guild.name,
           ownerId: guild.ownerId,
@@ -35,11 +35,17 @@ async function syncAllGuilds(client: Client, mongoClient: MongoClient) {
           lastUpdated: new Date(),
           features: guild.features || []
         };
-        guildData.push(guildDoc);
       } catch (err: any) {
-        logger.warn(`⚠️ Error processing guild ${guild.name}:`, err.message);
+        logger.warn(`⚠️ Error processing guild ${guild.name}: ${err.message}`);
+        return null;
       }
-    }
+    });
+
+    const results = await Promise.all(syncPromises);
+    const guildData = results.filter(g => g !== null);
+    
+    const t1 = performance.now();
+    logger.info(`⏱️ [Sync Trace] Local RAM mapping took ${((t1 - t0) / 1000).toFixed(3)}s`);
 
     // Bulk upsert all guilds
     if (guildData.length > 0) {
@@ -57,6 +63,9 @@ async function syncAllGuilds(client: Client, mongoClient: MongoClient) {
       await guildsCollection.bulkWrite(bulkOps);
     }
 
+    const t2 = performance.now();
+    logger.info(`⏱️ [Sync Trace] MongoDB BulkUpsert took ${((t2 - t1) / 1000).toFixed(3)}s`);
+
     // Remove guilds the bot is no longer in
     const currentGuildIds = Array.from(client.guilds.cache.keys());
     await guildsCollection.deleteMany({
@@ -64,6 +73,8 @@ async function syncAllGuilds(client: Client, mongoClient: MongoClient) {
         $nin: currentGuildIds
       }
     });
+    const t3 = performance.now();
+    logger.info(`⏱️ [Sync Trace] MongoDB DeleteMany took ${((t3 - t2) / 1000).toFixed(3)}s`);
     logger.info(`✅ Guild sync complete: ${guildData.length} guilds updated`);
   } catch (error: any) {
     logger.error('❌ Error syncing guilds:', error.message);
@@ -81,7 +92,7 @@ async function syncSingleGuild(guild: Guild, mongoClient: MongoClient) {
     const guildsCollection = db.collection('bot_guilds');
 
     // Check if bot has required permissions (using native .me property)
-    const botMember = guild.members.me || (await guild.members.fetch(guild.client.user.id).catch(() => null));
+    const botMember = guild.members.me;
     const hasPermissions = botMember && (botMember.permissions.has('Administrator') || botMember.permissions.has('ManageGuild'));
     const guildDoc = {
       guildId: guild.id,
