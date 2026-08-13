@@ -58,7 +58,7 @@ function createComponents(violator: any) {
 async function notifyAndLog(guild: any, violator: any, violationData: any, actionsPerformed: any, config: any) {
   const moduleName = 'mass-action-protection';
   try {
-    const embed = createViolationEmbed(guild, violator, violationData, actionsPerformed, config);
+    const embed = new EmbedBuilder(createViolationEmbed(guild, violator, violationData, actionsPerformed, config) as any);
     const components = createComponents(violator);
     const relatedMessages = [];
 

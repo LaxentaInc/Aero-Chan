@@ -1,5 +1,5 @@
 import { getActionsTakenMessage } from "./punishment";
-import { ActionRowBuilder, ButtonBuilder, ButtonStyle, Guild, User, GuildMember } from "discord.js";
+import { ActionRowBuilder, ButtonBuilder, ButtonStyle, Guild, User, GuildMember, EmbedBuilder } from "discord.js";
 import { buildOwnerActionRow, buildWhitelistedActionRow, registerAndPersistButtons } from "./buttons";
 import logManager from "../logManager";
 import { ActionType } from "../../../types/antiraid";

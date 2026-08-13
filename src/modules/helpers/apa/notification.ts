@@ -1,6 +1,7 @@
 
 import { getPermissionName } from "./config";
 import { getActionsTakenMessage } from "./punishment";
+import { ActionRowBuilder, ButtonBuilder, ButtonStyle, Guild, User, GuildMember, EmbedBuilder } from "discord.js";
 import { buildOwnerActionRow, buildWhitelistedActionRow, registerAndPersistButtons } from "./buttons";
 import logManager from "../logManager";
 /**
@@ -205,7 +206,7 @@ async function prepareNotificationPayload(guild: any, executor: any, actionType:
     }
   }
   return {
-    embed,
+    embed: new EmbedBuilder(embed as any),
     components,
     buttonMetas,
     isWhitelisted
@@ -368,15 +369,16 @@ async function notifyPermissionFailure(guild: any, executor: any, actionType: an
         text: `APA System | ${guild.name}`
       }
     };
+    const finalEmbed = new EmbedBuilder(embed as any);
     await owner.send({
-      embeds: [embed]
+      embeds: [finalEmbed]
     }).catch((err: any) => {
       console.error(`[APA] ❌ Failed to send permission failure DM to owner:`, err.message);
     });
 
     // Log to centralized alert channel (aero-alerts)
     await logManager.logAlert(guild, {
-      embed
+      embed: finalEmbed
     });
   } catch (error: any) {
     console.error(`[APA] ❌ Failed to notify owner of permission failure:`, error.message);
@@ -424,15 +426,16 @@ async function notifyIgnoredAction(guild: any, executor: any, actionType: any, r
     };
 
     // Notify Owner
+    const finalEmbed = new EmbedBuilder(embed as any);
     if (owner) {
       await owner.send({
-        embeds: [embed]
+        embeds: [finalEmbed]
       }).catch(() => {});
     }
 
     // Log to alert channel
     await logManager.logAlert(guild, {
-      embed
+      embed: finalEmbed
     });
   } catch (err: any) {
     console.error(`[APA] Failed to send ignored notification:`, err.message);
