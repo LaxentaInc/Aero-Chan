@@ -1,7 +1,71 @@
 {
   "backup": {
-    "channels": [],
+    "channels": [
+      {
+        "id": "1530788702765453503",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1530788702765453504",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1530788702765453503"
+      },
+      {
+        "id": "1530788702765453505",
+        "name": "juegos",
+        "type": 0,
+        "position": 1,
+        "parentId": "1530788702765453503"
+      },
+      {
+        "id": "1530788702765453506",
+        "name": "música",
+        "type": 0,
+        "position": 2,
+        "parentId": "1530788702765453503"
+      },
+      {
+        "id": "1530788702765453507",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1530788702765453508",
+        "name": "Lounge",
+        "type": 2,
+        "position": 0,
+        "parentId": "1530788702765453507"
+      },
+      {
+        "id": "1530788702765453509",
+        "name": "Sala de transmisión",
+        "type": 2,
+        "position": 1,
+        "parentId": "1530788702765453507"
+      },
+      {
+        "id": "1531422691779809442",
+        "name": "Aero",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1531422696162725939",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1531422691779809442"
+      }
+    ],
     "roles": [],
-    "updated": 1786622237512
+    "updated": 1786625832387
   }
 }

@@ -1,7 +1,145 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1786622237448
+    "channels": [
+      {
+        "id": "1532353859521876078",
+        "name": "Text channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1532353859521876079",
+        "name": "Voice channels",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1532354801671606282",
+        "name": "⛩️ ENTRY GATEWAY (Onboarding)",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1532354875990474894",
+        "name": "⛩️︱ʟᴀᴡs-ᴏғ-ᴛʜe-tensen",
+        "type": 0,
+        "position": 0,
+        "parentId": "1532354801671606282"
+      },
+      {
+        "id": "1532373843497189396",
+        "name": "💮︱ᴇxᴇᴄᴜᴛɪᴏɴ-ᴏʀᴅᴇʀs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1532354801671606282"
+      },
+      {
+        "id": "1532373965727862814",
+        "name": "🌸 SHINSENKYO",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1532374015363252335",
+        "name": "🌸︱ᴛʜᴇ-ᴠɪʟʟᴀɢᴇ-ᴄʜᴀᴛ",
+        "type": 0,
+        "position": 0,
+        "parentId": "1532373965727862814"
+      },
+      {
+        "id": "1532374097130950696",
+        "name": "🎨-tao-art",
+        "type": 0,
+        "position": 1,
+        "parentId": "1532373965727862814"
+      },
+      {
+        "id": "1532374148444197037",
+        "name": "🤖-monsters-bots",
+        "type": 0,
+        "position": 2,
+        "parentId": "1532373965727862814"
+      },
+      {
+        "id": "1532374217671315486",
+        "name": "THE HOUAI TEMPLE",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1532374274453668013",
+        "name": "#🔊-island-expedition",
+        "type": 2,
+        "position": 0,
+        "parentId": "1532374217671315486"
+      },
+      {
+        "id": "1532374327394177084",
+        "name": "🍿stream-watch",
+        "type": 0,
+        "position": 0,
+        "parentId": "1532374217671315486"
+      },
+      {
+        "id": "1532428675289714698",
+        "name": "🌀︱ᴛᴀᴏ-ʟᴏʀᴇ",
+        "type": 0,
+        "position": 3,
+        "parentId": "1532373965727862814"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1532374442288615556",
+        "name": "🔥GABIMARU🔥",
+        "color": 15591386,
+        "permissions": "8864258447638527",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532375790144979204",
+        "name": "TENSEN",
+        "color": 2907755,
+        "permissions": "1099540996230",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532376052461211688",
+        "name": "Iwagakure Shinobi",
+        "color": 4861568,
+        "permissions": "137472819456",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532376275514294422",
+        "name": "Death Row Criminal",
+        "color": 11019043,
+        "permissions": "66560",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532376438928572498",
+        "name": "New Recruit",
+        "color": 9079434,
+        "permissions": "274881121280",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1786625832334
   }
 }

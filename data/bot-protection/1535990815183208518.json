@@ -1,0 +1,26 @@
+{
+  "buttons": {
+    "restore_perms_235088799074484224": {
+      "type": "restore_perms",
+      "targetId": "235088799074484224",
+      "memberId": "235088799074484224",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 0
+      },
+      "guildId": "1535990815183208518",
+      "relatedMessages": [
+        {
+          "channelId": "1537446157767413871",
+          "messageId": "1537446162800312331"
+        }
+      ],
+      "expiresAt": 1786712532271,
+      "createdAt": 1786626132271,
+      "module": "bot-protection"
+    }
+  }
+}

@@ -1,4 +1,5 @@
 // entry file
+require('tsx/cjs');
 const bootStartTime = performance.now();
 const os = require('os');
 const { Client, GatewayIntentBits, Partials, Options, Collection } = require('discord.js');

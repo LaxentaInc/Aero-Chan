@@ -1,7 +1,36 @@
 {
   "backup": {
-    "channels": [],
+    "channels": [
+      {
+        "id": "1522224542431445152",
+        "name": "Kênh Chat",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1522224542431445153",
+        "name": "Kênh đàm thoại",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1522224542431445154",
+        "name": "chung",
+        "type": 0,
+        "position": 0,
+        "parentId": "1522224542431445152"
+      },
+      {
+        "id": "1522224542431445155",
+        "name": "Chung",
+        "type": 2,
+        "position": 0,
+        "parentId": "1522224542431445153"
+      }
+    ],
     "roles": [],
-    "updated": 1786622237267
+    "updated": 1786625832189
   }
 }

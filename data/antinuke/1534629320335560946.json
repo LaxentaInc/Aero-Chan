@@ -1,8 +1,1592 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1786622237571
+    "channels": [
+      {
+        "id": "1534927270127599716",
+        "name": "𒆜𝗦𝗼𝗽𝗼𝗿𝘁𝗲-🛠️",
+        "type": 0,
+        "position": 5,
+        "parentId": "1534934264871911435"
+      },
+      {
+        "id": "1534995541291831337",
+        "name": "10-𝕍𝕠𝕚𝕔𝕖 𝄞⨾𓍢ִ໋",
+        "type": 2,
+        "position": 9,
+        "parentId": "1534629321019228391"
+      },
+      {
+        "id": "1534629321019228393",
+        "name": "💎 𝙶𝚎𝚗𝚎𝚛𝚊𝚕",
+        "type": 2,
+        "position": 1,
+        "parentId": "1534629321019228390"
+      },
+      {
+        "id": "1534636145906941972",
+        "name": "✨・interface",
+        "type": 0,
+        "position": 0,
+        "parentId": "1534636142350041318"
+      },
+      {
+        "id": "1534657597573955815",
+        "name": "𒆜𝐑𝐞𝐩𝒐𝐫𝒕𝒆𝐬-🚨",
+        "type": 0,
+        "position": 3,
+        "parentId": "1534934264871911435"
+      },
+      {
+        "id": "1534629321019228392",
+        "name": "𒆜💬-𝘾𝙃𝘼𝙏-𝙂𝙀𝙉𝙀𝙍𝘼𝙇",
+        "type": 0,
+        "position": 1,
+        "parentId": "1534933493187084428"
+      },
+      {
+        "id": "1535652862758092984",
+        "name": "𒆜𝑯𝒂𝒔𝒕𝒂-𝒍𝒂-𝒑𝒓ó𝒙𝒊𝒎𝒂",
+        "type": 0,
+        "position": 2,
+        "parentId": "1534933114025935048"
+      },
+      {
+        "id": "1535972542693515304",
+        "name": "𝙶𝚎𝚗𝚎𝚛𝚊𝚕 𝚅𝙸𝙿 💫",
+        "type": 2,
+        "position": 0,
+        "parentId": "1534629321019228390"
+      },
+      {
+        "id": "1534651569411330300",
+        "name": "𒆜𝐓𝐈𝐂𝐊𝐄𝑻𝐒-🎫",
+        "type": 0,
+        "position": 0,
+        "parentId": "1534934264871911435"
+      },
+      {
+        "id": "1534632282671812709",
+        "name": "⧼𝘗𝘜𝘉𝘓𝘐𝘊𝘐𝘋𝘈𝘋⧽",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1534933363339690115",
+        "name": "𒆜📢・𝘼𝙣𝙪𝙣𝙘𝙞𝙤𝙨",
+        "type": 0,
+        "position": 1,
+        "parentId": "1534933114025935048"
+      },
+      {
+        "id": "1537182349723439144",
+        "name": "Aero",
+        "type": 4,
+        "position": 10,
+        "parentId": null
+      },
+      {
+        "id": "1535282456926752798",
+        "name": "🎬・✦-𝙲𝙻𝙸𝙿𝚂-✦𝔹𝕠𝕪𝕤-💙",
+        "type": 0,
+        "position": 2,
+        "parentId": "1534934011523366922"
+      },
+      {
+        "id": "1535299220590821476",
+        "name": "Ceviche💜",
+        "type": 2,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1536691026394222612",
+        "name": "✨・𝙀𝙇𝙄𝙂𝙀-𝙏𝙐-𝙍𝙊𝙇",
+        "type": 0,
+        "position": 1,
+        "parentId": "1534940621213798562"
+      },
+      {
+        "id": "1535325597293875263",
+        "name": "🔊・𝓟𝓪𝓷𝓮𝓵-𝓭𝓮-𝓢𝓸𝓷𝓲𝓭𝓸𝓼",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1537198392017555496",
+        "name": "goaway",
+        "type": 4,
+        "position": 11,
+        "parentId": null
+      },
+      {
+        "id": "1534934264871911435",
+        "name": "🎫 SOPORTE",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1534633618180411544",
+        "name": "8-𝕍𝕠𝕚𝕔𝕖 🧸ྀི",
+        "type": 2,
+        "position": 7,
+        "parentId": "1534629321019228391"
+      },
+      {
+        "id": "1534629321019228391",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1534636144174694623",
+        "name": "➕ Creator Channel",
+        "type": 2,
+        "position": 0,
+        "parentId": "1534636142350041318"
+      },
+      {
+        "id": "1534636142350041318",
+        "name": "TEMPVOICE CATEGORY",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1534933114025935048",
+        "name": "📌 INFORMACIÓN",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1534932530019565788",
+        "name": "🎬・✦-𝙲𝙻𝙸𝙿𝚂-✦𝔾𝕚𝕣𝕝𝕤-💖",
+        "type": 0,
+        "position": 1,
+        "parentId": "1534934011523366922"
+      },
+      {
+        "id": "1535698518667431946",
+        "name": "𒆜【-🌆-】-𝔞𝔣𝔱𝔢𝔯𝔤𝔩𝔬𝔮-𝔠𝔥𝔯𝔬𝔫𝔦𝔠𝔩𝔢𝔰",
+        "type": 15,
+        "position": 3,
+        "parentId": "1534933493187084428"
+      },
+      {
+        "id": "1537198512796602530",
+        "name": "eve🐣",
+        "type": 2,
+        "position": 0,
+        "parentId": "1537198392017555496"
+      },
+      {
+        "id": "1534932622902427821",
+        "name": "𒆜🤫・𝓒𝓸𝓷𝓯𝓮𝓼𝓲𝓸𝓷𝓮𝓼",
+        "type": 0,
+        "position": 2,
+        "parentId": "1534933493187084428"
+      },
+      {
+        "id": "1537240851271389234",
+        "name": "💎𝖍𝖎𝖌𝖍-𝖈𝖑𝖆𝖘𝖘-𝖈𝖍𝖆𝖙",
+        "type": 0,
+        "position": 5,
+        "parentId": "1534933493187084428"
+      },
+      {
+        "id": "1536698048430735471",
+        "name": "𝓓𝓾𝓵𝓬𝓮-𝓭𝓮-𝓵𝓮𝓬𝓱𝓮-🍭",
+        "type": 2,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1534995356230877245",
+        "name": "9-𝕍𝕠𝕚𝕔𝕖 ⋆˚✿🍒𐙚⋆˚",
+        "type": 2,
+        "position": 8,
+        "parentId": "1534629321019228391"
+      },
+      {
+        "id": "1534660353001001021",
+        "name": "𒆜ᴀᴘᴇʟᴀᴄɪᴏɴᴇs-⚖️",
+        "type": 0,
+        "position": 2,
+        "parentId": "1534934264871911435"
+      },
+      {
+        "id": "1534933493187084428",
+        "name": "💬 COMUNIDAD",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1534655082308829275",
+        "name": "Tickets",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1536037359471165512",
+        "name": "𒆜🌙-𝙿𝚁𝙴𝚂𝙴𝙽𝚃𝙰𝙲𝙸𝙾𝙽𝙴𝚂",
+        "type": 0,
+        "position": 4,
+        "parentId": "1534933493187084428"
+      },
+      {
+        "id": "1534659164326985932",
+        "name": "cmd",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1536436319314780342",
+        "name": "★fanta★",
+        "type": 2,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1534932376994709654",
+        "name": "📸・✦-𝙵𝙾𝚃𝙾𝚂-✦",
+        "type": 0,
+        "position": 0,
+        "parentId": "1534934011523366922"
+      },
+      {
+        "id": "1534632403342069862",
+        "name": "1-𝕍𝕠𝕚𝕔𝕖‧₊˚ ☁️⋅♡🪐༘⋆",
+        "type": 2,
+        "position": 0,
+        "parentId": "1534629321019228391"
+      },
+      {
+        "id": "1536485864203354193",
+        "name": "EVENTOS ˖°𓇼🌊⋆🐚🫧",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1534633410642055382",
+        "name": "7-𝕍𝕠𝕚𝕔𝕖 ˚.🎀༘⋆",
+        "type": 2,
+        "position": 6,
+        "parentId": "1534629321019228391"
+      },
+      {
+        "id": "1534995596946178128",
+        "name": "11-𝕍𝕠𝕚𝕔𝕖 ˚⊱🪷⊰˚",
+        "type": 2,
+        "position": 10,
+        "parentId": "1534629321019228391"
+      },
+      {
+        "id": "1534633369273368758",
+        "name": "6-𝕍𝕠𝕚𝕔𝕖 ⋆.˚✮🎧✮˚.⋆",
+        "type": 2,
+        "position": 5,
+        "parentId": "1534629321019228391"
+      },
+      {
+        "id": "1536411822914015262",
+        "name": "ꮭꮛꭷꮆꮥᴳᴼᴰ",
+        "type": 2,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1534945409603207219",
+        "name": "🎵-musica",
+        "type": 0,
+        "position": 5,
+        "parentId": "1534934011523366922"
+      },
+      {
+        "id": "1535298151374782544",
+        "name": "🐐🔥",
+        "type": 2,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1534633319856078898",
+        "name": "5-𝕍𝕠𝕚𝕔𝕖 💗⃝🌕",
+        "type": 2,
+        "position": 4,
+        "parentId": "1534629321019228391"
+      },
+      {
+        "id": "1535221415631126539",
+        "name": "🧸𝓐𝓷𝓭𝓻𝓮𝓪✮⋆˙ִֶָ🪽་༘",
+        "type": 2,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1536469899348811916",
+        "name": "🐾𝑷𝒐𝒌𝒆́𝒎𝒐𝒏-𝑪𝒆𝒏𝒕𝒆𝒓✨",
+        "type": 0,
+        "position": 8,
+        "parentId": "1534934011523366922"
+      },
+      {
+        "id": "1537024558370918400",
+        "name": "rules",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1534795044530163772",
+        "name": "𒆜ʙɪᴇɴᴠᴇɴɪᴅᴀs-💫",
+        "type": 0,
+        "position": 0,
+        "parentId": "1534933114025935048"
+      },
+      {
+        "id": "1536076715837624441",
+        "name": "ticket-0002",
+        "type": 0,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1534934011523366922",
+        "name": "🎨 MULTIMEDIA",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1535162701154619522",
+        "name": "𒆜・✦-𝙼𝙴𝙼𝙴𝚂-✦-😂",
+        "type": 0,
+        "position": 3,
+        "parentId": "1534934011523366922"
+      },
+      {
+        "id": "1534629321019228390",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1536178741187837973",
+        "name": "security-log",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1537216627890987160",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1537182349723439144"
+      },
+      {
+        "id": "1535279615952687174",
+        "name": "📱𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖-💜",
+        "type": 0,
+        "position": 7,
+        "parentId": "1534934011523366922"
+      },
+      {
+        "id": "1536439747860504666",
+        "name": "Karaoke ݁♬⋆.˚𝄞",
+        "type": 2,
+        "position": 0,
+        "parentId": "1536485864203354193"
+      },
+      {
+        "id": "1534940621213798562",
+        "name": "💎・𝙋𝙀𝙍𝙎𝙊𝙉𝘼𝙇𝙄𝙕𝘼𝘾𝙄𝙊𝙉",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1534633067489132694",
+        "name": "4-𝕍𝕠𝕚𝕔𝕖 ˚˖𓍢ִ🍓. ݁𐙚",
+        "type": 2,
+        "position": 3,
+        "parentId": "1534629321019228391"
+      },
+      {
+        "id": "1537182355700191313",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1537182349723439144"
+      },
+      {
+        "id": "1534807982481604690",
+        "name": "✨・𝙀𝙇𝙄𝙂𝙀-𝙏𝙐-𝙍𝙊𝙇",
+        "type": 0,
+        "position": 0,
+        "parentId": "1534940621213798562"
+      },
+      {
+        "id": "1536408205477806200",
+        "name": "ticket-0003",
+        "type": 0,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1534995668903530727",
+        "name": "12-𝕍𝕠𝕚𝕔𝕖 ִֶָ🪽་༘",
+        "type": 2,
+        "position": 11,
+        "parentId": "1534629321019228391"
+      },
+      {
+        "id": "1534788452460007475",
+        "name": "𒆜𝐑𝐄𝐆𝐋𝐀𝐒-📜",
+        "type": 0,
+        "position": 3,
+        "parentId": "1534933114025935048"
+      },
+      {
+        "id": "1537024558370918403",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1534932666447822850",
+        "name": "🎨・✦-𝙲𝚁𝙴𝙰𝙲𝙸𝙾𝙽𝙴𝚂-✦",
+        "type": 0,
+        "position": 4,
+        "parentId": "1534934011523366922"
+      },
+      {
+        "id": "1534655169722056776",
+        "name": "☆sᴜᴘᴘᴏʀᴛ",
+        "type": 0,
+        "position": 0,
+        "parentId": "1534655082308829275"
+      },
+      {
+        "id": "1535677220402634872",
+        "name": "first class",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1534633001923772596",
+        "name": "3-𝕍𝕠𝕚𝕔𝕖 ꫂ❁",
+        "type": 2,
+        "position": 2,
+        "parentId": "1534629321019228391"
+      },
+      {
+        "id": "1535211722502311969",
+        "name": "🌸-♡-𝒩𝑒𝓀𝑜𝓉𝒾𝓃𝒶-♡",
+        "type": 0,
+        "position": 6,
+        "parentId": "1534934011523366922"
+      },
+      {
+        "id": "1536487639879000094",
+        "name": "୨୧・𝕸𝖚𝖉𝖆𝖊・୨୧",
+        "type": 0,
+        "position": 9,
+        "parentId": "1534934011523366922"
+      },
+      {
+        "id": "1534658474359918692",
+        "name": "𒆜𝐀𝐥𝒊𝐚𝐧𝒛𝐚𝐬-🤝",
+        "type": 0,
+        "position": 1,
+        "parentId": "1534934264871911435"
+      },
+      {
+        "id": "1534656861226405940",
+        "name": "𒆜ᴄᴏᴍᴘʀᴀs-🛒",
+        "type": 0,
+        "position": 4,
+        "parentId": "1534934264871911435"
+      },
+      {
+        "id": "1534632949104771172",
+        "name": "2-𝕍𝕠𝕚𝕔𝕖 𓍢ִ໋🌷͙֒",
+        "type": 2,
+        "position": 1,
+        "parentId": "1534629321019228391"
+      },
+      {
+        "id": "1534933616151494686",
+        "name": "𒆜🌐・𝙎𝙊𝘾𝙄𝘼𝙇",
+        "type": 0,
+        "position": 0,
+        "parentId": "1534933493187084428"
+      },
+      {
+        "id": "1536529648576372836",
+        "name": "🇧🇷",
+        "type": 11,
+        "parentId": "1534795044530163772"
+      },
+      {
+        "id": "1535210568489766982",
+        "name": "Y",
+        "type": 12,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1535299020849680446",
+        "name": "Confession Replies (#13)",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1535303183591809084",
+        "name": "A puntito le q le rueguen",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1535362778926284890",
+        "name": "Ji",
+        "type": 12,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1535453767778963456",
+        "name": "Me gusta naim",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1535655162264420475",
+        "name": "Confession Replies (#32)",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1535679472924360804",
+        "name": "Extraño cuando dormia en llamada",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1535681065258323978",
+        "name": "Ya pero conoces Lou ?",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1536110402897715313",
+        "name": "Confession Replies (#44)",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1536115207452102717",
+        "name": "Confession Replies (#46)",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1536122168176279603",
+        "name": "Confession Replies (#48)",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1536133369958629408",
+        "name": "Confession Replies (#50)",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1536159001748967496",
+        "name": "Confession Replies (#51)",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1536326494693883907",
+        "name": "Confession Replies (#52)",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1536434289686618142",
+        "name": "Me negaron por discord",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1537119945282822238",
+        "name": "Confession Replies (#61)",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1537120134328614983",
+        "name": "Confession Replies (#62)",
+        "type": 11,
+        "parentId": "1534932622902427821"
+      },
+      {
+        "id": "1536881935165694042",
+        "name": "NOCHE DE PELIS",
+        "type": 11,
+        "parentId": "1534933363339690115"
+      },
+      {
+        "id": "1535709193527492628",
+        "name": "Horóscopo 🧚 8/8/26",
+        "type": 11,
+        "parentId": "1535698518667431946"
+      },
+      {
+        "id": "1535734754098286602",
+        "name": "🔮 2. Misterio y Paranormal【 🕯️ 】 ʜɪsᴛᴏʀɪᴀs-ᴅᴇ-ᴛᴇʀʀᴏʀ",
+        "type": 11,
+        "parentId": "1535698518667431946"
+      },
+      {
+        "id": "1535774687500705863",
+        "name": "🍓 Sabores y Recetas🍒",
+        "type": 11,
+        "parentId": "1535698518667431946"
+      },
+      {
+        "id": "1536146651889008750",
+        "name": "Dulce de leche",
+        "type": 11,
+        "parentId": "1536037359471165512"
+      },
+      {
+        "id": "1536549253244129321",
+        "name": "Leyla",
+        "type": 11,
+        "parentId": "1536037359471165512"
+      },
+      {
+        "id": "1537130231695941773",
+        "name": "Enlace de investasi",
+        "type": 11,
+        "parentId": "1537024558370918400"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1534899018142978049",
+        "name": "💚 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑴𝒂𝒊𝒏",
+        "color": 0,
+        "permissions": "0",
+        "position": 165,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899696084975696",
+        "name": "💎 𝑹𝒐𝒚𝒂𝒍𝒕𝒚",
+        "color": 0,
+        "permissions": "0",
+        "position": 148,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901846760620092",
+        "name": "🔒 『𝑴𝒊 𝑼́𝒏𝒊𝒄𝒐』",
+        "color": 0,
+        "permissions": "0",
+        "position": 96,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901842897801306",
+        "name": "❤️ 𝑭𝒊𝒆𝒍",
+        "color": 0,
+        "permissions": "0",
+        "position": 101,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899390253236245",
+        "name": "『🔥 𝑻𝒐𝒑 500』",
+        "color": 0,
+        "permissions": "0",
+        "position": 152,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535926319773126696",
+        "name": "🇸🇻",
+        "color": 0,
+        "permissions": "0",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899012602167347",
+        "name": "🦸 𝑴𝒂𝒓𝒗𝒆𝒍 𝑹𝒊𝒗𝒂𝒍𝒔",
+        "color": 0,
+        "permissions": "0",
+        "position": 172,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1534901219162587276",
+        "name": "♀️ 𝑴𝒖𝒋𝒆𝒓",
+        "color": 11342935,
+        "permissions": "0",
+        "position": 119,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1537228203452538995",
+        "name": "📢 𝑵𝒆𝒘𝒔",
+        "color": 0,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535935440735965214",
+        "name": "🇰🇵",
+        "color": 0,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534898510011568138",
+        "name": "『💀 𝑲𝒊𝒍𝒍𝒆𝒓』",
+        "color": 0,
+        "permissions": "0",
+        "position": 176,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534900319580848279",
+        "name": "💫 𝑨𝒍𝒊𝒂𝒅𝒐",
+        "color": 0,
+        "permissions": "0",
+        "position": 131,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534898510745567315",
+        "name": "『🏆 𝑾𝒊𝒏𝒏𝒆𝒓』",
+        "color": 0,
+        "permissions": "0",
+        "position": 175,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899019762106441",
+        "name": "💀 𝑪𝒂𝒓𝒓𝒚",
+        "color": 0,
+        "permissions": "0",
+        "position": 163,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901105425776681",
+        "name": "✨ 𝑩𝒆𝒍𝒍𝒆𝒛𝒂",
+        "color": 0,
+        "permissions": "0",
+        "position": 122,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899942030704670",
+        "name": "🕊️ 𝑨𝒄𝒐𝒎𝒑𝒂𝒏̃𝒂𝒏𝒕𝒆",
+        "color": 0,
+        "permissions": "0",
+        "position": 136,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901495407841410",
+        "name": "🔥 𝑻𝒓𝒂𝒗𝒊𝒆𝒔𝒐",
+        "color": 0,
+        "permissions": "3072",
+        "position": 106,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534900320566771723",
+        "name": "🧠 𝑴𝒆𝒏𝒕𝒐𝒓",
+        "color": 0,
+        "permissions": "0",
+        "position": 130,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534897439008620797",
+        "name": "🌟 𝑴𝒆𝒎𝒃𝒆𝒓",
+        "color": 16638834,
+        "permissions": "137439216657",
+        "position": 201,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1534899700233404606",
+        "name": "💫 𝑬𝒍𝒊𝒕𝒆 𝑹𝒐𝒚𝒂𝒍",
+        "color": 0,
+        "permissions": "0",
+        "position": 143,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535926396918960128",
+        "name": "🇭🇳",
+        "color": 0,
+        "permissions": "0",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534898039813177415",
+        "name": "🤖 𝑩𝒐𝒕",
+        "color": 9633789,
+        "permissions": "0",
+        "position": 194,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534898507675340810",
+        "name": "🧟 𝑴𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕 𝑯𝒐𝒓𝒓𝒐𝒓",
+        "color": 0,
+        "permissions": "0",
+        "position": 181,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1537240612678406274",
+        "name": "nuevo rol",
+        "color": 0,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535926506990075914",
+        "name": "🇻🇪",
+        "color": 0,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899938339721308",
+        "name": "👑 𝑸𝒖𝒆𝒆𝒏",
+        "color": 0,
+        "permissions": "2863540629540432",
+        "position": 142,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1535160583748591636",
+        "name": "🔞 +18",
+        "color": 0,
+        "permissions": "0",
+        "position": 73,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901144214569000",
+        "name": "🌹 𝑨𝒏𝒈𝒆𝒍",
+        "color": 0,
+        "permissions": "0",
+        "position": 121,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534900317261660240",
+        "name": "💎 𝑺𝒂𝒃𝒊𝒐",
+        "color": 0,
+        "permissions": "0",
+        "position": 134,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535925467536818297",
+        "name": "🇨🇱",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 58,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901843644125405",
+        "name": "🔐 𝑭𝒊𝒆𝒍 𝒅𝒆 𝑪𝒐𝒓𝒂𝒛𝒐́𝒏",
+        "color": 0,
+        "permissions": "0",
+        "position": 99,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534898170285396058",
+        "name": "☾ 𝑵𝒊𝒈𝒉𝒕 ☽",
+        "color": 17663,
+        "permissions": "0",
+        "position": 184,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535926341973844008",
+        "name": "🇬🇹",
+        "color": 0,
+        "permissions": "0",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534900722561323008",
+        "name": "💕 𝑪𝒖𝒕𝒊𝒆",
+        "color": 0,
+        "permissions": "0",
+        "position": 123,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899940944384070",
+        "name": "🌿 𝑨𝒚𝒖𝒅𝒂𝒏𝒕𝒆",
+        "color": 0,
+        "permissions": "0",
+        "position": 137,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535936054601850911",
+        "name": "nuevo rol",
+        "color": 0,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534897755317600379",
+        "name": "🌙 𝑵𝒊𝒈𝒉𝒕",
+        "color": 6095103,
+        "permissions": "1040",
+        "position": 197,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1534900721231593653",
+        "name": "🌹 𝑯𝒆𝒓𝒎𝒐𝒔𝒐",
+        "color": 0,
+        "permissions": "0",
+        "position": 127,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535936048234893373",
+        "name": "🇫🇷",
+        "color": 0,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534898168700076092",
+        "name": "🔫 𝑭𝒐𝒓𝒕𝒏𝒊𝒕𝒆",
+        "color": 5036449,
+        "permissions": "1040",
+        "position": 188,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1535648340216381592",
+        "name": "♕",
+        "color": 11027200,
+        "permissions": "1157762151501008",
+        "position": 205,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535160416848715886",
+        "name": "⛔ -18",
+        "color": 0,
+        "permissions": "0",
+        "position": 74,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899014946914304",
+        "name": "⚔️ 𝑹𝒂𝒏𝒌𝒆𝒅 𝑷𝒍𝒂𝒚𝒆𝒓",
+        "color": 0,
+        "permissions": "0",
+        "position": 171,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535935470247092324",
+        "name": "🇮🇩",
+        "color": 0,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535935470368722985",
+        "name": "🇹🇭",
+        "color": 0,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535214447189299210",
+        "name": "🎀 𝓗𝓮𝓵𝓵𝓸 𝓚𝓲𝓽𝓽𝔂",
+        "color": 15277667,
+        "permissions": "1711916271980113",
+        "position": 70,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534898511936749628",
+        "name": "『⚡ 𝑺𝒘𝒆𝒂𝒕』",
+        "color": 0,
+        "permissions": "0",
+        "position": 173,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899698123538553",
+        "name": "🏰 𝑲𝒊𝒏𝒈𝒅𝒐𝒎",
+        "color": 0,
+        "permissions": "0",
+        "position": 147,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901852372471889",
+        "name": "💍 『𝑪𝒐𝒎𝒑𝒓𝒐𝒎𝒊𝒔𝒐』",
+        "color": 0,
+        "permissions": "0",
+        "position": 95,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534898509000478780",
+        "name": "🪖 𝑨𝒓𝒎𝒂",
+        "color": 0,
+        "permissions": "0",
+        "position": 178,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535935475032789085",
+        "name": "🇨🇦",
+        "color": 0,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535925765689057342",
+        "name": "🇨🇺",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899389125103746",
+        "name": "『💀 𝑪𝒍𝒖𝒕𝒄𝒉 𝑷𝒍𝒂𝒚𝒆𝒓』",
+        "color": 0,
+        "permissions": "0",
+        "position": 154,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899388080722031",
+        "name": "🛡️ 𝑮𝒖𝒂𝒓𝒅𝒊𝒂𝒏",
+        "color": 0,
+        "permissions": "0",
+        "position": 156,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534954788385456279",
+        "name": "✦ 𝙀𝙇 𝙎𝙃𝙊𝙒 ✦",
+        "color": 0,
+        "permissions": "0",
+        "position": 77,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899016754532493",
+        "name": "🎯 𝑨𝒊𝒎 𝑴𝒂𝒔𝒕𝒆𝒓",
+        "color": 0,
+        "permissions": "0",
+        "position": 168,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901218424524942",
+        "name": "♂️ 𝑯𝒐𝒎𝒃𝒓𝒆",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 120,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1534899018776182995",
+        "name": "👑 𝑴𝑽𝑷",
+        "color": 0,
+        "permissions": "0",
+        "position": 164,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901220257435710",
+        "name": "💫 𝑷𝒓𝒆𝒇𝒊𝒆𝒓𝒐 𝑵𝒐 𝑫𝒆𝒄𝒊𝒓",
+        "color": 0,
+        "permissions": "0",
+        "position": 117,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535925690120273990",
+        "name": "🇨🇷",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 56,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535936050705207316",
+        "name": "🇮🇹",
+        "color": 0,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535926396990398605",
+        "name": "🇳🇮",
+        "color": 0,
+        "permissions": "0",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535926503852998756",
+        "name": "🇵🇷",
+        "color": 0,
+        "permissions": "0",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899699172249700",
+        "name": "✨ 𝑹𝒐𝒚𝒂𝒍 𝑴𝒂𝒋𝒆𝒔𝒕𝒚",
+        "color": 0,
+        "permissions": "0",
+        "position": 145,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535935472625520641",
+        "name": "🇸🇬",
+        "color": 0,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534898511743811614",
+        "name": "『🔥 𝑷𝒓𝒐』",
+        "color": 0,
+        "permissions": "0",
+        "position": 174,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535926510601642077",
+        "name": "🇯🇵",
+        "color": 0,
+        "permissions": "0",
+        "position": 41,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536543224443830424",
+        "name": "Miembro",
+        "color": 3447003,
+        "permissions": "1024",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534898161775149066",
+        "name": "☆ 𝑺𝒕𝒂𝒓 ☆",
+        "color": 16771964,
+        "permissions": "0",
+        "position": 193,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901220630855860",
+        "name": "🫶 𝑻𝒐𝒅𝒐𝒔 𝑺𝒐𝒏 𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐𝒔",
+        "color": 0,
+        "permissions": "0",
+        "position": 116,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535935471157383288",
+        "name": "🇲🇾",
+        "color": 0,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535996065642184724",
+        "name": "🇸🇰",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534900721667932312",
+        "name": "👸 𝑹𝒆𝒊𝒏𝒂 𝒅𝒆 𝑩𝒆𝒍𝒍𝒆𝒛𝒂",
+        "color": 0,
+        "permissions": "0",
+        "position": 125,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534900721244176394",
+        "name": "👑 𝑹𝒆𝒚 𝒅𝒆 𝑩𝒆𝒍𝒍𝒆𝒛𝒂",
+        "color": 0,
+        "permissions": "0",
+        "position": 126,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534902195013681304",
+        "name": "💍 𝑪𝒂𝒔𝒂𝒅𝒐",
+        "color": 0,
+        "permissions": "0",
+        "position": 89,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535926503404216433",
+        "name": "🇵🇪",
+        "color": 11207941,
+        "permissions": "0",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899390379065385",
+        "name": "『🏆 𝑹𝒂𝒏𝒌𝒆𝒅』",
+        "color": 0,
+        "permissions": "0",
+        "position": 151,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534898166615507146",
+        "name": "⚜ 𝑹𝒐𝒚𝒂𝒍 ⚜",
+        "color": 38399,
+        "permissions": "0",
+        "position": 191,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535926506415456256",
+        "name": "🇺🇾",
+        "color": 0,
+        "permissions": "0",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535936054417297528",
+        "name": "nuevo rol",
+        "color": 0,
+        "permissions": "0",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535935473673969714",
+        "name": "🇺🇸",
+        "color": 0,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534902193730093166",
+        "name": "💍 𝑪𝒂𝒔𝒂𝒅𝒂",
+        "color": 15223190,
+        "permissions": "0",
+        "position": 90,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901844705542327",
+        "name": "✨ 𝑰𝒏𝒄𝒐𝒏𝒅𝒊𝒄𝒊𝒐𝒏𝒂𝒍",
+        "color": 0,
+        "permissions": "0",
+        "position": 97,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535926512090619934",
+        "name": "🇰🇷",
+        "color": 0,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535935470247350313",
+        "name": "🇵🇭",
+        "color": 0,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534900319178457168",
+        "name": "🕯️ 𝑪𝒂𝒍𝒎𝒂",
+        "color": 0,
+        "permissions": "0",
+        "position": 132,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901496452354138",
+        "name": "🌑 𝑨𝒏𝒕𝒊𝒉𝒆́𝒓𝒐𝒆",
+        "color": 0,
+        "permissions": "0",
+        "position": 105,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901219548463184",
+        "name": "🌈 𝑶𝒕𝒓𝒐",
+        "color": 0,
+        "permissions": "0",
+        "position": 118,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899942349471795",
+        "name": "🧠 𝑷𝒔𝒊𝒄𝒐́𝒍𝒐𝒈𝒐",
+        "color": 0,
+        "permissions": "0",
+        "position": 135,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1537228212902301726",
+        "name": "🎨 𝑪𝒓𝒆𝒂𝒕𝒐𝒓",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535925560314695690",
+        "name": "🇨🇴",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535936055415668736",
+        "name": "nuevo rol",
+        "color": 0,
+        "permissions": "0",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899021968048148",
+        "name": "⚡ 𝑯𝒆𝒓𝒐 𝑴𝒂𝒊𝒏",
+        "color": 0,
+        "permissions": "0",
+        "position": 158,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534901221570248855",
+        "name": "🔥 𝑷𝒐𝒅𝒆𝒓𝒐𝒔𝒐",
+        "color": 0,
+        "permissions": "0",
+        "position": 114,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899020349182063",
+        "name": "🕷️ 𝑺𝒑𝒊𝒅𝒆𝒓-𝑴𝒂𝒏 𝑴𝒂𝒊𝒏",
+        "color": 0,
+        "permissions": "0",
+        "position": 161,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899021515067523",
+        "name": "🦹 𝑽𝒊𝒍𝒍𝒂𝒊𝒏",
+        "color": 0,
+        "permissions": "0",
+        "position": 159,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899938675130408",
+        "name": "💜 𝑹𝒐𝒚𝒂𝒍 𝑭𝒂𝒎𝒊𝒍𝒚",
+        "color": 0,
+        "permissions": "0",
+        "position": 141,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534902192614670446",
+        "name": "🔒 𝑪𝒐𝒎𝒑𝒓𝒐𝒎𝒆𝒕𝒊𝒅𝒐",
+        "color": 0,
+        "permissions": "0",
+        "position": 92,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534899017350123581",
+        "name": "🛡️ 𝑻𝒂𝒏𝒌 𝑴𝒂𝒊𝒏",
+        "color": 0,
+        "permissions": "0",
+        "position": 167,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534898164627144724",
+        "name": "♛ 𝑲𝒊𝒏𝒈 ♛",
+        "color": 16756224,
+        "permissions": "0",
+        "position": 192,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1786625832436
   },
   "buttons": {
     "antinuke_whitelist_1254101590843854910": {

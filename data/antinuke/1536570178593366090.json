@@ -1,7 +1,544 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1786622237369
+    "channels": [
+      {
+        "id": "1536848553866043392",
+        "name": "꒰・ootw┃✶",
+        "type": 5,
+        "position": 1,
+        "parentId": "1536846357015564338"
+      },
+      {
+        "id": "1536625486896168990",
+        "name": "ೀ・chat﹒general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1536629917314195476"
+      },
+      {
+        "id": "1536855869247979680",
+        "name": "✉・mudae",
+        "type": 0,
+        "position": 1,
+        "parentId": "1536855096552460399"
+      },
+      {
+        "id": "1536849658603905125",
+        "name": "・♡ྀི・gws꒱﹒giveaways",
+        "type": 5,
+        "position": 2,
+        "parentId": "1536846357015564338"
+      },
+      {
+        "id": "1536631137059868732",
+        "name": "୨୧・commandos﹒bots・꒱",
+        "type": 0,
+        "position": 2,
+        "parentId": "1536629917314195476"
+      },
+      {
+        "id": "1536885610994860095",
+        "name": "౨ৎ・boosts",
+        "type": 0,
+        "position": 0,
+        "parentId": "1536638727365992488"
+      },
+      {
+        "id": "1536601266472488970",
+        "name": "݁　　ॱ 　　 ݁",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1536639317735251968",
+        "name": "t s 𐦯",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1536573838996017203",
+        "name": "𝄞・ℛulebook",
+        "type": 0,
+        "position": 0,
+        "parentId": "1536570180044464159"
+      },
+      {
+        "id": "1536847327464267897",
+        "name": "ი𐑼・outfits﹒★",
+        "type": 0,
+        "position": 0,
+        "parentId": "1536846357015564338"
+      },
+      {
+        "id": "1536855748884041798",
+        "name": "⌗・gartic",
+        "type": 0,
+        "position": 0,
+        "parentId": "1536855096552460399"
+      },
+      {
+        "id": "1536629670609555477",
+        "name": "੭・weverse",
+        "type": 5,
+        "position": 4,
+        "parentId": "1536601266472488970"
+      },
+      {
+        "id": "1536629917314195476",
+        "name": "݁　　˖　　　۫",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1536850201053106226",
+        "name": "ᛝ⨾𓍢ִ໋・꒰୨୧꒱﹒regras﹒da﹒farm",
+        "type": 5,
+        "position": 3,
+        "parentId": "1536846357015564338"
+      },
+      {
+        "id": "1536881999657042001",
+        "name": "݁　　　　　ⓘ b　　　۫",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1536632042278625381",
+        "name": "݁　　　　　˖　　　۫",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1536891482001379328",
+        "name": "✿・vazamentos﹒dti",
+        "type": 5,
+        "position": 3,
+        "parentId": "1536601266472488970"
+      },
+      {
+        "id": "1536631512164990976",
+        "name": "⋆・redes﹒sociais",
+        "type": 5,
+        "position": 0,
+        "parentId": "1536632042278625381"
+      },
+      {
+        "id": "1536603796279533599",
+        "name": "✦・collabs",
+        "type": 5,
+        "position": 1,
+        "parentId": "1536632042278625381"
+      },
+      {
+        "id": "1536883802021040280",
+        "name": "౨ৎ・booster﹒chat",
+        "type": 0,
+        "position": 3,
+        "parentId": "1536881999657042001"
+      },
+      {
+        "id": "1536846357015564338",
+        "name": "﹒　        　 　 ࣪ 　 ⟢　 ˖   　 　     ࣪",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1536576360129106030",
+        "name": "✶・ℛoles",
+        "type": 0,
+        "position": 3,
+        "parentId": "1536570180044464159"
+      },
+      {
+        "id": "1536602155216015370",
+        "name": "ʚɞ・anuncios",
+        "type": 5,
+        "position": 0,
+        "parentId": "1536601266472488970"
+      },
+      {
+        "id": "1536575402334486559",
+        "name": "☆・𝔀elcomes",
+        "type": 0,
+        "position": 1,
+        "parentId": "1536570180044464159"
+      },
+      {
+        "id": "1536575449872998440",
+        "name": "♡・𝓰oodbyes",
+        "type": 0,
+        "position": 2,
+        "parentId": "1536570180044464159"
+      },
+      {
+        "id": "1536885252356710451",
+        "name": "۶۟ৎ・b┆dti﹒leaks",
+        "type": 5,
+        "position": 2,
+        "parentId": "1536881999657042001"
+      },
+      {
+        "id": "1536884984923824328",
+        "name": "𓏲ּ𝄢・booster﹒suggestions",
+        "type": 15,
+        "position": 0,
+        "parentId": "1536881999657042001"
+      },
+      {
+        "id": "1537201357050745054",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1537201352898257006"
+      },
+      {
+        "id": "1536883975057051758",
+        "name": "☘・booster﹒anncs",
+        "type": 5,
+        "position": 1,
+        "parentId": "1536881999657042001"
+      },
+      {
+        "id": "1536630588134658098",
+        "name": "ꕤ・midia﹒fotos",
+        "type": 0,
+        "position": 1,
+        "parentId": "1536629917314195476"
+      },
+      {
+        "id": "1536638926599618621",
+        "name": "꒰ঌ・tickets・𐦯",
+        "type": 0,
+        "position": 0,
+        "parentId": "1536639317735251968"
+      },
+      {
+        "id": "1536849035384721428",
+        "name": "✧・dti┃farming",
+        "type": 5,
+        "position": 4,
+        "parentId": "1536846357015564338"
+      },
+      {
+        "id": "1536639301733842996",
+        "name": "꒰✿꒱",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1536603444742197308",
+        "name": "಄・novidades﹒dti",
+        "type": 5,
+        "position": 2,
+        "parentId": "1536601266472488970"
+      },
+      {
+        "id": "1536638727365992488",
+        "name": "﹒　        　 　 ࣪ 　 ♡　 ˖   　 　     ࣪",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1536573838996017206",
+        "name": "꒰﹒১・✦﹒໒꒱",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1536603278379585566",
+        "name": "౨ৎ・dti﹒codes",
+        "type": 5,
+        "position": 1,
+        "parentId": "1536601266472488970"
+      },
+      {
+        "id": "1536570180044464159",
+        "name": "ॱ 　　 ݁",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1537201360200536076",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1537201352898257006"
+      },
+      {
+        "id": "1536632346877624390",
+        "name": "݁　　　✦ verify　˖　　　۫",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1536590770234990592",
+        "name": "ᨳଓ・𝓋erification・꒱",
+        "type": 0,
+        "position": 0,
+        "parentId": "1536632346877624390"
+      },
+      {
+        "id": "1536855096552460399",
+        "name": "﹒　       ࣪ 　 　 fun ! ˖   　 　     ࣪",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1537201352898257006",
+        "name": "Aero",
+        "type": 4,
+        "position": 10,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1536583499870507089",
+        "name": "weverse ping",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536641597943582782",
+        "name": "vips",
+        "color": 16763269,
+        "permissions": "0",
+        "position": 26,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1536583517578723409",
+        "name": "chat revive dia ping",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536594022074814535",
+        "name": "sunlight !",
+        "color": 13612418,
+        "permissions": "1720707884371521",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536579568717135963",
+        "name": "ela ⸝ dela",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536639300794589295",
+        "name": "࣪ ♡　  　 　     ࣪",
+        "color": 16777215,
+        "permissions": "2222085186637377",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536583462100803605",
+        "name": "aleatorio ping",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536575861690736680",
+        "name": "dono ⋆˚࿔ santino",
+        "color": 5572102,
+        "permissions": "8",
+        "position": 29,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1536579651059720262",
+        "name": "ele ⸝ dele",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536583518732156928",
+        "name": "chat revive noite ping",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536573369087033454",
+        "name": "manager",
+        "color": 13033713,
+        "permissions": "10172562934975",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536579672249208873",
+        "name": "eles ⸝ elas",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536571621056450691",
+        "name": "Head Admin",
+        "color": 14918059,
+        "permissions": "1721826618638335",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1537200662146842735",
+        "name": "Exclusive Badge",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536582599525400586",
+        "name": "botties",
+        "color": 16777215,
+        "permissions": "8",
+        "position": 35,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1536627121278025749",
+        "name": "brii",
+        "color": 13620199,
+        "permissions": "8",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536626370061275248",
+        "name": "✦ membros ᨳଓ",
+        "color": 16055295,
+        "permissions": "0",
+        "position": 24,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1536641693506342954",
+        "name": "influenciadores",
+        "color": 16764746,
+        "permissions": "0",
+        "position": 27,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1536882122801942578",
+        "name": "boosters",
+        "color": 9213120,
+        "permissions": "137506507841",
+        "position": 25,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1536639299221721089",
+        "name": "﹒　     　 ࣪",
+        "color": 16777215,
+        "permissions": "2222085186637377",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1537200748859883540",
+        "name": "Head Mod",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536641949539242004",
+        "name": "community manager",
+        "color": 11515335,
+        "permissions": "8",
+        "position": 28,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1536594570287124500",
+        "name": "꒰ verificados ! ✶",
+        "color": 16640689,
+        "permissions": "1024",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536583356739747900",
+        "name": "anuncios ping",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536579772711313458",
+        "name": "pedir pronomes",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536583416013787156",
+        "name": "novidades dti ping",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1786625832266
   }
 }

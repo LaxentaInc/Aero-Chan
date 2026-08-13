@@ -1,0 +1,140 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1535990816873521192",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1535990816873521193",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1535990816873521194",
+        "name": "general",
+        "type": 0,
+        "position": 1,
+        "parentId": "1535990816873521192"
+      },
+      {
+        "id": "1535990816873521195",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1535990816873521193"
+      },
+      {
+        "id": "1535992227900170300",
+        "name": "welcome-stranger",
+        "type": 0,
+        "position": 0,
+        "parentId": "1535990816873521192"
+      },
+      {
+        "id": "1535995230833348728",
+        "name": "art",
+        "type": 0,
+        "position": 2,
+        "parentId": "1535990816873521192"
+      },
+      {
+        "id": "1535998034708664340",
+        "name": "diaries",
+        "type": 15,
+        "position": 0,
+        "parentId": "1535998127834931290"
+      },
+      {
+        "id": "1535998127834931290",
+        "name": "3 ragebaiters",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1536257073317150770",
+        "name": "karaoke",
+        "type": 2,
+        "position": 1,
+        "parentId": "1535990816873521193"
+      },
+      {
+        "id": "1536274277911896145",
+        "name": "locking in!",
+        "type": 2,
+        "position": 2,
+        "parentId": "1535990816873521193"
+      },
+      {
+        "id": "1536304523184971816",
+        "name": "mari’s-hell",
+        "type": 0,
+        "position": 3,
+        "parentId": "1535990816873521192"
+      },
+      {
+        "id": "1536679125887225999",
+        "name": "recording studio",
+        "type": 2,
+        "position": 3,
+        "parentId": "1535990816873521193"
+      },
+      {
+        "id": "1537107971929280614",
+        "name": "bot-experiments",
+        "type": 0,
+        "position": 4,
+        "parentId": "1535990816873521192"
+      },
+      {
+        "id": "1535998280910114856",
+        "name": "Mari’s diary",
+        "type": 11,
+        "parentId": "1535998034708664340"
+      },
+      {
+        "id": "1535998616081010688",
+        "name": "~ 𝖍𝖆𝖗𝖚'𝖘 𝖉𝖊𝖆𝖙𝖍𝖓𝖔𝖙𝖊 ~",
+        "type": 11,
+        "parentId": "1535998034708664340"
+      },
+      {
+        "id": "1535999414714368061",
+        "name": "Lucas's Coversss!!!",
+        "type": 11,
+        "parentId": "1535998034708664340"
+      },
+      {
+        "id": "1537041746196697098",
+        "name": "~ 𝖙𝖍𝖊 𝖘𝖔𝖓𝖌𝖇𝖎𝖗𝖉 𝖈𝖆𝖌𝖊 🕊️  ~",
+        "type": 11,
+        "parentId": "1535998034708664340"
+      },
+      {
+        "id": "1537446168370479285",
+        "name": "Aero",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1535991709438320700",
+        "name": "BESTIES",
+        "color": 5017037,
+        "permissions": "1721826618638327",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1786626140369
+  }
+}
