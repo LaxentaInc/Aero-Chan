@@ -1,14 +1,6 @@
 import { LavalinkManager } from "lavalink-client";
 // Lavalink node configuration
 const NODES = [{
-  id: 'Lavalink-v4-EU',
-  host: 'lava-v4.ajieblogs.eu.org',
-  port: 443,
-  authorization: 'https://dsc.gg/ajidevserver',
-  secure: true,
-  retryAmount: 3,
-  retryDelay: 153000
-}, {
   id: 'MilloHost',
   host: 'lava-v4.millohost.my.id',
   port: 443,
@@ -22,6 +14,12 @@ const NODES = [{
   port: 2334,
   authorization: 'youshallnotpass',
   secure: false,
+}, {
+  id: 'Serenetia-Secure',
+  host: 'lavalinkv4.serenetia.com',
+  port: 443,
+  authorization: 'https://seretia.link/discord',
+  secure: true,
   retryAmount: 3,
   retryDelay: 153000
 }];
