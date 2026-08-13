@@ -1,19 +1,51 @@
 import { LavalinkManager } from "lavalink-client";
 // Lavalink node configuration
 const NODES = [{
-  id: 'lavalink-primary',
+  id: 'HeavenCloud',
+  host: '89.106.84.59',
+  port: 4000,
+  authorization: 'heavencloud.in',
+  secure: false,
+  retryAmount: 3,
+  retryDelay: 153000
+}, {
+  id: 'DevamOP',
+  host: 'lavalink.devamop.in',
+  port: 443,
+  authorization: 'DevamOP',
+  secure: true,
+  retryAmount: 3,
+  retryDelay: 153000
+}, {
+  id: 'Lavalink-v4-EU',
   host: 'lava-v4.ajieblogs.eu.org',
   port: 443,
   authorization: 'https://dsc.gg/ajidevserver',
   secure: true,
-  retryAmount: 1,
+  retryAmount: 3,
   retryDelay: 153000
 }, {
-  id: 'lavalink-backup-2',
-  host: 'lavalinkv4.serenetia.com',
-  port: 443,
-  authorization: 'https://dsc.gg/ajidevserver',
-  secure: true,
+  id: 'Jirayu',
+  host: 'lavalink.jirayu.net',
+  port: 13592,
+  authorization: 'youshallnotpass',
+  secure: false,
+  retryAmount: 3,
+  retryDelay: 153000
+}, {
+  id: 'NyxBot',
+  host: 'sg1-nodelink.nyxbot.app',
+  port: 3000,
+  authorization: 'nyxbot.app/support',
+  secure: false,
+  retryAmount: 3,
+  retryDelay: 153000
+}, {
+  id: 'TriniumHost',
+  host: 'lavalink.triniumhost.com',
+  port: 4333,
+  authorization: 'free',
+  secure: false,
   retryAmount: 3,
   retryDelay: 153000
 }];
