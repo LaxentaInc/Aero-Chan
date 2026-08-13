@@ -48,21 +48,33 @@ function truncate(str: any, maxLength: any) {
 }
 
 /**
+ * Build a text-character progress bar (Discord embeds can't render
+ * an actual slider, so this is the closest approximation).
+ */
+function buildProgressBar(position: any, duration: any, length: number = 14) {
+  if (!duration || duration <= 0) return '─'.repeat(length);
+  const ratio = Math.min(Math.max(position / duration, 0), 1);
+  const filledCount = Math.round(ratio * length);
+  const filled = '━'.repeat(filledCount);
+  const empty = '─'.repeat(Math.max(length - filledCount, 0));
+  return `${filled}${empty}`;
+}
+
+/**
  * Create control buttons for the player
+ * No emoji — labels only, matches the rest of the embed styling.
  */
 function createControlButtons(player: any, disabled: boolean = false) {
-  const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
-
   const row1 = new ActionRowBuilder().addComponents(
-    new ButtonBuilder().setCustomId('music_pause_resume').setLabel(player.paused ? 'Resume' : 'Pause').setEmoji('⏸️').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_skip').setLabel('Skip').setEmoji('⏭️').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_loop').setLabel('Loop').setEmoji('🔁').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_shuffle').setLabel('Shuffle').setEmoji('🔀').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
+    new ButtonBuilder().setCustomId('music_pause_resume').setLabel(player.paused ? 'Resume' : 'Pause').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_skip').setLabel('Skip').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_loop').setLabel('Loop').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_shuffle').setLabel('Shuffle').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
   );
 
   const row2 = new ActionRowBuilder().addComponents(
-    new ButtonBuilder().setCustomId('music_autoplay').setLabel('Autoplay').setEmoji('🎵').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_stop').setLabel('End session').setEmoji('⏹️').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
+    new ButtonBuilder().setCustomId('music_autoplay').setLabel('Autoplay').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_stop').setLabel('End session').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
   );
 
   return [row1, row2];
@@ -70,30 +82,37 @@ function createControlButtons(player: any, disabled: boolean = false) {
 
 /**
  * Create the Now Playing embed
+ *
+ * Notes on what actually renders in Discord (unlike a custom mockup):
+ * - Field NAMES are always bold and can't take markdown like "-# " —
+ *   so labels are just plain short words, capitalized normally.
+ * - "# " large-heading markdown only works in the top-level description,
+ *   which is why the title still uses .setTitle() instead.
+ * - There's no real progress slider; buildProgressBar() fakes one with
+ *   block characters, which is the standard approach for embeds.
  */
 function createNowPlayingEmbed(track: any, player: any, client: any) {
-  let durationString = formatTime(track.duration || 0);
-  if (track.isStream) durationString = 'Live';
+  const durationString = formatTime(track.duration || 0);
+  const positionString = formatTime(player?.position || 0);
   const requester = track.requester ? `<@${track.requester.id || track.requester}>` : 'Auto-play';
   const sourceInfo = SOURCE_INFO[track.sourceName] || SOURCE_INFO.http;
 
-  const progressBar = track.isStream 
-    ? `🔴 **LIVE STREAM**` 
-    : `**━━━━━━🔘━━━━━━━━━━━━━━━━━━━━━━━━**\n-# 0:00 \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b ${durationString}`;
+  const progressLine = track.isStream
+    ? 'Live stream'
+    : `${buildProgressBar(player?.position || 0, track.duration || 0)}\n${positionString} · ${durationString}`;
 
   const embed = new EmbedBuilder()
-    .setColor('#2b2d31')
-    .setAuthor({ name: '▷ NOW PLAYING' })
-    .setDescription(`# ${truncate(track.title, 256)}\n\n-# ARTIST\n**${track.author}**\n\n${progressBar}`)
+    .setAuthor({ name: 'Now playing' })
+    .setDescription(`**Artist**\n${track.author}\n\n${progressLine}`)
     .addFields(
-      { name: '-# SOURCE', value: `🟢 ${sourceInfo.name}`, inline: true },
-      { name: '-# REQUESTED BY', value: requester, inline: true }
+      { name: 'Source', value: sourceInfo.name, inline: true },
+      { name: 'Requested by', value: requester, inline: true }
     )
     .setTimestamp();
 
-  if (track.artworkUrl) {
-    embed.setThumbnail(track.artworkUrl);
-  }
+  if (track.title) embed.setTitle(truncate(track.title, 256));
+  if (track.uri) embed.setURL(track.uri);
+  if (track.artworkUrl) embed.setThumbnail(track.artworkUrl);
 
   return embed;
 }
@@ -125,7 +144,6 @@ function createSearchEmbed(tracks: any, query: any, interaction: any) {
  * Create success embed after track selection
  */
 function createTrackAddedEmbed(track: any, player: any, isPlaying: any, user: any) {
-  const sourceInfo = SOURCE_INFO[track.sourceName] || SOURCE_INFO.http;
   return new EmbedBuilder().setAuthor({
     name: isPlaying ? 'Now playing' : 'Added to queue',
     iconURL: CUSTOM_ICON
@@ -360,12 +378,13 @@ function createGenericErrorEmbed(title: any, description: any) {
   }).setDescription(description).setTimestamp();
 }
 
-export { CUSTOM_ICON, SOURCE_INFO, formatTime, truncate, createControlButtons, createNowPlayingEmbed, createSearchEmbed, createTrackAddedEmbed, createQueueEndEmbed, createQueueEmbed, createEnhancedQueueEmbed, createErrorEmbed, createGenericErrorEmbed, createLoadingEmbed, createSkipEmbed, createStopEmbed, createPauseEmbed, createLoopEmbed, createClearEmbed, createDisconnectEmbed, createPlayResponseEmbed };
+export { CUSTOM_ICON, SOURCE_INFO, formatTime, truncate, buildProgressBar, createControlButtons, createNowPlayingEmbed, createSearchEmbed, createTrackAddedEmbed, createQueueEndEmbed, createQueueEmbed, createEnhancedQueueEmbed, createErrorEmbed, createGenericErrorEmbed, createLoadingEmbed, createSkipEmbed, createStopEmbed, createPauseEmbed, createLoopEmbed, createClearEmbed, createDisconnectEmbed, createPlayResponseEmbed };
 export default {
   CUSTOM_ICON,
   SOURCE_INFO,
   formatTime,
   truncate,
+  buildProgressBar,
   createControlButtons,
   createNowPlayingEmbed,
   createSearchEmbed,
