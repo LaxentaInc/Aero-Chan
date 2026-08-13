@@ -1,0 +1,57 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1447000674045923378",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1447000674045923379",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1447000674045923378"
+      },
+      {
+        "id": "1447000674045923380",
+        "name": "games",
+        "type": 0,
+        "position": 1,
+        "parentId": "1447000674045923378"
+      },
+      {
+        "id": "1447000674045923381",
+        "name": "music",
+        "type": 0,
+        "position": 2,
+        "parentId": "1447000674045923378"
+      },
+      {
+        "id": "1447000674045923382",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1447000674045923383",
+        "name": "Lounge",
+        "type": 2,
+        "position": 0,
+        "parentId": "1447000674045923382"
+      },
+      {
+        "id": "1447000674045923384",
+        "name": "Stream Room",
+        "type": 2,
+        "position": 1,
+        "parentId": "1447000674045923382"
+      }
+    ],
+    "roles": [],
+    "updated": 1786611511892
+  }
+}

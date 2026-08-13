@@ -1,0 +1,322 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1531302615642804265",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1531302615642804266",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1531302615642804267",
+        "name": "𝐂hat⋆‧°𓏲ּ𝄢",
+        "type": 0,
+        "position": 0,
+        "parentId": "1531302615642804265"
+      },
+      {
+        "id": "1531302615642804268",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1531302615642804266"
+      },
+      {
+        "id": "1531304454467489885",
+        "name": "𝐂ommands⋆˚꩜｡",
+        "type": 0,
+        "position": 1,
+        "parentId": "1531302615642804265"
+      },
+      {
+        "id": "1531307186171416586",
+        "name": "𝐆ames",
+        "type": 0,
+        "position": 2,
+        "parentId": "1531302615642804265"
+      },
+      {
+        "id": "1531337643609165865",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1531337643609165868",
+        "name": "moderator-only",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1531354664946241536",
+        "name": "🐾 • Interaction",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1531356223637684257",
+        "name": "𝐀dviceᐟᐟ",
+        "type": 0,
+        "position": 0,
+        "parentId": "1531354664946241536"
+      },
+      {
+        "id": "1531356366881689820",
+        "name": "𝐓icket✦",
+        "type": 0,
+        "position": 1,
+        "parentId": "1531354664946241536"
+      },
+      {
+        "id": "1531357037102104766",
+        "name": "Community ꨄ",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1531357793339310130",
+        "name": "greed-mod",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1531357794366783680",
+        "name": "logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1531357793339310130"
+      },
+      {
+        "id": "1531357795474079867",
+        "name": "jail",
+        "type": 0,
+        "position": 1,
+        "parentId": "1531357793339310130"
+      },
+      {
+        "id": "1531625577004662804",
+        "name": "𝐇all-of-fame",
+        "type": 0,
+        "position": 0,
+        "parentId": "1531357037102104766"
+      },
+      {
+        "id": "1531627954763858041",
+        "name": "𝐇all-of-shame",
+        "type": 0,
+        "position": 1,
+        "parentId": "1531357037102104766"
+      },
+      {
+        "id": "1532168055172366346",
+        "name": "𝐑oles｡°✧",
+        "type": 0,
+        "position": 2,
+        "parentId": "1531354664946241536"
+      },
+      {
+        "id": "1532313543297339482",
+        "name": "𝐂olor♪𓈒𓐇˚ִִ𓈒꒱꒱",
+        "type": 0,
+        "position": 3,
+        "parentId": "1531354664946241536"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1532168754803380345",
+        "name": "bots",
+        "color": 0,
+        "permissions": "2098441630069512",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532195078661996595",
+        "name": "ꕀ  she / her   ⌑   ﹒  🍭",
+        "color": 0,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1531357793888763987",
+        "name": "jailed",
+        "color": 0,
+        "permissions": "0",
+        "position": 32,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1532196479484301383",
+        "name": "♡︶︶   ⟢ other  ☕️",
+        "color": 0,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1531357802373841076",
+        "name": "rmute",
+        "color": 0,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532194802131800194",
+        "name": "﹒👺  ﹐ he / him   ﹒♡",
+        "color": 0,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532315653028057210",
+        "name": "︵︵  13-15  ﹐🪡",
+        "color": 0,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1531371158048604262",
+        "name": "Enryus huss",
+        "color": 13014724,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532196119013097492",
+        "name": "⸝⸝ㆍ  ♩　they / them 　˃˂",
+        "color": 0,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532188453348049136",
+        "name": "♪  ͜͝ ̣̣̥|🩸⠀f❀male⠀𓂃 ࣪˖✦",
+        "color": 0,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532315767532683295",
+        "name": "◦  16-17   ・  ♡",
+        "color": 0,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532188430862123019",
+        "name": "|˖̑͡👻 ៸៸ ⠀male⠀✚ ͝",
+        "color": 0,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1531624889319166203",
+        "name": "huss members",
+        "color": 15384762,
+        "permissions": "111022827739841",
+        "position": 22,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1532188495496478801",
+        "name": "໒ᡣ 𓈒۪۪۫⋅⠀non-binary⠀🥀ᴖᴖ",
+        "color": 0,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532316043089936454",
+        "name": "﹒︵   🀥    18+ ﹕",
+        "color": 0,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532196667556888776",
+        "name": "୨୧ ㆍ  neopronouns   🔪   ◝",
+        "color": 0,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532207474550116482",
+        "name": "mark",
+        "color": 16576125,
+        "permissions": "8192",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532188523124232252",
+        "name": "🍔𓎟𓎟⠀other⠀୨݁𓈒݂ৎ.ᐟ.ᐟ",
+        "color": 0,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1531357801425670325",
+        "name": "imute",
+        "color": 0,
+        "permissions": "0",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1531330373991006308",
+        "name": "admin",
+        "color": 13294821,
+        "permissions": "1721826618638327",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785666851906
+  }
+}

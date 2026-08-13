@@ -254,6 +254,13 @@
         "parentId": "1512920539650592961"
       },
       {
+        "id": "1534624968027930655",
+        "name": "🧺┃super-cowboy-usa-hot-dog-rocket-ship-american-cleaners-number-one",
+        "type": 0,
+        "position": 15,
+        "parentId": "1521176790188560494"
+      },
+      {
         "id": "1521235471747776682",
         "name": "🌟┃rp-livre-1",
         "type": 0,
@@ -387,110 +394,14 @@
         "parentId": "1521176790188560494"
       },
       {
-        "id": "1521175735518232656",
-        "name": "PRECISO DE SUGESTÕES PARA LOCAIS PARA RP",
-        "type": 11,
-        "parentId": "1512931716346675382"
-      },
-      {
-        "id": "1524432918024294502",
-        "name": "abismo",
-        "type": 11,
-        "parentId": "1512931716346675382"
-      },
-      {
-        "id": "1521675648140312696",
-        "name": "Não pode \"/mamar\", \"/macetar\" e nenhum comando libidinoso",
-        "type": 12,
-        "parentId": "1512932467487543447"
-      },
-      {
-        "id": "1524239398961414144",
-        "name": "Sei lá",
-        "type": 12,
-        "parentId": "1512933446325108846"
-      },
-      {
-        "id": "1524250603424059593",
-        "name": "Oxi",
-        "type": 11,
-        "parentId": "1517587231089496126"
-      },
-      {
         "id": "1521645865981186079",
         "name": "Pra que esse canal",
         "type": 11,
         "parentId": "1521645636154425567"
       },
       {
-        "id": "1521652697109889024",
-        "name": "Opa",
-        "type": 11,
-        "parentId": "1521645636154425567"
-      },
-      {
-        "id": "1521652706689683587",
-        "name": "John Doe",
-        "type": 11,
-        "parentId": "1521645636154425567"
-      },
-      {
-        "id": "1521652983538913331",
-        "name": "Tartaruga ninja do esgoto",
-        "type": 11,
-        "parentId": "1521645636154425567"
-      },
-      {
-        "id": "1521653446154129560",
-        "name": "Leido",
-        "type": 11,
-        "parentId": "1521645636154425567"
-      },
-      {
-        "id": "1522006732371525733",
-        "name": "haaland",
-        "type": 11,
-        "parentId": "1521645636154425567"
-      },
-      {
-        "id": "1522018069013205183",
-        "name": "Pedro",
-        "type": 11,
-        "parentId": "1521645636154425567"
-      },
-      {
-        "id": "1522022292358430841",
-        "name": "Satoru gojo",
-        "type": 11,
-        "parentId": "1521645636154425567"
-      },
-      {
         "id": "1522045716116148316",
         "name": "Chineguin Branco",
-        "type": 11,
-        "parentId": "1521645636154425567"
-      },
-      {
-        "id": "1522051713312362638",
-        "name": "Pike mano rodas",
-        "type": 11,
-        "parentId": "1521645636154425567"
-      },
-      {
-        "id": "1522180049443225700",
-        "name": "LONGUS PURPURUS",
-        "type": 11,
-        "parentId": "1521645636154425567"
-      },
-      {
-        "id": "1522310739480674335",
-        "name": "thomps",
-        "type": 11,
-        "parentId": "1521645636154425567"
-      },
-      {
-        "id": "1523762592609337427",
-        "name": "Petróleo",
         "type": 11,
         "parentId": "1521645636154425567"
       },
@@ -505,6 +416,33 @@
         "name": "Alien /cívil/",
         "type": 11,
         "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1532937575637975164",
+        "name": "Dupla dinâmica",
+        "type": 11,
+        "parentId": "1521645636154425567"
+      },
+      {
+        "id": "1537197856220381300",
+        "name": "Aero",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1537197861161279579",
+        "name": "aero-logs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1537197856220381300"
+      },
+      {
+        "id": "1537197864101486632",
+        "name": "aero-alerts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1537197856220381300"
       }
     ],
     "roles": [
@@ -531,52 +469,52 @@
         "name": "Pedra",
         "color": 0,
         "permissions": "40546675924737",
-        "position": 13,
+        "position": 14,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1524529972289605632",
-        "name": "Rubi",
-        "color": 16718619,
+        "name": "Quartzo",
+        "color": 12630482,
         "permissions": "49378269531713",
-        "position": 14,
-        "hoist": true,
-        "mentionable": false
-      },
-      {
-        "id": "1524530990016631046",
-        "name": "Bronze",
-        "color": 12745742,
-        "permissions": "1826262212922945",
         "position": 15,
         "hoist": true,
         "mentionable": false
       },
       {
-        "id": "1524531520206012588",
-        "name": "Prata",
-        "color": 13684944,
-        "permissions": "4359554179006033",
+        "id": "1524530990016631046",
+        "name": "Cobre 🥉",
+        "color": 15105570,
+        "permissions": "1826262212922945",
         "position": 16,
         "hoist": true,
         "mentionable": false
       },
       {
-        "id": "1524531937300054036",
-        "name": "Ouro",
+        "id": "1524531520206012588",
+        "name": "Ouro 🏆",
         "color": 15844367,
-        "permissions": "8864262742605823",
+        "permissions": "4359554179006033",
         "position": 18,
-        "hoist": false,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1524531937300054036",
+        "name": "Esmeralda ➗",
+        "color": 2067276,
+        "permissions": "8864262742605823",
+        "position": 19,
+        "hoist": true,
         "mentionable": false
       },
       {
         "id": "1524532553867067524",
-        "name": "Diamante",
+        "name": "Diamante 💎",
         "color": 5168383,
         "permissions": "8864262742605823",
-        "position": 19,
+        "position": 21,
         "hoist": true,
         "mentionable": false
       },
@@ -599,15 +537,33 @@
         "mentionable": false
       },
       {
-        "id": "1526253733204459611",
-        "name": "Ouro",
-        "color": 15844367,
+        "id": "1533326147335487488",
+        "name": "Não dem nem agua",
+        "color": 6305812,
         "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534367016306344036",
+        "name": "Opala 🔮",
+        "color": 8149445,
+        "permissions": "2895392274545713",
         "position": 17,
         "hoist": true,
         "mentionable": false
+      },
+      {
+        "id": "1536023015958249613",
+        "name": "Rosa",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
       }
     ],
-    "updated": 1785215722629
+    "updated": 1786580461643
   }
 }

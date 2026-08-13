@@ -1,0 +1,568 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1533134669506285738",
+        "name": "Talking",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1533134669506285739",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1533134669506285740",
+        "name": "general",
+        "type": 0,
+        "position": 1,
+        "parentId": "1533134669506285738"
+      },
+      {
+        "id": "1533134669506285741",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1533134669506285739"
+      },
+      {
+        "id": "1533134949987778680",
+        "name": "irl-images",
+        "type": 0,
+        "position": 0,
+        "parentId": "1533138578656460830"
+      },
+      {
+        "id": "1533135225641766972",
+        "name": "Information",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1533135530852614254",
+        "name": "rules",
+        "type": 0,
+        "position": 1,
+        "parentId": "1533135225641766972"
+      },
+      {
+        "id": "1533135577916903454",
+        "name": "harvested-souls-of-hell",
+        "type": 0,
+        "position": 3,
+        "parentId": "1533135225641766972"
+      },
+      {
+        "id": "1533135628068192256",
+        "name": "partners",
+        "type": 0,
+        "position": 4,
+        "parentId": "1533135225641766972"
+      },
+      {
+        "id": "1533137596694265977",
+        "name": "video-games",
+        "type": 0,
+        "position": 4,
+        "parentId": "1533134669506285738"
+      },
+      {
+        "id": "1533137672690860144",
+        "name": "sinkdog-general",
+        "type": 0,
+        "position": 3,
+        "parentId": "1533134669506285738"
+      },
+      {
+        "id": "1533137708044521763",
+        "name": "your-art",
+        "type": 0,
+        "position": 1,
+        "parentId": "1533138578656460830"
+      },
+      {
+        "id": "1533137755700330537",
+        "name": "not-your-art",
+        "type": 0,
+        "position": 2,
+        "parentId": "1533138578656460830"
+      },
+      {
+        "id": "1533138000408744058",
+        "name": "Niche",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1533138190477820056",
+        "name": "memes",
+        "type": 0,
+        "position": 0,
+        "parentId": "1533138000408744058"
+      },
+      {
+        "id": "1533138251399954563",
+        "name": "nsfw",
+        "type": 0,
+        "position": 1,
+        "parentId": "1533138000408744058"
+      },
+      {
+        "id": "1533138578656460830",
+        "name": "Media",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1533139071201837097",
+        "name": "sinkdog-art",
+        "type": 0,
+        "position": 3,
+        "parentId": "1533138578656460830"
+      },
+      {
+        "id": "1533140448523321445",
+        "name": "🎮GAMING (ゲーミング)",
+        "type": 2,
+        "position": 1,
+        "parentId": "1533134669506285739"
+      },
+      {
+        "id": "1533140533524959397",
+        "name": "no-michael-jordan",
+        "type": 0,
+        "position": 0,
+        "parentId": "1533134669506285739"
+      },
+      {
+        "id": "1533144640973177043",
+        "name": "bots",
+        "type": 0,
+        "position": 5,
+        "parentId": "1533134669506285738"
+      },
+      {
+        "id": "1533147134902403273",
+        "name": "roles",
+        "type": 0,
+        "position": 2,
+        "parentId": "1533135225641766972"
+      },
+      {
+        "id": "1533149121500942346",
+        "name": "calls-yay",
+        "type": 0,
+        "position": 6,
+        "parentId": "1533134669506285738"
+      },
+      {
+        "id": "1533162138254704830",
+        "name": "Stupid stuff",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1533373498796540094",
+        "name": "overview",
+        "type": 0,
+        "position": 0,
+        "parentId": "1533135225641766972"
+      },
+      {
+        "id": "1533471366500843591",
+        "name": "🎧MUSIC (音楽)",
+        "type": 2,
+        "position": 2,
+        "parentId": "1533134669506285739"
+      },
+      {
+        "id": "1533672729104879727",
+        "name": "news",
+        "type": 0,
+        "position": 5,
+        "parentId": "1533135225641766972"
+      },
+      {
+        "id": "1533930198859514018",
+        "name": "vent",
+        "type": 0,
+        "position": 7,
+        "parentId": "1533134669506285738"
+      },
+      {
+        "id": "1533983566747406507",
+        "name": "self-talking-channel",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1534096733011705866",
+        "name": "introductions",
+        "type": 0,
+        "position": 0,
+        "parentId": "1533134669506285738"
+      },
+      {
+        "id": "1536675483683651725",
+        "name": "global-chat",
+        "type": 0,
+        "position": 2,
+        "parentId": "1533134669506285738"
+      },
+      {
+        "id": "1533144901993103492",
+        "name": "Confession Replies (#1)",
+        "type": 11,
+        "parentId": "1533134669506285740"
+      },
+      {
+        "id": "1534101683842322492",
+        "name": "Gimme access",
+        "type": 11,
+        "parentId": "1533147134902403273"
+      },
+      {
+        "id": "1534466306705723512",
+        "name": "Chuds",
+        "type": 11,
+        "parentId": "1533147134902403273"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1533138023422755077",
+        "name": "Orange",
+        "color": 16747833,
+        "permissions": "0",
+        "position": 56,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533139749433512058",
+        "name": "Boy",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533137954585968872",
+        "name": "Red",
+        "color": 10818580,
+        "permissions": "0",
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533139867674870030",
+        "name": "Femboy",
+        "color": 0,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533138881744998513",
+        "name": "Nigga",
+        "color": 0,
+        "permissions": "0",
+        "position": 41,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533139821663621230",
+        "name": "Trans",
+        "color": 0,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533138384065925302",
+        "name": "Blue (light)",
+        "color": 9885439,
+        "permissions": "0",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533149245589164042",
+        "name": "Other",
+        "color": 0,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533138120411971644",
+        "name": "Yellow",
+        "color": 16767002,
+        "permissions": "0",
+        "position": 53,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533138459047493752",
+        "name": "Blue (mid)",
+        "color": 7194367,
+        "permissions": "0",
+        "position": 49,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533138254428377099",
+        "name": "Lime",
+        "color": 10026813,
+        "permissions": "0",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533561987177517178",
+        "name": "NSFW ACCESS",
+        "color": 0,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533138612890112080",
+        "name": "Purple",
+        "color": 9916671,
+        "permissions": "0",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533135940740976781",
+        "name": "Dishes",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533140312426283068",
+        "name": "Pansexual",
+        "color": 0,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533140170457747586",
+        "name": "Lesbian",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533564522000945384",
+        "name": "Hottest man on earth",
+        "color": 16318715,
+        "permissions": "2104452370137079",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533138707752812646",
+        "name": "Whites",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533467067691438210",
+        "name": "human",
+        "color": 5446941,
+        "permissions": "70815488265281",
+        "position": 20,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533139791359508510",
+        "name": "Girl",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533136140217880637",
+        "name": "Sinkpuppy",
+        "color": 16711680,
+        "permissions": "1721826618638335",
+        "position": 28,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533138189760594131",
+        "name": "Green",
+        "color": 3698727,
+        "permissions": "0",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533140084151423087",
+        "name": "Gay",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533140240166949185",
+        "name": "Aromantic",
+        "color": 0,
+        "permissions": "0",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533140197749952622",
+        "name": "Straight",
+        "color": 0,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533139069650079745",
+        "name": "Idk",
+        "color": 6998199,
+        "permissions": "0",
+        "position": 46,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533930306724430007",
+        "name": "Black",
+        "color": 66567,
+        "permissions": "0",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533140276917436516",
+        "name": "Hypersexual",
+        "color": 0,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533561027721953471",
+        "name": "Other sexuality",
+        "color": 0,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533140123397656639",
+        "name": "Bisexual",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533931907182493879",
+        "name": "good boy",
+        "color": 11342935,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533138968848109669",
+        "name": "Pink",
+        "color": 16758711,
+        "permissions": "0",
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533138735691075745",
+        "name": "Black",
+        "color": 0,
+        "permissions": "0",
+        "position": 42,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533138647887646751",
+        "name": "White",
+        "color": 0,
+        "permissions": "0",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533136003114467560",
+        "name": "your mods",
+        "color": 3447003,
+        "permissions": "1721826618638327",
+        "position": 29,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533138537787035650",
+        "name": "Blue (dark)",
+        "color": 27053,
+        "permissions": "0",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1786611511918
+  }
+}

@@ -87,7 +87,7 @@
       },
       {
         "id": "1504230916393009376",
-        "name": "todo",
+        "name": "to-do",
         "type": 0,
         "position": 4,
         "parentId": "1502266817299873842"
@@ -493,7 +493,7 @@
         "mentionable": false
       }
     ],
-    "updated": 1785215722156
+    "updated": 1786611511761
   },
   "userStrips": {
     "416358583220043796": {

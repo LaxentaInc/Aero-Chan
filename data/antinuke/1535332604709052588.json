@@ -1,0 +1,591 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1535332605602570310",
+        "name": "Generic Importance",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1535336961450049617",
+        "name": "Studio",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1535332605602570316",
+        "name": "Yap Time",
+        "type": 2,
+        "position": 0,
+        "parentId": "1535332605602570314"
+      },
+      {
+        "id": "1535336537099866274",
+        "name": "channel-requests",
+        "type": 0,
+        "position": 2,
+        "parentId": "1535353551100977162"
+      },
+      {
+        "id": "1535336255758278736",
+        "name": "creative-channel",
+        "type": 0,
+        "position": 0,
+        "parentId": "1535336961450049617"
+      },
+      {
+        "id": "1535332605602570314",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1535341286373203998",
+        "name": "food-porn",
+        "type": 0,
+        "position": 6,
+        "parentId": "1535336961450049617"
+      },
+      {
+        "id": "1535360069032476742",
+        "name": "aren-explanation",
+        "type": 0,
+        "position": 8,
+        "parentId": "1535354339495780464"
+      },
+      {
+        "id": "1535354339495780464",
+        "name": "Personal Swag",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1535354639606874122",
+        "name": "matt-explanations",
+        "type": 0,
+        "position": 2,
+        "parentId": "1535354339495780464"
+      },
+      {
+        "id": "1535792768469704715",
+        "name": "shower-thoughts",
+        "type": 0,
+        "position": 6,
+        "parentId": "1535332605602570310"
+      },
+      {
+        "id": "1535349460706525287",
+        "name": "fake-politik",
+        "type": 0,
+        "position": 3,
+        "parentId": "1535358631262953492"
+      },
+      {
+        "id": "1535339654931288144",
+        "name": "wordle",
+        "type": 0,
+        "position": 3,
+        "parentId": "1535332605602570310"
+      },
+      {
+        "id": "1535354873220964524",
+        "name": "brady-explanations",
+        "type": 0,
+        "position": 5,
+        "parentId": "1535354339495780464"
+      },
+      {
+        "id": "1535364706041331712",
+        "name": "become-chinese-now",
+        "type": 0,
+        "position": 5,
+        "parentId": "1535358631262953492"
+      },
+      {
+        "id": "1535364985558011968",
+        "name": "weeb-posting",
+        "type": 0,
+        "position": 6,
+        "parentId": "1535358631262953492"
+      },
+      {
+        "id": "1535360220308578325",
+        "name": "complaints",
+        "type": 0,
+        "position": 5,
+        "parentId": "1535332605602570310"
+      },
+      {
+        "id": "1535349228023316591",
+        "name": "real-politik",
+        "type": 0,
+        "position": 2,
+        "parentId": "1535358631262953492"
+      },
+      {
+        "id": "1535354740974559402",
+        "name": "allison-explanations",
+        "type": 0,
+        "position": 3,
+        "parentId": "1535354339495780464"
+      },
+      {
+        "id": "1535365622869795007",
+        "name": "aiden-explanations-🐻",
+        "type": 0,
+        "position": 9,
+        "parentId": "1535354339495780464"
+      },
+      {
+        "id": "1535337001925218375",
+        "name": "cute",
+        "type": 0,
+        "position": 1,
+        "parentId": "1535336961450049617"
+      },
+      {
+        "id": "1535332605602570315",
+        "name": "Jacking My Box",
+        "type": 2,
+        "position": 1,
+        "parentId": "1535332605602570314"
+      },
+      {
+        "id": "1536620819952701511",
+        "name": "ms-discordia-chanel",
+        "type": 0,
+        "position": 7,
+        "parentId": "1535358631262953492"
+      },
+      {
+        "id": "1535341868718624799",
+        "name": "le-meme",
+        "type": 0,
+        "position": 0,
+        "parentId": "1535358631262953492"
+      },
+      {
+        "id": "1537150841625256007",
+        "name": "threads-slop",
+        "type": 0,
+        "position": 8,
+        "parentId": "1535358631262953492"
+      },
+      {
+        "id": "1535355093715648642",
+        "name": "ashe-expirations",
+        "type": 0,
+        "position": 7,
+        "parentId": "1535354339495780464"
+      },
+      {
+        "id": "1535336558301814845",
+        "name": "Recommend",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1536118233936044103",
+        "name": "sacred-texts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1535332605602570310"
+      },
+      {
+        "id": "1535337435221729280",
+        "name": "gaming",
+        "type": 0,
+        "position": 4,
+        "parentId": "1535332605602570310"
+      },
+      {
+        "id": "1535354542940622908",
+        "name": "logan-explanations",
+        "type": 0,
+        "position": 1,
+        "parentId": "1535354339495780464"
+      },
+      {
+        "id": "1535353551100977162",
+        "name": "Communal-Requests",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1535336651822338068",
+        "name": "movie-recs",
+        "type": 0,
+        "position": 2,
+        "parentId": "1535336558301814845"
+      },
+      {
+        "id": "1535354814253367336",
+        "name": "abby-explanations",
+        "type": 0,
+        "position": 4,
+        "parentId": "1535354339495780464"
+      },
+      {
+        "id": "1535337029968208033",
+        "name": "hot",
+        "type": 0,
+        "position": 2,
+        "parentId": "1535336961450049617"
+      },
+      {
+        "id": "1535339890504376450",
+        "name": "role-requests",
+        "type": 0,
+        "position": 1,
+        "parentId": "1535353551100977162"
+      },
+      {
+        "id": "1535336708294312047",
+        "name": "video-game-recs",
+        "type": 0,
+        "position": 1,
+        "parentId": "1535336558301814845"
+      },
+      {
+        "id": "1535337228774154240",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1535338487631319041",
+        "name": "cool",
+        "type": 0,
+        "position": 5,
+        "parentId": "1535336961450049617"
+      },
+      {
+        "id": "1535332605602570311",
+        "name": "general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1535332605602570310"
+      },
+      {
+        "id": "1535354974010347630",
+        "name": "max-explanations",
+        "type": 0,
+        "position": 6,
+        "parentId": "1535354339495780464"
+      },
+      {
+        "id": "1535343198749073459",
+        "name": "bot-requests",
+        "type": 0,
+        "position": 3,
+        "parentId": "1535353551100977162"
+      },
+      {
+        "id": "1535358818022719599",
+        "name": "hippo-fart",
+        "type": 0,
+        "position": 1,
+        "parentId": "1535358631262953492"
+      },
+      {
+        "id": "1535337463197728768",
+        "name": "bro-hangouts",
+        "type": 0,
+        "position": 2,
+        "parentId": "1535332605602570310"
+      },
+      {
+        "id": "1535340128254435368",
+        "name": "rule-requests",
+        "type": 0,
+        "position": 0,
+        "parentId": "1535353551100977162"
+      },
+      {
+        "id": "1535336737583407174",
+        "name": "music-recs",
+        "type": 0,
+        "position": 0,
+        "parentId": "1535336558301814845"
+      },
+      {
+        "id": "1535358631262953492",
+        "name": "Satire",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1535337213712277644",
+        "name": "nature",
+        "type": 0,
+        "position": 4,
+        "parentId": "1535336961450049617"
+      },
+      {
+        "id": "1536069001195688067",
+        "name": "jaiden-explanations",
+        "type": 0,
+        "position": 10,
+        "parentId": "1535354339495780464"
+      },
+      {
+        "id": "1535337062931370134",
+        "name": "animals",
+        "type": 0,
+        "position": 3,
+        "parentId": "1535336961450049617"
+      },
+      {
+        "id": "1535354444760359033",
+        "name": "ems-explications",
+        "type": 0,
+        "position": 0,
+        "parentId": "1535354339495780464"
+      },
+      {
+        "id": "1535364265723035670",
+        "name": "fagslop",
+        "type": 0,
+        "position": 4,
+        "parentId": "1535358631262953492"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1535334091493212230",
+        "name": "Chicken Boxer",
+        "color": 15061529,
+        "permissions": "8",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1535334673125867520",
+        "name": "Big Dawg",
+        "color": 7419530,
+        "permissions": "3097342806859792",
+        "position": 11,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1535337542310953090",
+        "name": "Unc",
+        "color": 10221614,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535337785991364710",
+        "name": "Birth Creature",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535337858100109362",
+        "name": "Milf",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535337927012524052",
+        "name": "Edater",
+        "color": 2912669,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535337997443137728",
+        "name": "Faggot",
+        "color": 15277667,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535338133451837582",
+        "name": "Woke",
+        "color": 16770827,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535338262430752818",
+        "name": "Hot Tgirl",
+        "color": 16563967,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535339388244992092",
+        "name": "Xx_NBAfan6767_xX",
+        "color": 2548904,
+        "permissions": "0",
+        "position": 28,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1535342344012828762",
+        "name": "Bagel Connoisseur",
+        "color": 615997,
+        "permissions": "0",
+        "position": 27,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1535349172734140538",
+        "name": "Red",
+        "color": 16746640,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535349175036813352",
+        "name": "Purple",
+        "color": 11176191,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535349176102289530",
+        "name": "Green",
+        "color": 8978320,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535349177033302026",
+        "name": "Pink",
+        "color": 16681215,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535349177704255528",
+        "name": "Orange",
+        "color": 16754568,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535349178354638898",
+        "name": "Yellow",
+        "color": 16121736,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535349179042504754",
+        "name": "Blue",
+        "color": 8973055,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535349314090700940",
+        "name": "Bot",
+        "color": 5533306,
+        "permissions": "0",
+        "position": 1,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1535361346642649159",
+        "name": "Ms Em",
+        "color": 16258237,
+        "permissions": "0",
+        "position": 26,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1535361964497313802",
+        "name": "Car Lame",
+        "color": 15406100,
+        "permissions": "0",
+        "position": 25,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1535675943191056495",
+        "name": "Dr. Jekyll/ Mr. Hyde",
+        "color": 14047767,
+        "permissions": "0",
+        "position": 24,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1536117904070676600",
+        "name": "Dani Chungus",
+        "color": 2021604,
+        "permissions": "0",
+        "position": 21,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1536189560403263598",
+        "name": "Hawlucha Lover",
+        "color": 11509705,
+        "permissions": "0",
+        "position": 23,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1536203268261158922",
+        "name": "Krill o' the Wisp",
+        "color": 10027263,
+        "permissions": "0",
+        "position": 22,
+        "hoist": true,
+        "mentionable": false
+      }
+    ],
+    "updated": 1786611511640
+  }
+}

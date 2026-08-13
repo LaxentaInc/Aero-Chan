@@ -159,7 +159,7 @@
         "id": "1529190622580178944",
         "name": "✔️﹒を﹒parceria﹒๑",
         "type": 0,
-        "position": 7,
+        "position": 8,
         "parentId": "1522376843418927114"
       },
       {
@@ -268,6 +268,13 @@
         "parentId": "1522714468013047838"
       },
       {
+        "id": "1533156722657595593",
+        "name": "🎀﹒を﹒cargos﹒๑",
+        "type": 0,
+        "position": 3,
+        "parentId": "1522376843418927114"
+      },
+      {
         "id": "1525262956277792868",
         "name": "💓﹒を﹒Noite romântica²﹒๑",
         "type": 2,
@@ -320,7 +327,7 @@
         "id": "1522377543875821568",
         "name": "⚰️﹒を﹒saída﹒๑",
         "type": 0,
-        "position": 4,
+        "position": 5,
         "parentId": "1522376843418927114"
       },
       {
@@ -432,7 +439,7 @@
         "id": "1522377362535350504",
         "name": "੭﹕﹒ಇ",
         "type": 0,
-        "position": 2,
+        "position": 4,
         "parentId": "1522376843418927114"
       },
       {
@@ -537,7 +544,7 @@
         "id": "1522377450145710292",
         "name": "🚪﹒を﹒entrada﹒๑",
         "type": 0,
-        "position": 3,
+        "position": 6,
         "parentId": "1522376843418927114"
       },
       {
@@ -572,7 +579,7 @@
         "id": "1522378844047409378",
         "name": "📣﹒を﹒anúncios﹒๑",
         "type": 0,
-        "position": 6,
+        "position": 9,
         "parentId": "1522376843418927114"
       },
       {
@@ -635,7 +642,7 @@
         "id": "1522377631566270536",
         "name": "੭﹕﹒ಇ",
         "type": 0,
-        "position": 5,
+        "position": 7,
         "parentId": "1522376843418927114"
       },
       {
@@ -695,6 +702,13 @@
         "parentId": "1522388385623314615"
       },
       {
+        "id": "1533152495814049991",
+        "name": "📍﹒を﹒pings﹒๑",
+        "type": 0,
+        "position": 2,
+        "parentId": "1522376843418927114"
+      },
+      {
         "id": "1525510917540810895",
         "name": "🍰﹒を﹒aniversário﹒๑",
         "type": 0,
@@ -743,8 +757,8 @@
         "parentId": "1522454307788820555"
       },
       {
-        "id": "1522459852784275497",
-        "name": "Casa nos rpgs",
+        "id": "1532479609889755257",
+        "name": "Dicas para popularização do server.",
         "type": 11,
         "parentId": "1522456430450573412"
       }
@@ -755,43 +769,7 @@
         "name": "Resenhudos",
         "color": 7419530,
         "permissions": "8477234650152959",
-        "position": 25,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520278111596445848",
-        "name": "Membros da resenhada",
-        "color": 11669994,
-        "permissions": "110191919431233",
-        "position": 17,
-        "hoist": true,
-        "mentionable": false
-      },
-      {
-        "id": "1520433877506719854",
-        "name": "Bots",
-        "color": 0,
-        "permissions": "2108850416648183",
-        "position": 16,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1520439355829653624",
-        "name": "👑 Dono",
-        "color": 14254335,
-        "permissions": "0",
-        "position": 24,
-        "hoist": true,
-        "mentionable": true
-      },
-      {
-        "id": "1520538619343929364",
-        "name": "🛡️Administradores",
-        "color": 0,
-        "permissions": "8",
-        "position": 14,
+        "position": 43,
         "hoist": false,
         "mentionable": false
       },
@@ -800,8 +778,62 @@
         "name": "👑 Cofundador",
         "color": 10301626,
         "permissions": "8",
-        "position": 23,
+        "position": 41,
         "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533155788825296917",
+        "name": "ִ ࣪ ˖ ࣪ Apaixonado",
+        "color": 11285938,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520278111596445848",
+        "name": "Membros da resenhada",
+        "color": 11669994,
+        "permissions": "110191919431233",
+        "position": 35,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533155467608719410",
+        "name": "ִ ࣪ ˖ ࣪ Solteiro",
+        "color": 11285938,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533150944823611504",
+        "name": "ִ ࣪ ˖ ࣪ Ping reviver chat",
+        "color": 6233724,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1522458825066545174",
+        "name": "Testes sarais",
+        "color": 7419530,
+        "permissions": "1720707884371521",
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533156441052152078",
+        "name": "ִ ࣪ ˖ ࣪ Quero ninguém",
+        "color": 11285938,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
         "mentionable": false
       },
       {
@@ -809,25 +841,43 @@
         "name": "⚖️ Gerente",
         "color": 2123412,
         "permissions": "6773001051710864",
-        "position": 13,
+        "position": 31,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1520554727056740533",
-        "name": "🔨 Moderador",
-        "color": 10038562,
-        "permissions": "6756498982109190",
+        "id": "1533153922146111660",
+        "name": "13-15",
+        "color": 11285938,
+        "permissions": "0",
         "position": 12,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1520555334115000377",
-        "name": "🤖 Bot",
-        "color": 6323595,
+        "id": "1533156300337446912",
+        "name": "ִ ࣪ ˖ ࣪ Namorando",
+        "color": 11285938,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533154077125644328",
+        "name": "ִ ࣪ ˖ ࣪ Ping Call",
+        "color": 6233724,
         "permissions": "0",
         "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533154211653615827",
+        "name": "ִ ࣪ ˖ ࣪ Ping RPG",
+        "color": 6233724,
+        "permissions": "0",
+        "position": 10,
         "hoist": false,
         "mentionable": false
       },
@@ -836,16 +886,115 @@
         "name": "Staff",
         "color": 13338879,
         "permissions": "7737810261376983",
-        "position": 22,
+        "position": 40,
         "hoist": true,
         "mentionable": false
       },
       {
-        "id": "1522458825066545174",
-        "name": "Testes sarais",
-        "color": 7419530,
-        "permissions": "1720707884371521",
-        "position": 4,
+        "id": "1533150600622243981",
+        "name": "ִ ࣪ ˖ ࣪ Ping avisos",
+        "color": 6233724,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520433877506719854",
+        "name": "Bots",
+        "color": 0,
+        "permissions": "2108850416648183",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533152561744449586",
+        "name": "ִ ࣪ ˖ ࣪ LGBT",
+        "color": 11285938,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520439355829653624",
+        "name": "👑 Dono",
+        "color": 14254335,
+        "permissions": "0",
+        "position": 42,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1533150303434838117",
+        "name": "ִ ࣪ ˖ ࣪ Ping parcerias",
+        "color": 6233724,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533154415912161620",
+        "name": "+20",
+        "color": 11285938,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533154327194239166",
+        "name": "16-20",
+        "color": 11285938,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533158072850317362",
+        "name": "ִ ࣪ ˖ ࣪ Outros",
+        "color": 11285938,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520555334115000377",
+        "name": "🤖 Bot",
+        "color": 6323595,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520538619343929364",
+        "name": "🛡️Administradores",
+        "color": 0,
+        "permissions": "8",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520554727056740533",
+        "name": "🔨 Moderador",
+        "color": 10038562,
+        "permissions": "6756498982109190",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533152715038003410",
+        "name": "ִ ࣪ ˖ ࣪ Hétero",
+        "color": 11285938,
+        "permissions": "0",
+        "position": 13,
         "hoist": false,
         "mentionable": false
       },
@@ -854,11 +1003,38 @@
         "name": "Bots",
         "color": 7419530,
         "permissions": "1721807559716815",
-        "position": 21,
+        "position": 39,
         "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533151406364692590",
+        "name": "ִ ࣪ ˖ ࣪ Ping aleatório",
+        "color": 6233724,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533157760353697822",
+        "name": "ִ ࣪ ˖ ࣪ Ela/dela",
+        "color": 11285938,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533157919263035644",
+        "name": "ִ ࣪ ˖ ࣪ Ele/dele",
+        "color": 11285938,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1785215722623
+    "updated": 1786611511897
   }
 }

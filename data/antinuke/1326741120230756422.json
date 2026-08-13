@@ -117,7 +117,7 @@
         "id": "1508623605855027392",
         "name": "images-and-videos-old",
         "type": 0,
-        "position": 4,
+        "position": 5,
         "parentId": "1437978630818107414"
       },
       {
@@ -152,14 +152,14 @@
         "id": "1530383963447623710",
         "name": "schizophrenia-testing-for-cj",
         "type": 0,
-        "position": 2,
+        "position": 3,
         "parentId": "1437978489545560188"
       },
       {
         "id": "1530669374891888680",
         "name": "rules",
         "type": 0,
-        "position": 3,
+        "position": 2,
         "parentId": "1437978489545560188"
       },
       {
@@ -173,7 +173,7 @@
         "id": "1531412758615166976",
         "name": "images-and-videos",
         "type": 0,
-        "position": 5,
+        "position": 4,
         "parentId": "1437978630818107414"
       },
       {
@@ -184,14 +184,15 @@
         "parentId": "1437978837542633512"
       },
       {
-        "id": "1506784160591642734",
-        "name": "Any suggestions to “better” this server?",
-        "type": 11,
-        "parentId": "1502528207860142100"
+        "id": "1531776844435554374",
+        "name": "music-request-for-vc",
+        "type": 0,
+        "position": 0,
+        "parentId": "1529754132838224012"
       },
       {
-        "id": "1507220186581696632",
-        "name": "any ways of getting sulfuric acid or nitric acid",
+        "id": "1506784160591642734",
+        "name": "Any suggestions to “better” this server?",
         "type": 11,
         "parentId": "1502528207860142100"
       },
@@ -224,6 +225,12 @@
         "name": "Spam",
         "type": 11,
         "parentId": "1502528207860142100"
+      },
+      {
+        "id": "1532496656761618483",
+        "name": "Hi",
+        "type": 11,
+        "parentId": "1502528207860142100"
       }
     ],
     "roles": [
@@ -232,7 +239,7 @@
         "name": "Level 1 Moderator(worker)",
         "color": 1752220,
         "permissions": "1721738706022339",
-        "position": 11,
+        "position": 10,
         "hoist": false,
         "mentionable": true
       },
@@ -241,7 +248,7 @@
         "name": "Level 2 Moderator(Leader)",
         "color": 3447003,
         "permissions": "4254950548025303",
-        "position": 10,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -250,7 +257,7 @@
         "name": "Luke Y.",
         "color": 10181046,
         "permissions": "4360663115235319",
-        "position": 8,
+        "position": 7,
         "hoist": true,
         "mentionable": true
       },
@@ -259,7 +266,7 @@
         "name": "Apps/bots",
         "color": 16717824,
         "permissions": "0",
-        "position": 7,
+        "position": 5,
         "hoist": true,
         "mentionable": false
       },
@@ -268,7 +275,7 @@
         "name": "Nepo baby",
         "color": 16777215,
         "permissions": "0",
-        "position": 2,
+        "position": 6,
         "hoist": false,
         "mentionable": true
       },
@@ -277,20 +284,11 @@
         "name": "Level 3 Moderator(Temporary Admin)",
         "color": 15844367,
         "permissions": "4254950548025335",
-        "position": 9,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1531070981458755584",
-        "name": "Jockie bot",
-        "color": 11027200,
-        "permissions": "0",
-        "position": 1,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1785215722507
+    "updated": 1786611511847
   }
 }

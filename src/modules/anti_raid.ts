@@ -7,6 +7,8 @@ import AntiNuke from './AntiNuke';
 import APA from './APA';
 import AMA from './AMA';
 import BotProtection from './bot-protection';
+import AgeVerify from './ageVerify';
+import MassJoin from './massJoin';
 import { AntiRaidModuleInterface, GuildId } from '../types/antiraid';
 import { ExtendedClient } from '../types/client';
 
@@ -35,7 +37,14 @@ class AntiRaidManager {
     constructor() {
         this.registerModules();
         void this.initMongoDB();
-        this.syncInterval = setInterval(() => { void this.syncMainSettings(); }, 1800000);
+        this.syncInterval = setInterval(() => { 
+            void this.syncMainSettings(); 
+            for (const module of this.modules.values()) {
+                if (typeof (module as any).syncConfigs === 'function') {
+                    void (module as any).syncConfigs();
+                }
+            }
+        }, 1800000);
         console.log('[AntiRaid] Master system initialized');
     }
 
@@ -46,6 +55,8 @@ class AntiRaidManager {
             this.modules.set('APA', APA);
             this.modules.set('AMA', AMA);
             this.modules.set('bot-protection', BotProtection);
+            this.modules.set('AgeVerify', AgeVerify);
+            this.modules.set('MassJoin', MassJoin);
             console.log(`[AntiRaid] Total modules loaded: ${String(this.modules.size)}`);
         } catch (error) {
             console.error('[AntiRaid] Module registration failed:', error instanceof Error ? error.message : String(error));

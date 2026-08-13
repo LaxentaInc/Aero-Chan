@@ -40,6 +40,199 @@
       "expiresAt": 1785267507286,
       "createdAt": 1785181107286,
       "module": "bot-protection"
+    },
+    "restore_perms_159985870458322944": {
+      "type": "restore_perms",
+      "targetId": "159985870458322944",
+      "memberId": "159985870458322944",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "MEE6",
+            "id": "1531594363681898609",
+            "permissions": [
+              "CreateInstantInvite",
+              "KickMembers",
+              "BanMembers",
+              "Administrator",
+              "ManageChannels",
+              "ManageGuild",
+              "AddReactions",
+              "ViewAuditLog",
+              "ViewChannel",
+              "SendMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "MentionEveryone",
+              "UseExternalEmojis",
+              "Connect",
+              "Speak",
+              "MuteMembers",
+              "DeafenMembers",
+              "MoveMembers",
+              "UseVAD",
+              "ManageRoles",
+              "ManageWebhooks",
+              "ManageEmojisAndStickers",
+              "ManageGuildExpressions",
+              "UseApplicationCommands",
+              "ManageThreads",
+              "CreatePrivateThreads",
+              "SendMessagesInThreads"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1515350711897034902",
+      "relatedMessages": [
+        {
+          "channelId": "1531385285429166161",
+          "messageId": "1531594374545149972"
+        },
+        {
+          "channelId": "1531385300016828608",
+          "messageId": "1531594377380757595"
+        }
+      ],
+      "expiresAt": 1785317355351,
+      "createdAt": 1785230955351,
+      "module": "bot-protection"
+    },
+    "restore_perms_712011923176030229": {
+      "type": "restore_perms",
+      "targetId": "712011923176030229",
+      "memberId": "712011923176030229",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Confessions",
+            "id": "1531594548386594827",
+            "permissions": [
+              "AddReactions",
+              "ViewChannel",
+              "SendMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "UseExternalEmojis",
+              "UseApplicationCommands",
+              "ManageThreads",
+              "CreatePublicThreads",
+              "CreatePrivateThreads",
+              "SendMessagesInThreads"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1515350711897034902",
+      "relatedMessages": [
+        {
+          "channelId": "1531385285429166161",
+          "messageId": "1531594555831619675"
+        },
+        {
+          "channelId": "1531385300016828608",
+          "messageId": "1531594558763303023"
+        }
+      ],
+      "expiresAt": 1785317398465,
+      "createdAt": 1785230998465,
+      "module": "bot-protection"
+    },
+    "restore_perms_247283454440374274": {
+      "type": "restore_perms",
+      "targetId": "247283454440374274",
+      "memberId": "247283454440374274",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Yggdrasil",
+            "id": "1531594732571201640",
+            "permissions": [
+              "AddReactions",
+              "ViewChannel",
+              "SendMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "UseExternalEmojis",
+              "Connect",
+              "Speak"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1515350711897034902",
+      "relatedMessages": [
+        {
+          "channelId": "1531385285429166161",
+          "messageId": "1531594741370585169"
+        },
+        {
+          "channelId": "1531385300016828608",
+          "messageId": "1531594744550133835"
+        }
+      ],
+      "expiresAt": 1785317443065,
+      "createdAt": 1785231043065,
+      "module": "bot-protection"
+    },
+    "restore_perms_411916947773587456": {
+      "type": "restore_perms",
+      "targetId": "411916947773587456",
+      "memberId": "411916947773587456",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "Jockie Music",
+            "id": "1531594831472754792",
+            "permissions": [
+              "Administrator"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1515350711897034902",
+      "relatedMessages": [
+        {
+          "channelId": "1531385285429166161",
+          "messageId": "1531594842994376735"
+        },
+        {
+          "channelId": "1531385300016828608",
+          "messageId": "1531594845955555399"
+        }
+      ],
+      "expiresAt": 1785317466956,
+      "createdAt": 1785231066956,
+      "module": "bot-protection"
     }
   }
 }

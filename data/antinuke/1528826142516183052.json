@@ -1,0 +1,580 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1531789097910407358",
+        "name": "encouragement-notes-🌀",
+        "type": 0,
+        "position": 5,
+        "parentId": "1530069115119730759"
+      },
+      {
+        "id": "1530069145906053171",
+        "name": "media stuff",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1528857095976517844",
+        "name": "media",
+        "type": 0,
+        "position": 0,
+        "parentId": "1530069145906053171"
+      },
+      {
+        "id": "1530071038644195368",
+        "name": "miscellaneous",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1532548965638344846",
+        "name": "rp-ads-and-lore",
+        "type": 15,
+        "position": 3,
+        "parentId": "1532548610665873408"
+      },
+      {
+        "id": "1528826143916949655",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1530066002585587813",
+        "name": "animation-🌀",
+        "type": 0,
+        "position": 3,
+        "parentId": "1530069145906053171"
+      },
+      {
+        "id": "1528857069921374229",
+        "name": "quotes",
+        "type": 0,
+        "position": 2,
+        "parentId": "1530069115119730759"
+      },
+      {
+        "id": "1531790070762180798",
+        "name": "qotd",
+        "type": 0,
+        "position": 3,
+        "parentId": "1530071038644195368"
+      },
+      {
+        "id": "1530065452146102282",
+        "name": "vent-🐾",
+        "type": 0,
+        "position": 0,
+        "parentId": "1530071038644195368"
+      },
+      {
+        "id": "1530065871626833940",
+        "name": "music-suggestions-or-quotes-🎶",
+        "type": 0,
+        "position": 3,
+        "parentId": "1530069115119730759"
+      },
+      {
+        "id": "1536961589599797289",
+        "name": "why-canada-is-better",
+        "type": 0,
+        "position": 5,
+        "parentId": "1530071038644195368"
+      },
+      {
+        "id": "1532548610665873408",
+        "name": "roleplay things",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1528857131976097942",
+        "name": "screenshot",
+        "type": 0,
+        "position": 1,
+        "parentId": "1530069145906053171"
+      },
+      {
+        "id": "1528826143916949657",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1528826143916949655"
+      },
+      {
+        "id": "1528826143916949656",
+        "name": "general-area-🛖",
+        "type": 0,
+        "position": 0,
+        "parentId": "1530069115119730759"
+      },
+      {
+        "id": "1528830922554605728",
+        "name": "oc-bios🐾",
+        "type": 15,
+        "position": 1,
+        "parentId": "1532548610665873408"
+      },
+      {
+        "id": "1528835146201960478",
+        "name": "reaction-roles🔆",
+        "type": 0,
+        "position": 1,
+        "parentId": "1530069115119730759"
+      },
+      {
+        "id": "1528843390043815986",
+        "name": "tupper-box-⌨️",
+        "type": 0,
+        "position": 0,
+        "parentId": "1530069178080559215"
+      },
+      {
+        "id": "1528826739021582533",
+        "name": "roleplay-ideas-📗📚",
+        "type": 0,
+        "position": 0,
+        "parentId": "1532548610665873408"
+      },
+      {
+        "id": "1528826976352075946",
+        "name": "introduction",
+        "type": 0,
+        "position": 4,
+        "parentId": "1530069115119730759"
+      },
+      {
+        "id": "1530066364331724961",
+        "name": "graphics-🔹",
+        "type": 0,
+        "position": 4,
+        "parentId": "1530069145906053171"
+      },
+      {
+        "id": "1530069178080559215",
+        "name": "bot stuff",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1528849940791558264",
+        "name": "cattttt🐾",
+        "type": 0,
+        "position": 1,
+        "parentId": "1530069178080559215"
+      },
+      {
+        "id": "1530069115119730759",
+        "name": "the main stuff",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1528843229259104357",
+        "name": "pokémon-⭐",
+        "type": 0,
+        "position": 2,
+        "parentId": "1530069178080559215"
+      },
+      {
+        "id": "1533594599451398424",
+        "name": "yapping-or-rambling",
+        "type": 0,
+        "position": 6,
+        "parentId": "1530069115119730759"
+      },
+      {
+        "id": "1531794951090868344",
+        "name": "qotd-answers",
+        "type": 0,
+        "position": 4,
+        "parentId": "1530071038644195368"
+      },
+      {
+        "id": "1530068853072334928",
+        "name": "gg-roleplay",
+        "type": 15,
+        "position": 2,
+        "parentId": "1532548610665873408"
+      },
+      {
+        "id": "1528826875378532382",
+        "name": "art-✏️",
+        "type": 0,
+        "position": 2,
+        "parentId": "1530069145906053171"
+      },
+      {
+        "id": "1528957783242838207",
+        "name": "Streaming vc",
+        "type": 2,
+        "position": 1,
+        "parentId": "1528826143916949655"
+      },
+      {
+        "id": "1530065260554489916",
+        "name": "writing-📖",
+        "type": 0,
+        "position": 1,
+        "parentId": "1530071038644195368"
+      },
+      {
+        "id": "1530065519024148521",
+        "name": "brain-damaged-shit✨",
+        "type": 0,
+        "position": 2,
+        "parentId": "1530071038644195368"
+      },
+      {
+        "id": "1533971991454028026",
+        "name": "esm-bot-use",
+        "type": 0,
+        "position": 3,
+        "parentId": "1530069178080559215"
+      },
+      {
+        "id": "1528831365204934676",
+        "name": "Maxs super awesome bios",
+        "type": 11,
+        "parentId": "1528830922554605728"
+      },
+      {
+        "id": "1528831556766924920",
+        "name": "Roe's OC Forum!",
+        "type": 11,
+        "parentId": "1528830922554605728"
+      },
+      {
+        "id": "1528831769502285998",
+        "name": "Kits cool bios hehe",
+        "type": 11,
+        "parentId": "1528830922554605728"
+      },
+      {
+        "id": "1529684983063777370",
+        "name": "Absolute BBULLLSHITTT (sea’s)",
+        "type": 11,
+        "parentId": "1528830922554605728"
+      },
+      {
+        "id": "1530970770828955708",
+        "name": "🩷 Kokomi's OC Studies",
+        "type": 11,
+        "parentId": "1528830922554605728"
+      },
+      {
+        "id": "1532838767642017852",
+        "name": "🩵 Kokomi's OC Studies - AUs",
+        "type": 11,
+        "parentId": "1528830922554605728"
+      },
+      {
+        "id": "1536567242593013811",
+        "name": "I JERK OFF TO THE SEMIBOTS IN REPO",
+        "type": 11,
+        "parentId": "1528830922554605728"
+      },
+      {
+        "id": "1530068947238391929",
+        "name": "GC BUT ALO IS THE COOLEST",
+        "type": 11,
+        "parentId": "1530068853072334928"
+      },
+      {
+        "id": "1532969766443286681",
+        "name": "The greg cult",
+        "type": 11,
+        "parentId": "1530068853072334928"
+      },
+      {
+        "id": "1535102502200938637",
+        "name": "PLANET :: Vorix",
+        "type": 11,
+        "parentId": "1530068853072334928"
+      },
+      {
+        "id": "1535103540224204913",
+        "name": "OUTPOST :: Geode Coast",
+        "type": 11,
+        "parentId": "1530068853072334928"
+      },
+      {
+        "id": "1535104887728377917",
+        "name": "SHIP :: The Scouting Ship",
+        "type": 11,
+        "parentId": "1530068853072334928"
+      },
+      {
+        "id": "1535105822059667566",
+        "name": "REC :: The Udeon Garden",
+        "type": 11,
+        "parentId": "1530068853072334928"
+      },
+      {
+        "id": "1536929902635384862",
+        "name": "STATION :: The Stellar Station",
+        "type": 11,
+        "parentId": "1530068853072334928"
+      },
+      {
+        "id": "1532560941579767889",
+        "name": "reef",
+        "type": 11,
+        "parentId": "1532548965638344846"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1528830258583834626",
+        "name": "They/Them",
+        "color": 0,
+        "permissions": "2248473465835073",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528830257371676856",
+        "name": "Pronouns: Ask Me",
+        "color": 0,
+        "permissions": "2248473465835073",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528830262438527086",
+        "name": "He/Him",
+        "color": 0,
+        "permissions": "2248473465835073",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529975874613411880",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528841140248379594",
+        "name": "Pink",
+        "color": 16621302,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528839004504461352",
+        "name": "Roleplay ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528841059025682502",
+        "name": "Purple",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530276617329315910",
+        "name": "Big dick role",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530727577478500383",
+        "name": "Game ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528830260764999740",
+        "name": "She/Her",
+        "color": 0,
+        "permissions": "2248473465835073",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528840993590218873",
+        "name": "Blue",
+        "color": 5041640,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528838574500483102",
+        "name": "Yipee",
+        "color": 0,
+        "permissions": "1721826618638327",
+        "position": 25,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528831920144650472",
+        "name": "Pup / pupself",
+        "color": 0,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528837679049998426",
+        "name": "Vc ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529364880153514004",
+        "name": "Everyone",
+        "color": 0,
+        "permissions": "8864262742605823",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528832064747737229",
+        "name": "It / its",
+        "color": 0,
+        "permissions": "0",
+        "position": 31,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528837783140040750",
+        "name": "Gartic phone ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1531792213774827641",
+        "name": "QOTD Ping",
+        "color": 6125706,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528837848256479252",
+        "name": "Art ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528840672906448917",
+        "name": "Red",
+        "color": 16719872,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528840782935757031",
+        "name": "Yellow",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528840876720128021",
+        "name": "Green",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532949090688700419",
+        "name": "67 KID",
+        "color": 0,
+        "permissions": "2248473465835073",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528830255257620601",
+        "name": "Any Pronouns",
+        "color": 0,
+        "permissions": "2248473465835073",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528840741877715086",
+        "name": "Orange",
+        "color": 14778675,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528837720493789284",
+        "name": "Stream ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528839536560574464",
+        "name": "Stream ping",
+        "color": 0,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1786611511709
+  }
+}

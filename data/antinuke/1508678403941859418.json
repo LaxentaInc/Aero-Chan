@@ -2,53 +2,11 @@
   "backup": {
     "channels": [
       {
-        "id": "1508678405019799552",
-        "name": "Bots",
-        "type": 4,
-        "position": 4,
-        "parentId": null
-      },
-      {
-        "id": "1508678405019799553",
-        "name": "Voice Channels",
-        "type": 4,
-        "position": 2,
-        "parentId": null
-      },
-      {
-        "id": "1508678405019799554",
-        "name": "🗣️general",
+        "id": "1536516496455499847",
+        "name": "⚽sports",
         "type": 0,
-        "position": 0,
+        "position": 6,
         "parentId": "1520171813458677760"
-      },
-      {
-        "id": "1508678405019799555",
-        "name": "General",
-        "type": 2,
-        "position": 0,
-        "parentId": "1508678405019799553"
-      },
-      {
-        "id": "1520171155586154626",
-        "name": "🤖bots-channel",
-        "type": 0,
-        "position": 0,
-        "parentId": "1508678405019799552"
-      },
-      {
-        "id": "1520171195817787434",
-        "name": "🎴mudae-bs",
-        "type": 0,
-        "position": 4,
-        "parentId": "1508678405019799552"
-      },
-      {
-        "id": "1520171813458677760",
-        "name": "General",
-        "type": 4,
-        "position": 1,
-        "parentId": null
       },
       {
         "id": "1520172073954050180",
@@ -58,18 +16,11 @@
         "parentId": "1508678405019799552"
       },
       {
-        "id": "1520173499812151326",
-        "name": "Music Channel",
-        "type": 4,
-        "position": 3,
-        "parentId": null
-      },
-      {
-        "id": "1520173567738777680",
-        "name": "📹music-videos",
+        "id": "1520180839554486312",
+        "name": "🧪bot-testing",
         "type": 0,
-        "position": 1,
-        "parentId": "1520173499812151326"
+        "position": 3,
+        "parentId": "1508678405019799552"
       },
       {
         "id": "1520173632955879676",
@@ -79,53 +30,11 @@
         "parentId": "1520173499812151326"
       },
       {
-        "id": "1520173697728774274",
-        "name": "🎤music-debates",
-        "type": 0,
-        "position": 4,
-        "parentId": "1520173499812151326"
-      },
-      {
-        "id": "1520173719777968239",
-        "name": "🔥hot-takes",
-        "type": 0,
-        "position": 2,
-        "parentId": "1520173499812151326"
-      },
-      {
-        "id": "1520180839554486312",
-        "name": "🧪bot-testing",
-        "type": 0,
-        "position": 3,
-        "parentId": "1508678405019799552"
-      },
-      {
-        "id": "1520181099769368688",
-        "name": "Beginners",
+        "id": "1508678405019799553",
+        "name": "Voice Channels",
         "type": 4,
-        "position": 0,
+        "position": 2,
         "parentId": null
-      },
-      {
-        "id": "1520181156329427098",
-        "name": "👂rules",
-        "type": 0,
-        "position": 1,
-        "parentId": "1520181099769368688"
-      },
-      {
-        "id": "1520181254165762188",
-        "name": "👋newcomer-story",
-        "type": 0,
-        "position": 0,
-        "parentId": "1520181099769368688"
-      },
-      {
-        "id": "1520181914617643040",
-        "name": "🎵prettyduxk-fans-n-critics",
-        "type": 0,
-        "position": 3,
-        "parentId": "1520181099769368688"
       },
       {
         "id": "1520186665887334480",
@@ -135,13 +44,6 @@
         "parentId": "1520181099769368688"
       },
       {
-        "id": "1520187558867505273",
-        "name": "🦸marvel-and-dc",
-        "type": 0,
-        "position": 1,
-        "parentId": "1520171813458677760"
-      },
-      {
         "id": "1520198766236401814",
         "name": "⏯️fm-channel",
         "type": 0,
@@ -149,18 +51,39 @@
         "parentId": "1508678405019799552"
       },
       {
-        "id": "1520208115059003484",
-        "name": "📱media",
+        "id": "1522031031828480070",
+        "name": "💿vinyls-cds",
         "type": 0,
-        "position": 2,
+        "position": 3,
         "parentId": "1520171813458677760"
       },
       {
-        "id": "1520209438483415111",
-        "name": "🎶music-self-promo",
+        "id": "1532803008369266869",
+        "name": "😭makeitaquote",
+        "type": 0,
+        "position": 5,
+        "parentId": "1520171813458677760"
+      },
+      {
+        "id": "1537194855053394102",
+        "name": "aero-logs",
         "type": 0,
         "position": 0,
-        "parentId": "1520173499812151326"
+        "parentId": "1537194850242404494"
+      },
+      {
+        "id": "1520171195817787434",
+        "name": "🎴mudae-bs",
+        "type": 0,
+        "position": 4,
+        "parentId": "1508678405019799552"
+      },
+      {
+        "id": "1523404131690221568",
+        "name": "👥roles👥",
+        "type": 0,
+        "position": 4,
+        "parentId": "1520181099769368688"
       },
       {
         "id": "1520361572218703873",
@@ -170,31 +93,17 @@
         "parentId": "1520181099769368688"
       },
       {
-        "id": "1521756720177872928",
-        "name": "Hangout",
-        "type": 2,
-        "position": 1,
-        "parentId": "1508678405019799553"
-      },
-      {
-        "id": "1521756880496492545",
-        "name": "debates-of-music",
-        "type": 15,
-        "position": 5,
-        "parentId": "1520171813458677760"
-      },
-      {
-        "id": "1521935091939676191",
-        "name": "📊qotd",
+        "id": "1520181156329427098",
+        "name": "👂rules",
         "type": 0,
-        "position": 2,
+        "position": 1,
         "parentId": "1520181099769368688"
       },
       {
-        "id": "1522031031828480070",
-        "name": "💿vinyls-cds",
+        "id": "1508678405019799554",
+        "name": "🗣️general",
         "type": 0,
-        "position": 3,
+        "position": 0,
         "parentId": "1520171813458677760"
       },
       {
@@ -205,17 +114,31 @@
         "parentId": null
       },
       {
-        "id": "1522031572893831320",
-        "name": "🎨art",
-        "type": 0,
-        "position": 4,
-        "parentId": "1520171813458677760"
+        "id": "1521756720177872928",
+        "name": "Hangout",
+        "type": 2,
+        "position": 1,
+        "parentId": "1508678405019799553"
       },
       {
-        "id": "1523404131690221568",
-        "name": "👥roles👥",
+        "id": "1520171155586154626",
+        "name": "🤖bots-channel",
         "type": 0,
+        "position": 0,
+        "parentId": "1508678405019799552"
+      },
+      {
+        "id": "1508678405019799552",
+        "name": "Bots",
+        "type": 4,
         "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1520181914617643040",
+        "name": "🎵prettyduxk-fans-n-critics",
+        "type": 0,
+        "position": 3,
         "parentId": "1520181099769368688"
       },
       {
@@ -226,23 +149,122 @@
         "parentId": "1520173499812151326"
       },
       {
-        "id": "1521563338050633738",
-        "name": "DCU Chapter 1",
-        "type": 11,
-        "parentId": "1520187558867505273"
+        "id": "1536517370385006672",
+        "name": "🧑‍💻nonmusic-self-promo",
+        "type": 0,
+        "position": 7,
+        "parentId": "1520171813458677760"
       },
       {
-        "id": "1521758585678200872",
-        "name": "Better Artist?",
-        "type": 11,
-        "parentId": "1521756880496492545"
+        "id": "1521756880496492545",
+        "name": "debates-of-music",
+        "type": 15,
+        "position": 8,
+        "parentId": "1520171813458677760"
       },
       {
-        "id": "1531383417181307142",
+        "id": "1520209438483415111",
+        "name": "🎶music-self-promo",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520173499812151326"
+      },
+      {
+        "id": "1520187558867505273",
+        "name": "🦸marvel-and-dc",
+        "type": 0,
+        "position": 1,
+        "parentId": "1520171813458677760"
+      },
+      {
+        "id": "1520181099769368688",
+        "name": "Beginners",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1520173697728774274",
+        "name": "🎤music-debates",
+        "type": 0,
+        "position": 4,
+        "parentId": "1520173499812151326"
+      },
+      {
+        "id": "1520181254165762188",
+        "name": "👋newcomer-story",
+        "type": 0,
+        "position": 0,
+        "parentId": "1520181099769368688"
+      },
+      {
+        "id": "1522031572893831320",
+        "name": "🎨art",
+        "type": 0,
+        "position": 4,
+        "parentId": "1520171813458677760"
+      },
+      {
+        "id": "1520208115059003484",
+        "name": "📱media",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520171813458677760"
+      },
+      {
+        "id": "1508678405019799555",
+        "name": "LISTENING PARTY BIH",
+        "type": 2,
+        "position": 0,
+        "parentId": "1508678405019799553"
+      },
+      {
+        "id": "1521935091939676191",
+        "name": "📊qotd",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520181099769368688"
+      },
+      {
+        "id": "1520171813458677760",
+        "name": "General",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1520173567738777680",
+        "name": "📹music-videos",
+        "type": 0,
+        "position": 1,
+        "parentId": "1520173499812151326"
+      },
+      {
+        "id": "1520173499812151326",
+        "name": "Music Channel",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1537194850242404494",
         "name": "Aero",
         "type": 4,
         "position": 5,
         "parentId": null
+      },
+      {
+        "id": "1520173719777968239",
+        "name": "🔥hot-takes",
+        "type": 0,
+        "position": 2,
+        "parentId": "1520173499812151326"
+      },
+      {
+        "id": "1529179338728276150",
+        "name": "announcements 2",
+        "type": 12,
+        "parentId": "1520186665887334480"
       }
     ],
     "roles": [
@@ -251,7 +273,7 @@
         "name": "OWNER",
         "color": 65509,
         "permissions": "8864254152671231",
-        "position": 32,
+        "position": 33,
         "hoist": false,
         "mentionable": false
       },
@@ -260,7 +282,7 @@
         "name": "OG's",
         "color": 16776448,
         "permissions": "0",
-        "position": 8,
+        "position": 10,
         "hoist": false,
         "mentionable": false
       },
@@ -269,7 +291,7 @@
         "name": "Artist🎵",
         "color": 8481522,
         "permissions": "0",
-        "position": 7,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -278,7 +300,7 @@
         "name": "FMBOT",
         "color": 11270394,
         "permissions": "0",
-        "position": 11,
+        "position": 13,
         "hoist": false,
         "mentionable": false
       },
@@ -287,7 +309,7 @@
         "name": "16-17",
         "color": 4936669,
         "permissions": "1720707884371521",
-        "position": 22,
+        "position": 24,
         "hoist": false,
         "mentionable": false
       },
@@ -296,7 +318,7 @@
         "name": "Bot",
         "color": 790669,
         "permissions": "0",
-        "position": 14,
+        "position": 16,
         "hoist": false,
         "mentionable": false
       },
@@ -305,7 +327,7 @@
         "name": "1 year 👍",
         "color": 16770560,
         "permissions": "0",
-        "position": 17,
+        "position": 19,
         "hoist": false,
         "mentionable": false
       },
@@ -314,7 +336,7 @@
         "name": "Argus",
         "color": 65483,
         "permissions": "8864262742605823",
-        "position": 33,
+        "position": 34,
         "hoist": false,
         "mentionable": true
       },
@@ -323,7 +345,7 @@
         "name": "!MEMBERS!",
         "color": 9468394,
         "permissions": "0",
-        "position": 10,
+        "position": 12,
         "hoist": true,
         "mentionable": false
       },
@@ -332,7 +354,7 @@
         "name": "18+",
         "color": 16732416,
         "permissions": "0",
-        "position": 20,
+        "position": 22,
         "hoist": true,
         "mentionable": false
       },
@@ -341,7 +363,7 @@
         "name": "Newcomer!",
         "color": 15844367,
         "permissions": "0",
-        "position": 21,
+        "position": 23,
         "hoist": true,
         "mentionable": false
       },
@@ -350,7 +372,7 @@
         "name": "5 months here",
         "color": 7456767,
         "permissions": "0",
-        "position": 18,
+        "position": 20,
         "hoist": true,
         "mentionable": false
       },
@@ -359,7 +381,7 @@
         "name": "GENERAL",
         "color": 14093758,
         "permissions": "0",
-        "position": 12,
+        "position": 14,
         "hoist": false,
         "mentionable": false
       },
@@ -368,7 +390,7 @@
         "name": "1-2 months here",
         "color": 15728895,
         "permissions": "0",
-        "position": 19,
+        "position": 21,
         "hoist": true,
         "mentionable": false
       },
@@ -377,7 +399,7 @@
         "name": "ProjectX",
         "color": 1048624,
         "permissions": "8863699430793043",
-        "position": 2,
+        "position": 4,
         "hoist": false,
         "mentionable": false
       },
@@ -386,7 +408,7 @@
         "name": "YouTuber🟥",
         "color": 8196634,
         "permissions": "0",
-        "position": 9,
+        "position": 11,
         "hoist": true,
         "mentionable": false
       },
@@ -395,7 +417,7 @@
         "name": "Moderators",
         "color": 12968411,
         "permissions": "8864262742605815",
-        "position": 31,
+        "position": 32,
         "hoist": false,
         "mentionable": true
       },
@@ -404,7 +426,7 @@
         "name": "Rin",
         "color": 12444370,
         "permissions": "1721807559716807",
-        "position": 4,
+        "position": 6,
         "hoist": false,
         "mentionable": false
       },
@@ -413,7 +435,7 @@
         "name": "LGBTQ+",
         "color": 13906668,
         "permissions": "0",
-        "position": 5,
+        "position": 7,
         "hoist": true,
         "mentionable": false
       },
@@ -422,7 +444,7 @@
         "name": "PrettyDxck",
         "color": 10682623,
         "permissions": "8864262742605783",
-        "position": 34,
+        "position": 35,
         "hoist": false,
         "mentionable": true
       },
@@ -431,7 +453,7 @@
         "name": "13-15",
         "color": 16734810,
         "permissions": "1720707884371521",
-        "position": 23,
+        "position": 25,
         "hoist": true,
         "mentionable": false
       },
@@ -440,11 +462,11 @@
         "name": "Professional Ragebaiter",
         "color": 3066993,
         "permissions": "0",
-        "position": 13,
+        "position": 15,
         "hoist": true,
         "mentionable": false
       }
     ],
-    "updated": 1785208615528
+    "updated": 1786611511705
   }
 }

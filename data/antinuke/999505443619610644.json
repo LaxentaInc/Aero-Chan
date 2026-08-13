@@ -178,7 +178,7 @@
       },
       {
         "id": "1531529712906670192",
-        "name": "Dark Horse⛈️",
+        "name": "⛈️",
         "type": 2,
         "position": 6,
         "parentId": "999505444127113257"
@@ -222,7 +222,7 @@
         "name": "DIVISION 0",
         "color": 787717,
         "permissions": "79439783365696",
-        "position": 28,
+        "position": 31,
         "hoist": true,
         "mentionable": false
       },
@@ -285,7 +285,7 @@
         "name": "Boss Mod",
         "color": 10038562,
         "permissions": "28582998425335",
-        "position": 31,
+        "position": 30,
         "hoist": false,
         "mentionable": false
       },
@@ -300,11 +300,11 @@
       },
       {
         "id": "1530488019327385630",
-        "name": "THE WONDERFUL TRU",
-        "color": 936053,
+        "name": "He Who Stands Alone.",
+        "color": 327680,
         "permissions": "0",
         "position": 33,
-        "hoist": false,
+        "hoist": true,
         "mentionable": false
       },
       {
@@ -393,7 +393,7 @@
         "name": "NARUTO TYPE OF TIMING",
         "color": 10181046,
         "permissions": "70369012714496",
-        "position": 29,
+        "position": 28,
         "hoist": false,
         "mentionable": false
       },
@@ -411,11 +411,11 @@
         "name": "Prodigy",
         "color": 2123412,
         "permissions": "1720707884502593",
-        "position": 30,
+        "position": 29,
         "hoist": true,
         "mentionable": false
       }
     ],
-    "updated": 1785215721620
+    "updated": 1786611511623
   }
 }

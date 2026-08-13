@@ -36,11 +36,11 @@
         "name": "nuevo rol",
         "color": 0,
         "permissions": "8864258447638527",
-        "position": 12,
+        "position": 13,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1785215722688
+    "updated": 1786611511930
   }
 }

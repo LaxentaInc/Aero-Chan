@@ -37,13 +37,6 @@
         "parentId": "1509613488878784704"
       },
       {
-        "id": "1512253995366875147",
-        "name": "geral💬",
-        "type": 0,
-        "position": 0,
-        "parentId": "1509613488878784704"
-      },
-      {
         "id": "1512254482099208443",
         "name": "jogos🕹️",
         "type": 0,
@@ -140,6 +133,13 @@
         "type": 0,
         "position": 5,
         "parentId": "1509613488878784704"
+      },
+      {
+        "id": "1532911188894158918",
+        "name": "geral🗨️",
+        "type": 0,
+        "position": 0,
+        "parentId": "1509613488878784704"
       }
     ],
     "roles": [
@@ -148,7 +148,7 @@
         "name": "Resenhudos",
         "color": 2123412,
         "permissions": "119194003065409",
-        "position": 7,
+        "position": 6,
         "hoist": true,
         "mentionable": true
       },
@@ -157,11 +157,11 @@
         "name": "Rei da resenha",
         "color": 15158332,
         "permissions": "8864258447638527",
-        "position": 9,
+        "position": 8,
         "hoist": true,
         "mentionable": true
       }
     ],
-    "updated": 1785215721836
+    "updated": 1786611511678
   }
 }

@@ -1,0 +1,287 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1400264627928957000",
+        "name": "Text Channels",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1400264627928957001",
+        "name": "Voice Channels",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1400264627928957003",
+        "name": "Genitals voice",
+        "type": 2,
+        "position": 0,
+        "parentId": "1400264627928957001"
+      },
+      {
+        "id": "1400266700825559110",
+        "name": "genital",
+        "type": 0,
+        "position": 0,
+        "parentId": "1400264627928957000"
+      },
+      {
+        "id": "1400266791023935638",
+        "name": "arte🎨🇫🇷",
+        "type": 0,
+        "position": 1,
+        "parentId": "1400264627928957000"
+      },
+      {
+        "id": "1400267065016717423",
+        "name": "The channel where you can yell doughnut",
+        "type": 2,
+        "position": 1,
+        "parentId": "1400264627928957001"
+      },
+      {
+        "id": "1400267115952603187",
+        "name": "Patchlouis Library",
+        "type": 2,
+        "position": 2,
+        "parentId": "1400264627928957001"
+      },
+      {
+        "id": "1400267163734118491",
+        "name": "60$ Videogame",
+        "type": 2,
+        "position": 3,
+        "parentId": "1400264627928957001"
+      },
+      {
+        "id": "1400272360652931233",
+        "name": "robloxian-photography",
+        "type": 0,
+        "position": 2,
+        "parentId": "1400264627928957000"
+      },
+      {
+        "id": "1413967173474586645",
+        "name": "boys-public-restroom",
+        "type": 0,
+        "position": 3,
+        "parentId": "1400264627928957000"
+      },
+      {
+        "id": "1415572463169044561",
+        "name": "girls-public-restroom",
+        "type": 15,
+        "position": 4,
+        "parentId": "1400264627928957000"
+      },
+      {
+        "id": "1454250313023356979",
+        "name": "aunt-goob-doppelgängers",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1462290355612549375",
+        "name": "🦅toby’s-american-barbecue🇺🇸",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1482972947558699119",
+        "name": "📼tinkle’s-blockbuster-collesium🍿",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1518900225941438565",
+        "name": "hoyt’s-workplace-environment",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1519264312571461742",
+        "name": "arbys",
+        "type": 0,
+        "position": 5,
+        "parentId": "1400264627928957000"
+      },
+      {
+        "id": "1522623269142921369",
+        "name": "mudae’s-bound-chains",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1523109536494391417",
+        "name": "📀dutch’s-record-store💿",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1528647493842370680",
+        "name": "hotdawgs",
+        "type": 0,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1534764072229408789",
+        "name": "better-crap-post",
+        "type": 0,
+        "position": 6,
+        "parentId": "1400264627928957000"
+      },
+      {
+        "id": "1415575466860875806",
+        "name": "Why you should play sols rng",
+        "type": 11,
+        "parentId": "1415572463169044561"
+      },
+      {
+        "id": "1519599355902955521",
+        "name": "crap posting",
+        "type": 11,
+        "parentId": "1415572463169044561"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1400268098711326812",
+        "name": "King Julien",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 17,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1400269080128262184",
+        "name": "K-pop fangirlies",
+        "color": 15375615,
+        "permissions": "0",
+        "position": 16,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1400273746731991150",
+        "name": "Stormcrusher ultraWizard of öntherheim beanstalk",
+        "color": 2123412,
+        "permissions": "0",
+        "position": 15,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1400644367403974716",
+        "name": "The Tahiti gunslinger",
+        "color": 11027200,
+        "permissions": "0",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1400645098638807130",
+        "name": "*\\♣️♥️..𝔔𝔲𝔢𝔢𝔫 𝔙𝔦𝔠𝔱𝔬𝔯𝔦𝔞 𝔞𝔭𝔭𝔩𝔢𝔟𝔢𝔢..♠️♦️/*",
+        "color": 11568127,
+        "permissions": "1721826618638327",
+        "position": 13,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1519262788608983082",
+        "name": "Napoleon pork",
+        "color": 0,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1519849394084511795",
+        "name": "Son goku",
+        "color": 0,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1519853621242630154",
+        "name": "Beatrice culling",
+        "color": 0,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1519857185444593690",
+        "name": "Gabe Newell",
+        "color": 0,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1519858869713502249",
+        "name": "Jesus Christ of Nazareth",
+        "color": 0,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1519955495111233707",
+        "name": "Hoyts",
+        "color": 0,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1519956642777661490",
+        "name": "Lindzo lizz",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1524689315270234142",
+        "name": "Tinkel hoy",
+        "color": 0,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1528624382493069322",
+        "name": "Genie Jane",
+        "color": 0,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": true
+      }
+    ],
+    "updated": 1786611511774
+  }
+}

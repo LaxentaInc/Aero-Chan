@@ -1,0 +1,129 @@
+{
+  "buttons": {
+    "restore_perms_235148962103951360": {
+      "type": "restore_perms",
+      "targetId": "235148962103951360",
+      "memberId": "235148962103951360",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "carl-bot",
+            "id": "1537201348251091072",
+            "permissions": [
+              "KickMembers",
+              "BanMembers",
+              "ManageChannels",
+              "ManageGuild",
+              "AddReactions",
+              "ViewAuditLog",
+              "ViewChannel",
+              "SendMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "ChangeNickname",
+              "ManageNicknames",
+              "ManageRoles",
+              "ManageWebhooks",
+              "ManageEmojisAndStickers",
+              "ManageGuildExpressions",
+              "ManageThreads",
+              "CreatePublicThreads",
+              "CreatePrivateThreads",
+              "SendMessagesInThreads",
+              "ModerateMembers",
+              "CreateGuildExpressions",
+              "SendPolls"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1537162463030808679",
+      "relatedMessages": [
+        {
+          "channelId": "1537201355762958336",
+          "messageId": "1537201359256817694"
+        },
+        {
+          "channelId": "1537201369696706581",
+          "messageId": "1537201372351438859"
+        }
+      ],
+      "expiresAt": 1786654162950,
+      "createdAt": 1786567762950,
+      "module": "bot-protection"
+    },
+    "restore_perms_159985870458322944": {
+      "type": "restore_perms",
+      "targetId": "159985870458322944",
+      "memberId": "159985870458322944",
+      "strippedPermissions": {
+        "success": true,
+        "strippedRoles": [
+          {
+            "name": "MEE6",
+            "id": "1537202199099220131",
+            "permissions": [
+              "CreateInstantInvite",
+              "KickMembers",
+              "BanMembers",
+              "Administrator",
+              "ManageChannels",
+              "ManageGuild",
+              "AddReactions",
+              "ViewAuditLog",
+              "ViewChannel",
+              "SendMessages",
+              "ManageMessages",
+              "EmbedLinks",
+              "AttachFiles",
+              "ReadMessageHistory",
+              "MentionEveryone",
+              "UseExternalEmojis",
+              "Connect",
+              "Speak",
+              "MuteMembers",
+              "DeafenMembers",
+              "MoveMembers",
+              "UseVAD",
+              "ManageRoles",
+              "ManageWebhooks",
+              "ManageEmojisAndStickers",
+              "ManageGuildExpressions",
+              "UseApplicationCommands",
+              "ManageThreads",
+              "CreatePrivateThreads",
+              "SendMessagesInThreads"
+            ],
+            "managed": true,
+            "stripped": true
+          }
+        ],
+        "strippedPermissions": [],
+        "errorMessage": null,
+        "roleCount": 1
+      },
+      "guildId": "1537162463030808679",
+      "relatedMessages": [
+        {
+          "channelId": "1537201355762958336",
+          "messageId": "1537202206993027124"
+        },
+        {
+          "channelId": "1537201369696706581",
+          "messageId": "1537202210000085053"
+        }
+      ],
+      "expiresAt": 1786654363342,
+      "createdAt": 1786567963342,
+      "module": "bot-protection"
+    }
+  }
+}

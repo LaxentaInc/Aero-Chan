@@ -1,5 +1,6 @@
 // @ts-nocheck
 import { saveBackup, loadBackup, loadAllBackups } from "./storage";
+import { Guild, ChannelType, GuildChannelCreateOptions } from "discord.js";
 /**
  * AntiNuke Restoration
  * Batch channel and role restoration, and backup management
@@ -10,7 +11,7 @@ import { saveBackup, loadBackup, loadAllBackups } from "./storage";
  * Batch restore all deleted channels and roles
  * Categories are restored FIRST so children can be parented correctly
  */
-async function batchRestoreChannels(guild: any, deletedChannels: any, deletedRoles: any, backups: any) {
+async function batchRestoreChannels(guild: Guild, deletedChannels: Map<string, any[]>, deletedRoles: Map<string, any[]>, backups: Map<string, any>) {
   const deletedCh = deletedChannels.get(guild.id) as any || [];
   const deletedR = deletedRoles.get(guild.id) as any || [];
   if (deletedCh.length === 0 && deletedR.length === 0) {
@@ -77,8 +78,8 @@ async function batchRestoreChannels(guild: any, deletedChannels: any, deletedRol
     }
 
     // Separate: Categories FIRST, then others
-    const categories = channelsToRestore.filter((c: any) => c.type === 4).sort((a: any, b: any) => a.position - b.position);
-    const others = channelsToRestore.filter((c: any) => c.type !== 4).sort((a: any, b: any) => a.position - b.position);
+    const categories = channelsToRestore.filter((c: any) => c.type === ChannelType.GuildCategory).sort((a: any, b: any) => a.position - b.position);
+    const others = channelsToRestore.filter((c: any) => c.type !== ChannelType.GuildCategory).sort((a: any, b: any) => a.position - b.position);
 
     // Map: OldID -> NewID for parenting
     const idMap = new Map();
@@ -88,8 +89,7 @@ async function batchRestoreChannels(guild: any, deletedChannels: any, deletedRol
       try {
         const newChannel = await guild.channels.create({
           name: cat.name,
-          type: 4,
-          // GuildCategory
+          type: ChannelType.GuildCategory,
           position: cat.position,
           reason: 'AntiNuke Batch Restoration'
         });
@@ -104,7 +104,7 @@ async function batchRestoreChannels(guild: any, deletedChannels: any, deletedRol
     // 2. Restore Other Channels
     for (const ch of others) {
       try {
-        const options = {
+        const options: GuildChannelCreateOptions = {
           name: ch.name,
           type: ch.type,
           reason: 'AntiNuke Batch Restoration'
@@ -145,7 +145,7 @@ async function batchRestoreChannels(guild: any, deletedChannels: any, deletedRol
  * Backup a guild's channels and roles
  * Saves to both memory cache AND JSON file
  */
-async function backupGuild(guild: any, backups: any) {
+async function backupGuild(guild: Guild, backups: Map<string, any>) {
   try {
     // Backup ALL channels including categories (up to 200)
     const channels = guild.channels.cache.map((c: any) => ({
@@ -193,7 +193,7 @@ async function backupGuild(guild: any, backups: any) {
 /**
  * Backup all guilds the bot is in
  */
-async function backupAllGuilds(client: any, backups: any, getConfig: any) {
+async function backupAllGuilds(client: any, backups: Map<string, any>, getConfig: any) {
   if (!client) return;
 
   // First, load any existing backups from files

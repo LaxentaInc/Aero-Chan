@@ -49,6 +49,24 @@
         "type": 0,
         "position": 1,
         "parentId": "1531412877867614359"
+      },
+      {
+        "id": "1532169286431408170",
+        "name": "Dumbass",
+        "type": 11,
+        "parentId": "1530393612381327504"
+      },
+      {
+        "id": "1532200450437152768",
+        "name": "We all should leave n go to the other server",
+        "type": 11,
+        "parentId": "1530393612381327504"
+      },
+      {
+        "id": "1532200559849766922",
+        "name": "The mangos one",
+        "type": 11,
+        "parentId": "1530393612381327504"
       }
     ],
     "roles": [
@@ -57,7 +75,7 @@
         "name": "Top Mod",
         "color": 3066993,
         "permissions": "8864258447638527",
-        "position": 7,
+        "position": 11,
         "hoist": false,
         "mentionable": false
       },
@@ -66,7 +84,7 @@
         "name": "Goat",
         "color": 2123412,
         "permissions": "1721826618638327",
-        "position": 5,
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -74,8 +92,8 @@
         "id": "1530658949190127686",
         "name": "Swag",
         "color": 15844367,
-        "permissions": "1721826618638335",
-        "position": 3,
+        "permissions": "1721826253733471",
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -84,7 +102,7 @@
         "name": "Dih Sucker",
         "color": 70945,
         "permissions": "1721807559716807",
-        "position": 2,
+        "position": 6,
         "hoist": false,
         "mentionable": false
       },
@@ -93,11 +111,38 @@
         "name": "Femboy Lover",
         "color": 15277667,
         "permissions": "1720707884502593",
-        "position": 1,
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1531829425480532138",
+        "name": "Nigger",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532085431137468758",
+        "name": "Random",
+        "color": 10038562,
+        "permissions": "1721807559716807",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532087986228039872",
+        "name": "Queen",
+        "color": 3447003,
+        "permissions": "1721826618638327",
+        "position": 2,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1785215722389
+    "updated": 1786611511807
   }
 }

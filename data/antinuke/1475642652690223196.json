@@ -1,0 +1,173 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1475642653788999811",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1475642653788999812",
+        "name": "chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1475642653788999811"
+      },
+      {
+        "id": "1475642653788999813",
+        "name": "clips-y-destacados",
+        "type": 0,
+        "position": 1,
+        "parentId": "1475642653788999811"
+      },
+      {
+        "id": "1475642653788999814",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1475642653788999815",
+        "name": "Sala",
+        "type": 2,
+        "position": 0,
+        "parentId": "1475642653788999814"
+      },
+      {
+        "id": "1475642653788999816",
+        "name": "Juegos",
+        "type": 2,
+        "position": 1,
+        "parentId": "1475642653788999814"
+      },
+      {
+        "id": "1475642842398589169",
+        "name": "screenshots-del-server",
+        "type": 0,
+        "position": 2,
+        "parentId": "1475642653788999811"
+      },
+      {
+        "id": "1475642928746463242",
+        "name": "recordatorios-notas",
+        "type": 0,
+        "position": 3,
+        "parentId": "1475642653788999811"
+      },
+      {
+        "id": "1475643000179789968",
+        "name": "fotos",
+        "type": 0,
+        "position": 4,
+        "parentId": "1475642653788999811"
+      },
+      {
+        "id": "1478969375649300571",
+        "name": "musica",
+        "type": 0,
+        "position": 5,
+        "parentId": "1475642653788999811"
+      },
+      {
+        "id": "1492680612945989662",
+        "name": "momazos",
+        "type": 0,
+        "position": 6,
+        "parentId": "1475642653788999811"
+      },
+      {
+        "id": "1522846318773534781",
+        "name": "manden-stickers",
+        "type": 0,
+        "position": 7,
+        "parentId": "1475642653788999811"
+      },
+      {
+        "id": "1524375986802790551",
+        "name": "recomendaciones-de-pelis-series",
+        "type": 0,
+        "position": 8,
+        "parentId": "1475642653788999811"
+      },
+      {
+        "id": "1529327974682464256",
+        "name": "pelisss",
+        "type": 2,
+        "position": 2,
+        "parentId": "1475642653788999814"
+      },
+      {
+        "id": "1534989821230190612",
+        "name": "only-admin-on",
+        "type": 0,
+        "position": 9,
+        "parentId": "1475642653788999811"
+      },
+      {
+        "id": "1534989901429215292",
+        "name": "lista-negra",
+        "type": 0,
+        "position": 10,
+        "parentId": "1475642653788999811"
+      },
+      {
+        "id": "1535720084985614436",
+        "name": "guegos",
+        "type": 0,
+        "position": 11,
+        "parentId": "1475642653788999811"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1519761171283050696",
+        "name": "𝕿𝖍𝖊 𝕮𝖗𝖊𝖆𝖙𝖍𝖔𝖗",
+        "color": 16711875,
+        "permissions": "8864258447638527",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519762819912962230",
+        "name": "Pedazo de Wachin",
+        "color": 4268311,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1519763097626218608",
+        "name": "𓂀 𝔸𝕕𝕞𝕚𝕟 𓂀",
+        "color": 60159,
+        "permissions": "3234187741487046",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1522855923066863626",
+        "name": "Amiguiño",
+        "color": 4852713,
+        "permissions": "655755677457985",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535425811404824628",
+        "name": "Gamberro",
+        "color": 16711680,
+        "permissions": "8",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1786611511692
+  }
+}

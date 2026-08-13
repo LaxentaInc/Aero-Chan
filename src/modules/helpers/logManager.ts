@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { ChannelType, PermissionFlagsBits, EmbedBuilder } from "discord.js";
+import { ChannelType, PermissionFlagsBits, EmbedBuilder, Guild, GuildTextChannel, CategoryChannel, User, TextChannel, Message } from "discord.js";
 /**
  * LogManager - Centralized Logging System for Anti-Raid Modules
  * 
@@ -213,16 +213,16 @@ const EVENT_TYPES = {
 // LOG MANAGER CLASS
 // =============================================
 class LogManager {
-  channelCache: Map<any, any>;
-  alertChannelCache: Map<any, any>;
-  logQueue: Map<any, any>;
-  alertQueue: Map<any, any>;
-  processing: Set<any>;
-  alertProcessing: Set<any>;
-  channelCreating: Set<any>;
-  alertChannelCreating: Set<any>;
-  submissionSuspended: Set<any>;
-  categoryLock: Map<any, any>;
+  channelCache: Map<string, string>;
+  alertChannelCache: Map<string, string>;
+  logQueue: Map<string, any[]>;
+  alertQueue: Map<string, any[]>;
+  processing: Set<string>;
+  alertProcessing: Set<string>;
+  channelCreating: Set<string>;
+  alertChannelCreating: Set<string>;
+  submissionSuspended: Set<string>;
+  categoryLock: Map<string, Promise<CategoryChannel | null>>;
   LOG_CHANNEL_NAME: string;
   ALERT_CHANNEL_NAME: string;
   CATEGORY_NAME: string;
@@ -253,7 +253,7 @@ class LogManager {
   /**
    * Register a new event type dynamically (for future modules)
    */
-  registerEventType(type: any, config: any) {
+  registerEventType(type: string, config: any) {
     if (EVENT_TYPES[type]) {
       console.warn(`[LogManager] Event type ${type} already exists, overwriting`);
     }
@@ -265,25 +265,25 @@ class LogManager {
    * Get or create the log channel for a guild
    * Auto-regenerates if deleted
    */
-  async getLogChannel(guild: any) {
+  async getLogChannel(guild: Guild): Promise<TextChannel | null> {
     return this._getOrCreateChannel(guild, this.LOG_CHANNEL_NAME, this.channelCache, this.channelCreating);
   }
 
   /**
    * Get or create the ALERT channel for a guild (for threshold/punishment events)
    */
-  async getAlertChannel(guild: any) {
+  async getAlertChannel(guild: Guild): Promise<TextChannel | null> {
     return this._getOrCreateChannel(guild, this.ALERT_CHANNEL_NAME, this.alertChannelCache, this.alertChannelCreating);
   }
 
   /**
    * Ensure the Aero category exists, with locking to prevent duplicates
    */
-  async ensureCategory(guild: any) {
+  async ensureCategory(guild: Guild): Promise<CategoryChannel | null> {
     const CategoryName = this.CATEGORY_NAME;
 
     // 1. Check cache/API first (fast path)
-    let category = guild.channels.cache.find(c => c.type === ChannelType.GuildCategory && c.name === CategoryName) as any;
+    let category = guild.channels.cache.find(c => c.type === ChannelType.GuildCategory && c.name === CategoryName) as CategoryChannel | undefined;
     if (category) return category;
 
     // 2. Check overlap lock
@@ -295,7 +295,7 @@ class LogManager {
     const creationPromise = (async () => {
       try {
         // Double check after acquiring lock
-        let cat = guild.channels.cache.find(c => c.type === ChannelType.GuildCategory && c.name === CategoryName) as any;
+        let cat = guild.channels.cache.find(c => c.type === ChannelType.GuildCategory && c.name === CategoryName) as CategoryChannel | undefined;
         if (cat) return cat;
         cat = await guild.channels.create({
           name: CategoryName,
@@ -326,19 +326,19 @@ class LogManager {
   /**
    * Internal helper to specific channel type
    */
-  async _getOrCreateChannel(guild: any, channelName: any, cacheMap: any, creationSet: any) {
+  async _getOrCreateChannel(guild: Guild, channelName: string, cacheMap: Map<string, string>, creationSet: Set<string>): Promise<TextChannel | null> {
     const guildId = guild.id;
 
     // Check cache first
-    const cachedId = cacheMap.get(guildId) as any;
+    const cachedId = cacheMap.get(guildId);
     if (cachedId) {
-      const channel = guild.channels.cache.get(cachedId) as any;
+      const channel = guild.channels.cache.get(cachedId) as TextChannel | undefined;
       if (channel) return channel;
       cacheMap.delete(guildId);
     }
 
     // Search for existing channel
-    let channel = guild.channels.cache.find(c => c.name === channelName) as any;
+    let channel = guild.channels.cache.find(c => c.name === channelName) as TextChannel | undefined;
     if (channel) {
       cacheMap.set(guildId, channel.id);
 
@@ -358,7 +358,7 @@ class LogManager {
     if (creationSet.has(guildId)) {
       // Wait for existing creation to finish
       await new Promise((r: any) => setTimeout(r, 2000));
-      return guild.channels.cache.find(c => c.name === channelName) as any || null;
+      return (guild.channels.cache.find(c => c.name === channelName) as TextChannel | undefined) || null;
     }
     creationSet.add(guildId);
     try {
@@ -369,7 +369,7 @@ class LogManager {
       channel = await guild.channels.create({
         name: channelName,
         type: ChannelType.GuildText,
-        parent: category ? category.id : null,
+        parent: category ? category.id : undefined,
         permissionOverwrites: [{
           id: guild.id,
           deny: [PermissionFlagsBits.ViewChannel]
@@ -405,7 +405,7 @@ class LogManager {
   /**
    * Build an embed from event type and data
    */
-  buildEmbed(eventType: any, data: Record<string, any> = {}) {
+  buildEmbed(eventType: string, data: Record<string, any> = {}) {
     const config = EVENT_TYPES[eventType] || {
       color: 0x95A5A6,
       emoji: '<:mod:1437818267489013960>',
@@ -466,7 +466,7 @@ class LogManager {
   /**
    * Send embed to channel (with error handling)
    */
-  async sendEmbed(channel: any, embed: any) {
+  async sendEmbed(channel: TextChannel, embed: EmbedBuilder) {
     try {
       await channel.send({
         embeds: [embed]
@@ -481,7 +481,7 @@ class LogManager {
   /**
    * Main logging method - queues logs and processes them
    */
-  async log(guild: any, eventType: any, data: Record<string, any> = {}) {
+  async log(guild: Guild, eventType: string, data: Record<string, any> = {}) {
     if (!guild) return false;
     const guildId = guild.id;
 
@@ -489,7 +489,7 @@ class LogManager {
     if (!this.logQueue.has(guildId)) {
       this.logQueue.set(guildId, []);
     }
-    (this.logQueue.get(guildId) as any).push({
+    this.logQueue.get(guildId)!.push({
       eventType,
       data,
       timestamp: Date.now()
@@ -505,7 +505,7 @@ class LogManager {
   /**
    * Process queued logs for a guild
    */
-  async processQueue(guildId: any, guild: any) {
+  async processQueue(guildId: string, guild: Guild) {
     if (this.processing.has(guildId)) return;
     this.processing.add(guildId);
     try {
@@ -515,8 +515,8 @@ class LogManager {
         this.logQueue.delete(guildId);
         return;
       }
-      while (this.logQueue.has(guildId) && (this.logQueue.get(guildId) as any).length > 0) {
-        const queue = this.logQueue.get(guildId) as any;
+      while (this.logQueue.has(guildId) && this.logQueue.get(guildId)!.length > 0) {
+        const queue = this.logQueue.get(guildId)!;
         const batch = queue.splice(0, this.MAX_BATCH_SIZE);
         const embeds = batch.map((item: any) => this.buildEmbed(item.eventType, item.data));
         try {
@@ -554,10 +554,10 @@ class LogManager {
    * Supports raw embeds and buttons (components)
    * Sends IMMEDIATELY (no queue) to ensure it syncs with DMs
    */
-  async logAlert(guild: any, {
+  async logAlert(guild: Guild, {
     embed,
     components = []
-  }: { embed: any, components?: any[] }) {
+  }: { embed: EmbedBuilder, components?: any[] }) {
     if (!guild) return false;
     try {
       const channel = await this.getAlertChannel(guild);
@@ -594,7 +594,7 @@ class LogManager {
   /**
    * Quick log methods for common events
    */
-  async logChannelChange(guild: any, action: any, channel: any, executor: any) {
+  async logChannelChange(guild: Guild, action: string, channel: any, executor: User) {
     const eventType = `CHANNEL_${action.toUpperCase()}`;
     return this.log(guild, eventType, {
       target: channel,
@@ -606,7 +606,7 @@ class LogManager {
       }]
     });
   }
-  async logRoleChange(guild: any, action: any, role: any, executor: any, extraFields: any[] = []) {
+  async logRoleChange(guild: Guild, action: string, role: any, executor: User, extraFields: any[] = []) {
     const eventType = `ROLE_${action.toUpperCase()}`;
     return this.log(guild, eventType, {
       target: role,
@@ -614,7 +614,7 @@ class LogManager {
       fields: extraFields
     });
   }
-  async logPunishment(guild: any, action: any, target: any, executor: any, reason: any) {
+  async logPunishment(guild: Guild, action: string, target: any, executor: User, reason: string) {
     const actionMap = {
       'timeout': 'USER_TIMEOUT',
       'kick': 'USER_KICKED',
@@ -631,14 +631,14 @@ class LogManager {
   /**
    * Invalidate cache for a guild (call when channel is deleted)
    */
-  invalidateCache(guildId: any) {
+  invalidateCache(guildId: string) {
     this.channelCache.delete(guildId);
   }
 
   /**
    * Suspend recreation for a specific time (e.g. after deletion)
    */
-  suspendRecreation(guildId: any, duration: number = 60000) {
+  suspendRecreation(guildId: string, duration: number = 60000) {
     this.submissionSuspended.add(guildId);
     console.log(`[LogManager] Suspended recreation for ${guildId} for ${duration}ms`);
     setTimeout(() => {

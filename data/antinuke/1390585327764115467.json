@@ -3,66 +3,24 @@
     "channels": [
       {
         "id": "1390585328510832671",
-        "name": "chats",
+        "name": "𓆝 𓆟 𓆞",
         "type": 4,
         "position": 1,
         "parentId": null
       },
       {
-        "id": "1390585328510832672",
-        "name": "Voice Channels",
-        "type": 4,
-        "position": 3,
-        "parentId": null
-      },
-      {
         "id": "1390585328510832673",
-        "name": "‧₊-♪˚⊹-general-chat-‧₊-♪˚⊹",
+        "name": "↳﹒general-chat﹕🧶",
         "type": 0,
         "position": 0,
         "parentId": "1390585328510832671"
       },
       {
-        "id": "1390585328510832674",
-        "name": "࣪ ˖ 𖦹°⋆ vc-1  ࣪ ˖ 𖦹°⋆",
-        "type": 2,
-        "position": 0,
-        "parentId": "1390585328510832672"
-      },
-      {
-        "id": "1488001459718062130",
-        "name": "࣪ ˖ 𖦹°⋆ vc-2 ࣪ ˖ 𖦹°⋆",
-        "type": 2,
-        "position": 1,
-        "parentId": "1390585328510832672"
-      },
-      {
         "id": "1488008700366160022",
-        "name": "˖-܁♬⋆˚𝄞-roles-˖-܁♬⋆˚𝄞",
+        "name": "↳﹒rules﹕🧶",
         "type": 0,
         "position": 0,
         "parentId": "1526879673836113973"
-      },
-      {
-        "id": "1488663597314867511",
-        "name": "ᝰᐟ-tree-ᝰᐟ",
-        "type": 0,
-        "position": 3,
-        "parentId": "1526880019937497098"
-      },
-      {
-        "id": "1488668115763073216",
-        "name": "ᝰᐟ-mudae-ᝰᐟ",
-        "type": 0,
-        "position": 4,
-        "parentId": "1526880019937497098"
-      },
-      {
-        "id": "1511116276305625269",
-        "name": "ᝰᐟ-pokemon-ᝰᐟ",
-        "type": 0,
-        "position": 2,
-        "parentId": "1526880019937497098"
       },
       {
         "id": "1526780549891625081",
@@ -72,142 +30,60 @@
         "parentId": null
       },
       {
-        "id": "1526781850456952973",
-        "name": "ᝰᐟ-wordle-ᝰᐟ",
-        "type": 0,
-        "position": 0,
-        "parentId": "1526880019937497098"
-      },
-      {
-        "id": "1526875073523224596",
-        "name": "‧₊-♪˚⊹-media-‧₊-♪˚⊹",
-        "type": 0,
-        "position": 1,
-        "parentId": "1390585328510832671"
-      },
-      {
-        "id": "1526875878741639198",
-        "name": "‧₊-♪˚⊹-public-forum-‧₊-♪˚⊹",
-        "type": 15,
-        "position": 2,
-        "parentId": "1390585328510832671"
-      },
-      {
-        "id": "1526877176220352512",
-        "name": "˖-܁♬⋆˚𝄞-polls-˖-܁♬⋆˚𝄞",
-        "type": 0,
-        "position": 4,
-        "parentId": "1526879673836113973"
-      },
-      {
-        "id": "1526878416270397441",
-        "name": "˖-܁♬⋆˚𝄞-announcements-˖-܁♬⋆˚𝄞",
-        "type": 0,
-        "position": 2,
-        "parentId": "1526879673836113973"
-      },
-      {
         "id": "1526879673836113973",
-        "name": "Important things",
+        "name": "𓆝 𓆟 𓆞",
         "type": 4,
         "position": 0,
         "parentId": null
       },
       {
-        "id": "1526880019937497098",
-        "name": "various activitiys",
+        "id": "1534779606329196654",
+        "name": "𓆝 𓆟 𓆞",
         "type": 4,
         "position": 2,
         "parentId": null
       },
       {
-        "id": "1526880524906266635",
-        "name": "ᝰᐟ-counting-ᝰᐟ",
-        "type": 0,
-        "position": 5,
-        "parentId": "1526880019937497098"
-      },
-      {
-        "id": "1526902299585286204",
-        "name": "˖-܁♬⋆˚𝄞-rules-˖-܁♬⋆˚𝄞",
-        "type": 0,
-        "position": 1,
-        "parentId": "1526879673836113973"
-      },
-      {
-        "id": "1526902776372920380",
-        "name": "levels",
-        "type": 0,
-        "position": 1,
+        "id": "1534779813661901020",
+        "name": "𓆝 𓆟 𓆞",
+        "type": 4,
+        "position": 3,
         "parentId": null
       },
       {
-        "id": "1526903824353329283",
-        "name": "‧₊-♪˚⊹-music-‧₊-♪˚⊹",
-        "type": 0,
-        "position": 3,
-        "parentId": "1390585328510832671"
+        "id": "1534780537464688641",
+        "name": "𓆝 𓆟 𓆞",
+        "type": 4,
+        "position": 4,
+        "parentId": null
       },
       {
-        "id": "1526904923437006930",
-        "name": "˖-܁♬⋆˚𝄞-server-requests-n-suggestions-˖-܁♬⋆˚𝄞",
-        "type": 0,
-        "position": 5,
-        "parentId": "1526879673836113973"
+        "id": "1534781365923483718",
+        "name": "𝘷𝘰𝘪𝘤𝘦 𝘤𝘩𝘢𝘵 1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1534780537464688641"
       },
       {
-        "id": "1526905569972064336",
-        "name": "˖-܁♬⋆˚𝄞-intros-˖-܁♬⋆˚𝄞",
-        "type": 0,
-        "position": 6,
-        "parentId": "1526879673836113973"
+        "id": "1534781432994594987",
+        "name": "𝘷𝘰𝘪𝘤𝘦 𝘤𝘩𝘢𝘵 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1534780537464688641"
       },
       {
-        "id": "1526906667890118877",
-        "name": "ᝰᐟ-confessions-ᝰᐟ",
-        "type": 0,
-        "position": 6,
-        "parentId": "1526880019937497098"
-      },
-      {
-        "id": "1526914676997492786",
-        "name": "࣪ ˖ 𖦹°⋆ vc-3 ࣪ ˖ 𖦹°⋆",
+        "id": "1534781549000654949",
+        "name": "𝘷𝘰𝘪𝘤𝘦 𝘤𝘩𝘢𝘵 3",
         "type": 2,
         "position": 2,
-        "parentId": "1390585328510832672"
+        "parentId": "1534780537464688641"
       },
       {
-        "id": "1526914839258202142",
-        "name": "˖-܁♬⋆˚𝄞-update-announcement-forum-˖-܁♬⋆˚𝄞",
-        "type": 15,
-        "position": 3,
-        "parentId": "1526879673836113973"
-      },
-      {
-        "id": "1526923946039971851",
-        "name": "‧₊-♪˚⊹-venting-‧₊-♪˚⊹",
-        "type": 0,
-        "position": 4,
-        "parentId": "1390585328510832671"
-      },
-      {
-        "id": "1528338434786197504",
-        "name": "musicdex",
+        "id": "1534794211445178458",
+        "name": "↳﹒roles﹕🧶",
         "type": 0,
         "position": 1,
-        "parentId": "1526880019937497098"
-      },
-      {
-        "id": "1526876705229377597",
-        "name": "i didnt know this was something i could make honestly",
-        "type": 11,
-        "parentId": "1526875878741639198"
-      },
-      {
-        "id": "1526915827473977495",
-        "name": "I will be doing stuff to get people to join soon",
-        "type": 11,
-        "parentId": "1526914839258202142"
+        "parentId": "1526879673836113973"
       }
     ],
     "roles": [
@@ -216,7 +92,16 @@
         "name": "cream",
         "color": 15988171,
         "permissions": "0",
-        "position": 40,
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534775649451905114",
+        "name": "avatar(blue people)",
+        "color": 39935,
+        "permissions": "0",
+        "position": 7,
         "hoist": false,
         "mentionable": false
       },
@@ -225,7 +110,7 @@
         "name": "white",
         "color": 16777215,
         "permissions": "0",
-        "position": 42,
+        "position": 47,
         "hoist": false,
         "mentionable": false
       },
@@ -234,7 +119,7 @@
         "name": "light cool toned pink",
         "color": 16744441,
         "permissions": "0",
-        "position": 43,
+        "position": 48,
         "hoist": false,
         "mentionable": false
       },
@@ -243,16 +128,16 @@
         "name": "hot pink",
         "color": 16711816,
         "permissions": "0",
-        "position": 45,
+        "position": 50,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1529362042056867900",
         "name": "Mod",
-        "color": 11599657,
+        "color": 9807270,
         "permissions": "1721807559716807",
-        "position": 2,
+        "position": 66,
         "hoist": false,
         "mentionable": false
       },
@@ -261,7 +146,16 @@
         "name": "Stupid robots",
         "color": 0,
         "permissions": "0",
-        "position": 33,
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534473516357914694",
+        "name": "vent access",
+        "color": 4063349,
+        "permissions": "0",
+        "position": 9,
         "hoist": false,
         "mentionable": false
       },
@@ -270,7 +164,7 @@
         "name": "dark brown",
         "color": 7355652,
         "permissions": "0",
-        "position": 37,
+        "position": 42,
         "hoist": false,
         "mentionable": false
       },
@@ -279,7 +173,7 @@
         "name": "dark green",
         "color": 2063365,
         "permissions": "0",
-        "position": 52,
+        "position": 57,
         "hoist": false,
         "mentionable": false
       },
@@ -288,7 +182,7 @@
         "name": "she/they",
         "color": 0,
         "permissions": "0",
-        "position": 18,
+        "position": 25,
         "hoist": false,
         "mentionable": false
       },
@@ -297,7 +191,7 @@
         "name": "light warm toned pink",
         "color": 16610206,
         "permissions": "0",
-        "position": 44,
+        "position": 49,
         "hoist": false,
         "mentionable": false
       },
@@ -306,7 +200,7 @@
         "name": "he/they",
         "color": 0,
         "permissions": "0",
-        "position": 17,
+        "position": 24,
         "hoist": false,
         "mentionable": false
       },
@@ -315,7 +209,7 @@
         "name": "she/her",
         "color": 0,
         "permissions": "0",
-        "position": 20,
+        "position": 27,
         "hoist": false,
         "mentionable": false
       },
@@ -324,7 +218,7 @@
         "name": "13-14",
         "color": 0,
         "permissions": "0",
-        "position": 14,
+        "position": 21,
         "hoist": false,
         "mentionable": false
       },
@@ -333,16 +227,7 @@
         "name": "bright green",
         "color": 53034,
         "permissions": "0",
-        "position": 53,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1529361621569503327",
-        "name": "Vent access",
-        "color": 3447003,
-        "permissions": "0",
-        "position": 3,
+        "position": 58,
         "hoist": false,
         "mentionable": false
       },
@@ -351,7 +236,7 @@
         "name": "dark red",
         "color": 10813440,
         "permissions": "0",
-        "position": 59,
+        "position": 64,
         "hoist": false,
         "mentionable": false
       },
@@ -360,7 +245,16 @@
         "name": "bright orange",
         "color": 16742144,
         "permissions": "0",
-        "position": 58,
+        "position": 63,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534794739407261767",
+        "name": "Member!",
+        "color": 16777215,
+        "permissions": "1720707884371521",
+        "position": 1,
         "hoist": false,
         "mentionable": false
       },
@@ -369,16 +263,25 @@
         "name": "just refer to me with my name",
         "color": 0,
         "permissions": "0",
-        "position": 15,
+        "position": 22,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534775805505175653",
+        "name": "minecraft",
+        "color": 0,
+        "permissions": "0",
+        "position": 4,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1488005592722178118",
-        "name": "Alan",
-        "color": 1752220,
-        "permissions": "1721826618638327",
-        "position": 36,
+        "name": "co-owner",
+        "color": 1274714,
+        "permissions": "8864262743130111",
+        "position": 67,
         "hoist": false,
         "mentionable": false
       },
@@ -387,7 +290,7 @@
         "name": "15-16",
         "color": 0,
         "permissions": "0",
-        "position": 13,
+        "position": 20,
         "hoist": false,
         "mentionable": false
       },
@@ -396,16 +299,16 @@
         "name": "17",
         "color": 0,
         "permissions": "0",
-        "position": 12,
+        "position": 19,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1529388085643710558",
-        "name": "Flamingo",
+        "name": "Flamingo(the youtuber)",
         "color": 15698343,
         "permissions": "0",
-        "position": 1,
+        "position": 10,
         "hoist": false,
         "mentionable": false
       },
@@ -414,7 +317,7 @@
         "name": "Owner",
         "color": 40479,
         "permissions": "0",
-        "position": 62,
+        "position": 69,
         "hoist": false,
         "mentionable": true
       },
@@ -423,7 +326,16 @@
         "name": "bright purple",
         "color": 9175295,
         "permissions": "0",
-        "position": 47,
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534778818328264976",
+        "name": "tomodachi life",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 2,
         "hoist": false,
         "mentionable": false
       },
@@ -432,7 +344,7 @@
         "name": "bright yellow",
         "color": 16763904,
         "permissions": "0",
-        "position": 56,
+        "position": 61,
         "hoist": false,
         "mentionable": false
       },
@@ -441,7 +353,7 @@
         "name": "light brown",
         "color": 13540686,
         "permissions": "0",
-        "position": 38,
+        "position": 43,
         "hoist": false,
         "mentionable": false
       },
@@ -450,7 +362,7 @@
         "name": "dark purple",
         "color": 3276916,
         "permissions": "0",
-        "position": 46,
+        "position": 51,
         "hoist": false,
         "mentionable": false
       },
@@ -459,7 +371,7 @@
         "name": "cyan",
         "color": 65518,
         "permissions": "0",
-        "position": 50,
+        "position": 55,
         "hoist": false,
         "mentionable": false
       },
@@ -468,7 +380,16 @@
         "name": "bright blue",
         "color": 30719,
         "permissions": "0",
-        "position": 49,
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534775853488148632",
+        "name": "roblox",
+        "color": 12713984,
+        "permissions": "0",
+        "position": 3,
         "hoist": false,
         "mentionable": false
       },
@@ -477,7 +398,7 @@
         "name": "Other pronouns / ask",
         "color": 0,
         "permissions": "0",
-        "position": 16,
+        "position": 23,
         "hoist": false,
         "mentionable": false
       },
@@ -486,7 +407,7 @@
         "name": "Dm request",
         "color": 0,
         "permissions": "0",
-        "position": 10,
+        "position": 17,
         "hoist": false,
         "mentionable": false
       },
@@ -495,7 +416,7 @@
         "name": "they/them",
         "color": 0,
         "permissions": "0",
-        "position": 21,
+        "position": 28,
         "hoist": false,
         "mentionable": false
       },
@@ -504,7 +425,7 @@
         "name": "Iris",
         "color": 11735570,
         "permissions": "1721826618638327",
-        "position": 35,
+        "position": 41,
         "hoist": false,
         "mentionable": false
       },
@@ -513,7 +434,7 @@
         "name": "black",
         "color": 328965,
         "permissions": "0",
-        "position": 41,
+        "position": 46,
         "hoist": false,
         "mentionable": false
       },
@@ -522,7 +443,7 @@
         "name": "bright red",
         "color": 16711684,
         "permissions": "0",
-        "position": 60,
+        "position": 65,
         "hoist": false,
         "mentionable": false
       },
@@ -531,7 +452,16 @@
         "name": "he/him",
         "color": 0,
         "permissions": "0",
-        "position": 19,
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534775557433331763",
+        "name": "genshin impact",
+        "color": 10181046,
+        "permissions": "0",
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -540,7 +470,16 @@
         "name": "teal",
         "color": 54941,
         "permissions": "0",
-        "position": 51,
+        "position": 56,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534775769627361331",
+        "name": "honkai star rail",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 5,
         "hoist": false,
         "mentionable": false
       },
@@ -549,7 +488,7 @@
         "name": "mustard",
         "color": 14533376,
         "permissions": "0",
-        "position": 39,
+        "position": 44,
         "hoist": false,
         "mentionable": false
       },
@@ -558,7 +497,7 @@
         "name": "The Beatles",
         "color": 16638319,
         "permissions": "0",
-        "position": 4,
+        "position": 11,
         "hoist": false,
         "mentionable": false
       },
@@ -567,7 +506,7 @@
         "name": "dark yellow",
         "color": 12491534,
         "permissions": "0",
-        "position": 55,
+        "position": 60,
         "hoist": false,
         "mentionable": false
       },
@@ -576,7 +515,7 @@
         "name": "dark orange",
         "color": 12800260,
         "permissions": "0",
-        "position": 57,
+        "position": 62,
         "hoist": false,
         "mentionable": false
       },
@@ -585,7 +524,7 @@
         "name": "dark Blue",
         "color": 399504,
         "permissions": "0",
-        "position": 48,
+        "position": 53,
         "hoist": false,
         "mentionable": false
       },
@@ -594,11 +533,20 @@
         "name": "chartreuse",
         "color": 11396880,
         "permissions": "0",
-        "position": 54,
+        "position": 59,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534775716078424105",
+        "name": "avatar( the last airbender)",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 6,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1785215722819
+    "updated": 1786611511959
   }
 }

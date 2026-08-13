@@ -47,7 +47,7 @@
         "id": "1479770080257769492",
         "name": "Tord's room",
         "type": 2,
-        "position": 18,
+        "position": 19,
         "parentId": "1455571375791149078"
       },
       {
@@ -56,13 +56,6 @@
         "type": 0,
         "position": 0,
         "parentId": "1480262814697390080"
-      },
-      {
-        "id": "1488111930420891840",
-        "name": "unusualrealitysㆍspace",
-        "type": 0,
-        "position": 4,
-        "parentId": "1479252783139000442"
       },
       {
         "id": "1422260387251752960",
@@ -107,6 +100,13 @@
         "parentId": "1444796443851362455"
       },
       {
+        "id": "1535578699116580894",
+        "name": "ticket-0011",
+        "type": 0,
+        "position": 8,
+        "parentId": "1453085393791615039"
+      },
+      {
         "id": "1500384093949526066",
         "name": "‧˚꒰  ʟᴀᴡs ᴀɴᴅ ᴏʀᴅᴇʀs  ⋮ ⌗  ┆  017",
         "type": 4,
@@ -124,14 +124,14 @@
         "id": "1518666673387864144",
         "name": "sharpness's room",
         "type": 2,
-        "position": 28,
+        "position": 29,
         "parentId": "1455571375791149078"
       },
       {
         "id": "1518666652563013763",
         "name": "sharp's empire",
         "type": 2,
-        "position": 27,
+        "position": 28,
         "parentId": "1455571375791149078"
       },
       {
@@ -145,7 +145,7 @@
         "id": "1479473647642214545",
         "name": "pencils room",
         "type": 2,
-        "position": 17,
+        "position": 18,
         "parentId": "1455571375791149078"
       },
       {
@@ -180,7 +180,7 @@
         "id": "1519713207302754396",
         "name": "Gardenias garden",
         "type": 2,
-        "position": 29,
+        "position": 30,
         "parentId": "1455571375791149078"
       },
       {
@@ -248,9 +248,9 @@
       },
       {
         "id": "1479959298108035273",
-        "name": "‧˚꒰  zheobuu's tent ⋮ ⌗ ┆",
+        "name": "‧˚꒰  zheobuu's cabin ⋮ ⌗ ┆",
         "type": 2,
-        "position": 3,
+        "position": 4,
         "parentId": "1455571375791149078"
       },
       {
@@ -264,7 +264,7 @@
         "id": "1529146468202446938",
         "name": "Vegas room",
         "type": 2,
-        "position": 4,
+        "position": 5,
         "parentId": "1455571375791149078"
       },
       {
@@ -283,9 +283,9 @@
       },
       {
         "id": "1479774024472203294",
-        "name": "Mob's empire",
+        "name": "Azel's bedroom",
         "type": 2,
-        "position": 2,
+        "position": 3,
         "parentId": "1455571375791149078"
       },
       {
@@ -299,7 +299,7 @@
         "id": "1479473047508353126",
         "name": "Christians room",
         "type": 2,
-        "position": 15,
+        "position": 16,
         "parentId": "1455571375791149078"
       },
       {
@@ -320,7 +320,7 @@
         "id": "1517992576852951131",
         "name": "azure's room",
         "type": 2,
-        "position": 20,
+        "position": 21,
         "parentId": "1455571375791149078"
       },
       {
@@ -341,7 +341,7 @@
         "id": "1479842099439472722",
         "name": "Gambling room",
         "type": 2,
-        "position": 9,
+        "position": 10,
         "parentId": "1455571375791149078"
       },
       {
@@ -369,14 +369,14 @@
         "id": "1526751736419713045",
         "name": "ticket-0007",
         "type": 0,
-        "position": 9,
+        "position": 5,
         "parentId": "1453085393791615039"
       },
       {
         "id": "1462007363757408458",
         "name": "Sleeping...",
         "type": 2,
-        "position": 13,
+        "position": 14,
         "parentId": "1455571375791149078"
       },
       {
@@ -418,14 +418,14 @@
         "id": "1480535977918468207",
         "name": "Music room",
         "type": 2,
-        "position": 23,
+        "position": 24,
         "parentId": "1455571375791149078"
       },
       {
         "id": "1519732779775164476",
         "name": "purgatory",
         "type": 2,
-        "position": 30,
+        "position": 31,
         "parentId": "1455571375791149078"
       },
       {
@@ -451,7 +451,7 @@
       },
       {
         "id": "1441765089286815816",
-        "name": "Fan's bedroom (sleepinhhg)",
+        "name": "Fan's bedroom (sleepinhhh)",
         "type": 2,
         "position": 0,
         "parentId": "1455571375791149078"
@@ -481,7 +481,7 @@
         "id": "1478420622693371975",
         "name": "wifie's paragon",
         "type": 2,
-        "position": 1,
+        "position": 2,
         "parentId": "1455571375791149078"
       },
       {
@@ -495,7 +495,7 @@
         "id": "1435978576259186840",
         "name": "storytime",
         "type": 0,
-        "position": 5,
+        "position": 4,
         "parentId": "1479252783139000442"
       },
       {
@@ -537,7 +537,7 @@
         "id": "1486737834923528222",
         "name": "Averys bedroom. /«[.NO ENTERING.]»\\",
         "type": 2,
-        "position": 7,
+        "position": 8,
         "parentId": "1455571375791149078"
       },
       {
@@ -551,14 +551,14 @@
         "id": "1527135841208766545",
         "name": "ticket-0008",
         "type": 0,
-        "position": 10,
+        "position": 6,
         "parentId": "1453085393791615039"
       },
       {
         "id": "1479361874083450900",
         "name": "Pride area",
         "type": 2,
-        "position": 11,
+        "position": 12,
         "parentId": "1455571375791149078"
       },
       {
@@ -586,7 +586,7 @@
         "id": "1477928579408072845",
         "name": "Wifie's room",
         "type": 2,
-        "position": 12,
+        "position": 13,
         "parentId": "1455571375791149078"
       },
       {
@@ -602,13 +602,6 @@
         "type": 2,
         "position": 9,
         "parentId": "1433708390877495409"
-      },
-      {
-        "id": "1526646586497695774",
-        "name": "closed-0003",
-        "type": 0,
-        "position": 6,
-        "parentId": "1453085393791615039"
       },
       {
         "id": "1433710238350970971",
@@ -703,9 +696,9 @@
       },
       {
         "id": "1479473330653233192",
-        "name": "Len’s Room (ask2enter)",
+        "name": "Sunflower’s Room (ask2enter)",
         "type": 2,
-        "position": 16,
+        "position": 17,
         "parentId": "1455571375791149078"
       },
       {
@@ -733,7 +726,7 @@
         "id": "1501095001994694756",
         "name": "Averys paragon",
         "type": 2,
-        "position": 25,
+        "position": 26,
         "parentId": "1455571375791149078"
       },
       {
@@ -782,7 +775,7 @@
         "id": "1479769988263968850",
         "name": "Tenna's room",
         "type": 2,
-        "position": 19,
+        "position": 20,
         "parentId": "1455571375791149078"
       },
       {
@@ -817,7 +810,7 @@
         "id": "1479518946766880982",
         "name": "Grounded room",
         "type": 2,
-        "position": 21,
+        "position": 22,
         "parentId": "1455571375791149078"
       },
       {
@@ -856,13 +849,6 @@
         "parentId": "1439091498669838367"
       },
       {
-        "id": "1526645658055082114",
-        "name": "closed-0002",
-        "type": 0,
-        "position": 5,
-        "parentId": "1453085393791615039"
-      },
-      {
         "id": "1503987592058638486",
         "name": "ㆍbows︲room",
         "type": 0,
@@ -877,6 +863,13 @@
         "parentId": "1479254367512039588"
       },
       {
+        "id": "1536623972194451487",
+        "name": "closed-0012",
+        "type": 0,
+        "position": 9,
+        "parentId": "1453085393791615039"
+      },
+      {
         "id": "1426566414533398649",
         "name": "┆🌆·vent-art",
         "type": 0,
@@ -887,7 +880,7 @@
         "id": "1502194280532279417",
         "name": "YuriR1sh's empire",
         "type": 2,
-        "position": 6,
+        "position": 7,
         "parentId": "1455571375791149078"
       },
       {
@@ -968,13 +961,6 @@
         "parentId": "1426561448448102612"
       },
       {
-        "id": "1526657750237446174",
-        "name": "closed-0005",
-        "type": 0,
-        "position": 7,
-        "parentId": "1453085393791615039"
-      },
-      {
         "id": "1511593908415758417",
         "name": "🌀ㆍsong︲ofㆍthe︲day",
         "type": 0,
@@ -987,6 +973,13 @@
         "type": 0,
         "position": 4,
         "parentId": null
+      },
+      {
+        "id": "1531648022860140597",
+        "name": "ticket-0010",
+        "type": 0,
+        "position": 7,
+        "parentId": "1453085393791615039"
       },
       {
         "id": "1498668555397370027",
@@ -1104,7 +1097,7 @@
         "id": "1479774324662472814",
         "name": "Center household",
         "type": 2,
-        "position": 8,
+        "position": 9,
         "parentId": "1455571375791149078"
       },
       {
@@ -1146,7 +1139,7 @@
         "id": "1455571454195400864",
         "name": "living-room",
         "type": 2,
-        "position": 10,
+        "position": 11,
         "parentId": "1455571375791149078"
       },
       {
@@ -1174,7 +1167,7 @@
         "id": "1483008958754066553",
         "name": "Cosmic/pin's room",
         "type": 2,
-        "position": 24,
+        "position": 25,
         "parentId": "1455571375791149078"
       },
       {
@@ -1230,7 +1223,7 @@
         "id": "1506232569715232868",
         "name": "Wifiesland",
         "type": 2,
-        "position": 26,
+        "position": 27,
         "parentId": "1455571375791149078"
       },
       {
@@ -1272,7 +1265,7 @@
         "id": "1462431543203987486",
         "name": "Court",
         "type": 2,
-        "position": 22,
+        "position": 23,
         "parentId": "1455571375791149078"
       },
       {
@@ -1400,6 +1393,13 @@
         "type": 0,
         "position": 1,
         "parentId": "1480261154772095216"
+      },
+      {
+        "id": "1535653178161369208",
+        "name": "police-department",
+        "type": 0,
+        "position": 11,
+        "parentId": "1500384093949526066"
       }
     ],
     "roles": [
@@ -1408,7 +1408,25 @@
         "name": "୨୧₊⁺﹒13  below  ₊ ᡣ𐭩",
         "color": 16569042,
         "permissions": "0",
-        "position": 37,
+        "position": 61,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536683024219897936",
+        "name": "ʚ 💸 ﹕",
+        "color": 3134105,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532639773112664207",
+        "name": "ʚ 🌌 ﹕",
+        "color": 7803759,
+        "permissions": "0",
+        "position": 17,
         "hoist": false,
         "mentionable": false
       },
@@ -1417,17 +1435,35 @@
         "name": "🩷﹒⌗﹒Female ⸝⸝",
         "color": 16762865,
         "permissions": "0",
-        "position": 41,
+        "position": 65,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536684168459591770",
+        "name": "ʚ 💜 ﹕",
+        "color": 8599757,
+        "permissions": "0",
+        "position": 6,
         "hoist": false,
         "mentionable": false
       },
       {
         "id": "1453227679640715406",
         "name": "﹒⌗﹒co - owner  ⸝⸝  🪽",
-        "color": 9807270,
+        "color": 10597887,
         "permissions": "1721826618638327",
-        "position": 63,
+        "position": 89,
         "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1536682456952868934",
+        "name": "ʚ 🥝 ﹕",
+        "color": 10595396,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
         "mentionable": false
       },
       {
@@ -1435,7 +1471,7 @@
         "name": "彡꒰   pink   ꒱ 🍥",
         "color": 16697574,
         "permissions": "0",
-        "position": 44,
+        "position": 68,
         "hoist": false,
         "mentionable": false
       },
@@ -1444,7 +1480,7 @@
         "name": "彡꒰   purple   ꒱ 🍇",
         "color": 12217341,
         "permissions": "0",
-        "position": 45,
+        "position": 69,
         "hoist": false,
         "mentionable": false
       },
@@ -1453,7 +1489,16 @@
         "name": "彡꒰   cyan   ꒱ 💎",
         "color": 9163263,
         "permissions": "0",
-        "position": 46,
+        "position": 70,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532637640157827162",
+        "name": "ʚ 🦚 ﹕",
+        "color": 629608,
+        "permissions": "0",
+        "position": 21,
         "hoist": false,
         "mentionable": false
       },
@@ -1462,7 +1507,16 @@
         "name": ".✦ ݁˖ ︴They ﾉ Them    𐦯",
         "color": 9331372,
         "permissions": "0",
-        "position": 31,
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536683407998722048",
+        "name": "ʚ 💙 ﹕",
+        "color": 2386891,
+        "permissions": "0",
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -1471,7 +1525,7 @@
         "name": "‧˚꒰  lazzlingss ୭ ˚. ᵎᵎ",
         "color": 0,
         "permissions": "0",
-        "position": 60,
+        "position": 85,
         "hoist": true,
         "mentionable": false
       },
@@ -1480,7 +1534,34 @@
         "name": "୨୧₊⁺﹒13  above  ₊ ᡣ𐭩",
         "color": 16760767,
         "permissions": "0",
-        "position": 36,
+        "position": 60,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536684548748869733",
+        "name": "ʚ 🧼 ﹕",
+        "color": 11874740,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532638222687928331",
+        "name": "ʚ 🫐 ﹕",
+        "color": 2366340,
+        "permissions": "0",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532635501469634580",
+        "name": "ʚ 🥕 ﹕",
+        "color": 16231289,
+        "permissions": "0",
+        "position": 2,
         "hoist": false,
         "mentionable": false
       },
@@ -1489,7 +1570,7 @@
         "name": "彡꒰   orange   ꒱ 📙",
         "color": 16755294,
         "permissions": "0",
-        "position": 51,
+        "position": 75,
         "hoist": false,
         "mentionable": false
       },
@@ -1498,7 +1579,7 @@
         "name": "彡꒰   blue   ꒱ 🫐",
         "color": 5858559,
         "permissions": "0",
-        "position": 47,
+        "position": 71,
         "hoist": false,
         "mentionable": false
       },
@@ -1507,7 +1588,16 @@
         "name": "୨୧₊˗ˏˋ ꒰ VERIFIED AGE (15+!! ) ꒱ ˎˊ˗  ₊ ᡣ",
         "color": 16777215,
         "permissions": "1720707884502593",
-        "position": 2,
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536684699253219388",
+        "name": "ʚ 🍧 ﹕",
+        "color": 14436996,
+        "permissions": "0",
+        "position": 4,
         "hoist": false,
         "mentionable": false
       },
@@ -1516,7 +1606,7 @@
         "name": "˗ˏˋ ꒰ daily checkup ꒱ ˎˊ˗",
         "color": 3447003,
         "permissions": "1720707884502593",
-        "position": 29,
+        "position": 53,
         "hoist": false,
         "mentionable": false
       },
@@ -1525,7 +1615,7 @@
         "name": "```Evilfies [OWNER.]```",
         "color": 0,
         "permissions": "1721835208572927",
-        "position": 64,
+        "position": 90,
         "hoist": false,
         "mentionable": true
       },
@@ -1534,7 +1624,7 @@
         "name": "★☽✩✧୧˚ 𝑭𝑨𝑵 / 𝑶𝑾𝑵𝑬𝑹 ˚୨✧✩☾★",
         "color": 14365748,
         "permissions": "4360658820005887",
-        "position": 65,
+        "position": 91,
         "hoist": true,
         "mentionable": true
       },
@@ -1543,7 +1633,7 @@
         "name": ".✦ ݁˖ ︴He ﾉ Him    𐦯",
         "color": 3447003,
         "permissions": "0",
-        "position": 32,
+        "position": 56,
         "hoist": false,
         "mentionable": false
       },
@@ -1552,7 +1642,7 @@
         "name": "💖﹒⌗﹒others ⸝⸝",
         "color": 16775345,
         "permissions": "0",
-        "position": 38,
+        "position": 62,
         "hoist": false,
         "mentionable": false
       },
@@ -1561,7 +1651,7 @@
         "name": "彡꒰   yellow   ꒱ 🌼",
         "color": 16771453,
         "permissions": "0",
-        "position": 50,
+        "position": 74,
         "hoist": false,
         "mentionable": false
       },
@@ -1570,8 +1660,17 @@
         "name": ".𐔌 Moderator  𐦯 +",
         "color": 0,
         "permissions": "6225407187087319",
-        "position": 62,
+        "position": 88,
         "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1535639429908004884",
+        "name": "Xanadu",
+        "color": 6063187,
+        "permissions": "1720707884502593",
+        "position": 77,
+        "hoist": false,
         "mentionable": false
       },
       {
@@ -1579,7 +1678,7 @@
         "name": "୨୧₊⁺﹒not  telling   ₊ ᡣ𐭩",
         "color": 16769266,
         "permissions": "0",
-        "position": 34,
+        "position": 58,
         "hoist": false,
         "mentionable": false
       },
@@ -1588,16 +1687,7 @@
         "name": "彡꒰   gray   ꒱ 🍙",
         "color": 10066329,
         "permissions": "0",
-        "position": 42,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1486875064086298866",
-        "name": "goonball",
-        "color": 10792370,
-        "permissions": "0",
-        "position": 58,
+        "position": 66,
         "hoist": false,
         "mentionable": false
       },
@@ -1606,7 +1696,43 @@
         "name": "FLAMEFRAGS",
         "color": 1787006,
         "permissions": "1720707884502593",
-        "position": 49,
+        "position": 73,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532635913929359430",
+        "name": "ʚ 🍋 ﹕",
+        "color": 16765045,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532640048753676299",
+        "name": "ʚ 💗 ﹕",
+        "color": 11279702,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532636103717290035",
+        "name": "ʚ 🍌 ﹕",
+        "color": 16768168,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536682606773403758",
+        "name": "ʚ 🥬 ﹕",
+        "color": 5088050,
+        "permissions": "0",
+        "position": 10,
         "hoist": false,
         "mentionable": false
       },
@@ -1615,8 +1741,17 @@
         "name": "Avery — [ SERVER OWNER. ]",
         "color": 2966145,
         "permissions": "1721835208572927",
-        "position": 66,
+        "position": 92,
         "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1536683672772673677",
+        "name": "ʚ 🌃 ﹕",
+        "color": 4141528,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
         "mentionable": false
       },
       {
@@ -1624,7 +1759,7 @@
         "name": "⇢ ˗ˏˋ CANDIDATE ! ࿐ྂ",
         "color": 3066993,
         "permissions": "0",
-        "position": 27,
+        "position": 51,
         "hoist": false,
         "mentionable": false
       },
@@ -1633,7 +1768,7 @@
         "name": "𐔌 Trial - Mod 𐦯",
         "color": 10070709,
         "permissions": "1721807559716807",
-        "position": 61,
+        "position": 87,
         "hoist": true,
         "mentionable": false
       },
@@ -1642,7 +1777,16 @@
         "name": "୧ °  EVENT PING  ‿   ⸝⸝",
         "color": 13107093,
         "permissions": "0",
-        "position": 8,
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536679943847804978",
+        "name": "ʚ 🌰 ﹕",
+        "color": 6828843,
+        "permissions": "0",
+        "position": 15,
         "hoist": false,
         "mentionable": false
       },
@@ -1651,7 +1795,16 @@
         "name": "🌺 CANDYLAND ! 💫",
         "color": 16506349,
         "permissions": "1720707884502593",
-        "position": 28,
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532635000183328788",
+        "name": "ʚ 🥐 ﹕",
+        "color": 9582893,
+        "permissions": "0",
+        "position": 25,
         "hoist": false,
         "mentionable": false
       },
@@ -1660,7 +1813,25 @@
         "name": "💙﹒⌗﹒male ⸝⸝",
         "color": 10935551,
         "permissions": "0",
-        "position": 39,
+        "position": 63,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532637900175577231",
+        "name": "ʚ 💧 ﹕",
+        "color": 1327752,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532636587740102656",
+        "name": "ʚ 🥮 ﹕",
+        "color": 9988903,
+        "permissions": "0",
+        "position": 24,
         "hoist": false,
         "mentionable": false
       },
@@ -1669,7 +1840,7 @@
         "name": "stupid botss",
         "color": 0,
         "permissions": "8864262742605823",
-        "position": 59,
+        "position": 84,
         "hoist": true,
         "mentionable": false
       },
@@ -1678,7 +1849,7 @@
         "name": "彡꒰   red   ꒱ 🔖",
         "color": 16726843,
         "permissions": "0",
-        "position": 52,
+        "position": 76,
         "hoist": false,
         "mentionable": false
       },
@@ -1687,7 +1858,16 @@
         "name": "彡꒰   green   ꒱ 🍀",
         "color": 12058501,
         "permissions": "0",
-        "position": 48,
+        "position": 72,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532633745927049216",
+        "name": "ʚ 🍫 ﹕",
+        "color": 7679022,
+        "permissions": "0",
+        "position": 26,
         "hoist": false,
         "mentionable": false
       },
@@ -1696,7 +1876,7 @@
         "name": "➤ Charlie domplur . ˚〃  ᩙᩙ      ◠",
         "color": 16770911,
         "permissions": "1720707884502593",
-        "position": 53,
+        "position": 78,
         "hoist": false,
         "mentionable": false
       },
@@ -1705,7 +1885,16 @@
         "name": "彡꒰   brown   ꒱ 🍪",
         "color": 11230524,
         "permissions": "0",
-        "position": 43,
+        "position": 67,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532634685845536788",
+        "name": "ʚ 🍒 ﹕",
+        "color": 16156038,
+        "permissions": "0",
+        "position": 3,
         "hoist": false,
         "mentionable": false
       },
@@ -1714,7 +1903,7 @@
         "name": "୨୧₊˗ˏˋ ꒰ VERIFIED AGE (13+!!! ) ꒱ ˎˊ˗  ₊ ᡣ",
         "color": 16777215,
         "permissions": "1720707884502593",
-        "position": 4,
+        "position": 30,
         "hoist": false,
         "mentionable": false
       },
@@ -1723,7 +1912,25 @@
         "name": ".✦ ݁˖ ︴It ﾉ Its    𐦯",
         "color": 8701111,
         "permissions": "0",
-        "position": 30,
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532634228125339768",
+        "name": "ʚ 🍓 ﹕",
+        "color": 11679296,
+        "permissions": "0",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532637417214050479",
+        "name": "ʚ 🌲 ﹕",
+        "color": 3170081,
+        "permissions": "0",
+        "position": 22,
         "hoist": false,
         "mentionable": false
       },
@@ -1732,7 +1939,7 @@
         "name": "CHANCE GAMBLER COOLIO!!!",
         "color": 0,
         "permissions": "1720707884502593",
-        "position": 10,
+        "position": 79,
         "hoist": false,
         "mentionable": false
       },
@@ -1741,7 +1948,16 @@
         "name": ".✦ ݁˖ ︴She ﾉ Her    𐦯",
         "color": 13463948,
         "permissions": "0",
-        "position": 33,
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532637241388695632",
+        "name": "ʚ 🎍 ﹕",
+        "color": 6250274,
+        "permissions": "0",
+        "position": 23,
         "hoist": false,
         "mentionable": false
       },
@@ -1750,7 +1966,7 @@
         "name": "୨୧₊˗ˏˋ ꒰ VERIFIED AGE (12-13!! ) ꒱ ˎˊ˗  ₊ ᡣ",
         "color": 16514559,
         "permissions": "1720707884502593",
-        "position": 3,
+        "position": 29,
         "hoist": false,
         "mentionable": false
       },
@@ -1759,7 +1975,7 @@
         "name": "୨୧₊⁺﹒18  +  ₊ ᡣ𐭩",
         "color": 16762327,
         "permissions": "0",
-        "position": 35,
+        "position": 59,
         "hoist": false,
         "mentionable": false
       },
@@ -1768,11 +1984,29 @@
         "name": "💜﹒⌗﹒non-binary ⸝⸝",
         "color": 13669375,
         "permissions": "0",
-        "position": 40,
+        "position": 64,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532635240470810625",
+        "name": "ʚ 🍊 ﹕",
+        "color": 13329213,
+        "permissions": "0",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532638496433635358",
+        "name": "ʚ 🍇 ﹕",
+        "color": 4395380,
+        "permissions": "0",
+        "position": 18,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1785215722657
+    "updated": 1786611511910
   }
 }

@@ -12,28 +12,28 @@
         "id": "1515004159005294663",
         "name": "Voice Channels",
         "type": 4,
-        "position": 3,
+        "position": 2,
         "parentId": null
       },
       {
         "id": "1515004159005294665",
         "name": "General",
         "type": 2,
-        "position": 0,
+        "position": 1,
         "parentId": "1515004159005294663"
       },
       {
         "id": "1515004288936574986",
         "name": "General 2",
         "type": 2,
-        "position": 1,
+        "position": 2,
         "parentId": "1515004159005294663"
       },
       {
         "id": "1515004319131373620",
         "name": "bot-command",
         "type": 0,
-        "position": 1,
+        "position": 2,
         "parentId": "1515004159005294662"
       },
       {
@@ -41,13 +41,13 @@
         "name": "tuff-chat",
         "type": 0,
         "position": 0,
-        "parentId": "1526103378470371428"
+        "parentId": "1515004159005294663"
       },
       {
         "id": "1526057209623220224",
         "name": "media",
         "type": 0,
-        "position": 0,
+        "position": 1,
         "parentId": "1515004159005294662"
       },
       {
@@ -76,25 +76,11 @@
         "name": "tuff-vc",
         "type": 2,
         "position": 0,
-        "parentId": "1526103378470371428"
-      },
-      {
-        "id": "1526103378470371428",
-        "name": "tuff only",
-        "type": 4,
-        "position": 2,
-        "parentId": null
+        "parentId": "1515004159005294663"
       },
       {
         "id": "1526119743931809984",
         "name": "Evil General",
-        "type": 2,
-        "position": 2,
-        "parentId": "1515004159005294663"
-      },
-      {
-        "id": "1526181152941932607",
-        "name": "lesbian esex",
         "type": 2,
         "position": 3,
         "parentId": "1515004159005294663"
@@ -117,14 +103,14 @@
         "id": "1531278552606048406",
         "name": "chat",
         "type": 0,
-        "position": 2,
+        "position": 0,
         "parentId": "1515004159005294662"
       },
       {
         "id": "1531424186331824339",
         "name": "Aero",
         "type": 4,
-        "position": 4,
+        "position": 3,
         "parentId": null
       },
       {
@@ -140,159 +126,38 @@
         "type": 0,
         "position": 1,
         "parentId": "1531424186331824339"
+      },
+      {
+        "id": "1533921647269122178",
+        "name": "face-reveal",
+        "type": 0,
+        "position": 3,
+        "parentId": "1515004159005294662"
+      },
+      {
+        "id": "1533921689686118430",
+        "name": "feet-reveal",
+        "type": 0,
+        "position": 4,
+        "parentId": "1515004159005294662"
       }
     ],
     "roles": [
-      {
-        "id": "1515180676901634048",
-        "name": "tuffest",
-        "color": 0,
-        "permissions": "8",
-        "position": 26,
-        "hoist": true,
-        "mentionable": false
-      },
-      {
-        "id": "1515555412949205162",
-        "name": "micheal",
-        "color": 0,
-        "permissions": "1168",
-        "position": 23,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1525764426962178179",
-        "name": "left",
-        "color": 6555656,
-        "permissions": "0",
-        "position": 25,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1525821793749962852",
-        "name": "0xi",
-        "color": 69131,
-        "permissions": "1721826618638327",
-        "position": 24,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1526111870165979156",
-        "name": "tuff",
-        "color": 0,
-        "permissions": "131072",
-        "position": 11,
-        "hoist": true,
-        "mentionable": false
-      },
-      {
-        "id": "1526112375483269222",
-        "name": "new role",
-        "color": 0,
-        "permissions": "0",
-        "position": 6,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1526112414330781756",
-        "name": "bot",
-        "color": 16777215,
-        "permissions": "0",
-        "position": 10,
-        "hoist": true,
-        "mentionable": false
-      },
-      {
-        "id": "1527058306395279584",
-        "name": "blue",
-        "color": 6737151,
-        "permissions": "0",
-        "position": 12,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1527781867510698018",
-        "name": "stupid kid",
-        "color": 14876927,
-        "permissions": "0",
-        "position": 4,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1527817385183150280",
-        "name": "red",
-        "color": 14221312,
-        "permissions": "0",
-        "position": 14,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1528582410583670886",
-        "name": "orange",
-        "color": 15158332,
-        "permissions": "0",
-        "position": 13,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1528582483174756492",
-        "name": "green",
-        "color": 1146986,
-        "permissions": "0",
-        "position": 15,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1528582562476195861",
-        "name": "dark blue",
-        "color": 1380515,
-        "permissions": "0",
-        "position": 21,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1528582675714146538",
-        "name": "yellow",
-        "color": 15844367,
-        "permissions": "0",
-        "position": 18,
-        "hoist": false,
-        "mentionable": false
-      },
       {
         "id": "1528582713404162058",
         "name": "purple",
         "color": 7419530,
         "permissions": "0",
-        "position": 19,
+        "position": 31,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1528582751635374182",
-        "name": "pink",
-        "color": 15251199,
+        "id": "1535010134319697950",
+        "name": "Rizzler King 🤴",
+        "color": 39935,
         "permissions": "0",
-        "position": 20,
-        "hoist": false,
-        "mentionable": false
-      },
-      {
-        "id": "1528582886796824667",
-        "name": "white",
-        "color": 16777215,
-        "permissions": "0",
-        "position": 17,
+        "position": 8,
         "hoist": false,
         "mentionable": false
       },
@@ -301,11 +166,344 @@
         "name": "black",
         "color": 459009,
         "permissions": "0",
-        "position": 16,
+        "position": 47,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534335579028717578",
+        "name": "dark orange",
+        "color": 11088640,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534785459312660571",
+        "name": "eboy king 👑",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528582483174756492",
+        "name": "green",
+        "color": 1146986,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535032195515682949",
+        "name": "super tuff guy who owns everyone",
+        "color": 3066993,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526112414330781756",
+        "name": "bot",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 24,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1534332319115251743",
+        "name": "light green",
+        "color": 8518072,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515180676901634048",
+        "name": "tuffest",
+        "color": 0,
+        "permissions": "8",
+        "position": 53,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1527781867510698018",
+        "name": "stupid kid",
+        "color": 14876927,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525764426962178179",
+        "name": "left",
+        "color": 6555656,
+        "permissions": "0",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528582675714146538",
+        "name": "yellow",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535014250664300626",
+        "name": "0xi’s better ekittens",
+        "color": 14471679,
+        "permissions": "1157757863980737",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535012715343646851",
+        "name": "0xis ekittens",
+        "color": 16764408,
+        "permissions": "1139787720806081",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534785616485814272",
+        "name": "the rizzler queen",
+        "color": 11027200,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527817385183150280",
+        "name": "red",
+        "color": 14221312,
+        "permissions": "0",
+        "position": 45,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528582886796824667",
+        "name": "white",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 48,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534349323079254086",
+        "name": "Sofia’s catboy army",
+        "color": 7691743,
+        "permissions": "0",
+        "position": 28,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528582751635374182",
+        "name": "pink",
+        "color": 15251199,
+        "permissions": "0",
+        "position": 29,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534332240446754836",
+        "name": "dark green",
+        "color": 1666079,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525821793749962852",
+        "name": "0xi",
+        "color": 69131,
+        "permissions": "8793893998428159",
+        "position": 52,
+        "hoist": false,
+        "mentionable": true
+      },
+      {
+        "id": "1534335461751787581",
+        "name": "light red",
+        "color": 16730698,
+        "permissions": "0",
+        "position": 44,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534338677189382184",
+        "name": "just the most amazing person alive on earth 🤩",
+        "color": 4432506,
+        "permissions": "2108859006582775",
+        "position": 51,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1534335663300808935",
+        "name": "light orange",
+        "color": 16744270,
+        "permissions": "0",
+        "position": 41,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526112375483269222",
+        "name": "new role",
+        "color": 0,
+        "permissions": "0",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534335938740748368",
+        "name": "dark yellow",
+        "color": 11181056,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534331926683324436",
+        "name": "purple-isj",
+        "color": 7037382,
+        "permissions": "0",
+        "position": 30,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534332135417057387",
+        "name": "middle blue",
+        "color": 3162837,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528582562476195861",
+        "name": "dark blue",
+        "color": 1380515,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534977266847715549",
+        "name": "server owner",
+        "color": 1752220,
+        "permissions": "8864258447638527",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534412018285547560",
+        "name": "eboy",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534337488976613518",
+        "name": "moid 🥶",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534337330998018279",
+        "name": "girl 💕",
+        "color": 16401399,
+        "permissions": "0",
+        "position": 27,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1526111870165979156",
+        "name": "tuff",
+        "color": 0,
+        "permissions": "131072",
+        "position": 25,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1527058306395279584",
+        "name": "blue",
+        "color": 6737151,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534336025495863397",
+        "name": "light yellow",
+        "color": 16771212,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1515555412949205162",
+        "name": "micheal",
+        "color": 0,
+        "permissions": "1168",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1528582410583670886",
+        "name": "orange",
+        "color": 15158332,
+        "permissions": "0",
+        "position": 42,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1534335392055165079",
+        "name": "dark red",
+        "color": 6881280,
+        "permissions": "0",
+        "position": 46,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1785215722765
+    "updated": 1786611511954
   }
 }

@@ -2,256 +2,493 @@
   "backup": {
     "channels": [
       {
-        "id": "1476628416605192325",
-        "name": "Text Channels",
+        "id": "1533883825288118393",
+        "name": "┗⎯⎯⎯⎯⎯|🌀|STAFF|🌀|⎯⎯⎯⎯⎯┑",
         "type": 4,
-        "position": 0,
+        "position": 5,
         "parentId": null
       },
       {
-        "id": "1476628416605192326",
-        "name": "🧾media",
+        "id": "1533883831914856519",
+        "name": "〔🆙〕level-up",
+        "type": 0,
+        "position": 2,
+        "parentId": "1533883817205436468"
+      },
+      {
+        "id": "1533883845307400202",
+        "name": "〔📷〕off-topic",
+        "type": 0,
+        "position": 2,
+        "parentId": "1533883819785064608"
+      },
+      {
+        "id": "1533883842010812546",
+        "name": "〔💬〕main-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1533883819785064608"
+      },
+      {
+        "id": "1533883850378448899",
+        "name": "〔🎶〕music",
+        "type": 0,
+        "position": 0,
+        "parentId": "1533883823303954458"
+      },
+      {
+        "id": "1533883819785064608",
+        "name": "┗⎯⎯⎯⎯⎯⎯|💭|CHAT|💭|⎯⎯⎯⎯⎯⎯┑",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1533883856300675083",
+        "name": "〔🤝〕partnership",
         "type": 0,
         "position": 5,
-        "parentId": "1476628416605192325"
+        "parentId": "1533883819785064608"
       },
       {
-        "id": "1476628416605192327",
-        "name": "🧾chat",
+        "id": "1533883852584521808",
+        "name": "〔🚀〕staff-chat",
         "type": 0,
-        "position": 4,
-        "parentId": "1476628416605192325"
-      },
-      {
-        "id": "1476628416605192328",
-        "name": "Voice Channels",
-        "type": 4,
         "position": 1,
-        "parentId": null
+        "parentId": "1533883825288118393"
       },
       {
-        "id": "1476628416605192330",
-        "name": "🎮Gaming Area1️⃣",
-        "type": 2,
-        "position": 1,
-        "parentId": "1476628416605192328"
-      },
-      {
-        "id": "1476632561835970824",
-        "name": "🔉Private",
-        "type": 2,
-        "position": 0,
-        "parentId": "1525839451304231002"
-      },
-      {
-        "id": "1479134281488924715",
-        "name": "🤖bot-commands",
+        "id": "1533883838843846797",
+        "name": "〔🎉〕giveaway",
         "type": 0,
-        "position": 7,
-        "parentId": "1476628416605192325"
-      },
-      {
-        "id": "1520051621063557361",
-        "name": "🗞️annoucement",
-        "type": 5,
-        "position": 0,
-        "parentId": "1476628416605192325"
-      },
-      {
-        "id": "1520523248884777031",
-        "name": "📽️youtube",
-        "type": 5,
-        "position": 2,
-        "parentId": "1476628416605192325"
-      },
-      {
-        "id": "1520710868122337371",
-        "name": "rules",
-        "type": 0,
-        "position": 0,
-        "parentId": null
+        "position": 6,
+        "parentId": "1533883817205436468"
       },
       {
         "id": "1520710868122337374",
         "name": "moderator-only",
         "type": 0,
-        "position": 1,
-        "parentId": null
-      },
-      {
-        "id": "1523738682668875857",
-        "name": "Aero",
-        "type": 4,
-        "position": 3,
-        "parentId": null
-      },
-      {
-        "id": "1523738686993338448",
-        "name": "aero-logs",
-        "type": 0,
         "position": 0,
-        "parentId": "1523738682668875857"
+        "parentId": "1533883825288118393"
       },
       {
-        "id": "1523738688972918834",
-        "name": "aero-alerts",
-        "type": 0,
-        "position": 1,
-        "parentId": "1523738682668875857"
-      },
-      {
-        "id": "1524466736311832636",
-        "name": "🎟️ticket",
-        "type": 0,
-        "position": 6,
-        "parentId": "1476628416605192325"
-      },
-      {
-        "id": "1525604500185022655",
-        "name": "👋welcome",
-        "type": 0,
-        "position": 1,
-        "parentId": "1476628416605192325"
-      },
-      {
-        "id": "1525839451304231002",
-        "name": "Voice Channels",
-        "type": 4,
+        "id": "1533883833194250314",
+        "name": "〔🔊〕Public #3",
+        "type": 2,
         "position": 2,
+        "parentId": "1533883821492146197"
+      },
+      {
+        "id": "1533883830950170665",
+        "name": "〔🔊〕Public #2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1533883821492146197"
+      },
+      {
+        "id": "1533883842929103051",
+        "name": "〔🔇〕AFK",
+        "type": 2,
+        "position": 6,
+        "parentId": "1533883821492146197"
+      },
+      {
+        "id": "1533883835601649757",
+        "name": "〔🔐〕Private",
+        "type": 2,
+        "position": 3,
+        "parentId": "1533883821492146197"
+      },
+      {
+        "id": "1534266523420725278",
+        "name": "〔🎂〕happy-birthday-wishes",
+        "type": 0,
+        "position": 4,
+        "parentId": "1533883819785064608"
+      },
+      {
+        "id": "1533883823303954458",
+        "name": "┗⎯⎯⎯⎯⎯|🎵|MUSIC|🎵|⎯⎯⎯⎯⎯┑",
+        "type": 4,
+        "position": 4,
         "parentId": null
       },
       {
-        "id": "1525839452553871553",
-        "name": "Join to Create",
+        "id": "1533883817205436468",
+        "name": "┗⎯⎯⎯|🍀|SERVER INFO|🍀|⎯⎯⎯┑",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1533883858108547122",
+        "name": "〔🍪〕Members: 123",
         "type": 2,
         "position": 0,
-        "parentId": "1476628416605192328"
+        "parentId": "1533883815125323988"
       },
       {
-        "id": "1527029089041518642",
-        "name": "👨‍💻dev-news",
-        "type": 5,
-        "position": 3,
-        "parentId": "1476628416605192325"
-      },
-      {
-        "id": "1529584656746545292",
-        "name": "invite-player",
+        "id": "1533883827074633728",
+        "name": "〔📌〕announcements",
         "type": 0,
-        "position": 8,
-        "parentId": "1476628416605192325"
+        "position": 0,
+        "parentId": "1533883817205436468"
+      },
+      {
+        "id": "1533883815125323988",
+        "name": "┗⎯⎯|📊|SERVER STATS|📊|⎯⎯┑",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1537182453414895616",
+        "name": "Aero",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1533883829834612957",
+        "name": "〔📊〕welcome",
+        "type": 0,
+        "position": 1,
+        "parentId": "1533883817205436468"
+      },
+      {
+        "id": "1533883853792477195",
+        "name": "partnerships",
+        "type": 0,
+        "position": 2,
+        "parentId": "1533883825288118393"
+      },
+      {
+        "id": "1533883846339199086",
+        "name": "〔🎶〕Music #2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1533883823303954458"
+      },
+      {
+        "id": "1533883828567937145",
+        "name": "〔🔊〕Public #1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1533883821492146197"
+      },
+      {
+        "id": "1533883836683784232",
+        "name": "〔📕〕news",
+        "type": 0,
+        "position": 4,
+        "parentId": "1533883817205436468"
+      },
+      {
+        "id": "1533883840978882741",
+        "name": "〔🔐〕Private",
+        "type": 2,
+        "position": 5,
+        "parentId": "1533883821492146197"
+      },
+      {
+        "id": "1533883821492146197",
+        "name": "┗⎯⎯⎯⎯⎯⎯|📞|VOICE|📞|⎯⎯⎯⎯⎯⎯┑",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1533883848352333906",
+        "name": "〔🤖〕bot-commands",
+        "type": 0,
+        "position": 1,
+        "parentId": "1533883819785064608"
+      },
+      {
+        "id": "1533883837736812624",
+        "name": "〔🔐〕Private",
+        "type": 2,
+        "position": 4,
+        "parentId": "1533883821492146197"
+      },
+      {
+        "id": "1533883834381111498",
+        "name": "〔📄〕rules",
+        "type": 0,
+        "position": 3,
+        "parentId": "1533883817205436468"
+      },
+      {
+        "id": "1533883844229468280",
+        "name": "〔🎶〕Music #1",
+        "type": 2,
+        "position": 0,
+        "parentId": "1533883823303954458"
+      },
+      {
+        "id": "1533883849090793513",
+        "name": "〔💡〕suggestions",
+        "type": 0,
+        "position": 3,
+        "parentId": "1533883819785064608"
+      },
+      {
+        "id": "1533883839947079710",
+        "name": "〔🎫〕tickets",
+        "type": 0,
+        "position": 5,
+        "parentId": "1533883817205436468"
+      },
+      {
+        "id": "1533883855222608012",
+        "name": "〔🚀〕staff voice",
+        "type": 2,
+        "position": 0,
+        "parentId": "1533883825288118393"
+      },
+      {
+        "id": "1534198797322682629",
+        "name": "Error in Crystal Music",
+        "type": 11,
+        "parentId": "1533883839947079710"
       }
     ],
     "roles": [
       {
-        "id": "1476630318638301317",
-        "name": "VIP Members 🔸",
-        "color": 16768256,
+        "id": "1533883806539448442",
+        "name": "🛡️",
+        "color": 3092790,
         "permissions": "0",
-        "position": 22,
-        "hoist": true,
-        "mentionable": false
-      },
-      {
-        "id": "1476633119284265051",
-        "name": "OWNER 👑",
-        "color": 16722988,
-        "permissions": "0",
-        "position": 25,
-        "hoist": true,
-        "mentionable": false
-      },
-      {
-        "id": "1476634280716406845",
-        "name": "Junior Mod 🖥️",
-        "color": 127077,
-        "permissions": "7455392258237265",
-        "position": 23,
-        "hoist": true,
-        "mentionable": true
-      },
-      {
-        "id": "1518640862526181516",
-        "name": "18+",
-        "color": 65470,
-        "permissions": "0",
-        "position": 19,
+        "position": 5,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1518641181628698796",
-        "name": "18-",
-        "color": 11342935,
+        "id": "1533883796167065703",
+        "name": "🌀",
+        "color": 3092790,
         "permissions": "0",
-        "position": 18,
+        "position": 13,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1518641342127935669",
-        "name": "PVPR ⚔️",
-        "color": 49663,
+        "id": "1533883778475491561",
+        "name": "👑",
+        "color": 3092790,
+        "permissions": "0",
+        "position": 26,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533883799530770573",
+        "name": "┗⎯⎯⎯|🌍|MEMBERS|🌍|⎯⎯⎯┑",
+        "color": 3092790,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533883805012594843",
+        "name": "🛡️│Bots",
+        "color": 15158332,
+        "permissions": "104320577",
+        "position": 6,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533883794417782884",
+        "name": "🌀│Friend",
+        "color": 3447003,
+        "permissions": "104189505",
+        "position": 14,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533883787031740561",
+        "name": "┗⎯⎯⎯|🔹|STAFF TEAM|🔹|⎯⎯⎯┑",
+        "color": 3092790,
         "permissions": "0",
         "position": 20,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1518641976482861057",
-        "name": "Senior Mod 🖥️",
-        "color": 12648703,
-        "permissions": "8864262743130103",
-        "position": 24,
+        "id": "1533883776906559733",
+        "name": "👑│Owner",
+        "color": 16711680,
+        "permissions": "2146959359",
+        "position": 27,
         "hoist": true,
         "mentionable": true
       },
       {
-        "id": "1518642160629579966",
-        "name": "Helper 📧",
-        "color": 16760549,
+        "id": "1533883792060584120",
+        "name": "💠",
+        "color": 3092790,
         "permissions": "0",
-        "position": 21,
+        "position": 16,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1521427455842455653",
-        "name": "MEDIA 📹",
-        "color": 15158332,
-        "permissions": "1720707884371521",
-        "position": 9,
+        "id": "1533883798104576311",
+        "name": "❤️️｜trusted",
+        "color": 3447003,
+        "permissions": "104189505",
+        "position": 11,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533883810335424864",
+        "name": "Muted",
+        "color": 8421504,
+        "permissions": "66560",
+        "position": 2,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1521969272690049054",
-        "name": "Ticket Support  🎟️",
-        "color": 11342935,
+        "id": "1533883802659721359",
+        "name": "🔑",
+        "color": 3092790,
         "permissions": "0",
         "position": 8,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1524472091045265559",
-        "name": "?",
-        "color": 1146986,
-        "permissions": "8864262743130111",
+        "id": "1533883788994809876",
+        "name": "🔨│Mod",
+        "color": 15844367,
+        "permissions": "267767489",
+        "position": 19,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533883804178186310",
+        "name": "┗⎯⎯⎯|🔵|BOTS|🔵|⎯⎯⎯┑",
+        "color": 3092790,
+        "permissions": "0",
         "position": 7,
         "hoist": false,
         "mentionable": false
       },
       {
-        "id": "1526307811997257899",
-        "name": "Bot🤖",
-        "color": 11027200,
+        "id": "1533883797114978304",
+        "name": "❤️️",
+        "color": 3092790,
         "permissions": "0",
-        "position": 2,
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533883807646748722",
+        "name": "┗⎯⎯|🍀|TEST|🍀|⎯⎯┑",
+        "color": 3092790,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533883800868884794",
+        "name": "🔑│Member",
+        "color": 5533306,
+        "permissions": "104058433",
+        "position": 9,
         "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533883792928800818",
+        "name": "┗⎯⎯⎯|🔸|ELITE|🔸|⎯⎯⎯┑",
+        "color": 3092790,
+        "permissions": "0",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533883781965152443",
+        "name": "┗⎯⎯|🔷|ADMINISTRATION|🔷|⎯⎯┑",
+        "color": 3092790,
+        "permissions": "0",
+        "position": 23,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533883784876003450",
+        "name": "🔒",
+        "color": 3092790,
+        "permissions": "0",
+        "position": 21,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533883789959499907",
+        "name": "🔨",
+        "color": 3092790,
+        "permissions": "0",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533883780815781972",
+        "name": "🌀",
+        "color": 3092790,
+        "permissions": "104189505",
+        "position": 24,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533883784041070643",
+        "name": "🔒│Admin",
+        "color": 15158332,
+        "permissions": "536342211",
+        "position": 22,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533883779871932436",
+        "name": "🌀│CoOwner",
+        "color": 14286926,
+        "permissions": "2146959103",
+        "position": 25,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1533883791041368155",
+        "name": "💠│Helper",
+        "color": 3447003,
+        "permissions": "125161025",
+        "position": 17,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533883808586141859",
+        "name": "This person is a server support",
+        "color": 3092790,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1785215721730
+    "updated": 1786611511643
   }
 }

@@ -1,0 +1,357 @@
+{
+  "backup": {
+    "channels": [
+      {
+        "id": "1509411704029708408",
+        "name": "! Yappingtons :v !",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1509411704029708409",
+        "name": "\\ Voicingtons >:v. /",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1509411704029708410",
+        "name": "ballsack-central",
+        "type": 0,
+        "position": 0,
+        "parentId": "1509411704029708408"
+      },
+      {
+        "id": "1509411704029708411",
+        "name": "Ear bleed",
+        "type": 2,
+        "position": 0,
+        "parentId": "1509411704029708409"
+      },
+      {
+        "id": "1509413292391530568",
+        "name": "important-stuff-for-important-reasons",
+        "type": 0,
+        "position": 0,
+        "parentId": "1509724208085860372"
+      },
+      {
+        "id": "1509418443739365447",
+        "name": "sahara-desert",
+        "type": 0,
+        "position": 0,
+        "parentId": "1509728290708131900"
+      },
+      {
+        "id": "1509723810600062976",
+        "name": "Normal talking (for once)",
+        "type": 2,
+        "position": 2,
+        "parentId": "1509411704029708409"
+      },
+      {
+        "id": "1509723987637174394",
+        "name": "Importants",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1509724208085860372",
+        "name": "~ Val special ~",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1509724255724769350",
+        "name": "higuruma-room",
+        "type": 0,
+        "position": 1,
+        "parentId": "1509724208085860372"
+      },
+      {
+        "id": "1509724333793218690",
+        "name": "( I Drawingtons I )",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1509724411912261694",
+        "name": "artists-room",
+        "type": 0,
+        "position": 0,
+        "parentId": "1509724333793218690"
+      },
+      {
+        "id": "1509727624522498109",
+        "name": "kitty-room",
+        "type": 0,
+        "position": 1,
+        "parentId": "1509728290708131900"
+      },
+      {
+        "id": "1509727963409682442",
+        "name": "forums-for-idk",
+        "type": 15,
+        "position": 0,
+        "parentId": "1509723987637174394"
+      },
+      {
+        "id": "1509728290708131900",
+        "name": "Extras",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1509820633763020810",
+        "name": "music-stuffz",
+        "type": 0,
+        "position": 2,
+        "parentId": "1509728290708131900"
+      },
+      {
+        "id": "1509873654274592899",
+        "name": "Gaming",
+        "type": 2,
+        "position": 1,
+        "parentId": "1509411704029708409"
+      },
+      {
+        "id": "1510245886800822423",
+        "name": "my-islan-yay",
+        "type": 0,
+        "position": 1,
+        "parentId": "1509411704029708408"
+      },
+      {
+        "id": "1510248184084168787",
+        "name": "Chillz",
+        "type": 2,
+        "position": 3,
+        "parentId": "1509411704029708409"
+      },
+      {
+        "id": "1513112718767423660",
+        "name": "finleys-goon-room",
+        "type": 0,
+        "position": 3,
+        "parentId": "1509728290708131900"
+      },
+      {
+        "id": "1515189128906407936",
+        "name": "finleys-streams",
+        "type": 0,
+        "position": 4,
+        "parentId": "1509728290708131900"
+      },
+      {
+        "id": "1525408222389993482",
+        "name": "media",
+        "type": 0,
+        "position": 0,
+        "parentId": "1509411704029708409"
+      },
+      {
+        "id": "1532725848640323665",
+        "name": "the-room",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1510080121636393052",
+        "name": "Cring",
+        "type": 11,
+        "parentId": "1509727963409682442"
+      },
+      {
+        "id": "1527558348512170105",
+        "name": "uh silver qna",
+        "type": 11,
+        "parentId": "1509727963409682442"
+      },
+      {
+        "id": "1527788748450955274",
+        "name": "finley qna",
+        "type": 11,
+        "parentId": "1509727963409682442"
+      },
+      {
+        "id": "1533383095745777845",
+        "name": "Aero",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1509414961175068782",
+        "name": "Newbies",
+        "color": 10038562,
+        "permissions": "1720707884502593",
+        "position": 20,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1509415168671612928",
+        "name": "Mid people",
+        "color": 3066993,
+        "permissions": "1720707884502593",
+        "position": 19,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1509415285134856232",
+        "name": "Epicals",
+        "color": 15844367,
+        "permissions": "1721807559716807",
+        "position": 18,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1509415407050817619",
+        "name": "Shitty",
+        "color": 3447003,
+        "permissions": "1721826618638327",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1509423202705604699",
+        "name": "Higuruma’s wife",
+        "color": 8553090,
+        "permissions": "0",
+        "position": 16,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1509437616653729802",
+        "name": "Green",
+        "color": 3066993,
+        "permissions": "1720707884502593",
+        "position": 15,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1510897957891735712",
+        "name": "admin thingy",
+        "color": 3066993,
+        "permissions": "2108850416648183",
+        "position": 14,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1510899302019498114",
+        "name": "Dream island",
+        "color": 12582853,
+        "permissions": "8796361462800",
+        "position": 13,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1512692016000274574",
+        "name": "Epical",
+        "color": 15277667,
+        "permissions": "1721807559716807",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1512693107550982265",
+        "name": "cool person yes",
+        "color": 10133680,
+        "permissions": "2108850416648183",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1520486280373338192",
+        "name": "Ratthew my beloved",
+        "color": 7304302,
+        "permissions": "0",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1525848839293112460",
+        "name": "= to sky",
+        "color": 7419530,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527278802429022379",
+        "name": "You ain't shitty Diddy blud",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1527414911184142446",
+        "name": "fag get",
+        "color": 2178333,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529801340065419364",
+        "name": ".n.",
+        "color": 15105570,
+        "permissions": "1721826618638327",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1529802262187212840",
+        "name": "the original   starwalker",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530526642768707764",
+        "name": "Silver",
+        "color": 7419530,
+        "permissions": "10275642199287",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1530765654624571422",
+        "name": "Equal to Heaven",
+        "color": 10181046,
+        "permissions": "8797972071569",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1785657426872
+  }
+}

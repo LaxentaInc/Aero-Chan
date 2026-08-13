@@ -2,142 +2,256 @@
   "backup": {
     "channels": [
       {
-        "id": "1523823504330457159",
-        "name": "Salons textuels",
-        "type": 4,
-        "position": 0,
-        "parentId": null
+        "id": "1532097493746057437",
+        "name": "⁉️help",
+        "type": 0,
+        "position": 7,
+        "parentId": "1523823504330457160"
+      },
+      {
+        "id": "1532093701873078404",
+        "name": "⚒️roles",
+        "type": 0,
+        "position": 3,
+        "parentId": "1523823504330457159"
+      },
+      {
+        "id": "1532378622713790566",
+        "name": "🎙️general 2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1528491996904165418"
       },
       {
         "id": "1523823504330457160",
-        "name": "Salons vocaux",
+        "name": "Text Chat💬",
         "type": 4,
         "position": 1,
         "parentId": null
       },
       {
-        "id": "1523823504330457161",
-        "name": "général",
+        "id": "1532110834904596751",
+        "name": "🎮gaming",
+        "type": 2,
+        "position": 2,
+        "parentId": "1528491996904165418"
+      },
+      {
+        "id": "1532097141927968890",
+        "name": "🤖bot-commands",
         "type": 0,
-        "position": 1,
-        "parentId": "1523823504330457159"
+        "position": 5,
+        "parentId": "1523823504330457160"
       },
       {
-        "id": "1527077397084766239",
-        "name": "mems",
-        "type": 15,
+        "id": "1528492054232043675",
+        "name": "🎵Music",
+        "type": 2,
+        "position": 5,
+        "parentId": "1528491996904165418"
+      },
+      {
+        "id": "1533238428454359300",
+        "name": "efootball-chat",
+        "type": 0,
         "position": 0,
-        "parentId": "1523823504330457159"
+        "parentId": "1533238223180926986"
       },
       {
-        "id": "1527079746251391109",
-        "name": "☕/chill",
+        "id": "1532381022648274954",
+        "name": "🎯VALORANT",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1532110464136380416",
+        "name": "🎙️general",
         "type": 2,
         "position": 0,
+        "parentId": "1528491996904165418"
+      },
+      {
+        "id": "1532381374609231912",
+        "name": "valorant-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1532381022648274954"
+      },
+      {
+        "id": "1532097374628089897",
+        "name": "💡suggestions",
+        "type": 0,
+        "position": 6,
         "parentId": "1523823504330457160"
+      },
+      {
+        "id": "1532092981233057944",
+        "name": "📢announcements",
+        "type": 0,
+        "position": 2,
+        "parentId": "1523823504330457159"
+      },
+      {
+        "id": "1532095838061592647",
+        "name": "💬general",
+        "type": 0,
+        "position": 0,
+        "parentId": "1523823504330457160"
+      },
+      {
+        "id": "1532377117830938675",
+        "name": "creat-ticket",
+        "type": 0,
+        "position": 0,
+        "parentId": "1532089037500715058"
       },
       {
         "id": "1527081144795791430",
         "name": "📜rules",
         "type": 0,
-        "position": 2,
+        "position": 0,
         "parentId": "1523823504330457159"
       },
       {
-        "id": "1527081944129736755",
-        "name": "🎮Efootball chilling",
-        "type": 2,
+        "id": "1532089037500715058",
+        "name": "🎫SUPPORT",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1533238223180926986",
+        "name": "⚽EFOOTBALL",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1532096006194204822",
+        "name": "👋introduction",
+        "type": 0,
         "position": 1,
         "parentId": "1523823504330457160"
       },
       {
-        "id": "1528125158424842350",
-        "name": "chat",
+        "id": "1532375019106336768",
+        "name": "🎙️Chill Zone",
+        "type": 2,
+        "position": 4,
+        "parentId": "1528491996904165418"
+      },
+      {
+        "id": "1532096625227464815",
+        "name": "😂memes",
         "type": 0,
         "position": 3,
-        "parentId": "1523823504330457159"
+        "parentId": "1523823504330457160"
       },
       {
-        "id": "1528133490388762634",
-        "name": "VOICE ADMINS",
-        "type": 2,
-        "position": 0,
-        "parentId": null
+        "id": "1532377200312062043",
+        "name": "support",
+        "type": 0,
+        "position": 1,
+        "parentId": "1532089037500715058"
       },
       {
-        "id": "1528134213491228754",
-        "name": "FREE FIRE🏹",
-        "type": 2,
+        "id": "1532096517425463376",
+        "name": "🎮gaming",
+        "type": 0,
         "position": 2,
         "parentId": "1523823504330457160"
       },
       {
-        "id": "1528140903053660300",
-        "name": "CHI HAJAAA",
-        "type": 4,
-        "position": 2,
-        "parentId": null
+        "id": "1532096878571688007",
+        "name": "🎥media",
+        "type": 0,
+        "position": 4,
+        "parentId": "1523823504330457160"
       },
       {
-        "id": "1528175064036540446",
-        "name": "story time",
+        "id": "1532380683345858631",
+        "name": "🔊Free Fire VC",
         "type": 2,
         "position": 0,
-        "parentId": "1528140903053660300"
+        "parentId": "1532377906519609454"
       },
       {
-        "id": "1528491914066923741",
-        "name": "CHAMBRE 1",
-        "type": 2,
+        "id": "1532381502153953571",
+        "name": "valorant-ifg",
+        "type": 0,
         "position": 1,
+        "parentId": "1532381022648274954"
+      },
+      {
+        "id": "1532380414352560318",
+        "name": "free-fire-ifg",
+        "type": 0,
+        "position": 1,
+        "parentId": "1532377906519609454"
+      },
+      {
+        "id": "1532380269485621318",
+        "name": "free-fire-chat",
+        "type": 0,
+        "position": 0,
+        "parentId": "1532377906519609454"
+      },
+      {
+        "id": "1523823504330457159",
+        "name": "INFORMATION🗂️",
+        "type": 4,
+        "position": 0,
         "parentId": null
+      },
+      {
+        "id": "1533238549145714770",
+        "name": "efootball-ifg",
+        "type": 0,
+        "position": 1,
+        "parentId": "1533238223180926986"
+      },
+      {
+        "id": "1532377906519609454",
+        "name": "🔥FREE FIRE",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1533238785037566063",
+        "name": "🔊efootball VC",
+        "type": 2,
+        "position": 0,
+        "parentId": "1533238223180926986"
       },
       {
         "id": "1528491996904165418",
-        "name": "CHILL",
+        "name": "VOICE🔊",
         "type": 4,
-        "position": 3,
+        "position": 2,
         "parentId": null
       },
       {
-        "id": "1528492054232043675",
-        "name": "1",
+        "id": "1532381706269622382",
+        "name": "🔊valorant VC",
         "type": 2,
         "position": 0,
+        "parentId": "1532381022648274954"
+      },
+      {
+        "id": "1533239018576281730",
+        "name": "🎮gaming 2",
+        "type": 2,
+        "position": 3,
         "parentId": "1528491996904165418"
       },
       {
-        "id": "1528492077661290598",
-        "name": "2",
+        "id": "1532092784578793502",
+        "name": "👋welcome",
         "type": 0,
-        "position": 0,
-        "parentId": "1528491996904165418"
-      },
-      {
-        "id": "1528492108036444260",
-        "name": "3",
-        "type": 2,
         "position": 1,
-        "parentId": "1528491996904165418"
-      },
-      {
-        "id": "1528492139485462670",
-        "name": "4",
-        "type": 2,
-        "position": 2,
-        "parentId": "1528491996904165418"
-      },
-      {
-        "id": "1527077693286514688",
-        "name": "kono fchkeel adrari",
-        "type": 11,
-        "parentId": "1527077397084766239"
-      },
-      {
-        "id": "1527078920724414565",
-        "name": "Rg",
-        "type": 11,
-        "parentId": "1527077397084766239"
+        "parentId": "1523823504330457159"
       }
     ],
     "roles": [
@@ -146,7 +260,7 @@
         "name": ".",
         "color": 0,
         "permissions": "8798173398199",
-        "position": 34,
+        "position": 35,
         "hoist": true,
         "mentionable": true
       },
@@ -155,7 +269,7 @@
         "name": "ADMIN",
         "color": 15844367,
         "permissions": "9244850441459",
-        "position": 33,
+        "position": 34,
         "hoist": false,
         "mentionable": false
       },
@@ -164,16 +278,25 @@
         "name": "VERIFY",
         "color": 3447003,
         "permissions": "0",
-        "position": 32,
+        "position": 33,
         "hoist": true,
         "mentionable": true
+      },
+      {
+        "id": "1532376140277219549",
+        "name": "Member",
+        "color": 0,
+        "permissions": "0",
+        "position": 1,
+        "hoist": false,
+        "mentionable": false
       },
       {
         "id": "1528863766949793842",
         "name": "MUTE POWER",
         "color": 0,
         "permissions": "4194304",
-        "position": 15,
+        "position": 16,
         "hoist": false,
         "mentionable": false
       },
@@ -182,11 +305,11 @@
         "name": "MOVE POWER",
         "color": 0,
         "permissions": "16777224",
-        "position": 16,
+        "position": 17,
         "hoist": false,
         "mentionable": false
       }
     ],
-    "updated": 1785215722704
+    "updated": 1786611511941
   }
 }

@@ -1,0 +1,26 @@
+{
+  "backup": {
+    "channels": [],
+    "roles": [
+      {
+        "id": "1537165176216879224",
+        "name": "Co-owner",
+        "color": 9622527,
+        "permissions": "8",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1537166308695875654",
+        "name": "Admin",
+        "color": 6807495,
+        "permissions": "1099792654358",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1786568034750
+  }
+}
