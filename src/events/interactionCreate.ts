@@ -95,6 +95,10 @@ export default {
         debugLog('warn', `Unhandled interaction type received: ${interaction.type}`);
       }
     } catch (error: any) {
+      if (error.code === 10062) {
+        debugLog('warn', `Interaction took too long to respond (10062): ${interaction.id}`);
+        return;
+      }
       debugLog('error', `Error in interactionCreate handler: ${error.message}\nStack: ${error.stack}`);
       if (!interaction.isAutocomplete()) {
         const int = interaction as import('discord.js').RepliableInteraction;

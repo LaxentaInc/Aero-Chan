@@ -852,6 +852,10 @@ export default {
           });
       }
     } catch (error: any) {
+      if (error.code === 10062) {
+        console.warn(`[Birthday] Unknown interaction (took too long to respond): ${subcommand}`);
+        return;
+      }
       console.error(`Birthday command error (${subcommand}):`, error);
       const errorResponse = {
         content: '❌ An error occurred while processing your request. Please try again.',
