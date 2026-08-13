@@ -1,36 +1,7 @@
 {
   "backup": {
-    "channels": [
-      {
-        "id": "1536113520683261972",
-        "name": "Tekstkanalen",
-        "type": 4,
-        "position": 0,
-        "parentId": null
-      },
-      {
-        "id": "1536113520683261973",
-        "name": "Spraakkanalen",
-        "type": 4,
-        "position": 1,
-        "parentId": null
-      },
-      {
-        "id": "1536113520683261975",
-        "name": "Algemeen",
-        "type": 2,
-        "position": 0,
-        "parentId": "1536113520683261973"
-      },
-      {
-        "id": "1536291963588972624",
-        "name": "penis",
-        "type": 0,
-        "position": 0,
-        "parentId": null
-      }
-    ],
+    "channels": [],
     "roles": [],
-    "updated": 1786616032185
+    "updated": 1786616733687
   }
 }

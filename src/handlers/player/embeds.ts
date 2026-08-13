@@ -1,46 +1,31 @@
 // @ts-nocheck
 import { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } from "discord.js";
-// Same embed colors from original
-const EMBED_COLORS = {
-  NOW_PLAYING: '#5865F2',
-  ERROR: '#FF0000',
-  SUCCESS: '#2ECC71',
-  WARNING: '#FFA500',
-  INFO: '#7289DA',
-  SPOTIFY: '#1DB954',
-  YOUTUBE: '#FF0000',
-  SOUNDCLOUD: '#FF5500'
-};
+
 const CUSTOM_ICON = 'https://media.tenor.com/Sb0yPHMgNaUAAAAj/music-disc.gif';
+
 const SOURCE_INFO = {
   spotify: {
     icon: 'Spotify',
-    color: EMBED_COLORS.SPOTIFY,
     name: 'Spotify'
   },
   youtube: {
     icon: 'YouTube',
-    color: EMBED_COLORS.YOUTUBE,
     name: 'YouTube'
   },
   soundcloud: {
     icon: 'SoundCloud',
-    color: EMBED_COLORS.SOUNDCLOUD,
     name: 'SoundCloud'
   },
   bandcamp: {
     icon: 'Bandcamp',
-    color: '#629aa0',
     name: 'Bandcamp'
   },
   twitch: {
     icon: 'Twitch',
-    color: '#9146ff',
     name: 'Twitch'
   },
   http: {
     icon: 'Direct Link',
-    color: EMBED_COLORS.INFO,
     name: 'Direct Link'
   }
 };
@@ -70,17 +55,17 @@ function createControlButtons(player: any, disabled: boolean = false) {
 
   const filterDropdown = new StringSelectMenuBuilder()
     .setCustomId('music_filter')
-    .setPlaceholder('Select an Audio Filter...')
+    .setPlaceholder('Select an audio filter...')
     .setDisabled(disabled)
     .addOptions([
-      { label: 'Clear All Filters', value: 'clear', description: 'Reset to original audio' },
+      { label: 'Clear all filters', value: 'clear', description: 'Reset to original audio' },
       { label: 'Nightcore', value: 'nightcore', description: 'Faster and higher pitch' },
       { label: 'Vaporwave', value: 'vaporwave', description: 'Slower and lower pitch' },
       { label: 'Karaoke', value: 'karaoke', description: 'Removes vocals' },
       { label: 'Rotation', value: 'rotation', description: 'Audio rotates around your head' },
       { label: 'Tremolo', value: 'tremolo', description: 'Wavering volume effect' },
       { label: 'Vibrato', value: 'vibrato', description: 'Wavering pitch effect' },
-      { label: 'Low Pass', value: 'lowpass', description: 'Muffles high frequencies' }
+      { label: 'Low pass', value: 'lowpass', description: 'Muffles high frequencies' }
     ]);
 
   const row1 = new ActionRowBuilder().addComponents(filterDropdown);
@@ -93,12 +78,12 @@ function createControlButtons(player: any, disabled: boolean = false) {
 
   const row3 = new ActionRowBuilder().addComponents(
     new ButtonBuilder().setCustomId('music_loop').setLabel('Loop').setStyle(ButtonStyle.Success).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_shuffle').setLabel('Smart Shuffle').setStyle(ButtonStyle.Success).setDisabled(disabled)
+    new ButtonBuilder().setCustomId('music_shuffle').setLabel('Smart shuffle').setStyle(ButtonStyle.Success).setDisabled(disabled)
   );
 
   const row4 = new ActionRowBuilder().addComponents(
     new ButtonBuilder().setCustomId('music_autoplay').setLabel('Autoplay').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_stop').setLabel('End Session').setStyle(ButtonStyle.Danger).setDisabled(disabled)
+    new ButtonBuilder().setCustomId('music_stop').setLabel('End session').setStyle(ButtonStyle.Danger).setDisabled(disabled)
   );
 
   return [row1, row2, row3, row4];
@@ -109,13 +94,12 @@ function createControlButtons(player: any, disabled: boolean = false) {
  */
 function createNowPlayingEmbed(track: any, player: any, client: any) {
   let durationString = formatTime(track.duration || 0);
-  if (track.isStream) durationString = 'LIVE';
-  const requester = track.requester ? `<@${track.requester.id || track.requester}>` : 'Auto-Play';
+  if (track.isStream) durationString = 'Live';
+  const requester = track.requester ? `<@${track.requester.id || track.requester}>` : 'Auto-play';
 
   const embed = new EmbedBuilder()
-    .setColor(EMBED_COLORS.NOW_PLAYING)
     .setAuthor({
-      name: 'Now Playing',
+      name: 'Now playing',
       iconURL: CUSTOM_ICON
     })
     .setDescription(`**Artist:** ${track.author}\n**Duration:** \`${durationString}\`\n**Requested by:** ${requester}`)
@@ -133,10 +117,10 @@ function createNowPlayingEmbed(track: any, player: any, client: any) {
  */
 function createSearchEmbed(tracks: any, query: any, interaction: any) {
   const embed = new EmbedBuilder().setAuthor({
-    name: '🔍 Search Results',
+    name: 'Search results',
     iconURL: CUSTOM_ICON
   }).setDescription(`**Query:** \`${query}\`\n\nSelect a track to play:`).setFooter({
-    text: `Selection expires in 30 seconds | Requested by ${interaction.user.tag}`,
+    text: `Selection expires in 30 seconds · Requested by ${interaction.user.tag}`,
     iconURL: interaction.user.displayAvatarURL()
   }).setTimestamp();
   tracks.slice(0, 7).forEach((track: any, index: any) => {
@@ -144,7 +128,7 @@ function createSearchEmbed(tracks: any, query: any, interaction: any) {
     const sourceInfo = SOURCE_INFO[track.sourceName] || SOURCE_INFO.http;
     embed.addFields({
       name: `${index + 1}. ${track.title || 'Unknown'}`,
-      value: `**Artist:** \`${track.author || 'Unknown'}\`\n**Duration:** \`${duration}\` | **Source:** ${sourceInfo.name}`,
+      value: `**Artist:** \`${track.author || 'Unknown'}\`\n**Duration:** \`${duration}\` · **Source:** ${sourceInfo.name}`,
       inline: false
     } as any);
   });
@@ -156,8 +140,8 @@ function createSearchEmbed(tracks: any, query: any, interaction: any) {
  */
 function createTrackAddedEmbed(track: any, player: any, isPlaying: any, user: any) {
   const sourceInfo = SOURCE_INFO[track.sourceName] || SOURCE_INFO.http;
-  return new EmbedBuilder().setColor(EMBED_COLORS.SUCCESS).setAuthor({
-    name: isPlaying ? '▶️ Now Playing' : '➕ Added to Queue',
+  return new EmbedBuilder().setAuthor({
+    name: isPlaying ? 'Now playing' : 'Added to queue',
     iconURL: CUSTOM_ICON
   }).setTitle(track.title || 'Unknown').setURL(track.uri || null).setThumbnail(track.artworkUrl || CUSTOM_ICON).addFields({
     name: 'Artist',
@@ -169,7 +153,7 @@ function createTrackAddedEmbed(track: any, player: any, isPlaying: any, user: an
     inline: true
   } as any, {
     name: 'Position',
-    value: isPlaying ? '`Now Playing`' : `\`#${player.queue.tracks.length}\``,
+    value: isPlaying ? '`Now playing`' : `\`#${player.queue.tracks.length}\``,
     inline: true
   } as any).setFooter({
     text: `Requested by ${user.tag}`,
@@ -182,13 +166,13 @@ function createTrackAddedEmbed(track: any, player: any, isPlaying: any, user: an
  */
 function createQueueEndEmbed() {
   return new EmbedBuilder().setAuthor({
-    name: 'Queue Finished',
-    iconURL: 'https://media.tenor.com/10BNU95o1a4AAAAM/music-playing.gif'
-  }).setDescription('All tracks have been played!').addFields({
+    name: 'Queue finished',
+    iconURL: CUSTOM_ICON
+  }).setDescription('All tracks have been played.').addFields({
     name: 'Ready for more?',
-    value: 'Use `/play` to start a new session!'
+    value: 'Use `/play` to start a new session.'
   } as any).setFooter({
-    text: 'Thanks for listening!'
+    text: 'Thanks for listening'
   }).setTimestamp();
 }
 
@@ -196,11 +180,11 @@ function createQueueEndEmbed() {
  * Create queue display embed
  */
 function createQueueEmbed(player: any) {
-  const queueList = player.queue.tracks.slice(0, 10).map((track: any, index: any) => `**${index + 1}.** ${track.title || 'Unknown'} - \`${track.author || 'Unknown'}\``).join('\n');
-  return new EmbedBuilder().setColor(EMBED_COLORS.INFO).setAuthor({
-    name: 'Music Queue',
+  const queueList = player.queue.tracks.slice(0, 10).map((track: any, index: any) => `**${index + 1}.** ${track.title || 'Unknown'} — \`${track.author || 'Unknown'}\``).join('\n');
+  return new EmbedBuilder().setAuthor({
+    name: 'Music queue',
     iconURL: CUSTOM_ICON
-  }).setDescription(queueList || 'Queue is empty!').setFooter({
+  }).setDescription(queueList || 'Queue is empty.').setFooter({
     text: player.queue.tracks.length > 10 ? `Showing first 10 of ${player.queue.tracks.length} tracks` : `${player.queue.tracks.length} tracks total`,
     iconURL: CUSTOM_ICON
   });
@@ -210,14 +194,14 @@ function createQueueEmbed(player: any) {
  * Create error embed for track exceptions
  */
 function createErrorEmbed(track: any, errorMessage: any) {
-  return new EmbedBuilder().setColor(EMBED_COLORS.ERROR).setAuthor({
-    name: 'Playback Error',
+  return new EmbedBuilder().setAuthor({
+    name: 'Playback error',
     iconURL: CUSTOM_ICON
   }).setDescription(`**${track.title || 'Unknown'}** failed to play`).addFields({
     name: 'Error',
     value: `\`${errorMessage || 'Unknown error'}\``
   } as any).setFooter({
-    text: 'Skipping to next track...',
+    text: 'Skipping to next track',
     iconURL: CUSTOM_ICON
   }).setTimestamp();
 }
@@ -227,10 +211,10 @@ function createErrorEmbed(track: any, errorMessage: any) {
  */
 function createLoadingEmbed(title: any, description: any) {
   return new EmbedBuilder().setAuthor({
-    name: '⏳ Loading...',
-    iconURL: 'https://media.tenor.com/10BNU95o1a4AAAAM/music-playing.gif'
+    name: 'Loading',
+    iconURL: CUSTOM_ICON
   }).setDescription(`${title}\n${description}`).setFooter({
-    text: 'This might take a few seconds...'
+    text: 'This might take a few seconds'
   }).setTimestamp();
 }
 
@@ -239,9 +223,9 @@ function createLoadingEmbed(title: any, description: any) {
  */
 function createSkipEmbed(currentTrack: any, nextTrack: any) {
   return new EmbedBuilder().setAuthor({
-    name: 'Track Skipped',
+    name: 'Track skipped',
     iconURL: CUSTOM_ICON
-  }).setDescription(`<a:VinylRecord_1338415159672307806:1342442912746704998>  Skipped: **${currentTrack}**\nNow playing: **${nextTrack}**`).setTimestamp();
+  }).setDescription(`Skipped: **${currentTrack}**\nNow playing: **${nextTrack}**`).setTimestamp();
 }
 
 /**
@@ -249,9 +233,9 @@ function createSkipEmbed(currentTrack: any, nextTrack: any) {
  */
 function createStopEmbed(queueSize: any) {
   return new EmbedBuilder().setAuthor({
-    name: 'Music Stopped',
+    name: 'Music stopped',
     iconURL: CUSTOM_ICON
-  }).setDescription(`<a:VinylRecord_1338415159672307806:1342442912746704998>  Playback stopped and queue cleared (${queueSize} tracks removed)`).setTimestamp();
+  }).setDescription(`Playback stopped and queue cleared (${queueSize} tracks removed)`).setTimestamp();
 }
 
 /**
@@ -259,7 +243,7 @@ function createStopEmbed(queueSize: any) {
  */
 function createPauseEmbed(wasPaused: any) {
   return new EmbedBuilder().setAuthor({
-    name: wasPaused ? '▶️ Music Resumed' : '⏸️ Music Paused',
+    name: wasPaused ? 'Music resumed' : 'Music paused',
     iconURL: CUSTOM_ICON
   }).setDescription(`Playback ${wasPaused ? 'resumed' : 'paused'}`).setTimestamp();
 }
@@ -268,9 +252,8 @@ function createPauseEmbed(wasPaused: any) {
  * Create loop mode change embed
  */
 function createLoopEmbed(loopMode: any) {
-  const loopEmoji = loopMode === 'off' ? '🔁' : loopMode === 'track' ? '🔂' : '🔁';
   return new EmbedBuilder().setAuthor({
-    name: `${loopEmoji} Loop Mode Changed`,
+    name: 'Loop mode changed',
     iconURL: CUSTOM_ICON
   }).setDescription(`Loop mode: **${loopMode.toUpperCase()}**`).setTimestamp();
 }
@@ -280,7 +263,7 @@ function createLoopEmbed(loopMode: any) {
  */
 function createClearEmbed(queueSize: any) {
   return new EmbedBuilder().setAuthor({
-    name: 'Queue Cleared',
+    name: 'Queue cleared',
     iconURL: CUSTOM_ICON
   }).setDescription(`Removed ${queueSize} tracks from queue`).setTimestamp();
 }
@@ -290,7 +273,7 @@ function createClearEmbed(queueSize: any) {
  */
 function createDisconnectEmbed() {
   return new EmbedBuilder().setAuthor({
-    name: '👋 Disconnected',
+    name: 'Disconnected',
     iconURL: CUSTOM_ICON
   }).setDescription('Disconnected from voice channel and cleared all data').setTimestamp();
 }
@@ -308,32 +291,32 @@ function createEnhancedQueueEmbed(player: any) {
     const author = track.author || track.info?.author || 'Unknown';
     const duration = track.duration || track.info?.length || 0;
     const uri = track.uri || track.info?.uri || '#';
-    description += `**Now Playing:**\n[${truncate(title, 50)}](${uri})\n`;
-    description += `└ By: ${truncate(author, 30)} • ${formatTime(duration)}\n\n`;
+    description += `**Now playing**\n[${truncate(title, 50)}](${uri})\n`;
+    description += `By ${truncate(author, 30)} · ${formatTime(duration)}\n\n`;
   }
 
   // lavalink-client uses player.queue.tracks for the queue array
   if (player.queue.tracks.length > 0) {
-    description += '**<a:gwys_1327982904604889190:1342442980878979113> Up Next:**\n';
+    description += '**Up next**\n';
     const queueList = player.queue.tracks.slice(0, 10).map((track: any, index: any) => {
       const title = track.title || track.info?.title || 'Unknown';
       const author = track.author || track.info?.author || 'Unknown';
       const duration = track.duration || track.info?.length || 0;
       const uri = track.uri || track.info?.uri || '#';
-      return `**${index + 1}.** [${truncate(title, 40)}](${uri})\n` + `└ By: ${truncate(author, 30)} • ${formatTime(duration)}`;
+      return `**${index + 1}.** [${truncate(title, 40)}](${uri})\n` + `By ${truncate(author, 30)} · ${formatTime(duration)}`;
     }).join('\n\n');
     description += queueList;
     if (player.queue.tracks.length > 10) {
-      description += `\n\n*...and ${player.queue.tracks.length - 10} more tracks*`;
+      description += `\n\n...and ${player.queue.tracks.length - 10} more tracks`;
     }
   } else {
-    description += '*Queue is empty*';
+    description += 'Queue is empty';
   }
-  return new EmbedBuilder().setColor(EMBED_COLORS.INFO).setAuthor({
-    name: 'Music Queue',
+  return new EmbedBuilder().setAuthor({
+    name: 'Music queue',
     iconURL: CUSTOM_ICON
   }).setDescription(description).setFooter({
-    text: `${player.queue.tracks.length} tracks in queue • Loop: ${player.loop || 'off'}`,
+    text: `${player.queue.tracks.length} tracks in queue · Loop: ${player.loop || 'off'}`,
     iconURL: CUSTOM_ICON
   }).setTimestamp();
 }
@@ -345,14 +328,14 @@ function createPlayResponseEmbed(tracks: any, startedImmediately: any, player: a
   const firstTrack = tracks[0];
   const trackInfo = firstTrack.info || firstTrack;
   const embed = new EmbedBuilder().setAuthor({
-    name: startedImmediately ? '🎵 Now Playing' : '➕ Added to Queue',
+    name: startedImmediately ? 'Now playing' : 'Added to queue',
     iconURL: CUSTOM_ICON
-  }).setTitle(trackInfo.title || 'Unknown Title').setURL(trackInfo.uri || null).setThumbnail(trackInfo.artworkUrl || CUSTOM_ICON).addFields({
+  }).setTitle(trackInfo.title || 'Unknown title').setURL(trackInfo.uri || null).setThumbnail(trackInfo.artworkUrl || CUSTOM_ICON).addFields({
     name: 'Artist',
     value: `\`${trackInfo.author || 'Unknown'}\``,
     inline: true
   } as any, {
-    name: '⏱️ Duration',
+    name: 'Duration',
     value: `\`${formatTime(trackInfo.length || trackInfo.duration || firstTrack.duration)}\``,
     inline: true
   } as any, {
@@ -362,14 +345,14 @@ function createPlayResponseEmbed(tracks: any, startedImmediately: any, player: a
   } as any);
   if (tracks.length > 1) {
     embed.addFields({
-      name: '<a:milkbear_1338415503877865506:1342442875971174470> Playlist',
+      name: 'Playlist',
       value: `\`${tracks.length} tracks\``,
       inline: true
     } as any);
   }
   if (player?.queue?.tracks?.length > 0 && !startedImmediately) {
     embed.addFields({
-      name: '<a:gwys_1327982904604889190:1342442980878979113> Position',
+      name: 'Position',
       value: `\`#${player.queue.tracks.length}\``,
       inline: true
     } as any);
@@ -386,13 +369,13 @@ function createPlayResponseEmbed(tracks: any, startedImmediately: any, player: a
  */
 function createGenericErrorEmbed(title: any, description: any) {
   return new EmbedBuilder().setAuthor({
-    name: `❌ ${title}`,
+    name: title,
     iconURL: CUSTOM_ICON
-  }).setColor(EMBED_COLORS.ERROR).setDescription(description).setTimestamp();
+  }).setDescription(description).setTimestamp();
 }
-export { EMBED_COLORS, CUSTOM_ICON, SOURCE_INFO, formatTime, truncate, createControlButtons, createNowPlayingEmbed, createSearchEmbed, createTrackAddedEmbed, createQueueEndEmbed, createQueueEmbed, createEnhancedQueueEmbed, createErrorEmbed, createGenericErrorEmbed, createLoadingEmbed, createSkipEmbed, createStopEmbed, createPauseEmbed, createLoopEmbed, createClearEmbed, createDisconnectEmbed, createPlayResponseEmbed };
+
+export { CUSTOM_ICON, SOURCE_INFO, formatTime, truncate, createControlButtons, createNowPlayingEmbed, createSearchEmbed, createTrackAddedEmbed, createQueueEndEmbed, createQueueEmbed, createEnhancedQueueEmbed, createErrorEmbed, createGenericErrorEmbed, createLoadingEmbed, createSkipEmbed, createStopEmbed, createPauseEmbed, createLoopEmbed, createClearEmbed, createDisconnectEmbed, createPlayResponseEmbed };
 export default {
-  EMBED_COLORS,
   CUSTOM_ICON,
   SOURCE_INFO,
   formatTime,
