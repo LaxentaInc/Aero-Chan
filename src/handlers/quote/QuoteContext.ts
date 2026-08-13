@@ -1,19 +1,42 @@
 import { getQuote, removeQuote, updateQuote } from "./storage";
-import { generateQuoteImage, convertToGif, TEXT_COLORS } from "./imageGenerator";
+import { generateQuoteImage, convertToGif, TEXT_COLORS, THEMES, FONTS_LIST, SIZES, QuoteStyle } from "./imageGenerator";
 import { logger } from "../../utils/logger";
-import { MessageFlags, AttachmentBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } from "discord.js";
+import { MessageFlags, AttachmentBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, StringSelectMenuBuilder } from "discord.js";
 
 /**
- * rebuild the button row (same as in the context command)
+ * build the component rows (buttons + dropdowns)
  */
-function createQuoteButtons() {
-  return new ActionRowBuilder().addComponents(
+function createQuoteComponents(style: QuoteStyle) {
+  const buttonRow = new ActionRowBuilder().addComponents(
     new ButtonBuilder().setCustomId('quote_toggle').setLabel('Toggle Quotes').setStyle(ButtonStyle.Secondary),
     new ButtonBuilder().setCustomId('quote_gif').setLabel('GIF').setStyle(ButtonStyle.Secondary),
     new ButtonBuilder().setCustomId('quote_color').setLabel('Color').setStyle(ButtonStyle.Primary),
     new ButtonBuilder().setCustomId('quote_bold').setLabel('Bold').setStyle(ButtonStyle.Secondary),
     new ButtonBuilder().setCustomId('quote_italic').setLabel('Italic').setStyle(ButtonStyle.Secondary),
   );
+
+  const themeRow = new ActionRowBuilder().addComponents(
+    new StringSelectMenuBuilder()
+      .setCustomId('quote_theme')
+      .setPlaceholder('Select Theme')
+      .addOptions(THEMES.map(t => ({ label: t.label, value: t.value, emoji: t.emoji, default: t.value === style.theme })))
+  );
+
+  const fontRow = new ActionRowBuilder().addComponents(
+    new StringSelectMenuBuilder()
+      .setCustomId('quote_font')
+      .setPlaceholder('Select Font')
+      .addOptions(FONTS_LIST.map(f => ({ label: f.label, value: f.value, emoji: f.emoji, default: f.value === style.font })))
+  );
+
+  const sizeRow = new ActionRowBuilder().addComponents(
+    new StringSelectMenuBuilder()
+      .setCustomId('quote_size')
+      .setPlaceholder('Select Size')
+      .addOptions(SIZES.map(s => ({ label: s.label, value: s.value, emoji: s.emoji, default: s.value === style.size })))
+  );
+
+  return [buttonRow, themeRow, fontRow, sizeRow];
 }
 
 /**
@@ -42,6 +65,26 @@ async function handleQuoteButton(interaction: any) {
   }
 
   try {
+    // --- String Select Menus ---
+    if (interaction.isStringSelectMenu()) {
+      if (customId === 'quote_theme') {
+        return await handleStyleChange(interaction, quoteData, messageId, (style: any) => {
+          style.theme = interaction.values[0];
+        });
+      }
+      if (customId === 'quote_font') {
+        return await handleStyleChange(interaction, quoteData, messageId, (style: any) => {
+          style.font = interaction.values[0];
+        });
+      }
+      if (customId === 'quote_size') {
+        return await handleStyleChange(interaction, quoteData, messageId, (style: any) => {
+          style.size = interaction.values[0];
+        });
+      }
+    }
+
+    // --- Buttons ---
     // --- toggle quotes ---
     if (customId === 'quote_toggle') {
       return await handleStyleChange(interaction, quoteData, messageId, (style: any) => {
@@ -98,13 +141,13 @@ async function handleGif(interaction: any, quoteData: any) {
   const pngBuffer = await generateQuoteImage(quoteData.content, authorObj, quoteData.style);
   const gifBuffer = await convertToGif(pngBuffer);
   const attachment = new AttachmentBuilder(gifBuffer, { name: 'quote.gif' });
-  const row = createQuoteButtons();
+  const components = createQuoteComponents(quoteData.style);
 
   await interaction.editReply({
     content: `[Jump to original message](${quoteData.originalMessageUrl})`,
     files: [attachment],
     attachments: [],
-    components: [row]
+    components: components
   });
 }
 
@@ -128,21 +171,22 @@ async function handleStyleChange(interaction: any, quoteData: any, messageId: st
 
   const imageBuffer = await generateQuoteImage(quoteData.content, authorObj, newStyle);
   const attachment = new AttachmentBuilder(imageBuffer, { name: 'quote.png' });
-  const row = createQuoteButtons();
+  const components = createQuoteComponents(newStyle);
 
   await interaction.editReply({
     content: `[Jump to original message](${quoteData.originalMessageUrl})`,
     files: [attachment],
     attachments: [], // clear old attachment
-    components: [row]
+    components: components
   });
 }
 
 // legacy export name for backwards compatibility
 const handleQuoteRemoval = handleQuoteButton;
 
-export { handleQuoteButton, handleQuoteRemoval };
+export { handleQuoteButton, handleQuoteRemoval, createQuoteComponents };
 export default {
   handleQuoteButton,
-  handleQuoteRemoval
+  handleQuoteRemoval,
+  createQuoteComponents
 };

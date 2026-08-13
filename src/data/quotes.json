@@ -1,1 +1,116 @@
-{}
+{
+  "1537425657603170344": {
+    "userId": "1246380709124378674",
+    "channelId": "1466443288453320936",
+    "guildId": null,
+    "originalMessageUrl": "https://discord.com/channels/@me/1466443288453320936/1537410962858975243",
+    "originalAuthor": "1246380709124378674",
+    "content": "like meow",
+    "authorData": {
+      "displayName": "Alvcard",
+      "username": "laxenta.me",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1246380709124378674/f81fe7298728e40146e429696d96fbc2.png?size=512"
+    },
+    "style": {
+      "bold": false,
+      "italic": true,
+      "colorIndex": 0,
+      "showQuotes": true
+    },
+    "createdAt": 1786621244654,
+    "expiresAt": 1786880444654
+  },
+  "1537426425936875521": {
+    "userId": "1246380709124378674",
+    "channelId": "1537426355044614194",
+    "guildId": null,
+    "originalMessageUrl": "https://discord.com/channels/@me/1537426355044614194/1537426405283995658",
+    "originalAuthor": "1246380709124378674",
+    "content": "e",
+    "authorData": {
+      "displayName": "Alvcard",
+      "username": "laxenta.me",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1246380709124378674/f81fe7298728e40146e429696d96fbc2.png?size=512"
+    },
+    "style": {
+      "bold": false,
+      "italic": true,
+      "colorIndex": 0,
+      "showQuotes": true
+    },
+    "createdAt": 1786621430435,
+    "expiresAt": 1786880630435
+  },
+  "1537430105926934622": {
+    "userId": "1246380709124378674",
+    "channelId": "1466443288453320936",
+    "guildId": null,
+    "originalMessageUrl": "https://discord.com/channels/@me/1466443288453320936/1537429459962040411",
+    "originalAuthor": "1437533565402218598",
+    "content": "It was me🥰🥰🥰",
+    "authorData": {
+      "displayName": "Plum-bbage",
+      "username": "cabbagefreak_27597",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1437533565402218598/09c600ddd312a38db1c7de4bd9ef6a41.png?size=512"
+    },
+    "style": {
+      "bold": false,
+      "italic": true,
+      "colorIndex": 0,
+      "showQuotes": true,
+      "theme": "Haze",
+      "font": "Inter",
+      "size": "Medium"
+    },
+    "createdAt": 1786622306410,
+    "expiresAt": 1786881506410
+  },
+  "1537430200504160297": {
+    "userId": "1246380709124378674",
+    "channelId": "1537426355044614194",
+    "guildId": null,
+    "originalMessageUrl": "https://discord.com/channels/@me/1537426355044614194/1537426405283995658",
+    "originalAuthor": "1246380709124378674",
+    "content": "e",
+    "authorData": {
+      "displayName": "Alvcard",
+      "username": "laxenta.me",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1246380709124378674/f81fe7298728e40146e429696d96fbc2.png?size=512"
+    },
+    "style": {
+      "bold": false,
+      "italic": true,
+      "colorIndex": 0,
+      "showQuotes": true,
+      "theme": "Haze",
+      "font": "Inter",
+      "size": "Medium"
+    },
+    "createdAt": 1786622330256,
+    "expiresAt": 1786881530256
+  },
+  "1537431653494947891": {
+    "userId": "1246380709124378674",
+    "channelId": "1537426355044614194",
+    "guildId": null,
+    "originalMessageUrl": "https://discord.com/channels/@me/1537426355044614194/1537431490240057427",
+    "originalAuthor": "1246380709124378674",
+    "content": "e",
+    "authorData": {
+      "displayName": "Alvcard",
+      "username": "laxenta.me",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1246380709124378674/f81fe7298728e40146e429696d96fbc2.png?size=512"
+    },
+    "style": {
+      "bold": false,
+      "italic": true,
+      "colorIndex": 0,
+      "showQuotes": true,
+      "theme": "Haze",
+      "font": "Inter",
+      "size": "Medium"
+    },
+    "createdAt": 1786622672312,
+    "expiresAt": 1786881872312
+  }
+}

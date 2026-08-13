@@ -5,6 +5,8 @@ import { Routes } from "discord-api-types/v9";
 import fs from "fs";
 import path from "path";
 import { green, blue, red, yellow } from "colorette";
+import axios from "axios";
+axios.defaults.headers.common['User-Agent'] = 'AeroDiscordBot/1.0 (Discord: laxenta)';
 require('dotenv').config();
 const COMMAND_CACHE_FILE = './.commandCache.json';
 const environment = process.env.NODE_ENV || 'production';

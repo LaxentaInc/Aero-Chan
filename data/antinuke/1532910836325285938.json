@@ -1,7 +1,981 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1786619480927
+    "channels": [
+      {
+        "id": "1535188097631780987",
+        "name": "art„⊹₊",
+        "type": 0,
+        "position": 6,
+        "parentId": "1533005762471657482"
+      },
+      {
+        "id": "1533013841657593936",
+        "name": "staff-chat„⊹₊",
+        "type": 0,
+        "position": 0,
+        "parentId": "1533013685281357984"
+      },
+      {
+        "id": "1533014716941602876",
+        "name": "˗ˏˋ✦ˎˊ˗ OWNERSHIP team ˗ˏˋ✦ˎˊ˗",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1533013999887847575",
+        "name": "promo-resignation„⊹₊",
+        "type": 0,
+        "position": 1,
+        "parentId": "1533013685281357984"
+      },
+      {
+        "id": "1533015050678177902",
+        "name": "ownership-chat„⊹₊",
+        "type": 0,
+        "position": 0,
+        "parentId": "1533014716941602876"
+      },
+      {
+        "id": "1535217732608589895",
+        "name": "1",
+        "type": 0,
+        "position": 0,
+        "parentId": "1535217630003077150"
+      },
+      {
+        "id": "1533008573393666228",
+        "name": "tickets„⊹₊",
+        "type": 0,
+        "position": 2,
+        "parentId": "1533008269281333339"
+      },
+      {
+        "id": "1533008466845761636",
+        "name": "giveaway„⊹₊",
+        "type": 0,
+        "position": 1,
+        "parentId": "1533008269281333339"
+      },
+      {
+        "id": "1533013685281357984",
+        "name": "˗ˏˋ✦ˎˊ˗ —staff zone below— ˗ˏˋ✦ˎˊ˗",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1533006076310454272",
+        "name": "chat„⊹₊",
+        "type": 0,
+        "position": 0,
+        "parentId": "1533005762471657482"
+      },
+      {
+        "id": "1533005762471657482",
+        "name": "˗ˏˋ✦ˎˊ˗",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1533016211535953960",
+        "name": "ownership-bot„⊹₊",
+        "type": 0,
+        "position": 1,
+        "parentId": "1533014716941602876"
+      },
+      {
+        "id": "1535217770243817483",
+        "name": "2",
+        "type": 2,
+        "position": 0,
+        "parentId": "1535217630003077150"
+      },
+      {
+        "id": "1533016267466997911",
+        "name": "suggestions„⊹₊",
+        "type": 0,
+        "position": 2,
+        "parentId": "1533014716941602876"
+      },
+      {
+        "id": "1533014328985260123",
+        "name": "staff-announcement„⊹₊",
+        "type": 0,
+        "position": 2,
+        "parentId": "1533013685281357984"
+      },
+      {
+        "id": "1533005379804598272",
+        "name": "perks„⊹₊",
+        "type": 0,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1533009151658033172",
+        "name": "ads„⊹₊",
+        "type": 0,
+        "position": 3,
+        "parentId": "1533008269281333339"
+      },
+      {
+        "id": "1532923523214086365",
+        "name": "color-roles„⊹₊",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1533009204313329664",
+        "name": "how2apply„⊹₊",
+        "type": 0,
+        "position": 4,
+        "parentId": "1533008269281333339"
+      },
+      {
+        "id": "1533008411619364884",
+        "name": "announcement„⊹₊",
+        "type": 0,
+        "position": 0,
+        "parentId": "1533008269281333339"
+      },
+      {
+        "id": "1533006238873423872",
+        "name": "media„⊹₊",
+        "type": 0,
+        "position": 2,
+        "parentId": "1533005762471657482"
+      },
+      {
+        "id": "1532910837537181750",
+        "name": "╭welcome„⊹₊",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1533016652759961640",
+        "name": "rules„⊹₊",
+        "type": 0,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1533885975053471946",
+        "name": "J2C„⊹₊",
+        "type": 2,
+        "position": 0,
+        "parentId": "1533885972767571997"
+      },
+      {
+        "id": "1533006428971728996",
+        "name": "intro„⊹₊",
+        "type": 0,
+        "position": 5,
+        "parentId": "1533005762471657482"
+      },
+      {
+        "id": "1533006278836883527",
+        "name": "bot„⊹₊",
+        "type": 0,
+        "position": 3,
+        "parentId": "1533005762471657482"
+      },
+      {
+        "id": "1533005438570729492",
+        "name": "roles„⊹₊",
+        "type": 0,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1535343661326536745",
+        "name": "˚₊‧꒰აjail໒꒱‧₊˚",
+        "type": 0,
+        "position": 5,
+        "parentId": "1533008269281333339"
+      },
+      {
+        "id": "1533006332502868139",
+        "name": "face-reveal„⊹₊",
+        "type": 0,
+        "position": 4,
+        "parentId": "1533005762471657482"
+      },
+      {
+        "id": "1533887666192515184",
+        "name": "interface",
+        "type": 0,
+        "position": 0,
+        "parentId": "1533885972767571997"
+      },
+      {
+        "id": "1533006198117371924",
+        "name": "hall-of-shame„⊹₊",
+        "type": 0,
+        "position": 1,
+        "parentId": "1533005762471657482"
+      },
+      {
+        "id": "1533885972767571997",
+        "name": "˗ˏˋ✦ˎˊ˗",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1535217630003077150",
+        "name": "...",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1537248197611622410",
+        "name": "Aero",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1532921775770566887",
+        "name": "baii„⊹₊",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1533008269281333339",
+        "name": "˗ˏˋ✦ˎˊ˗",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1532920117678182430",
+        "name": "# trial mod ໒꒱᭡",
+        "color": 16777215,
+        "permissions": "111742205396545",
+        "position": 44,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533659222187839608",
+        "name": "‘dark cocoa",
+        "color": 5979441,
+        "permissions": "0",
+        "position": 80,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533889506183483403",
+        "name": "‘cream",
+        "color": 15657439,
+        "permissions": "0",
+        "position": 55,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532917396350963732",
+        "name": "# owner ୨୧ ˚₊‧",
+        "color": 16771561,
+        "permissions": "8864262742605823",
+        "position": 106,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533886573014286477",
+        "name": "‘forest green",
+        "color": 6259819,
+        "permissions": "0",
+        "position": 71,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533888968326643742",
+        "name": "‘snow white",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 59,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533653672356085791",
+        "name": "‘mauve purple",
+        "color": 9002410,
+        "permissions": "0",
+        "position": 96,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533369657644417134",
+        "name": "‘soft orange",
+        "color": 15902840,
+        "permissions": "0",
+        "position": 103,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535396692235522129",
+        "name": "#. 5",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532924110215184444",
+        "name": "# leader .‧₊˚",
+        "color": 16777215,
+        "permissions": "7720382223593447",
+        "position": 47,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1532923468452990976",
+        "name": "# staff ˚⊹ ࣪ ˖",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 43,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535396617849536643",
+        "name": "#. 4",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1536349318376849428",
+        "name": "member",
+        "color": 16777215,
+        "permissions": "1720707884502593",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533887330178564136",
+        "name": "‘petal pink",
+        "color": 15906753,
+        "permissions": "0",
+        "position": 66,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532918447762182194",
+        "name": "# mod ˖ ࣪⊹",
+        "color": 16777215,
+        "permissions": "120815340596929",
+        "position": 45,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533655987712426095",
+        "name": "‘sunny yellow",
+        "color": 16762645,
+        "permissions": "0",
+        "position": 87,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533623582431903744",
+        "name": "‘lavender",
+        "color": 14206184,
+        "permissions": "0",
+        "position": 99,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533889887877595216",
+        "name": "‘true black",
+        "color": 986895,
+        "permissions": "0",
+        "position": 53,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533658117693505649",
+        "name": "‘caramel",
+        "color": 14382392,
+        "permissions": "0",
+        "position": 82,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533889577486389308",
+        "name": "‘pearl",
+        "color": 15262943,
+        "permissions": "0",
+        "position": 56,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533003392505610311",
+        "name": "# ‘giveaway „ ⊹₊",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 39,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535396458784751687",
+        "name": "#. 2",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535317119707779143",
+        "name": "‘mimi’s fav !",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 17,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533890654374199468",
+        "name": "‘dove gray",
+        "color": 10328475,
+        "permissions": "0",
+        "position": 49,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533656158097772646",
+        "name": "‘golden yellow",
+        "color": 15378176,
+        "permissions": "0",
+        "position": 86,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535396529865625640",
+        "name": "#. 3",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533889334854287490",
+        "name": "‘soft white",
+        "color": 16447991,
+        "permissions": "0",
+        "position": 58,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533889812845690900",
+        "name": "‘soft black",
+        "color": 2828586,
+        "permissions": "0",
+        "position": 54,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533656324209115277",
+        "name": "‘mustard",
+        "color": 13014567,
+        "permissions": "0",
+        "position": 85,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533887430095147161",
+        "name": "‘rose milk",
+        "color": 16747175,
+        "permissions": "0",
+        "position": 65,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533654128520204503",
+        "name": "‘baby blue",
+        "color": 13232895,
+        "permissions": "0",
+        "position": 94,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535339869440581763",
+        "name": "‘she/her  „ ⊹₊",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 35,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533887584386941008",
+        "name": "‘strawberry milk",
+        "color": 16767463,
+        "permissions": "0",
+        "position": 64,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533369351707557969",
+        "name": "‘peach orange",
+        "color": 16172712,
+        "permissions": "0",
+        "position": 104,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535396389553578094",
+        "name": "#. 1",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533886259494391858",
+        "name": "‘sage green",
+        "color": 11059885,
+        "permissions": "0",
+        "position": 73,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533624056295718994",
+        "name": "‘dusty purple",
+        "color": 11111357,
+        "permissions": "0",
+        "position": 97,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533003739890192575",
+        "name": "# ‘poll・₊⊹",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 36,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533885710623576407",
+        "name": "‘soft red",
+        "color": 16490142,
+        "permissions": "0",
+        "position": 78,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533886861691457546",
+        "name": "‘baby pink",
+        "color": 16178403,
+        "permissions": "0",
+        "position": 69,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533887032093577266",
+        "name": "‘cotton candy",
+        "color": 16760025,
+        "permissions": "0",
+        "position": 68,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533887161747636224",
+        "name": "‘blush pink",
+        "color": 15255496,
+        "permissions": "0",
+        "position": 67,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535340073858371604",
+        "name": "‘other  „ ⊹₊",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 32,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533654405709299914",
+        "name": "‘powder blue",
+        "color": 10734049,
+        "permissions": "0",
+        "position": 93,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533655451613401189",
+        "name": "‘butter yellow",
+        "color": 16766610,
+        "permissions": "0",
+        "position": 89,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533655655062437898",
+        "name": "‘soft yellow",
+        "color": 16775083,
+        "permissions": "0",
+        "position": 88,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533504818834837544",
+        "name": "‘sunset orange",
+        "color": 14704166,
+        "permissions": "0",
+        "position": 101,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533886399244144660",
+        "name": "‘dusty red",
+        "color": 11096401,
+        "permissions": "0",
+        "position": 76,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533004060595064922",
+        "name": "/pandette",
+        "color": 16777215,
+        "permissions": "6272700415073505",
+        "position": 105,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533886117630312520",
+        "name": "‘mint green",
+        "color": 12771280,
+        "permissions": "0",
+        "position": 74,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535339959861383251",
+        "name": "‘he/him  „ ⊹₊",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 34,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533889333470433411",
+        "name": "‘ivory",
+        "color": 16118248,
+        "permissions": "0",
+        "position": 57,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533656521349529702",
+        "name": "‘milk tea",
+        "color": 13739137,
+        "permissions": "0",
+        "position": 84,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533659779216703559",
+        "name": "‘blush red",
+        "color": 15577264,
+        "permissions": "0",
+        "position": 79,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532922504434417754",
+        "name": "#  admin ˖ ࣪⊹",
+        "color": 16777215,
+        "permissions": "683488469954245",
+        "position": 46,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533886381225676892",
+        "name": "‘soft green",
+        "color": 8956561,
+        "permissions": "0",
+        "position": 72,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533887820618530849",
+        "name": "‘dusty pink",
+        "color": 14132916,
+        "permissions": "0",
+        "position": 62,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533003661452775534",
+        "name": "# ‘event „ ⊹₊",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 37,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1532916384634241114",
+        "name": "୨୧ ˚₊‧ # co own ᵕ̈",
+        "color": 16773874,
+        "permissions": "8846657671659511",
+        "position": 48,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1533657158502056087",
+        "name": "‘soft brown",
+        "color": 16763301,
+        "permissions": "0",
+        "position": 83,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533890493119856671",
+        "name": "‘soft gray",
+        "color": 11841970,
+        "permissions": "0",
+        "position": 50,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535340020095787059",
+        "name": "‘they/them  „ ⊹₊",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 33,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533887927057256468",
+        "name": "‘rosy pink",
+        "color": 16222106,
+        "permissions": "0",
+        "position": 61,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533886726504972458",
+        "name": "‘deep green",
+        "color": 4153932,
+        "permissions": "0",
+        "position": 70,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533888040328495276",
+        "name": "‘muted pink",
+        "color": 13727375,
+        "permissions": "0",
+        "position": 60,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533654887999733932",
+        "name": "‘dusty blue",
+        "color": 5870781,
+        "permissions": "0",
+        "position": 91,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533505084422357052",
+        "name": "‘burnt orange",
+        "color": 12082238,
+        "permissions": "0",
+        "position": 100,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533369887710249072",
+        "name": "‘apricot",
+        "color": 15308130,
+        "permissions": "0",
+        "position": 102,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533003570448961685",
+        "name": "# ‘announcement „ ⊹₊",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 38,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533887728335192317",
+        "name": "‘soft rose",
+        "color": 15579343,
+        "permissions": "0",
+        "position": 63,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533886813121413242",
+        "name": "‘deep red",
+        "color": 4787212,
+        "permissions": "0",
+        "position": 75,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533654678007709807",
+        "name": "‘soft blue",
+        "color": 10213887,
+        "permissions": "0",
+        "position": 92,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533653871107375214",
+        "name": "‘deep plum",
+        "color": 6505832,
+        "permissions": "0",
+        "position": 95,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533890280909045791",
+        "name": "‘silver",
+        "color": 13092294,
+        "permissions": "0",
+        "position": 51,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533890162042474576",
+        "name": "‘cloud gray",
+        "color": 14605533,
+        "permissions": "0",
+        "position": 52,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533655105843232840",
+        "name": "‘deep blue",
+        "color": 1791104,
+        "permissions": "0",
+        "position": 90,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533623853501120582",
+        "name": "‘soft lilac",
+        "color": 12954073,
+        "permissions": "0",
+        "position": 98,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533659003903803534",
+        "name": "‘chestnut",
+        "color": 9061664,
+        "permissions": "0",
+        "position": 81,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533002810688536586",
+        "name": "# ‘chat revive „ ⊹₊",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 40,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1533886133170339880",
+        "name": "‘rose red",
+        "color": 11015188,
+        "permissions": "0",
+        "position": 77,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1786623192607
   }
 }

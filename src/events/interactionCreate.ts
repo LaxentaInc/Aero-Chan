@@ -46,8 +46,13 @@ export default {
         }
         debugLog('info', `Button interaction triggered - CustomID: ${interaction.customId}`);
         await handleButtonInteraction(interaction, client);
+      } else if (interaction.isStringSelectMenu()) {
+        if (interaction.customId.startsWith('quote_')) {
+          const { handleQuoteButton } = require('../handlers/quote/QuoteContext');
+          await handleQuoteButton(interaction);
+        }
       } else if (interaction.isContextMenuCommand()) {
-        // ✅ Check context menu BEFORE isCommand()
+        // Check context menu BEFORE isCommand()
         debugLog('info', `Context menu interaction triggered - Command: ${interaction.commandName}`);
         const lookupKey = interaction.commandName.toLowerCase();
         const command = client.slashCommands.get(lookupKey) as any;

@@ -2,18 +2,7 @@ import { ContextMenuCommandBuilder, ApplicationCommandType, AttachmentBuilder, A
 import { generateQuoteImage, DEFAULT_STYLE } from "../../handlers/quote/imageGenerator";
 import { storeQuote } from "../../handlers/quote/storage";
 
-/**
- * build the quote control buttons row
- */
-function createQuoteButtons() {
-  return new ActionRowBuilder().addComponents(
-    new ButtonBuilder().setCustomId('quote_toggle').setLabel('Toggle Quotes').setStyle(ButtonStyle.Secondary),
-    new ButtonBuilder().setCustomId('quote_gif').setLabel('GIF').setStyle(ButtonStyle.Secondary),
-    new ButtonBuilder().setCustomId('quote_color').setLabel('Color').setStyle(ButtonStyle.Primary),
-    new ButtonBuilder().setCustomId('quote_bold').setLabel('Bold').setStyle(ButtonStyle.Secondary),
-    new ButtonBuilder().setCustomId('quote_italic').setLabel('Italic').setStyle(ButtonStyle.Secondary),
-  );
-}
+import { createQuoteComponents } from "../../handlers/quote/QuoteContext";
 
 export default {
   data: new ContextMenuCommandBuilder().setName('Make it a Quote').setType(ApplicationCommandType.Message).setIntegrationTypes(0, 1).setContexts(0, 1, 2),
@@ -48,12 +37,12 @@ export default {
       // generate quote image
       const imageBuffer = await generateQuoteImage(cleanText, targetMessage.author, style);
       const attachment = new AttachmentBuilder(imageBuffer, { name: 'quote.png' });
-      const row = createQuoteButtons();
+      const components = createQuoteComponents(style);
 
       const sentMessage = await interaction.editReply({
         content: `[Jump to original message](${targetMessage.url})`,
         files: [attachment],
-        components: [row]
+        components: components
       });
 
       // store quote metadata + content + author data for regeneration

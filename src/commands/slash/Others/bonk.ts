@@ -4,11 +4,15 @@ import fs from "fs";
 import path from "path";
 const getBonkGif = async () => {
   try {
-    const r = await (axios.get('https://nekos.best/api/v2/pat', {
-      timeout: 5000
-    }) as any);
-    return r.data.results[0].url;
-  } catch {
+    const r = await fetch('https://nekos.best/api/v2/bonk', {
+      headers: {
+        'User-Agent': 'AeroDiscordBot/1.0 (Discord: laxenta)'
+      }
+    });
+    const data = await r.json() as any;
+    return data.results[0].url;
+  } catch (e) {
+    console.error(e);
     return null;
   }
 };

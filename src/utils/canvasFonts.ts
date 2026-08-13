@@ -17,7 +17,22 @@ const FONTS = [{
   name: 'Noto Color Emoji',
   file: 'NotoColorEmoji.ttf',
   url: 'https://github.com/googlefonts/noto-emoji/raw/main/fonts/NotoColorEmoji.ttf'
+}, {
+  name: 'Dela Gothic One',
+  file: 'DelaGothicOne.ttf',
+  url: 'https://github.com/google/fonts/raw/main/ofl/delagothicone/DelaGothicOne-Regular.ttf'
+}, {
+  name: 'Montserrat',
+  file: 'Montserrat.ttf',
+  url: 'https://github.com/google/fonts/raw/main/ofl/montserrat/static/Montserrat-Bold.ttf'
 }];
+
+const LOCAL_FONTS = [{
+  name: 'Anurati',
+  file: 'Anurati-Regular.otf',
+  source: 'C:\\Users\\MY-PC\\Documents\\Colorwall-Site\\public\\fonts\\Anurati-Regular.otf'
+}];
+
 let registered = false;
 let registering = null;
 
@@ -88,6 +103,22 @@ async function registerFonts() {
         // register the font
         GlobalFonts.registerFromPath(fontPath, font.name);
       }
+
+      // Load local fonts
+      for (const font of LOCAL_FONTS) {
+        const fontPath = path.join(FONTS_DIR, font.file);
+        if (!fs.existsSync(fontPath)) {
+          if (fs.existsSync(font.source)) {
+            console.log(`[Fonts] 📋 copying local font ${font.name}...`);
+            fs.copyFileSync(font.source, fontPath);
+          } else {
+            console.error(`[Fonts] ❌ local font source not found: ${font.source}`);
+            continue;
+          }
+        }
+        GlobalFonts.registerFromPath(fontPath, font.name);
+      }
+      
       registered = true;
       console.log('[Fonts] ✅ all fonts registered');
     } catch (err: any) {

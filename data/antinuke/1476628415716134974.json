@@ -142,13 +142,6 @@
         "parentId": null
       },
       {
-        "id": "1537182453414895616",
-        "name": "Aero",
-        "type": 4,
-        "position": 6,
-        "parentId": null
-      },
-      {
         "id": "1533883829834612957",
         "name": "〔📊〕welcome",
         "type": 0,
@@ -251,6 +244,13 @@
         "name": "Error in Crystal Music",
         "type": 11,
         "parentId": "1533883839947079710"
+      },
+      {
+        "id": "1537433861930360922",
+        "name": "Aero",
+        "type": 4,
+        "position": 6,
+        "parentId": null
       }
     ],
     "roles": [
@@ -489,6 +489,6 @@
         "mentionable": false
       }
     ],
-    "updated": 1786619480878
+    "updated": 1786623206297
   }
 }
