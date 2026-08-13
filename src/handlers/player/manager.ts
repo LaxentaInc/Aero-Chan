@@ -1,22 +1,6 @@
 import { LavalinkManager } from "lavalink-client";
 // Lavalink node configuration
 const NODES = [{
-  id: 'HeavenCloud',
-  host: '89.106.84.59',
-  port: 4000,
-  authorization: 'heavencloud.in',
-  secure: false,
-  retryAmount: 3,
-  retryDelay: 153000
-}, {
-  id: 'DevamOP',
-  host: 'lavalink.devamop.in',
-  port: 443,
-  authorization: 'DevamOP',
-  secure: true,
-  retryAmount: 3,
-  retryDelay: 153000
-}, {
   id: 'Lavalink-v4-EU',
   host: 'lava-v4.ajieblogs.eu.org',
   port: 443,
@@ -25,26 +9,18 @@ const NODES = [{
   retryAmount: 3,
   retryDelay: 153000
 }, {
-  id: 'Jirayu',
-  host: 'lavalink.jirayu.net',
-  port: 13592,
+  id: 'MilloHost',
+  host: 'lava-v4.millohost.my.id',
+  port: 443,
+  authorization: 'https://discord.gg/mjS5J2K3ep',
+  secure: true,
+  retryAmount: 3,
+  retryDelay: 153000
+}, {
+  id: 'Kasawa',
+  host: 'lava2.kasawa.pro',
+  port: 2334,
   authorization: 'youshallnotpass',
-  secure: false,
-  retryAmount: 3,
-  retryDelay: 153000
-}, {
-  id: 'NyxBot',
-  host: 'sg1-nodelink.nyxbot.app',
-  port: 3000,
-  authorization: 'nyxbot.app/support',
-  secure: false,
-  retryAmount: 3,
-  retryDelay: 153000
-}, {
-  id: 'TriniumHost',
-  host: 'lavalink.triniumhost.com',
-  port: 4333,
-  authorization: 'free',
   secure: false,
   retryAmount: 3,
   retryDelay: 153000
