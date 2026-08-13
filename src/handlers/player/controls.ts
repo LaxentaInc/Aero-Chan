@@ -62,25 +62,25 @@ async function skipTrack(player: any, interaction: any) {
       console.log(`   ❌ No tracks in queue to skip to`);
       // Still stop current track
       await player.stopPlaying();
-      return await interaction.reply({
+      return await interaction.followUp({
         content: 'No more tracks in queue. Stopping playback.',
-        ephemeral: true
+        flags: 64
       });
     }
     player.skipInProgress = true;
     cleanupCollector(player.guildId);
     await player.skip();
     console.log(`   ✅ Successfully skipped track`);
-    await interaction.reply({
+    await interaction.followUp({
       content: `⏭️ Skipped to next track!`,
-      ephemeral: true
+      flags: 64
     });
   } catch (error: any) {
     console.error('❌ Skip track error:', error.message);
     player.skipInProgress = false;
-    await interaction.reply({
+    await interaction.followUp({
       content: 'Failed to skip track! Please try again.',
-      ephemeral: true
+      flags: 64
     }).catch(() => {});
   }
 }
@@ -98,7 +98,7 @@ async function stopMusic(player: any, interaction: any, message: any) {
     cleanupCollector(player.guildId);
     await player.stopPlaying();
     const disabledControlButtons = createControlButtons(player, true);
-    await interaction.update({
+    await interaction.editReply({
       components: disabledControlButtons
     });
     await interaction.followUp({
@@ -131,7 +131,7 @@ async function toggleLoop(player: any, interaction: any, message: any) {
     }
     console.log(`\n🔁 Loop mode changed to: ${nextMode}`);
     const newControlButtons = createControlButtons(player);
-    await interaction.update({
+    await interaction.editReply({
       components: newControlButtons
     });
     await interaction.followUp({
@@ -150,15 +150,15 @@ async function showQueue(player: any, interaction: any) {
   console.log(`\n📋 Queue requested for guild ${player.guildId}`);
   try {
     if (player.queue.tracks.length === 0) {
-      return await interaction.reply({
+      return await interaction.followUp({
         content: 'Queue is empty!',
-        ephemeral: true
+        flags: 64
       });
     }
     const queueEmbed = createQueueEmbed(player);
-    await interaction.reply({
+    await interaction.followUp({
       embeds: [queueEmbed],
-      ephemeral: true
+      flags: 64
     });
     console.log(`   Displayed ${Math.min(10, player.queue.tracks.length)} of ${player.queue.tracks.length} tracks`);
   } catch (error: any) {
@@ -181,21 +181,23 @@ function clearQueue(player: any) {
  * Handle component interactions
  */
 async function handleComponentInteraction(interaction: any, player: any, message: any, client: any) {
+  try { await interaction.deferUpdate(); } catch (e) {}
+  
   // Fetch fresh player to avoid stale state in closures
   const freshPlayer = getPlayer(client, interaction.guild.id);
   if (!freshPlayer) {
-    return await interaction.reply({
+    return await interaction.followUp({
       content: '❌ Player session expired or not found.',
-      ephemeral: true
+      flags: 64
     });
   }
   const member = interaction.guild.members.cache.get(interaction.user.id) as any;
   const memberVoice = member?.voice?.channelId;
   const botVoice = interaction.guild.members.me?.voice?.channelId;
   if (memberVoice !== botVoice) {
-    return await interaction.reply({
+    return await interaction.followUp({
       content: 'You need to be in the same voice channel as me to use controls!',
-      ephemeral: true
+      flags: 64
     });
   }
 
@@ -215,8 +217,8 @@ async function handleComponentInteraction(interaction: any, player: any, message
         case 'lowpass': await fm.toggleLowPass(); break;
       }
       const updatedButtons = createControlButtons(freshPlayer);
-      await interaction.update({ components: updatedButtons });
-      await interaction.followUp({ content: `Applied filter: **${filter}**`, ephemeral: true });
+      await interaction.editReply({ components: updatedButtons });
+      await interaction.followUp({ content: `Applied filter: **${filter}**`, flags: 64 });
     }
     return;
   }
@@ -233,7 +235,7 @@ async function handleComponentInteraction(interaction: any, player: any, message
       }
       console.log(`   ${wasPaused ? 'Resumed' : 'Paused'} playback`);
       const newControlButtons = createControlButtons(freshPlayer);
-      await interaction.update({
+      await interaction.editReply({
         components: newControlButtons
       });
       break;
@@ -253,7 +255,7 @@ async function handleComponentInteraction(interaction: any, player: any, message
       const isAutoplay = freshPlayer.get("autoplay");
       freshPlayer.set("autoplay", !isAutoplay);
       const updatedButtons = createControlButtons(freshPlayer);
-      await interaction.update({
+      await interaction.editReply({
         components: updatedButtons
       });
       await interaction.followUp({
@@ -264,38 +266,38 @@ async function handleComponentInteraction(interaction: any, player: any, message
     case 'music_shuffle':
       if (freshPlayer.queue.tracks.length > 1) {
         freshPlayer.queue.shuffle();
-        await interaction.reply({
+        await interaction.followUp({
           content: 'Queue shuffled!',
-          ephemeral: true
+          flags: 64
         });
       } else {
-        await interaction.reply({
+        await interaction.followUp({
           content: 'Not enough tracks in queue to shuffle!',
-          ephemeral: true
+          flags: 64
         });
       }
       break;
     case 'music_rewind':
       await freshPlayer.seek(Math.max(0, freshPlayer.position - 15000));
-      await interaction.reply({ content: 'Rewinded 15 seconds.', ephemeral: true });
+      await interaction.followUp({ content: 'Rewinded 15 seconds.', flags: 64 });
       break;
     case 'music_forward':
       await freshPlayer.seek(freshPlayer.position + 15000);
-      await interaction.reply({ content: 'Skipped forward 15 seconds.', ephemeral: true });
+      await interaction.followUp({ content: 'Skipped forward 15 seconds.', flags: 64 });
       break;
     case 'music_lyrics':
       try {
         const lyrics = await freshPlayer.getLyrics();
         if (lyrics && lyrics.text) {
-          await interaction.reply({ content: `**Lyrics for ${freshPlayer.queue.current?.title || 'Current Track'}**\n\n${lyrics.text.substring(0, 1900)}`, ephemeral: true });
+          await interaction.followUp({ content: `**Lyrics for ${freshPlayer.queue.current?.title || 'Current Track'}**\n\n${lyrics.text.substring(0, 1900)}`, flags: 64 });
         } else if (lyrics && lyrics.lines && lyrics.lines.length > 0) {
           const lines = lyrics.lines.map((l: any) => l.line).join('\n');
-          await interaction.reply({ content: `**Lyrics for ${freshPlayer.queue.current?.title || 'Current Track'}**\n\n${lines.substring(0, 1900)}`, ephemeral: true });
+          await interaction.followUp({ content: `**Lyrics for ${freshPlayer.queue.current?.title || 'Current Track'}**\n\n${lines.substring(0, 1900)}`, flags: 64 });
         } else {
-          await interaction.reply({ content: '❌ No lyrics found for this track on the lavalink node.', ephemeral: true });
+          await interaction.followUp({ content: 'No lyrics found for this track.', flags: 64 });
         }
-      } catch (e) {
-        await interaction.reply({ content: '❌ Failed to fetch lyrics.', ephemeral: true });
+      } catch (error: any) {
+        await interaction.followUp({ content: 'Failed to fetch lyrics.', flags: 64 });
       }
       break;
   }
@@ -341,8 +343,9 @@ async function displaySearchResults(client: any, interaction: any, tracks: any, 
     searchCollectors.set(interaction.user.id, collector);
     collector.on('collect', async (buttonInteraction: any) => {
       try {
+        await buttonInteraction.deferUpdate();
         if (buttonInteraction.customId === 'cancel_search') {
-          await buttonInteraction.update({
+          await buttonInteraction.editReply({
             embeds: [new EmbedBuilder().setDescription('❌ Search cancelled!')],
             components: []
           });
@@ -352,16 +355,16 @@ async function displaySearchResults(client: any, interaction: any, tracks: any, 
         const trackIndex = parseInt(buttonInteraction.customId.split('_')[2]);
         const selectedTrack = displayTracks[trackIndex];
         if (!selectedTrack) {
-          await buttonInteraction.reply({
+          await buttonInteraction.followUp({
             content: '❌ Invalid track selection!',
-            ephemeral: true
+            flags: 64
           });
           return;
         }
         selectedTrack.requester = requester;
         const member = buttonInteraction.guild.members.cache.get(buttonInteraction.user.id) as any;
         if (!member?.voice?.channelId) {
-          await buttonInteraction.update({
+          await buttonInteraction.editReply({
             embeds: [new EmbedBuilder().setDescription('❌ You need to be in a voice channel!')],
             components: []
           });
@@ -374,7 +377,7 @@ async function displaySearchResults(client: any, interaction: any, tracks: any, 
         }
         const isPlaying = await playTrack(player, selectedTrack);
         const successEmbed = createTrackAddedEmbed(selectedTrack, player, isPlaying, buttonInteraction.user);
-        await buttonInteraction.update({
+        await buttonInteraction.editReply({
           embeds: [successEmbed],
           components: []
         });
@@ -385,9 +388,9 @@ async function displaySearchResults(client: any, interaction: any, tracks: any, 
       } catch (error: any) {
         console.error('❌ Search selection error:', error.message);
         try {
-          await buttonInteraction.reply({
+          await buttonInteraction.followUp({
             content: '❌ Failed to play the selected track!',
-            ephemeral: true
+            flags: 64
           });
         } catch (replyError: any) {
           console.error('❌ Failed to send error reply:', replyError.message);
