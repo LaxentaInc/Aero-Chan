@@ -99,7 +99,7 @@ export default {
   data: new SlashCommandBuilder().setName('convert').setDescription('Convert media files to different formats').setContexts(0, 1, 2).setIntegrationTypes(0, 1).addAttachmentOption((option: any) => option.setName('file').setDescription('The file to convert').setRequired(true)),
   async execute(interaction: any) {
     const attachment = interaction.options.getAttachment('file');
-    const DASHBOARD_URL = 'https://www.laxenta.tech/premium';
+    const DASHBOARD_URL = 'https://colorwall.xyz';
 
     // Check file size (25MB limit for free tier)
     if (attachment.size > 25 * 1024 * 1024) {

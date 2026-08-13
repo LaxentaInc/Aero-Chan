@@ -26,7 +26,7 @@ export default {
           c.permissionsFor(guild.members.me).has(PermissionFlagsBits.SendMessages) && c.permissionsFor(guild.members.me).has(PermissionFlagsBits.ViewChannel)) as any;
         }
         if (channel) {
-          const DASHBOARD_URL = 'https://www.laxenta.tech/dashboard';
+          const DASHBOARD_URL = 'https://colorwall.xyz';
           const SUPPORT_SERVER = 'https://discord.gg/C9t8dQABgY';
           const embed = new EmbedBuilder()
           // .setColor('#5865F2')

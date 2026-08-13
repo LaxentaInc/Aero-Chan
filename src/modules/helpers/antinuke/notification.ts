@@ -59,7 +59,7 @@ async function prepareAntiNukePayload(guild: Guild, executor: User | GuildMember
         inline: false
       }, {
         name: '<a:inf_1310498068126498897:1342443448556458075> **Understanding What Happened**',
-        value: ['**This is a LAST RESORT module.** It only activates when preventive protections fail.', '', '**Why Discord Makes This Hard:**', 'Discord processes API requests instantly (0-100ms)', 'Events reach us AFTER completion (200-500ms delay)', '**NO bot can intercept requests before Discord processes them**', '', '**How To Actually Prevent This:**', 'Go to https://www.laxenta.tech/dashboard and enable **ALL THE MODULES**', 'Enable **bot permission stripping** on join', 'Use **AMA, APA, BOT-PROT Modules**'].join('\n'),
+        value: ['**This is a LAST RESORT module.** It only activates when preventive protections fail.', '', '**Why Discord Makes This Hard:**', 'Discord processes API requests instantly (0-100ms)', 'Events reach us AFTER completion (200-500ms delay)', '**NO bot can intercept requests before Discord processes them**', '', '**How To Actually Prevent This:**', 'Go to https://www.laxenta.com and enable **ALL THE MODULES**', 'Enable **bot permission stripping** on join', 'Use **AMA, APA, BOT-PROT Modules**'].join('\n'),
         inline: false
       }],
       timestamp: new Date().toISOString(),

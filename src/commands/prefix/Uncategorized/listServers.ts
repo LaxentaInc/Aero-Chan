@@ -17,13 +17,29 @@ export default {
       });
     }
     try {
-      const guilds = message.client.guilds.cache;
+      let guilds = message.client.guilds.cache;
+      
+      // Parse query from message content (e.g. !listservers query)
+      const args = message.content.split(/\s+/).slice(1);
+      const query = args.join(' ').toLowerCase();
+
+      if (query) {
+        guilds = guilds.filter((g: any) => {
+          const owner = message.client.users.cache.get(g.ownerId);
+          const ownerNameMatch = owner ? owner.username.toLowerCase().includes(query) : false;
+          return g.id.includes(query) || 
+                 g.name.toLowerCase().includes(query) || 
+                 g.ownerId.includes(query) ||
+                 ownerNameMatch;
+        });
+      }
+
       if (guilds.size === 0) {
-        return message.reply("I'm not in any servers!");
+        return message.reply(query ? `I couldn't find any servers matching \`${query}\`!` : "I'm not in any servers!");
       }
 
       // Create an array of server information with invite links
-      const serverListPromises = guilds.map(async (guild: any, index: any) => {
+      const serverListPromises = guilds.map(async (guild: any) => {
         let inviteLink = "No invite available";
         let ownerInfo = "Unknown";
         try {
@@ -50,7 +66,7 @@ export default {
           console.error(`Failed to fetch owner for ${guild.name}:`, error.message);
           ownerInfo = `ID: \`${guild.ownerId}\``;
         }
-        return `**${index + 1}.** ${guild.name}\n` + `   └ ID: \`${guild.id}\` | Members: ${guild.memberCount}\n` + `   └ Owner: ${ownerInfo}\n` + `   └ Invite: ${inviteLink}`;
+        return `**${guild.name}**\n` + `   └ ID: \`${guild.id}\` | Members: ${guild.memberCount}\n` + `   └ Owner: ${ownerInfo}\n` + `   └ Invite: ${inviteLink}`;
       });
       const serverList = await Promise.all(serverListPromises);
 

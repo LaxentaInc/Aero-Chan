@@ -29,15 +29,15 @@ export default {
       value: '@me_straight',
       inline: true
     } as any, {
-      name: 'Website',
-      value: 'https://www.laxenta.tech/',
+      name: 'Website For the promotional project of mine, for Windows.10/11',
+      value: 'https://colorwall.xyz/',
       inline: true
     } as any, {
       name: 'GitHub',
-      value: 'https://github.com/shelleyloosespatience',
+      value: 'https://github.com/laxentainc',
       inline: true
     } as any).setFooter({
-      text: 'Bot made with love using Discord.js',
+      text: 'Created By @laxenta.me on discord, and LaxentaInc On github.',
       iconURL: client.user.avatarURL()
     });
 

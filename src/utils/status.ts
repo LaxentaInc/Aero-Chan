@@ -59,7 +59,7 @@ function updateBotStatus(client: any, lavalinkManager: any) {
         type: 3 // Watching
         // No URL for watching type
       }, {
-        name: "www.laxenta.tech",
+        name: "www.colorwall.xyz",
         type: 1,
         url: "https://www.twitch.tv/discord"
       }, {
