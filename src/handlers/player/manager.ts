@@ -6,7 +6,7 @@ const NODES = [{
   port: 443,
   authorization: 'https://dsc.gg/ajidevserver',
   secure: true,
-  retryAmount: 3,
+  retryAmount: 1,
   retryDelay: 153000
 }, {
   id: 'lavalink-backup-2',

@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 import { ActionRowBuilder, ButtonBuilder, ButtonStyle, ComponentType } from "discord.js";
 import EMOJIS from "./emojis";
 import { restoreBotPermissions } from "./permissions";

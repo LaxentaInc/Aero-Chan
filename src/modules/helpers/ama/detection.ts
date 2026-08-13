@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 import { AuditLogEvent } from "discord.js";
 import { executePunishment } from "./punishment";
 import { notifyAndLog } from "./notification";

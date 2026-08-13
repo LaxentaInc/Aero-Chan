@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 import { PermissionFlagsBits } from "discord.js";
 /**
  * APA (Anti-Permission Abuse) Default Configuration

@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 import { AuditLogEvent } from "discord.js";
 import { DANGEROUS_PERMISSIONS } from "./config";
 /**

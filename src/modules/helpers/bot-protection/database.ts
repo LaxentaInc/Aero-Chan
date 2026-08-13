@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 import { getCollection } from "../../../utils/CloudDB";
 import { getDefaultConfig } from "./config";
 /**

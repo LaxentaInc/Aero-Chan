@@ -171,7 +171,7 @@ async function prepareAntiNukePayload(guild: Guild, executor: User | GuildMember
     }
   }
   return {
-    embed,
+    embed: new EmbedBuilder(embed as any),
     components,
     buttonMetas,
     isBot

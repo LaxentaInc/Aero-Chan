@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 import { saveBackup, loadBackup, loadAllBackups } from "./storage";
 import { Guild, ChannelType, GuildChannelCreateOptions } from "discord.js";
 /**
