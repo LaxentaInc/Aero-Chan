@@ -66,15 +66,16 @@ function buildProgressBar(position: any, duration: any, length: number = 14) {
  */
 function createControlButtons(player: any, disabled: boolean = false) {
   const row1 = new ActionRowBuilder().addComponents(
-    new ButtonBuilder().setCustomId('music_pause_resume').setLabel(player.paused ? 'Resume' : 'Pause').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_skip').setLabel('Skip').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_pause_resume').setLabel(player.paused ? 'Resume' : 'Pause').setStyle(ButtonStyle.Primary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_skip').setLabel('Skip').setStyle(ButtonStyle.Primary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_queue').setLabel('Queue').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
     new ButtonBuilder().setCustomId('music_loop').setLabel('Loop').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
     new ButtonBuilder().setCustomId('music_shuffle').setLabel('Shuffle').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
   );
 
   const row2 = new ActionRowBuilder().addComponents(
     new ButtonBuilder().setCustomId('music_autoplay').setLabel('Autoplay').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_stop').setLabel('End session').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
+    new ButtonBuilder().setCustomId('music_stop').setLabel('End session').setStyle(ButtonStyle.Danger).setDisabled(disabled)
   );
 
   return [row1, row2];
@@ -97,13 +98,9 @@ function createNowPlayingEmbed(track: any, player: any, client: any) {
   const requester = track.requester ? `<@${track.requester.id || track.requester}>` : 'Auto-play';
   const sourceInfo = SOURCE_INFO[track.sourceName] || SOURCE_INFO.http;
 
-  const progressLine = track.isStream
-    ? 'Live stream'
-    : `${buildProgressBar(player?.position || 0, track.duration || 0)}\n${positionString} · ${durationString}`;
-
   const embed = new EmbedBuilder()
     .setAuthor({ name: 'Now playing' })
-    .setDescription(`**Artist**\n${track.author}\n\n${progressLine}`)
+    .setDescription(`**Artist**\n${track.author}`)
     .addFields(
       { name: 'Source', value: sourceInfo.name, inline: true },
       { name: 'Requested by', value: requester, inline: true }

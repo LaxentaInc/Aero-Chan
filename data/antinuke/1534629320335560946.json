@@ -682,6 +682,13 @@
         "name": "Enlace de investasi",
         "type": 11,
         "parentId": "1537024558370918400"
+      },
+      {
+        "id": "1537416578440761374",
+        "name": "support-yuxngriich",
+        "type": 0,
+        "position": 1,
+        "parentId": "1534655082308829275"
       }
     ],
     "roles": [
@@ -1586,7 +1593,7 @@
         "mentionable": false
       }
     ],
-    "updated": 1786618766699
+    "updated": 1786619085782
   },
   "buttons": {
     "antinuke_whitelist_1254101590843854910": {
