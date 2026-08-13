@@ -1,7 +1,7 @@
 // @ts-nocheck
 import { ActionRowBuilder, ButtonBuilder, ButtonStyle, ComponentType } from "discord.js";
 import { createPlayer, getPlayer } from "./manager";
-import { createControlButtons, createSearchEmbed, createTrackAddedEmbed, createQueueEmbed, EMBED_COLORS } from "./embeds";
+import { createControlButtons, createSearchEmbed, createTrackAddedEmbed, createQueueEmbed } from "./embeds";
 import { EmbedBuilder } from "discord.js";
 // Store active collectors
 const activeCollectors = new Map();
@@ -343,7 +343,7 @@ async function displaySearchResults(client: any, interaction: any, tracks: any, 
       try {
         if (buttonInteraction.customId === 'cancel_search') {
           await buttonInteraction.update({
-            embeds: [new EmbedBuilder().setColor(EMBED_COLORS.WARNING).setDescription('❌ Search cancelled!')],
+            embeds: [new EmbedBuilder().setDescription('❌ Search cancelled!')],
             components: []
           });
           collector.stop();
@@ -362,7 +362,7 @@ async function displaySearchResults(client: any, interaction: any, tracks: any, 
         const member = buttonInteraction.guild.members.cache.get(buttonInteraction.user.id) as any;
         if (!member?.voice?.channelId) {
           await buttonInteraction.update({
-            embeds: [new EmbedBuilder().setColor(EMBED_COLORS.ERROR).setDescription('❌ You need to be in a voice channel!')],
+            embeds: [new EmbedBuilder().setDescription('❌ You need to be in a voice channel!')],
             components: []
           });
           collector.stop();
@@ -399,7 +399,7 @@ async function displaySearchResults(client: any, interaction: any, tracks: any, 
       if (reason === 'time') {
         try {
           await message.edit({
-            embeds: [new EmbedBuilder().setColor(EMBED_COLORS.WARNING).setDescription('⏱️ Search selection timed out!')],
+            embeds: [new EmbedBuilder().setDescription('⏱️ Search selection timed out!')],
             components: []
           });
         } catch (error: any) {}

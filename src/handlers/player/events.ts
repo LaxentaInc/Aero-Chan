@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { cleanupCollector, activeCollectors } from "./controls";
-import { createNowPlayingEmbed, createControlButtons, createQueueEndEmbed, createErrorEmbed, EMBED_COLORS } from "./embeds";
+import { createNowPlayingEmbed, createControlButtons, createQueueEndEmbed, createErrorEmbed } from "./embeds";
 import { ComponentType, EmbedBuilder } from "discord.js";
 /**
  * Helper to disable old control message buttons
@@ -217,7 +217,7 @@ function setupPlayerEvents(client: any) {
     const channel = client.channels.cache.get(player.textChannelId) as any;
     try {
       if (channel?.permissionsFor(client.user)?.has('SendMessages')) {
-        const stuckEmbed = new EmbedBuilder().setColor(EMBED_COLORS.WARNING).setDescription(`⚠️ Track stuck: **${title}**\nSkipping...`).setTimestamp();
+        const stuckEmbed = new EmbedBuilder().setDescription(`⚠️ Track stuck: **${title}**\nSkipping...`).setTimestamp();
         await channel.send({
           embeds: [stuckEmbed]
         });

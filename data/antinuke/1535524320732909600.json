@@ -1,7 +1,43 @@
 {
   "backup": {
-    "channels": [],
+    "channels": [
+      {
+        "id": "1535524322112831508",
+        "name": "Canales de texto",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1535524322112831509",
+        "name": "Canales de voz",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1535524322112831511",
+        "name": "General",
+        "type": 2,
+        "position": 0,
+        "parentId": "1535524322112831509"
+      },
+      {
+        "id": "1535538714514686043",
+        "name": "_mudae_",
+        "type": 0,
+        "position": 0,
+        "parentId": "1535524322112831508"
+      },
+      {
+        "id": "1535538910523031573",
+        "name": "general",
+        "type": 0,
+        "position": 1,
+        "parentId": "1535524322112831508"
+      }
+    ],
     "roles": [],
-    "updated": 1786616733477
+    "updated": 1786618223214
   }
 }

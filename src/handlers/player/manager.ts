@@ -1,6 +1,14 @@
 import { LavalinkManager } from "lavalink-client";
 // Lavalink node configuration
 const NODES = [{
+  id: 'lavalink-backup-2',
+  host: 'lavalinkv4.serenetia.com',
+  port: 443,
+  authorization: 'https://seretia.link/discord', // FIXED PASSWORD
+  secure: true,
+  retryAmount: 3,
+  retryDelay: 153000
+}, {
   id: 'MilloHost',
   host: 'lava-v4.millohost.my.id',
   port: 443,
@@ -14,12 +22,6 @@ const NODES = [{
   port: 2334,
   authorization: 'youshallnotpass',
   secure: false,
-}, {
-  id: 'Serenetia-Secure',
-  host: 'lavalinkv4.serenetia.com',
-  port: 443,
-  authorization: 'https://seretia.link/discord',
-  secure: true,
   retryAmount: 3,
   retryDelay: 153000
 }];
@@ -89,7 +91,7 @@ function initializeManager(client: any) {
       setTimeout(() => {
         try {
           node.connect();
-        } catch (e: any) {}
+        } catch (e: any) { }
       }, 5000);
     }
   }).on('error', (node: any, error: any) => {
@@ -120,7 +122,7 @@ function initializeManager(client: any) {
         console.log(`   ⚠️ Health check: Node "${node.id}" disconnected, reconnecting...`);
         try {
           node.connect();
-        } catch (e: any) {}
+        } catch (e: any) { }
       }
     });
     if (connected === 0 && disconnected > 0) {
@@ -128,7 +130,7 @@ function initializeManager(client: any) {
       nodes.forEach((n: any) => setTimeout(() => {
         try {
           n.connect();
-        } catch (e: any) {}
+        } catch (e: any) { }
       }, 1000));
     }
   }, 5 * 60 * 1000); // 5min
@@ -178,16 +180,16 @@ function getNode(client: any) {
     console.log(`[getNode] Falling back to usableNodes[0]`);
     return nodeManager.usableNodes[0];
   }
-  
+
   // Last resort: any connected node
   if (nodeManager.nodes) {
     const connected = [...nodeManager.nodes.values()].filter((n: any) => n.connected);
     if (connected.length > 0) {
-       console.log(`[getNode] Last resort: returning connected node ${connected[0].id}`);
-       return connected[0];
+      console.log(`[getNode] Last resort: returning connected node ${connected[0].id}`);
+      return connected[0];
     }
   }
-  
+
   console.log(`[getNode] No nodes available at all!`);
   return null;
 }

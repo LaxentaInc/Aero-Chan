@@ -51,42 +51,21 @@ function truncate(str: any, maxLength: any) {
  * Create control buttons for the player
  */
 function createControlButtons(player: any, disabled: boolean = false) {
-  const { StringSelectMenuBuilder } = require('discord.js');
+  const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 
-  const filterDropdown = new StringSelectMenuBuilder()
-    .setCustomId('music_filter')
-    .setPlaceholder('Select an audio filter...')
-    .setDisabled(disabled)
-    .addOptions([
-      { label: 'Clear all filters', value: 'clear', description: 'Reset to original audio' },
-      { label: 'Nightcore', value: 'nightcore', description: 'Faster and higher pitch' },
-      { label: 'Vaporwave', value: 'vaporwave', description: 'Slower and lower pitch' },
-      { label: 'Karaoke', value: 'karaoke', description: 'Removes vocals' },
-      { label: 'Rotation', value: 'rotation', description: 'Audio rotates around your head' },
-      { label: 'Tremolo', value: 'tremolo', description: 'Wavering volume effect' },
-      { label: 'Vibrato', value: 'vibrato', description: 'Wavering pitch effect' },
-      { label: 'Low pass', value: 'lowpass', description: 'Muffles high frequencies' }
-    ]);
-
-  const row1 = new ActionRowBuilder().addComponents(filterDropdown);
+  const row1 = new ActionRowBuilder().addComponents(
+    new ButtonBuilder().setCustomId('music_pause_resume').setLabel(player.paused ? 'Resume' : 'Pause').setEmoji('⏸️').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_skip').setLabel('Skip').setEmoji('⏭️').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_loop').setLabel('Loop').setEmoji('🔁').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_shuffle').setLabel('Shuffle').setEmoji('🔀').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
+  );
 
   const row2 = new ActionRowBuilder().addComponents(
-    new ButtonBuilder().setCustomId('music_pause_resume').setLabel(player.paused ? 'Resume' : 'Pause').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_skip').setLabel('Skip').setStyle(ButtonStyle.Primary).setDisabled(disabled),
-    // new ButtonBuilder().setCustomId('music_like').setLabel('Like').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
+    new ButtonBuilder().setCustomId('music_autoplay').setLabel('Autoplay').setEmoji('🎵').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+    new ButtonBuilder().setCustomId('music_stop').setLabel('End session').setEmoji('⏹️').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
   );
 
-  const row3 = new ActionRowBuilder().addComponents(
-    new ButtonBuilder().setCustomId('music_loop').setLabel('Loop').setStyle(ButtonStyle.Success).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_shuffle').setLabel('Smart shuffle').setStyle(ButtonStyle.Success).setDisabled(disabled)
-  );
-
-  const row4 = new ActionRowBuilder().addComponents(
-    new ButtonBuilder().setCustomId('music_autoplay').setLabel('Autoplay').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-    new ButtonBuilder().setCustomId('music_stop').setLabel('End session').setStyle(ButtonStyle.Danger).setDisabled(disabled)
-  );
-
-  return [row1, row2, row3, row4];
+  return [row1, row2];
 }
 
 /**
@@ -96,18 +75,25 @@ function createNowPlayingEmbed(track: any, player: any, client: any) {
   let durationString = formatTime(track.duration || 0);
   if (track.isStream) durationString = 'Live';
   const requester = track.requester ? `<@${track.requester.id || track.requester}>` : 'Auto-play';
+  const sourceInfo = SOURCE_INFO[track.sourceName] || SOURCE_INFO.http;
+
+  const progressBar = track.isStream 
+    ? `🔴 **LIVE STREAM**` 
+    : `**━━━━━━🔘━━━━━━━━━━━━━━━━━━━━━━━━**\n-# 0:00 \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b ${durationString}`;
 
   const embed = new EmbedBuilder()
-    .setAuthor({
-      name: 'Now playing',
-      iconURL: CUSTOM_ICON
-    })
-    .setDescription(`**Artist:** ${track.author}\n**Duration:** \`${durationString}\`\n**Requested by:** ${requester}`)
+    .setColor('#2b2d31')
+    .setAuthor({ name: '▷ NOW PLAYING' })
+    .setDescription(`# ${truncate(track.title, 256)}\n\n-# ARTIST\n**${track.author}**\n\n${progressBar}`)
+    .addFields(
+      { name: '-# SOURCE', value: `🟢 ${sourceInfo.name}`, inline: true },
+      { name: '-# REQUESTED BY', value: requester, inline: true }
+    )
     .setTimestamp();
 
-  if (track.title) embed.setTitle(truncate(track.title, 256));
-  if (track.uri) embed.setURL(track.uri);
-  if (track.artworkUrl) embed.setThumbnail(track.artworkUrl);
+  if (track.artworkUrl) {
+    embed.setThumbnail(track.artworkUrl);
+  }
 
   return embed;
 }

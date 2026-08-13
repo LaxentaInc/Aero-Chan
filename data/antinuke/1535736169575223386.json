@@ -1,7 +1,157 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1786616733754
+    "channels": [
+      {
+        "id": "1535736170271604807",
+        "name": "chat",
+        "type": 0,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1535736170271604808",
+        "name": "general",
+        "type": 2,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1535737409462075542",
+        "name": "rules",
+        "type": 0,
+        "position": 0,
+        "parentId": "1535742422812729344"
+      },
+      {
+        "id": "1535738409279037612",
+        "name": "roles",
+        "type": 0,
+        "position": 1,
+        "parentId": "1535742422812729344"
+      },
+      {
+        "id": "1535742282379304980",
+        "name": "cmds",
+        "type": 0,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1535742345109176420",
+        "name": "interchat",
+        "type": 0,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1535742422812729344",
+        "name": "1",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "1535745521455730709",
+        "name": "pink",
+        "color": 16762566,
+        "permissions": "0",
+        "position": 12,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535745641760690277",
+        "name": "red",
+        "color": 14303296,
+        "permissions": "0",
+        "position": 11,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535745707535761458",
+        "name": "orange",
+        "color": 15105570,
+        "permissions": "0",
+        "position": 10,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535745760120012860",
+        "name": "yellow",
+        "color": 15844367,
+        "permissions": "0",
+        "position": 9,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535745887261696151",
+        "name": "green",
+        "color": 2067276,
+        "permissions": "0",
+        "position": 8,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535745979440037909",
+        "name": "teal",
+        "color": 4496792,
+        "permissions": "0",
+        "position": 7,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535746096163332178",
+        "name": "navy",
+        "color": 1125207,
+        "permissions": "0",
+        "position": 6,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535746169446072330",
+        "name": "purple",
+        "color": 13412095,
+        "permissions": "0",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535746229873414184",
+        "name": "black",
+        "color": 1118481,
+        "permissions": "0",
+        "position": 4,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535746295279648848",
+        "name": "grey",
+        "color": 10066329,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1535746461348798574",
+        "name": "white",
+        "color": 16777215,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1786618223637
   }
 }

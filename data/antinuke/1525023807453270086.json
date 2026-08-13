@@ -1,7 +1,450 @@
 {
   "backup": {
-    "channels": [],
-    "roles": [],
-    "updated": 1786616733646
+    "channels": [
+      {
+        "id": "1525023808250052614",
+        "name": "꒰✧︰verify",
+        "type": 0,
+        "position": 2,
+        "parentId": "1525023808250052611"
+      },
+      {
+        "id": "1525023808250052617",
+        "name": "┍─── ･ ｡ﾟ☆: .☽ . :☆ﾟ. ───┑",
+        "type": 4,
+        "position": 3,
+        "parentId": null
+      },
+      {
+        "id": "1525023808828997700",
+        "name": "・",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023808828997699"
+      },
+      {
+        "id": "1525023809323929622",
+        "name": "꒰・♬・︰music2",
+        "type": 2,
+        "position": 1,
+        "parentId": "1525023809088917561"
+      },
+      {
+        "id": "1525023809088917559",
+        "name": "┍─── ･ ｡ﾟ☆: .☽ . :☆ﾟ. ───┑",
+        "type": 4,
+        "position": 14,
+        "parentId": null
+      },
+      {
+        "id": "1525023808250052612",
+        "name": "rules👀👀",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023808250052611"
+      },
+      {
+        "id": "1525023809088917561",
+        "name": "「Music」",
+        "type": 4,
+        "position": 15,
+        "parentId": null
+      },
+      {
+        "id": "1525023808442994780",
+        "name": "꒰✶︰cmds",
+        "type": 0,
+        "position": 1,
+        "parentId": "1525023808442994778"
+      },
+      {
+        "id": "1525023808442994781",
+        "name": "┍─── ･ ｡ﾟ☆: .☽ . :☆ﾟ. ───┑",
+        "type": 4,
+        "position": 5,
+        "parentId": null
+      },
+      {
+        "id": "1525023808250052615",
+        "name": "꒰✧︰reaction-roles",
+        "type": 0,
+        "position": 3,
+        "parentId": "1525023808250052611"
+      },
+      {
+        "id": "1525023808828997697",
+        "name": "꒰✿︰meme",
+        "type": 0,
+        "position": 2,
+        "parentId": "1525023808828997694"
+      },
+      {
+        "id": "1525023809323929629",
+        "name": "「Purple」",
+        "type": 4,
+        "position": 18,
+        "parentId": null
+      },
+      {
+        "id": "1525023808442994783",
+        "name": "「Text」",
+        "type": 4,
+        "position": 6,
+        "parentId": null
+      },
+      {
+        "id": "1525023808828997694",
+        "name": "「Bots」",
+        "type": 4,
+        "position": 11,
+        "parentId": null
+      },
+      {
+        "id": "1525023809088917562",
+        "name": "꒰・♬・︰music-cmds",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023809088917561"
+      },
+      {
+        "id": "1525023809323929626",
+        "name": "꒰❀︰study",
+        "type": 2,
+        "position": 0,
+        "parentId": "1525023809323929623"
+      },
+      {
+        "id": "1525023808250052611",
+        "name": "「Important」",
+        "type": 4,
+        "position": 2,
+        "parentId": null
+      },
+      {
+        "id": "1525023808442994784",
+        "name": "꒰✦︰lounge",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023808442994783"
+      },
+      {
+        "id": "1525023808442994786",
+        "name": "「Random」",
+        "type": 4,
+        "position": 7,
+        "parentId": null
+      },
+      {
+        "id": "1525023809088917563",
+        "name": "꒰・♬・︰music-cmds",
+        "type": 0,
+        "position": 1,
+        "parentId": "1525023809088917561"
+      },
+      {
+        "id": "1525023809323929625",
+        "name": "꒰❀︰homework・help",
+        "type": 0,
+        "position": 1,
+        "parentId": "1525023809323929623"
+      },
+      {
+        "id": "1525023808250052608",
+        "name": "stats <3",
+        "type": 4,
+        "position": 0,
+        "parentId": null
+      },
+      {
+        "id": "1525023808828997698",
+        "name": "꒰✿︰aki",
+        "type": 0,
+        "position": 3,
+        "parentId": "1525023808828997694"
+      },
+      {
+        "id": "1525023809323929623",
+        "name": "「Study/School」",
+        "type": 4,
+        "position": 16,
+        "parentId": null
+      },
+      {
+        "id": "1525023808442994782",
+        "name": "・",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023808442994781"
+      },
+      {
+        "id": "1525023809088917560",
+        "name": "_",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023809088917559"
+      },
+      {
+        "id": "1525023808828997695",
+        "name": "꒰✿︰mudae",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023808828997694"
+      },
+      {
+        "id": "1525023808636063824",
+        "name": "・",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023808636063823"
+      },
+      {
+        "id": "1525023808636063822",
+        "name": "꒰❁︰self-promo",
+        "type": 0,
+        "position": 2,
+        "parentId": "1525023808636063819"
+      },
+      {
+        "id": "1525023808636063820",
+        "name": "꒰❁︰boost-perks",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023808636063819"
+      },
+      {
+        "id": "1525023808250052616",
+        "name": "꒰✧︰updates",
+        "type": 0,
+        "position": 4,
+        "parentId": "1525023808250052611"
+      },
+      {
+        "id": "1525023808828997703",
+        "name": "꒰ ෆ︰movie-night",
+        "type": 2,
+        "position": 1,
+        "parentId": "1525023808828997701"
+      },
+      {
+        "id": "1525023808442994779",
+        "name": "꒰✶︰moderators",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023808442994778"
+      },
+      {
+        "id": "1525023808636063818",
+        "name": "┍─── ･ ｡ﾟ☆: .☽ . :☆ﾟ. ───┑",
+        "type": 4,
+        "position": 8,
+        "parentId": null
+      },
+      {
+        "id": "1525023809323929624",
+        "name": "꒰❀︰chillbot",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023809323929623"
+      },
+      {
+        "id": "1525023808442994778",
+        "name": "「Admins」",
+        "type": 4,
+        "position": 4,
+        "parentId": null
+      },
+      {
+        "id": "1525023808250052610",
+        "name": "_",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023808250052609"
+      },
+      {
+        "id": "1525023808828997701",
+        "name": "「Talk」",
+        "type": 4,
+        "position": 13,
+        "parentId": null
+      },
+      {
+        "id": "1525023808442994785",
+        "name": "꒰✦︰art",
+        "type": 0,
+        "position": 1,
+        "parentId": "1525023808442994783"
+      },
+      {
+        "id": "1525023808636063821",
+        "name": "꒰❁︰boosts",
+        "type": 0,
+        "position": 1,
+        "parentId": "1525023808636063819"
+      },
+      {
+        "id": "1525023808636063816",
+        "name": "꒰✦︰birthdays",
+        "type": 0,
+        "position": 2,
+        "parentId": "1525023808442994786"
+      },
+      {
+        "id": "1525023809323929621",
+        "name": "꒰・♬・︰music",
+        "type": 2,
+        "position": 0,
+        "parentId": "1525023809088917561"
+      },
+      {
+        "id": "1525023809323929627",
+        "name": "┍─── ･ ｡ﾟ☆: .☽ . :☆ﾟ. ───┑",
+        "type": 4,
+        "position": 17,
+        "parentId": null
+      },
+      {
+        "id": "1525023808636063823",
+        "name": "┍─── ･ ｡ﾟ☆: .☽ . :☆ﾟ. ───┑",
+        "type": 4,
+        "position": 10,
+        "parentId": null
+      },
+      {
+        "id": "1525023808636063817",
+        "name": "꒰✦︰qotd",
+        "type": 0,
+        "position": 3,
+        "parentId": "1525023808442994786"
+      },
+      {
+        "id": "1525023808250052613",
+        "name": "꒰✧︰welcome-goodbye",
+        "type": 0,
+        "position": 1,
+        "parentId": "1525023808250052611"
+      },
+      {
+        "id": "1525023808636063819",
+        "name": "「boost」",
+        "type": 4,
+        "position": 9,
+        "parentId": null
+      },
+      {
+        "id": "1525023808828997699",
+        "name": "┍─── ･ ｡ﾟ☆: .☽ . :☆ﾟ. ───┑",
+        "type": 4,
+        "position": 12,
+        "parentId": null
+      },
+      {
+        "id": "1525023808250052609",
+        "name": "┍─── ･ ｡ﾟ☆: .☽ . :☆ﾟ. ───┑",
+        "type": 4,
+        "position": 1,
+        "parentId": null
+      },
+      {
+        "id": "1525023808828997696",
+        "name": "꒰✿︰counting",
+        "type": 0,
+        "position": 1,
+        "parentId": "1525023808828997694"
+      },
+      {
+        "id": "1525023808828997702",
+        "name": "꒰ ෆ︰lounge",
+        "type": 2,
+        "position": 0,
+        "parentId": "1525023808828997701"
+      },
+      {
+        "id": "1525023808442994787",
+        "name": "꒰✦︰levels",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023808442994786"
+      },
+      {
+        "id": "1525023808636063815",
+        "name": "꒰✦︰polls",
+        "type": 0,
+        "position": 1,
+        "parentId": "1525023808442994786"
+      },
+      {
+        "id": "1525023809323929628",
+        "name": "_",
+        "type": 0,
+        "position": 0,
+        "parentId": "1525023809323929627"
+      }
+    ],
+    "roles": [
+      {
+        "id": "1525023807562321940",
+        "name": "‧₊˚꒰🤍ෆ Booster! ꒷",
+        "color": 16023551,
+        "permissions": "0",
+        "position": 7,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1525023807562321941",
+        "name": "‧₊˚꒰☁️ෆ Admin ꒷",
+        "color": 14528740,
+        "permissions": "8320974711",
+        "position": 8,
+        "hoist": true,
+        "mentionable": true
+      },
+      {
+        "id": "1525023807562321942",
+        "name": "‧₊˚꒰💿ෆ Owner ꒷",
+        "color": 9506047,
+        "permissions": "111669149695",
+        "position": 9,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1525023807562321943",
+        "name": "‧₊˚꒰🤍ෆ BIRTHDAY! ꒷",
+        "color": 6307440,
+        "permissions": "104323905",
+        "position": 10,
+        "hoist": true,
+        "mentionable": false
+      },
+      {
+        "id": "1525050989353111622",
+        "name": "my little penis",
+        "color": 16760307,
+        "permissions": "8864262742605823",
+        "position": 5,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525059662691569674",
+        "name": "𖨆꧁Verified꧂𖨆",
+        "color": 3447003,
+        "permissions": "0",
+        "position": 3,
+        "hoist": false,
+        "mentionable": false
+      },
+      {
+        "id": "1525059922411262063",
+        "name": "𖨆꧁Member꧂𖨆",
+        "color": 11342935,
+        "permissions": "0",
+        "position": 2,
+        "hoist": false,
+        "mentionable": false
+      }
+    ],
+    "updated": 1786618223400
   }
 }
