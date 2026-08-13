@@ -59,7 +59,10 @@ export default {
           }).catch(() => {});
         }
         try {
+          const perfStart = performance.now();
           await command.execute(interaction, client);
+          const perfEnd = performance.now();
+          logger.info(`⏱️ [Performance] Context Menu "${interaction.commandName}" executed in ${(perfEnd - perfStart).toFixed(2)}ms`);
           debugLog('debug', `Context menu executed for command: ${interaction.commandName}`);
         } catch (error: any) {
           debugLog('error', `Context menu error for "${interaction.commandName}": ${error.message}`);
@@ -68,7 +71,10 @@ export default {
       } else if (interaction.isCommand()) {
         debugLog('info', `Command interaction triggered - Command: ${interaction.commandName}`);
         debugLog('debug', `Command options: ${JSON.stringify((interaction as any).options?.data || {})}`);
+        const perfStart = performance.now();
         await handleCommandInteraction(interaction, client);
+        const perfEnd = performance.now();
+        logger.info(`⏱️ [Performance] Slash Command "/${interaction.commandName}" executed in ${(perfEnd - perfStart).toFixed(2)}ms`);
       } else if (interaction.isAutocomplete()) {
         // ✅ Added Autocomplete Handling
         debugLog('info', `Autocomplete interaction triggered - Command: ${interaction.commandName}`);

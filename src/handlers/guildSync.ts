@@ -18,8 +18,8 @@ async function syncAllGuilds(client: Client, mongoClient: MongoClient) {
     const guildData = [];
     for (const [guildId, guild] of client.guilds.cache) {
       try {
-        // Check if bot has required permissions
-        const botMember = guild.members.cache.get(client.user!.id) as any || (await guild.members.fetch(client.user!.id));
+        // Check if bot has required permissions (using native .me property to avoid API spam)
+        const botMember = guild.members.me || (await guild.members.fetch(client.user!.id).catch(() => null));
         const hasPermissions = botMember && (botMember.permissions.has('Administrator') || botMember.permissions.has('ManageGuild'));
         const guildDoc = {
           guildId: guild.id,
@@ -80,8 +80,8 @@ async function syncSingleGuild(guild: Guild, mongoClient: MongoClient) {
     const db = mongoClient.db('antiraid');
     const guildsCollection = db.collection('bot_guilds');
 
-    // Check if bot has required permissions
-    const botMember = guild.members.cache.get(guild.client.user.id) as any || (await guild.members.fetch(guild.client.user.id));
+    // Check if bot has required permissions (using native .me property)
+    const botMember = guild.members.me || (await guild.members.fetch(guild.client.user.id).catch(() => null));
     const hasPermissions = botMember && (botMember.permissions.has('Administrator') || botMember.permissions.has('ManageGuild'));
     const guildDoc = {
       guildId: guild.id,

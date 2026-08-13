@@ -174,7 +174,10 @@ async function processCommand(message: Message, client: ExtendedClient, guildPre
     return;
   }
   try {
+    const perfStart = performance.now();
     await command.execute(message, args, client);
+    const perfEnd = performance.now();
+    logger.info(`⏱️ [Performance] Prefix Command "${commandName}" executed in ${(perfEnd - perfStart).toFixed(2)}ms`);
   } catch (error: any) {
     logger.error(`Error executing command ${commandName}`, {
       error,

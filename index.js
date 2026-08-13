@@ -1,4 +1,6 @@
 // entry file
+const bootStartTime = performance.now();
+const os = require('os');
 const { Client, GatewayIntentBits, Partials, Options, Collection } = require('discord.js');
 const { loadAllCommands } = require('./src/handlers/commandHandler');
 const { loadEvents } = require('./src/handlers/eventHandler');
@@ -236,7 +238,19 @@ async function initializeBot() {
                     logger.warn('Timer restoration failed:', err.message);
                 }
 
-                logger.info("Bot fully initialized and ready!");
+                const bootEndTime = performance.now();
+                logger.info(`✅ Bot fully initialized and ready in ${((bootEndTime - bootStartTime) / 1000).toFixed(2)} seconds!`);
+                
+                // --- SYSTEM TELEMETRY ---
+                const memory = process.memoryUsage();
+                const memUsed = Math.round(memory.rss / 1024 / 1024);
+                let priority = 'Unknown';
+                try {
+                    priority = os.getPriority(process.pid);
+                } catch (e) {}
+                
+                logger.info(`📊 [System Telemetry] RAM: ${memUsed}MB | CPU: ${os.cpus().length} Cores | OS Priority: ${priority} | Discord API Ping: ${client.ws.ping}ms`);
+                // ------------------------
 
             } catch (error) {
                 logger.error('Error during ready event:', {
