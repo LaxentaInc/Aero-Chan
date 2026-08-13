@@ -7,7 +7,7 @@ const NODES = [{
   authorization: 'https://dsc.gg/ajidevserver',
   secure: true,
   retryAmount: 3,
-  retryDelay: 3000
+  retryDelay: 153000
 }, {
   id: 'lavalink-backup-2',
   host: 'lavalinkv4.serenetia.com',
@@ -15,7 +15,7 @@ const NODES = [{
   authorization: 'https://dsc.gg/ajidevserver',
   secure: true,
   retryAmount: 3,
-  retryDelay: 3000
+  retryDelay: 153000
 }];
 
 /**

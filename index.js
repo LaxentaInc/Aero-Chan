@@ -150,6 +150,10 @@ async function initializeBot() {
         });
 
         client.on('guildDelete', async (guild) => {
+            if (!guild.available && guild.name === undefined) {
+                // This is a Discord server outage, not a kick. Don't wipe the database!
+                return;
+            }
             logger.info(`Bot left guild: ${guild.name} (${guild.id})`);
             await removeGuildFromDB(guild.id, mongoClient);
         });
